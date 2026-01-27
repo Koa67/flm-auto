@@ -20,7 +20,8 @@
     "scrape:mercedes": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/scrape-mercedes-missing.ts",
     "import:mercedes": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-mercedes-missing.ts",
     "import:igcd-fix": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-igcd-missing.ts",
-    "cleanup": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/cleanup-data.ts"
+    "cleanup": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/cleanup-data.ts",
+    "audit": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/red-team-audit.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.93.0",

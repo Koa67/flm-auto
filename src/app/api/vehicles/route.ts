@@ -23,8 +23,9 @@ export async function GET(request: NextRequest) {
   const brand = searchParams.get('brand')
   const model = searchParams.get('model')
   const generation = searchParams.get('generation')
-  const limit = Math.min(parseInt(searchParams.get('limit') || '20'), 100)
-  const offset = parseInt(searchParams.get('offset') || '0')
+  const limitParam = parseInt(searchParams.get('limit') || '20')
+  const limit = Math.min(Math.max(1, limitParam || 20), 100)
+  const offset = Math.max(0, parseInt(searchParams.get('offset') || '0') || 0)
 
   try {
     let query = supabase
