@@ -1,0 +1,454 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "FLM AUTO API",
+    "description": "Automotive encyclopedia API with vehicle specs, film/game appearances, and safety ratings",
+    "version": "1.0.0",
+    "contact": {
+      "name": "FLM AUTO",
+      "url": "https://github.com/Koa67/flm-auto"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000/api",
+      "description": "Local development"
+    }
+  ],
+  "paths": {
+    "/brands": {
+      "get": {
+        "summary": "List all brands",
+        "description": "Get all available car brands with model and generation counts",
+        "operationId": "getBrands",
+        "tags": ["Brands"],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/Brand" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vehicles": {
+      "get": {
+        "summary": "List vehicles",
+        "description": "Get vehicles with optional filters and pagination",
+        "operationId": "getVehicles",
+        "tags": ["Vehicles"],
+        "parameters": [
+          {
+            "name": "brand",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Filter by brand name"
+          },
+          {
+            "name": "model",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Filter by model name"
+          },
+          {
+            "name": "generation",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Filter by generation code"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": { "type": "integer", "default": 20, "minimum": 1, "maximum": 100 }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": { "type": "integer", "default": 0, "minimum": 0 }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/VehicleListItem" }
+                    },
+                    "pagination": { "$ref": "#/components/schemas/Pagination" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vehicles/{id}": {
+      "get": {
+        "summary": "Get vehicle details",
+        "description": "Get full details for a specific vehicle generation",
+        "operationId": "getVehicleById",
+        "tags": ["Vehicles"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string", "format": "uuid" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": { "$ref": "#/components/schemas/VehicleDetail" }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Vehicle not found",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "summary": "Search vehicles",
+        "description": "Search vehicles by query string",
+        "operationId": "searchVehicles",
+        "tags": ["Search"],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string", "minLength": 2 },
+            "description": "Search query (min 2 characters)"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": { "type": "integer", "default": 20, "maximum": 50 }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/SearchResult" }
+                    },
+                    "query": { "type": "string" },
+                    "count": { "type": "integer" }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid query",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/compare": {
+      "get": {
+        "summary": "Compare vehicles",
+        "description": "Compare 2-4 vehicles side by side",
+        "operationId": "compareVehicles",
+        "tags": ["Compare"],
+        "parameters": [
+          {
+            "name": "ids",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Comma-separated generation UUIDs (2-4)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/CompareResponse" }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/screen-cars": {
+      "get": {
+        "summary": "Screen cars",
+        "description": "Get vehicles with most film/TV/game appearances",
+        "operationId": "getScreenCars",
+        "tags": ["Screen Cars"],
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "schema": { "type": "string", "enum": ["all", "movies", "games"], "default": "all" }
+          },
+          {
+            "name": "brand",
+            "in": "query",
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": { "type": "integer", "default": 20, "maximum": 100 }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ScreenCarsResponse" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Brand": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "name": { "type": "string" },
+          "slug": { "type": "string" },
+          "country": { "type": "string" },
+          "logo_url": { "type": "string", "nullable": true },
+          "stats": {
+            "type": "object",
+            "properties": {
+              "models": { "type": "integer" },
+              "generations": { "type": "integer" }
+            }
+          }
+        }
+      },
+      "VehicleListItem": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "brand": { "type": "string" },
+          "brand_slug": { "type": "string" },
+          "model": { "type": "string" },
+          "model_slug": { "type": "string" },
+          "generation": { "type": "string" },
+          "generation_slug": { "type": "string" },
+          "year_start": { "type": "integer", "nullable": true },
+          "year_end": { "type": "integer", "nullable": true }
+        }
+      },
+      "VehicleDetail": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "brand": { "$ref": "#/components/schemas/BrandRef" },
+          "model": { "$ref": "#/components/schemas/ModelRef" },
+          "generation": { "$ref": "#/components/schemas/GenerationRef" },
+          "variants": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Variant" }
+          },
+          "variants_count": { "type": "integer" },
+          "safety": { "$ref": "#/components/schemas/SafetyRating" },
+          "screen_appearances": { "$ref": "#/components/schemas/ScreenAppearances" }
+        }
+      },
+      "BrandRef": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "name": { "type": "string" },
+          "slug": { "type": "string" }
+        }
+      },
+      "ModelRef": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "name": { "type": "string" },
+          "slug": { "type": "string" }
+        }
+      },
+      "GenerationRef": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "name": { "type": "string" },
+          "slug": { "type": "string" },
+          "internal_code": { "type": "string" },
+          "chassis_code": { "type": "string" },
+          "year_start": { "type": "integer", "nullable": true },
+          "year_end": { "type": "integer", "nullable": true }
+        }
+      },
+      "Variant": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "name": { "type": "string" },
+          "engine_code": { "type": "string", "nullable": true },
+          "fuel_type": { "type": "string" },
+          "displacement_cc": { "type": "integer", "nullable": true },
+          "power_hp": { "type": "integer", "nullable": true },
+          "power_kw": { "type": "integer", "nullable": true },
+          "torque_nm": { "type": "integer", "nullable": true },
+          "transmission": { "type": "string", "nullable": true },
+          "drivetrain": { "type": "string", "nullable": true },
+          "acceleration_0_100": { "type": "number", "nullable": true },
+          "top_speed_kmh": { "type": "integer", "nullable": true }
+        }
+      },
+      "SafetyRating": {
+        "type": "object",
+        "nullable": true,
+        "properties": {
+          "rating": { "type": "integer" },
+          "test_year": { "type": "integer" },
+          "adult_occupant": { "type": "integer" },
+          "child_occupant": { "type": "integer" },
+          "pedestrian": { "type": "integer" },
+          "safety_assist": { "type": "integer" },
+          "source_url": { "type": "string" }
+        }
+      },
+      "ScreenAppearances": {
+        "type": "object",
+        "properties": {
+          "films": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": { "type": "string" },
+                "year": { "type": "integer" },
+                "type": { "type": "string" },
+                "role": { "type": "string" }
+              }
+            }
+          },
+          "games": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": { "type": "string" },
+                "year": { "type": "integer" },
+                "playable": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      },
+      "SearchResult": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "label": { "type": "string" },
+          "brand": { "type": "string" },
+          "model": { "type": "string" },
+          "generation": { "type": "string" },
+          "slug": { "type": "string" },
+          "year_start": { "type": "integer", "nullable": true },
+          "year_end": { "type": "integer", "nullable": true }
+        }
+      },
+      "CompareResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "object",
+            "properties": {
+              "vehicles": { "type": "array" },
+              "insights": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      },
+      "ScreenCarsResponse": {
+        "type": "object",
+        "properties": {
+          "data": { "type": "array" },
+          "summary": {
+            "type": "object",
+            "properties": {
+              "total_appearances": { "type": "integer" },
+              "unique_movies": { "type": "integer" },
+              "unique_games": { "type": "integer" },
+              "vehicles_count": { "type": "integer" }
+            }
+          }
+        }
+      },
+      "Pagination": {
+        "type": "object",
+        "properties": {
+          "total": { "type": "integer" },
+          "limit": { "type": "integer" },
+          "offset": { "type": "integer" },
+          "has_more": { "type": "boolean" }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": { "type": "string" }
+        }
+      }
+    }
+  }
+}
