@@ -1,0 +1,506 @@
+[
+  {
+    "brand": "BMW",
+    "model": "M3",
+    "generation": "E30",
+    "year": 1986,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true},
+      {"title": "Assetto Corsa", "year": 2014, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M3",
+    "generation": "E36",
+    "year": 1992,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Most Wanted", "year": 2005, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M3",
+    "generation": "E46",
+    "year": 2000,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Most Wanted", "year": 2005, "playable": true},
+      {"title": "Need for Speed: Carbon", "year": 2006, "playable": true},
+      {"title": "Assetto Corsa", "year": 2014, "playable": true},
+      {"title": "Project CARS 2", "year": 2017, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M3",
+    "generation": "E92",
+    "year": 2007,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Shift", "year": 2009, "playable": true},
+      {"title": "Assetto Corsa", "year": 2014, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M3",
+    "generation": "G80",
+    "year": 2021,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M4",
+    "generation": "G82",
+    "year": 2021,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Unbound", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M5",
+    "generation": "E39",
+    "year": 1998,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 4", "year": 2004, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M5",
+    "generation": "E60",
+    "year": 2005,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Most Wanted", "year": 2012, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "M5",
+    "generation": "F90",
+    "year": 2018,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "i8",
+    "generation": "I12",
+    "year": 2014,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true},
+      {"title": "The Crew 2", "year": 2018, "playable": true},
+      {"title": "Asphalt 8", "year": 2013, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "Z4",
+    "generation": "G29",
+    "year": 2019,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "2002 Turbo",
+    "generation": null,
+    "year": 1973,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "3.0 CSL",
+    "generation": "E9",
+    "year": 1972,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Assetto Corsa", "year": 2014, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "X5 M",
+    "generation": "F95",
+    "year": 2020,
+    "games": [
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Unbound", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "X6 M",
+    "generation": "E71",
+    "year": 2009,
+    "games": [
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: The Run", "year": 2011, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "190E 2.5-16 Evolution II",
+    "generation": "W201",
+    "year": 1990,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Project CARS 2", "year": 2017, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "300 SL",
+    "generation": "W198",
+    "year": 1954,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "SLS AMG",
+    "generation": "C197",
+    "year": 2010,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Hot Pursuit", "year": 2010, "playable": true},
+      {"title": "Assetto Corsa", "year": 2014, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "AMG GT",
+    "generation": "C190",
+    "year": 2015,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true},
+      {"title": "Project CARS 2", "year": 2017, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "AMG GT Black Series",
+    "generation": "C190",
+    "year": 2020,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "AMG ONE",
+    "generation": null,
+    "year": 2022,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Unbound", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLK GTR",
+    "generation": null,
+    "year": 1998,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: High Stakes", "year": 1999, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C63 AMG",
+    "generation": "W204",
+    "year": 2008,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Shift", "year": 2009, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C63 AMG",
+    "generation": "W205",
+    "year": 2015,
+    "games": [
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true},
+      {"title": "Project CARS 2", "year": 2017, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E63 AMG",
+    "generation": "W212",
+    "year": 2010,
+    "games": [
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Hot Pursuit", "year": 2010, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "G63 AMG",
+    "generation": "W463",
+    "year": 2012,
+    "games": [
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true},
+      {"title": "The Crew 2", "year": 2018, "playable": true}
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S65 AMG",
+    "generation": "W222",
+    "year": 2014,
+    "games": [
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Payback", "year": 2017, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Miura",
+    "generation": "P400",
+    "year": 1966,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Assetto Corsa", "year": 2014, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Countach",
+    "generation": "LP400",
+    "year": 1974,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Hot Pursuit", "year": 2010, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Countach LPI 800-4",
+    "generation": null,
+    "year": 2021,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Diablo",
+    "generation": "VT",
+    "year": 1993,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed III: Hot Pursuit", "year": 1998, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Murciélago",
+    "generation": "LP640",
+    "year": 2006,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Most Wanted", "year": 2005, "playable": true},
+      {"title": "Test Drive Unlimited", "year": 2006, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Gallardo",
+    "generation": "LP560-4",
+    "year": 2008,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Hot Pursuit", "year": 2010, "playable": true},
+      {"title": "Test Drive Unlimited 2", "year": 2011, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Aventador",
+    "generation": "LP700-4",
+    "year": 2011,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Most Wanted", "year": 2012, "playable": true},
+      {"title": "Asphalt 8", "year": 2013, "playable": true},
+      {"title": "The Crew 2", "year": 2018, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Aventador SVJ",
+    "generation": "LP770-4",
+    "year": 2018,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Huracán",
+    "generation": "LP610-4",
+    "year": 2014,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Rivals", "year": 2013, "playable": true},
+      {"title": "Driveclub", "year": 2014, "playable": true},
+      {"title": "The Crew 2", "year": 2018, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Huracán Performante",
+    "generation": "LP640-4",
+    "year": 2017,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Huracán STO",
+    "generation": null,
+    "year": 2021,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Gran Turismo 7", "year": 2022, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Urus",
+    "generation": null,
+    "year": 2018,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Heat", "year": 2019, "playable": true},
+      {"title": "The Crew 2", "year": 2018, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Sián",
+    "generation": "FKP 37",
+    "year": 2020,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Asphalt 9", "year": 2018, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Veneno",
+    "generation": null,
+    "year": 2013,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Need for Speed: Rivals", "year": 2013, "playable": true},
+      {"title": "Asphalt 8", "year": 2013, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Centenario",
+    "generation": null,
+    "year": 2016,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true},
+      {"title": "Asphalt 9", "year": 2018, "playable": true}
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Revuelto",
+    "generation": null,
+    "year": 2024,
+    "games": [
+      {"title": "Forza Motorsport", "year": 2023, "playable": true},
+      {"title": "Forza Horizon 5", "year": 2021, "playable": true}
+    ]
+  }
+]

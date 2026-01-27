@@ -1,0 +1,132 @@
+{
+  "missing_generations": [
+    {
+      "brand": "BMW",
+      "model": "M5",
+      "generation": "F90",
+      "internal_code": "F90",
+      "years": "2018-2024",
+      "notes": "Current M5, needed for IGCD"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "190",
+      "generation": "W201",
+      "internal_code": "W201",
+      "years": "1982-1993",
+      "notes": "190E Evo II for racing games"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "300 SL",
+      "generation": "W198",
+      "internal_code": "W198",
+      "years": "1954-1963",
+      "notes": "Gullwing classic"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "SLS AMG",
+      "generation": "C197",
+      "internal_code": "C197",
+      "years": "2010-2015",
+      "notes": "Modern gullwing"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "AMG GT",
+      "generation": "C190",
+      "internal_code": "C190",
+      "years": "2014-2024",
+      "notes": "AMG GT / GT Black Series"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "AMG ONE",
+      "generation": "Default",
+      "internal_code": "AMG-ONE",
+      "years": "2022-2025",
+      "notes": "F1 hypercar"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CLK GTR",
+      "generation": "Default",
+      "internal_code": "CLK-GTR",
+      "years": "1998-1999",
+      "notes": "Homologation special"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "generation": "W204",
+      "internal_code": "W204",
+      "years": "2007-2014",
+      "notes": "For C63 AMG"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "generation": "W205",
+      "internal_code": "W205",
+      "years": "2014-2021",
+      "notes": "For C63 AMG"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "E-Class",
+      "generation": "W212",
+      "internal_code": "W212",
+      "years": "2009-2016",
+      "notes": "For E63 AMG"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "G-Class",
+      "generation": "W463",
+      "internal_code": "W463",
+      "years": "1990-2018",
+      "notes": "For G63 AMG"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "S-Class",
+      "generation": "W222",
+      "internal_code": "W222",
+      "years": "2013-2020",
+      "notes": "For S65 AMG"
+    },
+    {
+      "brand": "Lamborghini",
+      "model": "Murciélago",
+      "generation": "Default",
+      "internal_code": "Murcielago",
+      "years": "2001-2010",
+      "notes": "V12 flagship before Aventador"
+    },
+    {
+      "brand": "Lamborghini",
+      "model": "Huracán",
+      "generation": "Default",
+      "internal_code": "Huracan",
+      "years": "2014-2024",
+      "notes": "V10 supercar"
+    },
+    {
+      "brand": "Lamborghini",
+      "model": "Sián",
+      "generation": "FKP 37",
+      "internal_code": "Sian",
+      "years": "2020-2022",
+      "notes": "Hybrid hypercar"
+    },
+    {
+      "brand": "Lamborghini",
+      "model": "Centenario",
+      "generation": "Default",
+      "internal_code": "Centenario",
+      "years": "2016-2017",
+      "notes": "Limited edition"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "mercedes_missing_models": [
+    {
+      "brand": "Mercedes-Benz",
+      "model": "A-Class",
+      "generation": "W177",
+      "internal_code": "W177",
+      "years": "2018-2025",
+      "body_types": ["Hatchback", "Sedan"],
+      "euro_ncap_year": 2018,
+      "euro_ncap_stars": 5
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "B-Class",
+      "generation": "W247",
+      "internal_code": "W247",
+      "years": "2019-2025",
+      "body_types": ["MPV"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CLA",
+      "generation": "C118",
+      "internal_code": "C118",
+      "years": "2019-2025",
+      "body_types": ["Coupe", "Shooting Brake"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "GLA",
+      "generation": "H247",
+      "internal_code": "H247",
+      "years": "2020-2025",
+      "body_types": ["SUV"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "GLB",
+      "generation": "X247",
+      "internal_code": "X247",
+      "years": "2019-2025",
+      "body_types": ["SUV"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "GLE",
+      "generation": "V167",
+      "internal_code": "V167",
+      "years": "2019-2025",
+      "body_types": ["SUV", "Coupe"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "EQA",
+      "generation": "H243",
+      "internal_code": "H243",
+      "years": "2021-2025",
+      "body_types": ["SUV"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5,
+      "drivetrain": "Electric"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "EQB",
+      "generation": "X243",
+      "internal_code": "X243",
+      "years": "2021-2025",
+      "body_types": ["SUV"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5,
+      "drivetrain": "Electric"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "EQC",
+      "generation": "N293",
+      "internal_code": "N293",
+      "years": "2019-2024",
+      "body_types": ["SUV"],
+      "euro_ncap_year": 2019,
+      "euro_ncap_stars": 5,
+      "drivetrain": "Electric"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "EQE",
+      "generation": "V295",
+      "internal_code": "V295",
+      "years": "2022-2025",
+      "body_types": ["Sedan", "SUV"],
+      "drivetrain": "Electric"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "EQS",
+      "generation": "V297",
+      "internal_code": "V297",
+      "years": "2021-2025",
+      "body_types": ["Sedan", "SUV"],
+      "euro_ncap_year": 2022,
+      "euro_ncap_stars": 5,
+      "drivetrain": "Electric"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "T-Class",
+      "generation": "W420",
+      "internal_code": "W420",
+      "years": "2022-2025",
+      "body_types": ["Van"],
+      "euro_ncap_year": 2022,
+      "euro_ncap_stars": 4
+    }
+  ],
+  "notes": "Ces modèles manquent dans notre import UltimateSpecs initial. Ils sont nécessaires pour compléter les ratings Euro NCAP."
+}

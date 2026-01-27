@@ -1,0 +1,717 @@
+[
+  {
+    "code": "004",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=004&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "1602",
+    "count": 27,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=1602&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "2002",
+    "count": 35,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=2002&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "501/3",
+    "count": 13,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=501%2F3&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "502",
+    "count": 29,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=502&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "532",
+    "count": 8,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=532&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "70079",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=70079&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "AM",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=AM&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "AM4",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=AM4&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "DA",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=DA&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "DA1",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=DA1&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "DA2",
+    "count": 16,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=DA2&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "DA3",
+    "count": 5,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=DA3&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "DA4",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=DA4&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E12",
+    "count": 879,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E12&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E20",
+    "count": 13,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E20&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E21",
+    "count": 1335,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E21&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E23",
+    "count": 681,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E23&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E24",
+    "count": 412,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E24&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E25",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E25&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E26",
+    "count": 26,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E26&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E28",
+    "count": 987,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E28&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E3",
+    "count": 443,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E3&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E30",
+    "count": 2946,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E30&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E30Z",
+    "count": 23,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E30Z&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E31",
+    "count": 230,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E31&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E32",
+    "count": 936,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E32&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E34",
+    "count": 2012,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E34&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E36",
+    "count": 2539,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E36&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E36/5",
+    "count": 267,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E36%2F5&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E36/7",
+    "count": 558,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E36%2F7&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E36/8",
+    "count": 50,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E36%2F8&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E38",
+    "count": 990,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E38&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E39",
+    "count": 2192,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E39&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E46",
+    "count": 2950,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E46&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E46/5",
+    "count": 135,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E46%2F5&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E52",
+    "count": 51,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E52&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E53",
+    "count": 1208,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E53&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E60",
+    "count": 1430,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E60&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E61",
+    "count": 311,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E61&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E63",
+    "count": 156,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E63&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E64",
+    "count": 198,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E64&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E65",
+    "count": 693,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E65&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E66",
+    "count": 320,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E66&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E68",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E68&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E70",
+    "count": 716,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E70&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E71",
+    "count": 332,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E71&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E72",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E72&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E81",
+    "count": 30,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E81&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E82",
+    "count": 109,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E82&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E83",
+    "count": 508,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E83&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E84",
+    "count": 325,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E84&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E85",
+    "count": 339,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E85&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E86",
+    "count": 29,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E86&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E87",
+    "count": 578,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E87&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E88",
+    "count": 101,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E88&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E89",
+    "count": 156,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E89&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E9",
+    "count": 221,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E9&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E90",
+    "count": 1271,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E90&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E91",
+    "count": 377,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E91&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E92",
+    "count": 376,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E92&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "E93",
+    "count": 308,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E93&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F01",
+    "count": 331,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F01&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F02",
+    "count": 177,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F02&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F04",
+    "count": 9,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F04&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F06",
+    "count": 89,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F06&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F07",
+    "count": 113,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F07&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F10",
+    "count": 1051,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F10&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F11",
+    "count": 220,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F11&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F12",
+    "count": 79,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F12&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F13",
+    "count": 48,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F13&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F15",
+    "count": 459,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F15&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F16",
+    "count": 86,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F16&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F20",
+    "count": 387,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F20&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F21",
+    "count": 24,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F21&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F22",
+    "count": 51,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F22&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F23",
+    "count": 44,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F23&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F25",
+    "count": 382,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F25&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F26",
+    "count": 71,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F26&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F30",
+    "count": 795,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F30&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F31",
+    "count": 378,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F31&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F32",
+    "count": 118,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F32&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F33",
+    "count": 142,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F33&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F34",
+    "count": 99,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F34&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F36",
+    "count": 107,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F36&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F39",
+    "count": 50,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F39&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F40",
+    "count": 57,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F40&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F44",
+    "count": 27,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F44&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F45",
+    "count": 95,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F45&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F46",
+    "count": 70,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F46&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F48",
+    "count": 223,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F48&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F52",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F52&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F80",
+    "count": 31,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F80&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F82",
+    "count": 66,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F82&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F83",
+    "count": 16,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F83&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F85",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F85&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F87",
+    "count": 14,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F87&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F90",
+    "count": 21,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F90&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F92",
+    "count": 6,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F92&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F93",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F93&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F95",
+    "count": 7,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F95&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F96",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F96&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "F97",
+    "count": 6,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=F97&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G01",
+    "count": 175,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G01&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G02",
+    "count": 35,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G02&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G05",
+    "count": 195,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G05&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G06",
+    "count": 33,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G06&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G07",
+    "count": 70,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G07&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G08",
+    "count": 6,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G08&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G09",
+    "count": 5,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G09&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G11",
+    "count": 170,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G11&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G12",
+    "count": 177,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G12&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G14",
+    "count": 13,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G14&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G15",
+    "count": 19,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G15&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G16",
+    "count": 10,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G16&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G20",
+    "count": 134,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G20&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G21",
+    "count": 58,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G21&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G22",
+    "count": 14,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G22&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G23",
+    "count": 21,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G23&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G26",
+    "count": 33,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G26&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G29",
+    "count": 28,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G29&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G30",
+    "count": 377,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G30&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G31",
+    "count": 75,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G31&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G32",
+    "count": 20,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G32&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G42",
+    "count": 5,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G42&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G45",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G45&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G60",
+    "count": 16,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G60&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G61",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G61&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G70",
+    "count": 29,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G70&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G80",
+    "count": 10,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G80&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G81",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G81&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G82",
+    "count": 13,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G82&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G83",
+    "count": 8,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G83&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G87",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G87&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "G90",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=G90&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "I01",
+    "count": 195,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=I01&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "I12",
+    "count": 152,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=I12&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "I15",
+    "count": 12,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=I15&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "I20",
+    "count": 20,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=I20&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "RS54",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=RS54&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "U06",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=U06&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "U10",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=U10&modelMatch=2&modelInclChassis=on"
+  },
+  {
+    "code": "U11",
+    "count": 19,
+    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=U11&modelMatch=2&modelInclChassis=on"
+  }
+]

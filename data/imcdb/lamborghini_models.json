@@ -1,0 +1,747 @@
+[
+  {
+    "name": "1306 Turbo",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=1306+Turbo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "1R",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=1R&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "350 GT",
+    "count": 18,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=350+GT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "350 GTS",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=350+GTS&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "350 GTV",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=350+GTV&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "400 GT 2+2",
+    "count": 22,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=400+GT+2%2B2&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "400 GT Monza",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=400+GT+Monza&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "653 DT",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=653+DT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "654 DT",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=654+DT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "660 F",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=660+F&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "754",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=754&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "775",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=775&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "854 DT",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=854+DT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "874-90 Turbo",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=874-90+Turbo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Agile",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Agile&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador J",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+J&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 700-4",
+    "count": 120,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+700-4&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 700-4 Roadster",
+    "count": 41,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+700-4+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 720-4",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+720-4&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 720-4 Roadster",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+720-4+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 740-4 S",
+    "count": 13,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+740-4+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 740-4 S Roadster",
+    "count": 8,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+740-4+S+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 750-4 SV",
+    "count": 18,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+750-4+SV&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 750-4 SV Roadster",
+    "count": 9,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+750-4+SV+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 770-4 SVJ",
+    "count": 8,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+770-4+SVJ&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 770-4 SVJ 63",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+770-4+SVJ+63&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 770-4 SVJ Roadster",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+770-4+SVJ+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Aventador LP 780-4 Ultimae Roadster",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Aventador+LP+780-4+Ultimae+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Bravo",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Bravo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Carioca",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Carioca&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Centenario LP 770-4",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Centenario+LP+770-4&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Champion 180",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Champion+180&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach 5000 QV",
+    "count": 64,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+5000+QV&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach 5000 QV Kit Car",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+5000+QV+Kit+Car&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach 5000 QV Replica",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+5000+QV+Replica&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach Anniversary",
+    "count": 34,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+Anniversary&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach Anniversary Kit Car",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+Anniversary+Kit+Car&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach Anniversary Replica",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+Anniversary+Replica&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach LP 400",
+    "count": 34,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+LP+400&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach LP 400 S",
+    "count": 35,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+LP+400+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach LP 500 Prototipo",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+LP+500+Prototipo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach LP 500 S",
+    "count": 41,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+LP+500+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach LP 500 S Kit Car",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+LP+500+S+Kit+Car&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach LPI 800-4",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+LPI+800-4&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach Replica",
+    "count": 16,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+Replica&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Countach Replica Stretched Limousine",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Countach+Replica+Stretched+Limousine&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo",
+    "count": 78,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo GT",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+GT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo GTR",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+GTR&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo P132 Prototipo",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+P132+Prototipo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo Replica",
+    "count": 13,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+Replica&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo Replica Stretched Limousine",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+Replica+Stretched+Limousine&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo Roadster",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo SE 30",
+    "count": 14,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+SE+30&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo SV",
+    "count": 24,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+SV&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo SV-R",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+SV-R&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo VT",
+    "count": 15,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+VT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo VT 6.0",
+    "count": 22,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+VT+6.0&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo VT 6.0 SE",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+VT+6.0+SE&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo VT Roadster",
+    "count": 43,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+VT+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Diablo VT Roadster Replica",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Diablo+VT+Roadster+Replica&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "DL 25",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=DL+25&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Espada",
+    "count": 57,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Espada&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Estoque",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Estoque&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo",
+    "count": 185,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP506-4 Spyder",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP506-4+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP550-2",
+    "count": 14,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP550-2&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP560-4",
+    "count": 74,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP560-4&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP560-4 Spyder",
+    "count": 67,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP560-4+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP560-4 Super Trofeo",
+    "count": 5,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP560-4+Super+Trofeo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP570-4 Spyder Performante",
+    "count": 8,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP570-4+Spyder+Performante&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP570-4 Squadra Corse",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP570-4+Squadra+Corse&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP570-4 Super Trofeo Stradale",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP570-4+Super+Trofeo+Stradale&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP570-4 Superleggera",
+    "count": 18,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP570-4+Superleggera&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo LP600 GT3",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+LP600+GT3&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo SE",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+SE&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo Spyder",
+    "count": 125,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Gallardo Superleggera",
+    "count": 16,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Gallardo+Superleggera&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Grand Prix",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Grand+Prix&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán Evo",
+    "count": 13,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+Evo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán Evo RWD",
+    "count": 6,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+Evo+RWD&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán Evo RWD Spyder",
+    "count": 9,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+Evo+RWD+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán Evo Spyder",
+    "count": 25,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+Evo+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán GT3",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+GT3&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 580-2",
+    "count": 15,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+580-2&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 580-2 Spyder",
+    "count": 20,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+580-2+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 610-4",
+    "count": 121,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+610-4&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 610-4 Avio",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+610-4+Avio&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 610-4 Spyder",
+    "count": 41,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+610-4+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 610-4 Sterrato",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+610-4+Sterrato&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 620-2 Super Trofeo",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+620-2+Super+Trofeo&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 640-4 Performante",
+    "count": 9,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+640-4+Performante&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán LP 640-4 Performante Spyder",
+    "count": 6,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+LP+640-4+Performante+Spyder&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Huracán STO",
+    "count": 7,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Hurac%C3%A1n+STO&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Islero",
+    "count": 8,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Islero&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Islero S",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Islero+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Jalpa",
+    "count": 16,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Jalpa&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Jarama",
+    "count": 7,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Jarama&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Jarama S",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Jarama+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "LM001",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=LM001&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "LM002",
+    "count": 28,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=LM002&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "LM004",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=LM004&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Marzal",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Marzal&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Miura",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Miura&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Miura P400",
+    "count": 41,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Miura+P400&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Miura P400 Roadster",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Miura+P400+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Miura P400 S",
+    "count": 38,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Miura+P400+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Miura P400 SV",
+    "count": 21,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Miura+P400+SV&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Murciélago",
+    "count": 103,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Murci%C3%A9lago&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Murciélago LP640",
+    "count": 66,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Murci%C3%A9lago+LP640&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Murciélago LP640 Roadster",
+    "count": 25,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Murci%C3%A9lago+LP640+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Murciélago LP650-4 Roadster",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Murci%C3%A9lago+LP650-4+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Murciélago LP670-4 SV",
+    "count": 21,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Murci%C3%A9lago+LP670-4+SV&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Murciélago Replica",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Murci%C3%A9lago+Replica&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Murciélago Roadster",
+    "count": 45,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Murci%C3%A9lago+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Nitro 130 VRT",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Nitro+130+VRT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "P140",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=P140&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Plus 90 F",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Plus+90+F&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Portofino",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Portofino&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R 470",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R+470&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R 485",
+    "count": 5,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R+485&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R 660",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R+660&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R 683 DT",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R+683+DT&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R 854",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R+854&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R-Series",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R-Series&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R2.76",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R2.76&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R3.85T",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R3.85T&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R6-Series",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R6-Series&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R6.180",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R6.180&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "R8.270 DCR",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=R8.270+DCR&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Racing 190",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Racing+190&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Reventón",
+    "count": 6,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Revent%C3%B3n&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Reventón Replica Stretched Limousine",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Revent%C3%B3n+Replica+Stretched+Limousine&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Reventón Roadster",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Revent%C3%B3n+Roadster&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Revuelto",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Revuelto&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Runner 350 R",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Runner+350+R&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Sesto Elemento",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Sesto+Elemento&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Sesto Elemento Replica",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Sesto+Elemento+Replica&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Sián FKP 37",
+    "count": 2,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Si%C3%A1n+FKP+37&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Silhouette",
+    "count": 4,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Silhouette&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Urraco",
+    "count": 16,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Urraco&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Urraco P300",
+    "count": 3,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Urraco+P300&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Urraco S",
+    "count": 5,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Urraco+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Urus",
+    "count": 80,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Urus&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Urus S",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Urus+S&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Veneno",
+    "count": 6,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Veneno&modelMatch=1&modelInclModel=on"
+  },
+  {
+    "name": "Veneno Roadster",
+    "count": 1,
+    "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=Veneno+Roadster&modelMatch=1&modelInclModel=on"
+  }
+]

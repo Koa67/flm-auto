@@ -7,7 +7,20 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import:ultimatespecs": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-ultimatespecs.ts"
+    "import:ultimatespecs": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-ultimatespecs.ts",
+    "verify:import": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/verify-import.ts",
+    "scrape:imcdb": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/scrape-imcdb.ts",
+    "scrape:imcdb-detail": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/scrape-imcdb-detail.ts",
+    "import:screen-cars": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-curated-screen-cars.ts",
+    "import:imcdb": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-imcdb-data.ts",
+    "scrape:euroncap": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/scrape-euroncap.ts",
+    "import:euroncap": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-euroncap.ts",
+    "scrape:igcd": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/scrape-igcd.ts",
+    "import:igcd": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-igcd.ts",
+    "scrape:mercedes": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/scrape-mercedes-missing.ts",
+    "import:mercedes": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-mercedes-missing.ts",
+    "import:igcd-fix": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-igcd-missing.ts",
+    "cleanup": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/cleanup-data.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.93.0",

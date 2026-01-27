@@ -1,0 +1,105 @@
+{
+  "scraped_at": "2026-01-27T16:22:55.119Z",
+  "total_appearances": 127058,
+  "brands": [
+    {
+      "name": "BMW",
+      "chassis_count": 143,
+      "model_count": 752,
+      "total": 39018,
+      "top_5_chassis": [
+        {
+          "code": "E46",
+          "count": 2950,
+          "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E46&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "E30",
+          "count": 2946,
+          "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E30&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "E36",
+          "count": 2539,
+          "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E36&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "E39",
+          "count": 2192,
+          "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E39&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "E34",
+          "count": 2012,
+          "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E34&modelMatch=2&modelInclChassis=on"
+        }
+      ]
+    },
+    {
+      "name": "Mercedes-Benz",
+      "chassis_count": 364,
+      "model_count": 2240,
+      "total": 88013,
+      "top_5_chassis": [
+        {
+          "code": "W123",
+          "count": 5080,
+          "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W123&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "W124",
+          "count": 3449,
+          "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W124&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "W126",
+          "count": 2999,
+          "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W126&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "W115",
+          "count": 2724,
+          "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W115&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "T1N",
+          "count": 2689,
+          "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=T1N&modelMatch=2&modelInclChassis=on"
+        }
+      ]
+    },
+    {
+      "name": "Lamborghini",
+      "chassis_count": 22,
+      "model_count": 149,
+      "total": 27,
+      "top_5_chassis": [
+        {
+          "code": "1120001",
+          "count": 4,
+          "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=1120001&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "1120172",
+          "count": 2,
+          "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=1120172&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "3111",
+          "count": 2,
+          "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=3111&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "0105",
+          "count": 1,
+          "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=0105&modelMatch=2&modelInclChassis=on"
+        },
+        {
+          "code": "0289",
+          "count": 1,
+          "url": "https://www.imcdb.org/vehicles.php?make=Lamborghini&model=0289&modelMatch=2&modelInclChassis=on"
+        }
+      ]
+    }
+  ]
+}
