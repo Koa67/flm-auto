@@ -21,7 +21,9 @@
     "import:mercedes": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-mercedes-missing.ts",
     "import:igcd-fix": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/import-igcd-missing.ts",
     "cleanup": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/cleanup-data.ts",
-    "audit": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/red-team-audit.ts"
+    "audit": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/red-team-audit.ts",
+    "db:stats": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/db-status.ts stats",
+    "db:status": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/db-status.ts status"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.93.0",
