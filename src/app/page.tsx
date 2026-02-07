@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
@@ -14,9 +12,9 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedCounter } from "@/components/animated-counter";
+import { InstantSearch } from "@/components/search/instant-search";
 
 const stats = [
   { label: "Marques", value: 32, icon: Car },
@@ -61,16 +59,6 @@ const popularBrands = [
 ];
 
 export default function Home() {
-  const router = useRouter();
-  const [query, setQuery] = useState("");
-
-  function handleSearch(e: React.FormEvent) {
-    e.preventDefault();
-    if (query.trim().length >= 2) {
-      router.push(`/recherche?q=${encodeURIComponent(query.trim())}`);
-    }
-  }
-
   return (
     <div className="flex flex-col">
       {/* Hero */}
@@ -96,24 +84,14 @@ export default function Home() {
         </motion.p>
 
         {/* Search bar */}
-        <motion.form
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          onSubmit={handleSearch}
-          className="mt-8 flex w-full max-w-md items-center gap-2"
+          className="mt-8 w-full max-w-xl"
         >
-          <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-            <Input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="BMW M3, Porsche 911, Golf GTI..."
-              className="pl-9"
-            />
-          </div>
-          <Button type="submit">Rechercher</Button>
-        </motion.form>
+          <InstantSearch />
+        </motion.div>
 
         {/* Popular brands */}
         <motion.div

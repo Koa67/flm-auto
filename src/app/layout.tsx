@@ -7,6 +7,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { Toaster } from "sonner";
 import { CommandPalette } from "@/components/command-palette";
+import { FloatingCompareBar } from "@/components/compare/floating-compare-bar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -52,6 +53,7 @@ export default function RootLayout({
           <CommandPalette />
           <Toaster richColors position="bottom-right" />
           <main className="min-h-[calc(100vh-3.5rem)]">{children}</main>
+          <FloatingCompareBar />
           <Footer />
         </ThemeProvider>
         <Analytics />
