@@ -5,6 +5,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { Toaster } from "sonner";
+import { CommandPalette } from "@/components/command-palette";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -47,6 +49,8 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <Nav />
+          <CommandPalette />
+          <Toaster richColors position="bottom-right" />
           <main className="min-h-[calc(100vh-3.5rem)]">{children}</main>
           <Footer />
         </ThemeProvider>
