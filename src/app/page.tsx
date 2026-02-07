@@ -1,65 +1,171 @@
-import Image from "next/image";
+"use client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
+import {
+  Search,
+  Car,
+  GitCompareArrows,
+  Baby,
+  Shield,
+  Gauge,
+  ArrowRight,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Card, CardContent } from "@/components/ui/card";
+
+const stats = [
+  { label: "Marques", value: "32", icon: Car },
+  { label: "G\u00e9n\u00e9rations", value: "4 268", icon: Gauge },
+  { label: "Photos", value: "47 000+", icon: Search },
+  { label: "Fiches techniques", value: "343 000+", icon: Shield },
+];
+
+const features = [
+  {
+    title: "Comparateur",
+    description:
+      "Comparez jusqu'\u00e0 4 v\u00e9hicules c\u00f4te \u00e0 c\u00f4te : puissance, performance, s\u00e9curit\u00e9.",
+    href: "/comparer",
+    icon: GitCompareArrows,
+  },
+  {
+    title: "Family Fit",
+    description:
+      "Trouvez la voiture id\u00e9ale pour votre famille : ISOFIX, si\u00e8ges enfants, 3-across.",
+    href: "/family-fit",
+    icon: Baby,
+  },
+  {
+    title: "Euro NCAP",
+    description:
+      "Notes de s\u00e9curit\u00e9 Euro NCAP, scores adultes, enfants, pi\u00e9tons.",
+    href: "/recherche",
+    icon: Shield,
+  },
+];
+
+const popularBrands = [
+  { name: "BMW", slug: "bmw" },
+  { name: "Mercedes-Benz", slug: "mercedes-benz" },
+  { name: "Audi", slug: "audi" },
+  { name: "Porsche", slug: "porsche" },
+  { name: "Volkswagen", slug: "volkswagen" },
+  { name: "Tesla", slug: "tesla" },
+  { name: "Toyota", slug: "toyota" },
+  { name: "Volvo", slug: "volvo" },
+];
 
 export default function Home() {
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+
+  function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    if (query.trim().length >= 2) {
+      router.push(`/recherche?q=${encodeURIComponent(query.trim())}`);
+    }
+  }
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+    <div className="flex flex-col">
+      {/* Hero */}
+      <section className="relative flex flex-col items-center justify-center px-4 py-24 text-center sm:py-32">
+        <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
+          L&apos;encyclop&eacute;die
+          <br />
+          <span className="text-primary">automobile</span>
+        </h1>
+        <p className="mt-4 max-w-lg text-lg text-muted-foreground">
+          32 marques, 4 268 g&eacute;n&eacute;rations, fiches techniques
+          compl&egrave;tes, photos, comparateur et outils famille.
+        </p>
+
+        {/* Search bar */}
+        <form
+          onSubmit={handleSearch}
+          className="mt-8 flex w-full max-w-md items-center gap-2"
+        >
+          <div className="relative flex-1">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <Input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="BMW M3, Porsche 911, Golf GTI..."
+              className="pl-9"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
+          <Button type="submit">Rechercher</Button>
+        </form>
+
+        {/* Popular brands */}
+        <div className="mt-6 flex flex-wrap justify-center gap-2">
+          {popularBrands.map((brand) => (
+            <Link key={brand.slug} href={`/marques/${brand.slug}`}>
+              <Button variant="outline" size="sm" className="text-xs">
+                {brand.name}
+              </Button>
+            </Link>
+          ))}
         </div>
-      </main>
+      </section>
+
+      {/* Stats */}
+      <section className="border-y bg-muted/30 px-4 py-12">
+        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 sm:grid-cols-4">
+          {stats.map((stat) => (
+            <div key={stat.label} className="flex flex-col items-center gap-2">
+              <stat.icon className="h-6 w-6 text-muted-foreground" />
+              <span className="text-2xl font-bold">{stat.value}</span>
+              <span className="text-sm text-muted-foreground">
+                {stat.label}
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="px-4 py-16">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="mb-8 text-center text-2xl font-bold">Outils</h2>
+          <div className="grid gap-6 md:grid-cols-3">
+            {features.map((feature) => (
+              <Link key={feature.href} href={feature.href}>
+                <Card className="h-full transition-shadow hover:shadow-md">
+                  <CardContent className="flex flex-col gap-3 p-6">
+                    <feature.icon className="h-8 w-8 text-primary" />
+                    <h3 className="font-semibold">{feature.title}</h3>
+                    <p className="text-sm text-muted-foreground">
+                      {feature.description}
+                    </p>
+                    <span className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-primary">
+                      D&eacute;couvrir{" "}
+                      <ArrowRight className="h-3 w-3" />
+                    </span>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="px-4 py-16 text-center">
+        <h2 className="text-2xl font-bold">Explorez toutes les marques</h2>
+        <p className="mt-2 text-muted-foreground">
+          De Alfa Romeo &agrave; Volvo, d&eacute;couvrez chaque mod&egrave;le en
+          d&eacute;tail.
+        </p>
+        <Link href="/marques">
+          <Button size="lg" className="mt-6">
+            Voir les 32 marques <ArrowRight className="ml-2 h-4 w-4" />
+          </Button>
+        </Link>
+      </section>
     </div>
   );
 }

@@ -69,7 +69,7 @@ export async function GET(
       return acc
     }, new Map<string, any>())
 
-    const dedupedAppearances = Array.from(uniqueAppearances?.values() || [])
+    const dedupedAppearances: any[] = Array.from(uniqueAppearances?.values() || [])
 
     // Transform variants with specs
     const formattedVariants = variants?.map(v => {
