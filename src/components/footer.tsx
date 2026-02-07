@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
+import { NewsletterForm } from "@/components/newsletter-form";
 
 export function Footer() {
   return (
@@ -18,6 +19,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link href="/comparer" className="hover:text-foreground">Comparateur</Link></li>
               <li><Link href="/family-fit" className="hover:text-foreground">Family Fit</Link></li>
+              <li><Link href="/meilleur/suv-familial-2024" className="hover:text-foreground">Classements</Link></li>
             </ul>
           </div>
           <div>
@@ -30,10 +32,11 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="mb-3 text-sm font-semibold">FLM Auto</h3>
-            <p className="text-sm text-muted-foreground">
-              Encyclop&eacute;die automobile compl&egrave;te. 32 marques, 4000+ g&eacute;n&eacute;rations, 47000+ photos.
+            <h3 className="mb-3 text-sm font-semibold">Newsletter</h3>
+            <p className="mb-3 text-sm text-muted-foreground">
+              Classements et analyses auto, chaque semaine.
             </p>
+            <NewsletterForm source="footer" />
           </div>
         </div>
         <Separator className="my-6" />

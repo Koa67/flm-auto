@@ -23,6 +23,9 @@ import {
   Baby,
   Star,
 } from "lucide-react";
+import { VehicleNav } from "@/components/vehicle-nav";
+import { AffiliationCTA } from "@/components/affiliation-cta";
+import { NewsletterSection } from "@/components/newsletter-form";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -471,6 +474,18 @@ export default async function VehiclePage({ params }: Props) {
           </TabsContent>
         )}
       </Tabs>
+
+      {/* Sub-page navigation */}
+      <div className="mt-10">
+        <h2 className="mb-4 text-lg font-semibold">Explorer en détail</h2>
+        <VehicleNav basePath={`/marques/${bs}/${ms}/${gs}`} />
+      </div>
+
+      {/* Affiliation + Newsletter */}
+      <div className="mt-10 grid gap-6 md:grid-cols-2">
+        <AffiliationCTA brand={brand.name} model={model.name} />
+        <NewsletterSection source="vehicle-page" />
+      </div>
     </div>
   );
 }
