@@ -37,9 +37,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!data) return {};
   const { brand, model, generation } = data;
   const title = `${brand.name} ${model.name} ${generation.internal_code || generation.name}`;
+  const ogStats: string[] = [];
+  if (data.safety?.stars) ogStats.push(`${data.safety.stars}\u2605 NCAP`);
+  if (data.variants[0]?.power_hp) ogStats.push(`${data.variants[0].power_hp} ch`);
+  if (data.variants[0]?.acceleration_0_100) ogStats.push(`${data.variants[0].acceleration_0_100}s`);
+
+  const ogUrl = new URL("/api/og", process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.vercel.app");
+  ogUrl.searchParams.set("title", title);
+  ogUrl.searchParams.set("subtitle", "Fiche technique compl\u00e8te");
+  if (ogStats.length) ogUrl.searchParams.set("stats", ogStats.join("|"));
+
   return {
     title,
     description: `Fiche technique ${title} : motorisations, performances, s\u00e9curit\u00e9 Euro NCAP, photos.`,
+    openGraph: {
+      title,
+      images: [ogUrl.toString()],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [ogUrl.toString()],
+    },
   };
 }
 

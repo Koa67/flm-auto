@@ -1,0 +1,21 @@
+{
+  "name": "FLM AUTO",
+  "short_name": "FLM",
+  "description": "Encyclop\u00e9die automobile : 32 marques, 4000+ g\u00e9n\u00e9rations, fiches techniques, comparateur.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

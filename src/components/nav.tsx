@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Search, Menu, X } from "lucide-react";
+import { Search, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
@@ -45,6 +46,7 @@ export function Nav() {
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
+          <ThemeToggle />
           <Link href="/recherche">
             <Button variant="ghost" size="icon" className="hidden md:flex">
               <Search className="h-4 w-4" />

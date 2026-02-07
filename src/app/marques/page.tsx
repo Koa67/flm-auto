@@ -2,6 +2,7 @@ import Link from "next/link";
 import { createServerClient } from "@/lib/supabase-server";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { AnimatedGrid, AnimatedGridItem } from "@/components/animated-grid";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -62,9 +63,10 @@ export default async function MarquesPage() {
         {brands.length} marques automobiles, {brands.reduce((s, b) => s + b.model_count, 0)} mod&egrave;les
       </p>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <AnimatedGrid className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {brands.map((brand) => (
-          <Link key={brand.id} href={`/marques/${brand.slug}`}>
+          <AnimatedGridItem key={brand.id}>
+          <Link href={`/marques/${brand.slug}`}>
             <Card className="h-full transition-all hover:shadow-md hover:-translate-y-0.5">
               <CardContent className="flex items-center gap-4 p-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-muted text-2xl">
@@ -86,8 +88,9 @@ export default async function MarquesPage() {
               </CardContent>
             </Card>
           </Link>
+          </AnimatedGridItem>
         ))}
-      </div>
+      </AnimatedGrid>
     </div>
   );
 }
