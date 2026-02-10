@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
   Table,
@@ -13,7 +13,22 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { X, Plus, Search, GitCompareArrows } from "lucide-react";
+import { Switch } from "@/components/ui/switch";
+import { X, Plus, Search, GitCompareArrows, Trophy, Filter, Ruler, Download, Bookmark, Loader2 } from "lucide-react";
+import { SizeOverlay } from "@/components/blueprints/size-overlay";
+import dynamic from "next/dynamic";
+const CompareRadar = dynamic(() => import("@/components/compare/compare-radar").then(m => m.CompareRadar), { ssr: false });
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { exportComparisonPDF } from "@/lib/export-pdf";
+import { useAuth } from "@/hooks/use-auth";
+import { toast } from "sonner";
+import confetti from "canvas-confetti";
 
 interface SearchResult {
   id: string;
@@ -42,6 +57,62 @@ interface CompareVehicle {
   power_range: { min: number | null; max: number | null } | null;
   variants_count: number;
   safety: { rating: number; year: number } | null;
+  dimensions: {
+    length_mm: number | null;
+    width_mm: number | null;
+    height_mm: number | null;
+    wheelbase_mm: number | null;
+    ground_clearance_mm?: number | null;
+    trunk_liters: number | null;
+    trunk_max_liters: number | null;
+  };
+  weight_kg: number | null;
+  consumption_l_100: number | null;
+  co2_g_km: number | null;
+}
+
+function getWinner(vehicles: CompareVehicle[]): number {
+  const scores = vehicles.map(() => 0);
+
+  for (let i = 0; i < vehicles.length; i++) {
+    const v = vehicles[i];
+    if (v.top_spec?.power_hp) {
+      const max = Math.max(
+        ...vehicles.map((x) => x.top_spec?.power_hp || 0)
+      );
+      if (v.top_spec.power_hp === max) scores[i]++;
+    }
+    if (v.top_spec?.torque_nm) {
+      const max = Math.max(
+        ...vehicles.map((x) => x.top_spec?.torque_nm || 0)
+      );
+      if (v.top_spec.torque_nm === max) scores[i]++;
+    }
+    if (v.top_spec?.acceleration_0_100) {
+      const min = Math.min(
+        ...vehicles.filter((x) => x.top_spec?.acceleration_0_100).map((x) => x.top_spec!.acceleration_0_100!)
+      );
+      if (v.top_spec.acceleration_0_100 === min) scores[i]++;
+    }
+    if (v.top_spec?.top_speed_kmh) {
+      const max = Math.max(
+        ...vehicles.map((x) => x.top_spec?.top_speed_kmh || 0)
+      );
+      if (v.top_spec.top_speed_kmh === max) scores[i]++;
+    }
+    if (v.safety?.rating) {
+      const max = Math.max(
+        ...vehicles.map((x) => x.safety?.rating || 0)
+      );
+      if (v.safety.rating === max) scores[i]++;
+    }
+  }
+
+  const maxScore = Math.max(...scores);
+  if (maxScore === 0) return -1;
+  const winners = scores.filter((s) => s === maxScore);
+  if (winners.length > 1) return -1; // tie
+  return scores.indexOf(maxScore);
 }
 
 export default function ComparerPage() {
@@ -54,18 +125,32 @@ export default function ComparerPage() {
     insights: string[];
   } | null>(null);
   const [loading, setLoading] = useState(false);
+  const [diffOnly, setDiffOnly] = useState(false);
+  const { user } = useAuth();
+  const [exporting, setExporting] = useState(false);
+  const [saveDialogOpen, setSaveDialogOpen] = useState(false);
+  const [saveName, setSaveName] = useState("");
+  const [saving, setSaving] = useState(false);
+  const confettiFired = useRef(false);
+  const searchAbort = useRef<AbortController | null>(null);
+  const compareAbort = useRef<AbortController | null>(null);
 
   const search = useCallback(async (q: string) => {
     if (q.length < 2) {
       setResults([]);
       return;
     }
+    searchAbort.current?.abort();
+    searchAbort.current = new AbortController();
     setSearching(true);
     try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=8`);
+      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=8`, {
+        signal: searchAbort.current.signal,
+      });
       const json = await res.json();
       setResults(json.data || []);
-    } catch {
+    } catch (e) {
+      if (e instanceof DOMException && e.name === "AbortError") return;
       setResults([]);
     } finally {
       setSearching(false);
@@ -76,6 +161,22 @@ export default function ComparerPage() {
     const t = setTimeout(() => search(query), 300);
     return () => clearTimeout(t);
   }, [query, search]);
+
+  // Fire confetti when results arrive with a clear winner
+  useEffect(() => {
+    if (compareData && !confettiFired.current) {
+      const winnerIdx = getWinner(compareData.vehicles);
+      if (winnerIdx >= 0) {
+        confettiFired.current = true;
+        confetti({
+          particleCount: 80,
+          spread: 60,
+          origin: { y: 0.7 },
+          colors: ["#22c55e", "#3b82f6", "#eab308"],
+        });
+      }
+    }
+  }, [compareData]);
 
   function addVehicle(v: SearchResult) {
     if (selected.length >= 4) return;
@@ -88,22 +189,75 @@ export default function ComparerPage() {
   function removeVehicle(id: string) {
     setSelected(selected.filter((s) => s.id !== id));
     setCompareData(null);
+    confettiFired.current = false;
   }
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      searchAbort.current?.abort();
+      compareAbort.current?.abort();
+    };
+  }, []);
 
   async function compare() {
     if (selected.length < 2) return;
+    compareAbort.current?.abort();
+    compareAbort.current = new AbortController();
     setLoading(true);
+    confettiFired.current = false;
     try {
       const ids = selected.map((s) => s.id).join(",");
-      const res = await fetch(`/api/compare?ids=${ids}`);
+      const res = await fetch(`/api/compare?ids=${ids}`, {
+        signal: compareAbort.current.signal,
+      });
       const json = await res.json();
       setCompareData(json.data);
-    } catch {
+    } catch (e) {
+      if (e instanceof DOMException && e.name === "AbortError") return;
       setCompareData(null);
     } finally {
       setLoading(false);
     }
   }
+
+  async function handleExportPDF() {
+    if (!compareData) return;
+    setExporting(true);
+    try {
+      await exportComparisonPDF(compareData.vehicles);
+    } catch {
+      toast.error("Erreur lors de l'export PDF");
+    }
+    setExporting(false);
+  }
+
+  async function handleSaveComparison() {
+    if (!compareData || !saveName.trim()) return;
+    setSaving(true);
+    try {
+      const res = await fetch("/api/saved-comparisons", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: saveName.trim(),
+          generation_ids: selected.map((s) => s.id),
+        }),
+      });
+      if (res.ok) {
+        toast.success("Comparaison sauvegard\u00e9e");
+        setSaveDialogOpen(false);
+        setSaveName("");
+      } else {
+        toast.error("Erreur lors de la sauvegarde");
+      }
+    } catch {
+      toast.error("Erreur lors de la sauvegarde");
+    }
+    setSaving(false);
+  }
+
+  const winnerIdx = compareData ? getWinner(compareData.vehicles) : -1;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
@@ -135,7 +289,7 @@ export default function ComparerPage() {
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ajouter un v\u00e9hicule..."
+            placeholder="Ajouter un v&eacute;hicule..."
             className="pl-9"
           />
           {results.length > 0 && (
@@ -176,6 +330,24 @@ export default function ComparerPage() {
       {/* Results */}
       {compareData && (
         <div className="mt-8 space-y-6">
+          {/* Winner banner */}
+          {winnerIdx >= 0 && (
+            <Card className="border-yellow-500/50 bg-yellow-50 dark:bg-yellow-950/20">
+              <CardContent className="flex items-center gap-3 p-4">
+                <Trophy className="h-6 w-6 text-yellow-500" />
+                <div>
+                  <p className="font-semibold">
+                    {compareData.vehicles[winnerIdx].brand}{" "}
+                    {compareData.vehicles[winnerIdx].model} remporte le duel !
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Meilleur score global sur les performances et la s&eacute;curit&eacute;
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
           {/* Insights */}
           {compareData.insights.length > 0 && (
             <Card>
@@ -191,79 +363,237 @@ export default function ComparerPage() {
             </Card>
           )}
 
-          {/* Comparison table */}
-          <div className="overflow-x-auto rounded-lg border">
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead className="w-40">Caract&eacute;ristique</TableHead>
-                  {compareData.vehicles.map((v) => (
-                    <TableHead key={v.id} className="text-center">
-                      <div className="font-semibold">{v.brand}</div>
-                      <div className="text-xs font-normal text-muted-foreground">
-                        {v.model} {v.generation}
-                      </div>
-                    </TableHead>
-                  ))}
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                <CompareRow
-                  label="Ann&eacute;es"
-                  values={compareData.vehicles.map((v) => v.years)}
-                />
-                <CompareRow
-                  label="Puissance max"
-                  values={compareData.vehicles.map((v) =>
-                    v.top_spec?.power_hp ? `${v.top_spec.power_hp} ch` : "\u2014"
-                  )}
-                  highlight="max"
-                />
-                <CompareRow
-                  label="Couple max"
-                  values={compareData.vehicles.map((v) =>
-                    v.top_spec?.torque_nm ? `${v.top_spec.torque_nm} Nm` : "\u2014"
-                  )}
-                  highlight="max"
-                />
-                <CompareRow
-                  label="0-100 km/h"
-                  values={compareData.vehicles.map((v) =>
-                    v.top_spec?.acceleration_0_100
-                      ? `${v.top_spec.acceleration_0_100}s`
-                      : "\u2014"
-                  )}
-                  highlight="min"
-                />
-                <CompareRow
-                  label="V. max"
-                  values={compareData.vehicles.map((v) =>
-                    v.top_spec?.top_speed_kmh
-                      ? `${v.top_spec.top_speed_kmh} km/h`
-                      : "\u2014"
-                  )}
-                  highlight="max"
-                />
-                <CompareRow
-                  label="Motorisations"
-                  values={compareData.vehicles.map((v) =>
-                    String(v.variants_count)
-                  )}
-                />
-                <CompareRow
-                  label="Euro NCAP"
-                  values={compareData.vehicles.map((v) =>
-                    v.safety
-                      ? `${"★".repeat(v.safety.rating)}${"☆".repeat(5 - v.safety.rating)} (${v.safety.year})`
-                      : "\u2014"
-                  )}
-                />
-              </TableBody>
-            </Table>
+          {/* Radar Chart */}
+          <CompareRadar
+            vehicles={compareData.vehicles.map((v) => ({
+              id: v.id,
+              label: `${v.brand} ${v.model}`,
+              power_hp: v.top_spec?.power_hp || null,
+              torque_nm: v.top_spec?.torque_nm || null,
+              acceleration_0_100: v.top_spec?.acceleration_0_100 || null,
+              top_speed_kmh: v.top_spec?.top_speed_kmh || null,
+              trunk_liters: v.dimensions?.trunk_liters || null,
+              safety_rating: v.safety?.rating || null,
+            }))}
+          />
+
+          {/* Actions bar */}
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="flex items-center gap-2">
+              <Switch checked={diffOnly} onCheckedChange={setDiffOnly} id="diff-toggle" />
+              <label htmlFor="diff-toggle" className="flex items-center gap-1.5 text-sm font-medium cursor-pointer">
+                <Filter className="h-3.5 w-3.5" />
+                Diff\u00e9rences uniquement
+              </label>
+            </div>
+            <div className="ml-auto flex items-center gap-2">
+              <Button variant="outline" size="sm" onClick={handleExportPDF} disabled={exporting}>
+                {exporting ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Download className="mr-2 h-4 w-4" />}
+                Exporter PDF
+              </Button>
+              {user ? (
+                <Dialog open={saveDialogOpen} onOpenChange={setSaveDialogOpen}>
+                  <DialogTrigger asChild>
+                    <Button variant="outline" size="sm">
+                      <Bookmark className="mr-2 h-4 w-4" />
+                      Sauvegarder
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>Sauvegarder cette comparaison</DialogTitle>
+                    </DialogHeader>
+                    <form onSubmit={(e) => { e.preventDefault(); handleSaveComparison(); }} className="space-y-4">
+                      <Input
+                        value={saveName}
+                        onChange={(e) => setSaveName(e.target.value)}
+                        placeholder="Nom de la comparaison..."
+                        autoFocus
+                      />
+                      <Button type="submit" disabled={saving || !saveName.trim()} className="w-full">
+                        {saving ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Bookmark className="mr-2 h-4 w-4" />}
+                        Sauvegarder
+                      </Button>
+                    </form>
+                  </DialogContent>
+                </Dialog>
+              ) : (
+                <Button variant="outline" size="sm" onClick={() => toast.info("Connectez-vous pour sauvegarder vos comparaisons")} title="Connectez-vous pour sauvegarder">
+                  <Bookmark className="mr-2 h-4 w-4" />
+                  Sauvegarder
+                </Button>
+              )}
+            </div>
           </div>
+
+          {/* Comparison table */}
+          <CompareTable vehicles={compareData.vehicles} winnerIdx={winnerIdx} diffOnly={diffOnly} />
+
+          {/* Size overlay */}
+          {compareData.vehicles.some((v) => v.dimensions?.length_mm) && (
+            <SizeOverlay
+              vehicles={compareData.vehicles.map((v) => ({
+                id: v.id,
+                label: `${v.brand} ${v.model} ${v.generation}`,
+                length_mm: v.dimensions?.length_mm || null,
+                width_mm: v.dimensions?.width_mm || null,
+                height_mm: v.dimensions?.height_mm || null,
+                wheelbase_mm: v.dimensions?.wheelbase_mm || null,
+              }))}
+            />
+          )}
         </div>
       )}
     </div>
+  );
+}
+
+interface RowDef {
+  label: string;
+  values: string[];
+  highlight?: "max" | "min";
+}
+
+interface CategoryDef {
+  title: string;
+  rows: RowDef[];
+}
+
+function buildCategories(vehicles: CompareVehicle[]): CategoryDef[] {
+  const fmt = (v: number | null | undefined, unit: string) =>
+    v != null ? `${v} ${unit}` : "\u2014";
+
+  return [
+    {
+      title: "G\u00e9n\u00e9ral",
+      rows: [
+        { label: "Ann\u00e9es", values: vehicles.map((v) => v.years) },
+        { label: "Motorisations", values: vehicles.map((v) => String(v.variants_count)) },
+      ],
+    },
+    {
+      title: "Moteur",
+      rows: [
+        { label: "Puissance max", values: vehicles.map((v) => fmt(v.top_spec?.power_hp, "ch")), highlight: "max" },
+        { label: "Couple max", values: vehicles.map((v) => fmt(v.top_spec?.torque_nm, "Nm")), highlight: "max" },
+        { label: "Cylindr\u00e9e", values: vehicles.map((v) => fmt(v.top_spec?.displacement_cc, "cm\u00b3")) },
+      ],
+    },
+    {
+      title: "Performance",
+      rows: [
+        { label: "0-100 km/h", values: vehicles.map((v) => v.top_spec?.acceleration_0_100 ? `${v.top_spec.acceleration_0_100}s` : "\u2014"), highlight: "min" },
+        { label: "V. max", values: vehicles.map((v) => fmt(v.top_spec?.top_speed_kmh, "km/h")), highlight: "max" },
+      ],
+    },
+    {
+      title: "Dimensions",
+      rows: [
+        { label: "Longueur", values: vehicles.map((v) => fmt(v.dimensions?.length_mm, "mm")), highlight: "max" },
+        { label: "Largeur", values: vehicles.map((v) => fmt(v.dimensions?.width_mm, "mm")) },
+        { label: "Hauteur", values: vehicles.map((v) => fmt(v.dimensions?.height_mm, "mm")) },
+        { label: "Empattement", values: vehicles.map((v) => fmt(v.dimensions?.wheelbase_mm, "mm")), highlight: "max" },
+        { label: "Coffre", values: vehicles.map((v) => fmt(v.dimensions?.trunk_liters, "L")), highlight: "max" },
+        { label: "Coffre max", values: vehicles.map((v) => fmt(v.dimensions?.trunk_max_liters, "L")), highlight: "max" },
+      ],
+    },
+    {
+      title: "Consommation",
+      rows: [
+        { label: "Conso. mixte", values: vehicles.map((v) => v.consumption_l_100 ? `${v.consumption_l_100} L/100` : "\u2014"), highlight: "min" },
+        { label: "CO\u2082", values: vehicles.map((v) => fmt(v.co2_g_km, "g/km")), highlight: "min" },
+        { label: "Poids", values: vehicles.map((v) => fmt(v.weight_kg, "kg")), highlight: "min" },
+      ],
+    },
+    {
+      title: "S\u00e9curit\u00e9",
+      rows: [
+        {
+          label: "Euro NCAP",
+          values: vehicles.map((v) =>
+            v.safety
+              ? `${"★".repeat(v.safety.rating)}${"☆".repeat(5 - v.safety.rating)} (${v.safety.year})`
+              : "\u2014"
+          ),
+        },
+      ],
+    },
+  ];
+}
+
+function areAllSame(values: string[]): boolean {
+  if (values.length < 2) return true;
+  return values.every((v) => v === values[0]);
+}
+
+function CompareTable({
+  vehicles,
+  winnerIdx,
+  diffOnly,
+}: {
+  vehicles: CompareVehicle[];
+  winnerIdx: number;
+  diffOnly: boolean;
+}) {
+  const categories = buildCategories(vehicles);
+
+  return (
+    <div className="overflow-x-auto rounded-lg border">
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead className="w-40">Caract\u00e9ristique</TableHead>
+            {vehicles.map((v, i) => (
+              <TableHead key={v.id} className="text-center">
+                <div className="flex items-center justify-center gap-1">
+                  <span className="font-semibold">{v.brand}</span>
+                  {i === winnerIdx && (
+                    <Trophy className="h-4 w-4 text-yellow-500" />
+                  )}
+                </div>
+                <div className="text-xs font-normal text-muted-foreground">
+                  {v.model} {v.generation}
+                </div>
+              </TableHead>
+            ))}
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {categories.map((cat) => {
+            const visibleRows = diffOnly
+              ? cat.rows.filter((r) => !areAllSame(r.values))
+              : cat.rows;
+            if (visibleRows.length === 0) return null;
+            return (
+              <CategorySection key={cat.title} title={cat.title} rows={visibleRows} colSpan={vehicles.length + 1} />
+            );
+          })}
+        </TableBody>
+      </Table>
+    </div>
+  );
+}
+
+function CategorySection({
+  title,
+  rows,
+  colSpan,
+}: {
+  title: string;
+  rows: RowDef[];
+  colSpan: number;
+}) {
+  return (
+    <>
+      <TableRow>
+        <TableCell colSpan={colSpan} className="bg-muted/50 py-1.5 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          {title}
+        </TableCell>
+      </TableRow>
+      {rows.map((row) => (
+        <CompareRow key={row.label} label={row.label} values={row.values} highlight={row.highlight} />
+      ))}
+    </>
   );
 }
 
@@ -278,7 +608,7 @@ function CompareRow({
 }) {
   let bestIdx = -1;
   if (highlight) {
-    const nums = values.map((v) => parseFloat(v.replace(/[^\d.]/g, "")));
+    const nums = values.map((v) => parseFloat(v.replace(/[^\d.,]/g, "")));
     const validNums = nums.filter((n) => !isNaN(n));
     if (validNums.length >= 2) {
       const best =
@@ -291,7 +621,7 @@ function CompareRow({
 
   return (
     <TableRow>
-      <TableCell className="font-medium" dangerouslySetInnerHTML={{ __html: label }} />
+      <TableCell className="font-medium">{label}</TableCell>
       {values.map((val, i) => (
         <TableCell
           key={i}

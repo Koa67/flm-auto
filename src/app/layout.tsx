@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Nav } from "@/components/nav";
@@ -8,6 +7,13 @@ import { Footer } from "@/components/footer";
 import { Toaster } from "sonner";
 import { CommandPalette } from "@/components/command-palette";
 import { FloatingCompareBar } from "@/components/compare/floating-compare-bar";
+import { OnboardingTour } from "@/components/onboarding-tour";
+import { ConditionalAnalytics } from "@/components/analytics-wrapper";
+import { CookieBanner } from "@/components/cookie-banner";
+import dynamic from "next/dynamic";
+const AlainChatWidget = dynamic(() => import("@/components/alain/chat-widget").then(m => m.AlainChatWidget));
+import { AuthProvider } from "@/components/auth/auth-provider";
+import { SWRegister } from "@/components/sw-register";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -48,15 +54,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
+        <SWRegister />
         <ThemeProvider>
+          <AuthProvider>
           <Nav />
           <CommandPalette />
           <Toaster richColors position="bottom-right" />
           <main className="min-h-[calc(100vh-3.5rem)]">{children}</main>
           <FloatingCompareBar />
+          <OnboardingTour />
           <Footer />
+          <AlainChatWidget />
+          <CookieBanner />
+          </AuthProvider>
         </ThemeProvider>
-        <Analytics />
+        <ConditionalAnalytics />
         <SpeedInsights />
       </body>
     </html>
