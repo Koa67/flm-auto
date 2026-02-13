@@ -508,6 +508,11 @@ export default async function VehiclePage({ params }: Props) {
                     </span>
                     <ConfidenceBadge tier={safety.confidence} size="sm" />
                   </div>
+                  {safety.confidence === "D" && (
+                    <p className="mb-4 rounded-lg border border-orange-500/20 bg-orange-500/5 px-3 py-2 text-sm text-orange-400">
+                      Ces donn&eacute;es sont estim&eacute;es par heuristique (segment, marque, &eacute;poque) et n&apos;ont pas &eacute;t&eacute; v&eacute;rifi&eacute;es par un crash test officiel.
+                    </p>
+                  )}
                   <div className="space-y-5">
                     {safety.adult_occupant_pct != null && (
                       <ScoreBar label="Adultes" value={safety.adult_occupant_pct} />
