@@ -382,7 +382,7 @@ export default async function VehiclePage({ params }: Props) {
 
         {/* Content tabs */}
         <Tabs defaultValue="specs" className="mt-8">
-          <TabsList className="surface-2 w-full flex-nowrap justify-start overflow-x-auto">
+          <TabsList className="surface-2 w-full flex-nowrap justify-start overflow-x-auto scroll-smooth snap-x">
             <TabsTrigger value="specs">Motorisations</TabsTrigger>
             <TabsTrigger value="safety">S&eacute;curit&eacute;</TabsTrigger>
             <TabsTrigger value="gallery">Photos ({images.all.length})</TabsTrigger>

@@ -137,6 +137,7 @@ export function Nav() {
             <SheetContent
               side="right"
               className="w-72 border-[var(--border-subtle)] bg-[var(--bg-primary)]"
+              aria-label="Menu de navigation"
             >
               <nav className="mt-8 flex flex-col gap-1">
                 {links.map((link) => (

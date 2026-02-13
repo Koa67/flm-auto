@@ -253,6 +253,9 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), var(--glow-blue);
     border-color: rgba(59, 130, 246, 0.2);
   }
+  .card-hover:active {
+    transform: scale(0.98);
+  }
 
   /* Animated bar */
   .bar-animate {

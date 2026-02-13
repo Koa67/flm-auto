@@ -124,12 +124,18 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
 
       const data = await res.json();
 
-      if (data.error) {
+      if (!res.ok && res.status === 503) {
+        addMessage({
+          role: "assistant",
+          content:
+            "ALAIN est en pause. Relance le serveur local ou vérifie la clé API.",
+        });
+      } else if (data.error) {
         addMessage({
           role: "assistant",
           content:
             data.error === "ANTHROPIC_API_KEY not configured"
-              ? "Je suis temporairement indisponible. La cle API n'est pas configuree."
+              ? "Je suis temporairement indisponible. La clé API n'est pas configurée."
               : `Erreur : ${data.error}`,
         });
       } else {
@@ -256,14 +262,14 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
             {/* Suggestion chips (shown when there are messages but not loading) */}
             {messages.length > 0 && !loading && suggestions.length > 0 && (
               <div className="border-t border-[var(--border-subtle)] px-3 py-2">
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-nowrap gap-1.5 overflow-x-auto">
                   {suggestions.slice(0, 3).map((s) => {
                     const Icon = SUGGESTION_ICONS[s.icon];
                     return (
                       <button
                         key={s.text}
                         onClick={() => sendMessage(s.action)}
-                        className="inline-flex items-center gap-1 rounded-full border border-[var(--border-subtle)] px-2.5 py-1 text-[11px] text-muted-foreground transition hover:surface-3 hover:text-white"
+                        className="inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border border-[var(--border-subtle)] px-2.5 py-1 text-[11px] text-muted-foreground transition hover:surface-3 hover:text-white"
                       >
                         <Icon className="h-3 w-3" />
                         {s.text}
