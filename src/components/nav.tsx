@@ -129,6 +129,7 @@ export function Nav() {
               <Button
                 variant="ghost"
                 size="icon"
+                aria-label="Menu de navigation"
                 className="text-muted-foreground hover:text-white md:hidden"
               >
                 <Menu className="h-5 w-5" />
