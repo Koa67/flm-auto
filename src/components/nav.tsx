@@ -2,97 +2,180 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, Search } from "lucide-react";
+import { Heart, Menu, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { UserMenu } from "@/components/auth/user-menu";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
+import { useFavorites } from "@/hooks/use-favorites";
 
 const links = [
   { href: "/marques", label: "Marques" },
+  { href: "/meilleur", label: "Classements" },
   { href: "/comparer", label: "Comparer" },
   { href: "/family-fit", label: "Family Fit" },
+  { href: "/coffre", label: "Coffre" },
+  { href: "/tco", label: "TCO" },
   { href: "/recherche", label: "Recherche" },
 ];
 
 export function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const { favorites } = useFavorites();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-[var(--border-subtle)] bg-glass">
       <div className="mx-auto flex h-14 max-w-7xl items-center px-4 sm:px-6">
-        <Link href="/" className="mr-6 flex items-center gap-2 font-bold">
-          <span className="text-xl tracking-tight">FLM</span>
-          <span className="text-xs text-muted-foreground">AUTO</span>
+        {/* Logo */}
+        <Link href="/" className="mr-8 flex items-baseline gap-1.5">
+          <span className="font-display text-xl font-bold tracking-tight text-white">
+            FLM
+          </span>
+          <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+            Auto
+          </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 md:flex">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={cn(
-                "rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground",
-                pathname.startsWith(link.href)
-                  ? "bg-accent text-accent-foreground"
-                  : "text-muted-foreground"
-              )}
-            >
-              {link.label}
-            </Link>
-          ))}
+        {/* Desktop nav */}
+        <nav aria-label="Navigation principale" className="hidden items-center gap-0.5 md:flex">
+          {links.map((link) => {
+            const isActive = pathname.startsWith(link.href);
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                data-tour={
+                  link.href === "/marques"
+                    ? "brands"
+                    : link.href === "/comparer"
+                      ? "compare"
+                      : undefined
+                }
+                className={cn(
+                  "relative px-3 py-2 text-sm font-medium transition-colors",
+                  isActive
+                    ? "text-white"
+                    : "text-[#707085] hover:text-[#a0a0b5]"
+                )}
+              >
+                {link.label}
+                {isActive && (
+                  <span className="absolute inset-x-3 -bottom-[calc(0.5rem+1px)] h-[2px] rounded-full bg-primary" />
+                )}
+              </Link>
+            );
+          })}
         </nav>
 
+        {/* Right section */}
         <div className="ml-auto flex items-center gap-2">
+          {/* Search trigger */}
           <button
+            data-tour="search"
             onClick={() =>
               window.dispatchEvent(new Event("open-command-palette"))
             }
-            className="hidden items-center gap-2 rounded-md border bg-muted/50 px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted md:flex"
+            className="hidden items-center gap-2 rounded-lg border border-[var(--border-subtle)] bg-[var(--bg-tertiary)] px-3 py-1.5 text-sm text-muted-foreground transition-all hover:border-[var(--border-default)] hover:text-[#a0a0b5] md:flex"
           >
             <Search className="h-3.5 w-3.5" />
-            <span>Rechercher...</span>
-            <kbd className="pointer-events-none ml-2 rounded border bg-background px-1.5 py-0.5 font-mono text-[10px] font-medium">
+            <span>Rechercher…</span>
+            <kbd className="pointer-events-none ml-2 rounded border border-[var(--border-default)] bg-[var(--bg-elevated)] px-1.5 py-0.5 text-mono text-[10px] font-medium">
               ⌘K
             </kbd>
           </button>
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="text-muted-foreground hover:text-white md:hidden"
             onClick={() =>
               window.dispatchEvent(new Event("open-command-palette"))
             }
           >
             <Search className="h-4 w-4" />
           </Button>
-          <ThemeToggle />
 
+          <UserMenu />
+
+          {/* Favorites */}
+          <Link
+            href="/favoris"
+            aria-label="Mes favoris"
+            className={cn(
+              "relative inline-flex items-center justify-center rounded-md p-2 transition-colors hover:bg-[var(--bg-hover)]",
+              pathname === "/favoris"
+                ? "text-red-500"
+                : "text-muted-foreground"
+            )}
+          >
+            <Heart
+              className={cn(
+                "h-4 w-4",
+                favorites.length > 0 && "fill-red-500 text-red-500"
+              )}
+            />
+            {favorites.length > 0 && (
+              <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white">
+                {favorites.length > 99 ? "99" : favorites.length}
+              </span>
+            )}
+          </Link>
+
+          {/* Mobile menu */}
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="md:hidden">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-muted-foreground hover:text-white md:hidden"
+              >
                 <Menu className="h-5 w-5" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-72">
-              <nav className="mt-8 flex flex-col gap-2">
+            <SheetContent
+              side="right"
+              className="w-72 border-[var(--border-subtle)] bg-[var(--bg-primary)]"
+            >
+              <nav className="mt-8 flex flex-col gap-1">
                 {links.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
                     onClick={() => setOpen(false)}
                     className={cn(
-                      "rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent",
+                      "rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
                       pathname.startsWith(link.href)
-                        ? "bg-accent text-accent-foreground"
-                        : "text-muted-foreground"
+                        ? "bg-[var(--bg-tertiary)] text-white"
+                        : "text-muted-foreground hover:bg-[var(--bg-tertiary)] hover:text-white"
                     )}
                   >
                     {link.label}
                   </Link>
                 ))}
+                <Link
+                  href="/favoris"
+                  onClick={() => setOpen(false)}
+                  className={cn(
+                    "flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
+                    pathname === "/favoris"
+                      ? "bg-[var(--bg-tertiary)] text-white"
+                      : "text-muted-foreground hover:bg-[var(--bg-tertiary)] hover:text-white"
+                  )}
+                >
+                  <Heart
+                    className={cn(
+                      "h-4 w-4",
+                      favorites.length > 0 && "fill-red-500 text-red-500"
+                    )}
+                  />
+                  Favoris
+                  {favorites.length > 0 && (
+                    <span className="ml-auto rounded-full bg-red-500 px-1.5 py-0.5 text-[10px] font-bold text-white">
+                      {favorites.length}
+                    </span>
+                  )}
+                </Link>
               </nav>
             </SheetContent>
           </Sheet>

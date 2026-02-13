@@ -261,8 +261,8 @@ export default function ComparerPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <h1 className="text-3xl font-bold">Comparateur</h1>
-      <p className="mt-1 text-muted-foreground">
+      <h1 className="font-display text-3xl font-bold sm:text-4xl">Comparateur</h1>
+      <p className="mt-2 text-muted-foreground">
         Comparez jusqu&apos;&agrave; 4 v&eacute;hicules c&ocirc;te &agrave; c&ocirc;te
       </p>
 
@@ -272,7 +272,7 @@ export default function ComparerPage() {
           <Badge
             key={v.id}
             variant="secondary"
-            className="flex items-center gap-2 px-3 py-1.5 text-sm"
+            className="surface-3 flex items-center gap-2 px-3 py-1.5 text-sm"
           >
             {v.brand} {v.model} {v.generation}
             <button onClick={() => removeVehicle(v.id)}>
@@ -293,7 +293,7 @@ export default function ComparerPage() {
             className="pl-9"
           />
           {results.length > 0 && (
-            <div className="absolute z-10 mt-1 w-full rounded-lg border bg-popover shadow-lg">
+            <div className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg surface-2 border border-[var(--border-subtle)] shadow-lg">
               {results
                 .filter((r) => !selected.some((s) => s.id === r.id))
                 .slice(0, 6)
@@ -301,7 +301,7 @@ export default function ComparerPage() {
                   <button
                     key={r.id}
                     onClick={() => addVehicle(r)}
-                    className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-accent"
+                    className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:surface-3 transition-colors"
                   >
                     <Plus className="h-3 w-3 text-muted-foreground" />
                     {r.label}
@@ -332,11 +332,11 @@ export default function ComparerPage() {
         <div className="mt-8 space-y-6">
           {/* Winner banner */}
           {winnerIdx >= 0 && (
-            <Card className="border-yellow-500/50 bg-yellow-50 dark:bg-yellow-950/20">
-              <CardContent className="flex items-center gap-3 p-4">
+            <div className="podium-1 rounded-xl border border-yellow-500/30 surface-3 p-5">
+              <div className="flex items-center gap-3">
                 <Trophy className="h-6 w-6 text-yellow-500" />
                 <div>
-                  <p className="font-semibold">
+                  <p className="font-display font-bold text-white">
                     {compareData.vehicles[winnerIdx].brand}{" "}
                     {compareData.vehicles[winnerIdx].model} remporte le duel !
                   </p>
@@ -344,8 +344,8 @@ export default function ComparerPage() {
                     Meilleur score global sur les performances et la s&eacute;curit&eacute;
                   </p>
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           )}
 
           {/* Insights */}
@@ -378,7 +378,7 @@ export default function ComparerPage() {
           />
 
           {/* Actions bar */}
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
             <div className="flex items-center gap-2">
               <Switch checked={diffOnly} onCheckedChange={setDiffOnly} id="diff-toggle" />
               <label htmlFor="diff-toggle" className="flex items-center gap-1.5 text-sm font-medium cursor-pointer">
@@ -386,7 +386,7 @@ export default function ComparerPage() {
                 Diff\u00e9rences uniquement
               </label>
             </div>
-            <div className="ml-auto flex items-center gap-2">
+            <div className="flex items-center gap-2 sm:ml-auto">
               <Button variant="outline" size="sm" onClick={handleExportPDF} disabled={exporting}>
                 {exporting ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Download className="mr-2 h-4 w-4" />}
                 Exporter PDF
@@ -538,15 +538,15 @@ function CompareTable({
   const categories = buildCategories(vehicles);
 
   return (
-    <div className="overflow-x-auto rounded-lg border">
+    <div className="overflow-x-auto rounded-lg surface-2 border border-[var(--border-subtle)]">
       <Table>
         <TableHeader>
-          <TableRow>
-            <TableHead className="w-40">Caract\u00e9ristique</TableHead>
+          <TableRow className="border-[var(--border-subtle)]">
+            <TableHead className="w-40 text-xs uppercase tracking-wider text-muted-foreground">Caract\u00e9ristique</TableHead>
             {vehicles.map((v, i) => (
               <TableHead key={v.id} className="text-center">
                 <div className="flex items-center justify-center gap-1">
-                  <span className="font-semibold">{v.brand}</span>
+                  <span className="font-semibold text-white">{v.brand}</span>
                   {i === winnerIdx && (
                     <Trophy className="h-4 w-4 text-yellow-500" />
                   )}
@@ -585,8 +585,8 @@ function CategorySection({
 }) {
   return (
     <>
-      <TableRow>
-        <TableCell colSpan={colSpan} className="bg-muted/50 py-1.5 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+      <TableRow className="border-[var(--border-subtle)]">
+        <TableCell colSpan={colSpan} className="surface-3 py-2 text-xs font-semibold uppercase tracking-wider text-primary/70">
           {title}
         </TableCell>
       </TableRow>
@@ -620,13 +620,13 @@ function CompareRow({
   }
 
   return (
-    <TableRow>
-      <TableCell className="font-medium">{label}</TableCell>
+    <TableRow className="border-[var(--border-subtle)]">
+      <TableCell className="font-medium text-muted-foreground">{label}</TableCell>
       {values.map((val, i) => (
         <TableCell
           key={i}
-          className={`text-center font-mono ${
-            i === bestIdx ? "font-bold text-primary" : ""
+          className={`text-center text-mono ${
+            i === bestIdx ? "font-bold text-primary" : "text-white"
           }`}
         >
           {val}

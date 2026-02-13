@@ -47,6 +47,7 @@ const SpecsRadar = dynamic(() => import("@/components/vehicle/specs-radar").then
 import { ProsCons } from "@/components/vehicle/pros-cons";
 import { generateProsCons } from "@/lib/generate-pros-cons";
 import { generateVehicleSchema } from "@/lib/schema/vehicle-schema";
+import { ConfidenceBadge } from "@/components/confidence-badge";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -145,8 +146,9 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
       .limit(50),
     db
       .from("vehicle_images")
-      .select("id, url, image_type, source")
+      .select("id, url, image_type, source, confidence")
       .eq("generation_id", generation.id)
+      .neq("confidence", "E")
       .limit(30),
     db
       .from("safety_ratings")
@@ -304,23 +306,23 @@ export default async function VehiclePage({ params }: Props) {
         />
       ) : (
         /* Fallback header when no images */
-        <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6">
+        <div className="grain mx-auto max-w-7xl px-4 pt-12 pb-8 sm:px-6">
           <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
-            <Link href="/marques" className="hover:text-foreground">Marques</Link>
+            <Link href="/marques" className="hover:text-primary">Marques</Link>
             <span>/</span>
-            <Link href={`/marques/${bs}`} className="hover:text-foreground">{brand.name}</Link>
+            <Link href={`/marques/${bs}`} className="hover:text-primary">{brand.name}</Link>
             <span>/</span>
-            <Link href={`/marques/${bs}/${ms}`} className="hover:text-foreground">{model.name}</Link>
+            <Link href={`/marques/${bs}/${ms}`} className="hover:text-primary">{model.name}</Link>
             <span>/</span>
-            <span className="text-foreground">{genLbl}</span>
+            <span className="text-white">{genLbl}</span>
           </div>
-          <h1 className="mt-4 text-3xl font-bold">
-            {brand.name} {model.name} {genLbl}
+          <h1 className="mt-4 font-display text-4xl font-bold sm:text-5xl">
+            {brand.name} <span className="text-primary">{model.name}</span> {genLbl}
           </h1>
-          <div className="mt-1 flex flex-wrap items-center gap-2 text-muted-foreground">
-            <span>{yearStart || "?"}&ndash;{yearEnd || "..."}</span>
+          <div className="mt-2 flex flex-wrap items-center gap-2 text-muted-foreground">
+            <span className="text-mono">{yearStart || "?"}&ndash;{yearEnd || "..."}</span>
             {generation.body_style && (
-              <Badge variant="secondary">{generation.body_style}</Badge>
+              <Badge variant="secondary" className="surface-3">{generation.body_style}</Badge>
             )}
           </div>
         </div>
@@ -380,7 +382,7 @@ export default async function VehiclePage({ params }: Props) {
 
         {/* Content tabs */}
         <Tabs defaultValue="specs" className="mt-8">
-          <TabsList>
+          <TabsList className="surface-2 w-full flex-nowrap justify-start overflow-x-auto">
             <TabsTrigger value="specs">Motorisations</TabsTrigger>
             <TabsTrigger value="safety">S&eacute;curit&eacute;</TabsTrigger>
             <TabsTrigger value="gallery">Photos ({images.all.length})</TabsTrigger>
@@ -397,23 +399,23 @@ export default async function VehiclePage({ params }: Props) {
             {variants.length === 0 ? (
               <EmptyVariants />
             ) : (
-              <div className="overflow-x-auto rounded-lg border">
+              <div className="overflow-x-auto rounded-lg surface-2 border border-[var(--border-subtle)]">
                 <Table>
                   <TableHeader>
-                    <TableRow>
-                      <TableHead>Motorisation</TableHead>
-                      <TableHead className="text-right">Puissance</TableHead>
-                      <TableHead className="text-right">Couple</TableHead>
-                      <TableHead className="text-right">0-100</TableHead>
-                      <TableHead className="text-right">V.max</TableHead>
-                      <TableHead>Transmission</TableHead>
+                    <TableRow className="border-[var(--border-subtle)]">
+                      <TableHead className="text-xs uppercase tracking-wider text-muted-foreground">Motorisation</TableHead>
+                      <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">Puissance</TableHead>
+                      <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">Couple</TableHead>
+                      <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">0-100</TableHead>
+                      <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">V.max</TableHead>
+                      <TableHead className="text-xs uppercase tracking-wider text-muted-foreground">Transmission</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {variants.map((v) => (
-                      <TableRow key={v.id}>
+                    {variants.map((v, i) => (
+                      <TableRow key={v.id} className={`border-[var(--border-subtle)] ${i % 2 === 1 ? "surface-3" : ""}`}>
                         <TableCell>
-                          <div className="font-medium">{v.name}</div>
+                          <div className="font-medium text-white">{v.name}</div>
                           <div className="text-xs text-muted-foreground">
                             {v.fuel_type && <span>{v.fuel_type}</span>}
                             {v.displacement_cc && (
@@ -422,20 +424,20 @@ export default async function VehiclePage({ params }: Props) {
                             {v.cylinders && <span> {v.cylinders}cyl</span>}
                           </div>
                         </TableCell>
-                        <TableCell className="text-right font-mono">
+                        <TableCell className="text-right text-mono font-bold text-white">
                           {v.power_hp ? `${v.power_hp} ch` : "\u2014"}
                         </TableCell>
-                        <TableCell className="text-right font-mono">
+                        <TableCell className="text-right text-mono text-white">
                           {v.torque_nm ? `${v.torque_nm} Nm` : "\u2014"}
                         </TableCell>
-                        <TableCell className="text-right font-mono">
+                        <TableCell className="text-right text-mono text-white">
                           {v.acceleration_0_100 ? `${v.acceleration_0_100}s` : "\u2014"}
                         </TableCell>
-                        <TableCell className="text-right font-mono">
+                        <TableCell className="text-right text-mono text-white">
                           {v.top_speed_kmh ? `${v.top_speed_kmh} km/h` : "\u2014"}
                         </TableCell>
                         <TableCell>
-                          <div className="text-sm">
+                          <div className="text-sm text-white">
                             {v.transmission || "\u2014"}
                           </div>
                           {v.drivetrain && (
@@ -453,37 +455,29 @@ export default async function VehiclePage({ params }: Props) {
 
             {/* Pricing / Malus */}
             {pricing && pricing.co2_gkm && (
-              <Card className="mt-6">
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <Fuel className="h-4 w-4" /> &Eacute;missions &amp; Malus
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-3 gap-4 text-center">
-                    <div>
-                      <div className="text-2xl font-bold">{pricing.co2_gkm}</div>
-                      <div className="text-xs text-muted-foreground">g CO2/km</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold">
-                        {pricing.malus_2024_eur > 0
-                          ? `${pricing.malus_2024_eur.toLocaleString("fr-FR")} \u20ac`
-                          : "0 \u20ac"}
-                      </div>
-                      <div className="text-xs text-muted-foreground">Malus 2024</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold">
-                        {pricing.malus_2025_eur > 0
-                          ? `${pricing.malus_2025_eur.toLocaleString("fr-FR")} \u20ac`
-                          : "0 \u20ac"}
-                      </div>
-                      <div className="text-xs text-muted-foreground">Malus 2025</div>
-                    </div>
+              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+                <div className="surface-3 rounded-xl border border-[var(--border-subtle)] p-4 text-center">
+                  <Fuel className="mx-auto mb-2 h-4 w-4 text-primary/50" />
+                  <div className="text-mono text-2xl font-bold text-white">{pricing.co2_gkm}</div>
+                  <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">g CO2/km</div>
+                </div>
+                <div className="surface-3 rounded-xl border border-[var(--border-subtle)] p-4 text-center">
+                  <div className="text-mono text-2xl font-bold text-white">
+                    {pricing.malus_2024_eur > 0
+                      ? `${pricing.malus_2024_eur.toLocaleString("fr-FR")} \u20ac`
+                      : "0 \u20ac"}
                   </div>
-                </CardContent>
-              </Card>
+                  <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">Malus 2024</div>
+                </div>
+                <div className="surface-3 rounded-xl border border-[var(--border-subtle)] p-4 text-center">
+                  <div className="text-mono text-2xl font-bold text-white">
+                    {pricing.malus_2025_eur > 0
+                      ? `${pricing.malus_2025_eur.toLocaleString("fr-FR")} \u20ac`
+                      : "0 \u20ac"}
+                  </div>
+                  <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">Malus 2025</div>
+                </div>
+              </div>
             )}
           </TabsContent>
 
@@ -498,22 +492,23 @@ export default async function VehiclePage({ params }: Props) {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="mb-4 flex items-center gap-1">
+                  <div className="mb-6 flex items-center gap-1">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star
                         key={i}
-                        className={`h-6 w-6 ${
+                        className={`h-7 w-7 ${
                           i < (safety.stars || 0)
                             ? "fill-yellow-400 text-yellow-400"
-                            : "text-muted-foreground"
+                            : "text-muted-foreground/30"
                         }`}
                       />
                     ))}
-                    <span className="ml-2 text-lg font-bold">
+                    <span className="ml-3 text-mono text-xl font-bold text-white">
                       {safety.stars}/5
                     </span>
+                    <ConfidenceBadge tier={safety.confidence} size="sm" />
                   </div>
-                  <div className="space-y-4">
+                  <div className="space-y-5">
                     {safety.adult_occupant_pct != null && (
                       <ScoreBar label="Adultes" value={safety.adult_occupant_pct} />
                     )}
@@ -542,7 +537,7 @@ export default async function VehiclePage({ params }: Props) {
               <div className="space-y-8">
                 {images.exteriors.length > 0 && (
                   <section>
-                    <h3 className="mb-3 font-semibold">
+                    <h3 className="mb-3 font-display font-semibold text-white">
                       Ext&eacute;rieur ({images.exteriors.length})
                     </h3>
                     <ImageGrid images={images.exteriors} alt={`${brand.name} ${model.name}`} />
@@ -550,7 +545,7 @@ export default async function VehiclePage({ params }: Props) {
                 )}
                 {images.interiors.length > 0 && (
                   <section>
-                    <h3 className="mb-3 font-semibold">
+                    <h3 className="mb-3 font-display font-semibold text-white">
                       Int&eacute;rieur ({images.interiors.length})
                     </h3>
                     <ImageGrid images={images.interiors} alt={`${brand.name} ${model.name} int\u00e9rieur`} />
@@ -558,7 +553,7 @@ export default async function VehiclePage({ params }: Props) {
                 )}
                 {images.technicals.length > 0 && (
                   <section>
-                    <h3 className="mb-3 font-semibold">
+                    <h3 className="mb-3 font-display font-semibold text-white">
                       Technique ({images.technicals.length})
                     </h3>
                     <ImageGrid images={images.technicals} alt={`${brand.name} ${model.name} technique`} />
@@ -669,23 +664,25 @@ export default async function VehiclePage({ params }: Props) {
 
         {/* TCO Preview */}
         {pricing && pricing.co2_gkm && (
-          <Card className="mt-6">
-            <CardContent className="flex items-center gap-4 p-4">
-              <Calculator className="h-8 w-8 shrink-0 text-primary" />
+          <div className="mt-6 surface-3 rounded-xl border border-[var(--border-subtle)] p-5">
+            <div className="flex items-center gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg surface-2">
+                <Calculator className="h-6 w-6 text-primary" />
+              </div>
               <div className="flex-1">
-                <p className="font-semibold">Combien co&ucirc;te vraiment cette voiture ?</p>
+                <p className="font-semibold text-white">Combien co&ucirc;te vraiment cette voiture ?</p>
                 <p className="text-sm text-muted-foreground">
                   D&eacute;couvrez le co&ucirc;t mensuel r&eacute;el avec notre calculateur TCO
                 </p>
               </div>
               <a
                 href="/tco"
-                className="shrink-0 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+                className="shrink-0 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/20 hover:bg-primary/90 transition-colors"
               >
                 Calculer
               </a>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         )}
 
         {/* Garage Fit */}
@@ -698,7 +695,10 @@ export default async function VehiclePage({ params }: Props) {
 
         {/* Sub-page navigation */}
         <div className="mt-10">
-          <h2 className="mb-4 text-lg font-semibold">Explorer en d&eacute;tail</h2>
+          <div className="mb-6 flex items-center gap-3">
+            <div className="h-0.5 w-8 rounded-full bg-primary" />
+            <h2 className="font-display text-2xl font-bold">Explorer en d&eacute;tail</h2>
+          </div>
           <VehicleNav basePath={`/marques/${bs}/${ms}/${gs}`} />
         </div>
 
@@ -713,13 +713,20 @@ export default async function VehiclePage({ params }: Props) {
 }
 
 function ScoreBar({ label, value }: { label: string; value: number }) {
+  const tier =
+    value >= 80 ? "excellent" : value >= 60 ? "good" : value >= 40 ? "average" : "poor";
   return (
     <div>
-      <div className="mb-1 flex items-center justify-between text-sm">
-        <span>{label}</span>
-        <span className="font-mono font-medium">{value}%</span>
+      <div className="mb-1.5 flex items-center justify-between text-sm">
+        <span className="text-muted-foreground">{label}</span>
+        <span className="text-mono font-bold text-white">{value}%</span>
       </div>
-      <Progress value={value} className="h-2" />
+      <div className="h-2 overflow-hidden rounded-full bg-[var(--bg-tertiary)]">
+        <div
+          className={`bar-animate h-full rounded-full bar-perf-${tier}`}
+          style={{ width: `${value}%` }}
+        />
+      </div>
     </div>
   );
 }
@@ -734,12 +741,12 @@ function StatCard({
   suffix?: string;
 }) {
   return (
-    <div className="rounded-lg border p-4 text-center">
-      <div className="text-2xl font-bold">
+    <div className="surface-3 rounded-xl border border-[var(--border-subtle)] p-4 text-center">
+      <div className="text-mono text-2xl font-bold text-white">
         {value}
         {suffix && <span className="ml-1 text-sm font-normal text-muted-foreground">{suffix}</span>}
       </div>
-      <div className="mt-1 text-xs text-muted-foreground">{label}</div>
+      <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">{label}</div>
     </div>
   );
 }
@@ -756,13 +763,13 @@ function ImageGrid({
       {images.map((img) => (
         <div
           key={img.id}
-          className="relative aspect-[4/3] overflow-hidden rounded-lg bg-muted"
+          className="group relative aspect-[4/3] overflow-hidden rounded-lg surface-2"
         >
           <Image
             src={img.url}
             alt={alt}
             fill
-            className="object-cover"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
             sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
           />
         </div>
