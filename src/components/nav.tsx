@@ -88,6 +88,7 @@ export function Nav() {
           <Button
             variant="ghost"
             size="icon"
+            aria-label="Rechercher"
             className="text-muted-foreground hover:text-white md:hidden"
             onClick={() =>
               window.dispatchEvent(new Event("open-command-palette"))

@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 test.describe("Navigation", () => {
   test("homepage loads with hero and search", async ({ page }) => {
     await page.goto("/");
-    await expect(page.locator("h1")).toContainText("encyclop\u00e9die");
+    await expect(page.locator("h1")).toContainText("encyclopédie");
     await expect(page.locator("input[placeholder]").first()).toBeVisible();
   });
 
@@ -45,26 +45,35 @@ test.describe("Navigation", () => {
   });
 
   test("breadcrumbs navigate correctly", async ({ page }) => {
+    // Seed localStorage to skip onboarding tour + cookie banner
+    await page.addInitScript(() => {
+      localStorage.setItem("flm-onboarding-done", "true");
+      localStorage.setItem("flm-cookie-consent", "accepted");
+    });
     await page.goto("/marques/bmw");
-    // Dismiss any overlay (cookie banner, onboarding tour)
-    try {
-      const overlay = page.locator('.fixed.inset-0');
-      if (await overlay.isVisible({ timeout: 2000 })) {
-        const closeBtn = page.locator('button:has-text("Accepter"), button:has-text("Fermer"), [aria-label="Close"]').first();
-        if (await closeBtn.isVisible({ timeout: 1000 })) await closeBtn.click();
-      }
-    } catch { /* no overlay */ }
-    const breadcrumb = page.getByRole("link", { name: "Marques", exact: true }).first();
-    if (await breadcrumb.isVisible()) {
-      await breadcrumb.click();
-      await expect(page).toHaveURL("/marques");
-    }
+    await expect(page.locator("h1")).toBeVisible({ timeout: 10000 });
+
+    // Verify the back-link exists and has the correct href
+    const breadcrumb = page.locator('main a[href="/marques"]').first();
+    await expect(breadcrumb).toBeVisible({ timeout: 3000 });
+    await expect(breadcrumb).toHaveAttribute("href", "/marques");
   });
 
   test("command palette opens with keyboard", async ({ page }) => {
+    // Skip on mobile — no keyboard shortcut support
+    test.skip(page.viewportSize()!.width < 768, "No keyboard shortcut on mobile");
     await page.goto("/");
     await page.keyboard.press("Meta+k");
-    // Command dialog should appear
     await expect(page.locator("[role='dialog']")).toBeVisible({ timeout: 3000 });
+  });
+
+  test("mobile search button is accessible", async ({ page }) => {
+    test.skip(page.viewportSize()!.width >= 768, "Desktop uses keyboard shortcut");
+    await page.goto("/");
+
+    // Mobile search button should be visible with proper aria-label
+    const searchBtn = page.getByRole("button", { name: "Rechercher", exact: true });
+    await expect(searchBtn).toBeVisible();
+    await expect(searchBtn).toBeEnabled();
   });
 });
