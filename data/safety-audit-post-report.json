@@ -1,0 +1,351 @@
+{
+  "timestamp": "2026-02-13T20:11:43.311Z",
+  "total_generations": 4268,
+  "by_tier": {
+    "A": 736,
+    "B": 946,
+    "C": 641,
+    "D": 1284,
+    "E": 110,
+    "null": 0
+  },
+  "verified_count": 1682,
+  "verified_pct": 39.4,
+  "trustworthy_count": 2323,
+  "trustworthy_pct": 54.4,
+  "all_rated_count": 3607,
+  "all_rated_pct": 84.5,
+  "coverage_pct": 87.1,
+  "unrated_count": 551,
+  "star_distribution": {
+    "1": 0,
+    "2": 566,
+    "3": 389,
+    "4": 918,
+    "5": 1844
+  },
+  "top_20_unrated": [
+    {
+      "id": "4f9b68dc-0846-4b04-a2f6-829525ee4df9",
+      "brand": "Porsche",
+      "model": "911",
+      "gen": "Default",
+      "body_style": "?",
+      "variants": 143
+    },
+    {
+      "id": "8eb7a916-65af-4cd2-9015-1a363da92c0c",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "E46",
+      "body_style": "?",
+      "variants": 82
+    },
+    {
+      "id": "c6a3b0de-0d3a-4578-bcdb-fe948179304e",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "E39",
+      "body_style": "?",
+      "variants": 44
+    },
+    {
+      "id": "f3cfccdc-0ad4-4cea-b512-2df0f63d3f7a",
+      "brand": "Volkswagen",
+      "model": "Crafter",
+      "gen": "Default",
+      "body_style": "?",
+      "variants": 33
+    },
+    {
+      "id": "d0587300-e522-42a4-aee4-727e41eb6082",
+      "brand": "Porsche",
+      "model": "718",
+      "gen": "Default",
+      "body_style": "?",
+      "variants": 28
+    },
+    {
+      "id": "f843122e-3a2c-4eff-b33c-c2873f634e9f",
+      "brand": "Mercedes-Benz",
+      "model": "W114-W115",
+      "gen": "W114",
+      "body_style": "?",
+      "variants": 27
+    },
+    {
+      "id": "a52e7b97-c247-4ffe-8f23-9d3653ba96e3",
+      "brand": "Volkswagen",
+      "model": "T6",
+      "gen": "T6 Transporter   Multivan   Caravelle",
+      "body_style": "?",
+      "variants": 26
+    },
+    {
+      "id": "e2f1ae2a-2138-4701-93ef-2d92df5c5e4c",
+      "brand": "BMW",
+      "model": "Z",
+      "gen": "Default",
+      "body_style": "?",
+      "variants": 24
+    },
+    {
+      "id": "7e7306f4-3980-4025-981d-139638045e1c",
+      "brand": "Porsche",
+      "model": "911",
+      "gen": "911 Coupe  9912 Series",
+      "body_style": "?",
+      "variants": 22
+    },
+    {
+      "id": "1fac071a-ceb1-48db-b996-de172a6f26f8",
+      "brand": "Volkswagen",
+      "model": "Transporter",
+      "gen": "Transporter T52 SWB Medium High Roof",
+      "body_style": "?",
+      "variants": 22
+    },
+    {
+      "id": "8d694f4d-483b-4540-9213-2a6c37a4cf53",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F20",
+      "body_style": "?",
+      "variants": 22
+    },
+    {
+      "id": "f79c090b-7fdf-46d4-971a-65110892c54b",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F21",
+      "body_style": "?",
+      "variants": 22
+    },
+    {
+      "id": "d0e09543-33c8-46dd-8813-28528720a411",
+      "brand": "Audi",
+      "model": "100",
+      "gen": "Default",
+      "body_style": "?",
+      "variants": 22
+    },
+    {
+      "id": "1505eaf2-2910-452f-8b24-43cb3281da29",
+      "brand": "Porsche",
+      "model": "911",
+      "gen": "911 Coupe  9921 Series",
+      "body_style": "?",
+      "variants": 21
+    },
+    {
+      "id": "7b1350fb-e82e-46aa-815c-89a85502040e",
+      "brand": "Volkswagen",
+      "model": "Transporter",
+      "gen": "Transporter T61",
+      "body_style": "?",
+      "variants": 20
+    },
+    {
+      "id": "bf6b66fe-da8d-4cfb-afce-e4f4452da7c3",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F36",
+      "body_style": "?",
+      "variants": 19
+    },
+    {
+      "id": "b160ffd3-71ad-438b-a2e9-c4df9f83b99c",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F32",
+      "body_style": "?",
+      "variants": 19
+    },
+    {
+      "id": "8c8f715f-e2dc-4017-8ca1-42134770f382",
+      "brand": "Porsche",
+      "model": "911",
+      "gen": "911  997",
+      "body_style": "?",
+      "variants": 18
+    },
+    {
+      "id": "eaeed54e-8c05-4245-aaa8-da8aad801ccc",
+      "brand": "BMW",
+      "model": "Z",
+      "gen": "E89",
+      "body_style": "?",
+      "variants": 18
+    },
+    {
+      "id": "121fb3ab-bfa5-4152-afa5-060e669694a8",
+      "brand": "Mercedes-Benz",
+      "model": "CLS Shooting Brake",
+      "gen": "X218",
+      "body_style": "?",
+      "variants": 17
+    }
+  ],
+  "by_brand": {
+    "Toyota": {
+      "total": 535,
+      "rated": 519,
+      "verified": 178
+    },
+    "Volkswagen": {
+      "total": 465,
+      "rated": 391,
+      "verified": 241
+    },
+    "Audi": {
+      "total": 445,
+      "rated": 413,
+      "verified": 236
+    },
+    "Mercedes-Benz": {
+      "total": 435,
+      "rated": 367,
+      "verified": 106
+    },
+    "Nissan": {
+      "total": 359,
+      "rated": 351,
+      "verified": 124
+    },
+    "BMW": {
+      "total": 250,
+      "rated": 179,
+      "verified": 152
+    },
+    "Renault": {
+      "total": 246,
+      "rated": 220,
+      "verified": 64
+    },
+    "Hyundai": {
+      "total": 220,
+      "rated": 218,
+      "verified": 118
+    },
+    "Kia": {
+      "total": 189,
+      "rated": 187,
+      "verified": 102
+    },
+    "Honda": {
+      "total": 186,
+      "rated": 174,
+      "verified": 83
+    },
+    "Mazda": {
+      "total": 169,
+      "rated": 166,
+      "verified": 62
+    },
+    "Peugeot": {
+      "total": 163,
+      "rated": 147,
+      "verified": 17
+    },
+    "Porsche": {
+      "total": 137,
+      "rated": 64,
+      "verified": 27
+    },
+    "Skoda": {
+      "total": 113,
+      "rated": 97,
+      "verified": 50
+    },
+    "Volvo": {
+      "total": 113,
+      "rated": 104,
+      "verified": 52
+    },
+    "Fiat": {
+      "total": 33,
+      "rated": 6,
+      "verified": 3
+    },
+    "Lamborghini": {
+      "total": 27,
+      "rated": 3,
+      "verified": 0
+    },
+    "Ford": {
+      "total": 27,
+      "rated": 16,
+      "verified": 16
+    },
+    "Alfa Romeo": {
+      "total": 25,
+      "rated": 6,
+      "verified": 4
+    },
+    "Opel": {
+      "total": 23,
+      "rated": 10,
+      "verified": 9
+    },
+    "Seat": {
+      "total": 15,
+      "rated": 8,
+      "verified": 8
+    },
+    "Ferrari": {
+      "total": 13,
+      "rated": 11,
+      "verified": 0
+    },
+    "Lexus": {
+      "total": 13,
+      "rated": 12,
+      "verified": 9
+    },
+    "Jaguar": {
+      "total": 12,
+      "rated": 7,
+      "verified": 4
+    },
+    "Mini": {
+      "total": 10,
+      "rated": 6,
+      "verified": 3
+    },
+    "Land Rover": {
+      "total": 9,
+      "rated": 7,
+      "verified": 6
+    },
+    "Citroen": {
+      "total": 8,
+      "rated": 8,
+      "verified": 3
+    },
+    "Tesla": {
+      "total": 6,
+      "rated": 6,
+      "verified": 5
+    },
+    "Maserati": {
+      "total": 6,
+      "rated": 4,
+      "verified": 0
+    },
+    "Aston Martin": {
+      "total": 6,
+      "rated": 4,
+      "verified": 0
+    },
+    "Rolls-Royce": {
+      "total": 6,
+      "rated": 4,
+      "verified": 0
+    },
+    "Bentley": {
+      "total": 4,
+      "rated": 2,
+      "verified": 0
+    }
+  }
+}

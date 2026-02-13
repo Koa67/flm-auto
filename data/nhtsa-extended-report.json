@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-13T20:11:22.011Z",
+  "mode": "live",
+  "years": "2000-2010",
+  "total_nhtsa_ratings": 0,
+  "unique_ratings": 0,
+  "matched": 0,
+  "skipped": 0,
+  "no_match": 0,
+  "upserted": 0
+}
