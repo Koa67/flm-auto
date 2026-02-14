@@ -149,7 +149,7 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
       .limit(50),
     db
       .from("vehicle_images")
-      .select("id, url, image_type, source, confidence")
+      .select("id, url, image_type, source, confidence, width")
       .eq("generation_id", generation.id)
       .neq("confidence", "E")
       .limit(30),
@@ -230,10 +230,19 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
     .filter((v) => v.power_hp || v.displacement_cc)
     .sort((a, b) => (b.power_hp || 0) - (a.power_hp || 0));
 
+  // Sort images by quality: confidence tier + type + width
+  const CONF_WEIGHT: Record<string, number> = { A: 10, B: 8, C: 6, D: 4, E: 2 };
+  const TYPE_WEIGHT: Record<string, number> = { exterior: 6, interior: 4, blueprint: 3, technical: 3, cutaway: 3, diagram: 2 };
+  const sortedImages = (images || []).sort((a, b) => {
+    const sa = (CONF_WEIGHT[a.confidence] || 2) + (TYPE_WEIGHT[a.image_type] || 1) + Math.min((a.width || 0) / 200, 5);
+    const sb = (CONF_WEIGHT[b.confidence] || 2) + (TYPE_WEIGHT[b.image_type] || 1) + Math.min((b.width || 0) / 200, 5);
+    return sb - sa;
+  });
+
   // Group images
-  const exteriors = (images || []).filter((i) => i.image_type === "exterior");
-  const interiors = (images || []).filter((i) => i.image_type === "interior");
-  const technicals = (images || []).filter((i) =>
+  const exteriors = sortedImages.filter((i) => i.image_type === "exterior");
+  const interiors = sortedImages.filter((i) => i.image_type === "interior");
+  const technicals = sortedImages.filter((i) =>
     ["blueprint", "diagram", "technical", "cutaway"].includes(i.image_type)
   );
 

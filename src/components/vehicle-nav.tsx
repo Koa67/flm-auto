@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 
 const subPages = [
   { slug: "fiche-technique", label: "Fiche technique" },
+  { slug: "fiabilite", label: "Fiabilité" },
   { slug: "dimensions", label: "Dimensions" },
   { slug: "securite", label: "Sécurité" },
   { slug: "photos", label: "Photos" },

@@ -1,9 +1,10 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { createServerClient } from "@/lib/supabase-server";
 import { getGenerationBySlug, genLabel } from "@/lib/vehicle-helpers";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { VehicleNav } from "@/components/vehicle-nav";
+import { EmptyPhotos } from "@/components/empty-states";
+import { GalleryPro } from "@/components/vehicle/gallery-pro";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -28,10 +29,19 @@ async function getImages(generationId: string) {
   const db = createServerClient();
   const { data } = await db
     .from("vehicle_images")
-    .select("id, image_url, image_type, source_name, attribution")
+    .select("id, url, image_type, source, alt_text, confidence, width")
     .eq("generation_id", generationId)
-    .limit(50);
-  return data || [];
+    .neq("confidence", "E")
+    .limit(100);
+
+  // Sort by quality: confidence tier + type priority + width
+  const CONF: Record<string, number> = { A: 10, B: 8, C: 6, D: 4, E: 2 };
+  const TYPE: Record<string, number> = { exterior: 6, interior: 4, blueprint: 3, technical: 3, cutaway: 3, diagram: 2 };
+  return (data || []).sort((a, b) => {
+    const sa = (CONF[a.confidence] || 2) + (TYPE[a.image_type] || 1) + Math.min((a.width || 0) / 200, 5);
+    const sb = (CONF[b.confidence] || 2) + (TYPE[b.image_type] || 1) + Math.min((b.width || 0) / 200, 5);
+    return sb - sa;
+  });
 }
 
 export default async function PhotosPage({ params }: Props) {
@@ -42,12 +52,6 @@ export default async function PhotosPage({ params }: Props) {
   const images = await getImages(v.generation.id);
   const label = genLabel(v.generation);
   const basePath = `/marques/${bs}/${ms}/${gs}`;
-
-  const exteriors = images.filter((i) => i.image_type === "exterior");
-  const interiors = images.filter((i) => i.image_type === "interior");
-  const others = images.filter(
-    (i) => !["exterior", "interior"].includes(i.image_type)
-  );
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
@@ -61,82 +65,27 @@ export default async function PhotosPage({ params }: Props) {
         ]}
       />
 
-      <h1 className="mt-4 text-3xl font-bold">
-        Photos {v.brand.name} {v.model.name} {label}
+      <h1 className="mt-4 font-display text-3xl font-bold sm:text-4xl">
+        Photos <span className="text-primary">{v.brand.name} {v.model.name}</span> {label}
       </h1>
       <p className="mt-2 text-muted-foreground">
-        {images.length} photos haute qualité.
+        <span className="text-mono font-semibold text-white">{images.length}</span> photos haute qualité.
       </p>
 
       <div className="mt-6">
         <VehicleNav basePath={basePath} active="photos" />
       </div>
 
-      <div className="mt-8 space-y-10">
-        {exteriors.length > 0 && (
-          <section>
-            <h2 className="mb-4 text-xl font-semibold">
-              Extérieur ({exteriors.length})
-            </h2>
-            <PhotoGrid images={exteriors} alt={`${v.brand.name} ${v.model.name} ${label}`} />
-          </section>
-        )}
-
-        {interiors.length > 0 && (
-          <section>
-            <h2 className="mb-4 text-xl font-semibold">
-              Intérieur ({interiors.length})
-            </h2>
-            <PhotoGrid images={interiors} alt={`${v.brand.name} ${v.model.name} ${label} intérieur`} />
-          </section>
-        )}
-
-        {others.length > 0 && (
-          <section>
-            <h2 className="mb-4 text-xl font-semibold">
-              Autres ({others.length})
-            </h2>
-            <PhotoGrid images={others} alt={`${v.brand.name} ${v.model.name} ${label}`} />
-          </section>
-        )}
-
-        {images.length === 0 && (
-          <p className="text-muted-foreground">
-            Aucune photo disponible pour ce véhicule.
-          </p>
+      <div className="mt-8">
+        {images.length > 0 ? (
+          <GalleryPro
+            images={images}
+            vehicleName={`${v.brand.name} ${v.model.name} ${label}`}
+          />
+        ) : (
+          <EmptyPhotos />
         )}
       </div>
-    </div>
-  );
-}
-
-function PhotoGrid({
-  images,
-  alt,
-}: {
-  images: { id: string; image_url: string; source_name: string; attribution?: string }[];
-  alt: string;
-}) {
-  return (
-    <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
-      {images.map((img) => (
-        <div key={img.id} className="group relative">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-muted">
-            <Image
-              src={img.image_url}
-              alt={alt}
-              fill
-              className="object-cover transition-transform group-hover:scale-105"
-              sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            />
-          </div>
-          {img.source_name && (
-            <p className="mt-1 text-xs text-muted-foreground">
-              {img.source_name}
-            </p>
-          )}
-        </div>
-      ))}
     </div>
   );
 }

@@ -24,7 +24,7 @@ test.describe("TCO Calculator", () => {
   test("TCO link from vehicle page has generation_id param", async ({ page }) => {
     await dismissOverlays(page);
     // Navigate to a vehicle generation page with known data
-    await page.goto("/marques/bmw/serie-3/g20");
+    await page.goto("/marques/volkswagen/volkswagen-golf/volkswagen-golf-golf-8");
     // Wait for the page to load
     await page.waitForTimeout(3000);
     // Check if a TCO link with ?vehicle= exists

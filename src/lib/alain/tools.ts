@@ -155,6 +155,48 @@ export const ALAIN_TOOLS: Anthropic.Tool[] = [
     },
   },
   {
+    name: "get_reliability",
+    description:
+      "Récupère les données de fiabilité d'un véhicule : alertes moteur (red flags), taux de panne TÜV, problèmes connus, score de fiabilité. Utilise ce tool quand l'utilisateur demande si un véhicule est fiable.",
+    input_schema: {
+      type: "object" as const,
+      properties: {
+        generation_id: {
+          type: "string",
+          description: "UUID de la génération",
+        },
+      },
+      required: ["generation_id"],
+    },
+  },
+  {
+    name: "calculate_tco",
+    description:
+      "Calcule le coût total de possession (TCO) d'un véhicule sur une durée donnée. Inclut dépréciation, carburant, assurance, entretien, malus écologique 2025 et carte grise. Retourne le coût mensuel et le détail.",
+    input_schema: {
+      type: "object" as const,
+      properties: {
+        generation_id: {
+          type: "string",
+          description: "UUID de la génération (pour récupérer les données automatiquement)",
+        },
+        prix_achat: {
+          type: "number",
+          description: "Prix d'achat en euros (optionnel si disponible en base)",
+        },
+        km_annuels: {
+          type: "number",
+          description: "Kilométrage annuel estimé (défaut: 15000)",
+        },
+        duree_mois: {
+          type: "number",
+          description: "Durée de détention en mois (défaut: 48)",
+        },
+      },
+      required: ["generation_id"],
+    },
+  },
+  {
     name: "search_and_detail",
     description:
       "Combo : recherche un véhicule par nom puis récupère sa fiche technique complète en une seule étape. Idéal pour les questions 'fiche technique de X', 'specs de X', 'tout sur X'.",

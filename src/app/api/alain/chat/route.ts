@@ -156,8 +156,10 @@ const FAMILY_PATTERN = /\b(isofix|si[eè]ge[s]?\s*(?:enfant|auto|b[eé]b[eé])|f
 const CARGO_PATTERN = /\b(coffre|volume\s*(?:coffre|litres?)|cargo|chargement|valise[s]?)\b/i;
 const SAFETY_PATTERN = /\b(ncap|euro\s*ncap|s[eé]curit[eé]|crash\s*test|[eé]toile[s]?\s*(?:ncap|s[eé]curit[eé])|note\s*s[eé]curit[eé]|safety)\b/i;
 const RECALL_PATTERN = /\b(rappel[s]?|recall[s]?|d[eé]faut|campagne\s*de\s*rappel)\b/i;
+const RELIABILITY_PATTERN = /\b(fiab[il]*[eé]|pannes?|probl[eè]mes?\s*connus?|taux\s*de\s*panne|t[uü]v|d[eé]fauts?|red\s*flags?|points?\s*faibles?)\b/i;
+const TCO_PATTERN = /\b(tco|co[uû]t\s*(?:total|mensuel|r[eé]el|possession)|combien\s*(?:co[uû]te|revient|par\s*mois)|budget\s*mensuel|d[eé]pr[eé]ciation|malus)\b/i;
 
-type DetectedType = "search" | "engine" | "compare" | "family" | "cargo" | "safety" | "recall" | null;
+type DetectedType = "search" | "engine" | "compare" | "family" | "cargo" | "safety" | "recall" | "reliability" | "tco" | null;
 
 function detectVehicleQuery(message: string): { type: DetectedType; query: string } {
   // Check for engine code queries first (most specific)
@@ -197,6 +199,18 @@ function detectVehicleQuery(message: string): { type: DetectedType; query: strin
   if (hasVehicle && RECALL_PATTERN.test(message)) {
     const query = message.replace(/[?!.,;:]/g, "").trim().replace(/\s+/g, " ");
     return { type: "recall", query };
+  }
+
+  // Reliability detection with vehicle
+  if (hasVehicle && RELIABILITY_PATTERN.test(message)) {
+    const query = message.replace(/[?!.,;:]/g, "").trim().replace(/\s+/g, " ");
+    return { type: "reliability", query };
+  }
+
+  // TCO / cost detection with vehicle
+  if (hasVehicle && TCO_PATTERN.test(message)) {
+    const query = message.replace(/[?!.,;:]/g, "").trim().replace(/\s+/g, " ");
+    return { type: "tco", query };
   }
 
   // Generic vehicle search
@@ -315,6 +329,40 @@ async function handleOllama(
             const recallResult = await executeTool("get_recalls", { generation_id: genId });
             toolResult = `Véhicule: ${JSON.stringify(parsed[0])}\nRappels: ${recallResult}`;
             contextLabel = "rappels constructeur";
+          }
+          break;
+        }
+        case "reliability": {
+          const searchResult = await executeTool("search_vehicles", { query: detected.query, limit: 2 });
+          const parsed = JSON.parse(searchResult);
+          let genId: string | null = null;
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            genId = parsed[0].generation_id || parsed[0].generations?.[0]?.id || null;
+          }
+          if (genId) {
+            const reliabilityResult = await executeTool("get_reliability", { generation_id: genId });
+            toolResult = `Véhicule: ${JSON.stringify(parsed[0])}\nFiabilité: ${reliabilityResult}`;
+            contextLabel = "données de fiabilité";
+          } else {
+            toolResult = searchResult;
+            contextLabel = "résultats de recherche";
+          }
+          break;
+        }
+        case "tco": {
+          const searchResult = await executeTool("search_vehicles", { query: detected.query, limit: 2 });
+          const parsed = JSON.parse(searchResult);
+          let genId: string | null = null;
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            genId = parsed[0].generation_id || parsed[0].generations?.[0]?.id || null;
+          }
+          if (genId) {
+            const tcoResult = await executeTool("calculate_tco", { generation_id: genId });
+            toolResult = `Véhicule: ${JSON.stringify(parsed[0])}\nTCO: ${tcoResult}`;
+            contextLabel = "coût total de possession";
+          } else {
+            toolResult = searchResult;
+            contextLabel = "résultats de recherche";
           }
           break;
         }

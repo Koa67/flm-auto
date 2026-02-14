@@ -419,15 +419,228 @@ export async function executeTool(
           .eq("generation_id", genId)
           .neq("confidence", "E")
           .order("width", { ascending: false, nullsFirst: false })
-          .limit(photoLimit);
+          .limit(photoLimit * 2);
+
+        // Sort by quality score in application layer
+        const CONF: Record<string, number> = { A: 10, B: 8, C: 6, D: 4, E: 2 };
+        const TYPE: Record<string, number> = { exterior: 6, interior: 4, blueprint: 3, technical: 3 };
+        const sorted = (data || []).sort((a: any, b: any) => {
+          const sa = (CONF[a.confidence] || 2) + (TYPE[a.image_type] || 1) + Math.min((a.width || 0) / 200, 5);
+          const sb = (CONF[b.confidence] || 2) + (TYPE[b.image_type] || 1) + Math.min((b.width || 0) / 200, 5);
+          return sb - sa;
+        }).slice(0, photoLimit);
 
         return JSON.stringify({
-          count: data?.length || 0,
-          photos: (data || []).map((p: any) => ({
+          count: sorted.length,
+          photos: sorted.map((p: any) => ({
             url: p.url,
             type: p.image_type,
             width: p.width,
           })),
+        });
+      }
+
+      case "get_reliability": {
+        const genId = input.generation_id as string;
+
+        const [
+          { data: variants },
+          { data: tuvSpecs },
+          { data: reliabilityIssues },
+          { data: recallData },
+        ] = await Promise.all([
+          db
+            .from("engine_variants")
+            .select("engine_code, name, fuel_type")
+            .eq("generation_id", genId)
+            .limit(20),
+          db
+            .from("third_party_specs")
+            .select("spec_type, spec_value, raw_data")
+            .eq("generation_id", genId)
+            .like("spec_type", "tuv_%"),
+          db
+            .from("reliability_issues")
+            .select("*")
+            .eq("generation_id", genId),
+          db
+            .from("vehicle_recalls")
+            .select("id", { count: "exact", head: true })
+            .eq("generation_id", genId),
+        ]);
+
+        // Match engine red flags
+        const engineCodes = (variants || []).map((v: any) => v.engine_code).filter(Boolean);
+        const flags: Array<{
+          engine: string;
+          severity: string;
+          title: string;
+          description: string;
+          symptoms: string[];
+          years: string;
+          repair_cost: string;
+        }> = [];
+
+        for (const code of engineCodes) {
+          for (const [, flag] of Object.entries(ENGINE_RED_FLAGS)) {
+            if (flag.patterns.some((p) => code.toUpperCase().includes(p.toUpperCase()))) {
+              flags.push({
+                engine: `${flag.brand} — ${flag.engine_family}`,
+                severity: flag.severity,
+                title: flag.title_fr,
+                description: flag.description_fr,
+                symptoms: flag.symptoms_fr,
+                years: flag.affected_years || "Non précisé",
+                repair_cost: flag.repair_cost_range || "Non précisé",
+              });
+            }
+          }
+        }
+
+        // Parse TÜV data
+        const tuvEntries: Array<{ age: string; defect_rate: number; rank?: number; defects?: string }> = [];
+        const tuvByAge = new Map<string, any>();
+        for (const spec of tuvSpecs || []) {
+          const match = spec.spec_type.match(/^tuv_(defect_rate|rank|defects)_(\d+_\d+)yr$/);
+          if (!match) continue;
+          const [, field, age] = match;
+          const ageLabel = age.replace("_", "-");
+          if (!tuvByAge.has(ageLabel)) tuvByAge.set(ageLabel, { age: ageLabel });
+          const entry = tuvByAge.get(ageLabel);
+          if (field === "defect_rate") entry.defect_rate = parseFloat(spec.spec_value);
+          if (field === "rank") entry.rank = parseInt(spec.spec_value);
+          if (field === "defects") entry.defects = spec.spec_value;
+        }
+        for (const [, e] of tuvByAge) {
+          if (e.defect_rate != null) tuvEntries.push(e);
+        }
+
+        // Compute score
+        let score = 80;
+        for (const f of flags) {
+          if (f.severity === "critical") score -= 15;
+          else if (f.severity === "major") score -= 8;
+          else score -= 4;
+        }
+        if (tuvEntries.length > 0) {
+          const avg = tuvEntries.reduce((s, t) => s + t.defect_rate, 0) / tuvEntries.length;
+          if (avg <= 5) score += 10;
+          else if (avg <= 10) score += 5;
+          else if (avg > 20) score -= 10;
+        }
+        score = Math.max(10, Math.min(100, score));
+
+        return JSON.stringify({
+          reliability_score: score,
+          engine_warnings: flags,
+          tuv_data: tuvEntries,
+          known_issues: (reliabilityIssues || []).map((i: any) => ({
+            severity: i.severity,
+            title: i.title_fr || i.title,
+            engine_code: i.engine_code,
+            repair_cost: i.repair_cost_eur_min
+              ? `${i.repair_cost_eur_min}–${i.repair_cost_eur_max} €`
+              : null,
+          })),
+          recall_count: recallData || 0,
+          url_fiabilite: `/fiabilite`,
+        });
+      }
+
+      case "calculate_tco": {
+        const genId = input.generation_id as string;
+        const kmAnnuels = (input.km_annuels as number) || 15000;
+        const dureeMois = (input.duree_mois as number) || 48;
+
+        // Fetch vehicle data for TCO
+        const [{ data: gen }, { data: pricing }, { data: variants }, { data: realConso }] =
+          await Promise.all([
+            db
+              .from("generations")
+              .select("*, models!inner(name, segment, brands!inner(name))")
+              .eq("id", genId)
+              .single(),
+            db
+              .from("vehicle_pricing")
+              .select("price_new_eur, co2_gkm")
+              .eq("generation_id", genId)
+              .limit(1),
+            db
+              .from("engine_variants")
+              .select("fuel_type, powertrain_specs(power_hp), performance_specs(consumption_l100)")
+              .eq("generation_id", genId)
+              .limit(5),
+            db
+              .from("third_party_specs")
+              .select("spec_value")
+              .eq("generation_id", genId)
+              .eq("source", "spritmonitor")
+              .limit(1),
+          ]);
+
+        if (!gen) return JSON.stringify({ error: "Génération non trouvée" });
+
+        const topVariant = (variants || [])[0] as any;
+        const fuelType = topVariant?.fuel_type?.toLowerCase() || "essence";
+        const pt = Array.isArray(topVariant?.powertrain_specs)
+          ? topVariant.powertrain_specs[0]
+          : topVariant?.powertrain_specs;
+        const perf = Array.isArray(topVariant?.performance_specs)
+          ? topVariant.performance_specs[0]
+          : topVariant?.performance_specs;
+
+        const prixAchat = (input.prix_achat as number) || pricing?.[0]?.price_new_eur || 30000;
+        const co2 = pricing?.[0]?.co2_gkm || 130;
+        const puissanceCv = pt?.power_hp || 130;
+        const consoReelle = realConso?.[0]?.spec_value
+          ? parseFloat(realConso[0].spec_value)
+          : perf?.consumption_l100 || 6.5;
+        const segment = gen.models?.segment || "berline";
+
+        const tcoType = fuelType.includes("diesel")
+          ? "diesel" as const
+          : fuelType.includes("electr")
+            ? "electrique" as const
+            : fuelType.includes("hybride")
+              ? "hybride" as const
+              : "essence" as const;
+
+        // Import TCO calculator dynamically
+        const { calculateTCO } = await import("@/lib/tco-calculator");
+
+        const prixCarburant =
+          tcoType === "diesel" ? 1.75 : tcoType === "electrique" ? 0.25 : 1.85;
+
+        const result = calculateTCO({
+          prixAchat,
+          dureeDetentionMois: dureeMois,
+          kmAnnuels,
+          consoReelleL100: consoReelle,
+          prixCarburantL: prixCarburant,
+          emissionsCO2: co2,
+          typeCarburant: tcoType,
+          puissanceCv,
+          segment,
+        });
+
+        const vehicleName = `${gen.models?.brands?.name} ${gen.models?.name} ${gen.internal_code || gen.name}`;
+
+        return JSON.stringify({
+          vehicle: vehicleName,
+          tco_mensuel: result.mensuel,
+          tco_total: result.total,
+          duree_mois: dureeMois,
+          km_annuels: kmAnnuels,
+          details_mensuels: result.detailsMensuels,
+          details_totaux: result.details,
+          parametres: {
+            prix_achat: prixAchat,
+            consommation: consoReelle,
+            co2_gkm: co2,
+            carburant: tcoType,
+            prix_carburant: prixCarburant,
+          },
+          url_tco: `/tco?vehicle=${genId}`,
         });
       }
 
