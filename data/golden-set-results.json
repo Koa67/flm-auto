@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-02-14T15:42:40.124Z",
+  "total": 50,
+  "passed": 50,
+  "failed": 0,
+  "percentage": 100,
+  "launch_ready": true,
+  "by_category": {
+    "Search": {
+      "passed": 10,
+      "total": 10
+    },
+    "Details": {
+      "passed": 10,
+      "total": 10
+    },
+    "Warnings": {
+      "passed": 5,
+      "total": 5
+    },
+    "Family": {
+      "passed": 5,
+      "total": 5
+    },
+    "Compare": {
+      "passed": 5,
+      "total": 5
+    },
+    "Recalls": {
+      "passed": 3,
+      "total": 3
+    },
+    "Photos": {
+      "passed": 3,
+      "total": 3
+    },
+    "Cargo": {
+      "passed": 3,
+      "total": 3
+    },
+    "Robustness": {
+      "passed": 6,
+      "total": 6
+    }
+  },
+  "failures": []
+}

@@ -42,6 +42,7 @@ import { ISOFIXSchema } from "@/components/family/isofix-schema";
 import { WishlistButton } from "@/components/wishlist/wishlist-button";
 import { ModelViewer } from "@/components/3d/model-viewer";
 import { HeroSection } from "@/components/vehicle/hero-section";
+import { ImageGrid } from "@/components/vehicle/image-grid";
 import dynamic from "next/dynamic";
 const SpecsRadar = dynamic(() => import("@/components/vehicle/specs-radar").then(m => m.SpecsRadar));
 import { ProsCons } from "@/components/vehicle/pros-cons";
@@ -289,6 +290,19 @@ export default async function VehiclePage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleSchema) }}
       />
 
+      {/* Breadcrumb — always visible */}
+      <div className="mx-auto max-w-7xl px-4 pt-6 sm:px-6">
+        <nav className="flex flex-wrap gap-2 text-sm text-muted-foreground" aria-label="Fil d'Ariane">
+          <Link href="/marques" className="hover:text-primary">Marques</Link>
+          <span>/</span>
+          <Link href={`/marques/${bs}`} className="hover:text-primary">{brand.name}</Link>
+          <span>/</span>
+          <Link href={`/marques/${bs}/${ms}`} className="hover:text-primary">{model.name}</Link>
+          <span>/</span>
+          <span className="text-white">{genLbl}</span>
+        </nav>
+      </div>
+
       {/* Hero Section */}
       {images.exteriors.length > 0 ? (
         <HeroSection
@@ -306,16 +320,7 @@ export default async function VehiclePage({ params }: Props) {
         />
       ) : (
         /* Fallback header when no images */
-        <div className="grain mx-auto max-w-7xl px-4 pt-12 pb-8 sm:px-6">
-          <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
-            <Link href="/marques" className="hover:text-primary">Marques</Link>
-            <span>/</span>
-            <Link href={`/marques/${bs}`} className="hover:text-primary">{brand.name}</Link>
-            <span>/</span>
-            <Link href={`/marques/${bs}/${ms}`} className="hover:text-primary">{model.name}</Link>
-            <span>/</span>
-            <span className="text-white">{genLbl}</span>
-          </div>
+        <div className="grain mx-auto max-w-7xl px-4 pb-8 sm:px-6">
           <h1 className="mt-4 font-display text-4xl font-bold sm:text-5xl">
             {brand.name} <span className="text-primary">{model.name}</span> {genLbl}
           </h1>
@@ -756,29 +761,3 @@ function StatCard({
   );
 }
 
-function ImageGrid({
-  images,
-  alt,
-}: {
-  images: { id: string; url: string; source: string }[];
-  alt: string;
-}) {
-  return (
-    <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
-      {images.map((img) => (
-        <div
-          key={img.id}
-          className="group relative aspect-[4/3] overflow-hidden rounded-lg surface-2"
-        >
-          <Image
-            src={img.url}
-            alt={alt}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          />
-        </div>
-      ))}
-    </div>
-  );
-}

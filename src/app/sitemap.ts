@@ -1,38 +1,112 @@
 import type { MetadataRoute } from "next";
 import { createServerClient } from "@/lib/supabase-server";
+import { RANKING_CATEGORIES } from "@/lib/rankings/categories";
 
-const BASE = "https://flm-auto.vercel.app";
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr";
 
+/** Sub-pages available for each generation */
 const SUB_PAGES = [
   "fiche-technique",
-  "dimensions",
   "securite",
   "photos",
   "videos",
+  "dimensions",
   "alternatives",
 ];
 
-const MEILLEUR_CATEGORIES = [
-  "suv-familial-2024",
-  "berline-sportive-2024",
-  "voiture-5-etoiles-euroncap-2024",
-  "suv-compact-2024",
-  "voiture-3-sieges-auto-2024",
+/** "Meilleur" editorial category pages — from centralized categories */
+const MEILLEUR_CATEGORIES = RANKING_CATEGORIES.map((c) => c.slug);
+
+/** Static pages of the site */
+const STATIC_PAGES = [
+  { path: "/", changeFrequency: "weekly" as const, priority: 1 },
+  { path: "/marques", changeFrequency: "weekly" as const, priority: 0.9 },
+  { path: "/comparer", changeFrequency: "monthly" as const, priority: 0.7 },
+  { path: "/family-fit", changeFrequency: "monthly" as const, priority: 0.7 },
+  { path: "/recherche", changeFrequency: "monthly" as const, priority: 0.6 },
+  { path: "/tco", changeFrequency: "monthly" as const, priority: 0.6 },
+  { path: "/coffre", changeFrequency: "monthly" as const, priority: 0.6 },
+  { path: "/meilleur", changeFrequency: "weekly" as const, priority: 0.8 },
+  { path: "/cgu", changeFrequency: "yearly" as const, priority: 0.2 },
+  { path: "/confidentialite", changeFrequency: "yearly" as const, priority: 0.2 },
+  { path: "/mentions-legales", changeFrequency: "yearly" as const, priority: 0.2 },
 ];
+
+/**
+ * Paginated fetch helper for Supabase.
+ * Supabase limits queries to 1000 rows by default — this fetches all rows.
+ */
+async function paginateAll<T>(
+  db: ReturnType<typeof createServerClient>,
+  table: string,
+  select: string,
+  options?: {
+    order?: { column: string; ascending: boolean };
+    limit?: number;
+  }
+): Promise<T[]> {
+  const PAGE_SIZE = 1000;
+  const maxRows = options?.limit ?? Infinity;
+  const results: T[] = [];
+  let offset = 0;
+
+  while (results.length < maxRows) {
+    let query = db
+      .from(table)
+      .select(select)
+      .range(offset, offset + PAGE_SIZE - 1);
+
+    if (options?.order) {
+      query = query.order(options.order.column, {
+        ascending: options.order.ascending,
+      });
+    }
+
+    const { data, error } = await query;
+    if (error || !data || data.length === 0) break;
+
+    results.push(...(data as T[]));
+    offset += PAGE_SIZE;
+
+    // If we got fewer than PAGE_SIZE, we've fetched everything
+    if (data.length < PAGE_SIZE) break;
+  }
+
+  return options?.limit ? results.slice(0, options.limit) : results;
+}
+
+interface BrandRow {
+  slug: string;
+  updated_at: string | null;
+}
+
+interface ModelRow {
+  slug: string;
+  brand: { slug: string };
+}
+
+interface GenerationRow {
+  slug: string;
+  production_start: string | null;
+  updated_at: string | null;
+  model: {
+    slug: string;
+    brand: { slug: string };
+  };
+}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const db = createServerClient();
 
-  const staticPages: MetadataRoute.Sitemap = [
-    { url: BASE, changeFrequency: "weekly", priority: 1 },
-    { url: `${BASE}/marques`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/comparer`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/family-fit`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/recherche`, changeFrequency: "monthly", priority: 0.6 },
-  ];
+  // --- Static pages ---
+  const staticEntries: MetadataRoute.Sitemap = STATIC_PAGES.map((p) => ({
+    url: `${BASE}${p.path}`,
+    changeFrequency: p.changeFrequency,
+    priority: p.priority,
+  }));
 
-  // Meilleur category pages
-  const meilleurPages: MetadataRoute.Sitemap = MEILLEUR_CATEGORIES.map(
+  // --- Meilleur category pages ---
+  const meilleurEntries: MetadataRoute.Sitemap = MEILLEUR_CATEGORIES.map(
     (cat) => ({
       url: `${BASE}/meilleur/${cat}`,
       changeFrequency: "monthly" as const,
@@ -40,48 +114,57 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   );
 
-  // Brands
-  const { data: brands } = await db
-    .from("brands")
-    .select("slug, updated_at");
-  const brandPages: MetadataRoute.Sitemap = (brands || []).map((b) => ({
+  // --- Brand pages ---
+  const brands = await paginateAll<BrandRow>(db, "brands", "slug, updated_at");
+  const brandEntries: MetadataRoute.Sitemap = brands.map((b) => ({
     url: `${BASE}/marques/${b.slug}`,
-    lastModified: b.updated_at,
+    ...(b.updated_at ? { lastModified: b.updated_at } : {}),
     changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
 
-  // Models
-  const { data: models } = await db
-    .from("models")
-    .select("slug, brand:brands!inner(slug)");
-  const modelPages: MetadataRoute.Sitemap = (models || []).map((m: any) => ({
+  // --- Model pages ---
+  const models = await paginateAll<ModelRow>(
+    db,
+    "models",
+    "slug, brand:brands!inner(slug)"
+  );
+  const modelEntries: MetadataRoute.Sitemap = models.map((m) => ({
     url: `${BASE}/marques/${m.brand.slug}/${m.slug}`,
     changeFrequency: "weekly" as const,
     priority: 0.7,
   }));
 
-  // Generations + sub-pages
-  const { data: gens } = await db
-    .from("generations")
-    .select("slug, model:models!inner(slug, brand:brands!inner(slug))");
+  // --- Generation pages (top 10,000 by production_start DESC) ---
+  const generations = await paginateAll<GenerationRow>(
+    db,
+    "generations",
+    "slug, production_start, updated_at, model:models!inner(slug, brand:brands!inner(slug))",
+    {
+      order: { column: "production_start", ascending: false },
+      limit: 10_000,
+    }
+  );
 
-  const genPages: MetadataRoute.Sitemap = [];
-  for (const g of gens || []) {
-    const model = g.model as any;
-    const path = `/marques/${model.brand.slug}/${model.slug}/${g.slug}`;
+  const genEntries: MetadataRoute.Sitemap = [];
+  for (const g of generations) {
+    const m = g.model;
+    const path = `/marques/${m.brand.slug}/${m.slug}/${g.slug}`;
+    const lastMod = g.updated_at || g.production_start || undefined;
 
     // Main generation page
-    genPages.push({
+    genEntries.push({
       url: `${BASE}${path}`,
+      ...(lastMod ? { lastModified: lastMod } : {}),
       changeFrequency: "weekly" as const,
       priority: 0.6,
     });
 
-    // Sub-pages
+    // Sub-pages (photos, securite, videos)
     for (const sub of SUB_PAGES) {
-      genPages.push({
+      genEntries.push({
         url: `${BASE}${path}/${sub}`,
+        ...(lastMod ? { lastModified: lastMod } : {}),
         changeFrequency: "monthly" as const,
         priority: 0.5,
       });
@@ -89,10 +172,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   return [
-    ...staticPages,
-    ...meilleurPages,
-    ...brandPages,
-    ...modelPages,
-    ...genPages,
+    ...staticEntries,
+    ...meilleurEntries,
+    ...brandEntries,
+    ...modelEntries,
+    ...genEntries,
   ];
 }

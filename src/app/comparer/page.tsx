@@ -14,7 +14,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Switch } from "@/components/ui/switch";
-import { X, Plus, Search, GitCompareArrows, Trophy, Filter, Ruler, Download, Bookmark, Loader2 } from "lucide-react";
+import { X, Plus, Search, GitCompareArrows, Trophy, Filter, Ruler, Download, Bookmark, Loader2, Share2 } from "lucide-react";
 import { SizeOverlay } from "@/components/blueprints/size-overlay";
 import dynamic from "next/dynamic";
 const CompareRadar = dynamic(() => import("@/components/compare/compare-radar").then(m => m.CompareRadar), { ssr: false });
@@ -131,6 +131,7 @@ export default function ComparerPage() {
   const [saveDialogOpen, setSaveDialogOpen] = useState(false);
   const [saveName, setSaveName] = useState("");
   const [saving, setSaving] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const confettiFired = useRef(false);
   const searchAbort = useRef<AbortController | null>(null);
   const compareAbort = useRef<AbortController | null>(null);
@@ -283,25 +284,42 @@ export default function ComparerPage() {
       </div>
 
       {/* Search input */}
-      {selected.length < 4 && (
+      {selected.length < 4 && (() => {
+        const filteredResults = results
+          .filter((r) => !selected.some((s) => s.id === r.id))
+          .slice(0, 6);
+        return (
         <div className="relative mt-4 max-w-md">
           <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => { setQuery(e.target.value); setHighlightedIndex(-1); }}
             placeholder="Ajouter un v&eacute;hicule..."
             className="pl-9"
+            onKeyDown={(e) => {
+              if (e.key === "ArrowDown") {
+                e.preventDefault();
+                setHighlightedIndex(prev => Math.min(prev + 1, filteredResults.length - 1));
+              } else if (e.key === "ArrowUp") {
+                e.preventDefault();
+                setHighlightedIndex(prev => Math.max(prev - 1, 0));
+              } else if (e.key === "Enter" && highlightedIndex >= 0 && filteredResults[highlightedIndex]) {
+                e.preventDefault();
+                addVehicle(filteredResults[highlightedIndex]);
+                setHighlightedIndex(-1);
+              } else if (e.key === "Escape") {
+                setResults([]);
+                setHighlightedIndex(-1);
+              }
+            }}
           />
-          {results.length > 0 && (
+          {filteredResults.length > 0 && (
             <div className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg surface-2 border border-[var(--border-subtle)] shadow-lg">
-              {results
-                .filter((r) => !selected.some((s) => s.id === r.id))
-                .slice(0, 6)
-                .map((r) => (
+              {filteredResults.map((r, i) => (
                   <button
                     key={r.id}
                     onClick={() => addVehicle(r)}
-                    className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:surface-3 transition-colors"
+                    className={`flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:surface-3 transition-colors ${i === highlightedIndex ? "bg-accent" : ""}`}
                   >
                     <Plus className="h-3 w-3 text-muted-foreground" />
                     {r.label}
@@ -315,7 +333,8 @@ export default function ComparerPage() {
             </div>
           )}
         </div>
-      )}
+        );
+      })()}
 
       {/* Compare button */}
       <Button
@@ -387,6 +406,21 @@ export default function ComparerPage() {
               </label>
             </div>
             <div className="flex items-center gap-2 sm:ml-auto">
+              {selected.length === 2 && (
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => {
+                    const slugs = selected.map(s => s.slug.replace(/\//g, "-")).join("-vs-");
+                    const url = `${window.location.origin}/comparatif/${slugs}`;
+                    navigator.clipboard.writeText(url);
+                    toast.success("Lien copié");
+                  }}
+                >
+                  <Share2 className="mr-2 h-4 w-4" />
+                  Partager
+                </Button>
+              )}
               <Button variant="outline" size="sm" onClick={handleExportPDF} disabled={exporting}>
                 {exporting ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Download className="mr-2 h-4 w-4" />}
                 Exporter PDF

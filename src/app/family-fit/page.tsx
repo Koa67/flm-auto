@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -42,8 +42,15 @@ export default function FamilyFitPage() {
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
   const [recommendations, setRecommendations] = useState<string[]>([]);
+  const abortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    return () => { abortRef.current?.abort(); };
+  }, []);
 
   async function handleSearch() {
+    abortRef.current?.abort();
+    abortRef.current = new AbortController();
     setLoading(true);
     setSearched(true);
     try {
@@ -56,11 +63,13 @@ export default function FamilyFitPage() {
           brands: brand ? [brand] : [],
           limit: 30,
         }),
+        signal: abortRef.current.signal,
       });
       const json = await res.json();
       setResults(json.results || []);
       setRecommendations(json.recommendations || []);
-    } catch {
+    } catch (e) {
+      if (e instanceof DOMException && e.name === "AbortError") return;
       setResults([]);
     } finally {
       setLoading(false);
@@ -70,8 +79,8 @@ export default function FamilyFitPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
       <div className="mb-8">
-        <h1 className="flex items-center gap-3 text-3xl font-bold">
-          <Baby className="h-8 w-8" />
+        <h1 className="flex items-center gap-3 font-display text-3xl font-bold sm:text-4xl">
+          <Baby className="h-8 w-8 text-primary" />
           Family Fit
         </h1>
         <p className="mt-2 text-muted-foreground">
@@ -132,8 +141,8 @@ export default function FamilyFitPage() {
 
       {/* Recommendations */}
       {recommendations.length > 0 && (
-        <div className="mb-6 rounded-lg border bg-muted/50 p-4">
-          <h3 className="mb-2 text-sm font-semibold">Conseils</h3>
+        <div className="mb-6 rounded-lg surface-3 border border-[var(--border-subtle)] p-4">
+          <h3 className="mb-2 text-sm font-semibold text-primary/70">Conseils</h3>
           <ul className="space-y-1">
             {recommendations.map((rec, i) => (
               <li key={i} className="text-sm text-muted-foreground">
@@ -147,8 +156,8 @@ export default function FamilyFitPage() {
       {/* Results */}
       {searched && (
         <div>
-          <h2 className="mb-4 text-xl font-semibold">
-            {results.length} v&eacute;hicule{results.length !== 1 ? "s" : ""} trouv&eacute;{results.length !== 1 ? "s" : ""}
+          <h2 className="mb-4 font-display text-xl font-semibold">
+            <span className="text-mono text-primary">{results.length}</span> v&eacute;hicule{results.length !== 1 ? "s" : ""} trouv&eacute;{results.length !== 1 ? "s" : ""}
           </h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {results.map((v) => (
@@ -189,19 +198,19 @@ function FamilyFitCard({ vehicle: v }: { vehicle: FamilyFitResult }) {
   };
 
   const fitColor: Record<string, string> = {
-    excellent: "bg-green-100 text-green-800",
-    good: "bg-blue-100 text-blue-800",
-    tight: "bg-yellow-100 text-yellow-800",
-    not_recommended: "bg-orange-100 text-orange-800",
-    incompatible: "bg-red-100 text-red-800",
+    excellent: "bg-green-500/15 text-green-400 border border-green-500/20",
+    good: "bg-blue-500/15 text-blue-400 border border-blue-500/20",
+    tight: "bg-yellow-500/15 text-yellow-400 border border-yellow-500/20",
+    not_recommended: "bg-orange-500/15 text-orange-400 border border-orange-500/20",
+    incompatible: "bg-red-500/15 text-red-400 border border-red-500/20",
   };
 
   return (
-    <Card className="transition-shadow hover:shadow-md">
+    <Card className="card-hover group">
       <CardContent className="p-4">
         <div className="flex items-start justify-between">
           <div>
-            <h3 className="font-semibold">
+            <h3 className="font-semibold text-white">
               {v.brand} {v.model}
             </h3>
             <p className="text-sm text-muted-foreground">{v.generation}</p>
@@ -213,7 +222,7 @@ function FamilyFitCard({ vehicle: v }: { vehicle: FamilyFitResult }) {
 
         <div className="mt-3 flex flex-wrap gap-2">
           {v.three_across && (
-            <Badge className="bg-green-100 text-green-800">3-across</Badge>
+            <Badge className="bg-green-500/15 text-green-400 border border-green-500/20">3-across</Badge>
           )}
           {v.center_isofix && (
             <Badge variant="secondary">ISOFIX central</Badge>

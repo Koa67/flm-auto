@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
@@ -7,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://flm-auto.vercel.app/sitemap.xml",
+    sitemap: `${BASE}/sitemap.xml`,
   };
 }

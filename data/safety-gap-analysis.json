@@ -1,0 +1,416 @@
+{
+  "timestamp": "2026-02-14T15:38:55.338Z",
+  "summary": {
+    "total_generations": 4238,
+    "with_safety_any": 3738,
+    "with_safety_AB": 2338,
+    "missing_any": 500,
+    "missing_AB": 1900,
+    "pct_with_any": 88.2,
+    "pct_with_AB": 55.2
+  },
+  "confidence_breakdown": {
+    "A": 845,
+    "B": 1493,
+    "C": 248,
+    "D": 1061,
+    "E": 91,
+    "null": 0
+  },
+  "by_period": [
+    {
+      "label": "2015+",
+      "total": 1235,
+      "withAB": 817,
+      "withAny": 1235,
+      "missing": 418,
+      "missingPct": 33.8
+    },
+    {
+      "label": "2010-2014",
+      "total": 434,
+      "withAB": 267,
+      "withAny": 434,
+      "missing": 167,
+      "missingPct": 38.5
+    },
+    {
+      "label": "2000-2009",
+      "total": 722,
+      "withAB": 428,
+      "withAny": 712,
+      "missing": 294,
+      "missingPct": 40.7
+    },
+    {
+      "label": "pre-2000",
+      "total": 885,
+      "withAB": 351,
+      "withAny": 825,
+      "missing": 534,
+      "missingPct": 60.3
+    },
+    {
+      "label": "date_unknown",
+      "total": 962,
+      "withAB": 475,
+      "withAny": 532,
+      "missing": 487,
+      "missingPct": 50.6
+    }
+  ],
+  "by_brand": [
+    {
+      "brand": "Toyota",
+      "total": 535,
+      "withAB": 270,
+      "withAny": 520,
+      "missingAB": 265,
+      "missingABPct": 49.5,
+      "missingAny": 15,
+      "missingAnyPct": 2.8
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "total": 435,
+      "withAB": 190,
+      "withAny": 372,
+      "missingAB": 245,
+      "missingABPct": 56.3,
+      "missingAny": 63,
+      "missingAnyPct": 14.5
+    },
+    {
+      "brand": "Nissan",
+      "total": 359,
+      "withAB": 169,
+      "withAny": 352,
+      "missingAB": 190,
+      "missingABPct": 52.9,
+      "missingAny": 7,
+      "missingAnyPct": 1.9
+    },
+    {
+      "brand": "Volkswagen",
+      "total": 465,
+      "withAB": 310,
+      "withAny": 393,
+      "missingAB": 155,
+      "missingABPct": 33.3,
+      "missingAny": 72,
+      "missingAnyPct": 15.5
+    },
+    {
+      "brand": "Peugeot",
+      "total": 163,
+      "withAB": 17,
+      "withAny": 147,
+      "missingAB": 146,
+      "missingABPct": 89.6,
+      "missingAny": 16,
+      "missingAnyPct": 9.8
+    },
+    {
+      "brand": "Renault",
+      "total": 246,
+      "withAB": 112,
+      "withAny": 220,
+      "missingAB": 134,
+      "missingABPct": 54.5,
+      "missingAny": 26,
+      "missingAnyPct": 10.6
+    },
+    {
+      "brand": "Porsche",
+      "total": 137,
+      "withAB": 29,
+      "withAny": 64,
+      "missingAB": 108,
+      "missingABPct": 78.8,
+      "missingAny": 73,
+      "missingAnyPct": 53.3
+    },
+    {
+      "brand": "Audi",
+      "total": 445,
+      "withAB": 358,
+      "withAny": 415,
+      "missingAB": 87,
+      "missingABPct": 19.6,
+      "missingAny": 30,
+      "missingAnyPct": 6.7
+    },
+    {
+      "brand": "Hyundai",
+      "total": 220,
+      "withAB": 148,
+      "withAny": 218,
+      "missingAB": 72,
+      "missingABPct": 32.7,
+      "missingAny": 2,
+      "missingAnyPct": 0.9
+    },
+    {
+      "brand": "Kia",
+      "total": 189,
+      "withAB": 118,
+      "withAny": 187,
+      "missingAB": 71,
+      "missingABPct": 37.6,
+      "missingAny": 2,
+      "missingAnyPct": 1.1
+    },
+    {
+      "brand": "Honda",
+      "total": 186,
+      "withAB": 119,
+      "withAny": 175,
+      "missingAB": 67,
+      "missingABPct": 36,
+      "missingAny": 11,
+      "missingAnyPct": 5.9
+    },
+    {
+      "brand": "BMW",
+      "total": 223,
+      "withAB": 159,
+      "withAny": 182,
+      "missingAB": 64,
+      "missingABPct": 28.7,
+      "missingAny": 41,
+      "missingAnyPct": 18.4
+    },
+    {
+      "brand": "Mazda",
+      "total": 169,
+      "withAB": 117,
+      "withAny": 167,
+      "missingAB": 52,
+      "missingABPct": 30.8,
+      "missingAny": 2,
+      "missingAnyPct": 1.2
+    },
+    {
+      "brand": "Volvo",
+      "total": 113,
+      "withAB": 71,
+      "withAny": 104,
+      "missingAB": 42,
+      "missingABPct": 37.2,
+      "missingAny": 9,
+      "missingAnyPct": 8
+    },
+    {
+      "brand": "Skoda",
+      "total": 113,
+      "withAB": 76,
+      "withAny": 97,
+      "missingAB": 37,
+      "missingABPct": 32.7,
+      "missingAny": 16,
+      "missingAnyPct": 14.2
+    },
+    {
+      "brand": "Fiat",
+      "total": 33,
+      "withAB": 3,
+      "withAny": 6,
+      "missingAB": 30,
+      "missingABPct": 90.9,
+      "missingAny": 27,
+      "missingAnyPct": 81.8
+    },
+    {
+      "brand": "Lamborghini",
+      "total": 24,
+      "withAB": 0,
+      "withAny": 3,
+      "missingAB": 24,
+      "missingABPct": 100,
+      "missingAny": 21,
+      "missingAnyPct": 87.5
+    },
+    {
+      "brand": "Alfa Romeo",
+      "total": 25,
+      "withAB": 4,
+      "withAny": 6,
+      "missingAB": 21,
+      "missingABPct": 84,
+      "missingAny": 19,
+      "missingAnyPct": 76
+    },
+    {
+      "brand": "Opel",
+      "total": 23,
+      "withAB": 9,
+      "withAny": 10,
+      "missingAB": 14,
+      "missingABPct": 60.9,
+      "missingAny": 13,
+      "missingAnyPct": 56.5
+    },
+    {
+      "brand": "Ferrari",
+      "total": 13,
+      "withAB": 0,
+      "withAny": 11,
+      "missingAB": 13,
+      "missingABPct": 100,
+      "missingAny": 2,
+      "missingAnyPct": 15.4
+    },
+    {
+      "brand": "Ford",
+      "total": 27,
+      "withAB": 18,
+      "withAny": 18,
+      "missingAB": 9,
+      "missingABPct": 33.3,
+      "missingAny": 9,
+      "missingAnyPct": 33.3
+    },
+    {
+      "brand": "Seat",
+      "total": 15,
+      "withAB": 8,
+      "withAny": 8,
+      "missingAB": 7,
+      "missingABPct": 46.7,
+      "missingAny": 7,
+      "missingAnyPct": 46.7
+    },
+    {
+      "brand": "Mini",
+      "total": 10,
+      "withAB": 3,
+      "withAny": 6,
+      "missingAB": 7,
+      "missingABPct": 70,
+      "missingAny": 4,
+      "missingAnyPct": 40
+    },
+    {
+      "brand": "Jaguar",
+      "total": 12,
+      "withAB": 6,
+      "withAny": 9,
+      "missingAB": 6,
+      "missingABPct": 50,
+      "missingAny": 3,
+      "missingAnyPct": 25
+    },
+    {
+      "brand": "Maserati",
+      "total": 6,
+      "withAB": 0,
+      "withAny": 4,
+      "missingAB": 6,
+      "missingABPct": 100,
+      "missingAny": 2,
+      "missingAnyPct": 33.3
+    },
+    {
+      "brand": "Aston Martin",
+      "total": 6,
+      "withAB": 0,
+      "withAny": 4,
+      "missingAB": 6,
+      "missingABPct": 100,
+      "missingAny": 2,
+      "missingAnyPct": 33.3
+    },
+    {
+      "brand": "Rolls-Royce",
+      "total": 6,
+      "withAB": 0,
+      "withAny": 4,
+      "missingAB": 6,
+      "missingABPct": 100,
+      "missingAny": 2,
+      "missingAnyPct": 33.3
+    },
+    {
+      "brand": "Citroen",
+      "total": 8,
+      "withAB": 3,
+      "withAny": 8,
+      "missingAB": 5,
+      "missingABPct": 62.5,
+      "missingAny": 0,
+      "missingAnyPct": 0
+    },
+    {
+      "brand": "Bentley",
+      "total": 4,
+      "withAB": 0,
+      "withAny": 2,
+      "missingAB": 4,
+      "missingABPct": 100,
+      "missingAny": 2,
+      "missingAnyPct": 50
+    },
+    {
+      "brand": "Land Rover",
+      "total": 9,
+      "withAB": 6,
+      "withAny": 7,
+      "missingAB": 3,
+      "missingABPct": 33.3,
+      "missingAny": 2,
+      "missingAnyPct": 22.2
+    },
+    {
+      "brand": "Lexus",
+      "total": 13,
+      "withAB": 10,
+      "withAny": 13,
+      "missingAB": 3,
+      "missingABPct": 23.1,
+      "missingAny": 0,
+      "missingAnyPct": 0
+    },
+    {
+      "brand": "Tesla",
+      "total": 6,
+      "withAB": 5,
+      "withAny": 6,
+      "missingAB": 1,
+      "missingABPct": 16.7,
+      "missingAny": 0,
+      "missingAnyPct": 0
+    }
+  ],
+  "sample_missing_2015_plus": [
+    "Audi S5 - cabriolet f5 facelift (2020-01-01)",
+    "Volkswagen Fox - spacecross facelift 2015 latin america (2015-01-01)",
+    "Volkswagen Lavida - iii facelift (2022-01-01)",
+    "BMW M5 - F90 (2018-01-01)",
+    "Mercedes-Benz AMG ONE - Default (2022-01-01)",
+    "Lamborghini Sián - FKP 37 (2020-01-01)",
+    "Lamborghini Centenario - Default (2016-01-01)",
+    "Porsche Panamera - g2 sport turismo (2019-01-01)",
+    "Hyundai Kona Electric - OS EV (2018-01-01)",
+    "Hyundai Kona Electric - SX2 EV (2023-01-01)",
+    "Ferrari 296 - 2022-present (2022-01-01)",
+    "Ferrari 488 - 2015-2019 (2015-01-01)",
+    "Ferrari F8 - 2019-2022 (2019-01-01)",
+    "Ferrari SF90 - 2019-present (2019-01-01)",
+    "Ferrari Roma - 2020-present (2020-01-01)",
+    "Ferrari Purosangue - 2022-present (2022-01-01)",
+    "Ferrari 812 - 2017-present (2017-01-01)",
+    "Ferrari GTC4Lusso - 2016-2020 (2016-01-01)",
+    "Honda e:Ny1 - 2023-present (2023-01-01)",
+    "Toyota GR86 - 2021-present (2021-01-01)",
+    "Jaguar XE - 2015-present (2015-01-01)",
+    "Lexus LC - 2017-present (2017-01-01)",
+    "Renault Kadjar - 2015-present (2015-01-01)",
+    "Fiat 124 Spider - 2016-present (2016-01-01)",
+    "Citroen C5 X - 2021-present (2021-01-01)",
+    "Mini Electric - 2020-present (2020-01-01)",
+    "Citroen e-C4 - 2020-present (2020-01-01)",
+    "Maserati Levante - 2016-present (2016-01-01)",
+    "Maserati MC20 - 2020-present (2020-01-01)",
+    "Aston Martin DB11 - 2016-present (2016-01-01)"
+  ]
+}

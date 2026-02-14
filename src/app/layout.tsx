@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://flm-auto.fr",
+    canonical: process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr",
   },
   openGraph: {
     type: "website",
