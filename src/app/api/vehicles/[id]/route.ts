@@ -53,6 +53,21 @@ export async function GET(
       .order('test_year', { ascending: false })
       .limit(1)
 
+    // Get pricing
+    const { data: pricing } = await supabase
+      .from('vehicle_pricing')
+      .select('*')
+      .eq('generation_id', id)
+      .limit(1)
+
+    // Get real consumption (Spritmonitor)
+    const { data: realConsoData } = await supabase
+      .from('third_party_specs')
+      .select('spec_type, spec_value, raw_data')
+      .eq('generation_id', id)
+      .eq('source', 'spritmonitor')
+      .limit(1)
+
     // Get screen appearances (films/TV/games) - deduplicated
     const { data: appearances } = await supabase
       .from('vehicle_appearances')
@@ -130,6 +145,14 @@ export async function GET(
         safety_assist: safety[0].safety_assist_pct,
         source_url: safety[0].source_url,
       } : null,
+      pricing: pricing?.[0] ? {
+        price_new_eur: pricing[0].price_new_eur,
+        co2_gkm: pricing[0].co2_gkm,
+        malus_eur: pricing[0].malus_eur,
+      } : null,
+      realConsumption: realConsoData?.[0]?.spec_value
+        ? parseFloat(realConsoData[0].spec_value)
+        : null,
       screen_appearances: {
         films: dedupedAppearances.filter(a => a.media_type === 'movie' || a.media_type === 'tv_series').map(a => ({
           title: a.movie_title,

@@ -694,7 +694,7 @@ export default async function VehiclePage({ params }: Props) {
         </Tabs>
 
         {/* TCO Preview */}
-        {pricing && pricing.co2_gkm && (
+        {(pricing?.co2_gkm || realConsumption) && (
           <div className="mt-6 surface-3 rounded-xl border border-[var(--border-subtle)] p-5">
             <div className="flex items-center gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg surface-2">
@@ -707,7 +707,7 @@ export default async function VehiclePage({ params }: Props) {
                 </p>
               </div>
               <a
-                href="/tco"
+                href={`/tco?vehicle=${generation.id}`}
                 className="shrink-0 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/20 hover:bg-primary/90 transition-colors"
               >
                 Calculer
