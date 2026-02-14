@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-02-14T16:25:14.234Z",
+  "queries": {
+    "1_confidence_breakdown": {
+      "description": "SELECT confidence, COUNT(*) FROM safety_ratings GROUP BY confidence",
+      "total_rows": 3738,
+      "breakdown": {
+        "A": 170,
+        "B": 1868,
+        "C": 250,
+        "D": 1273,
+        "E": 177
+      }
+    },
+    "2_low_confidence_with_source_url": {
+      "description": "Ratings with source_url but confidence IN (C, D, E)",
+      "total": 1400,
+      "breakdown": {
+        "C": 248,
+        "D": 1061,
+        "E": 91
+      }
+    },
+    "3_pre1997_without_safety": {
+      "description": "Generations with production_end < 1997-01-01 and no safety_ratings",
+      "pre1997_total": 490,
+      "pre1997_without_safety": 55,
+      "pre1997_with_safety": 435
+    },
+    "4_spritmonitor_breakdown": {
+      "description": "Spritmonitor records by spec_type with distinct generation counts",
+      "total_records": 2276,
+      "total_unique_generations": 2276,
+      "by_spec_type": {
+        "real_consumption_l100km": {
+          "count": 2276,
+          "unique_generations": 2276
+        }
+      }
+    },
+    "5_real_consumption_generations": {
+      "description": "COUNT(DISTINCT generation_id) WHERE source=spritmonitor AND spec_type=real_consumption_l100km",
+      "records": 2276,
+      "unique_generations": 2276
+    }
+  }
+}

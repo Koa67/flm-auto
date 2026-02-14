@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-14T16:32:22.386Z",
+  "dryRun": true,
+  "totalGenerations": 4238,
+  "existingSafetyRatings": 3794,
+  "preNcapCandidates": {
+    "endBefore1993": 347,
+    "nullEndStartBefore1985": 17,
+    "total": 364
+  },
+  "alreadyCovered": 364,
+  "toInsert": 0,
+  "inserted": 0,
+  "errors": 0,
+  "sampleGenerations": []
+}

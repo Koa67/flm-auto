@@ -1,0 +1,10 @@
+{
+  "inserts": 0,
+  "updates": 1,
+  "skipped": 37,
+  "misses": [
+    "Audi A5 (TSP+) → no 2024-2025 gen for \"A5\"",
+    "BMW X5 (TSP+) → no 2024-2025 gen for \"X5\""
+  ],
+  "timestamp": "2026-02-14T16:41:29.695Z"
+}
