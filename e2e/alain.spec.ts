@@ -37,4 +37,41 @@ test.describe("ALAIN Chat Widget", () => {
     await input.first().fill("Bonjour ALAIN");
     await expect(input.first()).toHaveValue("Bonjour ALAIN");
   });
+
+  test("suggestions are visible in welcome screen", async ({ page }) => {
+    await openChat(page);
+    // Wait for suggestion buttons to appear
+    const suggestions = page.locator("button", { hasText: /familial|fiable|coffre|qualit/i });
+    await expect(suggestions.first()).toBeVisible({ timeout: 5000 });
+  });
+
+  test("preference badge appears when preferences set", async ({ page }) => {
+    // Set preferences in localStorage before navigating
+    await page.addInitScript(() => {
+      localStorage.setItem("flm-onboarding-done", "true");
+      localStorage.setItem("flm-cookie-consent", "accepted");
+      localStorage.setItem("alain-conversation", JSON.stringify({
+        state: {
+          messages: [],
+          context: {
+            lastVehicles: [],
+            preferences: { budget: { min: 20000, max: 30000 } },
+            searchHistory: [],
+          },
+        },
+        version: 0,
+      }));
+    });
+    await page.goto("/marques");
+    const trigger = page.locator('button[aria-label="Ouvrir ALAIN"]');
+    await expect(trigger).toBeAttached({ timeout: 15000 });
+    await page.waitForTimeout(500);
+    await page.evaluate(() => {
+      const btn = document.querySelector('button[aria-label="Ouvrir ALAIN"]') as HTMLButtonElement;
+      if (btn) btn.click();
+    });
+    // Budget badge should be visible
+    const badge = page.locator("text=30k");
+    await expect(badge.first()).toBeVisible({ timeout: 5000 });
+  });
 });
