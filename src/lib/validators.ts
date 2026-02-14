@@ -107,6 +107,15 @@ export const alainChatSchema = z.object({
     .min(1)
     .max(50),
   vehicleContext: z.string().max(500).optional(),
+  preferences: z
+    .object({
+      budget: z.object({ min: z.number(), max: z.number() }).optional(),
+      fuelTypes: z.array(z.string()).max(5).optional(),
+      childSeats: z.number().int().min(0).max(5).optional(),
+      priorities: z.array(z.string()).max(10).optional(),
+      usage: z.array(z.string()).max(5).optional(),
+    })
+    .optional(),
 });
 
 // ==============================

@@ -13,6 +13,71 @@ interface ChatMessage {
   content: string;
 }
 
+interface UserPreferences {
+  budget?: { min: number; max: number };
+  fuelTypes?: string[];
+  childSeats?: number;
+  priorities?: string[];
+  usage?: string[];
+}
+
+// Build a preference summary for the system prompt
+function buildPreferencePrompt(prefs: UserPreferences): string {
+  const parts: string[] = [];
+  if (prefs.budget) {
+    parts.push(`Budget : ${prefs.budget.min > 0 ? `${prefs.budget.min.toLocaleString("fr-FR")} - ` : "max "}${prefs.budget.max.toLocaleString("fr-FR")} euros`);
+  }
+  if (prefs.fuelTypes?.length) parts.push(`Carburant : ${prefs.fuelTypes.join(", ")}`);
+  if (prefs.childSeats) parts.push(`${prefs.childSeats} enfant(s) (sieges auto)`);
+  if (prefs.priorities?.length) parts.push(`Priorites : ${prefs.priorities.join(", ")}`);
+  if (prefs.usage?.length) parts.push(`Usage : ${prefs.usage.join(", ")}`);
+  return parts.length > 0
+    ? `\n\n## Preferences utilisateur\nL'utilisateur a indique les preferences suivantes : ${parts.join(" | ")}.\nAdapte tes reponses en consequence.`
+    : "";
+}
+
+// Sliding window: for long conversations, send a summary + last 4 messages
+function buildSlidingWindow(messages: ChatMessage[]): ChatMessage[] {
+  if (messages.length <= 10) return messages;
+
+  const older = messages.slice(0, -4);
+  const recent = messages.slice(-4);
+
+  const vehiclesMentioned = new Set<string>();
+  const topics = new Set<string>();
+
+  const vehicleRe = /\b(bmw|mercedes|audi|porsche|volkswagen|peugeot|renault|citroen|tesla|toyota|honda|volvo|mazda|hyundai|kia|nissan|ford|fiat)\s+([a-z0-9\s-]+?)(?:\s|,|\.|$)/gi;
+
+  for (const m of older) {
+    let match;
+    while ((match = vehicleRe.exec(m.content)) !== null) {
+      vehiclesMentioned.add(`${match[1]} ${match[2]}`.trim());
+    }
+    if (/fiabilit|moteur|panne/i.test(m.content)) topics.add("fiabilite");
+    if (/coffre|volume|espace/i.test(m.content)) topics.add("coffre");
+    if (/securit|ncap|crash/i.test(m.content)) topics.add("securite");
+    if (/compar|vs|versus/i.test(m.content)) topics.add("comparaison");
+    if (/isofix|siege.*enfant|family/i.test(m.content)) topics.add("famille");
+    if (/budget|prix|cout/i.test(m.content)) topics.add("budget");
+  }
+
+  const summaryParts: string[] = [];
+  if (vehiclesMentioned.size > 0) {
+    summaryParts.push(`Vehicules discutes : ${[...vehiclesMentioned].slice(0, 8).join(", ")}`);
+  }
+  if (topics.size > 0) {
+    summaryParts.push(`Sujets abordes : ${[...topics].join(", ")}`);
+  }
+  summaryParts.push(`${older.length} messages precedents resumes ci-dessus.`);
+
+  const summaryMessage: ChatMessage = {
+    role: "user",
+    content: `[Resume de la conversation precedente] ${summaryParts.join(". ")}`,
+  };
+
+  return [summaryMessage, ...recent];
+}
+
 // ---------------------------------------------------------------------------
 // Ollama provider (local SLM)
 // ---------------------------------------------------------------------------
@@ -150,10 +215,13 @@ function detectVehicleQuery(message: string): { type: DetectedType; query: strin
 async function handleOllama(
   systemPrompt: string,
   messages: ChatMessage[]
-): Promise<{ message: string; turns_used: number; provider: string }> {
+): Promise<{ message: string; turns_used: number; provider: string; preRouted: boolean }> {
+  // Apply sliding window for long conversations
+  const windowedMessages = buildSlidingWindow(messages);
+
   const ollamaMessages: OllamaMessage[] = [
     { role: "system", content: systemPrompt },
-    ...messages.map((m) => ({ role: m.role as "user" | "assistant", content: m.content })),
+    ...windowedMessages.map((m) => ({ role: m.role as "user" | "assistant", content: m.content })),
   ];
 
   const ollamaTools = ALAIN_TOOLS.map((t) => ({
@@ -296,7 +364,7 @@ async function handleOllama(
     }
   }
 
-  return { message: finalText, turns_used: turns, provider: "ollama" };
+  return { message: finalText, turns_used: turns, provider: "ollama", preRouted };
 }
 
 // ---------------------------------------------------------------------------
@@ -306,12 +374,12 @@ async function handleOllama(
 async function handleAnthropic(
   systemPrompt: string,
   messages: ChatMessage[]
-): Promise<{ message: string; turns_used: number; provider: string }> {
-  // Dynamic import to avoid bundling @anthropic-ai/sdk when not needed
+): Promise<{ message: string; turns_used: number; provider: string; preRouted: boolean }> {
   const { default: Anthropic } = await import("@anthropic-ai/sdk");
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
 
-  const anthropicMessages: any[] = messages.map((m) => ({
+  const windowedMessages = buildSlidingWindow(messages);
+  const anthropicMessages: any[] = windowedMessages.map((m) => ({
     role: m.role,
     content: m.content,
   }));
@@ -362,7 +430,7 @@ async function handleAnthropic(
     }
   }
 
-  return { message: finalText, turns_used: turns, provider: "anthropic" };
+  return { message: finalText, turns_used: turns, provider: "anthropic", preRouted: false };
 }
 
 // ---------------------------------------------------------------------------
@@ -379,11 +447,15 @@ export async function POST(req: NextRequest) {
 
   const messages: ChatMessage[] = parsed.data.messages;
   const vehicleContext: string | undefined = parsed.data.vehicleContext;
+  const preferences: UserPreferences | undefined = parsed.data.preferences;
 
   // Build system prompt
   let systemPrompt = ALAIN_SYSTEM_PROMPT;
   if (vehicleContext) {
     systemPrompt += `\n\n## Contexte actuel\nL'utilisateur consulte actuellement : ${vehicleContext}. Utilise cette info pour contextualiser tes réponses.`;
+  }
+  if (preferences) {
+    systemPrompt += buildPreferencePrompt(preferences);
   }
 
   // Strategy:

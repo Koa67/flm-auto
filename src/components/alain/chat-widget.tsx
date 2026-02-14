@@ -18,6 +18,7 @@ import {
   Package,
   Star,
   Shield,
+  Calculator,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -25,6 +26,7 @@ import {
   type Message,
 } from "@/lib/alain/conversation-store";
 import { generateSuggestions, type Suggestion } from "@/lib/alain/suggestions";
+import { extractPreferences, mergePreferences } from "@/lib/alain/preference-extractor";
 
 const SUGGESTION_ICONS: Record<Suggestion["icon"], React.ElementType> = {
   car: Car,
@@ -35,6 +37,7 @@ const SUGGESTION_ICONS: Record<Suggestion["icon"], React.ElementType> = {
   trunk: Package,
   star: Star,
   shield: Shield,
+  calculator: Calculator,
 };
 
 interface AlainChatWidgetProps {
@@ -69,11 +72,23 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
     }
   }, [pathname, addViewedVehicle]);
 
-  // Generate contextual suggestions
+  // Generate contextual suggestions (with conversation context)
   const suggestions = useMemo(
-    () => generateSuggestions(context, pathname ?? undefined),
-    [context, pathname]
+    () => generateSuggestions(context, pathname ?? undefined, messages),
+    [context, pathname, messages]
   );
+
+  // Preference summary for display
+  const prefBadges = useMemo(() => {
+    const badges: { label: string; key: string }[] = [];
+    const p = context.preferences;
+    if (p.budget) badges.push({ label: `${Math.round(p.budget.max / 1000)}k\u20ac`, key: "budget" });
+    if (p.childSeats) badges.push({ label: `${p.childSeats} enfant${p.childSeats > 1 ? "s" : ""}`, key: "children" });
+    if (p.fuelTypes?.length) badges.push({ label: p.fuelTypes[0], key: "fuel" });
+    if (p.priorities?.length) badges.push({ label: p.priorities[0], key: "priority" });
+    if (p.usage?.length) badges.push({ label: p.usage[0], key: "usage" });
+    return badges;
+  }, [context.preferences]);
 
   const scrollToBottom = useCallback(() => {
     if (scrollRef.current) {
@@ -96,22 +111,30 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
 
     const userContent = text.trim();
 
+    // Extract preferences from user message (regex, client-side, instant)
+    const extracted = extractPreferences(userContent);
+    if (Object.keys(extracted).length > 0) {
+      const store = useConversationStore.getState();
+      const merged = mergePreferences(store.context.preferences, extracted);
+      store.updateContext({ preferences: merged });
+    }
+
     // Add user message to store
     addMessage({ role: "user", content: userContent });
-
-    // Track as search history
     addToSearchHistory(userContent);
 
     setInput("");
     setLoading(true);
 
     try {
-      // Build message history from store (include the message we just added)
-      const currentMessages = useConversationStore.getState().messages;
-      const apiMessages = currentMessages.map((m) => ({
+      const store = useConversationStore.getState();
+      const apiMessages = store.messages.map((m) => ({
         role: m.role,
         content: m.content,
       }));
+
+      const prefs = store.context.preferences;
+      const hasPrefs = prefs.budget || prefs.fuelTypes?.length || prefs.childSeats || prefs.priorities?.length || prefs.usage?.length;
 
       const res = await fetch("/api/alain/chat", {
         method: "POST",
@@ -119,6 +142,7 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
         body: JSON.stringify({
           messages: apiMessages,
           vehicleContext,
+          ...(hasPrefs ? { preferences: prefs } : {}),
         }),
       });
 
@@ -128,14 +152,14 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
         addMessage({
           role: "assistant",
           content:
-            "ALAIN est en pause. Relance le serveur local ou vérifie la clé API.",
+            "ALAIN est en pause. Relance le serveur local ou verifie la cle API.",
         });
       } else if (data.error) {
         addMessage({
           role: "assistant",
           content:
             data.error === "ANTHROPIC_API_KEY not configured"
-              ? "Je suis temporairement indisponible. La clé API n'est pas configurée."
+              ? "Je suis temporairement indisponible. La cle API n'est pas configuree."
               : `Erreur : ${data.error}`,
         });
       } else {
@@ -236,6 +260,26 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
                 </button>
               </div>
             </div>
+
+            {/* Preference badges */}
+            {prefBadges.length > 0 && (
+              <div className="flex items-center gap-1.5 border-b border-[var(--border-subtle)] px-3 py-1.5">
+                {prefBadges.map((b) => (
+                  <span
+                    key={b.key}
+                    className="inline-flex items-center rounded-full bg-primary/15 px-2 py-0.5 text-[10px] font-medium text-primary"
+                  >
+                    {b.label}
+                  </span>
+                ))}
+                <button
+                  onClick={() => useConversationStore.getState().updateContext({ preferences: {} })}
+                  className="ml-auto text-[10px] text-muted-foreground hover:text-white"
+                >
+                  Reset
+                </button>
+              </div>
+            )}
 
             {/* Messages area */}
             <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-3">
@@ -370,12 +414,33 @@ function ChatBubble({ message }: { message: Message }) {
 }
 
 function formatMarkdown(text: string): string {
-  return text
+  let html = text
+    // Inline code
+    .replace(/`([^`]+)`/g, '<code class="rounded bg-white/10 px-1 py-0.5 text-[11px] font-mono">$1</code>')
+    // Bold + italic
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(.+?)\*/g, "<em>$1</em>")
+    // Links
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-primary underline hover:text-primary/80" target="_blank" rel="noopener">$1</a>')
+    // Tables (simple: | col | col |)
+    .replace(/^(\|.+\|)\n(\|[-| :]+\|)\n((?:\|.+\|\n?)+)/gm, (_match, header: string, _sep: string, body: string) => {
+      const thCells = header.split("|").filter(Boolean).map((c: string) => `<th class="px-2 py-1 text-left text-[11px] font-semibold">${c.trim()}</th>`).join("");
+      const rows = body.trim().split("\n").map((row: string) => {
+        const cells = row.split("|").filter(Boolean).map((c: string) => `<td class="px-2 py-1 text-[11px]">${c.trim()}</td>`).join("");
+        return `<tr>${cells}</tr>`;
+      }).join("");
+      return `<table class="w-full border-collapse my-1"><thead><tr>${thCells}</tr></thead><tbody>${rows}</tbody></table>`;
+    })
+    // List items
     .replace(/^- (.+)$/gm, "<li>$1</li>")
-    .replace(/(<li>.*<\/li>\n?)+/g, (m) => `<ul>${m}</ul>`)
+    .replace(/(<li>.*<\/li>\n?)+/g, (m) => `<ul class="list-disc pl-4 space-y-0.5">${m}</ul>`)
+    // Paragraphs
     .replace(/\n{2,}/g, "</p><p>")
-    .replace(/\n/g, "<br>")
-    .replace(/^(.+)$/, "<p>$1</p>");
+    .replace(/\n/g, "<br>");
+
+  // Wrap in paragraph if not starting with block element
+  if (!html.startsWith("<")) html = `<p>${html}</p>`;
+  else if (!html.startsWith("<p>") && !html.startsWith("<ul") && !html.startsWith("<table")) html = `<p>${html}</p>`;
+
+  return html;
 }
