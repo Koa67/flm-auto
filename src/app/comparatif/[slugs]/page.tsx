@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/table";
 import { Progress } from "@/components/ui/progress";
 import { Shield, Gauge, Fuel, Star } from "lucide-react";
+import { ConfidenceBadge } from "@/components/confidence-badge";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -37,25 +38,31 @@ function parseSlugs(slugs: string) {
 
 async function getVehicleByCompositeSlug(raw: string) {
   const db = createServerClient();
+  const parts = raw.split("-");
 
-  // Try to find a generation that matches the slug pattern
-  // The composite slug is brand-model-gen, so we search all generations
-  const { data: gens } = await db
-    .from("generations")
-    .select(
-      "id, name, slug, internal_code, body_style, production_start, production_end, model:models!inner(id, name, slug, segment, brand:brands!inner(id, name, slug))"
-    )
-    .limit(5000);
+  // Try all possible split points: brand-slug | model-slug | gen-slug
+  // Each segment can contain hyphens, so we try every combination
+  for (let i = 1; i < parts.length - 1; i++) {
+    for (let j = i + 1; j < parts.length; j++) {
+      const brandSlug = parts.slice(0, i).join("-");
+      const modelSlug = parts.slice(i, j).join("-");
+      const genSlug = parts.slice(j).join("-");
 
-  if (!gens) return null;
+      const { data } = await db
+        .from("generations")
+        .select(
+          "id, name, slug, internal_code, body_style, production_start, production_end, model:models!inner(id, name, slug, segment, brand:brands!inner(id, name, slug))"
+        )
+        .eq("slug", genSlug)
+        .eq("models.slug", modelSlug)
+        .eq("models.brands.slug", brandSlug)
+        .limit(1)
+        .maybeSingle();
 
-  // Find the generation whose composite slug matches
-  for (const g of gens) {
-    const model = g.model as any;
-    const brand = model.brand;
-    const composite = `${brand.slug}-${model.slug}-${g.slug}`;
-    if (composite === raw) {
-      return { generation: g, model, brand };
+      if (data) {
+        const model = data.model as any;
+        return { generation: data, model, brand: model.brand };
+      }
     }
   }
 
@@ -80,9 +87,10 @@ async function getVehicleSpecs(generationId: string) {
         .limit(1),
       db
         .from("vehicle_images")
-        .select("image_url")
+        .select("url")
         .eq("generation_id", generationId)
         .eq("image_type", "exterior")
+        .neq("confidence", "E")
         .limit(1),
       db
         .from("third_party_specs")
@@ -95,6 +103,8 @@ async function getVehicleSpecs(generationId: string) {
           "wheelbase_mm",
           "trunk_volume_l",
           "curb_weight_kg",
+          "real_consumption_l100km",
+          "fuel_consumption_combined_l_100km",
         ]),
     ]);
 
@@ -122,7 +132,7 @@ async function getVehicleSpecs(generationId: string) {
   }
 
   return {
-    image: images?.[0]?.image_url || null,
+    image: images?.[0]?.url || null,
     safety: safety?.[0] || null,
     power_hp: best?.power_hp,
     torque_nm: best?.torque_nm,
@@ -134,6 +144,8 @@ async function getVehicleSpecs(generationId: string) {
     wheelbase: specMap.wheelbase_mm,
     trunk: specMap.trunk_volume_l,
     weight: specMap.curb_weight_kg,
+    real_consumption: specMap.real_consumption_l100km,
+    consumption: specMap.fuel_consumption_combined_l_100km,
     variantCount: variants?.length || 0,
   };
 }
@@ -194,6 +206,8 @@ export default async function ComparatifPage({ params }: Props) {
     { label: "Largeur", v1: specs1.width ? `${specs1.width} mm` : "—", v2: specs2.width ? `${specs2.width} mm` : "—", better: null },
     { label: "Coffre", v1: specs1.trunk ? `${specs1.trunk} L` : "—", v2: specs2.trunk ? `${specs2.trunk} L` : "—", better: compare(parseNum(specs1.trunk), parseNum(specs2.trunk), "higher") },
     { label: "Poids", v1: specs1.weight ? `${specs1.weight} kg` : "—", v2: specs2.weight ? `${specs2.weight} kg` : "—", better: compare(parseNum(specs1.weight), parseNum(specs2.weight), "lower") },
+    { label: "Conso. réelle", v1: specs1.real_consumption ? `${specs1.real_consumption} L/100km` : "—", v2: specs2.real_consumption ? `${specs2.real_consumption} L/100km` : "—", better: compare(parseNum(specs1.real_consumption), parseNum(specs2.real_consumption), "lower") },
+    { label: "Conso. officielle", v1: specs1.consumption ? `${specs1.consumption} L/100km` : "—", v2: specs2.consumption ? `${specs2.consumption} L/100km` : "—", better: compare(parseNum(specs1.consumption), parseNum(specs2.consumption), "lower") },
     { label: "Euro NCAP", v1: specs1.safety ? `${specs1.safety.stars}★` : "—", v2: specs2.safety ? `${specs2.safety.stars}★` : "—", better: compare(specs1.safety?.stars, specs2.safety?.stars, "higher") },
   ];
 
@@ -206,8 +220,8 @@ export default async function ComparatifPage({ params }: Props) {
         ]}
       />
 
-      <h1 className="mt-4 text-3xl font-bold">
-        {name1} {gen1} vs {name2} {gen2}
+      <h1 className="mt-4 font-display text-3xl font-bold sm:text-4xl">
+        <span className="text-white">{name1}</span> {gen1} <span className="text-primary">vs</span> <span className="text-white">{name2}</span> {gen2}
       </h1>
       <p className="mt-2 text-muted-foreground">
         Comparaison détaillée : performances, dimensions, sécurité.
@@ -221,6 +235,7 @@ export default async function ComparatifPage({ params }: Props) {
           image={specs1.image}
           href={slug1}
           stars={specs1.safety?.stars}
+          safetyConfidence={specs1.safety?.confidence}
         />
         <VehicleCard
           name={name2}
@@ -228,63 +243,62 @@ export default async function ComparatifPage({ params }: Props) {
           image={specs2.image}
           href={slug2}
           stars={specs2.safety?.stars}
+          safetyConfidence={specs2.safety?.confidence}
         />
       </div>
 
       {/* Comparison table */}
-      <Card className="mt-8">
-        <CardContent className="p-0">
-          <div className="overflow-x-auto">
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead className="w-1/3">Caractéristique</TableHead>
-                  <TableHead className="w-1/3 text-center">
-                    {name1} {gen1}
-                  </TableHead>
-                  <TableHead className="w-1/3 text-center">
-                    {name2} {gen2}
-                  </TableHead>
+      <div className="mt-8 overflow-hidden rounded-xl surface-2 border border-[var(--border-subtle)]">
+        <div className="overflow-x-auto">
+          <Table>
+            <TableHeader>
+              <TableRow className="surface-3">
+                <TableHead className="w-1/3 text-xs uppercase tracking-wider text-muted-foreground">Caractéristique</TableHead>
+                <TableHead className="w-1/3 text-center font-semibold text-white">
+                  {name1} {gen1}
+                </TableHead>
+                <TableHead className="w-1/3 text-center font-semibold text-white">
+                  {name2} {gen2}
+                </TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {rows.map((row, i) => (
+                <TableRow key={row.label} className={i % 2 === 1 ? "surface-3" : ""}>
+                  <TableCell className="font-medium text-muted-foreground">{row.label}</TableCell>
+                  <TableCell
+                    className={`text-center text-mono ${row.better === "v1" ? "font-bold text-primary" : "text-white"}`}
+                  >
+                    {row.v1}
+                  </TableCell>
+                  <TableCell
+                    className={`text-center text-mono ${row.better === "v2" ? "font-bold text-primary" : "text-white"}`}
+                  >
+                    {row.v2}
+                  </TableCell>
                 </TableRow>
-              </TableHeader>
-              <TableBody>
-                {rows.map((row) => (
-                  <TableRow key={row.label}>
-                    <TableCell className="font-medium">{row.label}</TableCell>
-                    <TableCell
-                      className={`text-center font-mono ${row.better === "v1" ? "font-bold text-green-600" : ""}`}
-                    >
-                      {row.v1}
-                    </TableCell>
-                    <TableCell
-                      className={`text-center font-mono ${row.better === "v2" ? "font-bold text-green-600" : ""}`}
-                    >
-                      {row.v2}
-                    </TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </div>
-        </CardContent>
-      </Card>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+      </div>
 
       {/* Internal links */}
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <Link href={slug1}>
-          <Card className="transition-all hover:shadow-md">
+          <Card className="card-hover group">
             <CardContent className="p-4">
-              <p className="font-semibold">
-                Voir la fiche {name1} {gen1} &rarr;
+              <p className="font-semibold text-white">
+                Voir la fiche {name1} {gen1} <span className="text-primary transition-transform group-hover:translate-x-1 inline-block">&rarr;</span>
               </p>
             </CardContent>
           </Card>
         </Link>
         <Link href={slug2}>
-          <Card className="transition-all hover:shadow-md">
+          <Card className="card-hover group">
             <CardContent className="p-4">
-              <p className="font-semibold">
-                Voir la fiche {name2} {gen2} &rarr;
+              <p className="font-semibold text-white">
+                Voir la fiche {name2} {gen2} <span className="text-primary transition-transform group-hover:translate-x-1 inline-block">&rarr;</span>
               </p>
             </CardContent>
           </Card>
@@ -300,35 +314,40 @@ function VehicleCard({
   image,
   href,
   stars,
+  safetyConfidence,
 }: {
   name: string;
   gen: string;
   image: string | null;
   href: string;
   stars?: number | null;
+  safetyConfidence?: string | null;
 }) {
   return (
     <Link href={href}>
-      <Card className="overflow-hidden transition-all hover:shadow-md">
+      <Card className="card-hover group overflow-hidden">
         {image && (
-          <div className="relative aspect-[16/10] bg-muted">
+          <div className="relative aspect-16/10 surface-2">
             <Image
               src={image}
               alt={`${name} ${gen}`}
               fill
-              className="object-cover"
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         )}
         <CardContent className="p-4">
-          <h2 className="text-lg font-semibold">{name}</h2>
+          <h2 className="text-lg font-semibold text-white">{name}</h2>
           <div className="flex items-center gap-2">
-            <span className="text-muted-foreground">{gen}</span>
+            <span className="text-mono text-muted-foreground">{gen}</span>
             {stars && (
               <Badge variant="secondary" className="text-xs">
                 {stars}★ NCAP
               </Badge>
+            )}
+            {safetyConfidence && (
+              <ConfidenceBadge tier={safetyConfidence} size="sm" />
             )}
           </div>
         </CardContent>

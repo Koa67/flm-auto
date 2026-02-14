@@ -68,6 +68,7 @@ interface CompareVehicle {
   };
   weight_kg: number | null;
   consumption_l_100: number | null;
+  real_consumption_l_100: number | null;
   co2_g_km: number | null;
 }
 
@@ -534,7 +535,8 @@ function buildCategories(vehicles: CompareVehicle[]): CategoryDef[] {
     {
       title: "Consommation",
       rows: [
-        { label: "Conso. mixte", values: vehicles.map((v) => v.consumption_l_100 ? `${v.consumption_l_100} L/100` : "\u2014"), highlight: "min" },
+        { label: "Conso. réelle", values: vehicles.map((v) => v.real_consumption_l_100 ? `${v.real_consumption_l_100} L/100` : "\u2014"), highlight: "min" },
+        { label: "Conso. officielle", values: vehicles.map((v) => v.consumption_l_100 ? `${v.consumption_l_100} L/100` : "\u2014"), highlight: "min" },
         { label: "CO\u2082", values: vehicles.map((v) => fmt(v.co2_g_km, "g/km")), highlight: "min" },
         { label: "Poids", values: vehicles.map((v) => fmt(v.weight_kg, "kg")), highlight: "min" },
       ],

@@ -70,6 +70,10 @@ function groupSpecs(specs: { spec_type: string; spec_value: string }[]) {
     wltp_combined: "Consommation",
     electric_range: "Consommation",
     battery_capacity: "Consommation",
+    real_consumption_l100km: "Consommation",
+    fuel_consumption_combined_l_100km: "Consommation",
+    wltp_consumption_combined: "Consommation",
+    co2_emissions_g_km: "Consommation",
   };
 
   const labelMap: Record<string, string> = {
@@ -102,10 +106,14 @@ function groupSpecs(specs: { spec_type: string; spec_value: string }[]) {
     fuel_consumption_combined: "Conso. combinée",
     fuel_consumption_urban: "Conso. urbaine",
     fuel_consumption_extra_urban: "Conso. extra-urbaine",
-    co2_emissions: "Émissions CO2",
+    co2_emissions: "Émissions CO₂",
     wltp_combined: "WLTP combiné",
     electric_range: "Autonomie électrique",
     battery_capacity: "Capacité batterie",
+    real_consumption_l100km: "Conso. réelle (Spritmonitor)",
+    fuel_consumption_combined_l_100km: "Conso. combinée",
+    wltp_consumption_combined: "WLTP combiné",
+    co2_emissions_g_km: "Émissions CO₂",
   };
 
   for (const spec of specs) {

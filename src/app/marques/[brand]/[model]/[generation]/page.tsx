@@ -101,6 +101,7 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
   hasTrims: boolean;
   hasUXRating: boolean;
   model3d: any;
+  realConsumption: string | null;
 } | null> {
   const db = createServerClient();
 
@@ -139,6 +140,7 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
     { data: trimCheck },
     { data: uxCheck },
     { data: model3dData },
+    { data: realConsoData },
   ] = await Promise.all([
     db
       .from("engine_variants")
@@ -192,6 +194,12 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
       .select("embed_url, thumbnail_url, model_url, author, license")
       .eq("generation_id", generation.id)
       .limit(1),
+    db
+      .from("third_party_specs")
+      .select("spec_type, spec_value, raw_data")
+      .eq("generation_id", generation.id)
+      .eq("source", "spritmonitor")
+      .limit(1),
   ]);
 
   // Format variants
@@ -243,6 +251,7 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
     hasTrims: (trimCheck || []).length > 0,
     hasUXRating: (uxCheck || []).length > 0,
     model3d: model3dData?.[0] || null,
+    realConsumption: realConsoData?.[0]?.spec_value || null,
   };
 }
 
@@ -255,7 +264,7 @@ export default async function VehiclePage({ params }: Props) {
   const data = await getVehicleData(bs, ms, gs);
   if (!data) notFound();
 
-  const { brand, model, generation, variants, images, safety, familyFit, pricing, interiorDims, hasSeatCompat, hasTrims, hasUXRating, model3d } = data;
+  const { brand, model, generation, variants, images, safety, familyFit, pricing, interiorDims, hasSeatCompat, hasTrims, hasUXRating, model3d, realConsumption } = data;
   const genLbl = generation.internal_code || generation.name;
   const yearStart = getYear(generation.production_start);
   const yearEnd = getYear(generation.production_end);
@@ -482,6 +491,18 @@ export default async function VehiclePage({ params }: Props) {
                   </div>
                   <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">Malus 2025</div>
                 </div>
+              </div>
+            )}
+
+            {/* Real Consumption */}
+            {realConsumption && (
+              <div className="mt-6 surface-3 rounded-xl border border-[var(--border-subtle)] p-4 flex items-center gap-4">
+                <Fuel className="h-5 w-5 text-amber-400 shrink-0" />
+                <div>
+                  <div className="text-sm font-medium text-white">Consommation réelle</div>
+                  <div className="text-xs text-muted-foreground">Moyenne mesurée par les conducteurs (Spritmonitor)</div>
+                </div>
+                <div className="ml-auto text-mono text-xl font-bold text-white">{realConsumption} L/100km</div>
               </div>
             )}
           </TabsContent>

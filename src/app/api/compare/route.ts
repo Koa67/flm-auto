@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { isValidUUID } from '@/lib/validators'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -22,10 +23,10 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'Missing ids parameter' }, { status: 400 })
   }
 
-  const ids = idsParam.split(',').slice(0, 4)
+  const ids = idsParam.split(',').filter(id => isValidUUID(id)).slice(0, 4)
 
   if (ids.length < 2) {
-    return NextResponse.json({ error: 'Need at least 2 vehicles to compare' }, { status: 400 })
+    return NextResponse.json({ error: 'Need at least 2 valid vehicle IDs' }, { status: 400 })
   }
 
   try {
@@ -42,7 +43,8 @@ export async function GET(request: NextRequest) {
       .in('id', ids)
 
     if (genError) {
-      return NextResponse.json({ error: genError.message }, { status: 500 })
+      console.error("Compare error:", genError);
+      return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
     if (!generations || generations.length < 2) {
@@ -65,11 +67,52 @@ export async function GET(request: NextRequest) {
       .select('*')
       .in('generation_id', ids)
 
+    // Get interior dimensions (trunk, length)
+    const { data: allDimensions } = await supabase
+      .from('interior_dimensions')
+      .select('generation_id, trunk_volume_liters, trunk_volume_max_liters, vehicle_length_mm')
+      .in('generation_id', ids)
+
+    // Get third_party_specs for weight, consumption, exterior_dimensions
+    const specTypes = [
+      'weight_kg', 'curb_weight_kg',
+      'fuel_consumption_combined_l_100km', 'wltp_consumption_combined',
+      'real_consumption_l100km',
+      'co2_emissions_g_km',
+      'exterior_dimensions'
+    ]
+    const { data: allSpecs } = await supabase
+      .from('third_party_specs')
+      .select('generation_id, spec_type, spec_value, raw_data')
+      .in('generation_id', ids)
+      .in('spec_type', specTypes)
+
     // Build comparison data
+    // Helper: get first numeric spec value for a generation
+    function getSpec(genId: string, types: string[]): number | null {
+      for (const t of types) {
+        const spec = allSpecs?.find(s => s.generation_id === genId && s.spec_type === t)
+        if (spec?.spec_value) {
+          const n = parseFloat(String(spec.spec_value))
+          if (!isNaN(n)) return n
+        }
+      }
+      return null
+    }
+
+    // Helper: get exterior dimensions from raw_data JSON
+    function getExteriorDims(genId: string) {
+      const spec = allSpecs?.find(s => s.generation_id === genId && s.spec_type === 'exterior_dimensions')
+      if (!spec?.raw_data) return null
+      const raw = typeof spec.raw_data === 'string' ? JSON.parse(spec.raw_data) : spec.raw_data
+      return raw
+    }
+
     const vehicles = generations.map(gen => {
       const variants = allVariants?.filter(v => v.generation_id === gen.id) || []
       const safety = allSafety?.find(s => s.generation_id === gen.id)
-      
+      const dims = allDimensions?.find(d => d.generation_id === gen.id)
+
       // Get top variant (highest power)
       const variantsWithPower = variants
         .map(v => {
@@ -79,17 +122,17 @@ export async function GET(request: NextRequest) {
         })
         .filter(v => v.powertrain?.power_hp)
         .sort((a, b) => (b.powertrain?.power_hp || 0) - (a.powertrain?.power_hp || 0))
-      
+
       const topVariant = variantsWithPower[0]
       const baseVariant = variantsWithPower[variantsWithPower.length - 1]
-      
+
       return {
         id: gen.id,
         brand: (gen.models as any).brands.name,
         model: (gen.models as any).name,
         generation: gen.internal_code || gen.name,
         years: `${gen.production_start ? new Date(gen.production_start).getFullYear() : '?'}-${gen.production_end ? new Date(gen.production_end).getFullYear() : 'now'}`,
-        
+
         // Top spec
         top_spec: topVariant ? {
           name: topVariant.name?.replace(/Specs$/, ''),
@@ -99,26 +142,46 @@ export async function GET(request: NextRequest) {
           acceleration_0_100: topVariant.performance?.acceleration_0_100_kmh,
           top_speed_kmh: topVariant.performance?.top_speed_kmh,
         } : null,
-        
+
         // Base spec (entry level)
         base_spec: baseVariant && baseVariant !== topVariant ? {
           name: baseVariant.name?.replace(/Specs$/, ''),
           power_hp: baseVariant.powertrain?.power_hp,
         } : null,
-        
+
         // Power range
         power_range: variantsWithPower.length > 0 ? {
           min: baseVariant?.powertrain?.power_hp || null,
           max: topVariant?.powertrain?.power_hp || null,
         } : null,
-        
+
         variants_count: variants.length,
-        
+
         // Safety
         safety: safety ? {
           rating: safety.overall_rating,
           year: safety.test_year,
         } : null,
+
+        // Dimensions (from exterior_dimensions raw_data + interior_dimensions)
+        dimensions: (() => {
+          const ext = getExteriorDims(gen.id)
+          return {
+            length_mm: ext?.length_mm || dims?.vehicle_length_mm || null,
+            width_mm: ext?.width_mm || null,
+            height_mm: ext?.height_mm || null,
+            wheelbase_mm: ext?.wheelbase_mm || null,
+            ground_clearance_mm: ext?.ground_clearance_mm || null,
+            trunk_liters: dims?.trunk_volume_liters || null,
+            trunk_max_liters: dims?.trunk_volume_max_liters || null,
+          }
+        })(),
+
+        // Weight & consumption
+        weight_kg: getSpec(gen.id, ['curb_weight_kg', 'weight_kg']),
+        consumption_l_100: getSpec(gen.id, ['fuel_consumption_combined_l_100km', 'wltp_consumption_combined']),
+        real_consumption_l_100: getSpec(gen.id, ['real_consumption_l100km']),
+        co2_g_km: getSpec(gen.id, ['co2_emissions_g_km']),
       }
     })
 
