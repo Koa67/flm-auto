@@ -84,6 +84,23 @@ function normalize(s: string): string {
     .trim();
 }
 
+/** Normalize NHTSA model names to DB-friendly aliases */
+function normalizeNHTSAModel(model: string): string {
+  let m = model.toUpperCase().trim();
+  // Strip " SERIES" / " CLASS" suffix (BMW "3 SERIES" → "3", Mercedes "E-CLASS" → "E")
+  m = m.replace(/\s+SERIES$/i, '').replace(/\s*[-]?\s*CLASS$/i, '');
+  // Strip " WAGON" suffix (BMW "3 SERIES WAGON" → "3")
+  m = m.replace(/\s+WAGON$/i, '');
+  // Strip " HYBRID" (Toyota "CAMRY HYBRID" → "CAMRY")
+  m = m.replace(/\s+HYBRID$/i, '');
+  // VW specifics
+  if (m === 'NEW BEETLE') m = 'BEETLE';
+  if (m === 'RABBIT') m = 'GOLF'; // VW Rabbit = Golf in US
+  if (m === 'GTI') m = 'GOLF'; // VW GTI = Golf GTI
+  if (m === 'GLI') m = 'JETTA'; // VW GLI = Jetta GLI
+  return m;
+}
+
 async function paginateAll(table: string, select: string): Promise<any[]> {
   const all: any[] = [];
   let page = 0;
@@ -145,7 +162,10 @@ async function main() {
         const makeNorm = normalize(makeName);
 
         // Only process brands we have in our DB
-        if (!BRAND_MAP[makeNorm]) continue;
+        // BRAND_MAP keys need normalizing too (hyphens → spaces)
+        const brandMatch = Object.entries(BRAND_MAP).find(([k]) => normalize(k) === makeNorm);
+        if (!brandMatch) continue;
+        const dbBrand = brandMatch[1];
 
         try {
           const modelsData = await fetchJSON(`https://api.nhtsa.gov/SafetyRatings/modelyear/${year}/make/${encodeURIComponent(makeName)}`);
@@ -154,29 +174,58 @@ async function main() {
 
           for (const model of models) {
             const modelName = model.Model;
-            const vehicleId = model.VehicleId;
 
-            if (!vehicleId) continue;
-
+            // Step 3: Get variants with actual VehicleIds
             try {
-              const vehicleData = await fetchJSON(`https://api.nhtsa.gov/SafetyRatings/VehicleId/${vehicleId}`);
-              const results = vehicleData.Results || [];
+              const variantsData = await fetchJSON(`https://api.nhtsa.gov/SafetyRatings/modelyear/${year}/make/${encodeURIComponent(makeName)}/model/${encodeURIComponent(modelName)}`);
+              const variants = variantsData.Results || [];
               await sleep(DELAY_MS);
 
-              for (const r of results) {
-                const stars = parseInt(r.OverallRating);
-                if (stars >= 1 && stars <= 5) {
-                  allRatings.push({
-                    brand: BRAND_MAP[makeNorm] || makeName,
-                    model: modelName,
-                    year,
-                    stars,
-                    vehicleId,
-                  });
+              for (const variant of variants) {
+                const vehicleId = variant.VehicleId;
+                if (!vehicleId) continue;
+
+                try {
+                  const vehicleData = await fetchJSON(`https://api.nhtsa.gov/SafetyRatings/VehicleId/${vehicleId}`);
+                  const results = vehicleData.Results || [];
+                  await sleep(DELAY_MS);
+
+                  for (const r of results) {
+                    // Try OverallRating first (2011+ format)
+                    let stars = parseInt(r.OverallRating);
+
+                    // Pre-2011: compute from sub-ratings
+                    if (!(stars >= 1 && stars <= 5)) {
+                      const subRatings: number[] = [];
+                      for (const key of [
+                        'FrontCrashDriversideRating', 'FrontCrashPassengersideRating',
+                        'SideCrashDriversideRating', 'SideCrashPassengersideRating',
+                        'RolloverRating2',
+                      ]) {
+                        const val = parseInt(r[key]);
+                        if (val >= 1 && val <= 5) subRatings.push(val);
+                      }
+                      if (subRatings.length >= 2) {
+                        stars = Math.round(subRatings.reduce((a, b) => a + b, 0) / subRatings.length);
+                      }
+                    }
+
+                    if (stars >= 1 && stars <= 5) {
+                      allRatings.push({
+                        brand: dbBrand,
+                        model: modelName,
+                        year,
+                        stars,
+                        vehicleId,
+                      });
+                    }
+                  }
+                } catch {
+                  // Skip individual vehicle failures
                 }
               }
             } catch {
-              // Skip individual vehicle failures
+              // Skip model variant failures
             }
           }
         } catch {
@@ -205,8 +254,10 @@ async function main() {
   console.log(`  Loaded ${gens.length} generations`);
 
   const existingRatings = await paginateAll('safety_ratings', 'generation_id, confidence');
-  const existingGenIds = new Set(existingRatings.map((r: any) => r.generation_id));
-  console.log(`  Existing ratings: ${existingRatings.length}`);
+  // Only skip gens with A confidence — NHTSA direct data IS A, so don't overwrite other A sources
+  // But DO overwrite B/C/D/E with A since direct data is more reliable
+  const existingAGenIds = new Set(existingRatings.filter((r: any) => r.confidence === 'A').map((r: any) => r.generation_id));
+  console.log(`  Existing ratings: ${existingRatings.length} (${existingAGenIds.size} with A)`);
 
   // Build gen index
   const genIndex = new Map<string, any[]>();
@@ -245,9 +296,12 @@ async function main() {
 
     // Find matching generation by model name + year
     const modelNorm = normalize(rating.model);
+    const modelNHTSA = normalize(normalizeNHTSAModel(rating.model));
     const candidates = brandGens.filter(g => {
       const genModel = normalize(g.model?.name || '');
-      return genModel.includes(modelNorm) || modelNorm.includes(genModel);
+      // Try original NHTSA name and normalized alias
+      return genModel.includes(modelNorm) || modelNorm.includes(genModel) ||
+             genModel.includes(modelNHTSA) || modelNHTSA.includes(genModel);
     });
 
     if (candidates.length === 0) {
@@ -262,7 +316,7 @@ async function main() {
       return rating.year >= startYear - 1 && rating.year <= endYear + 1;
     }) || candidates[0];
 
-    if (existingGenIds.has(bestGen.id)) {
+    if (existingAGenIds.has(bestGen.id)) {
       skipped++;
       continue;
     }
@@ -274,7 +328,7 @@ async function main() {
       source_url: `nhtsa:${rating.vehicleId}`,
       confidence: 'A',
     });
-    existingGenIds.add(bestGen.id); // Prevent duplicates in this batch
+    existingAGenIds.add(bestGen.id); // Prevent duplicates in this batch
     matched++;
   }
 

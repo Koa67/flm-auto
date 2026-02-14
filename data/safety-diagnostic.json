@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-02-14T07:34:04.606Z",
+  "total_gens": 4268,
+  "with_safety_any": 3738,
+  "with_safety_AB": 2338,
+  "without_safety": 530,
+  "pct_AB": 54.8,
+  "confidence_breakdown": {
+    "A": 845,
+    "B": 1493,
+    "C": 248,
+    "D": 1061,
+    "E": 91,
+    "null": 0
+  },
+  "propagation_opportunities": {
+    "intra_model_same_model_id": 0,
+    "facelift_inheritance": 0,
+    "body_variant_inheritance": 0,
+    "extended_year_7y": 0,
+    "total_estimated": 0
+  },
+  "models_with_A_but_missing_B": [],
+  "brands_coverage_pct": {
+    "Audi": {
+      "total": 445,
+      "AB": 358,
+      "pct": 80.4
+    },
+    "Mercedes-Benz": {
+      "total": 435,
+      "AB": 190,
+      "pct": 43.7
+    },
+    "Volkswagen": {
+      "total": 465,
+      "AB": 310,
+      "pct": 66.7
+    },
+    "Porsche": {
+      "total": 137,
+      "AB": 29,
+      "pct": 21.2
+    },
+    "Toyota": {
+      "total": 535,
+      "AB": 270,
+      "pct": 50.5
+    },
+    "BMW": {
+      "total": 250,
+      "AB": 159,
+      "pct": 63.6
+    },
+    "Lamborghini": {
+      "total": 27,
+      "AB": 0,
+      "pct": 0
+    },
+    "Skoda": {
+      "total": 113,
+      "AB": 76,
+      "pct": 67.3
+    },
+    "Hyundai": {
+      "total": 220,
+      "AB": 148,
+      "pct": 67.3
+    },
+    "Tesla": {
+      "total": 6,
+      "AB": 5,
+      "pct": 83.3
+    },
+    "Volvo": {
+      "total": 113,
+      "AB": 71,
+      "pct": 62.8
+    },
+    "Ferrari": {
+      "total": 13,
+      "AB": 0,
+      "pct": 0
+    },
+    "Ford": {
+      "total": 27,
+      "AB": 18,
+      "pct": 66.7
+    },
+    "Honda": {
+      "total": 186,
+      "AB": 119,
+      "pct": 64
+    },
+    "Nissan": {
+      "total": 359,
+      "AB": 169,
+      "pct": 47.1
+    },
+    "Mazda": {
+      "total": 169,
+      "AB": 117,
+      "pct": 69.2
+    },
+    "Kia": {
+      "total": 189,
+      "AB": 118,
+      "pct": 62.4
+    },
+    "Jaguar": {
+      "total": 12,
+      "AB": 6,
+      "pct": 50
+    },
+    "Seat": {
+      "total": 15,
+      "AB": 8,
+      "pct": 53.3
+    },
+    "Land Rover": {
+      "total": 9,
+      "AB": 6,
+      "pct": 66.7
+    },
+    "Lexus": {
+      "total": 13,
+      "AB": 10,
+      "pct": 76.9
+    },
+    "Peugeot": {
+      "total": 163,
+      "AB": 17,
+      "pct": 10.4
+    },
+    "Renault": {
+      "total": 246,
+      "AB": 112,
+      "pct": 45.5
+    },
+    "Opel": {
+      "total": 23,
+      "AB": 9,
+      "pct": 39.1
+    },
+    "Fiat": {
+      "total": 33,
+      "AB": 3,
+      "pct": 9.1
+    },
+    "Citroen": {
+      "total": 8,
+      "AB": 3,
+      "pct": 37.5
+    },
+    "Mini": {
+      "total": 10,
+      "AB": 3,
+      "pct": 30
+    },
+    "Alfa Romeo": {
+      "total": 25,
+      "AB": 4,
+      "pct": 16
+    },
+    "Maserati": {
+      "total": 6,
+      "AB": 0,
+      "pct": 0
+    },
+    "Aston Martin": {
+      "total": 6,
+      "AB": 0,
+      "pct": 0
+    },
+    "Bentley": {
+      "total": 4,
+      "AB": 0,
+      "pct": 0
+    },
+    "Rolls-Royce": {
+      "total": 6,
+      "AB": 0,
+      "pct": 0
+    }
+  }
+}

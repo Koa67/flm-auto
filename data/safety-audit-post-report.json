@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-02-13T20:11:43.311Z",
+  "timestamp": "2026-02-14T07:35:57.198Z",
   "total_generations": 4268,
   "by_tier": {
-    "A": 736,
-    "B": 946,
-    "C": 641,
-    "D": 1284,
-    "E": 110,
+    "A": 845,
+    "B": 1493,
+    "C": 248,
+    "D": 1061,
+    "E": 91,
     "null": 0
   },
-  "verified_count": 1682,
-  "verified_pct": 39.4,
-  "trustworthy_count": 2323,
-  "trustworthy_pct": 54.4,
-  "all_rated_count": 3607,
-  "all_rated_pct": 84.5,
-  "coverage_pct": 87.1,
-  "unrated_count": 551,
+  "verified_count": 2338,
+  "verified_pct": 54.8,
+  "trustworthy_count": 2586,
+  "trustworthy_pct": 60.6,
+  "all_rated_count": 3647,
+  "all_rated_pct": 85.4,
+  "coverage_pct": 87.6,
+  "unrated_count": 530,
   "star_distribution": {
     "1": 0,
-    "2": 566,
-    "3": 389,
-    "4": 918,
-    "5": 1844
+    "2": 476,
+    "3": 361,
+    "4": 958,
+    "5": 1943
   },
   "top_20_unrated": [
     {
@@ -178,10 +178,10 @@
       "variants": 18
     },
     {
-      "id": "121fb3ab-bfa5-4152-afa5-060e669694a8",
-      "brand": "Mercedes-Benz",
-      "model": "CLS Shooting Brake",
-      "gen": "X218",
+      "id": "3c8ad21c-daa3-4df9-af8c-5070dc987264",
+      "brand": "Porsche",
+      "model": "911",
+      "gen": "911 Cabriolet  997",
       "body_style": "?",
       "variants": 17
     }
@@ -189,58 +189,58 @@
   "by_brand": {
     "Toyota": {
       "total": 535,
-      "rated": 519,
-      "verified": 178
+      "rated": 520,
+      "verified": 270
     },
     "Volkswagen": {
       "total": 465,
-      "rated": 391,
-      "verified": 241
+      "rated": 393,
+      "verified": 310
     },
     "Audi": {
       "total": 445,
-      "rated": 413,
-      "verified": 236
+      "rated": 415,
+      "verified": 358
     },
     "Mercedes-Benz": {
       "total": 435,
-      "rated": 367,
-      "verified": 106
+      "rated": 372,
+      "verified": 190
     },
     "Nissan": {
       "total": 359,
-      "rated": 351,
-      "verified": 124
+      "rated": 352,
+      "verified": 169
     },
     "BMW": {
       "total": 250,
-      "rated": 179,
-      "verified": 152
+      "rated": 182,
+      "verified": 159
     },
     "Renault": {
       "total": 246,
       "rated": 220,
-      "verified": 64
+      "verified": 112
     },
     "Hyundai": {
       "total": 220,
       "rated": 218,
-      "verified": 118
+      "verified": 148
     },
     "Kia": {
       "total": 189,
       "rated": 187,
-      "verified": 102
+      "verified": 118
     },
     "Honda": {
       "total": 186,
-      "rated": 174,
-      "verified": 83
+      "rated": 175,
+      "verified": 119
     },
     "Mazda": {
       "total": 169,
-      "rated": 166,
-      "verified": 62
+      "rated": 167,
+      "verified": 117
     },
     "Peugeot": {
       "total": 163,
@@ -250,17 +250,17 @@
     "Porsche": {
       "total": 137,
       "rated": 64,
-      "verified": 27
+      "verified": 29
     },
     "Skoda": {
       "total": 113,
       "rated": 97,
-      "verified": 50
+      "verified": 76
     },
     "Volvo": {
       "total": 113,
       "rated": 104,
-      "verified": 52
+      "verified": 71
     },
     "Fiat": {
       "total": 33,
@@ -274,8 +274,8 @@
     },
     "Ford": {
       "total": 27,
-      "rated": 16,
-      "verified": 16
+      "rated": 18,
+      "verified": 18
     },
     "Alfa Romeo": {
       "total": 25,
@@ -299,13 +299,13 @@
     },
     "Lexus": {
       "total": 13,
-      "rated": 12,
-      "verified": 9
+      "rated": 13,
+      "verified": 10
     },
     "Jaguar": {
       "total": 12,
-      "rated": 7,
-      "verified": 4
+      "rated": 9,
+      "verified": 6
     },
     "Mini": {
       "total": 10,
