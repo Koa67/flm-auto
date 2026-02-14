@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-14T10:34:24.053Z",
+  "mode": "live",
+  "targets": 367,
+  "propagated": 343,
+  "remaining": 24,
+  "p1_facelift": 92,
+  "p2_body_variant": 3,
+  "p3_adjacent_gen": 153,
+  "p4_same_model_any": 95,
+  "total_images": 1257
+}

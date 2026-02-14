@@ -1,0 +1,657 @@
+{
+  "timestamp": "2026-02-14T10:35:00.315Z",
+  "total_gens": 4268,
+  "gens_with_any_photo": 3800,
+  "gens_with_AB_photo": 3793,
+  "gens_zero_photos": 468,
+  "gens_only_CD_null": 7,
+  "gens_null_confidence_only": 0,
+  "pct_AB": 88.9,
+  "gen_confidence_breakdown": {
+    "A": 3044,
+    "B": 749,
+    "C": 7,
+    "D": 0,
+    "E": 0,
+    "null_only": 0,
+    "none": 468
+  },
+  "image_confidence_breakdown": {
+    "A": 273524,
+    "B": 21752,
+    "C": 991,
+    "D": 0,
+    "E": 0,
+    "null": 0
+  },
+  "gaps_by_brand": [
+    {
+      "brand": "Nissan",
+      "total": 359,
+      "with_AB": 259,
+      "missing_AB": 100,
+      "zero_photos": 100
+    },
+    {
+      "brand": "Mazda",
+      "total": 169,
+      "with_AB": 100,
+      "missing_AB": 69,
+      "zero_photos": 69
+    },
+    {
+      "brand": "Kia",
+      "total": 189,
+      "with_AB": 120,
+      "missing_AB": 69,
+      "zero_photos": 69
+    },
+    {
+      "brand": "Hyundai",
+      "total": 220,
+      "with_AB": 156,
+      "missing_AB": 64,
+      "zero_photos": 64
+    },
+    {
+      "brand": "Volvo",
+      "total": 113,
+      "with_AB": 82,
+      "missing_AB": 31,
+      "zero_photos": 31
+    },
+    {
+      "brand": "Toyota",
+      "total": 535,
+      "with_AB": 511,
+      "missing_AB": 24,
+      "zero_photos": 24
+    },
+    {
+      "brand": "Honda",
+      "total": 186,
+      "with_AB": 165,
+      "missing_AB": 21,
+      "zero_photos": 21
+    },
+    {
+      "brand": "Volkswagen",
+      "total": 465,
+      "with_AB": 445,
+      "missing_AB": 20,
+      "zero_photos": 16
+    },
+    {
+      "brand": "Audi",
+      "total": 445,
+      "with_AB": 429,
+      "missing_AB": 16,
+      "zero_photos": 16
+    },
+    {
+      "brand": "Skoda",
+      "total": 113,
+      "with_AB": 97,
+      "missing_AB": 16,
+      "zero_photos": 16
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "total": 435,
+      "with_AB": 423,
+      "missing_AB": 12,
+      "zero_photos": 10
+    },
+    {
+      "brand": "Renault",
+      "total": 246,
+      "with_AB": 234,
+      "missing_AB": 12,
+      "zero_photos": 12
+    },
+    {
+      "brand": "BMW",
+      "total": 250,
+      "with_AB": 241,
+      "missing_AB": 9,
+      "zero_photos": 9
+    },
+    {
+      "brand": "Peugeot",
+      "total": 163,
+      "with_AB": 155,
+      "missing_AB": 8,
+      "zero_photos": 8
+    },
+    {
+      "brand": "Porsche",
+      "total": 137,
+      "with_AB": 135,
+      "missing_AB": 2,
+      "zero_photos": 1
+    },
+    {
+      "brand": "Jaguar",
+      "total": 12,
+      "with_AB": 11,
+      "missing_AB": 1,
+      "zero_photos": 1
+    },
+    {
+      "brand": "Seat",
+      "total": 15,
+      "with_AB": 14,
+      "missing_AB": 1,
+      "zero_photos": 1
+    },
+    {
+      "brand": "Lamborghini",
+      "total": 27,
+      "with_AB": 27,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Tesla",
+      "total": 6,
+      "with_AB": 6,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Ferrari",
+      "total": 13,
+      "with_AB": 13,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Ford",
+      "total": 27,
+      "with_AB": 27,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Land Rover",
+      "total": 9,
+      "with_AB": 9,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Lexus",
+      "total": 13,
+      "with_AB": 13,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Opel",
+      "total": 23,
+      "with_AB": 23,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Fiat",
+      "total": 33,
+      "with_AB": 33,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Citroen",
+      "total": 8,
+      "with_AB": 8,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Mini",
+      "total": 10,
+      "with_AB": 10,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Alfa Romeo",
+      "total": 25,
+      "with_AB": 25,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Maserati",
+      "total": 6,
+      "with_AB": 6,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Aston Martin",
+      "total": 6,
+      "with_AB": 6,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Bentley",
+      "total": 4,
+      "with_AB": 4,
+      "missing_AB": 0,
+      "zero_photos": 0
+    },
+    {
+      "brand": "Rolls-Royce",
+      "total": 6,
+      "with_AB": 6,
+      "missing_AB": 0,
+      "zero_photos": 0
+    }
+  ],
+  "top_50_missing": [
+    {
+      "brand": "Audi",
+      "model": "S3",
+      "gen": "8p",
+      "slug": "s3-8p-2006",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe E",
+      "gen": "w210",
+      "slug": "e-class-w210-1994",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "335Specs",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe S",
+      "gen": "W222",
+      "slug": "w222-merged",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "A5",
+      "gen": "A5 A5  F5",
+      "slug": "audi-a5-a5-f5",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "A1",
+      "gen": "A1 A1 2015 Sportback",
+      "slug": "audi-a1-a1-2015-sportback",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo",
+      "gen": "iii classic",
+      "slug": "polo-iii-classic-1998",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Porsche",
+      "model": "Boxster",
+      "gen": "Boxster Boxster  987",
+      "slug": "porsche-boxster-boxster-987",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "SP1",
+      "gen": "SP1 SP1",
+      "slug": "volkswagen-sp1-sp1",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F12",
+      "slug": "f12",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F06",
+      "slug": "f06",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "75",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "Nuvolari",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "Avantissimo",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "M3Specs",
+      "gen": "G80",
+      "slug": "g80",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "TT",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Kurierwagen",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Grand",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Skoda",
+      "model": "Laura",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Skoda",
+      "model": "Winnetou",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Skoda",
+      "model": "1202",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Skoda",
+      "model": "430",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Lavida",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Corrado",
+      "gen": "G60",
+      "slug": "g60",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "K",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Type",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "T",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "California",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Arteon",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "CrossTouran",
+      "gen": "Default",
+      "slug": "default",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kona Electric",
+      "gen": "SX2 EV",
+      "slug": "kona-electric-sx2-ev-2023",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Santa Fe",
+      "gen": "DM",
+      "slug": "santa-fe-dm-2012",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Nissan",
+      "model": "GT-R",
+      "gen": "2007-present",
+      "slug": "gt-r-2007",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda6",
+      "gen": "2002-present",
+      "slug": "mazda6-2002",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Seat",
+      "model": "Cupra Born",
+      "gen": "2021-present",
+      "slug": "cupra-born-2021",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Jaguar",
+      "model": "F-Pace",
+      "gen": "2016-present",
+      "slug": "f-pace-2016",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane E-Tech",
+      "gen": "2022-present",
+      "slug": "megane-e-tech-2022",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "amg purespeed",
+      "gen": "amg purespeed",
+      "slug": "amg-purespeed-amg-purespeed-2024",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "6",
+      "gen": "gran coupe f06m lci facelift",
+      "slug": "m6-gran-coupe-f06m-lci-facelift-2015",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "8",
+      "gen": "coupe f92",
+      "slug": "m8-coupe-f92-2019",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "8",
+      "gen": "convertible f91",
+      "slug": "m8-convertible-f91-2019",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "E",
+      "gen": "new class",
+      "slug": "new-class-new-class-1966",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "BMW",
+      "model": "1",
+      "gen": "e30",
+      "slug": "z1-e30-1988",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe A",
+      "gen": "w176",
+      "slug": "a-class-w176-2013",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe A",
+      "gen": "w168",
+      "slug": "a-class-w168-1999",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "f",
+      "gen": "w111",
+      "slug": "fintail-w111-1965",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe R",
+      "gen": "long v251",
+      "slug": "r-class-long-v251-2006",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "e",
+      "gen": "e tron",
+      "slug": "e-tron-e-tron-2020",
+      "photos": 0,
+      "best_tier": null
+    },
+    {
+      "brand": "Audi",
+      "model": "R",
+      "gen": "nsu ro",
+      "slug": "nsu-ro-nsu-ro-1967",
+      "photos": 0,
+      "best_tier": null
+    }
+  ],
+  "gens_D_only": [],
+  "gens_null_only": []
+}
