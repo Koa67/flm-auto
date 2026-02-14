@@ -8,6 +8,7 @@ test.describe("Navigation", () => {
   });
 
   test("nav links are visible on desktop", async ({ page }) => {
+    test.skip(page.viewportSize()!.width < 768, "Nav links hidden behind hamburger on mobile");
     await page.goto("/");
     const nav = page.locator("nav");
     await expect(nav.getByRole("link", { name: "Marques", exact: true })).toBeVisible();
