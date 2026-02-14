@@ -407,13 +407,13 @@ export default async function VehiclePage({ params }: Props) {
                       <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">Puissance</TableHead>
                       <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">Couple</TableHead>
                       <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">0-100</TableHead>
-                      <TableHead className="text-right text-xs uppercase tracking-wider text-muted-foreground">V.max</TableHead>
-                      <TableHead className="text-xs uppercase tracking-wider text-muted-foreground">Transmission</TableHead>
+                      <TableHead className="hidden text-right text-xs uppercase tracking-wider text-muted-foreground lg:table-cell">V.max</TableHead>
+                      <TableHead className="hidden text-xs uppercase tracking-wider text-muted-foreground lg:table-cell">Transmission</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     {variants.map((v, i) => (
-                      <TableRow key={v.id} className={`border-[var(--border-subtle)] ${i % 2 === 1 ? "surface-3" : ""}`}>
+                      <TableRow key={v.id} className={`border-[var(--border-subtle)] transition-colors hover:bg-(--bg-hover) ${i % 2 === 1 ? "surface-3" : ""}`}>
                         <TableCell>
                           <div className="font-medium text-white">{v.name}</div>
                           <div className="text-xs text-muted-foreground">
@@ -433,10 +433,10 @@ export default async function VehiclePage({ params }: Props) {
                         <TableCell className="text-right text-mono text-white">
                           {v.acceleration_0_100 ? `${v.acceleration_0_100}s` : "\u2014"}
                         </TableCell>
-                        <TableCell className="text-right text-mono text-white">
+                        <TableCell className="hidden text-right text-mono text-white lg:table-cell">
                           {v.top_speed_kmh ? `${v.top_speed_kmh} km/h` : "\u2014"}
                         </TableCell>
-                        <TableCell>
+                        <TableCell className="hidden lg:table-cell">
                           <div className="text-sm text-white">
                             {v.transmission || "\u2014"}
                           </div>

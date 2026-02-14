@@ -11,19 +11,19 @@ export function Footer() {
             <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary/70">
               Explorer
             </h3>
-            <ul className="space-y-2.5 text-sm text-muted-foreground">
+            <ul className="space-y-1 text-sm text-muted-foreground">
               <li>
-                <Link href="/marques" className="transition-colors hover:text-white">
+                <Link href="/marques" className="inline-block py-1 transition-colors hover:text-white">
                   Toutes les marques
                 </Link>
               </li>
               <li>
-                <Link href="/recherche" className="transition-colors hover:text-white">
+                <Link href="/recherche" className="inline-block py-1 transition-colors hover:text-white">
                   Recherche
                 </Link>
               </li>
               <li>
-                <Link href="/meilleur" className="transition-colors hover:text-white">
+                <Link href="/meilleur" className="inline-block py-1 transition-colors hover:text-white">
                   Classements
                 </Link>
               </li>
@@ -33,24 +33,24 @@ export function Footer() {
             <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary/70">
               Outils
             </h3>
-            <ul className="space-y-2.5 text-sm text-muted-foreground">
+            <ul className="space-y-1 text-sm text-muted-foreground">
               <li>
-                <Link href="/comparer" className="transition-colors hover:text-white">
+                <Link href="/comparer" className="inline-block py-1 transition-colors hover:text-white">
                   Comparateur
                 </Link>
               </li>
               <li>
-                <Link href="/family-fit" className="transition-colors hover:text-white">
+                <Link href="/family-fit" className="inline-block py-1 transition-colors hover:text-white">
                   Family Fit
                 </Link>
               </li>
               <li>
-                <Link href="/coffre" className="transition-colors hover:text-white">
+                <Link href="/coffre" className="inline-block py-1 transition-colors hover:text-white">
                   Coffre
                 </Link>
               </li>
               <li>
-                <Link href="/tco" className="transition-colors hover:text-white">
+                <Link href="/tco" className="inline-block py-1 transition-colors hover:text-white">
                   TCO
                 </Link>
               </li>
@@ -60,27 +60,27 @@ export function Footer() {
             <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary/70">
               Marques populaires
             </h3>
-            <ul className="space-y-2.5 text-sm text-muted-foreground">
+            <ul className="space-y-1 text-sm text-muted-foreground">
               <li>
-                <Link href="/marques/bmw" className="transition-colors hover:text-white">
+                <Link href="/marques/bmw" className="inline-block py-1 transition-colors hover:text-white">
                   BMW
                 </Link>
               </li>
               <li>
                 <Link
                   href="/marques/mercedes-benz"
-                  className="transition-colors hover:text-white"
+                  className="inline-block py-1 transition-colors hover:text-white"
                 >
                   Mercedes-Benz
                 </Link>
               </li>
               <li>
-                <Link href="/marques/audi" className="transition-colors hover:text-white">
+                <Link href="/marques/audi" className="inline-block py-1 transition-colors hover:text-white">
                   Audi
                 </Link>
               </li>
               <li>
-                <Link href="/marques/porsche" className="transition-colors hover:text-white">
+                <Link href="/marques/porsche" className="inline-block py-1 transition-colors hover:text-white">
                   Porsche
                 </Link>
               </li>

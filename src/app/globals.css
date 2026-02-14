@@ -182,6 +182,7 @@
   /* Force dark mode on all elements */
   html {
     color-scheme: dark;
+    scroll-behavior: smooth;
   }
 }
 

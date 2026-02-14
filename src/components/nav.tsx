@@ -46,6 +46,7 @@ export function Nav() {
               <Link
                 key={link.href}
                 href={link.href}
+                aria-current={isActive ? "page" : undefined}
                 data-tour={
                   link.href === "/marques"
                     ? "brands"
@@ -57,7 +58,7 @@ export function Nav() {
                   "relative px-3 py-2 text-sm font-medium transition-colors",
                   isActive
                     ? "text-white"
-                    : "text-[#707085] hover:text-[#a0a0b5]"
+                    : "text-muted-foreground hover:text-foreground/70"
                 )}
               >
                 {link.label}
@@ -77,7 +78,7 @@ export function Nav() {
             onClick={() =>
               window.dispatchEvent(new Event("open-command-palette"))
             }
-            className="hidden items-center gap-2 rounded-lg border border-[var(--border-subtle)] bg-[var(--bg-tertiary)] px-3 py-1.5 text-sm text-muted-foreground transition-all hover:border-[var(--border-default)] hover:text-[#a0a0b5] md:flex"
+            className="hidden items-center gap-2 rounded-lg border border-[var(--border-subtle)] bg-[var(--bg-tertiary)] px-3 py-1.5 text-sm text-muted-foreground transition-all hover:border-[var(--border-default)] hover:text-foreground/70 md:flex"
           >
             <Search className="h-3.5 w-3.5" />
             <span>Rechercher…</span>

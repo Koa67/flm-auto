@@ -143,7 +143,7 @@ export default async function Home() {
           <br />
           <span className="text-primary">automobile</span>
         </h1>
-        <p className="mt-4 max-w-lg text-lg text-[#a0a0b5]">
+        <p className="mt-4 max-w-lg text-lg text-muted-foreground">
           {stats.brands} marques, {formatNumber(stats.generations)} g&eacute;n&eacute;rations,
           fiches techniques compl&egrave;tes, photos, comparateur et outils famille.
         </p>
@@ -165,7 +165,7 @@ export default async function Home() {
               const slug = name.toLowerCase().replace(/\s+/g, "-");
               return (
                 <Link key={slug} href={`/marques/${slug}`} aria-label={`Voir ${name}`}>
-                  <button className="surface-3 rounded-lg border border-[var(--border-subtle)] px-3 py-1.5 text-xs uppercase tracking-wider text-muted-foreground transition-all hover:border-primary hover:text-white">
+                  <button className="surface-3 rounded-lg border border-[var(--border-subtle)] px-4 py-2.5 text-xs uppercase tracking-wider text-muted-foreground transition-all hover:border-primary hover:text-white sm:px-3 sm:py-1.5">
                     {name}
                   </button>
                 </Link>
@@ -262,7 +262,7 @@ export default async function Home() {
                       <feature.icon className="h-6 w-6 text-primary" />
                     </div>
                     <h3 className="font-semibold text-white">{feature.title}</h3>
-                    <p className="text-sm text-[#a0a0b5]">
+                    <p className="text-sm text-muted-foreground">
                       {feature.description}
                     </p>
                     <span className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
@@ -305,7 +305,7 @@ export default async function Home() {
       <section className="grain relative px-4 py-16 text-center">
         <GradientDivider className="absolute inset-x-0 top-0" />
         <h2 className="font-display text-2xl font-bold">Explorez l&apos;encyclop&eacute;die</h2>
-        <p className="mt-2 text-[#a0a0b5]">
+        <p className="mt-2 text-muted-foreground">
           De Alfa Romeo &agrave; Volvo, d&eacute;couvrez chaque mod&egrave;le en d&eacute;tail.
         </p>
         <Link href="/marques">
