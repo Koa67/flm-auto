@@ -310,7 +310,17 @@ export default async function VehiclePage({ params }: Props) {
 
   return (
     <div>
-      <ViewTracker statKey="vehiclesViewed" />
+      <ViewTracker
+        statKey="vehiclesViewed"
+        recentlyViewed={{
+          id: generation.id,
+          brand: brand.name,
+          model: model.name,
+          gen: generation.internal_code || generation.name,
+          slug: `/marques/${bs}/${ms}/${gs}`,
+          thumbnail: images.exteriors[0]?.url || null,
+        }}
+      />
       <ViewTracker statKey="brandsViewed" uniqueSetKey="brands" uniqueValue={bs} />
       <script
         type="application/ld+json"
