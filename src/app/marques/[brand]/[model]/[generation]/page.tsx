@@ -58,6 +58,7 @@ import { ViewTracker } from "@/components/view-tracker";
 import { EssentialStats } from "@/components/vehicle/essential-stats";
 import { CompareQuickAction } from "@/components/vehicle/quick-actions";
 import { AlternativesShelf } from "@/components/vehicle/alternatives-shelf";
+import { ShareButton } from "@/components/share-button";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -385,6 +386,7 @@ export default async function VehiclePage({ params }: Props) {
             thumbnail={images.exteriors[0]?.url || null}
           />
           <PriceAlertButton generationId={generation.id} vehicleName={`${brand.name} ${model.name} ${genLbl}`} />
+          <ShareButton title={`${brand.name} ${model.name} ${genLbl}`} />
         </div>
       </div>
 

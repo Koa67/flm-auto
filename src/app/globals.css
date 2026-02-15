@@ -380,3 +380,62 @@
   outline: 2px solid var(--color-ring);
   outline-offset: 2px;
 }
+
+/* ── Print styles ──────────────────────────────────────────── */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  * {
+    color: black !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  nav,
+  footer,
+  .no-print,
+  [data-slot="command"],
+  [role="dialog"],
+  .fixed,
+  .sticky {
+    display: none !important;
+  }
+
+  .card-hover {
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .surface-2,
+  .surface-3,
+  .surface-4 {
+    background: #f8f8f8 !important;
+    border: 1px solid #ddd !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    font-weight: normal;
+    color: #666 !important;
+  }
+  nav a::after {
+    content: none !important;
+  }
+
+  @page {
+    margin: 1.5cm;
+  }
+}
