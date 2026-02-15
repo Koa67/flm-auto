@@ -11,6 +11,8 @@ import {
   Camera,
   Film,
   Package,
+  Calculator,
+  Trophy,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -18,7 +20,9 @@ import { Badge } from "@/components/ui/badge";
 import { SectionHeader } from "@/components/ui/section-header";
 import { GradientDivider } from "@/components/ui/gradient-divider";
 import { InstantSearch } from "@/components/search/instant-search";
+import { ProfileRecommendations } from "@/components/home/profile-recommendations";
 import { createServerClient } from "@/lib/supabase-server";
+import { generateWebSiteSchema } from "@/lib/schema/website-schema";
 
 export const revalidate = 3600;
 
@@ -43,6 +47,20 @@ const tools = [
       "V\u00e9rifiez si votre chargement rentre dans le coffre : poussettes, valises, v\u00e9los.",
     href: "/coffre",
     icon: Package,
+  },
+  {
+    title: "TCO",
+    description:
+      "Calculez le co\u00fbt total de possession : d\u00e9cote, carburant, assurance, entretien.",
+    href: "/tco",
+    icon: Calculator,
+  },
+  {
+    title: "Classements",
+    description:
+      "Top s\u00e9curit\u00e9, plus grand coffre, meilleur SUV familial et 30+ classements.",
+    href: "/meilleur",
+    icon: Trophy,
   },
   {
     title: "Recherche avanc\u00e9e",
@@ -136,12 +154,18 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateWebSiteSchema()) }}
+      />
       {/* Hero */}
       <section className="grain relative flex flex-col items-center justify-center px-4 py-24 text-center sm:py-32">
+        {/* Gradient accent */}
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
         <h1 className="font-display text-4xl font-bold leading-none tracking-tight sm:text-5xl md:text-7xl">
           L&apos;encyclop&eacute;die
           <br />
-          <span className="text-primary">automobile</span>
+          <span className="bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">automobile</span>
         </h1>
         <p className="mt-4 max-w-lg text-lg text-muted-foreground">
           {stats.brands} marques, {formatNumber(stats.generations)} g&eacute;n&eacute;rations,
@@ -203,6 +227,9 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Personalized Recommendations (profile-based) */}
+      <ProfileRecommendations />
+
       {/* Popular Vehicles */}
       {popular.length > 0 && (
         <section className="px-4 py-16">
@@ -253,7 +280,7 @@ export default async function Home() {
       <section className="section-accent px-4 py-16">
         <div className="mx-auto max-w-5xl">
           <SectionHeader title="Outils" />
-          <div className="stagger-reveal grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="stagger-reveal grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {tools.map((feature) => (
               <Link key={feature.href} href={feature.href}>
                 <Card className="card-hover group h-full">

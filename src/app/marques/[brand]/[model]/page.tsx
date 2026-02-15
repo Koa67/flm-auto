@@ -5,6 +5,7 @@ import { createServerClient } from "@/lib/supabase-server";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import type { Metadata } from "next";
+import { generateBreadcrumbSchema } from "@/lib/schema/breadcrumb-schema";
 
 export const revalidate = 3600;
 
@@ -59,25 +60,25 @@ async function getModelData(brandSlug: string, modelSlug: string) {
 
   // Get images for generations (first exterior per gen)
   const genIds = generations?.map((g) => g.id) || [];
-  let imageMap = new Map<string, string>();
+  const imageMap = new Map<string, string>();
   if (genIds.length > 0) {
     const { data: images } = await db
       .from("vehicle_images")
-      .select("generation_id, image_url")
+      .select("generation_id, url")
       .in("generation_id", genIds)
       .eq("image_type", "exterior")
       .limit(100);
     if (images) {
       for (const img of images) {
         if (!imageMap.has(img.generation_id)) {
-          imageMap.set(img.generation_id, img.image_url);
+          imageMap.set(img.generation_id, img.url);
         }
       }
     }
   }
 
   // Get variant counts
-  let variantCountMap = new Map<string, number>();
+  const variantCountMap = new Map<string, number>();
   if (genIds.length > 0) {
     const { data: variants } = await db
       .from("engine_variants")
@@ -118,21 +119,34 @@ export default async function ModelPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Marques", url: "/marques" },
+              { name: brand.name, url: `/marques/${brandSlug}` },
+              { name: model.name },
+            ])
+          ),
+        }}
+      />
       <div className="mb-8">
         <div className="flex gap-2 text-sm text-muted-foreground">
-          <Link href="/marques" className="hover:text-foreground">
+          <Link href="/marques" className="hover:text-primary">
             Marques
           </Link>
           <span>/</span>
           <Link
             href={`/marques/${brandSlug}`}
-            className="hover:text-foreground"
+            className="hover:text-primary"
           >
             {brand.name}
           </Link>
         </div>
-        <h1 className="mt-2 text-3xl font-bold">
-          {brand.name} {model.name}
+        <h1 className="mt-2 font-display text-3xl font-bold sm:text-4xl">
+          {brand.name} <span className="text-primary">{model.name}</span>
         </h1>
         <p className="mt-1 text-muted-foreground">
           {generations.length} g&eacute;n&eacute;rations
@@ -147,9 +161,9 @@ export default async function ModelPage({ params }: Props) {
             key={gen.id}
             href={`/marques/${brandSlug}/${modelSlug}/${gen.slug}`}
           >
-            <Card className="overflow-hidden transition-all hover:shadow-md hover:-translate-y-0.5">
+            <Card className="card-hover group overflow-hidden">
               {gen.image_url && (
-                <div className="relative aspect-[16/10] bg-muted">
+                <div className="relative aspect-[16/10] surface-2">
                   <Image
                     src={gen.image_url}
                     alt={`${brand.name} ${model.name} ${gen.name}`}
@@ -160,7 +174,7 @@ export default async function ModelPage({ params }: Props) {
                 </div>
               )}
               <CardContent className="p-4">
-                <h3 className="font-semibold">
+                <h3 className="font-semibold text-white">
                   {gen.internal_code || gen.name}
                 </h3>
                 <div className="mt-1 flex flex-wrap items-center gap-2">

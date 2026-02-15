@@ -2,127 +2,36 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { createServerClient } from "@/lib/supabase-server";
+import { RANKING_CATEGORIES } from "@/lib/rankings/categories";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
-import { Shield, Star, Baby, Gauge } from "lucide-react";
 import type { Metadata } from "next";
+import { generateFAQSchema } from "@/lib/schema/faq-schema";
 
 export const revalidate = 86400; // 24h
-
-interface CategoryDef {
-  slug: string;
-  title: string;
-  h1: string;
-  description: string;
-  query: (db: ReturnType<typeof createServerClient>) => Promise<any[]>;
-}
-
-const CATEGORIES: CategoryDef[] = [
-  {
-    slug: "suv-familial-2024",
-    title: "Meilleur SUV familial 2024",
-    h1: "Les meilleurs SUV familiaux en 2024",
-    description:
-      "Classement des meilleurs SUV familiaux basé sur notre score Family Fit, la sécurité Euro NCAP et l'espace intérieur.",
-    query: async (db) => {
-      const { data } = await db
-        .from("family_fit_compatibility")
-        .select("generation_id, family_fit_score, isofix_points, three_across_possible")
-        .gte("family_fit_score", 50)
-        .order("family_fit_score", { ascending: false })
-        .limit(20);
-      return data || [];
-    },
-  },
-  {
-    slug: "berline-sportive-2024",
-    title: "Meilleure berline sportive 2024",
-    h1: "Les meilleures berlines sportives en 2024",
-    description:
-      "Top des berlines sportives : puissance, performances, tenue de route. Classement par puissance.",
-    query: async (db) => {
-      const { data } = await db
-        .from("engine_variants")
-        .select("generation_id, power_hp:powertrain_specs(power_hp)")
-        .gte("powertrain_specs.power_hp", 300)
-        .order("powertrain_specs(power_hp)", { ascending: false })
-        .limit(20);
-      return data || [];
-    },
-  },
-  {
-    slug: "voiture-5-etoiles-euroncap-2024",
-    title: "Voitures 5 étoiles Euro NCAP 2024",
-    h1: "Toutes les voitures 5 étoiles Euro NCAP",
-    description:
-      "Liste complète des véhicules ayant obtenu la note maximale de 5 étoiles aux crash-tests Euro NCAP.",
-    query: async (db) => {
-      const { data } = await db
-        .from("safety_ratings")
-        .select("generation_id, stars, adult_occupant_pct, child_occupant_pct, test_year")
-        .eq("stars", 5)
-        .order("test_year", { ascending: false })
-        .limit(30);
-      return data || [];
-    },
-  },
-  {
-    slug: "suv-compact-2024",
-    title: "Meilleur SUV compact 2024",
-    h1: "Les meilleurs SUV compacts en 2024",
-    description:
-      "Classement des meilleurs SUV compacts : dimensions contenues, polyvalence maximale.",
-    query: async (db) => {
-      const { data } = await db
-        .from("family_fit_compatibility")
-        .select("generation_id, family_fit_score")
-        .gte("family_fit_score", 40)
-        .order("family_fit_score", { ascending: false })
-        .limit(20);
-      return data || [];
-    },
-  },
-  {
-    slug: "voiture-3-sieges-auto-2024",
-    title: "Meilleures voitures pour 3 sièges auto 2024",
-    h1: "Les meilleures voitures pour 3 sièges auto",
-    description:
-      "Quelles voitures permettent d'installer 3 sièges auto côte à côte ? Notre classement basé sur la largeur de banquette et la compatibilité ISOFIX.",
-    query: async (db) => {
-      const { data } = await db
-        .from("family_fit_compatibility")
-        .select("generation_id, family_fit_score, three_across_possible, isofix_points, rear_bench_width_usable_mm")
-        .eq("three_across_possible", true)
-        .order("family_fit_score", { ascending: false })
-        .limit(20);
-      return data || [];
-    },
-  },
-];
 
 interface Props {
   params: Promise<{ category: string }>;
 }
 
 export async function generateStaticParams() {
-  return CATEGORIES.map((c) => ({ category: c.slug }));
+  return RANKING_CATEGORIES.map((c) => ({ category: c.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
-  const cat = CATEGORIES.find((c) => c.slug === category);
+  const cat = RANKING_CATEGORIES.find((c) => c.slug === category);
   if (!cat) return {};
   return {
-    title: cat.title,
+    title: `${cat.title} | FLM AUTO`,
     description: cat.description,
     alternates: { canonical: `/meilleur/${category}` },
   };
 }
 
 async function enrichGenerations(genIds: string[]) {
-  if (genIds.length === 0) return new Map();
+  if (genIds.length === 0) return new Map<string, any>();
   const db = createServerClient();
 
   const { data: gens } = await db
@@ -134,16 +43,17 @@ async function enrichGenerations(genIds: string[]) {
 
   const { data: images } = await db
     .from("vehicle_images")
-    .select("generation_id, image_url")
+    .select("generation_id, url")
     .in("generation_id", genIds)
+    .neq("confidence", "E")
     .eq("image_type", "exterior")
-    .limit(100);
+    .limit(genIds.length);
 
   const imageMap = new Map<string, string>();
   if (images) {
     for (const img of images) {
       if (!imageMap.has(img.generation_id)) {
-        imageMap.set(img.generation_id, img.image_url);
+        imageMap.set(img.generation_id, img.url);
       }
     }
   }
@@ -166,7 +76,7 @@ async function enrichGenerations(genIds: string[]) {
 
 export default async function MeilleurPage({ params }: Props) {
   const { category } = await params;
-  const cat = CATEGORIES.find((c) => c.slug === category);
+  const cat = RANKING_CATEGORIES.find((c) => c.slug === category);
   if (!cat) notFound();
 
   const db = createServerClient();
@@ -176,6 +86,10 @@ export default async function MeilleurPage({ params }: Props) {
   const genMap = await enrichGenerations(genIds);
 
   const ranked = results
+    .filter(
+      (r: any, i: number, arr: any[]) =>
+        arr.findIndex((x: any) => x.generation_id === r.generation_id) === i
+    )
     .map((r: any, i: number) => ({
       rank: i + 1,
       ...r,
@@ -187,24 +101,28 @@ export default async function MeilleurPage({ params }: Props) {
     <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
       <Breadcrumbs
         items={[
-          { label: "Classements", href: "/meilleur/suv-familial-2024" },
+          { label: "Classements", href: "/meilleur" },
           { label: cat.title },
         ]}
       />
 
-      <h1 className="mt-4 text-3xl font-bold">{cat.h1}</h1>
+      <h1 className="mt-4 font-display text-3xl font-bold sm:text-4xl">{cat.h1}</h1>
       <p className="mt-2 text-muted-foreground">{cat.description}</p>
+      <p className="mt-1 text-sm text-muted-foreground">
+        <span className="text-mono font-semibold text-white">{ranked.length}</span> véhicule{ranked.length !== 1 ? "s" : ""} classé
+        {ranked.length !== 1 ? "s" : ""}
+      </p>
 
       <div className="mt-8 space-y-4">
         {ranked.map((item: any) => (
           <Link key={item.generation_id} href={item.vehicle.slug}>
-            <Card className="transition-all hover:shadow-md hover:-translate-y-0.5">
+            <Card className={`card-hover group ${item.rank === 1 ? "podium-1" : item.rank === 2 ? "podium-2" : item.rank === 3 ? "podium-3" : ""}`}>
               <CardContent className="flex items-center gap-4 p-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-lg font-bold text-primary-foreground">
+                <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-mono text-lg font-bold ${item.rank <= 3 ? "bg-primary text-primary-foreground" : "surface-3 border border-[var(--border-subtle)] text-muted-foreground"}`}>
                   {item.rank}
                 </div>
                 {item.vehicle.image && (
-                  <div className="relative hidden h-16 w-24 shrink-0 overflow-hidden rounded-md bg-muted sm:block">
+                  <div className="relative hidden h-16 w-24 shrink-0 overflow-hidden rounded-md surface-2 sm:block">
                     <Image
                       src={item.vehicle.image}
                       alt={item.vehicle.name}
@@ -215,19 +133,77 @@ export default async function MeilleurPage({ params }: Props) {
                   </div>
                 )}
                 <div className="min-w-0 flex-1">
-                  <h2 className="font-semibold">{item.vehicle.name}</h2>
+                  <h2 className="font-semibold text-white">{item.vehicle.name}</h2>
                   <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
                     <span>{item.vehicle.gen}</span>
-                    {item.family_fit_score && (
+                    {item.vehicle.yearStart && (
+                      <span>({item.vehicle.yearStart})</span>
+                    )}
+                  </div>
+                  <div className="mt-1 flex flex-wrap gap-1.5">
+                    {item.stars != null && (
+                      <Badge variant="secondary">{item.stars}★ NCAP</Badge>
+                    )}
+                    {item.family_fit_score != null && (
                       <Badge variant="secondary">
                         Score: {item.family_fit_score}/100
                       </Badge>
                     )}
-                    {item.stars && (
-                      <Badge variant="secondary">{item.stars}★ NCAP</Badge>
-                    )}
                     {item.three_across_possible && (
                       <Badge variant="outline">3-across</Badge>
+                    )}
+                    {item.isofix_points != null && (
+                      <Badge variant="outline">
+                        {item.isofix_points} ISOFIX
+                      </Badge>
+                    )}
+                    {item.power_hp != null && (
+                      <Badge variant="secondary">{item.power_hp} ch</Badge>
+                    )}
+                    {item.acceleration != null && (
+                      <Badge variant="secondary">{item.acceleration}s</Badge>
+                    )}
+                    {item.torque_nm != null && (
+                      <Badge variant="secondary">{item.torque_nm} Nm</Badge>
+                    )}
+                    {item.top_speed != null && (
+                      <Badge variant="secondary">{item.top_speed} km/h</Badge>
+                    )}
+                    {item.trunk_volume_liters != null && (
+                      <Badge variant="secondary">
+                        {item.trunk_volume_liters} L
+                      </Badge>
+                    )}
+                    {item.trunk_volume_max_liters != null && (
+                      <Badge variant="outline">
+                        max {item.trunk_volume_max_liters} L
+                      </Badge>
+                    )}
+                    {item.seating_capacity != null &&
+                      item.seating_capacity >= 6 && (
+                        <Badge variant="outline">
+                          {item.seating_capacity} places
+                        </Badge>
+                      )}
+                    {item.child_occupant_pct != null && (
+                      <Badge variant="secondary">
+                        Enfants: {item.child_occupant_pct}%
+                      </Badge>
+                    )}
+                    {item.safety_assist_pct != null && (
+                      <Badge variant="secondary">
+                        Aide: {item.safety_assist_pct}%
+                      </Badge>
+                    )}
+                    {item.pedestrian_pct != null && (
+                      <Badge variant="secondary">
+                        Piétons: {item.pedestrian_pct}%
+                      </Badge>
+                    )}
+                    {item.adult_occupant_pct != null && (
+                      <Badge variant="secondary">
+                        Adultes: {item.adult_occupant_pct}%
+                      </Badge>
                     )}
                   </div>
                 </div>
@@ -250,13 +226,28 @@ export default async function MeilleurPage({ params }: Props) {
             "@context": "https://schema.org",
             "@type": "ItemList",
             name: cat.title,
-            itemListElement: ranked.slice(0, 10).map((item: any, i: number) => ({
+            description: cat.description,
+            numberOfItems: ranked.length,
+            itemListElement: ranked.slice(0, 30).map((item: any, i: number) => ({
               "@type": "ListItem",
               position: i + 1,
               name: `${item.vehicle.name} ${item.vehicle.gen}`,
-              url: `https://flm-auto.vercel.app${item.vehicle.slug}`,
+              url: `https://flm-auto.fr${item.vehicle.slug}`,
             })),
           }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateFAQSchema(
+              cat.title,
+              cat.description,
+              cat.group,
+              ranked[0] ? `${ranked[0].vehicle.name} ${ranked[0].vehicle.gen}` : undefined
+            )
+          ),
         }}
       />
     </div>

@@ -30,25 +30,30 @@ import {
   EmptySafety,
   EmptyPhotos,
 } from "@/components/empty-states";
-import { SeatConfigurator } from "@/components/family/seat-configurator";
-import { CargoCalculator } from "@/components/cargo/cargo-calculator";
-import { TrimDecoder } from "@/components/trims/trim-decoder";
-import { UXScore } from "@/components/interior/ux-score";
 import { RedFlagAlert } from "@/components/engine/red-flag-alert";
-import { GarageFit } from "@/components/garage/garage-fit";
 import { PriceAlertButton } from "@/components/price-alert-button";
 import { RecallAlerts } from "@/components/safety/recall-alerts";
-import { ISOFIXSchema } from "@/components/family/isofix-schema";
 import { WishlistButton } from "@/components/wishlist/wishlist-button";
-import { ModelViewer } from "@/components/3d/model-viewer";
 import { HeroSection } from "@/components/vehicle/hero-section";
 import { ImageGrid } from "@/components/vehicle/image-grid";
 import dynamic from "next/dynamic";
+import { generateBreadcrumbSchema } from "@/lib/schema/breadcrumb-schema";
 const SpecsRadar = dynamic(() => import("@/components/vehicle/specs-radar").then(m => m.SpecsRadar));
-import { ProsCons } from "@/components/vehicle/pros-cons";
+const SeatConfigurator = dynamic(() => import("@/components/family/seat-configurator").then(m => m.SeatConfigurator));
+const CargoCalculator = dynamic(() => import("@/components/cargo/cargo-calculator").then(m => m.CargoCalculator));
+const TrimDecoder = dynamic(() => import("@/components/trims/trim-decoder").then(m => m.TrimDecoder));
+const UXScore = dynamic(() => import("@/components/interior/ux-score").then(m => m.UXScore));
+const GarageFit = dynamic(() => import("@/components/garage/garage-fit").then(m => m.GarageFit));
+const ISOFIXSchema = dynamic(() => import("@/components/family/isofix-schema").then(m => m.ISOFIXSchema));
+const ModelViewer = dynamic(() => import("@/components/3d/model-viewer").then(m => m.ModelViewer));
+const ProsCons = dynamic(() => import("@/components/vehicle/pros-cons").then(m => m.ProsCons));
+const ProfileLens = dynamic(() => import("@/components/vehicle/profile-lens").then(m => m.ProfileLens));
+const UsedCarPricing = dynamic(() => import("@/components/vehicle/used-car-pricing").then(m => m.UsedCarPricing));
+const CompatibilityScore = dynamic(() => import("@/components/vehicle/compatibility-score").then(m => m.CompatibilityScore));
 import { generateProsCons } from "@/lib/generate-pros-cons";
 import { generateVehicleSchema } from "@/lib/schema/vehicle-schema";
 import { ConfidenceBadge } from "@/components/confidence-badge";
+import { ViewTracker } from "@/components/view-tracker";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -303,9 +308,25 @@ export default async function VehiclePage({ params }: Props) {
 
   return (
     <div>
+      <ViewTracker statKey="vehiclesViewed" />
+      <ViewTracker statKey="brandsViewed" uniqueSetKey="brands" uniqueValue={bs} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(vehicleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Marques", url: "/marques" },
+              { name: brand.name, url: `/marques/${bs}` },
+              { name: model.name, url: `/marques/${bs}/${ms}` },
+              { name: generation.internal_code || generation.name },
+            ])
+          ),
+        }}
       />
 
       {/* Breadcrumb — always visible */}
@@ -368,6 +389,42 @@ export default async function VehiclePage({ params }: Props) {
             <ProsCons pros={prosCons.pros} cons={prosCons.cons} />
           </div>
         )}
+
+        {/* Profile Lenses */}
+        <ProfileLens
+          data={{
+            safetyStars: safety?.stars,
+            isofixPoints: familyFit?.isofix_points,
+            familyFitScore: familyFit?.family_fit_score,
+            threeAcross: familyFit?.three_across_possible,
+            trunkVolume: interiorDims?.trunk_volume_liters,
+            seatingCapacity: interiorDims?.seating_capacity,
+            powerHp: topVariant?.power_hp,
+            torqueNm: topVariant?.torque_nm,
+            acceleration: topVariant?.acceleration_0_100,
+            topSpeed: topVariant?.top_speed_kmh,
+            drivetrain: topVariant?.drivetrain,
+            bodyStyle: generation.body_style,
+            yearStart,
+            yearEnd,
+            internalCode: generation.internal_code,
+            variantsCount: variants.length,
+          }}
+        />
+
+        {/* Profile Compatibility Score */}
+        <div className="mt-6">
+          <CompatibilityScore
+            vehicle={{
+              power_hp: topVariant?.power_hp,
+              fuel_type: topVariant?.fuel_type,
+              trunk_liters: interiorDims?.trunk_volume_liters,
+              safety_stars: safety?.stars,
+              seats: interiorDims?.seating_capacity,
+              isofix_count: familyFit?.isofix_points,
+            }}
+          />
+        </div>
 
         {/* 3D Model */}
         {model3d?.embed_url && (
@@ -724,6 +781,11 @@ export default async function VehiclePage({ params }: Props) {
             </div>
           </div>
         )}
+
+        {/* Used Car Pricing */}
+        <div className="mt-6">
+          <UsedCarPricing brandName={brand.name} modelName={model.name} />
+        </div>
 
         {/* Garage Fit */}
         <div className="mt-6">
