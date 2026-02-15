@@ -27,7 +27,9 @@ export async function POST(request: Request) {
     }
 
     // Fire-and-forget welcome email — don't block the response
-    sendWelcomeEmail(email);
+    sendWelcomeEmail(email).catch((err) =>
+      logError(err, { endpoint: "/api/newsletter/subscribe", context: "welcome-email" })
+    );
 
     return NextResponse.json({ success: true });
   } catch {

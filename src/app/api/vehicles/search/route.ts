@@ -137,6 +137,16 @@ export async function POST(req: NextRequest) {
     const { data, count, error } = await query;
 
     if (error) {
+      // Graceful fallback when search index table hasn't been created yet
+      if (error.message?.includes("does not exist")) {
+        return NextResponse.json({
+          results: [],
+          total: 0,
+          page: filters.page,
+          per_page: filters.per_page,
+          facets: { brands: [], fuel_types: [], segments: [], year_range: { min: 1990, max: 2026 }, power_range: { min: 50, max: 600 }, ncap_distribution: [] },
+        });
+      }
       logError(error, { endpoint: "/api/vehicles/search" });
       return NextResponse.json({ error: "Erreur recherche" }, { status: 500 });
     }
