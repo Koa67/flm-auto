@@ -55,6 +55,9 @@ import { generateProsCons } from "@/lib/generate-pros-cons";
 import { generateVehicleSchema } from "@/lib/schema/vehicle-schema";
 import { ConfidenceBadge } from "@/components/confidence-badge";
 import { ViewTracker } from "@/components/view-tracker";
+import { EssentialStats } from "@/components/vehicle/essential-stats";
+import { CompareQuickAction } from "@/components/vehicle/quick-actions";
+import { AlternativesShelf } from "@/components/vehicle/alternatives-shelf";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -109,6 +112,7 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
   hasUXRating: boolean;
   model3d: any;
   realConsumption: string | null;
+  segment: string | null;
 } | null> {
   const db = createStaticClient();
 
@@ -268,6 +272,7 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
     hasUXRating: (uxCheck || []).length > 0,
     model3d: model3dData?.[0] || null,
     realConsumption: realConsoData?.[0]?.spec_value || null,
+    segment: model.segment || generation.body_style || null,
   };
 }
 
@@ -280,10 +285,23 @@ export default async function VehiclePage({ params }: Props) {
   const data = await getVehicleData(bs, ms, gs);
   if (!data) notFound();
 
-  const { brand, model, generation, variants, images, safety, familyFit, pricing, interiorDims, hasSeatCompat, hasTrims, hasUXRating, model3d, realConsumption } = data;
+  const { brand, model, generation, variants, images, safety, familyFit, pricing, interiorDims, hasSeatCompat, hasTrims, hasUXRating, model3d, realConsumption, segment } = data;
   const genLbl = generation.internal_code || generation.name;
   const yearStart = getYear(generation.production_start);
   const yearEnd = getYear(generation.production_end);
+
+  // Fetch alternatives from search index (same segment, different vehicle)
+  const db2 = createStaticClient();
+  const altQuery = segment
+    ? db2
+        .from("vehicle_search_index")
+        .select("*")
+        .eq("segment", segment)
+        .neq("generation_id", generation.id)
+        .order("ncap_stars", { ascending: false, nullsFirst: false })
+        .limit(12)
+    : null;
+  const alternatives = altQuery ? (await altQuery).data || [] : [];
 
   const vehicleSchema = generateVehicleSchema({
     brand,
@@ -351,7 +369,23 @@ export default async function VehiclePage({ params }: Props) {
           <Link href={`/marques/${bs}/${ms}`} className="hover:text-primary">{model.name}</Link>
           <span>/</span>
           <span className="text-white">{genLbl}</span>
+          {segment && (
+            <Badge variant="secondary" className="ml-2 surface-3 text-xs">
+              {segment}
+            </Badge>
+          )}
         </nav>
+
+        {/* Quick actions */}
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <WishlistButton generationId={generation.id} />
+          <CompareQuickAction
+            generationId={generation.id}
+            vehicleName={`${brand.name} ${model.name} ${genLbl}`}
+            thumbnail={images.exteriors[0]?.url || null}
+          />
+          <PriceAlertButton generationId={generation.id} vehicleName={`${brand.name} ${model.name} ${genLbl}`} />
+        </div>
       </div>
 
       {/* Hero Section */}
@@ -385,6 +419,19 @@ export default async function VehiclePage({ params }: Props) {
       )}
 
       <div className="mx-auto max-w-7xl px-4 pb-8 sm:px-6">
+        {/* Essential Stats Grid */}
+        <div className="mt-6">
+          <EssentialStats
+            powerHp={topVariant?.power_hp}
+            torqueNm={topVariant?.torque_nm}
+            acceleration={topVariant?.acceleration_0_100}
+            topSpeed={topVariant?.top_speed_kmh}
+            trunkVolume={interiorDims?.trunk_volume_liters}
+            safetyStars={safety?.stars}
+            fuelType={topVariant?.fuel_type}
+          />
+        </div>
+
         {/* Specs Radar + Pros/Cons */}
         {(topVariant || safety) && (
           <div className="mt-8 grid gap-6 lg:grid-cols-2">
@@ -806,6 +853,13 @@ export default async function VehiclePage({ params }: Props) {
             vehicleName={`${brand.name} ${model.name} ${genLbl}`}
           />
         </div>
+
+        {/* Alternatives carousel */}
+        <AlternativesShelf
+          alternatives={alternatives}
+          currentId={generation.id}
+          altPageHref={`/marques/${bs}/${ms}/${gs}/alternatives`}
+        />
 
         {/* Sub-page navigation */}
         <div className="mt-10">
