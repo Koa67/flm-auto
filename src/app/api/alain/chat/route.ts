@@ -745,6 +745,117 @@ async function handleAnthropic(
 }
 
 // ---------------------------------------------------------------------------
+// Streaming Anthropic handler — returns a ReadableStream for SSE
+// ---------------------------------------------------------------------------
+
+function handleAnthropicStream(
+  systemPrompt: string,
+  messages: ChatMessage[],
+  ctx?: StructuredContext
+): ReadableStream {
+  const encoder = new TextEncoder();
+  const sse = (data: object) =>
+    encoder.encode(`data: ${JSON.stringify(data)}\n\n`);
+
+  return new ReadableStream({
+    async start(controller) {
+      try {
+        const { default: Anthropic } = await import("@anthropic-ai/sdk");
+        const client = new Anthropic({
+          apiKey: process.env.ANTHROPIC_API_KEY!,
+        });
+
+        const windowedMessages = buildSlidingWindow(messages);
+        const anthropicMessages: any[] = windowedMessages.map((m) => ({
+          role: m.role,
+          content: m.content,
+        }));
+
+        let turns = 0;
+
+        while (turns < MAX_TURNS) {
+          turns++;
+
+          const stream = client.messages.stream({
+            model: "claude-sonnet-4-5-20250929",
+            max_tokens: 1024,
+            system: systemPrompt,
+            tools: ALAIN_TOOLS,
+            messages: anthropicMessages,
+          });
+
+          // Stream text tokens to the client in real-time
+          for await (const event of stream) {
+            if (
+              event.type === "content_block_delta" &&
+              (event.delta as any).type === "text_delta"
+            ) {
+              controller.enqueue(
+                sse({ type: "token", content: (event.delta as any).text })
+              );
+            }
+          }
+
+          const finalMessage = await stream.finalMessage();
+          const toolUseBlocks = finalMessage.content.filter(
+            (b: any) => b.type === "tool_use"
+          );
+
+          if (toolUseBlocks.length === 0) break;
+
+          // Execute tools, then loop for another turn
+          controller.enqueue(
+            sse({
+              type: "status",
+              content: "Recherche dans la base de données...",
+            })
+          );
+
+          anthropicMessages.push({
+            role: "assistant",
+            content: finalMessage.content,
+          });
+          const toolResults = await Promise.all(
+            toolUseBlocks.map(async (toolUse: any) => {
+              const result = await executeTool(toolUse.name, toolUse.input);
+              return {
+                type: "tool_result" as const,
+                tool_use_id: toolUse.id,
+                content: result,
+              };
+            })
+          );
+          anthropicMessages.push({ role: "user", content: toolResults });
+        }
+
+        controller.enqueue(
+          sse({ type: "done", provider: "anthropic" })
+        );
+
+        if (ctx) {
+          controller.enqueue(
+            sse({
+              type: "suggestions",
+              suggestions: generateDynamicSuggestions(ctx),
+            })
+          );
+        }
+
+        controller.close();
+      } catch (err: any) {
+        controller.enqueue(
+          sse({
+            type: "error",
+            content: err.message || "Erreur streaming Anthropic",
+          })
+        );
+        controller.close();
+      }
+    },
+  });
+}
+
+// ---------------------------------------------------------------------------
 // Route handler — tries Ollama first, falls back to Anthropic
 // ---------------------------------------------------------------------------
 
@@ -812,10 +923,20 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Fallback: Anthropic cloud (no streaming — cloud fallback is rare)
+  // Fallback: Anthropic cloud
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (apiKey) {
     try {
+      if (wantStream) {
+        const stream = handleAnthropicStream(systemPrompt, messages, ctx);
+        return new Response(stream, {
+          headers: {
+            "Content-Type": "text/event-stream",
+            "Cache-Control": "no-cache",
+            Connection: "keep-alive",
+          },
+        });
+      }
       const result = await handleAnthropic(systemPrompt, messages);
       return Response.json(result);
     } catch (err: any) {
