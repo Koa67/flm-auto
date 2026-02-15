@@ -11,7 +11,7 @@ const ALLOWED_ORIGINS = [
   "http://localhost:3000",
 ];
 
-const PROTECTED_ROUTES = ["/dashboard", "/garage", "/alertes"];
+const PROTECTED_ROUTES = ["/dashboard", "/alertes"];
 
 function getAllowedOrigin(request: NextRequest): string {
   const origin = request.headers.get("origin") || "";
@@ -145,7 +145,6 @@ export const config = {
   matcher: [
     "/api/:path*",
     "/dashboard/:path*",
-    "/garage/:path*",
     "/alertes/:path*",
     "/connexion",
     "/auth/callback",
