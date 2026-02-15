@@ -27,6 +27,11 @@ export function Footer() {
                   Classements
                 </Link>
               </li>
+              <li>
+                <Link href="/explorer" className="inline-block py-1 transition-colors hover:text-white">
+                  Explorer par catégorie
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
@@ -52,6 +57,11 @@ export function Footer() {
               <li>
                 <Link href="/tco" className="inline-block py-1 transition-colors hover:text-white">
                   TCO
+                </Link>
+              </li>
+              <li>
+                <Link href="/configurateur" className="inline-block py-1 transition-colors hover:text-white">
+                  Configurateur
                 </Link>
               </li>
             </ul>

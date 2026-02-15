@@ -14,6 +14,7 @@ import {
   Calculator,
   Trophy,
   Zap,
+  Compass,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -71,6 +72,20 @@ const tools = [
       "Filtrez par marque, puissance, segment, motorisation, s\u00e9curit\u00e9 NCAP.",
     href: "/recherche",
     icon: Search,
+  },
+  {
+    title: "Explorer",
+    description:
+      "Parcourez par segment, carburant, budget ou d\u00e9cennie.",
+    href: "/explorer",
+    icon: Compass,
+  },
+  {
+    title: "Configurateur",
+    description:
+      "D\u00e9crivez vos besoins et trouvez les v\u00e9hicules qui correspondent.",
+    href: "/configurateur",
+    icon: Car,
   },
 ];
 
