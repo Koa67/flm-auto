@@ -1,4 +1,4 @@
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { ENGINE_RED_FLAGS } from "@/types/vehicle";
 
 type ToolInput = Record<string, unknown>;
@@ -15,7 +15,7 @@ export async function executeTool(
   name: string,
   input: ToolInput
 ): Promise<string> {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   try {
     switch (name) {

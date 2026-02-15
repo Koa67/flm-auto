@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 
 export async function GET(req: NextRequest) {
   const generationId = req.nextUrl.searchParams.get("generation_id");
@@ -10,7 +10,7 @@ export async function GET(req: NextRequest) {
     );
   }
 
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { data: rating, error } = await db
     .from("ux_ratings")

@@ -1,22 +1,20 @@
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { NextResponse } from "next/server";
+import { newsletterSchema, validateBody } from "@/lib/validators";
 
 export async function POST(request: Request) {
   try {
-    const { email, source } = await request.json();
-
-    if (!email || typeof email !== "string" || !email.includes("@")) {
-      return NextResponse.json(
-        { error: "Adresse email invalide" },
-        { status: 400 }
-      );
+    const result = await validateBody(request, newsletterSchema);
+    if (!result.ok) {
+      return NextResponse.json({ error: result.error }, { status: 400 });
     }
 
-    const db = createServerClient();
+    const { email, source } = result.data;
+    const db = createStaticClient();
 
     const { error } = await db
       .from("newsletter_subscribers")
-      .upsert({ email: email.toLowerCase().trim(), source }, { onConflict: "email" });
+      .upsert({ email, source }, { onConflict: "email" });
 
     if (error) {
       console.error("Newsletter subscribe error:", error);
@@ -28,9 +26,6 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ success: true });
   } catch {
-    return NextResponse.json(
-      { error: "Erreur serveur" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
   }
 }

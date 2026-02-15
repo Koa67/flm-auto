@@ -1,10 +1,11 @@
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { getGenerationBySlug, genLabel } from "@/lib/vehicle-helpers";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { VehicleNav } from "@/components/vehicle-nav";
 import { EmptyPhotos } from "@/components/empty-states";
 import { GalleryPro } from "@/components/vehicle/gallery-pro";
+import { ViewTracker } from "@/components/view-tracker";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function getImages(generationId: string) {
-  const db = createServerClient();
+  const db = createStaticClient();
   const { data } = await db
     .from("vehicle_images")
     .select("id, url, image_type, source, alt_text, confidence, width")
@@ -55,6 +56,7 @@ export default async function PhotosPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+      <ViewTracker statKey="photosViewed" />
       <Breadcrumbs
         items={[
           { label: "Marques", href: "/marques" },

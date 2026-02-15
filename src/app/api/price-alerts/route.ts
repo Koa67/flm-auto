@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import {
   priceAlertCreateSchema,
   uuidSchema,
@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     }
 
     const { email, generation_id, target_price_eur, alert_type } = result.data;
-    const db = createServerClient();
+    const db = createStaticClient();
 
     const { data, error } = await db
       .from("price_alerts")
@@ -55,7 +55,7 @@ export async function GET(request: Request) {
     );
   }
 
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { data, error } = await db
     .from("price_alerts")
@@ -87,7 +87,7 @@ export async function DELETE(request: Request) {
     );
   }
 
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { error } = await db
     .from("price_alerts")

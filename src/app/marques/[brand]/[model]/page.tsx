@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import type { Metadata } from "next";
@@ -15,7 +15,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { brand: brandSlug, model: modelSlug } = await params;
-  const db = createServerClient();
+  const db = createStaticClient();
   const { data: brand } = await db
     .from("brands")
     .select("name")
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function getModelData(brandSlug: string, modelSlug: string) {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { data: brand } = await db
     .from("brands")

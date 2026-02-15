@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { getGenerationBySlug, genLabel } from "@/lib/vehicle-helpers";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { VehicleNav } from "@/components/vehicle-nav";
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function getSpecs(generationId: string) {
-  const db = createServerClient();
+  const db = createStaticClient();
   const { data } = await db
     .from("third_party_specs")
     .select("spec_type, spec_value")

@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { getGenerationBySlug, genLabel } from "@/lib/vehicle-helpers";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { VehicleNav } from "@/components/vehicle-nav";
@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Shield, AlertTriangle, Wrench, TrendingDown } from "lucide-react";
 import { ENGINE_RED_FLAGS } from "@/types/vehicle";
+import { ViewTracker } from "@/components/view-tracker";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -36,7 +37,7 @@ interface TUVData {
 }
 
 async function getReliabilityData(generationId: string, engineCodes: string[]) {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   // Wrap with Promise.resolve() because Supabase returns PromiseLike (no .catch)
   const reliabilityPromise = Promise.resolve(
@@ -183,6 +184,7 @@ export default async function FiabilitePage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+      <ViewTracker statKey="fiabiliteViewed" />
       <Breadcrumbs
         items={[
           { label: "Marques", href: "/marques" },

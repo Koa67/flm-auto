@@ -21,7 +21,7 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { GradientDivider } from "@/components/ui/gradient-divider";
 import { InstantSearch } from "@/components/search/instant-search";
 import { ProfileRecommendations } from "@/components/home/profile-recommendations";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { generateWebSiteSchema } from "@/lib/schema/website-schema";
 
 export const revalidate = 3600;
@@ -72,7 +72,7 @@ const tools = [
 ];
 
 async function getHomeData() {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const [
     { count: brandsCount },

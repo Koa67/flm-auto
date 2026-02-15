@@ -1,11 +1,15 @@
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { getGenerationBySlug, genLabel } from "@/lib/vehicle-helpers";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { VehicleNav } from "@/components/vehicle-nav";
+import { EmptySafety } from "@/components/empty-states";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Shield, Star } from "lucide-react";
+import { Shield, Star, AlertTriangle } from "lucide-react";
+import { RecallAlerts } from "@/components/safety/recall-alerts";
+import { ConfidenceBadge } from "@/components/confidence-badge";
+import { ViewTracker } from "@/components/view-tracker";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -27,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function getSafetyData(generationId: string) {
-  const db = createServerClient();
+  const db = createStaticClient();
   const { data } = await db
     .from("safety_ratings")
     .select("*")
@@ -48,6 +52,7 @@ export default async function SecuritePage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
+      <ViewTracker statKey="safetychecked" />
       <Breadcrumbs
         items={[
           { label: "Marques", href: "/marques" },
@@ -58,8 +63,8 @@ export default async function SecuritePage({ params }: Props) {
         ]}
       />
 
-      <h1 className="mt-4 text-3xl font-bold">
-        Sécurité {v.brand.name} {v.model.name} {label}
+      <h1 className="mt-4 font-display text-3xl font-bold sm:text-4xl">
+        Sécurité <span className="text-primary">{v.brand.name} {v.model.name}</span> {label}
       </h1>
       <p className="mt-2 text-muted-foreground">
         Résultats des crash-tests Euro NCAP et note de sécurité.
@@ -91,9 +96,10 @@ export default async function SecuritePage({ params }: Props) {
                       }`}
                     />
                   ))}
-                  <span className="ml-3 text-2xl font-bold">
+                  <span className="ml-3 text-mono text-2xl font-bold text-white">
                     {safety.stars}/5 étoiles
                   </span>
+                  <ConfidenceBadge tier={safety.confidence} />
                 </div>
 
                 <div className="space-y-6">
@@ -144,19 +150,21 @@ export default async function SecuritePage({ params }: Props) {
             )}
           </div>
         ) : (
-          <Card>
-            <CardContent className="py-12 text-center">
-              <Shield className="mx-auto h-12 w-12 text-muted-foreground" />
-              <h2 className="mt-4 text-lg font-semibold">
-                Pas de données Euro NCAP
-              </h2>
-              <p className="mt-2 text-muted-foreground">
-                Ce véhicule n&apos;a pas encore été testé par Euro NCAP ou les
-                résultats ne sont pas disponibles.
-              </p>
-            </CardContent>
-          </Card>
+          <EmptySafety />
         )}
+
+        {/* Recall section */}
+        <Card className="mt-8">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <AlertTriangle className="h-5 w-5" />
+              Rappels constructeur
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <RecallAlerts generationId={v.generation.id} />
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
@@ -171,20 +179,29 @@ function ScoreSection({
   value: number;
   description: string;
 }) {
-  const color =
+  const tier =
+    value >= 80 ? "excellent" : value >= 60 ? "good" : value >= 40 ? "average" : "poor";
+  const tierColor =
     value >= 80
-      ? "text-green-600"
+      ? "text-[var(--perf-excellent)]"
       : value >= 60
-        ? "text-yellow-600"
-        : "text-red-600";
+        ? "text-[var(--perf-good)]"
+        : value >= 40
+          ? "text-[var(--perf-average)]"
+          : "text-[var(--perf-poor)]";
 
   return (
     <div>
-      <div className="mb-1 flex items-center justify-between">
-        <span className="font-medium">{label}</span>
-        <span className={`font-mono font-bold ${color}`}>{value}%</span>
+      <div className="mb-1.5 flex items-center justify-between">
+        <span className="font-medium text-white">{label}</span>
+        <span className={`text-mono font-bold ${tierColor}`}>{value}%</span>
       </div>
-      <Progress value={value} className="h-3" />
+      <div className="h-3 overflow-hidden rounded-full bg-[var(--bg-tertiary)]">
+        <div
+          className={`bar-animate h-full rounded-full bar-perf-${tier}`}
+          style={{ width: `${value}%` }}
+        />
+      </div>
       <p className="mt-2 text-sm text-muted-foreground">{description}</p>
     </div>
   );

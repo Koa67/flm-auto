@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { RANKING_CATEGORIES } from "@/lib/rankings/categories";
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr";
@@ -38,7 +38,7 @@ const STATIC_PAGES = [
  * Supabase limits queries to 1000 rows by default — this fetches all rows.
  */
 async function paginateAll<T>(
-  db: ReturnType<typeof createServerClient>,
+  db: ReturnType<typeof createStaticClient>,
   table: string,
   select: string,
   options?: {
@@ -97,7 +97,7 @@ interface GenerationRow {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   // --- Static pages ---
   const staticEntries: MetadataRoute.Sitemap = STATIC_PAGES.map((p) => ({

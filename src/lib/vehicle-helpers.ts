@@ -1,11 +1,11 @@
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 
 export async function getGenerationBySlug(
   brandSlug: string,
   modelSlug: string,
   genSlug: string
 ) {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { data: brand } = await db
     .from("brands")

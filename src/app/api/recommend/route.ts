@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 
 export const revalidate = 300; // 5 minutes
 
@@ -16,10 +16,10 @@ interface RecommendQuery {
 export async function POST(request: Request) {
   try {
     const body: RecommendQuery = await request.json();
-    const db = createServerClient();
+    const db = createStaticClient();
 
     // Build query for generations with related data
-    let query = db
+    const query = db
       .from("generations")
       .select(
         `id, name, internal_code, slug, body_style, production_start, production_end,

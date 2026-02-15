@@ -19,7 +19,8 @@ export async function GET(request: NextRequest) {
       .order('name')
 
     if (brandsError) {
-      return NextResponse.json({ error: brandsError.message }, { status: 500 })
+      console.error("Brands error:", brandsError);
+      return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
     // Get model counts per brand
@@ -28,7 +29,8 @@ export async function GET(request: NextRequest) {
       .select('brand_id')
 
     if (countError) {
-      return NextResponse.json({ error: countError.message }, { status: 500 })
+      console.error("Brands model-count error:", countError);
+      return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
     // Get generation counts

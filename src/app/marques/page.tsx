@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedGrid, AnimatedGridItem } from "@/components/animated-grid";
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 async function getBrands() {
-  const db = createServerClient();
+  const db = createStaticClient();
   const { data: brands } = await db
     .from("brands")
     .select("id, name, slug, country_origin, logo_url, founded_year")
@@ -58,22 +58,22 @@ export default async function MarquesPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <h1 className="text-3xl font-bold">Toutes les marques</h1>
+      <h1 className="font-display text-3xl font-bold sm:text-4xl">Toutes les marques</h1>
       <p className="mt-2 text-muted-foreground">
-        {brands.length} marques automobiles, {brands.reduce((s, b) => s + b.model_count, 0)} mod&egrave;les
+        <span className="text-mono font-semibold text-white">{brands.length}</span> marques automobiles, <span className="text-mono font-semibold text-white">{brands.reduce((s, b) => s + b.model_count, 0)}</span> mod&egrave;les
       </p>
 
       <AnimatedGrid className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {brands.map((brand) => (
           <AnimatedGridItem key={brand.id}>
           <Link href={`/marques/${brand.slug}`}>
-            <Card className="h-full transition-all hover:shadow-md hover:-translate-y-0.5">
+            <Card className="card-hover group h-full">
               <CardContent className="flex items-center gap-4 p-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-muted text-2xl">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg surface-3 text-2xl">
                   {countryFlag[brand.country_origin || ""] || "\ud83d\ude97"}
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h2 className="font-semibold truncate">{brand.name}</h2>
+                  <h2 className="font-semibold text-white truncate">{brand.name}</h2>
                   <div className="flex items-center gap-2">
                     <span className="text-sm text-muted-foreground">
                       {brand.model_count} mod&egrave;les

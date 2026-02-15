@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -37,7 +37,7 @@ function parseSlugs(slugs: string) {
 }
 
 async function getVehicleByCompositeSlug(raw: string) {
-  const db = createServerClient();
+  const db = createStaticClient();
   const parts = raw.split("-");
 
   // Try all possible split points: brand-slug | model-slug | gen-slug
@@ -70,7 +70,7 @@ async function getVehicleByCompositeSlug(raw: string) {
 }
 
 async function getVehicleSpecs(generationId: string) {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const [{ data: variants }, { data: safety }, { data: images }, { data: specs }] =
     await Promise.all([

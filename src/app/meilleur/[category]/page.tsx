@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { RANKING_CATEGORIES } from "@/lib/rankings/categories";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { Card, CardContent } from "@/components/ui/card";
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 async function enrichGenerations(genIds: string[]) {
   if (genIds.length === 0) return new Map<string, any>();
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { data: gens } = await db
     .from("generations")
@@ -100,7 +100,7 @@ export default async function MeilleurPage({ params }: Props) {
   const cat = RANKING_CATEGORIES.find((c) => c.slug === category);
   if (!cat) notFound();
 
-  const db = createServerClient();
+  const db = createStaticClient();
   const results = await cat.query(db);
 
   const genIds = [...new Set(results.map((r: any) => r.generation_id))];

@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 
 export async function GET() {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { data: seats, error } = await db
     .from("child_seats")

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { createServerClient } from "@/lib/supabase-server";
+import { createStaticClient } from "@/lib/supabase/server";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -38,6 +38,7 @@ import { HeroSection } from "@/components/vehicle/hero-section";
 import { ImageGrid } from "@/components/vehicle/image-grid";
 import dynamic from "next/dynamic";
 import { generateBreadcrumbSchema } from "@/lib/schema/breadcrumb-schema";
+import { RelatedLinks } from "@/components/seo/related-links";
 const SpecsRadar = dynamic(() => import("@/components/vehicle/specs-radar").then(m => m.SpecsRadar));
 const SeatConfigurator = dynamic(() => import("@/components/family/seat-configurator").then(m => m.SeatConfigurator));
 const CargoCalculator = dynamic(() => import("@/components/cargo/cargo-calculator").then(m => m.CargoCalculator));
@@ -109,7 +110,7 @@ async function getVehicleData(brandSlug: string, modelSlug: string, genSlug: str
   model3d: any;
   realConsumption: string | null;
 } | null> {
-  const db = createServerClient();
+  const db = createStaticClient();
 
   const { data: brand } = await db
     .from("brands")
@@ -804,6 +805,21 @@ export default async function VehiclePage({ params }: Props) {
           </div>
           <VehicleNav basePath={`/marques/${bs}/${ms}/${gs}`} />
         </div>
+
+        {/* Related links for internal linking / SEO */}
+        <RelatedLinks
+          links={[
+            { label: `Fiche technique`, href: `/marques/${bs}/${ms}/${gs}/fiche-technique` },
+            { label: `Sécurité Euro NCAP`, href: `/marques/${bs}/${ms}/${gs}/securite` },
+            { label: `Photos`, href: `/marques/${bs}/${ms}/${gs}/photos` },
+            { label: `Vidéos`, href: `/marques/${bs}/${ms}/${gs}/videos` },
+            { label: `Alternatives`, href: `/marques/${bs}/${ms}/${gs}/alternatives` },
+            { label: `Fiabilité`, href: `/marques/${bs}/${ms}/${gs}/fiabilite` },
+            { label: `Dimensions`, href: `/marques/${bs}/${ms}/${gs}/dimensions` },
+            { label: `Tous les ${model.name}`, href: `/marques/${bs}/${ms}` },
+            { label: `Tous les ${brand.name}`, href: `/marques/${bs}` },
+          ]}
+        />
 
         {/* Affiliation + Newsletter */}
         <div className="mt-10 grid gap-6 md:grid-cols-2">
