@@ -2,14 +2,20 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Heart, Menu, Search, Trophy } from "lucide-react";
+import { Heart, Menu, Search, Trophy, ChevronDown, Car, Fuel, Wallet, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { UserMenu } from "@/components/auth/user-menu";
 import { cn } from "@/lib/utils";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useFavorites } from "@/hooks/use-favorites";
 import { useGamificationStore } from "@/lib/gamification-store";
+import {
+  SEGMENT_CATEGORIES,
+  FUEL_CATEGORIES,
+  BUDGET_CATEGORIES,
+  DECADE_CATEGORIES,
+} from "@/lib/explorer-config";
 
 const links = [
   { href: "/marques", label: "Marques" },
@@ -21,13 +27,53 @@ const links = [
   { href: "/recherche", label: "Recherche" },
 ];
 
+const MEGA_MENU_COLUMNS = [
+  {
+    title: "Segment",
+    icon: Car,
+    base: "/explorer/segment",
+    items: SEGMENT_CATEGORIES.slice(0, 6),
+  },
+  {
+    title: "Carburant",
+    icon: Fuel,
+    base: "/explorer/carburant",
+    items: FUEL_CATEGORIES,
+  },
+  {
+    title: "Budget",
+    icon: Wallet,
+    base: "/explorer/budget",
+    items: BUDGET_CATEGORIES,
+  },
+  {
+    title: "Décennie",
+    icon: Calendar,
+    base: "/explorer/decennie",
+    items: DECADE_CATEGORIES.slice(0, 4),
+  },
+];
+
 export function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const { favorites } = useFavorites();
   const [mounted, setMounted] = useState(false);
   const badgeCount = useGamificationStore((s) => s.unlockedBadges.length);
+  const [megaOpen, setMegaOpen] = useState(false);
+  const megaTimeout = useRef<ReturnType<typeof setTimeout>>(undefined);
   useEffect(() => setMounted(true), []);
+
+  const isExplorerActive = pathname.startsWith("/explorer");
+
+  const openMega = () => {
+    clearTimeout(megaTimeout.current);
+    setMegaOpen(true);
+  };
+
+  const closeMega = () => {
+    megaTimeout.current = setTimeout(() => setMegaOpen(false), 150);
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[var(--border-subtle)] bg-glass">
@@ -44,6 +90,82 @@ export function Nav() {
 
         {/* Desktop nav */}
         <nav aria-label="Navigation principale" className="hidden items-center gap-0.5 md:flex">
+          {/* Explorer dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={openMega}
+            onMouseLeave={closeMega}
+          >
+            <Link
+              href="/explorer"
+              aria-current={isExplorerActive ? "page" : undefined}
+              className={cn(
+                "relative flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors",
+                isExplorerActive
+                  ? "text-white"
+                  : "text-muted-foreground hover:text-foreground/70"
+              )}
+            >
+              Explorer
+              <ChevronDown className={cn("h-3 w-3 transition-transform", megaOpen && "rotate-180")} />
+              {isExplorerActive && (
+                <span className="absolute inset-x-3 -bottom-[calc(0.5rem+1px)] h-[2px] rounded-full bg-primary" />
+              )}
+            </Link>
+
+            {/* Mega menu panel */}
+            {megaOpen && (
+              <div
+                className="absolute left-0 top-full z-50 mt-[9px] w-[560px] rounded-xl border border-[var(--border-subtle)] bg-[var(--bg-primary)] p-4 shadow-2xl"
+                onMouseEnter={openMega}
+                onMouseLeave={closeMega}
+              >
+                <div className="grid grid-cols-4 gap-4">
+                  {MEGA_MENU_COLUMNS.map((col) => {
+                    const Icon = col.icon;
+                    return (
+                      <div key={col.title}>
+                        <p className="mb-2 flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+                          <Icon className="h-3 w-3" />
+                          {col.title}
+                        </p>
+                        <div className="space-y-0.5">
+                          {col.items.map((item) => (
+                            <Link
+                              key={item.slug}
+                              href={`${col.base}/${item.slug}`}
+                              onClick={() => setMegaOpen(false)}
+                              className="block rounded-md px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-[var(--bg-hover)] hover:text-white"
+                            >
+                              {item.label}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="mt-3 flex items-center gap-3 border-t border-[var(--border-subtle)] pt-3">
+                  <Link
+                    href="/explorer"
+                    onClick={() => setMegaOpen(false)}
+                    className="text-xs font-medium text-primary hover:underline"
+                  >
+                    Voir tout l'explorateur
+                  </Link>
+                  <span className="text-xs text-muted-foreground">·</span>
+                  <Link
+                    href="/recherche"
+                    onClick={() => setMegaOpen(false)}
+                    className="text-xs font-medium text-muted-foreground hover:text-white hover:underline"
+                  >
+                    Recherche avancée
+                  </Link>
+                </div>
+              </div>
+            )}
+          </div>
+
           {links.map((link) => {
             const isActive = pathname.startsWith(link.href);
             return (
@@ -166,6 +288,18 @@ export function Nav() {
               aria-label="Menu de navigation"
             >
               <nav className="mt-8 flex flex-col gap-1">
+                <Link
+                  href="/explorer"
+                  onClick={() => setOpen(false)}
+                  className={cn(
+                    "rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
+                    pathname.startsWith("/explorer")
+                      ? "bg-[var(--bg-tertiary)] text-white"
+                      : "text-muted-foreground hover:bg-[var(--bg-tertiary)] hover:text-white"
+                  )}
+                >
+                  Explorer
+                </Link>
                 {links.map((link) => (
                   <Link
                     key={link.href}
