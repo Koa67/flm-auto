@@ -30,7 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!brand || !model) return {};
   return {
     title: `${brand.name} ${model.name}`,
-    description: `Toutes les g\u00e9n\u00e9rations de la ${brand.name} ${model.name} : fiches techniques, photos, motorisations.`,
+    description: `${brand.name} ${model.name} : toutes les g\u00e9n\u00e9rations, motorisations et fiches techniques sur FLM AUTO.`,
+    alternates: { canonical: `/marques/${brandSlug}/${modelSlug}` },
   };
 }
 

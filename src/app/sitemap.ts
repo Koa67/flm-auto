@@ -12,6 +12,7 @@ const SUB_PAGES = [
   "videos",
   "dimensions",
   "alternatives",
+  "fiabilite",
 ];
 
 /** "Meilleur" editorial category pages — from centralized categories */

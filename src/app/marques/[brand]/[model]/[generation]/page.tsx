@@ -81,6 +81,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description: `Fiche technique ${title} : motorisations, performances, s\u00e9curit\u00e9 Euro NCAP, photos.`,
+    alternates: { canonical: `/marques/${bs}/${ms}/${gs}` },
     openGraph: {
       title,
       images: [ogUrl.toString()],

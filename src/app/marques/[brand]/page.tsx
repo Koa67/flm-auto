@@ -23,7 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!data) return {};
   return {
     title: `${data.name} \u2014 Tous les mod\u00e8les`,
-    description: `D\u00e9couvrez tous les mod\u00e8les ${data.name} : fiches techniques, photos, g\u00e9n\u00e9rations.`,
+    description: `${data.name} : tous les mod\u00e8les, fiches techniques, comparaisons et avis sur FLM AUTO.`,
+    alternates: { canonical: `/marques/${slug}` },
   };
 }
 
