@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { UserMenu } from "@/components/auth/user-menu";
 import { cn } from "@/lib/utils";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useFavorites } from "@/hooks/use-favorites";
-import { useGamificationStore, BADGES } from "@/lib/gamification-store";
+import { useGamificationStore } from "@/lib/gamification-store";
 
 const links = [
   { href: "/marques", label: "Marques" },
@@ -25,7 +25,9 @@ export function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const { favorites } = useFavorites();
+  const [mounted, setMounted] = useState(false);
   const badgeCount = useGamificationStore((s) => s.unlockedBadges.length);
+  useEffect(() => setMounted(true), []);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[var(--border-subtle)] bg-glass">
@@ -114,7 +116,7 @@ export function Nav() {
             )}
           >
             <Trophy className="h-4 w-4" />
-            {badgeCount > 0 && (
+            {mounted && badgeCount > 0 && (
               <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] font-bold text-white">
                 {badgeCount > 99 ? "99" : badgeCount}
               </span>
@@ -190,7 +192,7 @@ export function Nav() {
                 >
                   <Trophy className="h-4 w-4" />
                   Badges
-                  {badgeCount > 0 && (
+                  {mounted && badgeCount > 0 && (
                     <span className="ml-auto rounded-full bg-primary px-1.5 py-0.5 text-[10px] font-bold text-white">
                       {badgeCount}
                     </span>

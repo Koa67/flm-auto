@@ -88,7 +88,8 @@ function SearchPageContent() {
       const json = await res.json();
       setResults(json.data || []);
       setCount(json.count || 0);
-      useGamificationStore.getState().incrementStat("searchesPerformed");
+      // Track unique queries only (not each debounced keystroke)
+      useGamificationStore.getState().trackUnique("searchesPerformed", "searches", q.trim().toLowerCase());
     } catch (e) {
       if (e instanceof DOMException && e.name === "AbortError") return;
       setResults([]);

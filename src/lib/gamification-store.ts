@@ -205,7 +205,11 @@ function saveUniqueSets(sets: Record<string, Set<string>>) {
   for (const [k, v] of Object.entries(sets)) {
     serializable[k] = [...v];
   }
-  localStorage.setItem(UNIQUE_SETS_KEY, JSON.stringify(serializable));
+  try {
+    localStorage.setItem(UNIQUE_SETS_KEY, JSON.stringify(serializable));
+  } catch {
+    // localStorage full or disabled — degrade gracefully
+  }
 }
 
 let uniqueSets: Record<string, Set<string>> = {};
@@ -225,7 +229,8 @@ export const useGamificationStore = create<GamificationStore>()(
       dismissToast: () => set({ lastUnlocked: null }),
 
       recordVisit: () => {
-        const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD local
+        const d = new Date();
+        const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
         set((state) => {
           if (state.lastVisitDate === today) return state; // already counted today
 
