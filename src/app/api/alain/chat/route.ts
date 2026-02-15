@@ -3,6 +3,7 @@ import { ALAIN_SYSTEM_PROMPT } from "@/lib/alain/prompts";
 import { ALAIN_TOOLS } from "@/lib/alain/tools";
 import { executeTool } from "@/lib/alain/execute-tool";
 import { alainChatSchema } from "@/lib/validators";
+import { buildStructuredContext, buildContextPrompt, type StructuredContext } from "@/lib/alain/context-tracker";
 
 const MAX_TURNS = 5;
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
@@ -112,7 +113,7 @@ async function ollamaChat(
     model: ALAIN_MODEL,
     messages,
     stream: false,
-    options: { temperature: 0.3, num_ctx: 2048 },
+    options: { temperature: 0.3, num_ctx: 4096 },
   };
 
   if (tools && tools.length > 0) {
@@ -140,6 +141,63 @@ async function ollamaChat(
   return res.json();
 }
 
+// Stream version: yields text chunks from Ollama
+async function* ollamaChatStream(
+  messages: OllamaMessage[]
+): AsyncGenerator<{ content: string; done: boolean }> {
+  const body = {
+    model: ALAIN_MODEL,
+    messages,
+    stream: true,
+    options: { temperature: 0.3, num_ctx: 4096 },
+  };
+
+  const res = await fetch(`${OLLAMA_URL}/api/chat`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Ollama ${res.status}: ${text}`);
+  }
+
+  const reader = res.body!.getReader();
+  const decoder = new TextDecoder();
+  let buffer = "";
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split("\n");
+    buffer = lines.pop() || "";
+
+    for (const line of lines) {
+      if (!line.trim()) continue;
+      try {
+        const json = JSON.parse(line);
+        yield {
+          content: json.message?.content || "",
+          done: json.done || false,
+        };
+      } catch {
+        // Partial JSON, wait for more data
+      }
+    }
+  }
+
+  // Process remaining buffer
+  if (buffer.trim()) {
+    try {
+      const json = JSON.parse(buffer);
+      yield { content: json.message?.content || "", done: json.done || false };
+    } catch { /* ignore */ }
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Pre-router: detect vehicle-specific queries and force tool calls for small
 // models that don't reliably use tools on their own (3B parameter limitation).
@@ -161,7 +219,14 @@ const TCO_PATTERN = /\b(tco|co[uû]t\s*(?:total|mensuel|r[eé]el|possession)|com
 
 type DetectedType = "search" | "engine" | "compare" | "family" | "cargo" | "safety" | "recall" | "reliability" | "tco" | null;
 
-function detectVehicleQuery(message: string): { type: DetectedType; query: string } {
+// Anaphore / implicit reference patterns (v5)
+const REFINEMENT_RE = /^(et |mais )(en |avec |sans |la version |le modèle )/i;
+const COMPARISON_ADD_RE = /^(et )(la |le |un |une )?([\w]+)/i;
+const POSSESSIVE_RE = /\b(son |sa |ses |leur )(coffre|prix|fiabilit[eé]|consommation|s[eé]curit[eé]|puissance|moteur|poids|0[- ][àa][- ]100)/i;
+const DEICTIC_RE = /\b(celui-l[àa]|celle-ci|ce mod[eè]le|cette voiture|cette bagnole)\b/i;
+const COMPARE_IMPLICIT_RE = /\b(lequel|laquelle|compare[- ]les|les deux)\b/i;
+
+function detectVehicleQuery(message: string, ctx?: StructuredContext): { type: DetectedType; query: string } {
   // Check for engine code queries first (most specific)
   const engineMatch = ENGINE_PATTERN.exec(message);
   if (engineMatch && /fiab|problèm|souci|connu|warning|alert|panne/i.test(message)) {
@@ -171,6 +236,48 @@ function detectVehicleQuery(message: string): { type: DetectedType; query: strin
   const hasBrand = BRAND_PATTERNS.test(message);
   const hasChassis = CHASSIS_PATTERN.test(message);
   const hasVehicle = hasBrand || hasChassis;
+
+  // --- v5: Context-aware implicit reference resolution ---
+  if (!hasVehicle && ctx?.activeVehicle) {
+    // "et en diesel ?" → search activeVehicle + fuel
+    if (REFINEMENT_RE.test(message)) {
+      const suffix = message.replace(REFINEMENT_RE, "").replace(/[?!.,;:]/g, "").trim();
+      return { type: "search", query: `${ctx.activeVehicle} ${suffix}` };
+    }
+
+    // "et la Mercedes ?" → comparison_add
+    if (COMPARISON_ADD_RE.test(message) && ctx.activeVehicle) {
+      return { type: "compare", query: `${ctx.activeVehicle} vs ${message.replace(/^et\s+/i, "")}` };
+    }
+
+    // "lequel est mieux ?" / "compare les deux" → use comparisonPair
+    if (COMPARE_IMPLICIT_RE.test(message) && ctx.comparisonPair) {
+      return { type: "compare", query: `${ctx.comparisonPair[0]} vs ${ctx.comparisonPair[1]}` };
+    }
+
+    // "son coffre ?", "sa fiabilité ?" → possessive → activeVehicle
+    if (POSSESSIVE_RE.test(message)) {
+      const topic = message.replace(POSSESSIVE_RE, "$2").replace(/[?!.,;:]/g, "").trim();
+      const topicType = inferTopicType(topic);
+      return { type: topicType || "search", query: `${ctx.activeVehicle} ${topic}` };
+    }
+
+    // "celui-là", "ce modèle" → deictic → activeVehicle
+    if (DEICTIC_RE.test(message)) {
+      const cleaned = message.replace(DEICTIC_RE, ctx.activeVehicle).replace(/[?!.,;:]/g, "").trim();
+      return { type: "search", query: cleaned };
+    }
+
+    // Short implicit follow-up: "fiable ?", "coffre ?", "prix ?"
+    if (message.length < 30) {
+      const topicType = inferTopicType(message);
+      if (topicType) {
+        return { type: topicType, query: `${ctx.activeVehicle} ${message.replace(/[?!.,;:]/g, "").trim()}` };
+      }
+    }
+  }
+
+  // --- Original detection logic (explicit brand/vehicle present) ---
 
   // Comparison detection (needs at least one brand/vehicle reference)
   if (hasVehicle && COMPARE_PATTERN.test(message)) {
@@ -226,9 +333,23 @@ function detectVehicleQuery(message: string): { type: DetectedType; query: strin
   return { type: null, query: "" };
 }
 
+/** Infer a specific topic type from short text */
+function inferTopicType(text: string): DetectedType | null {
+  const t = text.toLowerCase();
+  if (/fiab|panne|probl[eè]m|t[uü]v|red\s*flag/i.test(t)) return "reliability";
+  if (/coffre|volume|espace|cargo/i.test(t)) return "cargo";
+  if (/s[eé]curit[eé]|ncap|crash/i.test(t)) return "safety";
+  if (/isofix|si[eè]ge|enfant|famille|family/i.test(t)) return "family";
+  if (/prix|co[uû]t|tco|budget|mensuel/i.test(t)) return "tco";
+  if (/rappel|recall/i.test(t)) return "recall";
+  if (/compar|vs|versus/i.test(t)) return "compare";
+  return null;
+}
+
 async function handleOllama(
   systemPrompt: string,
-  messages: ChatMessage[]
+  messages: ChatMessage[],
+  ctx?: StructuredContext
 ): Promise<{ message: string; turns_used: number; provider: string; preRouted: boolean }> {
   // Apply sliding window for long conversations
   const windowedMessages = buildSlidingWindow(messages);
@@ -247,7 +368,7 @@ async function handleOllama(
   // Pre-router: for vehicle-specific queries, force a tool call upfront
   // so the small model gets real data instead of hallucinating or refusing
   const lastUserMessage = messages[messages.length - 1]?.content || "";
-  const detected = detectVehicleQuery(lastUserMessage);
+  const detected = detectVehicleQuery(lastUserMessage, ctx);
   let preRouted = false;
 
   if (detected.type && detected.type !== null) {
@@ -416,6 +537,121 @@ async function handleOllama(
 }
 
 // ---------------------------------------------------------------------------
+// Streaming Ollama handler — returns a ReadableStream for SSE
+// ---------------------------------------------------------------------------
+
+function handleOllamaStream(
+  systemPrompt: string,
+  messages: ChatMessage[],
+  ctx?: StructuredContext
+): ReadableStream {
+  const encoder = new TextEncoder();
+
+  return new ReadableStream({
+    async start(controller) {
+      try {
+        // Apply sliding window
+        const windowedMessages = buildSlidingWindow(messages);
+        const ollamaMessages: OllamaMessage[] = [
+          { role: "system", content: systemPrompt },
+          ...windowedMessages.map((m) => ({
+            role: m.role as "user" | "assistant",
+            content: m.content,
+          })),
+        ];
+
+        // Pre-router (non-streaming: tool calls need full responses)
+        const lastUserMessage = messages[messages.length - 1]?.content || "";
+        const detected = detectVehicleQuery(lastUserMessage, ctx);
+
+        if (detected.type) {
+          try {
+            let toolResult: string | null = null;
+            let contextLabel = "";
+
+            // Re-use the same pre-routing logic (abbreviated — covers main cases)
+            if (detected.type === "search") {
+              const r = await executeTool("search_vehicles", { query: detected.query, limit: 3 });
+              const p = JSON.parse(r);
+              if ((Array.isArray(p) ? p.length : p.results?.length) > 0) {
+                toolResult = r; contextLabel = "résultats de recherche";
+              }
+            } else if (detected.type === "engine") {
+              toolResult = await executeTool("check_engine_warnings", { engine_code: detected.query });
+              contextLabel = "données moteur";
+            } else {
+              // For all other types: search → get gen_id → call specific tool
+              const r = await executeTool("search_vehicles", { query: detected.query, limit: 2 });
+              const p = JSON.parse(r);
+              const genId = Array.isArray(p) && p.length > 0
+                ? p[0].generation_id || p[0].generations?.[0]?.id : null;
+              if (genId) {
+                const toolMap: Record<string, [string, Record<string, unknown>]> = {
+                  family: ["check_family_fit", { generation_id: genId }],
+                  cargo: ["get_cargo_info", { generation_id: genId }],
+                  recall: ["get_recalls", { generation_id: genId }],
+                  reliability: ["get_reliability", { generation_id: genId }],
+                  tco: ["calculate_tco", { generation_id: genId }],
+                  safety: ["search_and_detail", { query: detected.query }],
+                  compare: ["search_vehicles", { query: detected.query, limit: 6 }],
+                };
+                const entry = toolMap[detected.type];
+                if (entry) {
+                  const result = await executeTool(entry[0], entry[1]);
+                  toolResult = `Véhicule: ${JSON.stringify(p[0])}\n${result}`;
+                  contextLabel = detected.type;
+                }
+              } else {
+                toolResult = r;
+                contextLabel = "résultats de recherche";
+              }
+            }
+
+            if (toolResult) {
+              // Send pre-routed data as a status event
+              controller.enqueue(encoder.encode(
+                `data: ${JSON.stringify({ type: "status", content: "Données trouvées, génération de la réponse..." })}\n\n`
+              ));
+              ollamaMessages.push({
+                role: "assistant",
+                content: `J'ai trouvé des ${contextLabel} dans la base FLM AUTO :\n${toolResult}`,
+              });
+              ollamaMessages.push({
+                role: "user",
+                content: `En te basant sur ces données, réponds à ma question initiale : ${lastUserMessage}`,
+              });
+            }
+          } catch {
+            // Pre-routing failed, continue without
+          }
+        }
+
+        // Stream the final response
+        for await (const chunk of ollamaChatStream(ollamaMessages)) {
+          if (chunk.content) {
+            controller.enqueue(encoder.encode(
+              `data: ${JSON.stringify({ type: "token", content: chunk.content })}\n\n`
+            ));
+          }
+          if (chunk.done) {
+            controller.enqueue(encoder.encode(
+              `data: ${JSON.stringify({ type: "done", provider: "ollama" })}\n\n`
+            ));
+          }
+        }
+
+        controller.close();
+      } catch (err: any) {
+        controller.enqueue(encoder.encode(
+          `data: ${JSON.stringify({ type: "error", content: err.message || "Erreur streaming" })}\n\n`
+        ));
+        controller.close();
+      }
+    },
+  });
+}
+
+// ---------------------------------------------------------------------------
 // Anthropic provider (cloud fallback)
 // ---------------------------------------------------------------------------
 
@@ -496,12 +732,19 @@ export async function POST(req: NextRequest) {
   const messages: ChatMessage[] = parsed.data.messages;
   const vehicleContext: string | undefined = parsed.data.vehicleContext;
   const preferences: UserPreferences | undefined = parsed.data.preferences;
+  const wantStream = parsed.data.stream === true;
+
+  // Build structured context from conversation history (v5)
+  const ctx = buildStructuredContext(messages);
+  ctx.hasPreferences = !!preferences;
 
   // Build system prompt
   let systemPrompt = ALAIN_SYSTEM_PROMPT;
   if (vehicleContext) {
     systemPrompt += `\n\n## Contexte actuel\nL'utilisateur consulte actuellement : ${vehicleContext}. Utilise cette info pour contextualiser tes réponses.`;
   }
+  // Inject conversation context (v5: active vehicle, comparison pair, intent)
+  systemPrompt += buildContextPrompt(ctx);
   if (preferences) {
     systemPrompt += buildPreferencePrompt(preferences);
   }
@@ -515,7 +758,18 @@ export async function POST(req: NextRequest) {
 
   if (isOllamaUp) {
     try {
-      const result = await handleOllama(systemPrompt, messages);
+      // SSE streaming mode
+      if (wantStream) {
+        const stream = handleOllamaStream(systemPrompt, messages, ctx);
+        return new Response(stream, {
+          headers: {
+            "Content-Type": "text/event-stream",
+            "Cache-Control": "no-cache",
+            Connection: "keep-alive",
+          },
+        });
+      }
+      const result = await handleOllama(systemPrompt, messages, ctx);
       return Response.json(result);
     } catch (err: any) {
       console.error("[ALAIN] Ollama error, attempting fallback:", err.message);
@@ -523,7 +777,7 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Fallback: Anthropic cloud
+  // Fallback: Anthropic cloud (no streaming — cloud fallback is rare)
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (apiKey) {
     try {
