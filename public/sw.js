@@ -1,4 +1,4 @@
-const CACHE_NAME = "flm-auto-v1";
+const CACHE_NAME = "flm-auto-v2";
 const STATIC_ASSETS = ["/offline.html"];
 
 // Install: pre-cache static assets
