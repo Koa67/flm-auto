@@ -62,6 +62,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     siteName: "FLM Auto",
+    images: [
+      {
+        url: "/api/og?title=FLM%20Auto&subtitle=Encyclop%C3%A9die%20automobile",
+        width: 1200,
+        height: 630,
+        alt: "FLM Auto \u2014 Encyclop\u00e9die automobile",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

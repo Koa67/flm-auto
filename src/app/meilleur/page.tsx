@@ -35,6 +35,9 @@ export const metadata: Metadata = {
   description:
     "32 classements automobiles : meilleur SUV familial, voiture 5 étoiles Euro NCAP, plus grand coffre, voiture la plus rapide, et plus encore.",
   alternates: { canonical: "/meilleur" },
+  openGraph: {
+    images: [{ url: "/api/og?title=Classements&subtitle=32%20classements%20automobiles%202025" }],
+  },
 };
 
 const ICON_MAP: Record<string, any> = {
