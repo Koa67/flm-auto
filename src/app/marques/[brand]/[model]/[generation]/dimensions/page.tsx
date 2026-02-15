@@ -6,6 +6,7 @@ import { VehicleNav } from "@/components/vehicle-nav";
 import { BlueprintViewer } from "@/components/blueprints/blueprint-viewer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Ruler, Box, Weight, Fuel } from "lucide-react";
+import { ViewTracker } from "@/components/view-tracker";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -145,6 +146,7 @@ export default async function DimensionsPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
+      <ViewTracker statKey="dimensionsViewed" />
       <Breadcrumbs
         items={[
           { label: "Marques", href: "/marques" },

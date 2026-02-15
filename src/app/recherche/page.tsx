@@ -1,12 +1,23 @@
 "use client";
 
-import { useState, useEffect, useCallback, Suspense } from "react";
+import { useState, useEffect, useCallback, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Search, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { Search, ArrowRight, Bookmark, Loader2 } from "lucide-react";
+import { useAuth } from "@/hooks/use-auth";
+import { useGamificationStore } from "@/lib/gamification-store";
+import { toast } from "sonner";
 
 interface SearchResult {
   id: string;
@@ -27,6 +38,38 @@ function SearchPageContent() {
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
   const [count, setCount] = useState(0);
+  const abortRef = useRef<AbortController | null>(null);
+  const { user } = useAuth();
+  const [saveDialogOpen, setSaveDialogOpen] = useState(false);
+  const [saveName, setSaveName] = useState("");
+  const [saving, setSaving] = useState(false);
+
+  async function handleSaveSearch() {
+    if (!saveName.trim() || !query) return;
+    setSaving(true);
+    try {
+      const res = await fetch("/api/saved-searches", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: saveName.trim(),
+          query,
+          filters: {},
+          result_count: count,
+        }),
+      });
+      if (res.ok) {
+        toast.success("Recherche sauvegardée");
+        setSaveDialogOpen(false);
+        setSaveName("");
+      } else {
+        toast.error("Erreur lors de la sauvegarde");
+      }
+    } catch {
+      toast.error("Erreur lors de la sauvegarde");
+    }
+    setSaving(false);
+  }
 
   const doSearch = useCallback(async (q: string) => {
     if (q.length < 2) {
@@ -34,15 +77,20 @@ function SearchPageContent() {
       setCount(0);
       return;
     }
+    abortRef.current?.abort();
+    abortRef.current = new AbortController();
     setLoading(true);
     try {
       const res = await fetch(
-        `/api/search?q=${encodeURIComponent(q)}&limit=50`
+        `/api/search?q=${encodeURIComponent(q)}&limit=50`,
+        { signal: abortRef.current.signal }
       );
       const json = await res.json();
       setResults(json.data || []);
       setCount(json.count || 0);
-    } catch {
+      useGamificationStore.getState().incrementStat("searchesPerformed");
+    } catch (e) {
+      if (e instanceof DOMException && e.name === "AbortError") return;
       setResults([]);
     } finally {
       setLoading(false);
@@ -51,6 +99,7 @@ function SearchPageContent() {
 
   useEffect(() => {
     if (initial) doSearch(initial);
+    return () => { abortRef.current?.abort(); };
   }, [initial, doSearch]);
 
   useEffect(() => {
@@ -67,9 +116,9 @@ function SearchPageContent() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
-      <h1 className="text-3xl font-bold">Recherche</h1>
-      <p className="mt-1 text-muted-foreground">
-        Cherchez parmi 4 268 g&eacute;n&eacute;rations et 13 054 motorisations
+      <h1 className="font-display text-3xl font-bold sm:text-4xl">Recherche</h1>
+      <p className="mt-2 text-muted-foreground">
+        Cherchez parmi <span className="text-mono font-semibold text-white">4 268</span> g&eacute;n&eacute;rations et <span className="text-mono font-semibold text-white">13 054</span> motorisations
       </p>
 
       <div className="relative mt-6">
@@ -89,17 +138,55 @@ function SearchPageContent() {
 
       {!loading && results.length > 0 && (
         <div className="mt-6">
-          <p className="mb-3 text-sm text-muted-foreground">
-            {count} r&eacute;sultat{count !== 1 ? "s" : ""}
-          </p>
+          <div className="mb-3 flex items-center justify-between">
+            <p className="text-sm text-muted-foreground">
+              {count} r&eacute;sultat{count !== 1 ? "s" : ""}
+            </p>
+            {user ? (
+              <Dialog open={saveDialogOpen} onOpenChange={setSaveDialogOpen}>
+                <DialogTrigger asChild>
+                  <Button variant="outline" size="sm">
+                    <Bookmark className="mr-2 h-4 w-4" />
+                    Sauvegarder
+                  </Button>
+                </DialogTrigger>
+                <DialogContent>
+                  <DialogHeader>
+                    <DialogTitle>Sauvegarder cette recherche</DialogTitle>
+                  </DialogHeader>
+                  <form onSubmit={(e) => { e.preventDefault(); handleSaveSearch(); }} className="space-y-4">
+                    <Input
+                      value={saveName}
+                      onChange={(e) => setSaveName(e.target.value)}
+                      placeholder="Nom de la recherche..."
+                      autoFocus
+                    />
+                    <Button type="submit" disabled={saving || !saveName.trim()} className="w-full">
+                      {saving ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Bookmark className="mr-2 h-4 w-4" />}
+                      Sauvegarder
+                    </Button>
+                  </form>
+                </DialogContent>
+              </Dialog>
+            ) : (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => toast.info("Connectez-vous pour sauvegarder vos recherches")}
+              >
+                <Bookmark className="mr-2 h-4 w-4" />
+                Sauvegarder
+              </Button>
+            )}
+          </div>
           <div className="space-y-2">
             {results.map((r) => (
               <Link key={r.id} href={`/marques/${r.slug}`}>
-                <Card className="transition-colors hover:bg-accent">
+                <Card className="card-hover group">
                   <CardContent className="flex items-center gap-4 p-4">
                     <div className="flex-1">
-                      <span className="font-semibold">{r.brand}</span>{" "}
-                      <span>{r.model}</span>{" "}
+                      <span className="font-semibold text-white">{r.brand}</span>{" "}
+                      <span className="text-white">{r.model}</span>{" "}
                       <span className="text-muted-foreground">
                         {r.generation}
                       </span>

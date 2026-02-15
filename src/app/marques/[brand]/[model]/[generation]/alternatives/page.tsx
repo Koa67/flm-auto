@@ -8,6 +8,7 @@ import { VehicleNav } from "@/components/vehicle-nav";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Gauge, Package as PackageIcon, GitCompareArrows } from "lucide-react";
+import { ViewTracker } from "@/components/view-tracker";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -199,6 +200,7 @@ export default async function AlternativesPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+      <ViewTracker statKey="alternativesViewed" />
       <Breadcrumbs
         items={[
           { label: "Marques", href: "/marques" },

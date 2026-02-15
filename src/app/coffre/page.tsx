@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
-import { Calculator, Search } from "lucide-react";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { Package, Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { TCOCalculator } from "@/components/tco/tco-calculator";
+import { CargoCalculator } from "@/components/cargo/cargo-calculator";
 import { useGamificationStore } from "@/lib/gamification-store";
 
 interface SearchResult {
@@ -17,27 +16,22 @@ interface SearchResult {
   year_start: number | null;
 }
 
-interface VehicleData {
-  name: string;
-  prixNeuf?: number;
-  co2?: number;
-  consoL100?: number;
-  realConsoL100?: number;
-  puissanceCv?: number;
-  typeCarburant?: string;
-  segment?: string;
+interface CargoData {
+  trunk_volume_liters: number | null;
+  trunk_volume_max_liters: number | null;
+  frunk_volume_liters: number | null;
+  max_load_kg: number | null;
+  vehicle_length_mm: number | null;
 }
 
-function TCOPageInner() {
-  const searchParams = useSearchParams();
+export default function CoffrePage() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [selected, setSelected] = useState<SearchResult | null>(null);
-  const [vehicleData, setVehicleData] = useState<VehicleData | null>(null);
-  const [loading, setLoading] = useState(false);
+  const [cargoData, setCargoData] = useState<CargoData | null>(null);
+  const [loadingCargo, setLoadingCargo] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const abortRef = useRef<AbortController | null>(null);
-  const initRef = useRef(false);
 
   const search = useCallback(async (q: string) => {
     if (q.length < 2) { setResults([]); return; }
@@ -64,69 +58,20 @@ function TCOPageInner() {
     return () => { abortRef.current?.abort(); };
   }, []);
 
-  // Auto-select vehicle from URL param: /tco?vehicle={generation_id}
-  useEffect(() => {
-    if (initRef.current) return;
-    const vehicleId = searchParams.get("vehicle");
-    if (vehicleId && /^[0-9a-f-]{36}$/i.test(vehicleId)) {
-      initRef.current = true;
-      loadVehicleById(vehicleId);
-    }
-  }, [searchParams]);
-
-  async function loadVehicleById(id: string) {
-    setLoading(true);
-    try {
-      const res = await fetch(`/api/vehicles/${id}`);
-      const json = await res.json();
-      const d = json.data;
-      if (!d) return;
-
-      const label = `${d.brand?.name || ""} ${d.model?.name || ""} ${d.generation?.name || ""}`.trim();
-      setSelected({ id, label, brand: d.brand?.name, model: d.model?.name, generation: d.generation?.name, slug: "", year_start: d.generation?.year_start });
-      buildVehicleData(label, d);
-    } catch {
-      // Ignore — user can search manually
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  function buildVehicleData(name: string, d: any) {
-    const topVariant = d?.variants?.[0];
-    const fuelType = topVariant?.fuel_type?.toLowerCase();
-    setVehicleData({
-      name,
-      prixNeuf: d?.pricing?.price_new_eur || undefined,
-      co2: d?.pricing?.co2_gkm || undefined,
-      consoL100: topVariant?.consumption_l100 || undefined,
-      realConsoL100: d?.realConsumption || undefined,
-      puissanceCv: topVariant?.power_hp || undefined,
-      typeCarburant: fuelType?.includes("diesel")
-        ? "diesel"
-        : fuelType?.includes("electr")
-          ? "electrique"
-          : fuelType?.includes("hybride")
-            ? "hybride"
-            : "essence",
-      segment: d?.model?.segment || "berline",
-    });
-  }
-
   async function selectVehicle(v: SearchResult) {
     setSelected(v);
     setQuery("");
     setResults([]);
-    setLoading(true);
-    useGamificationStore.getState().incrementStat("tcoCalculated");
+    setLoadingCargo(true);
+    useGamificationStore.getState().incrementStat("coffreChecked");
     try {
-      const res = await fetch(`/api/vehicles/${v.id}`);
+      const res = await fetch(`/api/cargo?generation_id=${v.id}`);
       const json = await res.json();
-      buildVehicleData(v.label, json.data);
+      setCargoData(json.data || null);
     } catch {
-      setVehicleData({ name: v.label });
+      setCargoData(null);
     } finally {
-      setLoading(false);
+      setLoadingCargo(false);
     }
   }
 
@@ -134,11 +79,11 @@ function TCOPageInner() {
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
       <div className="mb-8">
         <h1 className="flex items-center gap-3 font-display text-3xl font-bold sm:text-4xl">
-          <Calculator className="h-8 w-8 text-primary" />
-          Calculateur TCO
+          <Package className="h-8 w-8 text-primary" />
+          Calculateur de coffre
         </h1>
         <p className="mt-2 text-muted-foreground">
-          Co&ucirc;t r&eacute;el de possession : d&eacute;pr&eacute;ciation, carburant, assurance, entretien, malus.
+          V\u00e9rifiez si vos affaires rentrent dans le coffre. Poussette, v\u00e9los, valises&hellip;
         </p>
       </div>
 
@@ -149,7 +94,7 @@ function TCOPageInner() {
           <Input
             value={query}
             onChange={(e) => { setQuery(e.target.value); setHighlightedIndex(-1); }}
-            placeholder="Rechercher un v&eacute;hicule&hellip;"
+            placeholder="Rechercher un v\u00e9hicule\u2026"
             className="pl-9"
             onKeyDown={(e) => {
               if (e.key === "ArrowDown") {
@@ -192,7 +137,7 @@ function TCOPageInner() {
         <div className="mb-6 flex items-center gap-3">
           <span className="font-display text-lg font-semibold text-white">{selected.label}</span>
           <button
-            onClick={() => { setSelected(null); setVehicleData(null); }}
+            onClick={() => { setSelected(null); setCargoData(null); }}
             className="text-sm text-primary hover:text-primary/80"
           >
             Changer
@@ -201,41 +146,40 @@ function TCOPageInner() {
       )}
 
       {/* Loading */}
-      {loading && (
+      {loadingCargo && (
         <div className="flex items-center justify-center py-16">
           <div className="h-8 w-8 animate-spin rounded-full border-2 border-primary border-t-transparent" />
         </div>
       )}
 
-      {/* TCO Calculator */}
-      {selected && vehicleData && !loading && (
-        <TCOCalculator vehicle={vehicleData} />
+      {/* Calculator */}
+      {selected && cargoData && !loadingCargo && (
+        <CargoCalculator vehicleName={selected.label} cargoData={cargoData} />
+      )}
+
+      {/* No trunk data */}
+      {selected && cargoData && !cargoData.trunk_volume_liters && !loadingCargo && (
+        <div className="mt-8 text-center">
+          <Package className="mx-auto h-16 w-16 text-muted-foreground/50" />
+          <h3 className="mt-4 text-lg font-semibold">Pas de donn\u00e9es coffre</h3>
+          <p className="mt-2 text-muted-foreground">
+            Les dimensions du coffre ne sont pas encore disponibles pour ce v\u00e9hicule.
+          </p>
+        </div>
       )}
 
       {/* Empty state */}
-      {!selected && !loading && (
+      {!selected && !loadingCargo && (
         <div className="mt-16 text-center">
-          <Calculator className="mx-auto h-16 w-16 text-muted-foreground/50" />
+          <Package className="mx-auto h-16 w-16 text-muted-foreground/50" />
           <h3 className="mt-4 text-lg font-semibold">
-            Combien co&ucirc;te vraiment cette voiture ?
+            Est-ce que \u00e7a rentre ?
           </h3>
           <p className="mt-2 max-w-md mx-auto text-muted-foreground">
-            D&eacute;couvrez le co&ucirc;t r&eacute;el mensuel incluant d&eacute;pr&eacute;ciation, carburant, assurance, entretien et malus 2025.
+            S\u00e9lectionnez un v\u00e9hicule pour simuler le chargement du coffre avec vos objets.
           </p>
         </div>
       )}
     </div>
-  );
-}
-
-export default function TCOPage() {
-  return (
-    <Suspense fallback={
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-        <div className="h-8 w-8 animate-spin rounded-full border-2 border-primary border-t-transparent" />
-      </div>
-    }>
-      <TCOPageInner />
-    </Suspense>
   );
 }

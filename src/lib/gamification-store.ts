@@ -39,6 +39,7 @@ export type StatKey =
   | "favoritesAdded"
   | "searchesPerformed"
   | "pagesVisited"
+  | "nightVisits"
   | "profileCompleted";
 
 export const BADGES: BadgeDef[] = [
@@ -67,7 +68,7 @@ export const BADGES: BadgeDef[] = [
   { id: "alain-fan", name: "Fan d'ALAIN", description: "Poser 10 questions \u00e0 ALAIN", icon: "\ud83e\udd16", category: "social", threshold: 10, statKey: "alainQuestions" },
 
   // New Phase 24 badges (17-20)
-  { id: "night-owl", name: "Noctambule", description: "Naviguer sur le site apr\u00e8s 23h", icon: "\ud83c\udf19", category: "exploration", threshold: 1, statKey: "pagesVisited" },
+  { id: "night-owl", name: "Noctambule", description: "Naviguer sur le site apr\u00e8s 23h", icon: "\ud83c\udf19", category: "exploration", threshold: 1, statKey: "nightVisits" },
   { id: "speed-demon", name: "Speed Demon", description: "Consulter 5 fiches alternatives", icon: "\u26a1", category: "expert", threshold: 5, statKey: "alternativesViewed" },
   { id: "perfectionist", name: "Perfectionniste", description: "Ajouter 5 favoris", icon: "\u2764\ufe0f", category: "social", threshold: 5, statKey: "favoritesAdded" },
   { id: "identified", name: "Identifi\u00e9", description: "Compl\u00e9ter son profil utilisateur", icon: "\ud83c\udfaf", category: "social", threshold: 1, statKey: "profileCompleted" },
@@ -106,6 +107,7 @@ const DEFAULT_STATS: Stats = {
   favoritesAdded: 0,
   searchesPerformed: 0,
   pagesVisited: 0,
+  nightVisits: 0,
   profileCompleted: 0,
 };
 

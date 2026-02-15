@@ -16,6 +16,7 @@ import {
 import { Progress } from "@/components/ui/progress";
 import { Shield, Gauge, Fuel, Star } from "lucide-react";
 import { ConfidenceBadge } from "@/components/confidence-badge";
+import { ViewTracker } from "@/components/view-tracker";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
@@ -213,6 +214,7 @@ export default async function ComparatifPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
+      <ViewTracker statKey="comparisons" />
       <Breadcrumbs
         items={[
           { label: "Comparatif", href: "/comparer" },

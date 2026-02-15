@@ -6,12 +6,14 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { Toaster } from "sonner";
 import { CommandPalette } from "@/components/command-palette";
-import { FloatingCompareBar } from "@/components/compare/floating-compare-bar";
-import { OnboardingTour } from "@/components/onboarding-tour";
 import { ConditionalAnalytics } from "@/components/analytics-wrapper";
 import { CookieBanner } from "@/components/cookie-banner";
+import { BadgeToast } from "@/components/badge-toast";
+import { NightOwlTracker } from "@/components/night-owl-tracker";
 import dynamic from "next/dynamic";
 const AlainChatWidget = dynamic(() => import("@/components/alain/chat-widget").then(m => m.AlainChatWidget));
+const FloatingCompareBar = dynamic(() => import("@/components/compare/floating-compare-bar").then(m => m.FloatingCompareBar));
+const OnboardingTour = dynamic(() => import("@/components/onboarding-tour").then(m => m.OnboardingTour));
 import { AuthProvider } from "@/components/auth/auth-provider";
 import { SWRegister } from "@/components/sw-register";
 import "./globals.css";
@@ -77,6 +79,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://gtixhrjeshkaobwxuvox.supabase.co" />
+        <link rel="dns-prefetch" href="https://upload.wikimedia.org" />
+        <link rel="dns-prefetch" href="https://i.ytimg.com" />
+        <link rel="dns-prefetch" href="https://commons.wikimedia.org" />
       </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable} font-sans antialiased`}
@@ -98,6 +103,8 @@ export default function RootLayout({
           <OnboardingTour />
           <Footer />
           <AlainChatWidget />
+          <BadgeToast />
+          <NightOwlTracker />
           <CookieBanner />
           </AuthProvider>
         </ThemeProvider>
