@@ -5,6 +5,7 @@ import { executeTool } from "@/lib/alain/execute-tool";
 import { alainChatSchema } from "@/lib/validators";
 import { buildStructuredContext, buildContextPrompt, type StructuredContext } from "@/lib/alain/context-tracker";
 import { generateDynamicSuggestions } from "@/lib/alain/dynamic-suggestions";
+import { detectFollowUp } from "@/lib/alain/follow-up-detector";
 
 const MAX_TURNS = 5;
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
@@ -369,7 +370,15 @@ async function handleOllama(
   // Pre-router: for vehicle-specific queries, force a tool call upfront
   // so the small model gets real data instead of hallucinating or refusing
   const lastUserMessage = messages[messages.length - 1]?.content || "";
-  const detected = detectVehicleQuery(lastUserMessage, ctx);
+
+  // v5: Follow-up detection — resolve implicit references before pre-routing
+  const followUp = ctx ? detectFollowUp(lastUserMessage, ctx) : null;
+  const routingQuery = followUp && followUp.type !== "new_topic" && followUp.resolvedQuery !== lastUserMessage
+    ? followUp.resolvedQuery
+    : lastUserMessage;
+  const skipPreRouter = followUp && (followUp.type === "clarification" || followUp.type === "opinion");
+
+  const detected = skipPreRouter ? { type: null as DetectedType, query: "" } : detectVehicleQuery(routingQuery, ctx);
   let preRouted = false;
 
   if (detected.type && detected.type !== null) {
@@ -563,7 +572,15 @@ function handleOllamaStream(
 
         // Pre-router (non-streaming: tool calls need full responses)
         const lastUserMessage = messages[messages.length - 1]?.content || "";
-        const detected = detectVehicleQuery(lastUserMessage, ctx);
+
+        // v5: Follow-up detection for streaming
+        const followUp = ctx ? detectFollowUp(lastUserMessage, ctx) : null;
+        const routingQuery = followUp && followUp.type !== "new_topic" && followUp.resolvedQuery !== lastUserMessage
+          ? followUp.resolvedQuery
+          : lastUserMessage;
+        const skipPreRouter = followUp && (followUp.type === "clarification" || followUp.type === "opinion");
+
+        const detected = skipPreRouter ? { type: null as DetectedType, query: "" } : detectVehicleQuery(routingQuery, ctx);
 
         if (detected.type) {
           try {
