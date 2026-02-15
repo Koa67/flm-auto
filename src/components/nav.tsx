@@ -79,6 +79,7 @@ export function Nav() {
           {/* Search trigger */}
           <button
             data-tour="search"
+            aria-label="Ouvrir la recherche"
             onClick={() =>
               window.dispatchEvent(new Event("open-command-palette"))
             }

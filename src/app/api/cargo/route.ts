@@ -1,10 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createStaticClient } from "@/lib/supabase/server";
+import { isValidUUID } from "@/lib/validators";
 
 export async function GET(req: NextRequest) {
   const generationId = req.nextUrl.searchParams.get("generation_id");
   if (!generationId) {
     return NextResponse.json({ error: "generation_id required" }, { status: 400 });
+  }
+  if (!isValidUUID(generationId)) {
+    return NextResponse.json({ error: "Invalid generation_id" }, { status: 400 });
   }
 
   const db = createStaticClient();

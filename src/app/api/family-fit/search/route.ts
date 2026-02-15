@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { logError } from '@/lib/logger'
+import { z } from 'zod'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -22,19 +23,36 @@ const supabase = createClient(
  *   budget_max: number,        // Max price (future use)
  * }
  */
+const familyFitSearchSchema = z.object({
+  seats_needed: z.coerce.number().int().min(1).max(9).default(1),
+  three_across: z.boolean().default(false),
+  seat_types: z.array(z.string().max(50)).max(20).default([]),
+  body_types: z.array(z.string().max(50)).max(20).default([]),
+  brands: z.array(z.string().max(100)).max(20).default([]),
+  min_rear_legroom_mm: z.coerce.number().int().min(0).max(2000).optional(),
+  limit: z.coerce.number().int().min(1).max(100).default(20),
+})
+
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json()
-    
+    const raw = await request.json()
+    const parsed = familyFitSearchSchema.safeParse(raw)
+    if (!parsed.success) {
+      return NextResponse.json(
+        { error: parsed.error.issues.map((i) => i.message).join(', ') },
+        { status: 400 }
+      )
+    }
+
     const {
-      seats_needed = 1,
-      three_across = false,
-      seat_types = [],
-      body_types = [],
-      brands = [],
+      seats_needed,
+      three_across,
+      seat_types,
+      body_types,
+      brands,
       min_rear_legroom_mm,
-      limit = 20,
-    } = body
+      limit,
+    } = parsed.data
 
     let query = supabase
       .from('family_fit_compatibility')

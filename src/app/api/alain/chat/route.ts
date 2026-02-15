@@ -768,7 +768,15 @@ export async function POST(req: NextRequest) {
   // Build system prompt
   let systemPrompt = ALAIN_SYSTEM_PROMPT;
   if (vehicleContext) {
-    systemPrompt += `\n\n## Contexte actuel\nL'utilisateur consulte actuellement : ${vehicleContext}. Utilise cette info pour contextualiser tes réponses.`;
+    // Sanitize: strip newlines, markdown headings, and control chars to prevent prompt injection
+    const safeCtx = vehicleContext
+      .replace(/[\n\r#]/g, " ")
+      .replace(/[^\x20-\x7E\u00C0-\u024F\u2000-\u206F]/g, "")
+      .trim()
+      .slice(0, 200);
+    if (safeCtx) {
+      systemPrompt += `\n\n## Contexte actuel\nL'utilisateur consulte actuellement : ${safeCtx}. Utilise cette info pour contextualiser tes réponses.`;
+    }
   }
   // Inject conversation context (v5: active vehicle, comparison pair, intent)
   systemPrompt += buildContextPrompt(ctx);

@@ -1,22 +1,31 @@
 import { NextResponse } from "next/server";
 import { createStaticClient } from "@/lib/supabase/server";
 import { logError } from "@/lib/logger";
+import { z } from "zod";
 
 export const revalidate = 300; // 5 minutes
 
-interface RecommendQuery {
-  budget_min?: number;
-  budget_max?: number;
-  usage?: string;
-  family_size?: number;
-  child_seats_needed?: number;
-  fuel_preference?: string;
-  priorities?: string[];
-}
+const recommendSchema = z.object({
+  budget_min: z.coerce.number().int().min(0).max(1000000).optional(),
+  budget_max: z.coerce.number().int().min(0).max(1000000).optional(),
+  usage: z.string().max(100).optional(),
+  family_size: z.coerce.number().int().min(1).max(12).optional(),
+  child_seats_needed: z.coerce.number().int().min(0).max(5).optional(),
+  fuel_preference: z.string().max(50).optional(),
+  priorities: z.array(z.string().max(50)).max(10).optional(),
+});
 
 export async function POST(request: Request) {
   try {
-    const body: RecommendQuery = await request.json();
+    const raw = await request.json();
+    const parsed = recommendSchema.safeParse(raw);
+    if (!parsed.success) {
+      return NextResponse.json(
+        { error: parsed.error.issues.map((i) => i.message).join(", ") },
+        { status: 400 }
+      );
+    }
+    const body = parsed.data;
     const db = createStaticClient();
 
     // Build query for generations with related data
