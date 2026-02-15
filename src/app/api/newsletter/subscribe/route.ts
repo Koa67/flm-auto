@@ -2,6 +2,7 @@ import { createStaticClient } from "@/lib/supabase/server";
 import { NextResponse } from "next/server";
 import { newsletterSchema, validateBody } from "@/lib/validators";
 import { logError } from "@/lib/logger";
+import { sendWelcomeEmail } from "@/lib/email";
 
 export async function POST(request: Request) {
   try {
@@ -24,6 +25,9 @@ export async function POST(request: Request) {
         { status: 500 }
       );
     }
+
+    // Fire-and-forget welcome email — don't block the response
+    sendWelcomeEmail(email);
 
     return NextResponse.json({ success: true });
   } catch {
