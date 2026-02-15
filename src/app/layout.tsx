@@ -38,6 +38,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr"),
   title: {
     default: "FLM Auto \u2014 Encyclop\u00e9die Automobile",
     template: "%s | FLM Auto",
