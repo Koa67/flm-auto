@@ -368,6 +368,13 @@
   background: var(--border-strong);
 }
 
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* ── Focus ring utility ────────────────────────────────────── */
 :focus-visible {
   outline: 2px solid var(--color-ring);
