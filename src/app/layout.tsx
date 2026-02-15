@@ -92,6 +92,12 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://i.ytimg.com" />
         <link rel="dns-prefetch" href="https://commons.wikimedia.org" />
         <link rel="apple-touch-icon" href="/apple-icon" />
+        {process.env.NEXT_PUBLIC_GSC_VERIFICATION && (
+          <meta
+            name="google-site-verification"
+            content={process.env.NEXT_PUBLIC_GSC_VERIFICATION}
+          />
+        )}
       </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable} font-sans antialiased`}
