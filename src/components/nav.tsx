@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Heart, Menu, Search } from "lucide-react";
+import { Heart, Menu, Search, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { UserMenu } from "@/components/auth/user-menu";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { useFavorites } from "@/hooks/use-favorites";
+import { useGamificationStore, BADGES } from "@/lib/gamification-store";
 
 const links = [
   { href: "/marques", label: "Marques" },
@@ -24,6 +25,7 @@ export function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const { favorites } = useFavorites();
+  const badgeCount = useGamificationStore((s) => s.unlockedBadges.length);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[var(--border-subtle)] bg-glass">
@@ -100,6 +102,25 @@ export function Nav() {
 
           <UserMenu />
 
+          {/* Badges */}
+          <Link
+            href="/coffre/badges"
+            aria-label="Mes badges"
+            className={cn(
+              "relative hidden items-center justify-center rounded-md p-2 transition-colors hover:bg-[var(--bg-hover)] md:inline-flex",
+              pathname.startsWith("/coffre/badges")
+                ? "text-primary"
+                : "text-muted-foreground"
+            )}
+          >
+            <Trophy className="h-4 w-4" />
+            {badgeCount > 0 && (
+              <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] font-bold text-white">
+                {badgeCount > 99 ? "99" : badgeCount}
+              </span>
+            )}
+          </Link>
+
           {/* Favorites */}
           <Link
             href="/favoris"
@@ -157,6 +178,24 @@ export function Nav() {
                     {link.label}
                   </Link>
                 ))}
+                <Link
+                  href="/coffre/badges"
+                  onClick={() => setOpen(false)}
+                  className={cn(
+                    "flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
+                    pathname.startsWith("/coffre/badges")
+                      ? "bg-[var(--bg-tertiary)] text-white"
+                      : "text-muted-foreground hover:bg-[var(--bg-tertiary)] hover:text-white"
+                  )}
+                >
+                  <Trophy className="h-4 w-4" />
+                  Badges
+                  {badgeCount > 0 && (
+                    <span className="ml-auto rounded-full bg-primary px-1.5 py-0.5 text-[10px] font-bold text-white">
+                      {badgeCount}
+                    </span>
+                  )}
+                </Link>
                 <Link
                   href="/favoris"
                   onClick={() => setOpen(false)}
