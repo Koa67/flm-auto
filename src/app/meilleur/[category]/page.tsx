@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import type { Metadata } from "next";
 import { generateFAQSchema } from "@/lib/schema/faq-schema";
+import { RelatedLinks } from "@/components/seo/related-links";
 
 export const revalidate = 86400; // 24h
 
@@ -80,6 +81,20 @@ async function enrichGenerations(genIds: string[]) {
   return map;
 }
 
+function editorialIntro(group: string, topNames: string[]): string {
+  const year = new Date().getFullYear();
+  const top = topNames.length > 0 ? topNames.join(", ") : "";
+  const intros: Record<string, string> = {
+    famille: `Le marché automobile ${year} offre un large choix pour les familles. ${top ? `En tête de notre classement : ${top}.` : ""} Score basé sur les points ISOFIX, la largeur de banquette et la sécurité Euro NCAP.`,
+    securite: `La sécurité automobile progresse chaque année grâce aux crash-tests Euro NCAP. ${top ? `Les mieux notés : ${top}.` : ""} Seules les données vérifiées (confiance A/B) sont prises en compte.`,
+    performance: `Pour les amateurs de sensations fortes, voici les modèles les plus performants en ${year}. ${top ? `Le podium : ${top}.` : ""} Données issues des fiches techniques constructeur.`,
+    coffre: `Le volume de coffre est un critère décisif pour les familles et les voyageurs. ${top ? `Les champions du chargement : ${top}.` : ""} Volumes mesurés en litres selon la norme VDA.`,
+    segment: `Découvrez les meilleurs modèles par catégorie de carrosserie en ${year}. ${top ? `En vedette : ${top}.` : ""}`,
+    divers: `Classement spécial mis à jour pour ${year}. ${top ? `En haut du tableau : ${top}.` : ""} Données vérifiées issues de notre base de 13 000+ variantes.`,
+  };
+  return intros[group] || intros.divers;
+}
+
 export default async function MeilleurPage({ params }: Props) {
   const { category } = await params;
   const cat = RANKING_CATEGORIES.find((c) => c.slug === category);
@@ -114,6 +129,7 @@ export default async function MeilleurPage({ params }: Props) {
 
       <h1 className="mt-4 font-display text-3xl font-bold sm:text-4xl">{cat.h1}</h1>
       <p className="mt-2 text-muted-foreground">{cat.description}</p>
+      <p className="mt-2 text-sm text-muted-foreground/70">{editorialIntro(cat.group, ranked.slice(0, 3).map((v: any) => `${v.vehicle.name} ${v.vehicle.gen}`))}</p>
       <p className="mt-1 text-sm text-muted-foreground">
         <span className="text-mono font-semibold text-white">{ranked.length}</span> véhicule{ranked.length !== 1 ? "s" : ""} classé
         {ranked.length !== 1 ? "s" : ""}
@@ -224,6 +240,17 @@ export default async function MeilleurPage({ params }: Props) {
           </p>
         )}
       </div>
+
+      {/* Related links for internal linking */}
+      <RelatedLinks
+        title="Autres classements"
+        links={[
+          ...RANKING_CATEGORIES.filter((c) => c.group === cat.group && c.slug !== cat.slug),
+          ...RANKING_CATEGORIES.filter((c) => c.group !== cat.group).slice(0, 4),
+        ]
+          .slice(0, 10)
+          .map((c) => ({ label: c.title, href: `/meilleur/${c.slug}` }))}
+      />
 
       <script
         type="application/ld+json"
