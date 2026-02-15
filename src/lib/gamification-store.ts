@@ -1,6 +1,6 @@
 /**
  * Gamification store — Zustand + localStorage ("flm-gamification").
- * Tracks user stats, awards 31 badges with rarity tiers,
+ * Tracks user stats, awards 28 badges with rarity tiers,
  * and manages XP/levels across 4 categories.
  *
  * Persistence key: "flm-gamification"
