@@ -25,7 +25,7 @@ import {
   useConversationStore,
   type Message,
 } from "@/lib/alain/conversation-store";
-import { generateSuggestions, type Suggestion } from "@/lib/alain/suggestions";
+import { getDefaultSuggestions, type Suggestion } from "@/lib/alain/suggestions";
 import type { DynamicSuggestion } from "@/lib/alain/dynamic-suggestions";
 import { extractPreferences, mergePreferences } from "@/lib/alain/preference-extractor";
 import { AlainAvatar } from "@/components/alain/avatar";
@@ -98,11 +98,8 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
     }
   }, [pathname, addViewedVehicle]);
 
-  // Generate contextual suggestions (with conversation context)
-  const suggestions = useMemo(
-    () => generateSuggestions(context, pathname ?? undefined, messages),
-    [context, pathname, messages]
-  );
+  // Static welcome-screen suggestions (contextual follow-ups come from server SSE)
+  const suggestions = useMemo(() => getDefaultSuggestions(), []);
 
   // Preference summary for display
   const prefBadges = useMemo(() => {
