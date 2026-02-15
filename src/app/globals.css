@@ -21,7 +21,7 @@
   --color-secondary: #1a1a24;
   --color-secondary-foreground: #f5f5f7;
   --color-muted: #1a1a24;
-  --color-muted-foreground: #707085;
+  --color-muted-foreground: #8585a0;
   --color-accent: #222230;
   --color-accent-foreground: #f5f5f7;
   --color-destructive: #ef4444;
@@ -124,7 +124,7 @@
   --secondary: #1a1a24;
   --secondary-foreground: #f5f5f7;
   --muted: #1a1a24;
-  --muted-foreground: #707085;
+  --muted-foreground: #8585a0;
   --accent: #222230;
   --accent-foreground: #f5f5f7;
   --destructive: #ef4444;

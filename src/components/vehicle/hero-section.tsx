@@ -96,10 +96,13 @@ export function HeroSection({
 
       {/* Image Dots */}
       {heroImages.length > 1 && (
-        <div className="absolute bottom-28 left-1/2 z-20 flex -translate-x-1/2 gap-2">
+        <div className="absolute bottom-28 left-1/2 z-20 flex -translate-x-1/2 gap-2" role="tablist" aria-label="Images du véhicule">
           {heroImages.map((_, i) => (
             <button
               key={i}
+              role="tab"
+              aria-selected={i === currentImg}
+              aria-label={`Image ${i + 1} sur ${heroImages.length}`}
               onClick={() => setCurrentImg(i)}
               className={`h-2 rounded-full transition-all ${
                 i === currentImg
