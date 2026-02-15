@@ -1,6 +1,7 @@
 import { createStaticClient } from "@/lib/supabase/server";
 import { NextResponse } from "next/server";
 import { newsletterSchema, validateBody } from "@/lib/validators";
+import { logError } from "@/lib/logger";
 
 export async function POST(request: Request) {
   try {
@@ -17,7 +18,7 @@ export async function POST(request: Request) {
       .upsert({ email, source }, { onConflict: "email" });
 
     if (error) {
-      console.error("Newsletter subscribe error:", error);
+      logError(error, { endpoint: "/api/newsletter/subscribe" });
       return NextResponse.json(
         { error: "Erreur lors de l'inscription" },
         { status: 500 }

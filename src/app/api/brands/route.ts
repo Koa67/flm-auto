@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { logError } from '@/lib/logger'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -19,7 +20,7 @@ export async function GET(request: NextRequest) {
       .order('name')
 
     if (brandsError) {
-      console.error("Brands error:", brandsError);
+      logError(brandsError, { endpoint: "/api/brands" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
@@ -29,7 +30,7 @@ export async function GET(request: NextRequest) {
       .select('brand_id')
 
     if (countError) {
-      console.error("Brands model-count error:", countError);
+      logError(countError, { endpoint: "/api/brands" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
@@ -72,7 +73,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ data: result })
 
   } catch (err) {
-    console.error('Brands error:', err)
+    logError(err, { endpoint: "/api/brands" })
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { logError } from '@/lib/logger'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -56,7 +57,8 @@ export async function GET(request: NextRequest) {
     const { data: appearances, error } = await query
 
     if (error) {
-      return NextResponse.json({ error: error.message }, { status: 500 })
+      logError(error, { endpoint: "/api/screen-cars" });
+      return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
     // Group by generation and count
@@ -144,7 +146,7 @@ export async function GET(request: NextRequest) {
     })
 
   } catch (err) {
-    console.error('Screen cars error:', err)
+    logError(err, { endpoint: "/api/screen-cars" })
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }

@@ -6,6 +6,7 @@ import {
   emailSchema,
   validateBody,
 } from "@/lib/validators";
+import { logError } from "@/lib/logger";
 
 export async function POST(request: Request) {
   try {
@@ -29,7 +30,7 @@ export async function POST(request: Request) {
       .single();
 
     if (error) {
-      console.error("Price alert POST error:", error);
+      logError(error, { endpoint: "/api/price-alerts" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
     }
 
@@ -68,7 +69,7 @@ export async function GET(request: Request) {
     .order("created_at", { ascending: false });
 
   if (error) {
-    console.error("Price alert GET error:", error);
+    logError(error, { endpoint: "/api/price-alerts" });
     return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
   }
 
@@ -95,7 +96,7 @@ export async function DELETE(request: Request) {
     .eq("id", parsed.data);
 
   if (error) {
-    console.error("Price alert DELETE error:", error);
+    logError(error, { endpoint: "/api/price-alerts" });
     return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
   }
 

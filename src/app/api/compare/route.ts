@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { isValidUUID } from '@/lib/validators'
+import { logError } from '@/lib/logger'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -43,7 +44,7 @@ export async function GET(request: NextRequest) {
       .in('id', ids)
 
     if (genError) {
-      console.error("Compare error:", genError);
+      logError(genError, { endpoint: "/api/compare" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
@@ -193,7 +194,7 @@ export async function GET(request: NextRequest) {
     })
 
   } catch (err) {
-    console.error('Compare error:', err)
+    logError(err, { endpoint: '/api/compare' })
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }

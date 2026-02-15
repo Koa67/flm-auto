@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { logError } from '@/lib/logger'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -89,7 +90,8 @@ export async function POST(request: NextRequest) {
     const { data, error } = await query
 
     if (error) {
-      return NextResponse.json({ error: error.message }, { status: 500 })
+      logError(error, { endpoint: "/api/family-fit/search" });
+      return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
     // Filter by body_types and brands (post-query since nested)
@@ -159,7 +161,7 @@ export async function POST(request: NextRequest) {
     })
 
   } catch (err) {
-    console.error('Family Fit search error:', err)
+    logError(err, { endpoint: "/api/family-fit/search" })
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }

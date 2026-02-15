@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createStaticClient } from "@/lib/supabase/server";
+import { logError } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
   const generationId = req.nextUrl.searchParams.get("generation_id");
@@ -19,7 +20,7 @@ export async function GET(req: NextRequest) {
     .single();
 
   if (error && error.code !== "PGRST116") {
-    console.error("UX score GET error:", error);
+    logError(error, { endpoint: "/api/ux-score" });
     return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
   }
 

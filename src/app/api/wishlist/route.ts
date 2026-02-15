@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { createClient } from "@supabase/supabase-js";
 import { createAuthServerClient } from "@/lib/supabase/server";
 import { wishlistBodySchema, uuidSchema } from "@/lib/validators";
+import { logError } from "@/lib/logger";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -53,12 +54,12 @@ export async function GET() {
         .order("created_at", { ascending: false });
 
       if (error) {
-        console.error("Wishlist GET error:", error);
+        logError(error, { endpoint: "/api/wishlist" });
         return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
       }
       return NextResponse.json({ data: data || [] });
     } catch (err) {
-      console.error("Wishlist GET error:", err);
+      logError(err, { endpoint: "/api/wishlist" });
       return NextResponse.json({ error: "Erreur interne" }, { status: 500 });
     }
   }
@@ -78,12 +79,12 @@ export async function GET() {
       .order("created_at", { ascending: false });
 
     if (error) {
-      console.error("Wishlist GET error:", error);
+      logError(error, { endpoint: "/api/wishlist" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
     }
     return NextResponse.json({ data: data || [] });
   } catch (err) {
-    console.error("Wishlist GET error:", err);
+    logError(err, { endpoint: "/api/wishlist" });
     return NextResponse.json({ error: "Erreur interne" }, { status: 500 });
   }
 }
@@ -121,7 +122,7 @@ export async function POST(request: NextRequest) {
       .upsert(record, { onConflict: "user_id,generation_id" });
 
     if (error) {
-      console.error("Wishlist POST error:", error);
+      logError(error, { endpoint: "/api/wishlist" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
     }
 
@@ -129,7 +130,7 @@ export async function POST(request: NextRequest) {
     if (isNew) setUserCookie(res, userId);
     return res;
   } catch (err) {
-    console.error("Wishlist POST error:", err);
+    logError(err, { endpoint: "/api/wishlist" });
     return NextResponse.json({ error: "Erreur interne" }, { status: 500 });
   }
 }
@@ -158,7 +159,7 @@ export async function DELETE(request: NextRequest) {
         .eq("generation_id", generation_id);
 
       if (error) {
-        console.error("Wishlist DELETE error:", error);
+        logError(error, { endpoint: "/api/wishlist" });
         return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
       }
       return NextResponse.json({ ok: true });
@@ -175,12 +176,12 @@ export async function DELETE(request: NextRequest) {
       .eq("generation_id", generation_id);
 
     if (error) {
-      console.error("Wishlist DELETE error:", error);
+      logError(error, { endpoint: "/api/wishlist" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
     }
     return NextResponse.json({ ok: true });
   } catch (err) {
-    console.error("Wishlist DELETE error:", err);
+    logError(err, { endpoint: "/api/wishlist" });
     return NextResponse.json({ error: "Erreur interne" }, { status: 500 });
   }
 }

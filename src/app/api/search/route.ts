@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { sanitizeQuery } from "@/lib/validators";
+import { logError } from "@/lib/logger";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -120,7 +121,7 @@ export async function GET(request: NextRequest) {
       .limit(200);
 
     if (error) {
-      console.error("Search query error:", error);
+      logError(error, { endpoint: "/api/search" });
     }
 
     // Merge and deduplicate results
@@ -192,7 +193,7 @@ export async function GET(request: NextRequest) {
       count: results.length,
     });
   } catch (err) {
-    console.error("Search error:", err);
+    logError(err, { endpoint: "/api/search" });
     return NextResponse.json(
       { error: "Erreur interne" },
       { status: 500 }

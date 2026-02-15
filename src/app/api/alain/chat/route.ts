@@ -6,6 +6,7 @@ import { alainChatSchema } from "@/lib/validators";
 import { buildStructuredContext, buildContextPrompt, type StructuredContext } from "@/lib/alain/context-tracker";
 import { generateDynamicSuggestions } from "@/lib/alain/dynamic-suggestions";
 import { detectFollowUp } from "@/lib/alain/follow-up-detector";
+import { logError, logWarning } from "@/lib/logger";
 
 const MAX_TURNS = 5;
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
@@ -798,7 +799,7 @@ export async function POST(req: NextRequest) {
       const result = await handleOllama(systemPrompt, messages, ctx);
       return Response.json({ ...result, suggestions: generateDynamicSuggestions(ctx) });
     } catch (err: any) {
-      console.error("[ALAIN] Ollama error, attempting fallback:", err.message);
+      logWarning(`Ollama error, attempting fallback: ${err.message}`, { endpoint: "/api/alain/chat" });
       // Fall through to Anthropic
     }
   }
@@ -810,7 +811,7 @@ export async function POST(req: NextRequest) {
       const result = await handleAnthropic(systemPrompt, messages);
       return Response.json(result);
     } catch (err: any) {
-      console.error("[ALAIN] Anthropic error:", err.message);
+      logError(err, { endpoint: "/api/alain/chat" });
       return Response.json(
         { error: "ALAIN est temporairement indisponible" },
         { status: 503 }

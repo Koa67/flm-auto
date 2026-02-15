@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { createStaticClient } from "@/lib/supabase/server";
+import { logError } from "@/lib/logger";
 
 export const revalidate = 300; // 5 minutes
 
@@ -48,7 +49,7 @@ export async function POST(request: Request) {
     const { data: generations, error } = await query;
 
     if (error) {
-      console.error("Recommend query error:", error);
+      logError(error, { endpoint: "/api/recommend" });
       return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
     }
 
@@ -206,7 +207,7 @@ export async function POST(request: Request) {
       },
     });
   } catch (err) {
-    console.error("Recommend POST error:", err);
+    logError(err, { endpoint: "/api/recommend" });
     return NextResponse.json(
       { error: "Erreur serveur" },
       { status: 500 }

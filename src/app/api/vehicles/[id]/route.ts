@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { logError } from '@/lib/logger'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -171,7 +172,7 @@ export async function GET(
     return NextResponse.json({ data: vehicle })
 
   } catch (err) {
-    console.error('Error fetching vehicle:', err)
+    logError(err, { endpoint: '/api/vehicles/[id]' })
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }

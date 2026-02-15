@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { createStaticClient } from "@/lib/supabase/server";
+import { logError } from "@/lib/logger";
 
 export async function GET() {
   const db = createStaticClient();
@@ -11,7 +12,7 @@ export async function GET() {
     .order("brand");
 
   if (error) {
-    console.error("Seats list GET error:", error);
+    logError(error, { endpoint: "/api/seats/list" });
     return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
   }
 

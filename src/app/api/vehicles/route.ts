@@ -70,7 +70,8 @@ export async function GET(request: NextRequest) {
     const { data, error, count } = await query
 
     if (error) {
-      return NextResponse.json({ error: error.message }, { status: 500 })
+      logError(error, { endpoint: "/api/vehicles" });
+      return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
     }
 
     // Transform response
