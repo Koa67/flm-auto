@@ -26,7 +26,11 @@ import {
   type Message,
 } from "@/lib/alain/conversation-store";
 import { generateSuggestions, type Suggestion } from "@/lib/alain/suggestions";
+import type { DynamicSuggestion } from "@/lib/alain/dynamic-suggestions";
 import { extractPreferences, mergePreferences } from "@/lib/alain/preference-extractor";
+import { AlainAvatar } from "@/components/alain/avatar";
+import { useGamificationStore } from "@/lib/gamification-store";
+import { useProfileStore } from "@/lib/profile-store";
 
 const SUGGESTION_ICONS: Record<Suggestion["icon"], React.ElementType> = {
   car: Car,
@@ -48,6 +52,7 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [serverSuggestions, setServerSuggestions] = useState<DynamicSuggestion[] | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const pathname = usePathname();
@@ -56,9 +61,30 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
   const messages = useConversationStore((s) => s.messages);
   const context = useConversationStore((s) => s.context);
   const addMessage = useConversationStore((s) => s.addMessage);
+  const updateLastMessage = useConversationStore((s) => s.updateLastMessage);
   const clearMessages = useConversationStore((s) => s.clearMessages);
   const addToSearchHistory = useConversationStore((s) => s.addToSearchHistory);
   const addViewedVehicle = useConversationStore((s) => s.addViewedVehicle);
+
+  // Seed ALAIN preferences from profile store if user filled profile
+  useEffect(() => {
+    const profile = useProfileStore.getState().profile;
+    if (!profile.completed) return;
+    const store = useConversationStore.getState();
+    const p = store.context.preferences;
+    // Only seed if ALAIN has no preferences yet
+    if (p.budget || p.fuelTypes?.length || p.childSeats) return;
+    const FUEL_MAP: Record<string, string> = { essence: "Essence", diesel: "Diesel", electrique: "\u00c9lectrique", hybride: "Hybride" };
+    store.updateContext({
+      preferences: {
+        ...p,
+        budget: { min: profile.budget_min, max: profile.budget_max },
+        childSeats: profile.child_seats_needed || undefined,
+        fuelTypes: profile.fuel_preference !== "any" ? [FUEL_MAP[profile.fuel_preference] || profile.fuel_preference] : undefined,
+        usage: profile.usage === "city" ? ["ville"] : profile.usage === "highway" ? ["autoroute"] : ["mixte"],
+      },
+    });
+  }, []);
 
   // Track vehicle page visits
   useEffect(() => {
@@ -119,9 +145,10 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
       store.updateContext({ preferences: merged });
     }
 
-    // Add user message to store
+    // Add user message to store + gamification
     addMessage({ role: "user", content: userContent });
     addToSearchHistory(userContent);
+    useGamificationStore.getState().incrementStat("alainQuestions");
 
     setInput("");
     setLoading(true);
@@ -142,31 +169,75 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
         body: JSON.stringify({
           messages: apiMessages,
           vehicleContext,
+          stream: true,
           ...(hasPrefs ? { preferences: prefs } : {}),
         }),
       });
 
-      const data = await res.json();
+      // SSE streaming mode
+      if (res.ok && res.headers.get("content-type")?.includes("text/event-stream") && res.body) {
+        // Create placeholder assistant message for live updates
+        addMessage({ role: "assistant", content: "" });
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+        let accumulated = "";
 
-      if (!res.ok && res.status === 503) {
-        addMessage({
-          role: "assistant",
-          content:
-            "ALAIN est en pause. Relance le serveur local ou verifie la cle API.",
-        });
-      } else if (data.error) {
-        addMessage({
-          role: "assistant",
-          content:
-            data.error === "ANTHROPIC_API_KEY not configured"
-              ? "Je suis temporairement indisponible. La cle API n'est pas configuree."
-              : `Erreur : ${data.error}`,
-        });
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split("\n");
+          buffer = lines.pop() || "";
+
+          for (const line of lines) {
+            if (!line.startsWith("data: ")) continue;
+            try {
+              const event = JSON.parse(line.slice(6));
+              if (event.type === "token" && event.content) {
+                accumulated += event.content;
+                updateLastMessage(accumulated);
+              } else if (event.type === "suggestions" && event.suggestions) {
+                setServerSuggestions(event.suggestions);
+              } else if (event.type === "error") {
+                updateLastMessage(event.content || "Erreur streaming");
+              }
+              // "done" and "status" events are informational, no action needed
+            } catch {
+              // Partial JSON, ignore
+            }
+          }
+        }
+
+        // If nothing was accumulated, show fallback
+        if (!accumulated) {
+          updateLastMessage("Pas de réponse du modèle.");
+        }
       } else {
-        addMessage({
-          role: "assistant",
-          content: data.message,
-        });
+        // Non-streaming fallback (Anthropic cloud, or stream not supported)
+        const data = await res.json();
+
+        if (!res.ok && res.status === 503) {
+          addMessage({
+            role: "assistant",
+            content:
+              "ALAIN est en pause. Relance le serveur local ou verifie la cle API.",
+          });
+        } else if (data.error) {
+          addMessage({
+            role: "assistant",
+            content:
+              data.error === "ANTHROPIC_API_KEY not configured"
+                ? "Je suis temporairement indisponible. La cle API n'est pas configuree."
+                : `Erreur : ${data.error}`,
+          });
+        } else {
+          addMessage({
+            role: "assistant",
+            content: data.message,
+          });
+        }
       }
     } catch {
       addMessage({
@@ -188,6 +259,7 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
   const resetChat = () => {
     clearMessages();
     setInput("");
+    setServerSuggestions(null);
   };
 
   const messageCount = messages.length;
@@ -229,7 +301,7 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
             {/* Header */}
             <div className="flex items-center justify-between border-b border-[var(--border-subtle)] px-4 py-3 surface-2">
               <div className="flex items-center gap-2">
-                <Sparkles className="h-5 w-5 text-primary" />
+                <AlainAvatar size="sm" loading={loading} />
                 <div>
                   <p className="text-sm font-semibold text-white">ALAIN</p>
                   <p className="text-[10px] text-muted-foreground">
@@ -304,22 +376,34 @@ export function AlainChatWidget({ vehicleContext }: AlainChatWidgetProps) {
             </div>
 
             {/* Suggestion chips (shown when there are messages but not loading) */}
-            {messages.length > 0 && !loading && suggestions.length > 0 && (
+            {messages.length > 0 && !loading && (serverSuggestions || suggestions.length > 0) && (
               <div className="border-t border-[var(--border-subtle)] px-3 py-2">
                 <div className="flex flex-nowrap gap-1.5 overflow-x-auto">
-                  {suggestions.slice(0, 3).map((s) => {
-                    const Icon = SUGGESTION_ICONS[s.icon];
-                    return (
+                  {serverSuggestions ? (
+                    serverSuggestions.slice(0, 4).map((s) => (
                       <button
-                        key={s.text}
-                        onClick={() => sendMessage(s.action)}
-                        className="inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border border-[var(--border-subtle)] px-2.5 py-1 text-[11px] text-muted-foreground transition hover:surface-3 hover:text-white"
+                        key={s.label}
+                        onClick={() => { setServerSuggestions(null); sendMessage(s.message); }}
+                        className="inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border border-primary/30 px-2.5 py-1 text-[11px] text-primary transition hover:bg-primary/10"
                       >
-                        <Icon className="h-3 w-3" />
-                        {s.text}
+                        {s.label}
                       </button>
-                    );
-                  })}
+                    ))
+                  ) : (
+                    suggestions.slice(0, 3).map((s) => {
+                      const Icon = SUGGESTION_ICONS[s.icon];
+                      return (
+                        <button
+                          key={s.text}
+                          onClick={() => sendMessage(s.action)}
+                          className="inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border border-[var(--border-subtle)] px-2.5 py-1 text-[11px] text-muted-foreground transition hover:surface-3 hover:text-white"
+                        >
+                          <Icon className="h-3 w-3" />
+                          {s.text}
+                        </button>
+                      );
+                    })
+                  )}
                 </div>
               </div>
             )}
@@ -363,7 +447,7 @@ function WelcomeScreen({
 }) {
   return (
     <div className="flex h-full flex-col items-center justify-center text-center">
-      <Sparkles className="h-10 w-10 text-primary/60" />
+      <AlainAvatar size="lg" />
       <h3 className="mt-3 font-display text-sm font-semibold text-white">Salut ! Je suis ALAIN</h3>
       <p className="mt-1 max-w-70 text-xs text-muted-foreground">
         Ton assistant auto. Pose-moi une question sur un vehicule, ou essaie une

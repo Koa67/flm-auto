@@ -4,6 +4,7 @@ import { ALAIN_TOOLS } from "@/lib/alain/tools";
 import { executeTool } from "@/lib/alain/execute-tool";
 import { alainChatSchema } from "@/lib/validators";
 import { buildStructuredContext, buildContextPrompt, type StructuredContext } from "@/lib/alain/context-tracker";
+import { generateDynamicSuggestions } from "@/lib/alain/dynamic-suggestions";
 
 const MAX_TURNS = 5;
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
@@ -640,6 +641,14 @@ function handleOllamaStream(
           }
         }
 
+        // Send dynamic suggestions after stream completes (v5)
+        if (ctx) {
+          const suggestions = generateDynamicSuggestions(ctx);
+          controller.enqueue(encoder.encode(
+            `data: ${JSON.stringify({ type: "suggestions", suggestions })}\n\n`
+          ));
+        }
+
         controller.close();
       } catch (err: any) {
         controller.enqueue(encoder.encode(
@@ -770,7 +779,7 @@ export async function POST(req: NextRequest) {
         });
       }
       const result = await handleOllama(systemPrompt, messages, ctx);
-      return Response.json(result);
+      return Response.json({ ...result, suggestions: generateDynamicSuggestions(ctx) });
     } catch (err: any) {
       console.error("[ALAIN] Ollama error, attempting fallback:", err.message);
       // Fall through to Anthropic
