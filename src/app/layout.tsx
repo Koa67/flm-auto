@@ -10,6 +10,7 @@ import { ConditionalAnalytics } from "@/components/analytics-wrapper";
 import { CookieBanner } from "@/components/cookie-banner";
 import { BadgeToast } from "@/components/badge-toast";
 import { NightOwlTracker } from "@/components/night-owl-tracker";
+import { StreakTracker } from "@/components/streak-tracker";
 import dynamic from "next/dynamic";
 const AlainChatWidget = dynamic(() => import("@/components/alain/chat-widget").then(m => m.AlainChatWidget));
 const FloatingCompareBar = dynamic(() => import("@/components/compare/floating-compare-bar").then(m => m.FloatingCompareBar));
@@ -105,6 +106,7 @@ export default function RootLayout({
           <AlainChatWidget />
           <BadgeToast />
           <NightOwlTracker />
+          <StreakTracker />
           <CookieBanner />
           </AuthProvider>
         </ThemeProvider>

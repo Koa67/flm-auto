@@ -143,10 +143,16 @@ interface GamificationStore {
   unlockedBadges: string[]; // badge IDs
   badgeUnlockHistory: Record<string, number>; // badge ID → timestamp
   lastUnlocked: string | null; // for toast
+  // Streaks
+  currentStreak: number;
+  longestStreak: number;
+  lastVisitDate: string | null; // YYYY-MM-DD local
   dismissToast: () => void;
   incrementStat: (key: StatKey, amount?: number) => void;
   /** Track a unique set item (e.g. brand slug) — returns new count */
   trackUnique: (key: StatKey, setKey: string, value: string) => void;
+  /** Record a daily visit — call once per session from layout */
+  recordVisit: () => void;
 }
 
 const DEFAULT_STATS: Stats = {
@@ -212,8 +218,35 @@ export const useGamificationStore = create<GamificationStore>()(
       unlockedBadges: [],
       badgeUnlockHistory: {},
       lastUnlocked: null,
+      currentStreak: 0,
+      longestStreak: 0,
+      lastVisitDate: null,
 
       dismissToast: () => set({ lastUnlocked: null }),
+
+      recordVisit: () => {
+        const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD local
+        set((state) => {
+          if (state.lastVisitDate === today) return state; // already counted today
+
+          let newStreak = 1;
+          if (state.lastVisitDate) {
+            const last = new Date(state.lastVisitDate + "T12:00:00");
+            const now = new Date(today + "T12:00:00");
+            const diffDays = Math.round((now.getTime() - last.getTime()) / 86_400_000);
+            if (diffDays === 1) {
+              newStreak = state.currentStreak + 1;
+            }
+            // diffDays > 1 → streak resets to 1
+          }
+
+          return {
+            currentStreak: newStreak,
+            longestStreak: Math.max(state.longestStreak, newStreak),
+            lastVisitDate: today,
+          };
+        });
+      },
 
       incrementStat: (key, amount = 1) => {
         set((state) => {
