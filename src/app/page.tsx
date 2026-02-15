@@ -13,6 +13,7 @@ import {
   Package,
   Calculator,
   Trophy,
+  Zap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -21,6 +22,8 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { GradientDivider } from "@/components/ui/gradient-divider";
 import { InstantSearch } from "@/components/search/instant-search";
 import { ProfileRecommendations } from "@/components/home/profile-recommendations";
+import { RecentlyViewedShelf } from "@/components/home/recently-viewed-shelf";
+import { ThemedShelves, type ShelfDef } from "@/components/home/themed-shelves";
 import { createStaticClient } from "@/lib/supabase/server";
 import { generateWebSiteSchema } from "@/lib/schema/website-schema";
 
@@ -119,6 +122,33 @@ async function getHomeData() {
     }
   }
 
+  // Themed shelves from search index
+  const [
+    { data: safeSuvs },
+    { data: electrics },
+    { data: sportCars },
+  ] = await Promise.all([
+    db
+      .from("vehicle_search_index")
+      .select("*")
+      .eq("segment", "SUV")
+      .eq("ncap_stars", 5)
+      .order("power_hp", { ascending: false, nullsFirst: false })
+      .limit(12),
+    db
+      .from("vehicle_search_index")
+      .select("*")
+      .eq("fuel_type", "electric")
+      .order("power_hp", { ascending: false, nullsFirst: false })
+      .limit(12),
+    db
+      .from("vehicle_search_index")
+      .select("*")
+      .gte("power_hp", 400)
+      .order("power_hp", { ascending: false, nullsFirst: false })
+      .limit(12),
+  ]);
+
   return {
     stats: {
       brands: brandsCount || 32,
@@ -127,6 +157,26 @@ async function getHomeData() {
       specs: specsCount || 346000,
       videos: videosCount || 38000,
     },
+    shelves: [
+      {
+        title: "SUV 5 étoiles Euro NCAP",
+        icon: Shield,
+        link: "/explorer/segment/suv",
+        vehicles: safeSuvs || [],
+      },
+      {
+        title: "100% Électriques",
+        icon: Zap,
+        link: "/explorer/carburant/electrique",
+        vehicles: electrics || [],
+      },
+      {
+        title: "Plus de 400 ch",
+        icon: Gauge,
+        link: "/explorer/budget/premium-luxe",
+        vehicles: sportCars || [],
+      },
+    ] as ShelfDef[],
     popular: (popular || []).map((g: any) => {
       const m = g.model || g.models;
       const b = m?.brand || m?.brands;
@@ -150,7 +200,7 @@ function formatNumber(n: number): string {
 }
 
 export default async function Home() {
-  const { stats, popular, brands } = await getHomeData();
+  const { stats, popular, brands, shelves } = await getHomeData();
 
   return (
     <div className="flex flex-col">
@@ -229,6 +279,12 @@ export default async function Home() {
 
       {/* Personalized Recommendations (profile-based) */}
       <ProfileRecommendations />
+
+      {/* Recently Viewed (client-side) */}
+      <RecentlyViewedShelf />
+
+      {/* Themed Shelves (server-side) */}
+      <ThemedShelves shelves={shelves} />
 
       {/* Popular Vehicles */}
       {popular.length > 0 && (
