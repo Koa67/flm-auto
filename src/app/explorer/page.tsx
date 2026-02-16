@@ -18,8 +18,10 @@ import type { Metadata } from "next";
 
 export const revalidate = 86400;
 
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr";
+
 export const metadata: Metadata = {
-  title: "Explorer — Parcourir par segment, carburant, budget et décennie | FLM AUTO",
+  title: "Explorer — Parcourir par segment, carburant, budget et décennie",
   description:
     "Explorez 4 268 générations automobiles par segment (SUV, berline, coupé…), carburant (essence, diesel, électrique…), budget ou décennie.",
   alternates: { canonical: "/explorer" },
@@ -134,7 +136,7 @@ export default function ExplorerHubPage() {
               s.items.map((cat) => ({
                 "@type": "ItemList",
                 name: cat.label,
-                url: `https://flm-auto.vercel.app${s.base}/${cat.slug}`,
+                url: `${BASE}${s.base}/${cat.slug}`,
               }))
             ),
           }),

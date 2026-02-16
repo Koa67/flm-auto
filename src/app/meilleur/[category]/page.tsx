@@ -27,11 +27,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr";
   const ogUrl = `${BASE}/api/og?title=${encodeURIComponent(cat.title)}&subtitle=${encodeURIComponent("Classement FLM AUTO")}&stats=${encodeURIComponent(cat.group)}`;
   return {
-    title: `${cat.title} | FLM AUTO`,
+    title: cat.title,
     description: cat.description,
     alternates: { canonical: `/meilleur/${category}` },
     openGraph: {
-      title: `${cat.title} | FLM AUTO`,
+      title: `${cat.title} | FLM Auto`,
       images: [{ url: ogUrl, width: 1200, height: 630 }],
     },
   };

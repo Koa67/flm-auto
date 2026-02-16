@@ -1,6 +1,12 @@
 import type { MetadataRoute } from "next";
 import { createStaticClient } from "@/lib/supabase/server";
 import { RANKING_CATEGORIES } from "@/lib/rankings/categories";
+import {
+  SEGMENT_CATEGORIES,
+  FUEL_CATEGORIES,
+  BUDGET_CATEGORIES,
+  DECADE_CATEGORIES,
+} from "@/lib/explorer-config";
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://flm-auto.fr";
 
@@ -28,6 +34,8 @@ const STATIC_PAGES = [
   { path: "/tco", changeFrequency: "monthly" as const, priority: 0.6 },
   { path: "/coffre", changeFrequency: "monthly" as const, priority: 0.6 },
   { path: "/meilleur", changeFrequency: "weekly" as const, priority: 0.8 },
+  { path: "/explorer", changeFrequency: "monthly" as const, priority: 0.7 },
+  { path: "/configurateur", changeFrequency: "monthly" as const, priority: 0.6 },
   { path: "/cgu", changeFrequency: "yearly" as const, priority: 0.2 },
   { path: "/confidentialite", changeFrequency: "yearly" as const, priority: 0.2 },
   { path: "/mentions-legales", changeFrequency: "yearly" as const, priority: 0.2 },
@@ -172,9 +180,34 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
+  // --- Explorer browse pages ---
+  const explorerEntries: MetadataRoute.Sitemap = [
+    ...SEGMENT_CATEGORIES.map((c) => ({
+      url: `${BASE}/explorer/segment/${c.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+    ...FUEL_CATEGORIES.map((c) => ({
+      url: `${BASE}/explorer/carburant/${c.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+    ...BUDGET_CATEGORIES.map((c) => ({
+      url: `${BASE}/explorer/budget/${c.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+    ...DECADE_CATEGORIES.map((c) => ({
+      url: `${BASE}/explorer/decennie/${c.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
   return [
     ...staticEntries,
     ...meilleurEntries,
+    ...explorerEntries,
     ...brandEntries,
     ...modelEntries,
     ...genEntries,

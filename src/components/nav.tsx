@@ -22,9 +22,9 @@ const links = [
   { href: "/meilleur", label: "Classements" },
   { href: "/comparer", label: "Comparer" },
   { href: "/family-fit", label: "Family Fit" },
+  { href: "/configurateur", label: "Configurateur" },
   { href: "/coffre", label: "Coffre" },
   { href: "/tco", label: "TCO" },
-  { href: "/recherche", label: "Recherche" },
 ];
 
 const MEGA_MENU_COLUMNS = [

@@ -27,6 +27,7 @@ interface ConversationStore {
   context: ConversationContext;
 
   addMessage: (msg: Omit<Message, "id" | "timestamp">) => void;
+  updateLastMessage: (content: string) => void;
   clearMessages: () => void;
   updateContext: (partial: Partial<ConversationContext>) => void;
   addToSearchHistory: (query: string) => void;
@@ -64,6 +65,14 @@ export const useConversationStore = create<ConversationStore>()(
                 ? updated.slice(updated.length - MAX_MESSAGES)
                 : updated,
           };
+        }),
+
+      updateLastMessage: (content) =>
+        set((state) => {
+          if (state.messages.length === 0) return state;
+          const msgs = [...state.messages];
+          msgs[msgs.length - 1] = { ...msgs[msgs.length - 1], content };
+          return { messages: msgs };
         }),
 
       clearMessages: () => set({ messages: [] }),

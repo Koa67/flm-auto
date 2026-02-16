@@ -220,7 +220,7 @@ function TCOPageInner() {
             Combien co&ucirc;te vraiment cette voiture ?
           </h3>
           <p className="mt-2 max-w-md mx-auto text-muted-foreground">
-            D&eacute;couvrez le co&ucirc;t r&eacute;el mensuel incluant d&eacute;pr&eacute;ciation, carburant, assurance, entretien et malus 2025.
+            D&eacute;couvrez le co&ucirc;t r&eacute;el mensuel incluant d&eacute;pr&eacute;ciation, carburant, assurance, entretien et malus 2026.
           </p>
         </div>
       )}

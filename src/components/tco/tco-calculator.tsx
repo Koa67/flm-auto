@@ -55,6 +55,15 @@ function formatEur(n: number): string {
   return n.toLocaleString("fr-FR") + " \u20ac";
 }
 
+const BAR_COLORS: Record<string, string> = {
+  "text-blue-500": "#3b82f6",
+  "text-orange-500": "#f97316",
+  "text-green-500": "#22c55e",
+  "text-purple-500": "#a855f7",
+  "text-red-500": "#ef4444",
+  "text-gray-500": "#6b7280",
+};
+
 // ─── Component ──────────────────────────────────────────
 
 export function TCOCalculator({ vehicle, vehicleB }: TCOCalculatorProps) {
@@ -237,7 +246,7 @@ export function TCOCalculator({ vehicle, vehicleB }: TCOCalculatorProps) {
             </CardContent>
           </Card>
 
-          {/* Breakdown */}
+          {/* Breakdown with colored bars */}
           <Card>
             <CardHeader>
               <CardTitle className="text-base">D\u00e9tail mensuel</CardTitle>
@@ -249,13 +258,21 @@ export function TCOCalculator({ vehicle, vehicleB }: TCOCalculatorProps) {
                   const Icon = c.icon;
                   const pct = result.mensuel > 0 ? Math.round((c.value / result.mensuel) * 100) : 0;
                   return (
-                    <div key={c.label} className="flex items-center gap-3">
-                      <Icon className={`h-4 w-4 shrink-0 ${c.color}`} />
-                      <span className="flex-1 text-sm">{c.label}</span>
-                      <span className="text-xs text-muted-foreground">{pct}%</span>
-                      <span className="font-mono text-sm font-medium w-20 text-right">
-                        {formatEur(c.value)}
-                      </span>
+                    <div key={c.label}>
+                      <div className="flex items-center gap-3">
+                        <Icon className={`h-4 w-4 shrink-0 ${c.color}`} />
+                        <span className="flex-1 text-sm">{c.label}</span>
+                        <span className="text-xs text-muted-foreground">{pct}%</span>
+                        <span className="font-mono text-sm font-medium w-20 text-right">
+                          {formatEur(c.value)}
+                        </span>
+                      </div>
+                      <div className="mt-1 ml-7 h-1.5 overflow-hidden rounded-full bg-[var(--bg-tertiary)]">
+                        <div
+                          className="h-full rounded-full transition-all duration-500"
+                          style={{ width: `${Math.max(pct, 2)}%`, backgroundColor: BAR_COLORS[c.color] || "#888" }}
+                        />
+                      </div>
                     </div>
                   );
                 })}

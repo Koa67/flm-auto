@@ -23,6 +23,10 @@ import {
   MessageCircle,
   Printer,
   Share2,
+  Package,
+  Calculator,
+  Trophy,
+  Sliders,
 } from "lucide-react";
 import {
   SEGMENT_CATEGORIES,
@@ -46,7 +50,7 @@ const TOP_BRANDS = [
   { name: "Toyota", slug: "toyota" },
   { name: "Volkswagen", slug: "volkswagen" },
   { name: "Tesla", slug: "tesla" },
-  { name: "Peugeot", slug: "peugeot" },
+  { name: "Volvo", slug: "volvo" },
 ];
 
 const NAV_LINKS = [
@@ -54,6 +58,10 @@ const NAV_LINKS = [
   { label: "Toutes les marques", href: "/marques", icon: Car, shortcut: "" },
   { label: "Comparateur", href: "/comparer", icon: GitCompareArrows, shortcut: "" },
   { label: "Family Fit", href: "/family-fit", icon: Baby, shortcut: "" },
+  { label: "Coffre", href: "/coffre", icon: Package, shortcut: "" },
+  { label: "TCO", href: "/tco", icon: Calculator, shortcut: "" },
+  { label: "Classements", href: "/meilleur", icon: Trophy, shortcut: "" },
+  { label: "Configurateur", href: "/configurateur", icon: Sliders, shortcut: "" },
   { label: "Recherche avancée", href: "/recherche", icon: Search, shortcut: "" },
   { label: "Explorer", href: "/explorer", icon: Compass, shortcut: "" },
 ];

@@ -18,6 +18,7 @@ import { X, Plus, Search, GitCompareArrows, Trophy, Filter, Ruler, Download, Boo
 import { SizeOverlay } from "@/components/blueprints/size-overlay";
 import dynamic from "next/dynamic";
 const CompareRadar = dynamic(() => import("@/components/compare/compare-radar").then(m => m.CompareRadar), { ssr: false });
+const CompareVerdict = dynamic(() => import("@/components/compare/compare-verdict").then(m => m.CompareVerdict), { ssr: false });
 import {
   Dialog,
   DialogContent,
@@ -25,10 +26,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { exportComparisonPDF } from "@/lib/export-pdf";
 import { useAuth } from "@/hooks/use-auth";
 import { toast } from "sonner";
-import confetti from "canvas-confetti";
+import { useGamificationStore } from "@/lib/gamification-store";
 
 interface SearchResult {
   id: string;
@@ -170,11 +170,13 @@ export default function ComparerPage() {
       const winnerIdx = getWinner(compareData.vehicles);
       if (winnerIdx >= 0) {
         confettiFired.current = true;
-        confetti({
-          particleCount: 80,
-          spread: 60,
-          origin: { y: 0.7 },
-          colors: ["#22c55e", "#3b82f6", "#eab308"],
+        import("canvas-confetti").then((mod) => {
+          mod.default({
+            particleCount: 80,
+            spread: 60,
+            origin: { y: 0.7 },
+            colors: ["#22c55e", "#3b82f6", "#eab308"],
+          });
         });
       }
     }
@@ -215,6 +217,7 @@ export default function ComparerPage() {
       });
       const json = await res.json();
       setCompareData(json.data);
+      useGamificationStore.getState().incrementStat("comparisons");
     } catch (e) {
       if (e instanceof DOMException && e.name === "AbortError") return;
       setCompareData(null);
@@ -227,6 +230,7 @@ export default function ComparerPage() {
     if (!compareData) return;
     setExporting(true);
     try {
+      const { exportComparisonPDF } = await import("@/lib/export-pdf");
       await exportComparisonPDF(compareData.vehicles);
     } catch {
       toast.error("Erreur lors de l'export PDF");
@@ -394,6 +398,23 @@ export default function ComparerPage() {
               top_speed_kmh: v.top_spec?.top_speed_kmh || null,
               trunk_liters: v.dimensions?.trunk_liters || null,
               safety_rating: v.safety?.rating || null,
+              consumption_l100: v.real_consumption_l_100 || v.consumption_l_100 || null,
+              tuv_defect_rate: null,
+            }))}
+          />
+
+          {/* Verdict */}
+          <CompareVerdict
+            vehicles={compareData.vehicles.map((v) => ({
+              id: v.id,
+              label: `${v.brand} ${v.model}`,
+              power_hp: v.top_spec?.power_hp || null,
+              torque_nm: v.top_spec?.torque_nm || null,
+              acceleration_0_100: v.top_spec?.acceleration_0_100 || null,
+              top_speed_kmh: v.top_spec?.top_speed_kmh || null,
+              trunk_liters: v.dimensions?.trunk_liters || null,
+              safety_rating: v.safety?.rating || null,
+              consumption_l100: v.real_consumption_l_100 || v.consumption_l_100 || null,
             }))}
           />
 

@@ -6,6 +6,7 @@ import { Trophy } from "lucide-react";
 export const metadata: Metadata = {
   title: "Mes Badges",
   description: "Suivez votre progression et d\u00e9bloquez des badges en explorant FLM Auto.",
+  robots: "noindex",
 };
 
 export default function BadgesPage() {

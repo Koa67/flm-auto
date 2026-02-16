@@ -1,9 +1,10 @@
 import { createAuthServerClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 import Link from "next/link";
-import { Bell, Trash2 } from "lucide-react";
+import { Bell } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { DeleteAlertButton } from "@/components/delete-alert-button";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -67,18 +68,7 @@ export default async function AlertesPage() {
                         ` · Cible : ${alert.target_price_eur.toLocaleString("fr-FR")} \u20ac`}
                     </p>
                   </div>
-                  <form
-                    action={`/api/price-alerts?id=${alert.id}`}
-                    method="DELETE"
-                  >
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      className="text-muted-foreground hover:text-destructive"
-                    >
-                      <Trash2 className="h-4 w-4" />
-                    </Button>
-                  </form>
+                  <DeleteAlertButton alertId={alert.id} />
                 </CardContent>
               </Card>
             );

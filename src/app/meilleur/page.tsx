@@ -31,12 +31,12 @@ import type { Metadata } from "next";
 export const revalidate = 86400; // 24h
 
 export const metadata: Metadata = {
-  title: "Classements automobiles 2025 — Les meilleurs véhicules par catégorie | FLM AUTO",
+  title: "Classements automobiles 2026 — Les meilleurs véhicules par catégorie",
   description:
     "32 classements automobiles : meilleur SUV familial, voiture 5 étoiles Euro NCAP, plus grand coffre, voiture la plus rapide, et plus encore.",
   alternates: { canonical: "/meilleur" },
   openGraph: {
-    images: [{ url: "/api/og?title=Classements&subtitle=32%20classements%20automobiles%202025" }],
+    images: [{ url: "/api/og?title=Classements&subtitle=32%20classements%20automobiles%202026" }],
   },
 };
 

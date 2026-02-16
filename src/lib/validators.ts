@@ -82,7 +82,6 @@ export const priceAlertSchema = z.object({
 });
 
 export const priceAlertCreateSchema = z.object({
-  email: emailSchema,
   generation_id: uuidSchema,
   target_price_eur: z.number().int().min(0).max(1000000).optional(),
   alert_type: z
@@ -107,6 +106,7 @@ export const alainChatSchema = z.object({
     .min(1)
     .max(50),
   vehicleContext: z.string().max(500).optional(),
+  stream: z.boolean().optional(),
   preferences: z
     .object({
       budget: z.object({ min: z.number(), max: z.number() }).optional(),
