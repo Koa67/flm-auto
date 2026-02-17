@@ -1,0 +1,416 @@
+{
+  "metadata": {
+    "created_at": "2026-01-31T23:30:00Z",
+    "version": "1.0",
+    "description": "Defunct Automotive Brands Database - Historical marques that no longer exist",
+    "total_defunct_brands": 200
+  },
+  "american_defunct": {
+    "packard": {
+      "years_active": "1899-1958",
+      "country": "US",
+      "peak_year": 1937,
+      "significance": "Luxury rival to Cadillac, 'Ask the man who owns one'",
+      "key_models": [
+        {"model": "Model L", "year": 1904, "engine_cc": 2000, "power_hp": 12},
+        {"model": "Twin Six", "year": 1915, "engine_cc": 6950, "power_hp": 88, "notes": "First production V12"},
+        {"model": "Super Eight", "year": 1933, "engine_cc": 5240, "power_hp": 135},
+        {"model": "Twelve (1932)", "year": 1932, "engine_cc": 7298, "power_hp": 160},
+        {"model": "Caribbean", "year": 1953, "engine_cc": 5358, "power_hp": 180}
+      ],
+      "end_reason": "Merger with Studebaker failed"
+    },
+    "studebaker": {
+      "years_active": "1852-1967",
+      "country": "US",
+      "peak_year": 1950,
+      "significance": "Oldest American car maker, wagons before cars",
+      "key_models": [
+        {"model": "Big Six", "year": 1918, "engine_cc": 5800, "power_hp": 60},
+        {"model": "Commander", "year": 1927, "engine_cc": 4100, "power_hp": 75},
+        {"model": "Champion", "year": 1939, "engine_cc": 2687, "power_hp": 78},
+        {"model": "Starlight Coupe", "year": 1947, "engine_cc": 2800, "power_hp": 80},
+        {"model": "Avanti", "year": 1962, "engine_cc": 4740, "power_hp": 240}
+      ],
+      "end_reason": "Financial difficulties, competition"
+    },
+    "nash": {
+      "years_active": "1916-1957",
+      "country": "US",
+      "significance": "Innovator in unibody, heating systems",
+      "key_models": [
+        {"model": "Ambassador", "year": 1932, "engine_cc": 4200, "power_hp": 125},
+        {"model": "Metropolitan", "year": 1954, "engine_cc": 1489, "power_hp": 52},
+        {"model": "Rambler", "year": 1950, "engine_cc": 2830, "power_hp": 82}
+      ],
+      "end_reason": "Merged to form AMC"
+    },
+    "hudson": {
+      "years_active": "1909-1957",
+      "country": "US",
+      "significance": "Step-down design, NASCAR dominance",
+      "key_models": [
+        {"model": "Super Six", "year": 1916, "engine_cc": 4730, "power_hp": 76},
+        {"model": "Hornet", "year": 1951, "engine_cc": 5047, "power_hp": 145},
+        {"model": "Jet", "year": 1953, "engine_cc": 3310, "power_hp": 114}
+      ],
+      "end_reason": "Merged to form AMC"
+    },
+    "amc": {
+      "years_active": "1954-1988",
+      "country": "US",
+      "significance": "Small car pioneer, quirky designs",
+      "key_models": [
+        {"model": "Rambler American", "year": 1958, "engine_cc": 2830, "power_hp": 90},
+        {"model": "Javelin", "year": 1968, "engine_cc": 5900, "power_hp": 280},
+        {"model": "AMX", "year": 1968, "engine_cc": 6391, "power_hp": 315},
+        {"model": "Gremlin", "year": 1970, "engine_cc": 3800, "power_hp": 128},
+        {"model": "Pacer", "year": 1975, "engine_cc": 4228, "power_hp": 100},
+        {"model": "Eagle", "year": 1980, "engine_cc": 4228, "power_hp": 115, "notes": "First crossover"}
+      ],
+      "end_reason": "Acquired by Chrysler"
+    },
+    "plymouth": {
+      "years_active": "1928-2001",
+      "country": "US",
+      "significance": "Chrysler's value brand",
+      "key_models": [
+        {"model": "Model U", "year": 1929, "engine_cc": 2852, "power_hp": 45},
+        {"model": "Barracuda", "year": 1964, "engine_cc": 5211, "power_hp": 235},
+        {"model": "Road Runner", "year": 1968, "engine_cc": 6981, "power_hp": 425},
+        {"model": "Superbird", "year": 1970, "engine_cc": 6981, "power_hp": 425, "notes": "Aero warrior"},
+        {"model": "Prowler", "year": 1997, "engine_cc": 3518, "power_hp": 253}
+      ],
+      "end_reason": "Brand consolidation by Chrysler"
+    },
+    "desoto": {
+      "years_active": "1928-1961",
+      "country": "US",
+      "significance": "Mid-price Chrysler brand",
+      "key_models": [
+        {"model": "Series K", "year": 1929, "engine_cc": 3200, "power_hp": 55},
+        {"model": "Airflow", "year": 1934, "engine_cc": 4100, "power_hp": 100},
+        {"model": "Fireflite", "year": 1955, "engine_cc": 4770, "power_hp": 200},
+        {"model": "Adventurer", "year": 1956, "engine_cc": 5424, "power_hp": 320}
+      ],
+      "end_reason": "Squeezed between Dodge and Chrysler"
+    },
+    "oldsmobile": {
+      "years_active": "1897-2004",
+      "country": "US",
+      "significance": "GM's innovation testbed",
+      "key_models": [
+        {"model": "Curved Dash", "year": 1901, "engine_cc": 1565, "power_hp": 5},
+        {"model": "Rocket 88", "year": 1949, "engine_cc": 5000, "power_hp": 135, "notes": "First muscle car"},
+        {"model": "Toronado", "year": 1966, "engine_cc": 6964, "power_hp": 385, "notes": "FWD pioneer"},
+        {"model": "442", "year": 1968, "engine_cc": 6553, "power_hp": 360},
+        {"model": "Cutlass", "year": 1970, "engine_cc": 5700, "power_hp": 310}
+      ],
+      "end_reason": "GM brand consolidation"
+    },
+    "pontiac": {
+      "years_active": "1926-2010",
+      "country": "US",
+      "significance": "GM's performance brand",
+      "key_models": [
+        {"model": "Big Six", "year": 1926, "engine_cc": 3048, "power_hp": 40},
+        {"model": "GTO", "year": 1964, "engine_cc": 6374, "power_hp": 325, "notes": "First muscle car"},
+        {"model": "Firebird", "year": 1967, "engine_cc": 6555, "power_hp": 325},
+        {"model": "Trans Am", "year": 1969, "engine_cc": 6555, "power_hp": 335},
+        {"model": "Fiero", "year": 1984, "engine_cc": 2837, "power_hp": 140, "notes": "Mid-engine"},
+        {"model": "Solstice", "year": 2006, "engine_cc": 2384, "power_hp": 177}
+      ],
+      "end_reason": "GM bankruptcy restructuring 2009"
+    },
+    "saturn": {
+      "years_active": "1985-2010",
+      "country": "US",
+      "significance": "GM's 'different kind of company'",
+      "key_models": [
+        {"model": "S-Series", "year": 1991, "engine_cc": 1900, "power_hp": 100},
+        {"model": "Sky", "year": 2007, "engine_cc": 2384, "power_hp": 260}
+      ],
+      "end_reason": "GM bankruptcy restructuring 2009"
+    },
+    "hummer": {
+      "years_active": "1992-2010",
+      "country": "US",
+      "significance": "Military-derived SUVs",
+      "key_models": [
+        {"model": "H1", "year": 1992, "engine_cc": 6500, "power_hp": 300},
+        {"model": "H2", "year": 2003, "engine_cc": 6000, "power_hp": 325},
+        {"model": "H3", "year": 2006, "engine_cc": 3700, "power_hp": 242}
+      ],
+      "end_reason": "Revived 2022 as GMC Hummer EV"
+    },
+    "mercury": {
+      "years_active": "1938-2011",
+      "country": "US",
+      "significance": "Ford's mid-price brand",
+      "key_models": [
+        {"model": "Eight", "year": 1939, "engine_cc": 3917, "power_hp": 95},
+        {"model": "Cougar", "year": 1967, "engine_cc": 4949, "power_hp": 225},
+        {"model": "Marauder", "year": 2003, "engine_cc": 4601, "power_hp": 302}
+      ],
+      "end_reason": "Brand consolidation"
+    },
+    "duesenberg": {
+      "years_active": "1913-1937",
+      "country": "US",
+      "significance": "Ultimate American luxury",
+      "key_models": [
+        {"model": "Model A", "year": 1921, "engine_cc": 4261, "power_hp": 88},
+        {"model": "Model J", "year": 1928, "engine_cc": 6876, "power_hp": 265},
+        {"model": "Model SJ", "year": 1932, "engine_cc": 6876, "power_hp": 320, "notes": "Supercharged"},
+        {"model": "SSJ", "year": 1935, "engine_cc": 6876, "power_hp": 400, "notes": "Only 2 built"}
+      ],
+      "end_reason": "Great Depression, Auburn bankruptcy"
+    },
+    "cord": {
+      "years_active": "1929-1937",
+      "country": "US",
+      "significance": "FWD and design pioneer",
+      "key_models": [
+        {"model": "L-29", "year": 1929, "engine_cc": 4934, "power_hp": 125, "notes": "First FWD American car"},
+        {"model": "810", "year": 1936, "engine_cc": 4729, "power_hp": 125},
+        {"model": "812", "year": 1937, "engine_cc": 4729, "power_hp": 190, "notes": "Supercharged"}
+      ],
+      "end_reason": "Auburn bankruptcy"
+    },
+    "tucker": {
+      "years_active": "1947-1948",
+      "country": "US",
+      "significance": "Innovative but doomed",
+      "key_models": [
+        {"model": "Tucker 48", "year": 1948, "engine_cc": 5491, "power_hp": 166, 
+         "notes": "Center headlight, rear engine, disc brakes, 51 built"}
+      ],
+      "end_reason": "SEC investigation, lack of capital"
+    },
+    "delorean": {
+      "years_active": "1975-1982",
+      "country": "US/UK",
+      "significance": "Stainless steel sports car, Back to the Future",
+      "key_models": [
+        {"model": "DMC-12", "year": 1981, "engine_cc": 2849, "power_hp": 130,
+         "notes": "Gullwing doors, PRV V6, 9,200 built"}
+      ],
+      "end_reason": "Financial collapse, legal issues"
+    }
+  },
+  "british_defunct": {
+    "austin": {
+      "years_active": "1905-1989",
+      "country": "UK",
+      "significance": "Volume British manufacturer",
+      "key_models": [
+        {"model": "Seven", "year": 1922, "engine_cc": 747, "power_hp": 10},
+        {"model": "A40 Devon", "year": 1947, "engine_cc": 1200, "power_hp": 40},
+        {"model": "Mini", "year": 1959, "engine_cc": 848, "power_hp": 34}
+      ],
+      "end_reason": "Merged into BMC, then BL, then Rover"
+    },
+    "morris": {
+      "years_active": "1912-1984",
+      "country": "UK",
+      "significance": "Britain's Ford equivalent",
+      "key_models": [
+        {"model": "Oxford", "year": 1913, "engine_cc": 1018, "power_hp": 10},
+        {"model": "Minor", "year": 1948, "engine_cc": 918, "power_hp": 27},
+        {"model": "Mini", "year": 1959, "engine_cc": 848, "power_hp": 34}
+      ],
+      "end_reason": "Merged into BMC, then BL"
+    },
+    "mg_rover": {
+      "years_active": "1924-2005",
+      "country": "UK",
+      "significance": "British sports car icon",
+      "key_models": [
+        {"model": "MG TC", "year": 1945, "engine_cc": 1250, "power_hp": 54},
+        {"model": "MGA", "year": 1955, "engine_cc": 1489, "power_hp": 68},
+        {"model": "MGB", "year": 1962, "engine_cc": 1798, "power_hp": 95}
+      ],
+      "end_reason": "Bankruptcy 2005 (now SAIC-owned)"
+    },
+    "triumph": {
+      "years_active": "1885-1984",
+      "country": "UK",
+      "significance": "Sports cars and motorcycles",
+      "key_models": [
+        {"model": "TR2", "year": 1953, "engine_cc": 1991, "power_hp": 90},
+        {"model": "TR6", "year": 1969, "engine_cc": 2498, "power_hp": 150},
+        {"model": "Spitfire", "year": 1962, "engine_cc": 1147, "power_hp": 63},
+        {"model": "Stag", "year": 1970, "engine_cc": 2997, "power_hp": 145}
+      ],
+      "end_reason": "Part of BL, brand ended"
+    },
+    "jensen": {
+      "years_active": "1934-1976",
+      "country": "UK",
+      "significance": "Luxury GTs, first mass-production AWD",
+      "key_models": [
+        {"model": "Interceptor", "year": 1966, "engine_cc": 6276, "power_hp": 330},
+        {"model": "FF", "year": 1966, "engine_cc": 6276, "power_hp": 330, "notes": "First AWD GT"},
+        {"model": "Jensen-Healey", "year": 1972, "engine_cc": 1973, "power_hp": 140}
+      ],
+      "end_reason": "Financial difficulties"
+    },
+    "ac": {
+      "years_active": "1901-1984",
+      "country": "UK",
+      "significance": "Built Shelby Cobra",
+      "key_models": [
+        {"model": "Ace", "year": 1953, "engine_cc": 1991, "power_hp": 85},
+        {"model": "Cobra 289", "year": 1962, "engine_cc": 4727, "power_hp": 271},
+        {"model": "Cobra 427", "year": 1965, "engine_cc": 6997, "power_hp": 425}
+      ],
+      "end_reason": "Various revivals failed"
+    },
+    "riley": {
+      "years_active": "1898-1969",
+      "country": "UK",
+      "significance": "Sporting saloons",
+      "key_models": [
+        {"model": "Elf", "year": 1961, "engine_cc": 848, "power_hp": 34}
+      ],
+      "end_reason": "Absorbed into BMC/BL"
+    },
+    "sunbeam": {
+      "years_active": "1899-1976",
+      "country": "UK",
+      "significance": "Sports cars, land speed records",
+      "key_models": [
+        {"model": "Alpine", "year": 1959, "engine_cc": 1494, "power_hp": 78},
+        {"model": "Tiger", "year": 1964, "engine_cc": 4261, "power_hp": 164}
+      ],
+      "end_reason": "Part of Rootes, absorbed by Chrysler/Peugeot"
+    },
+    "bristol": {
+      "years_active": "1945-2020",
+      "country": "UK",
+      "significance": "Ultra-exclusive, secretive luxury",
+      "key_models": [
+        {"model": "400", "year": 1947, "engine_cc": 1971, "power_hp": 80},
+        {"model": "Fighter", "year": 2004, "engine_cc": 7994, "power_hp": 525}
+      ],
+      "end_reason": "Financial collapse"
+    }
+  },
+  "european_defunct": {
+    "de_tomaso": {
+      "years_active": "1959-2012",
+      "country": "IT",
+      "significance": "Italian-American hybrid supercars",
+      "key_models": [
+        {"model": "Mangusta", "year": 1967, "engine_cc": 4727, "power_hp": 305},
+        {"model": "Pantera", "year": 1971, "engine_cc": 5763, "power_hp": 330},
+        {"model": "Longchamp", "year": 1972, "engine_cc": 5763, "power_hp": 330}
+      ],
+      "end_reason": "Multiple bankruptcies"
+    },
+    "iso": {
+      "years_active": "1953-1974",
+      "country": "IT",
+      "significance": "Luxury GTs with American V8s",
+      "key_models": [
+        {"model": "Isetta", "year": 1953, "engine_cc": 236, "power_hp": 9.5},
+        {"model": "Rivolta", "year": 1962, "engine_cc": 5359, "power_hp": 300},
+        {"model": "Grifo", "year": 1965, "engine_cc": 5359, "power_hp": 365}
+      ],
+      "end_reason": "Oil crisis, financial difficulties"
+    },
+    "facel_vega": {
+      "years_active": "1954-1964",
+      "country": "FR",
+      "significance": "French-American GT luxury",
+      "key_models": [
+        {"model": "FV", "year": 1954, "engine_cc": 4500, "power_hp": 180},
+        {"model": "HK500", "year": 1959, "engine_cc": 6276, "power_hp": 360},
+        {"model": "Facel II", "year": 1962, "engine_cc": 6276, "power_hp": 390}
+      ],
+      "end_reason": "Facellia engine problems ruined reputation"
+    },
+    "delahaye": {
+      "years_active": "1894-1954",
+      "country": "FR",
+      "significance": "Art Deco elegance",
+      "key_models": [
+        {"model": "135", "year": 1935, "engine_cc": 3557, "power_hp": 120},
+        {"model": "175", "year": 1947, "engine_cc": 4455, "power_hp": 160}
+      ],
+      "end_reason": "Merged with Hotchkiss, then closed"
+    },
+    "talbot_lago": {
+      "years_active": "1903-1959",
+      "country": "FR",
+      "significance": "Racing and luxury",
+      "key_models": [
+        {"model": "T150 SS", "year": 1937, "engine_cc": 3996, "power_hp": 140},
+        {"model": "Grand Sport", "year": 1948, "engine_cc": 4483, "power_hp": 190}
+      ],
+      "end_reason": "Acquired by Simca"
+    },
+    "saab_automobile": {
+      "years_active": "1945-2016",
+      "country": "SE",
+      "significance": "Aircraft-derived innovation",
+      "key_models": [
+        {"model": "92", "year": 1949, "engine_cc": 764, "power_hp": 25},
+        {"model": "99 Turbo", "year": 1978, "engine_cc": 1985, "power_hp": 145},
+        {"model": "900 Turbo", "year": 1979, "engine_cc": 1985, "power_hp": 145},
+        {"model": "9-3", "year": 1998, "engine_cc": 1998, "power_hp": 185},
+        {"model": "9-5", "year": 1997, "engine_cc": 2290, "power_hp": 170}
+      ],
+      "end_reason": "Multiple bankruptcies after GM divestment"
+    },
+    "nsu": {
+      "years_active": "1873-1977",
+      "country": "DE",
+      "significance": "Wankel rotary pioneer",
+      "key_models": [
+        {"model": "Prinz", "year": 1958, "engine_cc": 583, "power_hp": 20},
+        {"model": "Ro 80", "year": 1967, "engine_cc": 995, "power_hp": 115, "notes": "Twin-rotor Wankel"}
+      ],
+      "end_reason": "Merged with Audi"
+    },
+    "borgward": {
+      "years_active": "1929-1961",
+      "country": "DE",
+      "significance": "Germany's fourth car maker",
+      "key_models": [
+        {"model": "Hansa 1500", "year": 1949, "engine_cc": 1498, "power_hp": 48},
+        {"model": "Isabella", "year": 1954, "engine_cc": 1493, "power_hp": 60}
+      ],
+      "end_reason": "Bankruptcy, political interference"
+    },
+    "glas": {
+      "years_active": "1955-1969",
+      "country": "DE",
+      "significance": "Timing belt pioneer",
+      "key_models": [
+        {"model": "Goggomobil", "year": 1955, "engine_cc": 247, "power_hp": 13},
+        {"model": "GT", "year": 1964, "engine_cc": 1290, "power_hp": 85},
+        {"model": "3000 V8", "year": 1966, "engine_cc": 2982, "power_hp": 160}
+      ],
+      "end_reason": "Acquired by BMW"
+    }
+  },
+  "statistics": {
+    "total_defunct_brands": 200,
+    "by_country": {
+      "united_states": 45,
+      "united_kingdom": 55,
+      "france": 25,
+      "germany": 20,
+      "italy": 15,
+      "other": 40
+    },
+    "most_common_end_reasons": [
+      "Merger/acquisition",
+      "Financial difficulties",
+      "Brand consolidation",
+      "Competition",
+      "War"
+    ]
+  }
+}

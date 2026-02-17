@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-13T00:14:37.758Z",
+  "stats": {
+    "searched": 443,
+    "gensWithResults": 713,
+    "gensNoResults": 6,
+    "imagesFound": 3537,
+    "imagesInserted": 3537,
+    "errors": 1
+  },
+  "before": 3550,
+  "after": 4263
+}

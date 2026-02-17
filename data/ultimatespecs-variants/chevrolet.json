@@ -1,0 +1,3567 @@
+[
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143097/Chevrolet-Equinox-EV-Dual-Motor-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox-EV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143095/Chevrolet-Equinox-EV-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox-EV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143094/Chevrolet-Blazer-EV-102-kWh-RWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-EV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143092/Chevrolet-Blazer-EV-89-kWh-Dual-Motor-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-EV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114063/Chevrolet-Silverado-1500-Double-Cab-43-V6-2WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Double-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114064/Chevrolet-Silverado-1500-Double-Cab-43-V6-4WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Double-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/111125/Chevrolet-Silverado-1500-Regular-Cab-43-V6-2WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/111127/Chevrolet-Silverado-1500-Regular-Cab-43-V6-2WD-8ft-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/111126/Chevrolet-Silverado-1500-Regular-Cab-43-V6-4WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114062/Chevrolet-Silverado-1500-Regular-Cab-43-V6-4WD-8ft-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114645/Chevrolet-Silverado-1500-Regular-Cab-53-V8-2WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114647/Chevrolet-Silverado-1500-Regular-Cab-53-V8-2WD-8ft-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114646/Chevrolet-Silverado-1500-Regular-Cab-53-V8-4WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114648/Chevrolet-Silverado-1500-Regular-Cab-53-V8-4WD-8ft-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Regular-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114067/Chevrolet-Silverado-1500-Crew-Cab-43-V6-2WD-5ft8-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Crew-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114065/Chevrolet-Silverado-1500-Crew-Cab-43-V6-2WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Crew-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114068/Chevrolet-Silverado-1500-Crew-Cab-43-V6-4WD-5ft8-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Crew-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114066/Chevrolet-Silverado-1500-Crew-Cab-43-V6-4WD-6ft6-box.html",
+    "brand": "chevrolet",
+    "generation": "Silverado-1500-Crew-Cab"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/39066/Chevrolet-Prisma-10-VHCE.html",
+    "brand": "chevrolet",
+    "generation": "Prisma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/39082/Chevrolet-Prisma-14-EconoFlex.html",
+    "brand": "chevrolet",
+    "generation": "Prisma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/39078/Chevrolet-Classic-LS-10-VHCE-Flexpower.html",
+    "brand": "chevrolet",
+    "generation": "Classic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/39165/Chevrolet-Volt-LT.html",
+    "brand": "chevrolet",
+    "generation": "Volt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/39081/Chevrolet-Celta-10-VHCE-3-doors.html",
+    "brand": "chevrolet",
+    "generation": "Celta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/39083/Chevrolet-Celta-10-VHCE-5-doors.html",
+    "brand": "chevrolet",
+    "generation": "Celta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23906/Chevrolet-Orlando-LT-18.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23921/Chevrolet-Orlando-LT+-18.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23923/Chevrolet-Orlando-LTZ-18.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/40690/Chevrolet-Orlando-LTZ-18-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23909/Chevrolet-Orlando-LT-20-Diesel-131HP-.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/60031/Chevrolet-Orlando-LT-20-Diesel-131HP-.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23922/Chevrolet-Orlando-LT+-20-Diesel-131HP-.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23907/Chevrolet-Orlando-LTZ-20-Diesel-163HP-.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23908/Chevrolet-Orlando-LTZ-20-Diesel-163HP-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Orlando"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/11021/Chevrolet-Cruze-16-L.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/11022/Chevrolet-Cruze-16-LS.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/11023/Chevrolet-Cruze-16-LS+.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/11025/Chevrolet-Cruze-18-LT.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/11032/Chevrolet-Cruze-18-LT-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/11033/Chevrolet-Cruze-20-VCDi-125HP-LS.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/8234/Chevrolet-Cruze-20-VCDi-125HP-LS+.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9593/Chevrolet-Cruze-20-VCDi-150HP-LT-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59460/Chevrolet-Cruze-4doors-17-VCDi-130HP-LT-Start-Stop.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59462/Chevrolet-Cruze-4doors-17-VCDi-130HP-LT+-Start-Stop.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59463/Chevrolet-Cruze-5doors-17-VDCi-130HP-LT-Start-Stop.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59464/Chevrolet-Cruze-5doors-17-VDCi-130HP-LT+-Start-Stop.html",
+    "brand": "chevrolet",
+    "generation": "Cruze"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4768/Chevrolet-Lacetti-14.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9912/Chevrolet-Lacetti-14-16v-SE.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4767/Chevrolet-Lacetti-16.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9592/Chevrolet-Lacetti-16-16v-SX.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9913/Chevrolet-Lacetti-16-16v-SX.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4766/Chevrolet-Lacetti-18.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/10913/Chevrolet-Lacetti-20-TCDi-16v-CDX.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9914/Chevrolet-Lacetti-20-TCDi-16v-SX.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4765/Chevrolet-Lacetti-20-TDCI.html",
+    "brand": "chevrolet",
+    "generation": "Lacetti"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/10244/Chevrolet-Spark-10.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9887/Chevrolet-Spark-10.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/10245/Chevrolet-Spark-10-+.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9888/Chevrolet-Spark-10-+.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/10246/Chevrolet-Spark-10-LS.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9889/Chevrolet-Spark-10-LS.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/10247/Chevrolet-Spark-12-LS+.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9890/Chevrolet-Spark-12-LS+.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/10248/Chevrolet-Spark-12-LT.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9891/Chevrolet-Spark-12-LT.html",
+    "brand": "chevrolet",
+    "generation": "Spark"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/56618/Chevrolet-HHR-24.html",
+    "brand": "chevrolet",
+    "generation": "HHR"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/56626/Chevrolet-HHR-24-Aut.html",
+    "brand": "chevrolet",
+    "generation": "HHR"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4746/Chevrolet-Captiva-24.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4745/Chevrolet-Captiva-32.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25063/Chevrolet-Captiva-LS-24-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25069/Chevrolet-Captiva-LTZ-30-258HP-AWD-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4744/Chevrolet-Captiva-20-VCDI-127.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9594/Chevrolet-Captiva-20-VCDi-127HP-LS+-7-plazas.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4743/Chevrolet-Captiva-20-VCDI-150.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26781/Chevrolet-Captiva-LT-22-VCDI-163HP-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25064/Chevrolet-Captiva-LT-22-VCDI-163HP-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25065/Chevrolet-Captiva-LT-22-VCDI-184HP-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25066/Chevrolet-Captiva-LTZ-22-VCDI-184HP-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25067/Chevrolet-Captiva-LTZ-22-VCDI-184HP-AWD-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Captiva"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4760/Chevrolet-Epica-20.html",
+    "brand": "chevrolet",
+    "generation": "Epica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4759/Chevrolet-Epica-25.html",
+    "brand": "chevrolet",
+    "generation": "Epica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4758/Chevrolet-Epica-20-VCDI.html",
+    "brand": "chevrolet",
+    "generation": "Epica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4761/Chevrolet-Evanda-20.html",
+    "brand": "chevrolet",
+    "generation": "Evanda"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4783/Chevrolet-Tacuma-16.html",
+    "brand": "chevrolet",
+    "generation": "Tacuma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/50173/Chevrolet-Tacuma-16-16v-SE.html",
+    "brand": "chevrolet",
+    "generation": "Tacuma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/50189/Chevrolet-Tacuma-16-16v-SX.html",
+    "brand": "chevrolet",
+    "generation": "Tacuma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4782/Chevrolet-Tacuma-20.html",
+    "brand": "chevrolet",
+    "generation": "Tacuma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/50205/Chevrolet-Tacuma-20-16v-CDX.html",
+    "brand": "chevrolet",
+    "generation": "Tacuma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/50224/Chevrolet-Tacuma-20-16v-CDX-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Tacuma"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4764/Chevrolet-Kalos-12.html",
+    "brand": "chevrolet",
+    "generation": "Kalos"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4763/Chevrolet-Kalos-14.html",
+    "brand": "chevrolet",
+    "generation": "Kalos"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4762/Chevrolet-Kalos-14-16v.html",
+    "brand": "chevrolet",
+    "generation": "Kalos"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/29075/Chevrolet-Cobalt-.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/29076/Chevrolet-Cobalt-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/29079/Chevrolet-Cobalt-Coupe.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/29097/Chevrolet-Cobalt-Coupe-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/29091/Chevrolet-Cobalt-Coupe-LS.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31251/Chevrolet-Cobalt-Coupe-LS.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31249/Chevrolet-Cobalt-Coupe-LS-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/33293/Chevrolet-Cobalt-Coupe-Sport.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/33280/Chevrolet-Cobalt-Coupe-Sport-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31250/Chevrolet-Cobalt-Coupe-SS.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31254/Chevrolet-Cobalt-Coupe-SS-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/29100/Chevrolet-Cobalt-Coupe-SS-Supercharged.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/29117/Chevrolet-Cobalt-LS.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31238/Chevrolet-Cobalt-LS.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31258/Chevrolet-Cobalt-LS-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/33289/Chevrolet-Cobalt-Sport.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/33279/Chevrolet-Cobalt-Sport-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31253/Chevrolet-Cobalt-SS.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/33089/Chevrolet-Cobalt-SS.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31257/Chevrolet-Cobalt-SS-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cobalt"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31382/Chevrolet-SSR-53-V8.html",
+    "brand": "chevrolet",
+    "generation": "SSR"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31367/Chevrolet-SSR-60-V8.html",
+    "brand": "chevrolet",
+    "generation": "SSR"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31383/Chevrolet-SSR-60-V8.html",
+    "brand": "chevrolet",
+    "generation": "SSR"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31388/Chevrolet-SSR-60-V8-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "SSR"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31387/Chevrolet-SSR-60-V8-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "SSR"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4785/Chevrolet-Trailblazer-42.html",
+    "brand": "chevrolet",
+    "generation": "Trailblazer"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/54828/Chevrolet-Trailblazer-LT.html",
+    "brand": "chevrolet",
+    "generation": "Trailblazer"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/45060/Chevrolet-Trailblazer-LTZ.html",
+    "brand": "chevrolet",
+    "generation": "Trailblazer"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4719/Chevrolet-Alero-24.html",
+    "brand": "chevrolet",
+    "generation": "Alero"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4720/Chevrolet-Alero-24-auto.html",
+    "brand": "chevrolet",
+    "generation": "Alero"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4721/Chevrolet-Alero-34.html",
+    "brand": "chevrolet",
+    "generation": "Alero"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4786/Chevrolet-Trans-Sport-34-V6.html",
+    "brand": "chevrolet",
+    "generation": "Trans-Sport"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4787/Chevrolet-Trans-Sport-34-V6-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Trans-Sport"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114649/Chevrolet-Geo-Storm-16.html",
+    "brand": "chevrolet",
+    "generation": "Geo-Storm"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114651/Chevrolet-Geo-Storm-16-GSi.html",
+    "brand": "chevrolet",
+    "generation": "Geo-Storm"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/114652/Chevrolet-Geo-Storm-18-GSi.html",
+    "brand": "chevrolet",
+    "generation": "Geo-Storm"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4748/Chevrolet-Corsica-22i.html",
+    "brand": "chevrolet",
+    "generation": "Corsica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4751/Chevrolet-Corsica-22i-auto.html",
+    "brand": "chevrolet",
+    "generation": "Corsica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4750/Chevrolet-Corsica-28i.html",
+    "brand": "chevrolet",
+    "generation": "Corsica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4747/Chevrolet-Corsica-31i.html",
+    "brand": "chevrolet",
+    "generation": "Corsica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4749/Chevrolet-Corsica-31i.html",
+    "brand": "chevrolet",
+    "generation": "Corsica"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142876/Chevrolet-Beretta-20i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142882/Chevrolet-Beretta-20i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142877/Chevrolet-Beretta-20i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142883/Chevrolet-Beretta-20i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4729/Chevrolet-Beretta-22i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142899/Chevrolet-Beretta-22i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142906/Chevrolet-Beretta-22i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142921/Chevrolet-Beretta-22i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142926/Chevrolet-Beretta-22i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142929/Chevrolet-Beretta-22i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142917/Chevrolet-Beretta-22i-(Europe).html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4728/Chevrolet-Beretta-22i-(Europe).html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142891/Chevrolet-Beretta-22i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142900/Chevrolet-Beretta-22i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142907/Chevrolet-Beretta-22i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142922/Chevrolet-Beretta-22i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142930/Chevrolet-Beretta-22i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142918/Chevrolet-Beretta-22i-Automatic-(Europe).html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4727/Chevrolet-Beretta-28i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142878/Chevrolet-Beretta-28i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142884/Chevrolet-Beretta-28i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142885/Chevrolet-Beretta-28i-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4726/Chevrolet-Beretta-31i-GT.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4725/Chevrolet-Beretta-31i-GT.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142893/Chevrolet-Beretta-31i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142902/Chevrolet-Beretta-31i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142911/Chevrolet-Beretta-31i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142920/Chevrolet-Beretta-31i-V6-Automatic-(Europe).html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142903/Chevrolet-Beretta-31i-V6-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142912/Chevrolet-Beretta-31i-V6-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142924/Chevrolet-Beretta-31i-V6-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142908/Chevrolet-Beretta-GT-22i.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142909/Chevrolet-Beretta-GT-22i-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142880/Chevrolet-Beretta-GT-28i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142886/Chevrolet-Beretta-GT-28i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142881/Chevrolet-Beretta-GT-28i-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142887/Chevrolet-Beretta-GT-28i-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142895/Chevrolet-Beretta-GT-31i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142904/Chevrolet-Beretta-GT-31i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142913/Chevrolet-Beretta-GT-31i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142896/Chevrolet-Beretta-GT-31i-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142905/Chevrolet-Beretta-GT-31i-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142914/Chevrolet-Beretta-GT-31i-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142888/Chevrolet-Beretta-GTU.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142889/Chevrolet-Beretta-GTU-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4724/Chevrolet-Beretta-GTZ.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142892/Chevrolet-Beretta-GTZ-22i-Quad-4.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142901/Chevrolet-Beretta-GTZ-22i-Quad-4.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142910/Chevrolet-Beretta-GTZ-22i-Quad-4.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142919/Chevrolet-Beretta-GTZ-22i-Quad-4.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142915/Chevrolet-Beretta-GTZ-31i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142916/Chevrolet-Beretta-GTZ-31i-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142897/Chevrolet-Beretta-Indy.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142898/Chevrolet-Beretta-Indy-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4723/Chevrolet-Beretta-Z26-(Europe).html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142923/Chevrolet-Beretta-Z26-23L-Quad-4.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142925/Chevrolet-Beretta-Z26-31i-V6-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142928/Chevrolet-Beretta-Z26-31i-V6-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Beretta"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32048/Chevrolet-Citation-Coupe-25.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32047/Chevrolet-Citation-Coupe-25-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32042/Chevrolet-Citation-Coupe-28-V6.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32053/Chevrolet-Citation-Coupe-28-V6-133hp.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32052/Chevrolet-Citation-Coupe-28-V6-133hp-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32049/Chevrolet-Citation-Coupe-28-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32006/Chevrolet-Citation-Sedan-25.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32057/Chevrolet-Citation-Sedan-25-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32056/Chevrolet-Citation-Sedan-28-V6.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32055/Chevrolet-Citation-Sedan-28-V6-133hp.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32054/Chevrolet-Citation-Sedan-28-V6-133hp-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32050/Chevrolet-Citation-Sedan-28-V6-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Citation"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/18788/Chevrolet-Corvair-.html",
+    "brand": "chevrolet",
+    "generation": "Corvair"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/18785/Chevrolet-Corvair-Monza.html",
+    "brand": "chevrolet",
+    "generation": "Corvair"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/22259/Chevrolet-Corvair-Monza.html",
+    "brand": "chevrolet",
+    "generation": "Corvair"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31809/Chevrolet-Corvair-Monza-Convertible.html",
+    "brand": "chevrolet",
+    "generation": "Corvair"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/28142/Chevrolet-Corvair-Testudo.html",
+    "brand": "chevrolet",
+    "generation": "Corvair"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143103/Chevrolet-Traverse-3rd-Gen-25-Turbo-8-speed-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Traverse-3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143099/Chevrolet-Traverse-3rd-Gen-25-Turbo-AWD-8-speed-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Traverse-3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143102/Chevrolet-Traverse-3rd-Gen-Z71-25-Turbo-AWD-8-speed-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Traverse-3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140182/Chevrolet-Equinox-(4th-Gen)-Activ-15-T-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140183/Chevrolet-Equinox-(4th-Gen)-LT-15-T-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140180/Chevrolet-Equinox-(4th-Gen)-LT-15-T-FWD-CVT.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140956/Chevrolet-Equinox-(4th-Gen)-RS-15-T-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140142/Chevrolet-Tahoe-(5th-Gen)-2024-53L-V8-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Tahoe- 5th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140143/Chevrolet-Tahoe-(5th-Gen)-2024-53L-V8-4WD.html",
+    "brand": "chevrolet",
+    "generation": "Tahoe- 5th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140144/Chevrolet-Tahoe-(5th-Gen)-2024-62L-V8-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Tahoe- 5th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140145/Chevrolet-Tahoe-(5th-Gen)-2024-62L-V8-4WD.html",
+    "brand": "chevrolet",
+    "generation": "Tahoe- 5th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140140/Chevrolet-Tahoe-(5th-Gen)-2024-30L-Turbo-Diesel-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Tahoe- 5th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140141/Chevrolet-Tahoe-(5th-Gen)-2024-30L-Turbo-Diesel-4WD.html",
+    "brand": "chevrolet",
+    "generation": "Tahoe- 5th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140137/Chevrolet-Suburban-(12th-Gen)-2024--53L-V8-4WD.html",
+    "brand": "chevrolet",
+    "generation": "Suburban- 12th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140139/Chevrolet-Suburban-(12th-Gen)-2024--62L-V8-4WD.html",
+    "brand": "chevrolet",
+    "generation": "Suburban- 12th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140136/Chevrolet-Suburban-(12th-Gen)-2024-53L-V8-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Suburban- 12th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140138/Chevrolet-Suburban-(12th-Gen)-2024-62L-V8-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Suburban- 12th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140134/Chevrolet-Suburban-(12th-Gen)-2024-30L-Turbo-Diesel-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Suburban- 12th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140135/Chevrolet-Suburban-(12th-Gen)-2024-30L-Turbo-Diesel-4WD.html",
+    "brand": "chevrolet",
+    "generation": "Suburban- 12th-Gen -2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134861/Chevrolet-Blazer-4-2023-20L-Turbo-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4-2023"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134856/Chevrolet-Blazer-4-2023-20L-Turbo-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4-2023"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134858/Chevrolet-Blazer-4-2023-36L-V6-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4-2023"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134863/Chevrolet-Blazer-4-2023-36L-V6-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4-2023"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134860/Chevrolet-Blazer-4-2023-RS-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4-2023"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134865/Chevrolet-Blazer-4-2023-RS-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4-2023"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140936/Chevrolet-Corvette-C8-E-Ray-62-V8-e-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140934/Chevrolet-Corvette-C8-Stingray-62-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140935/Chevrolet-Corvette-C8-Stingray-62-V8-(Europe).html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140933/Chevrolet-Corvette-C8-Z06-55-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140133/Chevrolet-Corvette-C8-ZR1-55-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134850/Chevrolet-Blazer-(4th-Gen)-20L-Turbo-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134851/Chevrolet-Blazer-(4th-Gen)-20L-Turbo-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134844/Chevrolet-Blazer-(4th-Gen)-20L-Turbo-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134845/Chevrolet-Blazer-(4th-Gen)-20L-Turbo-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134847/Chevrolet-Blazer-(4th-Gen)-36L-V6-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134853/Chevrolet-Blazer-(4th-Gen)-36L-V6-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134855/Chevrolet-Blazer-(4th-Gen)-RS-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer- 4th-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140939/Chevrolet-Corvette-C8-Convertible-E-Ray-62-V8-e-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140937/Chevrolet-Corvette-C8-Convertible-Stingray-62-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140938/Chevrolet-Corvette-C8-Convertible-Stingray-62-V8-(Europe).html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140131/Chevrolet-Corvette-C8-Convertible-Z06-55-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/140132/Chevrolet-Corvette-C8-Convertible-ZR1-55-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C8-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122791/Chevrolet-Blazer-4-20L-Turbo-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122787/Chevrolet-Blazer-4-20L-Turbo-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122783/Chevrolet-Blazer-4-25L-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122784/Chevrolet-Blazer-4-36L-V6-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122788/Chevrolet-Blazer-4-36L-V6-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/134849/Chevrolet-Blazer-4-RS-2WD.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/119637/Chevrolet-Equinox-(3rd-Gen)-15L-Turbo-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/119634/Chevrolet-Equinox-(3rd-Gen)-15L-Turbo-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/119638/Chevrolet-Equinox-(3rd-Gen)-20L-Turbo-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/119635/Chevrolet-Equinox-(3rd-Gen)-20L-Turbo-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/119639/Chevrolet-Equinox-(3rd-Gen)-Diesel-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/119636/Chevrolet-Equinox-(3rd-Gen)-Diesel-FWD.html",
+    "brand": "chevrolet",
+    "generation": "Equinox- 3rd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112993/Chevrolet-Camaro-6-20-i4.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112991/Chevrolet-Camaro-6-62-V8.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112989/Chevrolet-Camaro-6-62-V8-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112994/Chevrolet-Camaro-6-Convertible-20-i4.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-6-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112992/Chevrolet-Camaro-6-Convertible-62-V8.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-6-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112990/Chevrolet-Camaro-6-Convertible-62-V8-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-6-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/67167/Chevrolet-Corvette-C7-Stingray-Cabrio.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112996/Chevrolet-Corvette-C7-Stingray-Convertible.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112998/Chevrolet-Corvette-C7-Stingray-Convertible-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/64665/Chevrolet-Corvette-C7-Stingray-Coupe.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112995/Chevrolet-Corvette-C7-Stingray-Coupe.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/64669/Chevrolet-Corvette-C7-Stingray-Coupe-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/112997/Chevrolet-Corvette-C7-Stingray-Coupe-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/68086/Chevrolet-Corvette-C7-Z06.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/68088/Chevrolet-Corvette-C7-Z06-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C7"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122365/Chevrolet-Impala-10-24-eAssist.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122366/Chevrolet-Impala-10-LS-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122371/Chevrolet-Impala-10-LS-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122379/Chevrolet-Impala-10-LS-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122384/Chevrolet-Impala-10-LS-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122381/Chevrolet-Impala-10-LS-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122386/Chevrolet-Impala-10-LS-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122367/Chevrolet-Impala-10-LT-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122372/Chevrolet-Impala-10-LT-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122380/Chevrolet-Impala-10-LT-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122385/Chevrolet-Impala-10-LT-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122369/Chevrolet-Impala-10-LT-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122374/Chevrolet-Impala-10-LT-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122382/Chevrolet-Impala-10-LT-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122387/Chevrolet-Impala-10-LT-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122368/Chevrolet-Impala-10-LTZ-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122373/Chevrolet-Impala-10-LTZ-25.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122370/Chevrolet-Impala-10-LTZ-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122375/Chevrolet-Impala-10-LTZ-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122383/Chevrolet-Impala-10-Premier-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122388/Chevrolet-Impala-10-Premier-36-V6.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122377/Chevrolet-Impala-10-LS-36-V6-CNG.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/122378/Chevrolet-Impala-10-LT-36-V6-CNG.html",
+    "brand": "chevrolet",
+    "generation": "Impala-10"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23828/Chevrolet-Camaro-V-Convertible-36L-DI-V6.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23830/Chevrolet-Camaro-V-Convertible-36L-DI-V6-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23825/Chevrolet-Camaro-V-Convertible-62L-V8.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23826/Chevrolet-Camaro-V-Convertible-62L-V8-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23827/Chevrolet-Camaro-V-Coupe-36L-DI-V6.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23829/Chevrolet-Camaro-V-Coupe-36L-DI-V6-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23823/Chevrolet-Camaro-V-Coupe-62L-V8.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/23824/Chevrolet-Camaro-V-Coupe-62L-V8-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59602/Chevrolet-Malibu-24-LTZ.html",
+    "brand": "chevrolet",
+    "generation": "Malibu"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59603/Chevrolet-Malibu-24-LTZ-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Malibu"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59599/Chevrolet-Malibu-20-VDCI-LT+.html",
+    "brand": "chevrolet",
+    "generation": "Malibu"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59600/Chevrolet-Malibu-20-VDCI-LTZ.html",
+    "brand": "chevrolet",
+    "generation": "Malibu"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/59601/Chevrolet-Malibu-20-VDCI-LTZ-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Malibu"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25994/Chevrolet-Aveo-T300-4p-12-16v-69HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26001/Chevrolet-Aveo-T300-4p-14-16v-LT+-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26003/Chevrolet-Aveo-T300-4p-16-16v-116HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26005/Chevrolet-Aveo-T300-4p-16-16v-116HP-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25996/Chevrolet-Aveo-T300-4p-LS-12-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26021/Chevrolet-Aveo-T300-4p-LT+-12-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26922/Chevrolet-Aveo-T300-4p-LT+-14-16v-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25999/Chevrolet-Aveo-T300-4p-LTZ-14-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25993/Chevrolet-Aveo-T300-5p-12-16v-69HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25995/Chevrolet-Aveo-T300-5p-12-16v-86HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26000/Chevrolet-Aveo-T300-5p-14-16v-LT+-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26004/Chevrolet-Aveo-T300-5p-16-16v-116HP-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25997/Chevrolet-Aveo-T300-5p-LS-12-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26019/Chevrolet-Aveo-T300-5p-LT-12-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25998/Chevrolet-Aveo-T300-5p-LT+-14-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26921/Chevrolet-Aveo-T300-5p-LT+-14-16v-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26020/Chevrolet-Aveo-T300-5p-LTZ-14-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26002/Chevrolet-Aveo-T300-5p-LTZ-16-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26941/Chevrolet-Aveo-T300-4p-LT+-13-D-75HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/40025/Chevrolet-Aveo-T300-4p-LTZ-13-D-95HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26938/Chevrolet-Aveo-T300-5p-LT-13-D-75HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26939/Chevrolet-Aveo-T300-5p-LT+-13-D-95HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/26940/Chevrolet-Aveo-T300-5p-LTZ-13-D-95HP.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T300"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/30756/Chevrolet-Impala-IX-LS.html",
+    "brand": "chevrolet",
+    "generation": "Impala-IX"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31318/Chevrolet-Impala-IX-LTZ-LZ8.html",
+    "brand": "chevrolet",
+    "generation": "Impala-IX"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/30750/Chevrolet-Impala-IX-LTZ-LZ9.html",
+    "brand": "chevrolet",
+    "generation": "Impala-IX"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/30749/Chevrolet-Impala-IX-SS.html",
+    "brand": "chevrolet",
+    "generation": "Impala-IX"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4781/Chevrolet-Nubira-SW-16.html",
+    "brand": "chevrolet",
+    "generation": "Nubira-SW"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4780/Chevrolet-Nubira-SW-18.html",
+    "brand": "chevrolet",
+    "generation": "Nubira-SW"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4779/Chevrolet-Nubira-SW-20-TDCI.html",
+    "brand": "chevrolet",
+    "generation": "Nubira-SW"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4772/Chevrolet-Matiz-I-08.html",
+    "brand": "chevrolet",
+    "generation": "Matiz-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4773/Chevrolet-Matiz-I-10.html",
+    "brand": "chevrolet",
+    "generation": "Matiz-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/767/Chevrolet-Corvette-C6-Cabrio-60-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25329/Chevrolet-Corvette-C6-Cabrio-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25327/Chevrolet-Corvette-C6-Coupe.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/765/Chevrolet-Corvette-C6-Coupe-60-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25326/Chevrolet-Corvette-C6-Coupe-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25328/Chevrolet-Corvette-C6-Descapotable.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25333/Chevrolet-Corvette-C6-Grand-Sport-Cabrio.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25335/Chevrolet-Corvette-C6-Grand-Sport-Cabrio-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25332/Chevrolet-Corvette-C6-Grand-Sport-Coupe.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25334/Chevrolet-Corvette-C6-Grand-Sport-Coupe-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/766/Chevrolet-Corvette-C6-Z06.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25330/Chevrolet-Corvette-C6-Z06.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32832/Chevrolet-Corvette-C6-ZR1.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/25331/Chevrolet-Corvette-C6-ZR1.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4775/Chevrolet-Matiz-II-08.html",
+    "brand": "chevrolet",
+    "generation": "Matiz-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4774/Chevrolet-Matiz-II-10.html",
+    "brand": "chevrolet",
+    "generation": "Matiz-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4778/Chevrolet-Nubira-14.html",
+    "brand": "chevrolet",
+    "generation": "Nubira"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4777/Chevrolet-Nubira-16.html",
+    "brand": "chevrolet",
+    "generation": "Nubira"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4776/Chevrolet-Nubira-18.html",
+    "brand": "chevrolet",
+    "generation": "Nubira"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/50916/Chevrolet-Nubira-20-TCDi-16v-CDX.html",
+    "brand": "chevrolet",
+    "generation": "Nubira"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/50935/Chevrolet-Nubira-20-TCDi-16v-CDX-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Nubira"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/50896/Chevrolet-Nubira-20-TCDi-16v-SX.html",
+    "brand": "chevrolet",
+    "generation": "Nubira"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9591/Chevrolet-Aveo-T200-Sedan-12-16v-LS.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9908/Chevrolet-Aveo-T200-Sedan-12-16v-LS.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4722/Chevrolet-Aveo-T200-Sedan-14-16v.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9909/Chevrolet-Aveo-T200-Sedan-14-16v-LS.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9910/Chevrolet-Aveo-T200-Sedan-14-16v-LT.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9911/Chevrolet-Aveo-T200-Sedan-14-16v-LT-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142842/Chevrolet-Aveo-T200-Sedan-16-16v-(USA).html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142843/Chevrolet-Aveo-T200-Sedan-16-16v-Automatic-(USA).html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9902/Chevrolet-Aveo-T200-12-16v-LS-3-door.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9904/Chevrolet-Aveo-T200-12-16v-LS-5-door.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9903/Chevrolet-Aveo-T200-14-16v-LS-3-door.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9905/Chevrolet-Aveo-T200-14-16v-LS-5-door.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9906/Chevrolet-Aveo-T200-14-16v-LT-5-door.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/9907/Chevrolet-Aveo-T200-14-16v-LT-5-door-Aut.html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142836/Chevrolet-Aveo-T200-16-16v-(USA).html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142837/Chevrolet-Aveo-T200-16-16v-Automatic-(USA).html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142840/Chevrolet-Aveo-T200-16-16v-Aveo5-LT-(USA).html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142841/Chevrolet-Aveo-T200-16-16v-Aveo5-LT-Automatic-(USA).html",
+    "brand": "chevrolet",
+    "generation": "Aveo-T200"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/28187/Chevrolet-Malibu-VI-LS.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31239/Chevrolet-Malibu-VI-LS.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32564/Chevrolet-Malibu-VI-LS.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/28184/Chevrolet-Malibu-VI-LT.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32559/Chevrolet-Malibu-VI-LT.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31259/Chevrolet-Malibu-VI-LTZ.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32565/Chevrolet-Malibu-VI-LTZ.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/32575/Chevrolet-Malibu-VI-LTZ-V6.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/28178/Chevrolet-Malibu-VI-Maxx-LS.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31237/Chevrolet-Malibu-VI-Maxx-LTZ.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31232/Chevrolet-Malibu-VI-Maxx-SS.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/28188/Chevrolet-Malibu-VI-Sedan.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31233/Chevrolet-Malibu-VI-SS.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143919/Chevrolet-Cavalier-3-Coupe-2002-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143920/Chevrolet-Cavalier-3-Coupe-2002-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143921/Chevrolet-Cavalier-3-Coupe-2002-LS-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143922/Chevrolet-Cavalier-3-Coupe-2002-LS-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143923/Chevrolet-Cavalier-3-Coupe-2002-LS-Sport-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143924/Chevrolet-Cavalier-3-Coupe-2002-LS-Sport-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143968/Chevrolet-Cavalier-3-Sedan-2002-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143969/Chevrolet-Cavalier-3-Sedan-2002-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143964/Chevrolet-Cavalier-3-Sedan-2002-LS-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143965/Chevrolet-Cavalier-3-Sedan-2002-LS-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143966/Chevrolet-Cavalier-3-Sedan-2002-LS-Sport-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143967/Chevrolet-Cavalier-3-Sedan-2002-LS-Sport-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-2002"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21799/Chevrolet-Impala-VIII-.html",
+    "brand": "chevrolet",
+    "generation": "Impala-VIII"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21798/Chevrolet-Impala-VIII-LS.html",
+    "brand": "chevrolet",
+    "generation": "Impala-VIII"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4784/Chevrolet-Tahoe-II-53-V8.html",
+    "brand": "chevrolet",
+    "generation": "Tahoe-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21797/Chevrolet-Monte-Carlo-VI-LS.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31224/Chevrolet-Monte-Carlo-VI-LS.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/37904/Chevrolet-Monte-Carlo-VI-LT.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21796/Chevrolet-Monte-Carlo-VI-SS.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/31256/Chevrolet-Monte-Carlo-VI-SS.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/37894/Chevrolet-Monte-Carlo-VI-Supercharged-SS.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-VI"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143902/Chevrolet-Cavalier-3-Coupe-1999-Coupe-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143907/Chevrolet-Cavalier-3-Coupe-1999-Coupe-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143911/Chevrolet-Cavalier-3-Coupe-1999-Coupe-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143903/Chevrolet-Cavalier-3-Coupe-1999-Coupe-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143904/Chevrolet-Cavalier-3-Coupe-1999-Coupe-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143908/Chevrolet-Cavalier-3-Coupe-1999-Coupe-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143912/Chevrolet-Cavalier-3-Coupe-1999-Coupe-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143913/Chevrolet-Cavalier-3-Coupe-1999-LS-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143914/Chevrolet-Cavalier-3-Coupe-1999-LS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143915/Chevrolet-Cavalier-3-Coupe-1999-LS-Sport-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143916/Chevrolet-Cavalier-3-Coupe-1999-LS-Sport-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143905/Chevrolet-Cavalier-3-Coupe-1999-Z24.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143909/Chevrolet-Cavalier-3-Coupe-1999-Z24.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143917/Chevrolet-Cavalier-3-Coupe-1999-Z24.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143906/Chevrolet-Cavalier-3-Coupe-1999-Z24-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143910/Chevrolet-Cavalier-3-Coupe-1999-Z24-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143867/Chevrolet-Cavalier-3-Convertible-1999-Z24-24-Twin-Cam.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143868/Chevrolet-Cavalier-3-Convertible-1999-Z24-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143950/Chevrolet-Cavalier-3-Sedan-1999-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143955/Chevrolet-Cavalier-3-Sedan-1999-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143960/Chevrolet-Cavalier-3-Sedan-1999-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143951/Chevrolet-Cavalier-3-Sedan-1999-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143952/Chevrolet-Cavalier-3-Sedan-1999-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143956/Chevrolet-Cavalier-3-Sedan-1999-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143961/Chevrolet-Cavalier-3-Sedan-1999-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143958/Chevrolet-Cavalier-3-Sedan-1999-LS-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143949/Chevrolet-Cavalier-3-Sedan-1999-LS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143954/Chevrolet-Cavalier-3-Sedan-1999-LS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143959/Chevrolet-Cavalier-3-Sedan-1999-LS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143953/Chevrolet-Cavalier-3-Sedan-1999-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143957/Chevrolet-Cavalier-3-Sedan-1999-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143962/Chevrolet-Cavalier-3-Sedan-1999-LS-Sport-22-DOHC.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143963/Chevrolet-Cavalier-3-Sedan-1999-LS-Sport-22-DOHC-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan-1999"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4735/Chevrolet-S-10-Blazer-II-ZR2-43.html",
+    "brand": "chevrolet",
+    "generation": "S-10-Blazer-II-ZR2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4734/Chevrolet-S-10-Blazer-II-ZR2-43-auto.html",
+    "brand": "chevrolet",
+    "generation": "S-10-Blazer-II-ZR2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4739/Chevrolet-Camaro-IV-38.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-IV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4738/Chevrolet-Camaro-IV-38-auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-IV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4737/Chevrolet-Camaro-IV-Z28.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-IV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4736/Chevrolet-Camaro-IV-Z28-auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-IV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4755/Chevrolet-Corvette-C5-Convertible-57-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4754/Chevrolet-Corvette-C5-Convertible-57-V8-auto.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4741/Chevrolet-Camaro-IV-Convertible-38.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-IV-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4740/Chevrolet-Camaro-IV-Convertible-38-auto.html",
+    "brand": "chevrolet",
+    "generation": "Camaro-IV-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4753/Chevrolet-Corvette-C5-57-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21800/Chevrolet-Corvette-C5-57-V8.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4752/Chevrolet-Corvette-C5-57-V8-auto.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21791/Chevrolet-Corvette-C5-57-V8-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21290/Chevrolet-Corvette-C5-Z06.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21850/Chevrolet-Corvette-C5-Z06.html",
+    "brand": "chevrolet",
+    "generation": "Corvette-C5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/15069/Chevrolet-Malibu-V-LS.html",
+    "brand": "chevrolet",
+    "generation": "Malibu-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/15072/Chevrolet-Monte-Carlo-V-LS.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21931/Chevrolet-Monte-Carlo-V-LS.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/15070/Chevrolet-Monte-Carlo-V-Z34.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/15054/Chevrolet-Monte-Carlo-V-Z34.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/21928/Chevrolet-Monte-Carlo-V-Z34.html",
+    "brand": "chevrolet",
+    "generation": "Monte-Carlo-V"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/15087/Chevrolet-Impala-VII-57-V8-SS.html",
+    "brand": "chevrolet",
+    "generation": "Impala-VII"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4770/Chevrolet-Lumina-II-31i.html",
+    "brand": "chevrolet",
+    "generation": "Lumina-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4733/Chevrolet-S-10-Blazer-II-43.html",
+    "brand": "chevrolet",
+    "generation": "S-10-Blazer-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4731/Chevrolet-S-10-Blazer-II-43.html",
+    "brand": "chevrolet",
+    "generation": "S-10-Blazer-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4732/Chevrolet-S-10-Blazer-II-43-auto.html",
+    "brand": "chevrolet",
+    "generation": "S-10-Blazer-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4730/Chevrolet-S-10-Blazer-II-43-auto.html",
+    "brand": "chevrolet",
+    "generation": "S-10-Blazer-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144183/Chevrolet-Caprice-4-Sedan-1995-43-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan-1995"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144184/Chevrolet-Caprice-4-Sedan-1995-57-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan-1995"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144185/Chevrolet-Caprice-4-Sedan-1995-57-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan-1995"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143926/Chevrolet-Cavalier-3-Sedan-22-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143927/Chevrolet-Cavalier-3-Sedan-22-MFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143940/Chevrolet-Cavalier-3-Sedan-22-SFI-115HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143945/Chevrolet-Cavalier-3-Sedan-22-SFI-115HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143941/Chevrolet-Cavalier-3-Sedan-22-SFI-115HP-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143946/Chevrolet-Cavalier-3-Sedan-22-SFI-115HP-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143942/Chevrolet-Cavalier-3-Sedan-22-SFI-115HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143947/Chevrolet-Cavalier-3-Sedan-22-SFI-115HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143930/Chevrolet-Cavalier-3-Sedan-22-SFI-120HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143935/Chevrolet-Cavalier-3-Sedan-22-SFI-120HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143931/Chevrolet-Cavalier-3-Sedan-22-SFI-120HP-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143936/Chevrolet-Cavalier-3-Sedan-22-SFI-120HP-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143932/Chevrolet-Cavalier-3-Sedan-22-SFI-120HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143937/Chevrolet-Cavalier-3-Sedan-22-SFI-120HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143925/Chevrolet-Cavalier-3-Sedan-LS-22-MFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143939/Chevrolet-Cavalier-3-Sedan-LS-22-SFI-115HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143944/Chevrolet-Cavalier-3-Sedan-LS-22-SFI-115HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143929/Chevrolet-Cavalier-3-Sedan-LS-22-SFI-120HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143934/Chevrolet-Cavalier-3-Sedan-LS-22-SFI-120HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143928/Chevrolet-Cavalier-3-Sedan-LS-23-Quad-4-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143933/Chevrolet-Cavalier-3-Sedan-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143938/Chevrolet-Cavalier-3-Sedan-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143943/Chevrolet-Cavalier-3-Sedan-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143948/Chevrolet-Cavalier-3-Sedan-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142827/Chevrolet-Astro-2nd-Gen-43i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Astro-2nd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142829/Chevrolet-Astro-2nd-Gen-43i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Astro-2nd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142831/Chevrolet-Astro-2nd-Gen-43i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Astro-2nd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142832/Chevrolet-Astro-2nd-Gen-43i-V6.html",
+    "brand": "chevrolet",
+    "generation": "Astro-2nd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142828/Chevrolet-Astro-2nd-Gen-43i-V6-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Astro-2nd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/142830/Chevrolet-Astro-2nd-Gen-43i-V6-AWD.html",
+    "brand": "chevrolet",
+    "generation": "Astro-2nd-Gen"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144247/Chevrolet-Caprice-4-Wagon-1995-57-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon-1995"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144248/Chevrolet-Caprice-4-Wagon-1995-57-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon-1995"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143869/Chevrolet-Cavalier-3-Coupe-22-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143870/Chevrolet-Cavalier-3-Coupe-22-MFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143873/Chevrolet-Cavalier-3-Coupe-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143886/Chevrolet-Cavalier-3-Coupe-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143874/Chevrolet-Cavalier-3-Coupe-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143887/Chevrolet-Cavalier-3-Coupe-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143895/Chevrolet-Cavalier-3-Coupe-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143875/Chevrolet-Cavalier-3-Coupe-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143888/Chevrolet-Cavalier-3-Coupe-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143881/Chevrolet-Cavalier-3-Coupe-RS-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143889/Chevrolet-Cavalier-3-Coupe-RS-22-SFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143882/Chevrolet-Cavalier-3-Coupe-RS-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143890/Chevrolet-Cavalier-3-Coupe-RS-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143898/Chevrolet-Cavalier-3-Coupe-RS-22-SFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143883/Chevrolet-Cavalier-3-Coupe-RS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143891/Chevrolet-Cavalier-3-Coupe-RS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143871/Chevrolet-Cavalier-3-Coupe-Z24.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143876/Chevrolet-Cavalier-3-Coupe-Z24.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143892/Chevrolet-Cavalier-3-Coupe-Z24.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143872/Chevrolet-Cavalier-3-Coupe-Z24-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143877/Chevrolet-Cavalier-3-Coupe-Z24-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143893/Chevrolet-Cavalier-3-Coupe-Z24-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143901/Chevrolet-Cavalier-3-Coupe-Z24-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143855/Chevrolet-Cavalier-3-Convertible-LS-22-MFI-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143857/Chevrolet-Cavalier-3-Convertible-LS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143860/Chevrolet-Cavalier-3-Convertible-LS-22-SFI-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143856/Chevrolet-Cavalier-3-Convertible-LS-23-Quad-4-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143858/Chevrolet-Cavalier-3-Convertible-LS-24-Twin-Cam.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143861/Chevrolet-Cavalier-3-Convertible-LS-24-Twin-Cam.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143859/Chevrolet-Cavalier-3-Convertible-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143862/Chevrolet-Cavalier-3-Convertible-LS-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143863/Chevrolet-Cavalier-3-Convertible-Z24-24-Twin-Cam.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143864/Chevrolet-Cavalier-3-Convertible-Z24-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143866/Chevrolet-Cavalier-3-Convertible-Z24-24-Twin-Cam-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-3-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144180/Chevrolet-Caprice-4-Sedan-1993-43-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144176/Chevrolet-Caprice-4-Sedan-1993-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144182/Chevrolet-Caprice-4-Sedan-1993-57-V8-260HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144177/Chevrolet-Caprice-4-Sedan-1993-LTZ-57-V8-180HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144178/Chevrolet-Caprice-4-Police-1993-57-V8-205HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Police-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144191/Chevrolet-Caprice-4-Wagon-1993-43-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144189/Chevrolet-Caprice-4-Wagon-1993-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144190/Chevrolet-Caprice-4-Wagon-1993-57-V8-180HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144246/Chevrolet-Caprice-4-Wagon-1993-57-V8-260HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon-1993"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123044/Chevrolet-Blazer-1992-57L-V-8-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1992"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123046/Chevrolet-Blazer-1992-57L-V-8-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1992"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123045/Chevrolet-Blazer-1992-57L-V-8-EFi-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1992"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123047/Chevrolet-Blazer-1992-57L-V-8-EFi-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1992"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123048/Chevrolet-Blazer-1992-65L-V-8-Turbo-Diesel-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1992"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144170/Chevrolet-Caprice-4-Sedan-50-V8-170HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4742/Chevrolet-Caprice-4-Sedan-50-V8-172HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144169/Chevrolet-Caprice-4-Sedan-LTZ-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4769/Chevrolet-Lumina-I-31i.html",
+    "brand": "chevrolet",
+    "generation": "Lumina-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144172/Chevrolet-Caprice-4-Police-57-V8-195HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Police"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144174/Chevrolet-Caprice-4-Police-57-V8-205HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Police"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143842/Chevrolet-Cavalier-2-Wagon-1991-RS-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143843/Chevrolet-Cavalier-2-Wagon-1991-RS-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143853/Chevrolet-Cavalier-2-Wagon-1991-RS-22-MFI-120HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143847/Chevrolet-Cavalier-2-Wagon-1991-RS-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143846/Chevrolet-Cavalier-2-Wagon-1991-RS-31-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143849/Chevrolet-Cavalier-2-Wagon-1991-RS-31-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143854/Chevrolet-Cavalier-2-Wagon-1991-RS-31-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143844/Chevrolet-Cavalier-2-Wagon-1991-VL-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143845/Chevrolet-Cavalier-2-Wagon-1991-VL-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143848/Chevrolet-Cavalier-2-Wagon-1991-VL-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144186/Chevrolet-Caprice-4-Wagon-50-V8-170HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144188/Chevrolet-Caprice-4-Wagon-50-V8-172HP-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144187/Chevrolet-Caprice-4-Wagon-57-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-4-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143812/Chevrolet-Cavalier-2-Sedan-1991-RS-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143813/Chevrolet-Cavalier-2-Sedan-1991-RS-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143816/Chevrolet-Cavalier-2-Sedan-1991-RS-22-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143824/Chevrolet-Cavalier-2-Sedan-1991-RS-22-MFI-120HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143825/Chevrolet-Cavalier-2-Sedan-1991-RS-22-MFI-120HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143817/Chevrolet-Cavalier-2-Sedan-1991-RS-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143821/Chevrolet-Cavalier-2-Sedan-1991-RS-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143814/Chevrolet-Cavalier-2-Sedan-1991-VL-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143815/Chevrolet-Cavalier-2-Sedan-1991-VL-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143818/Chevrolet-Cavalier-2-Sedan-1991-VL-22-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143826/Chevrolet-Cavalier-2-Sedan-1991-VL-22-MFI-120HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143827/Chevrolet-Cavalier-2-Sedan-1991-VL-22-MFI-120HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143819/Chevrolet-Cavalier-2-Sedan-1991-VL-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143823/Chevrolet-Cavalier-2-Sedan-1991-VL-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143699/Chevrolet-Cavalier-2-Coupe-1991-RS-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143700/Chevrolet-Cavalier-2-Coupe-1991-RS-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143705/Chevrolet-Cavalier-2-Coupe-1991-RS-22-MFI-110HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143706/Chevrolet-Cavalier-2-Coupe-1991-RS-22-MFI-110HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143712/Chevrolet-Cavalier-2-Coupe-1991-RS-22-MFI-110HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143717/Chevrolet-Cavalier-2-Coupe-1991-RS-22-MFI-120HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143718/Chevrolet-Cavalier-2-Coupe-1991-RS-22-MFI-120HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143701/Chevrolet-Cavalier-2-Coupe-1991-VL-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143702/Chevrolet-Cavalier-2-Coupe-1991-VL-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143707/Chevrolet-Cavalier-2-Coupe-1991-VL-22-MFI-110HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143708/Chevrolet-Cavalier-2-Coupe-1991-VL-22-MFI-110HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143714/Chevrolet-Cavalier-2-Coupe-1991-VL-22-MFI-110HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143719/Chevrolet-Cavalier-2-Coupe-1991-VL-22-MFI-120HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143720/Chevrolet-Cavalier-2-Coupe-1991-VL-22-MFI-120HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143703/Chevrolet-Cavalier-2-Coupe-1991-Z24-31-V6-140HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143709/Chevrolet-Cavalier-2-Coupe-1991-Z24-31-V6-140HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143704/Chevrolet-Cavalier-2-Coupe-1991-Z24-31-V6-140HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143710/Chevrolet-Cavalier-2-Coupe-1991-Z24-31-V6-140HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143722/Chevrolet-Cavalier-2-Coupe-1991-Z24-31-V6-140HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/4771/Chevrolet-Lumina-APV-31i.html",
+    "brand": "chevrolet",
+    "generation": "Lumina-APV"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143661/Chevrolet-Cavalier-2-Convertible-1991-RS-22-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143673/Chevrolet-Cavalier-2-Convertible-1991-RS-22-MFI-122HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143674/Chevrolet-Cavalier-2-Convertible-1991-RS-22-MFI-122HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143662/Chevrolet-Cavalier-2-Convertible-1991-RS-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143668/Chevrolet-Cavalier-2-Convertible-1991-RS-22-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143659/Chevrolet-Cavalier-2-Convertible-1991-RS-31-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143663/Chevrolet-Cavalier-2-Convertible-1991-RS-31-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143660/Chevrolet-Cavalier-2-Convertible-1991-RS-31-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143664/Chevrolet-Cavalier-2-Convertible-1991-RS-31-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143676/Chevrolet-Cavalier-2-Convertible-1991-RS-31-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143665/Chevrolet-Cavalier-2-Convertible-1991-Z24.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143666/Chevrolet-Cavalier-2-Convertible-1991-Z24-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143678/Chevrolet-Cavalier-2-Convertible-1991-Z24-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible-1991"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123037/Chevrolet-Blazer-1989-350-4WD-V8-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1989"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123040/Chevrolet-Blazer-1989-350-4WD-V8-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1989"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123038/Chevrolet-Blazer-1989-350-4WD-V8-EFi-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1989"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123041/Chevrolet-Blazer-1989-350-4WD-V8-EFi-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1989"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123039/Chevrolet-Blazer-1989-379-4WD-V8-Diesel-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1989"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123042/Chevrolet-Blazer-1989-379-4WD-V8-Diesel-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1989"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/123043/Chevrolet-Blazer-1989-379-4WD-V8-Diesel-Auto.html",
+    "brand": "chevrolet",
+    "generation": "Blazer-1989"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143828/Chevrolet-Cavalier-2-Wagon-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143832/Chevrolet-Cavalier-2-Wagon-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143829/Chevrolet-Cavalier-2-Wagon-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143833/Chevrolet-Cavalier-2-Wagon-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143838/Chevrolet-Cavalier-2-Wagon-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143839/Chevrolet-Cavalier-2-Wagon-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143830/Chevrolet-Cavalier-2-Wagon-28-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143834/Chevrolet-Cavalier-2-Wagon-28-MFI.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143831/Chevrolet-Cavalier-2-Wagon-28-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143835/Chevrolet-Cavalier-2-Wagon-28-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143841/Chevrolet-Cavalier-2-Wagon-31-MFI-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143840/Chevrolet-Cavalier-2-Wagon-31-MFI-RS.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143836/Chevrolet-Cavalier-2-Wagon-VL-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143837/Chevrolet-Cavalier-2-Wagon-VL-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Wagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143804/Chevrolet-Cavalier-2-Sedan-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143806/Chevrolet-Cavalier-2-Sedan-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143805/Chevrolet-Cavalier-2-Sedan-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143807/Chevrolet-Cavalier-2-Sedan-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143808/Chevrolet-Cavalier-2-Sedan-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143809/Chevrolet-Cavalier-2-Sedan-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143723/Chevrolet-Cavalier-2-Sedan-RS-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143803/Chevrolet-Cavalier-2-Sedan-RS-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143810/Chevrolet-Cavalier-2-Sedan-VL-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143811/Chevrolet-Cavalier-2-Sedan-VL-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143679/Chevrolet-Cavalier-2-Coupe-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143687/Chevrolet-Cavalier-2-Coupe-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143680/Chevrolet-Cavalier-2-Coupe-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143688/Chevrolet-Cavalier-2-Coupe-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143693/Chevrolet-Cavalier-2-Coupe-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143694/Chevrolet-Cavalier-2-Coupe-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143681/Chevrolet-Cavalier-2-Coupe-RS-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143682/Chevrolet-Cavalier-2-Coupe-RS-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143683/Chevrolet-Cavalier-2-Coupe-VL-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143689/Chevrolet-Cavalier-2-Coupe-VL-20-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143684/Chevrolet-Cavalier-2-Coupe-VL-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143690/Chevrolet-Cavalier-2-Coupe-VL-20-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143695/Chevrolet-Cavalier-2-Coupe-VL-22-EFi.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143696/Chevrolet-Cavalier-2-Coupe-VL-22-EFi-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143685/Chevrolet-Cavalier-2-Coupe-Z24-28-V6-125HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143686/Chevrolet-Cavalier-2-Coupe-Z24-28-V6-125HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143691/Chevrolet-Cavalier-2-Coupe-Z24-28-V6-130HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143692/Chevrolet-Cavalier-2-Coupe-Z24-28-V6-130HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143697/Chevrolet-Cavalier-2-Coupe-Z24-31-V6-140HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143698/Chevrolet-Cavalier-2-Coupe-Z24-31-V6-140HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143655/Chevrolet-Cavalier-2-Convertible-Z24-125HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143656/Chevrolet-Cavalier-2-Convertible-Z24-125HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143657/Chevrolet-Cavalier-2-Convertible-Z24-130HP.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/143658/Chevrolet-Cavalier-2-Convertible-Z24-130HP-Automatic.html",
+    "brand": "chevrolet",
+    "generation": "Cavalier-2-Convertible"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144015/Chevrolet-Caprice-3-Coupe-1987-43-V6-EFi-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Coupe-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144016/Chevrolet-Caprice-3-Coupe-1987-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Coupe-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144017/Chevrolet-Caprice-3-Coupe-1987-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Coupe-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144165/Chevrolet-Caprice-3-Wagon-1987-50-V8-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Wagon-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144163/Chevrolet-Caprice-3-Wagon-1987-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Wagon-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144167/Chevrolet-Caprice-3-Wagon-1987-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Wagon-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144168/Chevrolet-Caprice-3-Wagon-1987-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Wagon-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144079/Chevrolet-Caprice-3-Sedan-1987-43-V6-EFi-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144080/Chevrolet-Caprice-3-Sedan-1987-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144089/Chevrolet-Caprice-3-Sedan-1987-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144099/Chevrolet-Caprice-3-Sedan-1987-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144085/Chevrolet-Caprice-3-Sedan-1987-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144093/Chevrolet-Caprice-3-Sedan-1987-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144097/Chevrolet-Caprice-3-Sedan-1987-50-V8-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144102/Chevrolet-Caprice-3-Sedan-1987-50-V8-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144104/Chevrolet-Caprice-3-Sedan-1987-57-V8-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144077/Chevrolet-Caprice-3-Sedan-1987-Brougham-43-V6-EFi-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144078/Chevrolet-Caprice-3-Sedan-1987-Brougham-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144088/Chevrolet-Caprice-3-Sedan-1987-Brougham-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144084/Chevrolet-Caprice-3-Sedan-1987-Brougham-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144092/Chevrolet-Caprice-3-Sedan-1987-Brougham-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144096/Chevrolet-Caprice-3-Sedan-1987-Brougham-50-V8-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144101/Chevrolet-Caprice-3-Sedan-1987-Brougham-50-V8-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144075/Chevrolet-Caprice-3-Sedan-1987-Brougham-LS-43-V6-EFi-Automatic-3-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144076/Chevrolet-Caprice-3-Sedan-1987-Brougham-LS-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144087/Chevrolet-Caprice-3-Sedan-1987-Brougham-LS-43-V6-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144083/Chevrolet-Caprice-3-Sedan-1987-Brougham-LS-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144091/Chevrolet-Caprice-3-Sedan-1987-Brougham-LS-50-V8-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144095/Chevrolet-Caprice-3-Sedan-1987-Brougham-LS-50-V8-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Chevrolet/144100/Chevrolet-Caprice-3-Sedan-1987-Brougham-LS-50-V8-EFi-Automatic-4-speed.html",
+    "brand": "chevrolet",
+    "generation": "Caprice-3-Sedan-1987"
+  }
+]

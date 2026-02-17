@@ -1,0 +1,7556 @@
+[
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "age_category": "2-3",
+    "defect_rate_pct": 2.8,
+    "common_defects": [
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.1,
+    "common_defects": [
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.4,
+    "common_defects": [
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "age_category": "8-9",
+    "defect_rate_pct": 12.3,
+    "common_defects": [
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "age_category": "10-11",
+    "defect_rate_pct": 16.8,
+    "common_defects": [
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "age_category": "2-3",
+    "defect_rate_pct": 3,
+    "common_defects": [
+      "brake hoses",
+      "exhaust system"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "age_category": "4-5",
+    "defect_rate_pct": 4.9,
+    "common_defects": [
+      "brake hoses",
+      "exhaust system"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "age_category": "6-7",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake hoses",
+      "exhaust system"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "age_category": "8-9",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake hoses",
+      "exhaust system"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "age_category": "10-11",
+    "defect_rate_pct": 15.9,
+    "common_defects": [
+      "brake hoses",
+      "exhaust system"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "age_category": "2-3",
+    "defect_rate_pct": 2.5,
+    "common_defects": [
+      "brake discs",
+      "suspension bushings"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "age_category": "4-5",
+    "defect_rate_pct": 4.3,
+    "common_defects": [
+      "brake discs",
+      "suspension bushings"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "age_category": "6-7",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "suspension bushings"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "age_category": "8-9",
+    "defect_rate_pct": 10.8,
+    "common_defects": [
+      "brake discs",
+      "suspension bushings"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "age_category": "10-11",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "suspension bushings"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "RAV4",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.2,
+    "common_defects": [
+      "brake discs",
+      "rear axle springs"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Toyota",
+    "model": "RAV4",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "brake discs",
+      "rear axle springs"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Toyota",
+    "model": "RAV4",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.9,
+    "common_defects": [
+      "brake discs",
+      "rear axle springs"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Toyota",
+    "model": "RAV4",
+    "age_category": "8-9",
+    "defect_rate_pct": 12.7,
+    "common_defects": [
+      "brake discs",
+      "rear axle springs"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Toyota",
+    "model": "RAV4",
+    "age_category": "10-11",
+    "defect_rate_pct": 17.2,
+    "common_defects": [
+      "brake discs",
+      "rear axle springs"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "C-HR",
+    "age_category": "2-3",
+    "defect_rate_pct": 2.6,
+    "common_defects": [
+      "brake discs",
+      "tyre condition"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Toyota",
+    "model": "C-HR",
+    "age_category": "4-5",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "brake discs",
+      "tyre condition"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Toyota",
+    "model": "C-HR",
+    "age_category": "6-7",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "tyre condition"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Toyota",
+    "model": "Aygo",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.5,
+    "common_defects": [
+      "exhaust system",
+      "brake hoses",
+      "lighting"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Toyota",
+    "model": "Aygo",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.2,
+    "common_defects": [
+      "exhaust system",
+      "brake hoses",
+      "lighting"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Toyota",
+    "model": "Aygo",
+    "age_category": "6-7",
+    "defect_rate_pct": 9.8,
+    "common_defects": [
+      "exhaust system",
+      "brake hoses",
+      "lighting"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Toyota",
+    "model": "Aygo",
+    "age_category": "8-9",
+    "defect_rate_pct": 14.1,
+    "common_defects": [
+      "exhaust system",
+      "brake hoses",
+      "lighting"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Toyota",
+    "model": "Aygo",
+    "age_category": "10-11",
+    "defect_rate_pct": 19.2,
+    "common_defects": [
+      "exhaust system",
+      "brake hoses",
+      "lighting"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Auris",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.1,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Toyota",
+    "model": "Auris",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.3,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Toyota",
+    "model": "Auris",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.1,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Toyota",
+    "model": "Auris",
+    "age_category": "8-9",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Toyota",
+    "model": "Auris",
+    "age_category": "10-11",
+    "defect_rate_pct": 16.4,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-5",
+    "age_category": "2-3",
+    "defect_rate_pct": 3,
+    "common_defects": [
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-5",
+    "age_category": "4-5",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-5",
+    "age_category": "6-7",
+    "defect_rate_pct": 7.9,
+    "common_defects": [
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-5",
+    "age_category": "8-9",
+    "defect_rate_pct": 11.4,
+    "common_defects": [
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mazda",
+    "model": "3",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.4,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mazda",
+    "model": "3",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.7,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mazda",
+    "model": "3",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mazda",
+    "model": "3",
+    "age_category": "8-9",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mazda",
+    "model": "3",
+    "age_category": "10-11",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mazda",
+    "model": "2",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.2,
+    "common_defects": [
+      "exhaust",
+      "brake discs"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mazda",
+    "model": "2",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.4,
+    "common_defects": [
+      "exhaust",
+      "brake discs"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mazda",
+    "model": "2",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.3,
+    "common_defects": [
+      "exhaust",
+      "brake discs"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mazda",
+    "model": "2",
+    "age_category": "8-9",
+    "defect_rate_pct": 12.1,
+    "common_defects": [
+      "exhaust",
+      "brake discs"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mazda",
+    "model": "2",
+    "age_category": "10-11",
+    "defect_rate_pct": 16.5,
+    "common_defects": [
+      "exhaust",
+      "brake discs"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-3",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.1,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-3",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-3",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mazda",
+    "model": "MX-5",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.8,
+    "common_defects": [
+      "rust",
+      "brake lines",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mazda",
+    "model": "MX-5",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "rust",
+      "brake lines",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mazda",
+    "model": "MX-5",
+    "age_category": "6-7",
+    "defect_rate_pct": 9.4,
+    "common_defects": [
+      "rust",
+      "brake lines",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mazda",
+    "model": "MX-5",
+    "age_category": "8-9",
+    "defect_rate_pct": 13.2,
+    "common_defects": [
+      "rust",
+      "brake lines",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mazda",
+    "model": "MX-5",
+    "age_category": "10-11",
+    "defect_rate_pct": 17.8,
+    "common_defects": [
+      "rust",
+      "brake lines",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mazda",
+    "model": "6",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.6,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mazda",
+    "model": "6",
+    "age_category": "4-5",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mazda",
+    "model": "6",
+    "age_category": "6-7",
+    "defect_rate_pct": 9.1,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mazda",
+    "model": "6",
+    "age_category": "8-9",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mazda",
+    "model": "6",
+    "age_category": "10-11",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "age_category": "2-3",
+    "defect_rate_pct": 3,
+    "common_defects": [
+      "brake hoses",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.2,
+    "common_defects": [
+      "brake hoses",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "age_category": "6-7",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake hoses",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "age_category": "8-9",
+    "defect_rate_pct": 11.6,
+    "common_defects": [
+      "brake hoses",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "age_category": "10-11",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake hoses",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.9,
+    "common_defects": [
+      "brake discs",
+      "exhaust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.7,
+    "common_defects": [
+      "brake discs",
+      "exhaust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "age_category": "8-9",
+    "defect_rate_pct": 12.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "age_category": "10-11",
+    "defect_rate_pct": 17.4,
+    "common_defects": [
+      "brake discs",
+      "exhaust"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.8,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.4,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "age_category": "6-7",
+    "defect_rate_pct": 9.3,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "age_category": "8-9",
+    "defect_rate_pct": 13.5,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "age_category": "10-11",
+    "defect_rate_pct": 18.1,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "HR-V",
+    "age_category": "2-3",
+    "defect_rate_pct": 3.3,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Honda",
+    "model": "HR-V",
+    "age_category": "4-5",
+    "defect_rate_pct": 5.6,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Honda",
+    "model": "HR-V",
+    "age_category": "6-7",
+    "defect_rate_pct": 8.2,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "1 Series",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering play"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "BMW",
+    "model": "1 Series",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering play"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "BMW",
+    "model": "1 Series",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.3,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering play"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "1 Series",
+    "age_category": "8-9",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering play"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "BMW",
+    "model": "1 Series",
+    "age_category": "10-11",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering play"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "BMW",
+    "model": "2 Series",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "BMW",
+    "model": "2 Series",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "BMW",
+    "model": "2 Series",
+    "age_category": "6-7",
+    "defect_rate_pct": 10.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "2 Series",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle boots"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "age_category": "10-11",
+    "defect_rate_pct": 22,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "BMW",
+    "model": "5 Series",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "oil leaks",
+      "electronics",
+      "suspension bushings"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "BMW",
+    "model": "5 Series",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "oil leaks",
+      "electronics",
+      "suspension bushings"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "BMW",
+    "model": "5 Series",
+    "age_category": "6-7",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "oil leaks",
+      "electronics",
+      "suspension bushings"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "5 Series",
+    "age_category": "8-9",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "oil leaks",
+      "electronics",
+      "suspension bushings"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "BMW",
+    "model": "5 Series",
+    "age_category": "10-11",
+    "defect_rate_pct": 23,
+    "common_defects": [
+      "oil leaks",
+      "electronics",
+      "suspension bushings"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "BMW",
+    "model": "X1",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.6,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "BMW",
+    "model": "X1",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.4,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "BMW",
+    "model": "X1",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "X1",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "axle springs"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "age_category": "4-5",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.4,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "age_category": "8-9",
+    "defect_rate_pct": 17.3,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "age_category": "10-11",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "brake discs"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "brake discs"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "age_category": "6-7",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "brake discs"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "age_category": "8-9",
+    "defect_rate_pct": 18,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "brake discs"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "age_category": "10-11",
+    "defect_rate_pct": 24.5,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "brake discs"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "age_category": "10-11",
+    "defect_rate_pct": 22,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.9,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "age_category": "8-9",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "age_category": "10-11",
+    "defect_rate_pct": 22.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "age_category": "4-5",
+    "defect_rate_pct": 7,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "age_category": "6-7",
+    "defect_rate_pct": 11,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "age_category": "10-11",
+    "defect_rate_pct": 21,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.3,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.8,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "age_category": "6-7",
+    "defect_rate_pct": 10.8,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.2,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "age_category": "10-11",
+    "defect_rate_pct": 20.5,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.6,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.2,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.2,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.8,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "age_category": "8-9",
+    "defect_rate_pct": 17.8,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.9,
+    "common_defects": [
+      "brake discs",
+      "axle springs",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.7,
+    "common_defects": [
+      "brake discs",
+      "axle springs",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.9,
+    "common_defects": [
+      "brake discs",
+      "axle springs",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.8,
+    "common_defects": [
+      "brake discs",
+      "axle springs",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S-Class",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks",
+      "brake discs"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S-Class",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks",
+      "brake discs"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S-Class",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks",
+      "brake discs"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S-Class",
+    "age_category": "8-9",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks",
+      "brake discs"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S-Class",
+    "age_category": "10-11",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "air suspension",
+      "electronics",
+      "oil leaks",
+      "brake discs"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A1",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "lighting"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "A1",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.3,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "lighting"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "A1",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "lighting"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "A1",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "lighting"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "A1",
+    "age_category": "10-11",
+    "defect_rate_pct": 21.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "lighting"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.6,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "age_category": "10-11",
+    "defect_rate_pct": 22,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.9,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "age_category": "8-9",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "age_category": "10-11",
+    "defect_rate_pct": 22.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "steering rack",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A5",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.6,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "A5",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.4,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "A5",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "A5",
+    "age_category": "8-9",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.2,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.1,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "age_category": "8-9",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "age_category": "10-11",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "oil leaks",
+      "air suspension",
+      "electronics",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "Q2",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.2,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "Q2",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.8,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "Q2",
+    "age_category": "6-7",
+    "defect_rate_pct": 10.5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "Q3",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "Q3",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "Q3",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.6,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "Q3",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "Q5",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Audi",
+    "model": "Q5",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Audi",
+    "model": "Q5",
+    "age_category": "6-7",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Audi",
+    "model": "Q5",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "Q5",
+    "age_category": "10-11",
+    "defect_rate_pct": 22.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "transfer case"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC40",
+    "age_category": "2-3",
+    "defect_rate_pct": 4,
+    "common_defects": [
+      "brake discs",
+      "infotainment",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC40",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "brake discs",
+      "infotainment",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC40",
+    "age_category": "6-7",
+    "defect_rate_pct": 10.2,
+    "common_defects": [
+      "brake discs",
+      "infotainment",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "age_category": "8-9",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "age_category": "10-11",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC90",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC90",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.2,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC90",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC90",
+    "age_category": "8-9",
+    "defect_rate_pct": 17.2,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC90",
+    "age_category": "10-11",
+    "defect_rate_pct": 23,
+    "common_defects": [
+      "air suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "V40",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volvo",
+    "model": "V40",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volvo",
+    "model": "V40",
+    "age_category": "6-7",
+    "defect_rate_pct": 11,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volvo",
+    "model": "V40",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volvo",
+    "model": "V40",
+    "age_category": "10-11",
+    "defect_rate_pct": 20.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "V60",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volvo",
+    "model": "V60",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.4,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volvo",
+    "model": "V60",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.3,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volvo",
+    "model": "V60",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volvo",
+    "model": "V60",
+    "age_category": "10-11",
+    "defect_rate_pct": 21.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "S60",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.4,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volvo",
+    "model": "S60",
+    "age_category": "4-5",
+    "defect_rate_pct": 7,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volvo",
+    "model": "S60",
+    "age_category": "6-7",
+    "defect_rate_pct": 10.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volvo",
+    "model": "S60",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volvo",
+    "model": "S60",
+    "age_category": "10-11",
+    "defect_rate_pct": 20.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG mechatronic",
+      "lighting"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG mechatronic",
+      "lighting"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "age_category": "6-7",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG mechatronic",
+      "lighting"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "age_category": "8-9",
+    "defect_rate_pct": 18,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG mechatronic",
+      "lighting"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "age_category": "10-11",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG mechatronic",
+      "lighting"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "age_category": "4-5",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "age_category": "8-9",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "age_category": "10-11",
+    "defect_rate_pct": 22.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle boots"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle boots"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle boots"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle boots"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "age_category": "10-11",
+    "defect_rate_pct": 24,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle boots"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "age_category": "10-11",
+    "defect_rate_pct": 24,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.2,
+    "common_defects": [
+      "brake discs",
+      "infotainment",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.2,
+    "common_defects": [
+      "brake discs",
+      "infotainment",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.8,
+    "common_defects": [
+      "brake discs",
+      "infotainment",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "T-Cross",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "T-Cross",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle springs",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle springs",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "age_category": "6-7",
+    "defect_rate_pct": 14,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle springs",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "age_category": "8-9",
+    "defect_rate_pct": 19.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle springs",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "age_category": "10-11",
+    "defect_rate_pct": 25,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "axle springs",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Up",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Up",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Up",
+    "age_category": "6-7",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Up",
+    "age_category": "8-9",
+    "defect_rate_pct": 16.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Up",
+    "age_category": "10-11",
+    "defect_rate_pct": 22,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "ID.3",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "brake discs",
+      "software",
+      "panel gaps"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "ID.4",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.2,
+    "common_defects": [
+      "software",
+      "brake discs",
+      "infotainment"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "age_category": "8-9",
+    "defect_rate_pct": 17.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "age_category": "10-11",
+    "defect_rate_pct": 23,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.9,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.2,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "age_category": "8-9",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "age_category": "10-11",
+    "defect_rate_pct": 22.2,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "age_category": "6-7",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "age_category": "8-9",
+    "defect_rate_pct": 18,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "age_category": "10-11",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "DSG",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Karoq",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Karoq",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Skoda",
+    "model": "Karoq",
+    "age_category": "6-7",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Skoda",
+    "model": "Scala",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.3,
+    "common_defects": [
+      "brake discs",
+      "infotainment"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Scala",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.3,
+    "common_defects": [
+      "brake discs",
+      "infotainment"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kamiq",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.1,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kamiq",
+    "age_category": "4-5",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "age_category": "10-11",
+    "defect_rate_pct": 24,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.2,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.3,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "age_category": "8-9",
+    "defect_rate_pct": 17.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "age_category": "10-11",
+    "defect_rate_pct": 23.2,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i30",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i30",
+    "age_category": "4-5",
+    "defect_rate_pct": 9,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i30",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i30",
+    "age_category": "8-9",
+    "defect_rate_pct": 19,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i30",
+    "age_category": "10-11",
+    "defect_rate_pct": 24.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "age_category": "10-11",
+    "defect_rate_pct": 23.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Kona",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear",
+      "infotainment"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Kona",
+    "age_category": "4-5",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "brake discs",
+      "tyre wear",
+      "infotainment"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Kona",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear",
+      "infotainment"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "age_category": "6-7",
+    "defect_rate_pct": 14,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "age_category": "8-9",
+    "defect_rate_pct": 19.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "age_category": "10-11",
+    "defect_rate_pct": 25.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Ioniq",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "brake discs",
+      "battery degradation"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Ioniq",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "battery degradation"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Ioniq",
+    "age_category": "6-7",
+    "defect_rate_pct": 11,
+    "common_defects": [
+      "brake discs",
+      "battery degradation"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Kia",
+    "model": "Picanto",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Kia",
+    "model": "Picanto",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Kia",
+    "model": "Picanto",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Kia",
+    "model": "Picanto",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Kia",
+    "model": "Picanto",
+    "age_category": "10-11",
+    "defect_rate_pct": 24.2,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.3,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "age_category": "6-7",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "age_category": "8-9",
+    "defect_rate_pct": 18,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "age_category": "10-11",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Ceed",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Kia",
+    "model": "Ceed",
+    "age_category": "4-5",
+    "defect_rate_pct": 9,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Kia",
+    "model": "Ceed",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Kia",
+    "model": "Ceed",
+    "age_category": "8-9",
+    "defect_rate_pct": 19,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Kia",
+    "model": "Ceed",
+    "age_category": "10-11",
+    "defect_rate_pct": 24.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "age_category": "10-11",
+    "defect_rate_pct": 24.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Niro",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "brake discs",
+      "battery",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Kia",
+    "model": "Niro",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "battery",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Kia",
+    "model": "Niro",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "battery",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Kia",
+    "model": "Sorento",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Kia",
+    "model": "Sorento",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Kia",
+    "model": "Sorento",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Kia",
+    "model": "Sorento",
+    "age_category": "8-9",
+    "defect_rate_pct": 20,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Kia",
+    "model": "Sorento",
+    "age_category": "10-11",
+    "defect_rate_pct": 26,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "EV6",
+    "age_category": "2-3",
+    "defect_rate_pct": 5,
+    "common_defects": [
+      "brake discs",
+      "software",
+      "panel alignment"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Seat",
+    "model": "Ibiza",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "exhaust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Seat",
+    "model": "Ibiza",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "exhaust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Seat",
+    "model": "Ibiza",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "exhaust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Seat",
+    "model": "Ibiza",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "exhaust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Seat",
+    "model": "Ibiza",
+    "age_category": "10-11",
+    "defect_rate_pct": 24.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "exhaust"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Seat",
+    "model": "Leon",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Seat",
+    "model": "Leon",
+    "age_category": "4-5",
+    "defect_rate_pct": 9,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Seat",
+    "model": "Leon",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Seat",
+    "model": "Leon",
+    "age_category": "8-9",
+    "defect_rate_pct": 19,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Seat",
+    "model": "Leon",
+    "age_category": "10-11",
+    "defect_rate_pct": 25,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "DSG",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Seat",
+    "model": "Arona",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.3,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Seat",
+    "model": "Arona",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.3,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Seat",
+    "model": "Arona",
+    "age_category": "6-7",
+    "defect_rate_pct": 12.8,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Seat",
+    "model": "Ateca",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Seat",
+    "model": "Ateca",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Seat",
+    "model": "Ateca",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Seat",
+    "model": "Ateca",
+    "age_category": "8-9",
+    "defect_rate_pct": 18.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "axle boots"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Ford",
+    "model": "Fiesta",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Ford",
+    "model": "Fiesta",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Ford",
+    "model": "Fiesta",
+    "age_category": "6-7",
+    "defect_rate_pct": 14,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Ford",
+    "model": "Fiesta",
+    "age_category": "8-9",
+    "defect_rate_pct": 19.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Ford",
+    "model": "Fiesta",
+    "age_category": "10-11",
+    "defect_rate_pct": 25.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Focus",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "PowerShift"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Ford",
+    "model": "Focus",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "PowerShift"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Ford",
+    "model": "Focus",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "PowerShift"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Ford",
+    "model": "Focus",
+    "age_category": "8-9",
+    "defect_rate_pct": 20,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "PowerShift"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Ford",
+    "model": "Focus",
+    "age_category": "10-11",
+    "defect_rate_pct": 26,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "PowerShift"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Kuga",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Ford",
+    "model": "Kuga",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Ford",
+    "model": "Kuga",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Ford",
+    "model": "Kuga",
+    "age_category": "8-9",
+    "defect_rate_pct": 20.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Ford",
+    "model": "Kuga",
+    "age_category": "10-11",
+    "defect_rate_pct": 26.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Puma",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Ford",
+    "model": "Puma",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Ford",
+    "model": "Mondeo",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering rack"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Ford",
+    "model": "Mondeo",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering rack"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Ford",
+    "model": "Mondeo",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering rack"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Ford",
+    "model": "Mondeo",
+    "age_category": "8-9",
+    "defect_rate_pct": 20.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering rack"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Ford",
+    "model": "Mondeo",
+    "age_category": "10-11",
+    "defect_rate_pct": 26.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "steering rack"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "EcoSport",
+    "age_category": "2-3",
+    "defect_rate_pct": 7,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Ford",
+    "model": "EcoSport",
+    "age_category": "4-5",
+    "defect_rate_pct": 10.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Ford",
+    "model": "EcoSport",
+    "age_category": "6-7",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Ford",
+    "model": "EcoSport",
+    "age_category": "8-9",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Opel",
+    "model": "Corsa",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Opel",
+    "model": "Corsa",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Opel",
+    "model": "Corsa",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Opel",
+    "model": "Corsa",
+    "age_category": "8-9",
+    "defect_rate_pct": 20,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Opel",
+    "model": "Corsa",
+    "age_category": "10-11",
+    "defect_rate_pct": 26,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Opel",
+    "model": "Astra",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Opel",
+    "model": "Astra",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Opel",
+    "model": "Astra",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Opel",
+    "model": "Astra",
+    "age_category": "8-9",
+    "defect_rate_pct": 20.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Opel",
+    "model": "Astra",
+    "age_category": "10-11",
+    "defect_rate_pct": 26.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Opel",
+    "model": "Mokka",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Opel",
+    "model": "Mokka",
+    "age_category": "4-5",
+    "defect_rate_pct": 10,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Opel",
+    "model": "Mokka",
+    "age_category": "6-7",
+    "defect_rate_pct": 15,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Opel",
+    "model": "Mokka",
+    "age_category": "8-9",
+    "defect_rate_pct": 20.8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Opel",
+    "model": "Mokka",
+    "age_category": "10-11",
+    "defect_rate_pct": 27,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Opel",
+    "model": "Grandland",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Opel",
+    "model": "Grandland",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Opel",
+    "model": "Grandland",
+    "age_category": "6-7",
+    "defect_rate_pct": 14,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Opel",
+    "model": "Insignia",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Opel",
+    "model": "Insignia",
+    "age_category": "4-5",
+    "defect_rate_pct": 10.2,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Opel",
+    "model": "Insignia",
+    "age_category": "6-7",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Opel",
+    "model": "Insignia",
+    "age_category": "8-9",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Opel",
+    "model": "Insignia",
+    "age_category": "10-11",
+    "defect_rate_pct": 27.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "steering",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Opel",
+    "model": "Crossland",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.2,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Opel",
+    "model": "Crossland",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Opel",
+    "model": "Crossland",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.2,
+    "common_defects": [
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Nissan",
+    "model": "Micra",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Nissan",
+    "model": "Micra",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Nissan",
+    "model": "Micra",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Nissan",
+    "model": "Micra",
+    "age_category": "8-9",
+    "defect_rate_pct": 20,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Nissan",
+    "model": "Micra",
+    "age_category": "10-11",
+    "defect_rate_pct": 26,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.2,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.8,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.8,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "age_category": "8-9",
+    "defect_rate_pct": 20.5,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "age_category": "10-11",
+    "defect_rate_pct": 26.5,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Nissan",
+    "model": "Juke",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Nissan",
+    "model": "Juke",
+    "age_category": "4-5",
+    "defect_rate_pct": 10,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Nissan",
+    "model": "Juke",
+    "age_category": "6-7",
+    "defect_rate_pct": 15.2,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Nissan",
+    "model": "Juke",
+    "age_category": "8-9",
+    "defect_rate_pct": 21,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Nissan",
+    "model": "Juke",
+    "age_category": "10-11",
+    "defect_rate_pct": 27,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "suspension",
+      "turbo"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.8,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "age_category": "4-5",
+    "defect_rate_pct": 10.5,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "age_category": "6-7",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "age_category": "8-9",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "age_category": "10-11",
+    "defect_rate_pct": 27.5,
+    "common_defects": [
+      "brake discs",
+      "CVT",
+      "oil leaks",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Nissan",
+    "model": "Leaf",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "battery degradation",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Nissan",
+    "model": "Leaf",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "battery degradation",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Nissan",
+    "model": "Leaf",
+    "age_category": "6-7",
+    "defect_rate_pct": 10.8,
+    "common_defects": [
+      "battery degradation",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Nissan",
+    "model": "Leaf",
+    "age_category": "8-9",
+    "defect_rate_pct": 15,
+    "common_defects": [
+      "battery degradation",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mini",
+    "model": "Cooper",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "clutch"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mini",
+    "model": "Cooper",
+    "age_category": "4-5",
+    "defect_rate_pct": 8.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "clutch"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mini",
+    "model": "Cooper",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "clutch"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mini",
+    "model": "Cooper",
+    "age_category": "8-9",
+    "defect_rate_pct": 19,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "clutch"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mini",
+    "model": "Cooper",
+    "age_category": "10-11",
+    "defect_rate_pct": 25,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "clutch"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mini",
+    "model": "Countryman",
+    "age_category": "2-3",
+    "defect_rate_pct": 6,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mini",
+    "model": "Countryman",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mini",
+    "model": "Countryman",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mini",
+    "model": "Countryman",
+    "age_category": "8-9",
+    "defect_rate_pct": 19.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mini",
+    "model": "Countryman",
+    "age_category": "10-11",
+    "defect_rate_pct": 26,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension",
+      "transfer case"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Mini",
+    "model": "Clubman",
+    "age_category": "2-3",
+    "defect_rate_pct": 5.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Mini",
+    "model": "Clubman",
+    "age_category": "4-5",
+    "defect_rate_pct": 9,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Mini",
+    "model": "Clubman",
+    "age_category": "6-7",
+    "defect_rate_pct": 13.8,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Mini",
+    "model": "Clubman",
+    "age_category": "8-9",
+    "defect_rate_pct": 19.2,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Mini",
+    "model": "Clubman",
+    "age_category": "10-11",
+    "defect_rate_pct": 25.5,
+    "common_defects": [
+      "oil leaks",
+      "brake discs",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Swift",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.2,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Swift",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.8,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Swift",
+    "age_category": "6-7",
+    "defect_rate_pct": 10.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Swift",
+    "age_category": "8-9",
+    "defect_rate_pct": 15,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Swift",
+    "age_category": "10-11",
+    "defect_rate_pct": 20.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "age_category": "6-7",
+    "defect_rate_pct": 11,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "age_category": "10-11",
+    "defect_rate_pct": 21,
+    "common_defects": [
+      "brake discs",
+      "axle boots",
+      "suspension"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Ignis",
+    "age_category": "2-3",
+    "defect_rate_pct": 4,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Ignis",
+    "age_category": "4-5",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Ignis",
+    "age_category": "6-7",
+    "defect_rate_pct": 10,
+    "common_defects": [
+      "brake discs",
+      "tyre wear"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "age_category": "6-7",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "age_category": "8-9",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "age_category": "10-11",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "rust"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Suzuki",
+    "model": "SX4 S-Cross",
+    "age_category": "2-3",
+    "defect_rate_pct": 4.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "CVT"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Suzuki",
+    "model": "SX4 S-Cross",
+    "age_category": "4-5",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "CVT"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Suzuki",
+    "model": "SX4 S-Cross",
+    "age_category": "6-7",
+    "defect_rate_pct": 11,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "CVT"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Suzuki",
+    "model": "SX4 S-Cross",
+    "age_category": "8-9",
+    "defect_rate_pct": 15.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "CVT"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Suzuki",
+    "model": "SX4 S-Cross",
+    "age_category": "10-11",
+    "defect_rate_pct": 21,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "CVT"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model 3",
+    "age_category": "2-3",
+    "defect_rate_pct": 7,
+    "common_defects": [
+      "panel gaps",
+      "suspension",
+      "brake discs",
+      "paint defects"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model 3",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "panel gaps",
+      "suspension",
+      "brake discs",
+      "paint defects"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model 3",
+    "age_category": "6-7",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "panel gaps",
+      "suspension",
+      "brake discs",
+      "paint defects"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model Y",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "panel gaps",
+      "suspension",
+      "paint defects",
+      "rattles"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model Y",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.8,
+    "common_defects": [
+      "panel gaps",
+      "suspension",
+      "paint defects",
+      "rattles"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model S",
+    "age_category": "2-3",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "air suspension",
+      "door handles",
+      "touchscreen",
+      "drivetrain"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model S",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "air suspension",
+      "door handles",
+      "touchscreen",
+      "drivetrain"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model S",
+    "age_category": "6-7",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "air suspension",
+      "door handles",
+      "touchscreen",
+      "drivetrain"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model S",
+    "age_category": "8-9",
+    "defect_rate_pct": 22,
+    "common_defects": [
+      "air suspension",
+      "door handles",
+      "touchscreen",
+      "drivetrain"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model X",
+    "age_category": "2-3",
+    "defect_rate_pct": 9,
+    "common_defects": [
+      "falcon wing doors",
+      "air suspension",
+      "touchscreen",
+      "drivetrain"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model X",
+    "age_category": "4-5",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "falcon wing doors",
+      "air suspension",
+      "touchscreen",
+      "drivetrain"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model X",
+    "age_category": "6-7",
+    "defect_rate_pct": 18,
+    "common_defects": [
+      "falcon wing doors",
+      "air suspension",
+      "touchscreen",
+      "drivetrain"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Renault",
+    "model": "Clio",
+    "age_category": "2-3",
+    "defect_rate_pct": 7,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Renault",
+    "model": "Clio",
+    "age_category": "4-5",
+    "defect_rate_pct": 10.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Renault",
+    "model": "Clio",
+    "age_category": "6-7",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Renault",
+    "model": "Clio",
+    "age_category": "8-9",
+    "defect_rate_pct": 22,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Renault",
+    "model": "Clio",
+    "age_category": "10-11",
+    "defect_rate_pct": 28,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Captur",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Renault",
+    "model": "Captur",
+    "age_category": "4-5",
+    "defect_rate_pct": 11,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Renault",
+    "model": "Captur",
+    "age_category": "6-7",
+    "defect_rate_pct": 16.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Renault",
+    "model": "Captur",
+    "age_category": "8-9",
+    "defect_rate_pct": 22.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Renault",
+    "model": "Megane",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "electronics",
+      "suspension",
+      "oil leaks",
+      "turbo"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Renault",
+    "model": "Megane",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "electronics",
+      "suspension",
+      "oil leaks",
+      "turbo"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Renault",
+    "model": "Megane",
+    "age_category": "6-7",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "brake discs",
+      "electronics",
+      "suspension",
+      "oil leaks",
+      "turbo"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Renault",
+    "model": "Megane",
+    "age_category": "8-9",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "brake discs",
+      "electronics",
+      "suspension",
+      "oil leaks",
+      "turbo"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Renault",
+    "model": "Megane",
+    "age_category": "10-11",
+    "defect_rate_pct": 29.5,
+    "common_defects": [
+      "brake discs",
+      "electronics",
+      "suspension",
+      "oil leaks",
+      "turbo"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Kadjar",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Renault",
+    "model": "Kadjar",
+    "age_category": "4-5",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Renault",
+    "model": "Kadjar",
+    "age_category": "6-7",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Renault",
+    "model": "Kadjar",
+    "age_category": "8-9",
+    "defect_rate_pct": 24,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Renault",
+    "model": "Scenic",
+    "age_category": "2-3",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Renault",
+    "model": "Scenic",
+    "age_category": "4-5",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Renault",
+    "model": "Scenic",
+    "age_category": "6-7",
+    "defect_rate_pct": 18,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Renault",
+    "model": "Scenic",
+    "age_category": "8-9",
+    "defect_rate_pct": 24.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Renault",
+    "model": "Scenic",
+    "age_category": "10-11",
+    "defect_rate_pct": 30.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Twingo",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Renault",
+    "model": "Twingo",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Renault",
+    "model": "Twingo",
+    "age_category": "6-7",
+    "defect_rate_pct": 16.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Renault",
+    "model": "Twingo",
+    "age_category": "8-9",
+    "defect_rate_pct": 22.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Renault",
+    "model": "Twingo",
+    "age_category": "10-11",
+    "defect_rate_pct": 28.5,
+    "common_defects": [
+      "brake discs",
+      "exhaust",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Zoe",
+    "age_category": "2-3",
+    "defect_rate_pct": 6.5,
+    "common_defects": [
+      "brake discs",
+      "battery degradation",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Renault",
+    "model": "Zoe",
+    "age_category": "4-5",
+    "defect_rate_pct": 9.8,
+    "common_defects": [
+      "brake discs",
+      "battery degradation",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Renault",
+    "model": "Zoe",
+    "age_category": "6-7",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "battery degradation",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Peugeot",
+    "model": "208",
+    "age_category": "2-3",
+    "defect_rate_pct": 7,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Peugeot",
+    "model": "208",
+    "age_category": "4-5",
+    "defect_rate_pct": 10.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Peugeot",
+    "model": "208",
+    "age_category": "6-7",
+    "defect_rate_pct": 16,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Peugeot",
+    "model": "208",
+    "age_category": "8-9",
+    "defect_rate_pct": 22,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Peugeot",
+    "model": "208",
+    "age_category": "10-11",
+    "defect_rate_pct": 28,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Peugeot",
+    "model": "308",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "turbo"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Peugeot",
+    "model": "308",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "turbo"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Peugeot",
+    "model": "308",
+    "age_category": "6-7",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "turbo"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Peugeot",
+    "model": "308",
+    "age_category": "8-9",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "turbo"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Peugeot",
+    "model": "308",
+    "age_category": "10-11",
+    "defect_rate_pct": 29.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "turbo"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Peugeot",
+    "model": "2008",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Peugeot",
+    "model": "2008",
+    "age_category": "4-5",
+    "defect_rate_pct": 11,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Peugeot",
+    "model": "2008",
+    "age_category": "6-7",
+    "defect_rate_pct": 16.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Peugeot",
+    "model": "2008",
+    "age_category": "8-9",
+    "defect_rate_pct": 22.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Peugeot",
+    "model": "3008",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Peugeot",
+    "model": "3008",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Peugeot",
+    "model": "3008",
+    "age_category": "6-7",
+    "defect_rate_pct": 17.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Peugeot",
+    "model": "3008",
+    "age_category": "8-9",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Peugeot",
+    "model": "3008",
+    "age_category": "10-11",
+    "defect_rate_pct": 29.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "DPF",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Peugeot",
+    "model": "5008",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Peugeot",
+    "model": "5008",
+    "age_category": "4-5",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Peugeot",
+    "model": "5008",
+    "age_category": "6-7",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Peugeot",
+    "model": "5008",
+    "age_category": "8-9",
+    "defect_rate_pct": 24,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Peugeot",
+    "model": "5008",
+    "age_category": "10-11",
+    "defect_rate_pct": 30,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Peugeot",
+    "model": "508",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Peugeot",
+    "model": "508",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Peugeot",
+    "model": "508",
+    "age_category": "6-7",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Peugeot",
+    "model": "508",
+    "age_category": "8-9",
+    "defect_rate_pct": 23,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Peugeot",
+    "model": "508",
+    "age_category": "10-11",
+    "defect_rate_pct": 29,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3",
+    "age_category": "6-7",
+    "defect_rate_pct": 17,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3",
+    "age_category": "8-9",
+    "defect_rate_pct": 23,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3",
+    "age_category": "10-11",
+    "defect_rate_pct": 29,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3 Aircross",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3 Aircross",
+    "age_category": "4-5",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Citroen",
+    "model": "C3 Aircross",
+    "age_category": "6-7",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Citroen",
+    "model": "C4",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Citroen",
+    "model": "C4",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Citroen",
+    "model": "C4",
+    "age_category": "6-7",
+    "defect_rate_pct": 17.2,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Citroen",
+    "model": "C4",
+    "age_category": "8-9",
+    "defect_rate_pct": 23.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Citroen",
+    "model": "C4",
+    "age_category": "10-11",
+    "defect_rate_pct": 29.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks",
+      "DPF"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Citroen",
+    "model": "C5 Aircross",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Citroen",
+    "model": "C5 Aircross",
+    "age_category": "4-5",
+    "defect_rate_pct": 12,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Citroen",
+    "model": "C5 Aircross",
+    "age_category": "6-7",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Citroen",
+    "model": "C5 Aircross",
+    "age_category": "8-9",
+    "defect_rate_pct": 24,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "electronics",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Citroen",
+    "model": "Berlingo",
+    "age_category": "2-3",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "sliding doors",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Citroen",
+    "model": "Berlingo",
+    "age_category": "4-5",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "sliding doors",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Citroen",
+    "model": "Berlingo",
+    "age_category": "6-7",
+    "defect_rate_pct": 18,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "sliding doors",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Citroen",
+    "model": "Berlingo",
+    "age_category": "8-9",
+    "defect_rate_pct": 24.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "sliding doors",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Citroen",
+    "model": "Berlingo",
+    "age_category": "10-11",
+    "defect_rate_pct": 31,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "sliding doors",
+      "oil leaks",
+      "electronics"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Fiat",
+    "model": "500",
+    "age_category": "2-3",
+    "defect_rate_pct": 7.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Fiat",
+    "model": "500",
+    "age_category": "4-5",
+    "defect_rate_pct": 11.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Fiat",
+    "model": "500",
+    "age_category": "6-7",
+    "defect_rate_pct": 17.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Fiat",
+    "model": "500",
+    "age_category": "8-9",
+    "defect_rate_pct": 24,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Fiat",
+    "model": "500",
+    "age_category": "10-11",
+    "defect_rate_pct": 30.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Fiat",
+    "model": "Panda",
+    "age_category": "2-3",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Fiat",
+    "model": "Panda",
+    "age_category": "4-5",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Fiat",
+    "model": "Panda",
+    "age_category": "6-7",
+    "defect_rate_pct": 18.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Fiat",
+    "model": "Panda",
+    "age_category": "8-9",
+    "defect_rate_pct": 25,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Fiat",
+    "model": "Panda",
+    "age_category": "10-11",
+    "defect_rate_pct": 31.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Fiat",
+    "model": "Tipo",
+    "age_category": "2-3",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Fiat",
+    "model": "Tipo",
+    "age_category": "4-5",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Fiat",
+    "model": "Tipo",
+    "age_category": "6-7",
+    "defect_rate_pct": 19,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Fiat",
+    "model": "Tipo",
+    "age_category": "8-9",
+    "defect_rate_pct": 25.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Fiat",
+    "model": "Tipo",
+    "age_category": "10-11",
+    "defect_rate_pct": 32,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "rust"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Fiat",
+    "model": "500X",
+    "age_category": "2-3",
+    "defect_rate_pct": 8,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Fiat",
+    "model": "500X",
+    "age_category": "4-5",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Fiat",
+    "model": "500X",
+    "age_category": "6-7",
+    "defect_rate_pct": 18.5,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Fiat",
+    "model": "500X",
+    "age_category": "8-9",
+    "defect_rate_pct": 25,
+    "common_defects": [
+      "brake discs",
+      "oil leaks",
+      "suspension",
+      "electronics"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Fiat",
+    "model": "500L",
+    "age_category": "2-3",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Fiat",
+    "model": "500L",
+    "age_category": "4-5",
+    "defect_rate_pct": 13,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Fiat",
+    "model": "500L",
+    "age_category": "6-7",
+    "defect_rate_pct": 19,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Fiat",
+    "model": "500L",
+    "age_category": "8-9",
+    "defect_rate_pct": 25.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Fiat",
+    "model": "500L",
+    "age_category": "10-11",
+    "defect_rate_pct": 32,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "electronics",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Dacia",
+    "model": "Sandero",
+    "age_category": "2-3",
+    "defect_rate_pct": 9,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Dacia",
+    "model": "Sandero",
+    "age_category": "4-5",
+    "defect_rate_pct": 14,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Dacia",
+    "model": "Sandero",
+    "age_category": "6-7",
+    "defect_rate_pct": 20,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Dacia",
+    "model": "Sandero",
+    "age_category": "8-9",
+    "defect_rate_pct": 26.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Dacia",
+    "model": "Sandero",
+    "age_category": "10-11",
+    "defect_rate_pct": 33,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Dacia",
+    "model": "Duster",
+    "age_category": "2-3",
+    "defect_rate_pct": 9.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust",
+      "steering"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Dacia",
+    "model": "Duster",
+    "age_category": "4-5",
+    "defect_rate_pct": 14.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust",
+      "steering"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Dacia",
+    "model": "Duster",
+    "age_category": "6-7",
+    "defect_rate_pct": 21,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust",
+      "steering"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Dacia",
+    "model": "Duster",
+    "age_category": "8-9",
+    "defect_rate_pct": 27.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust",
+      "steering"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Dacia",
+    "model": "Duster",
+    "age_category": "10-11",
+    "defect_rate_pct": 34,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "oil leaks",
+      "rust",
+      "steering"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Dacia",
+    "model": "Logan",
+    "age_category": "2-3",
+    "defect_rate_pct": 9,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Dacia",
+    "model": "Logan",
+    "age_category": "4-5",
+    "defect_rate_pct": 14,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Dacia",
+    "model": "Logan",
+    "age_category": "6-7",
+    "defect_rate_pct": 20.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Dacia",
+    "model": "Logan",
+    "age_category": "8-9",
+    "defect_rate_pct": 27,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Dacia",
+    "model": "Logan",
+    "age_category": "10-11",
+    "defect_rate_pct": 33.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Dacia",
+    "model": "Dokker",
+    "age_category": "2-3",
+    "defect_rate_pct": 10,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "sliding doors",
+      "oil leaks"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Dacia",
+    "model": "Dokker",
+    "age_category": "4-5",
+    "defect_rate_pct": 15,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "sliding doors",
+      "oil leaks"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Dacia",
+    "model": "Dokker",
+    "age_category": "6-7",
+    "defect_rate_pct": 21.5,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "sliding doors",
+      "oil leaks"
+    ],
+    "rank": 3
+  },
+  {
+    "brand": "Dacia",
+    "model": "Dokker",
+    "age_category": "8-9",
+    "defect_rate_pct": 28,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "sliding doors",
+      "oil leaks"
+    ],
+    "rank": 4
+  },
+  {
+    "brand": "Dacia",
+    "model": "Dokker",
+    "age_category": "10-11",
+    "defect_rate_pct": 35,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "exhaust",
+      "rust",
+      "sliding doors",
+      "oil leaks"
+    ],
+    "rank": 5
+  },
+  {
+    "brand": "Dacia",
+    "model": "Spring",
+    "age_category": "2-3",
+    "defect_rate_pct": 8.5,
+    "common_defects": [
+      "brake discs",
+      "build quality",
+      "electronics"
+    ],
+    "rank": 1
+  },
+  {
+    "brand": "Dacia",
+    "model": "Spring",
+    "age_category": "4-5",
+    "defect_rate_pct": 12.5,
+    "common_defects": [
+      "brake discs",
+      "build quality",
+      "electronics"
+    ],
+    "rank": 2
+  },
+  {
+    "brand": "Dacia",
+    "model": "Jogger",
+    "age_category": "2-3",
+    "defect_rate_pct": 8.8,
+    "common_defects": [
+      "brake discs",
+      "suspension",
+      "build quality"
+    ],
+    "rank": 1
+  }
+]

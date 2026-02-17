@@ -316,7 +316,7 @@
   },
   {
     "name": "2002",
-    "count": 806,
+    "count": 807,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=2002&modelMatch=1&modelInclModel=on"
   },
   {
@@ -471,7 +471,7 @@
   },
   {
     "name": "2800",
-    "count": 87,
+    "count": 88,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=2800&modelMatch=1&modelInclModel=on"
   },
   {
@@ -481,7 +481,7 @@
   },
   {
     "name": "3",
-    "count": 6391,
+    "count": 6397,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=3&modelMatch=1&modelInclModel=on"
   },
   {
@@ -491,7 +491,7 @@
   },
   {
     "name": "3 Cabrio",
-    "count": 779,
+    "count": 780,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=3+Cabrio&modelMatch=1&modelInclModel=on"
   },
   {
@@ -1356,7 +1356,7 @@
   },
   {
     "name": "4 Gran Coupé",
-    "count": 95,
+    "count": 96,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=4+Gran+Coup%C3%A9&modelMatch=1&modelInclModel=on"
   },
   {
@@ -1446,7 +1446,7 @@
   },
   {
     "name": "5",
-    "count": 5802,
+    "count": 5806,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=5&modelMatch=1&modelInclModel=on"
   },
   {
@@ -1906,7 +1906,7 @@
   },
   {
     "name": "7",
-    "count": 2818,
+    "count": 2820,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=7&modelMatch=1&modelInclModel=on"
   },
   {
@@ -2421,7 +2421,7 @@
   },
   {
     "name": "i3",
-    "count": 184,
+    "count": 185,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=i3&modelMatch=1&modelInclModel=on"
   },
   {
@@ -2441,7 +2441,7 @@
   },
   {
     "name": "i4",
-    "count": 17,
+    "count": 18,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=i4&modelMatch=1&modelInclModel=on"
   },
   {
@@ -2451,7 +2451,7 @@
   },
   {
     "name": "i7",
-    "count": 18,
+    "count": 19,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=i7&modelMatch=1&modelInclModel=on"
   },
   {
@@ -2536,7 +2536,7 @@
   },
   {
     "name": "K 1100 LT",
-    "count": 10,
+    "count": 11,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=K+1100+LT&modelMatch=1&modelInclModel=on"
   },
   {
@@ -3201,7 +3201,7 @@
   },
   {
     "name": "R 27",
-    "count": 15,
+    "count": 16,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=R+27&modelMatch=1&modelInclModel=on"
   },
   {
@@ -3466,18 +3466,13 @@
   },
   {
     "name": "R 80 RT",
-    "count": 129,
+    "count": 134,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=R+80+RT&modelMatch=1&modelInclModel=on"
   },
   {
     "name": "R 80 RT TIC",
     "count": 5,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=R+80+RT+TIC&modelMatch=1&modelInclModel=on"
-  },
-  {
-    "name": "R 80 RT-P",
-    "count": 4,
-    "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=R+80+RT-P&modelMatch=1&modelInclModel=on"
   },
   {
     "name": "R 80 ST",
@@ -3631,7 +3626,7 @@
   },
   {
     "name": "X3",
-    "count": 1055,
+    "count": 1057,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=X3&modelMatch=1&modelInclModel=on"
   },
   {
@@ -3656,7 +3651,7 @@
   },
   {
     "name": "X5",
-    "count": 2555,
+    "count": 2556,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=X5&modelMatch=1&modelInclModel=on"
   },
   {
@@ -3731,7 +3726,7 @@
   },
   {
     "name": "Z4",
-    "count": 515,
+    "count": 516,
     "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=Z4&modelMatch=1&modelInclModel=on"
   },
   {

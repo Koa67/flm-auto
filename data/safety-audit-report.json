@@ -1,0 +1,325 @@
+{
+  "timestamp": "2026-02-12T21:47:57.636Z",
+  "safety_ratings": {
+    "total": 876,
+    "coverage_pct": 20.5,
+    "by_source": {
+      "euroncap": 282,
+      "nhtsa": 189,
+      "propagated": 405,
+      "other": 0
+    },
+    "star_distribution": {
+      "1": 0,
+      "2": 2,
+      "3": 54,
+      "4": 238,
+      "5": 582
+    }
+  },
+  "recalls": {
+    "total": 2820,
+    "by_source": {
+      "nhtsa": 2820
+    },
+    "by_brand": {
+      "Ford": 562,
+      "Toyota": 258,
+      "BMW": 225,
+      "Nissan": 201,
+      "Hyundai": 183,
+      "Volkswagen": 176,
+      "Honda": 172,
+      "Mercedes-Benz": 156,
+      "Kia": 150,
+      "Volvo": 123,
+      "Audi": 122,
+      "Porsche": 98,
+      "Tesla": 85,
+      "Mazda": 75,
+      "Jaguar": 48
+    }
+  },
+  "brand_coverage": {
+    "Tesla": {
+      "total": 6,
+      "rated": 5
+    },
+    "Lexus": {
+      "total": 13,
+      "rated": 9
+    },
+    "Land Rover": {
+      "total": 9,
+      "rated": 6
+    },
+    "Seat": {
+      "total": 15,
+      "rated": 8
+    },
+    "Ford": {
+      "total": 27,
+      "rated": 14
+    },
+    "Hyundai": {
+      "total": 220,
+      "rated": 114
+    },
+    "Volvo": {
+      "total": 113,
+      "rated": 46
+    },
+    "Kia": {
+      "total": 189,
+      "rated": 74
+    },
+    "Opel": {
+      "total": 23,
+      "rated": 9
+    },
+    "Jaguar": {
+      "total": 12,
+      "rated": 4
+    },
+    "Mini": {
+      "total": 10,
+      "rated": 3
+    },
+    "Nissan": {
+      "total": 359,
+      "rated": 94
+    },
+    "Toyota": {
+      "total": 535,
+      "rated": 122
+    },
+    "Mazda": {
+      "total": 169,
+      "rated": 36
+    },
+    "Volkswagen": {
+      "total": 465,
+      "rated": 91
+    },
+    "Honda": {
+      "total": 186,
+      "rated": 35
+    },
+    "Alfa Romeo": {
+      "total": 25,
+      "rated": 4
+    },
+    "Renault": {
+      "total": 246,
+      "rated": 34
+    },
+    "Audi": {
+      "total": 445,
+      "rated": 56
+    },
+    "Mercedes-Benz": {
+      "total": 435,
+      "rated": 54
+    },
+    "Skoda": {
+      "total": 113,
+      "rated": 13
+    },
+    "Peugeot": {
+      "total": 163,
+      "rated": 15
+    },
+    "Fiat": {
+      "total": 33,
+      "rated": 3
+    },
+    "BMW": {
+      "total": 250,
+      "rated": 21
+    },
+    "Porsche": {
+      "total": 137,
+      "rated": 6
+    },
+    "Lamborghini": {
+      "total": 27,
+      "rated": 0
+    },
+    "Ferrari": {
+      "total": 13,
+      "rated": 0
+    },
+    "Citroen": {
+      "total": 8,
+      "rated": 0
+    },
+    "Maserati": {
+      "total": 6,
+      "rated": 0
+    },
+    "Aston Martin": {
+      "total": 6,
+      "rated": 0
+    },
+    "Bentley": {
+      "total": 4,
+      "rated": 0
+    },
+    "Rolls-Royce": {
+      "total": 6,
+      "rated": 0
+    }
+  },
+  "top_gaps": [
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "total": 108,
+      "unrated": 108
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3",
+      "total": 81,
+      "unrated": 57
+    },
+    {
+      "brand": "Audi",
+      "model": "A6",
+      "total": 47,
+      "unrated": 46
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe S",
+      "total": 41,
+      "unrated": 40
+    },
+    {
+      "brand": "Audi",
+      "model": "A4",
+      "total": 39,
+      "unrated": 38
+    },
+    {
+      "brand": "Audi",
+      "model": "TT",
+      "total": 37,
+      "unrated": 37
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "total": 48,
+      "unrated": 36
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Transporter",
+      "total": 33,
+      "unrated": 33
+    },
+    {
+      "brand": "Toyota",
+      "model": "Land Cruiser",
+      "total": 31,
+      "unrated": 31
+    },
+    {
+      "brand": "Porsche",
+      "model": "911",
+      "total": 30,
+      "unrated": 30
+    },
+    {
+      "brand": "Audi",
+      "model": "A3",
+      "total": 30,
+      "unrated": 29
+    },
+    {
+      "brand": "Audi",
+      "model": "A",
+      "total": 28,
+      "unrated": 28
+    },
+    {
+      "brand": "Toyota",
+      "model": "crown",
+      "total": 32,
+      "unrated": 28
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane",
+      "total": 31,
+      "unrated": 26
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe E",
+      "total": 25,
+      "unrated": 25
+    },
+    {
+      "brand": "Honda",
+      "model": "Civic",
+      "total": 26,
+      "unrated": 25
+    },
+    {
+      "brand": "Honda",
+      "model": "Accord",
+      "total": 28,
+      "unrated": 25
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Classe G",
+      "total": 24,
+      "unrated": 24
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat",
+      "total": 32,
+      "unrated": 24
+    },
+    {
+      "brand": "Renault",
+      "model": "renault",
+      "total": 24,
+      "unrated": 24
+    },
+    {
+      "brand": "BMW",
+      "model": "3 Series",
+      "total": 24,
+      "unrated": 23
+    },
+    {
+      "brand": "Audi",
+      "model": "A5",
+      "total": 23,
+      "unrated": 22
+    },
+    {
+      "brand": "BMW",
+      "model": "LCI",
+      "total": 22,
+      "unrated": 22
+    },
+    {
+      "brand": "Skoda",
+      "model": "Octavia",
+      "total": 23,
+      "unrated": 22
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "SL",
+      "total": 21,
+      "unrated": 21
+    }
+  ]
+}

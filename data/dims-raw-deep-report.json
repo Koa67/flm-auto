@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-13T06:18:34.609Z",
+  "stats": {
+    "newRows": 306,
+    "updatedRows": 345,
+    "fieldsAdded": 1738,
+    "trunkFilled": 454,
+    "headroomFilled": 644,
+    "legroomFilled": 640,
+    "fuelTankFilled": 0,
+    "seatsFilled": 0
+  },
+  "before": 3685,
+  "after": 3991
+}

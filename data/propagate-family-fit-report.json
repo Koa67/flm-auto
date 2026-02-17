@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-13T05:15:04.589Z",
+  "stats": {
+    "phase1": 98,
+    "phase2": 8,
+    "phase3": 0,
+    "fieldsTotal": 428,
+    "tooFarApart": 24
+  },
+  "before": 3428,
+  "after": 3534,
+  "total": 4268
+}

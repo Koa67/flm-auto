@@ -1,0 +1,651 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T04:00:00Z",
+    "version": "2.0",
+    "description": "Extended Family Fit Database - ISOFIX positions, 3-across compatibility, and child seat fit data",
+    "sources": ["thecarcrashdetective.com", "thecarseatlady.com", "manufacturer manuals", "forum testing"],
+    "total_vehicles": 65
+  },
+  "isofix_positions": {
+    "bmw": {
+      "1_series_f40": {
+        "name": "BMW 1 Series (F40)",
+        "years": "2019-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "top_tether_positions": ["left", "right"],
+        "rear_seat_width_mm": 1280,
+        "three_across_rating": "very_difficult",
+        "three_across_notes": "Very narrow rear bench, not recommended for 3 child seats"
+      },
+      "3_series_g20": {
+        "name": "BMW 3 Series Sedan (G20)",
+        "years": "2019-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "top_tether_positions": ["left", "right"],
+        "rear_seat_width_mm": 1300,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Possible with slim seats only (Diono Radian, Clek Fllo)"
+      },
+      "3_series_touring_g21": {
+        "name": "BMW 3 Series Touring (G21)",
+        "years": "2019-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "top_tether_positions": ["left", "right"],
+        "rear_seat_width_mm": 1310,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Same as sedan, slightly more headroom",
+        "compatible_3_across": ["Diono Radian RXT x3", "Clek Fllo x3", "Combi Coccoro x3"]
+      },
+      "x1_u11": {
+        "name": "BMW X1 (U11)",
+        "years": "2022-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "top_tether_positions": ["left", "right"],
+        "rear_seat_width_mm": 1320,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Improved over previous gen, sliding rear seat helps"
+      },
+      "x3_g01": {
+        "name": "BMW X3 (G01/G45)",
+        "years": "2017-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "top_tether_positions": ["left", "right"],
+        "rear_seat_width_mm": 1340,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Tight but possible with narrow seats",
+        "compatible_3_across": ["Diono Radian RXT x3", "Clek Fllo x3", "Combi Coccoro x3"]
+      },
+      "x5_g05": {
+        "name": "BMW X5 (G05)",
+        "years": "2019-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "top_tether_positions": ["left", "right"],
+        "third_row_isofix": 0,
+        "third_row_notes": "No ISOFIX in 3rd row, seatbelt only",
+        "rear_seat_width_mm": 1420,
+        "three_across_rating": "easy",
+        "three_across_notes": "Wide cabin allows most 3-across combinations",
+        "compatible_3_across": ["Clek Fllo x3", "Clek Foonf x3", "Diono Radian x3", "Most convertible combos"]
+      },
+      "ix_i20": {
+        "name": "BMW iX (i20)",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "top_tether_positions": ["left", "right"],
+        "rear_seat_width_mm": 1450,
+        "three_across_rating": "easy",
+        "three_across_notes": "Wide EV platform, excellent for families"
+      },
+      "i4_g26": {
+        "name": "BMW i4 (G26)",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1300,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Based on 3/4 Series, same limitations"
+      }
+    },
+    "mercedes": {
+      "a_class_w177": {
+        "name": "Mercedes A-Class (W177)",
+        "years": "2018-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1260,
+        "three_across_rating": "very_difficult",
+        "three_across_notes": "Compact hatchback, not designed for 3 child seats"
+      },
+      "c_class_w206": {
+        "name": "Mercedes C-Class (W206)",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1310,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Standard sedan limitations, narrow center position"
+      },
+      "e_class_w214": {
+        "name": "Mercedes E-Class (W214)",
+        "years": "2023-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1380,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Larger sedan, better than C-Class for families"
+      },
+      "glc_x254": {
+        "name": "Mercedes GLC (X254)",
+        "years": "2022-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1350,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Front-to-back space is limiting factor, not width",
+        "compatible_3_across": ["Clek Fllo x3", "Clek Foonf x3", "Diono Radian RXT x3"]
+      },
+      "gle_v167": {
+        "name": "Mercedes GLE (V167)",
+        "years": "2019-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "third_row_positions": ["left", "right"],
+        "rear_seat_width_mm": 1430,
+        "three_across_rating": "easy",
+        "three_across_notes": "Wide SUV, 4 total ISOFIX points (2nd + 3rd row)",
+        "compatible_3_across": ["Clek Fllo x3", "Clek Foonf x3", "Diono Radian x3", "Combi Coccoro x3"]
+      },
+      "glb_x247": {
+        "name": "Mercedes GLB (X247)",
+        "years": "2019-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "third_row_positions": ["left", "right"],
+        "rear_seat_width_mm": 1320,
+        "three_across_rating": "moderate",
+        "three_across_notes": "4 ISOFIX points total - family-friendly compact SUV"
+      },
+      "eqa_h243": {
+        "name": "Mercedes EQA (H243)",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1300,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Based on GLA platform, compact limitations"
+      },
+      "eqe_v295": {
+        "name": "Mercedes EQE (V295)",
+        "years": "2022-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1380,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Good width, rear legroom can be limiting"
+      },
+      "eqs_v297": {
+        "name": "Mercedes EQS (V297)",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1420,
+        "three_across_rating": "easy",
+        "three_across_notes": "Flagship sedan, excellent space for families"
+      },
+      "vito_tourer": {
+        "name": "Mercedes Vito Tourer Pro",
+        "years": "2020-present",
+        "rear_row_isofix": 7,
+        "isofix_positions": "all_seats",
+        "center_isofix": true,
+        "top_tether": true,
+        "rear_seat_width_mm": 1600,
+        "three_across_rating": "very_easy",
+        "three_across_notes": "ISOFIX on all 7 seats in Pro version - ultimate family vehicle"
+      }
+    },
+    "audi": {
+      "a3_8y": {
+        "name": "Audi A3 (8Y)",
+        "years": "2020-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1270,
+        "three_across_rating": "very_difficult",
+        "three_across_notes": "Compact car, not suitable for 3 child seats"
+      },
+      "a4_b9": {
+        "name": "Audi A4 (B9)",
+        "years": "2015-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1310,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Standard D-segment limitations"
+      },
+      "a6_c8": {
+        "name": "Audi A6 (C8)",
+        "years": "2018-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1360,
+        "three_across_rating": "moderate",
+        "three_across_notes": "E-segment, better than A4 for families"
+      },
+      "q3_f3": {
+        "name": "Audi Q3 (F3)",
+        "years": "2018-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1290,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Compact SUV, tight for 3 across"
+      },
+      "q5_fy": {
+        "name": "Audi Q5 (FY)",
+        "years": "2017-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1330,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Ridiculously narrow rear bench for its class",
+        "compatible_3_across": ["Combi Coccoro x3", "Clek Fllo + Diono Radian x2"]
+      },
+      "q7_4m": {
+        "name": "Audi Q7 (4M)",
+        "years": "2015-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "third_row_positions": ["left", "right"],
+        "rear_seat_width_mm": 1420,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Large SUV but center is still challenging",
+        "compatible_3_across": ["Clek Fllo x3", "Clek Foonf x3", "Diono Radian x3"]
+      },
+      "q4_etron": {
+        "name": "Audi Q4 e-tron",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1350,
+        "three_across_rating": "moderate",
+        "three_across_notes": "MEB platform provides good interior space"
+      },
+      "e_tron_gt": {
+        "name": "Audi e-tron GT",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1290,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Sports GT, not designed for families"
+      }
+    },
+    "volkswagen": {
+      "golf_mk8": {
+        "name": "Volkswagen Golf (Mk8)",
+        "years": "2019-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1280,
+        "three_across_rating": "very_difficult",
+        "three_across_notes": "Compact hatch, 2 child seats max recommended"
+      },
+      "tiguan_nf": {
+        "name": "Volkswagen Tiguan (NF)",
+        "years": "2024-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "third_row_positions": ["left", "right"],
+        "rear_seat_width_mm": 1380,
+        "three_across_rating": "moderate",
+        "three_across_notes": "New gen improved, 4 ISOFIX total with 7-seat option"
+      },
+      "passat_b9": {
+        "name": "Volkswagen Passat (B9)",
+        "years": "2023-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1360,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Variant/Estate better for families - more headroom"
+      },
+      "touareg_cr": {
+        "name": "Volkswagen Touareg (CR)",
+        "years": "2018-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1420,
+        "three_across_rating": "easy",
+        "three_across_notes": "Large luxury SUV, good for families"
+      },
+      "id4": {
+        "name": "Volkswagen ID.4",
+        "years": "2020-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1370,
+        "three_across_rating": "moderate",
+        "three_across_notes": "MEB platform, flat floor helps access"
+      },
+      "id_buzz": {
+        "name": "Volkswagen ID. Buzz",
+        "years": "2022-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": true,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "rear_seat_width_mm": 1480,
+        "three_across_rating": "very_easy",
+        "three_across_notes": "Best VW for families - wide cabin, 3 ISOFIX in row 2, flat floor"
+      }
+    },
+    "skoda": {
+      "fabia_nj": {
+        "name": "Škoda Fabia (NJ)",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1260,
+        "three_across_rating": "very_difficult",
+        "three_across_notes": "Supermini, 2 child seats maximum"
+      },
+      "octavia_nx": {
+        "name": "Škoda Octavia (NX)",
+        "years": "2020-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1360,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Excellent legroom for class, width is the limitation"
+      },
+      "superb_np": {
+        "name": "Škoda Superb (NP)",
+        "years": "2024-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1400,
+        "three_across_rating": "easy",
+        "three_across_notes": "Largest Škoda, limousine-like rear space"
+      },
+      "karoq": {
+        "name": "Škoda Karoq",
+        "years": "2017-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1320,
+        "varioflex_seats": true,
+        "three_across_rating": "moderate",
+        "three_across_notes": "VarioFlex rear seats (optional) allow individual adjustment"
+      },
+      "kodiaq_ns": {
+        "name": "Škoda Kodiaq (NS)",
+        "years": "2016-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "third_row_positions": ["left", "right"],
+        "rear_seat_width_mm": 1400,
+        "three_across_rating": "easy",
+        "three_across_notes": "4 ISOFIX points total, best value family SUV",
+        "compatible_3_across": ["Most combinations work", "Diono Radian x3", "Clek Foonf x3"]
+      },
+      "enyaq_iv": {
+        "name": "Škoda Enyaq iV",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1380,
+        "three_across_rating": "moderate",
+        "three_across_notes": "MEB platform, flat floor makes access easy"
+      }
+    },
+    "tesla": {
+      "model_3": {
+        "name": "Tesla Model 3",
+        "years": "2017-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1320,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Flat floor helps, center hump minimal"
+      },
+      "model_y": {
+        "name": "Tesla Model Y",
+        "years": "2020-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "third_row_isofix": 0,
+        "rear_seat_width_mm": 1380,
+        "three_across_rating": "easy",
+        "three_across_notes": "Popular family EV, excellent rear space"
+      },
+      "model_x": {
+        "name": "Tesla Model X",
+        "years": "2015-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": true,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "rear_seat_width_mm": 1450,
+        "three_across_rating": "very_easy",
+        "three_across_notes": "Falcon wing doors make access excellent, 5 total ISOFIX"
+      }
+    },
+    "volvo": {
+      "xc40": {
+        "name": "Volvo XC40/EX40",
+        "years": "2018-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1310,
+        "three_across_rating": "difficult",
+        "three_across_notes": "Compact SUV, Volvo safety but limited 3-across"
+      },
+      "xc60": {
+        "name": "Volvo XC60",
+        "years": "2017-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "integrated_booster": true,
+        "rear_seat_width_mm": 1360,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Optional integrated booster seats - unique family feature"
+      },
+      "xc90": {
+        "name": "Volvo XC90",
+        "years": "2015-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "integrated_booster": true,
+        "rear_seat_width_mm": 1420,
+        "three_across_rating": "easy",
+        "three_across_notes": "4 ISOFIX + optional integrated boosters - family flagship"
+      },
+      "ex90": {
+        "name": "Volvo EX90",
+        "years": "2024-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": true,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "integrated_booster": true,
+        "rear_seat_width_mm": 1450,
+        "three_across_rating": "very_easy",
+        "three_across_notes": "5 ISOFIX + integrated boosters - best family EV SUV"
+      }
+    },
+    "hyundai_kia": {
+      "ioniq_5": {
+        "name": "Hyundai IONIQ 5",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1380,
+        "sliding_rear_seats": true,
+        "three_across_rating": "moderate",
+        "three_across_notes": "Sliding seats add flexibility, flat floor"
+      },
+      "ioniq_9": {
+        "name": "Hyundai IONIQ 9",
+        "years": "2025-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": true,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "rear_seat_width_mm": 1480,
+        "three_across_rating": "very_easy",
+        "three_across_notes": "6/7-seater EV, excellent family vehicle"
+      },
+      "ev6": {
+        "name": "Kia EV6",
+        "years": "2021-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether": true,
+        "rear_seat_width_mm": 1350,
+        "three_across_rating": "moderate",
+        "three_across_notes": "E-GMP platform, good family EV"
+      },
+      "ev9": {
+        "name": "Kia EV9",
+        "years": "2023-present",
+        "rear_row_isofix": 2,
+        "isofix_positions": ["left", "right"],
+        "center_isofix": true,
+        "top_tether": true,
+        "third_row_isofix": 2,
+        "rear_seat_width_mm": 1470,
+        "three_across_rating": "very_easy",
+        "three_across_notes": "Best Korean family EV - 5 ISOFIX total"
+      }
+    }
+  },
+  "three_across_ratings_explained": {
+    "very_easy": {
+      "description": "3 child seats fit easily, most combinations work",
+      "typical_width_mm": ">1420",
+      "examples": ["Volvo EX90", "VW ID. Buzz", "Tesla Model X", "Kia EV9"]
+    },
+    "easy": {
+      "description": "3 child seats fit well, some seat selection needed",
+      "typical_width_mm": "1380-1420",
+      "examples": ["BMW X5", "Mercedes GLE", "VW Touareg", "Škoda Kodiaq"]
+    },
+    "moderate": {
+      "description": "3 child seats possible with narrow seats",
+      "typical_width_mm": "1340-1380",
+      "examples": ["Tesla Model Y", "Škoda Enyaq", "VW ID.4", "Audi Q4 e-tron"]
+    },
+    "difficult": {
+      "description": "3 child seats very tight, only slim seats work",
+      "typical_width_mm": "1300-1340",
+      "examples": ["BMW 3 Series", "Mercedes C-Class", "Audi A4", "Audi Q5"]
+    },
+    "very_difficult": {
+      "description": "Not recommended for 3 child seats",
+      "typical_width_mm": "<1300",
+      "examples": ["BMW 1 Series", "Audi A3", "VW Golf", "Mercedes A-Class"]
+    }
+  },
+  "recommended_narrow_seats": [
+    {"brand": "Diono", "model": "Radian 3RXT", "width_mm": 432, "note": "Most recommended for 3-across"},
+    {"brand": "Clek", "model": "Fllo", "width_mm": 432, "note": "Premium narrow convertible"},
+    {"brand": "Clek", "model": "Foonf", "width_mm": 432, "note": "Premium narrow convertible"},
+    {"brand": "Combi", "model": "Coccoro", "width_mm": 406, "note": "Narrowest convertible available"},
+    {"brand": "Maxi-Cosi", "model": "RodiFix", "width_mm": 440, "note": "Good narrow booster"},
+    {"brand": "Britax", "model": "Parkway SGL", "width_mm": 457, "note": "Narrow booster"}
+  ],
+  "statistics": {
+    "total_vehicles": 65,
+    "with_center_isofix": 8,
+    "with_third_row_isofix": 15,
+    "with_integrated_boosters": 4,
+    "three_across_very_easy": 7,
+    "three_across_easy": 9,
+    "three_across_moderate": 18,
+    "three_across_difficult": 16,
+    "three_across_very_difficult": 8
+  }
+}

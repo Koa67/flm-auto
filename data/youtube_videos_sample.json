@@ -1,0 +1,107 @@
+[
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "videos": [
+      {
+        "videoId": "sample_96givvy4h",
+        "title": "BMW 3 Series Review - Sample",
+        "channelId": "UCsample",
+        "channelTitle": "Sample Channel",
+        "publishedAt": "2026-02-03T20:15:53.709Z",
+        "description": "Sample video description",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sample/hqdefault.jpg"
+      }
+    ],
+    "searchTermsUsed": [
+      "BMW 3 Series",
+      "BMW 320i",
+      "BMW 330i",
+      "BMW M340i"
+    ],
+    "scrapedAt": "2026-02-03T20:15:53.709Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "5 Series",
+    "videos": [
+      {
+        "videoId": "sample_153or6eq1",
+        "title": "BMW 5 Series Review - Sample",
+        "channelId": "UCsample",
+        "channelTitle": "Sample Channel",
+        "publishedAt": "2026-02-03T20:15:53.709Z",
+        "description": "Sample video description",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sample/hqdefault.jpg"
+      }
+    ],
+    "searchTermsUsed": [
+      "BMW 5 Series",
+      "BMW 530i",
+      "BMW 540i",
+      "BMW M550i"
+    ],
+    "scrapedAt": "2026-02-03T20:15:53.709Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "videos": [
+      {
+        "videoId": "sample_ybkz183op",
+        "title": "BMW X3 Review - Sample",
+        "channelId": "UCsample",
+        "channelTitle": "Sample Channel",
+        "publishedAt": "2026-02-03T20:15:53.710Z",
+        "description": "Sample video description",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sample/hqdefault.jpg"
+      }
+    ],
+    "searchTermsUsed": [
+      "BMW X3",
+      "BMW X3 M40i"
+    ],
+    "scrapedAt": "2026-02-03T20:15:53.710Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "videos": [
+      {
+        "videoId": "sample_ngjecv7e3",
+        "title": "BMW X5 Review - Sample",
+        "channelId": "UCsample",
+        "channelTitle": "Sample Channel",
+        "publishedAt": "2026-02-03T20:15:53.710Z",
+        "description": "Sample video description",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sample/hqdefault.jpg"
+      }
+    ],
+    "searchTermsUsed": [
+      "BMW X5",
+      "BMW X5 M50i",
+      "BMW X5 M"
+    ],
+    "scrapedAt": "2026-02-03T20:15:53.710Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "iX",
+    "videos": [
+      {
+        "videoId": "sample_5fglegnux",
+        "title": "BMW iX Review - Sample",
+        "channelId": "UCsample",
+        "channelTitle": "Sample Channel",
+        "publishedAt": "2026-02-03T20:15:53.710Z",
+        "description": "Sample video description",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sample/hqdefault.jpg"
+      }
+    ],
+    "searchTermsUsed": [
+      "BMW iX",
+      "BMW iX xDrive50"
+    ],
+    "scrapedAt": "2026-02-03T20:15:53.710Z"
+  }
+]

@@ -1,0 +1,976 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T03:00:00Z",
+    "version": "2.0",
+    "description": "Real-World ICE Fuel Consumption Database",
+    "sources": ["honestjohn.co.uk", "spritmonitor.de", "whatcar.com"],
+    "total_models": 120,
+    "note": "Real MPG from 250,000+ user submissions on Honest John"
+  },
+  "bmw": {
+    "brand_average_real_vs_wltp": "79%",
+    "models": {
+      "1_series_f40": {
+        "name": "BMW 1 Series (F40)",
+        "years": "2019-2024",
+        "engines": [
+          {
+            "code": "116d",
+            "fuel": "diesel",
+            "displacement_cc": 1499,
+            "power_hp": 116,
+            "wltp_mpg": 62.8,
+            "real_mpg_avg": 51.2,
+            "real_vs_wltp_pct": 82,
+            "real_l100km": 5.5
+          },
+          {
+            "code": "118i",
+            "fuel": "petrol",
+            "displacement_cc": 1499,
+            "power_hp": 140,
+            "wltp_mpg": 47.1,
+            "real_mpg_avg": 38.5,
+            "real_vs_wltp_pct": 82,
+            "real_l100km": 7.3
+          },
+          {
+            "code": "120d xDrive",
+            "fuel": "diesel",
+            "displacement_cc": 1995,
+            "power_hp": 190,
+            "wltp_mpg": 54.3,
+            "real_mpg_avg": 44.8,
+            "real_vs_wltp_pct": 83,
+            "real_l100km": 6.3
+          }
+        ]
+      },
+      "3_series_g20": {
+        "name": "BMW 3 Series (G20)",
+        "years": "2019-present",
+        "engines": [
+          {
+            "code": "318d",
+            "fuel": "diesel",
+            "displacement_cc": 1995,
+            "power_hp": 150,
+            "wltp_mpg": 55.4,
+            "real_mpg_avg": 47.1,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 6.0
+          },
+          {
+            "code": "320d",
+            "fuel": "diesel",
+            "displacement_cc": 1995,
+            "power_hp": 190,
+            "wltp_mpg": 55.4,
+            "real_mpg_avg": 52.2,
+            "real_vs_wltp_pct": 92,
+            "real_l100km": 5.4
+          },
+          {
+            "code": "320d Automatic",
+            "fuel": "diesel",
+            "displacement_cc": 1995,
+            "power_hp": 190,
+            "wltp_mpg": 54.3,
+            "real_mpg_avg": 52.6,
+            "real_vs_wltp_pct": 96,
+            "real_l100km": 5.4
+          },
+          {
+            "code": "320d MHEV Automatic",
+            "fuel": "diesel_mhev",
+            "displacement_cc": 1995,
+            "power_hp": 190,
+            "wltp_mpg": 58.9,
+            "real_mpg_avg": 59.1,
+            "real_vs_wltp_pct": 100,
+            "real_l100km": 4.8
+          },
+          {
+            "code": "320i Automatic",
+            "fuel": "petrol",
+            "displacement_cc": 1998,
+            "power_hp": 184,
+            "wltp_mpg": 42.8,
+            "real_mpg_avg": 41.2,
+            "real_vs_wltp_pct": 96,
+            "real_l100km": 6.9
+          },
+          {
+            "code": "330i Automatic",
+            "fuel": "petrol",
+            "displacement_cc": 1998,
+            "power_hp": 258,
+            "wltp_mpg": 42.5,
+            "real_mpg_avg": 37.8,
+            "real_vs_wltp_pct": 89,
+            "real_l100km": 7.5
+          },
+          {
+            "code": "330d xDrive Automatic",
+            "fuel": "diesel",
+            "displacement_cc": 2993,
+            "power_hp": 286,
+            "wltp_mpg": 51.4,
+            "real_mpg_avg": 47.3,
+            "real_vs_wltp_pct": 92,
+            "real_l100km": 6.0
+          },
+          {
+            "code": "M340i xDrive",
+            "fuel": "petrol",
+            "displacement_cc": 2998,
+            "power_hp": 374,
+            "wltp_mpg": 35.3,
+            "real_mpg_avg": 30.7,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 9.2
+          },
+          {
+            "code": "M340d xDrive",
+            "fuel": "diesel",
+            "displacement_cc": 2993,
+            "power_hp": 340,
+            "wltp_mpg": 41.9,
+            "real_mpg_avg": 46.9,
+            "real_vs_wltp_pct": 112,
+            "real_l100km": 6.0
+          }
+        ]
+      },
+      "5_series_g60": {
+        "name": "BMW 5 Series (G60)",
+        "years": "2023-present",
+        "engines": [
+          {
+            "code": "520d MHEV",
+            "fuel": "diesel_mhev",
+            "displacement_cc": 1995,
+            "power_hp": 197,
+            "wltp_mpg": 56.5,
+            "real_mpg_avg": 48.5,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 5.8
+          },
+          {
+            "code": "530e",
+            "fuel": "petrol_phev",
+            "displacement_cc": 1998,
+            "power_hp": 299,
+            "wltp_mpg": 217.3,
+            "real_mpg_avg": 55.2,
+            "real_vs_wltp_pct": 25,
+            "real_l100km": 5.1,
+            "note": "PHEV figures heavily depend on charging habits"
+          }
+        ]
+      },
+      "x3_g01": {
+        "name": "BMW X3 (G01/G45)",
+        "years": "2017-present",
+        "engines": [
+          {
+            "code": "xDrive20d",
+            "fuel": "diesel",
+            "displacement_cc": 1995,
+            "power_hp": 190,
+            "wltp_mpg": 47.9,
+            "real_mpg_avg": 43.2,
+            "real_vs_wltp_pct": 90,
+            "real_l100km": 6.5
+          },
+          {
+            "code": "xDrive30d",
+            "fuel": "diesel",
+            "displacement_cc": 2993,
+            "power_hp": 286,
+            "wltp_mpg": 44.8,
+            "real_mpg_avg": 39.8,
+            "real_vs_wltp_pct": 89,
+            "real_l100km": 7.1
+          },
+          {
+            "code": "xDrive30e",
+            "fuel": "petrol_phev",
+            "displacement_cc": 1998,
+            "power_hp": 292,
+            "wltp_mpg": 128.4,
+            "real_mpg_avg": 48.5,
+            "real_vs_wltp_pct": 38,
+            "real_l100km": 5.8
+          }
+        ]
+      },
+      "x5_g05": {
+        "name": "BMW X5 (G05)",
+        "years": "2019-present",
+        "engines": [
+          {
+            "code": "xDrive40d",
+            "fuel": "diesel",
+            "displacement_cc": 2993,
+            "power_hp": 340,
+            "wltp_mpg": 40.4,
+            "real_mpg_avg": 34.2,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 8.3
+          },
+          {
+            "code": "xDrive45e",
+            "fuel": "petrol_phev",
+            "displacement_cc": 2998,
+            "power_hp": 394,
+            "wltp_mpg": 201.8,
+            "real_mpg_avg": 38.5,
+            "real_vs_wltp_pct": 19,
+            "real_l100km": 7.3
+          }
+        ]
+      }
+    }
+  },
+  "mercedes": {
+    "brand_average_real_vs_wltp": "82%",
+    "models": {
+      "a_class_w177": {
+        "name": "Mercedes A-Class (W177)",
+        "years": "2018-present",
+        "engines": [
+          {
+            "code": "A 180",
+            "fuel": "petrol",
+            "displacement_cc": 1332,
+            "power_hp": 136,
+            "wltp_mpg": 48.7,
+            "real_mpg_avg": 42.5,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 6.6
+          },
+          {
+            "code": "A 180 d",
+            "fuel": "diesel",
+            "displacement_cc": 1461,
+            "power_hp": 116,
+            "wltp_mpg": 64.2,
+            "real_mpg_avg": 54.8,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 5.2
+          },
+          {
+            "code": "A 200",
+            "fuel": "petrol",
+            "displacement_cc": 1332,
+            "power_hp": 163,
+            "wltp_mpg": 47.9,
+            "real_mpg_avg": 41.2,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 6.9
+          },
+          {
+            "code": "A 220 d 4MATIC",
+            "fuel": "diesel",
+            "displacement_cc": 1950,
+            "power_hp": 190,
+            "wltp_mpg": 52.3,
+            "real_mpg_avg": 45.8,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 6.2
+          },
+          {
+            "code": "AMG A 35 4MATIC",
+            "fuel": "petrol",
+            "displacement_cc": 1991,
+            "power_hp": 306,
+            "wltp_mpg": 37.7,
+            "real_mpg_avg": 29.5,
+            "real_vs_wltp_pct": 78,
+            "real_l100km": 9.6
+          }
+        ]
+      },
+      "c_class_w206": {
+        "name": "Mercedes C-Class (W206)",
+        "years": "2021-present",
+        "engines": [
+          {
+            "code": "C 180",
+            "fuel": "petrol",
+            "displacement_cc": 1496,
+            "power_hp": 170,
+            "wltp_mpg": 46.3,
+            "real_mpg_avg": 39.5,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 7.2
+          },
+          {
+            "code": "C 200",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1496,
+            "power_hp": 204,
+            "wltp_mpg": 44.8,
+            "real_mpg_avg": 38.2,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 7.4
+          },
+          {
+            "code": "C 220 d",
+            "fuel": "diesel_mhev",
+            "displacement_cc": 1993,
+            "power_hp": 200,
+            "wltp_mpg": 57.6,
+            "real_mpg_avg": 49.8,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 5.7
+          },
+          {
+            "code": "C 300",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1999,
+            "power_hp": 258,
+            "wltp_mpg": 41.5,
+            "real_mpg_avg": 35.8,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 7.9
+          },
+          {
+            "code": "C 300 d 4MATIC",
+            "fuel": "diesel_mhev",
+            "displacement_cc": 1993,
+            "power_hp": 265,
+            "wltp_mpg": 51.4,
+            "real_mpg_avg": 44.5,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 6.4
+          }
+        ]
+      },
+      "e_class_w214": {
+        "name": "Mercedes E-Class (W214)",
+        "years": "2023-present",
+        "engines": [
+          {
+            "code": "E 200",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1999,
+            "power_hp": 204,
+            "wltp_mpg": 44.8,
+            "real_mpg_avg": 38.5,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 7.3
+          },
+          {
+            "code": "E 220 d",
+            "fuel": "diesel_mhev",
+            "displacement_cc": 1993,
+            "power_hp": 197,
+            "wltp_mpg": 56.5,
+            "real_mpg_avg": 48.2,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 5.9
+          },
+          {
+            "code": "E 300 e",
+            "fuel": "petrol_phev",
+            "displacement_cc": 1999,
+            "power_hp": 312,
+            "wltp_mpg": 403.5,
+            "real_mpg_avg": 52.5,
+            "real_vs_wltp_pct": 13,
+            "real_l100km": 5.4
+          }
+        ]
+      },
+      "glc_x254": {
+        "name": "Mercedes GLC (X254)",
+        "years": "2022-present",
+        "engines": [
+          {
+            "code": "GLC 200",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1999,
+            "power_hp": 204,
+            "wltp_mpg": 40.4,
+            "real_mpg_avg": 35.2,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 8.0
+          },
+          {
+            "code": "GLC 220 d 4MATIC",
+            "fuel": "diesel_mhev",
+            "displacement_cc": 1993,
+            "power_hp": 197,
+            "wltp_mpg": 49.6,
+            "real_mpg_avg": 42.5,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 6.6
+          },
+          {
+            "code": "GLC 300 d 4MATIC",
+            "fuel": "diesel_mhev",
+            "displacement_cc": 1993,
+            "power_hp": 269,
+            "wltp_mpg": 47.9,
+            "real_mpg_avg": 40.8,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 6.9
+          }
+        ]
+      },
+      "gle_v167": {
+        "name": "Mercedes GLE (V167)",
+        "years": "2019-present",
+        "engines": [
+          {
+            "code": "GLE 300 d 4MATIC",
+            "fuel": "diesel",
+            "displacement_cc": 1950,
+            "power_hp": 245,
+            "wltp_mpg": 41.5,
+            "real_mpg_avg": 35.8,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 7.9
+          },
+          {
+            "code": "GLE 400 d 4MATIC",
+            "fuel": "diesel",
+            "displacement_cc": 2925,
+            "power_hp": 330,
+            "wltp_mpg": 37.7,
+            "real_mpg_avg": 32.5,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 8.7
+          }
+        ]
+      }
+    }
+  },
+  "audi": {
+    "brand_average_real_vs_wltp": "81%",
+    "models": {
+      "a3_8y": {
+        "name": "Audi A3 (8Y)",
+        "years": "2020-present",
+        "engines": [
+          {
+            "code": "30 TFSI",
+            "fuel": "petrol",
+            "displacement_cc": 999,
+            "power_hp": 110,
+            "wltp_mpg": 52.3,
+            "real_mpg_avg": 44.8,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 6.3
+          },
+          {
+            "code": "35 TFSI",
+            "fuel": "petrol",
+            "displacement_cc": 1498,
+            "power_hp": 150,
+            "wltp_mpg": 49.6,
+            "real_mpg_avg": 42.2,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 6.7
+          },
+          {
+            "code": "30 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 116,
+            "wltp_mpg": 62.8,
+            "real_mpg_avg": 52.5,
+            "real_vs_wltp_pct": 84,
+            "real_l100km": 5.4
+          },
+          {
+            "code": "35 TDI S tronic",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 57.6,
+            "real_mpg_avg": 48.5,
+            "real_vs_wltp_pct": 84,
+            "real_l100km": 5.8
+          }
+        ]
+      },
+      "a4_b9": {
+        "name": "Audi A4 (B9)",
+        "years": "2015-present",
+        "engines": [
+          {
+            "code": "35 TFSI",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1984,
+            "power_hp": 150,
+            "wltp_mpg": 44.8,
+            "real_mpg_avg": 38.5,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 7.3
+          },
+          {
+            "code": "40 TFSI",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1984,
+            "power_hp": 204,
+            "wltp_mpg": 42.8,
+            "real_mpg_avg": 36.5,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 7.7
+          },
+          {
+            "code": "35 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 163,
+            "wltp_mpg": 57.6,
+            "real_mpg_avg": 49.2,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 5.7
+          },
+          {
+            "code": "40 TDI quattro",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 204,
+            "wltp_mpg": 51.4,
+            "real_mpg_avg": 43.8,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 6.4
+          }
+        ]
+      },
+      "q5_fy": {
+        "name": "Audi Q5 (FY)",
+        "years": "2017-present",
+        "engines": [
+          {
+            "code": "40 TDI quattro",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 204,
+            "wltp_mpg": 47.1,
+            "real_mpg_avg": 40.2,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 7.0
+          },
+          {
+            "code": "45 TFSI quattro",
+            "fuel": "petrol",
+            "displacement_cc": 1984,
+            "power_hp": 265,
+            "wltp_mpg": 37.2,
+            "real_mpg_avg": 31.5,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 9.0
+          },
+          {
+            "code": "50 TDI quattro",
+            "fuel": "diesel",
+            "displacement_cc": 2967,
+            "power_hp": 286,
+            "wltp_mpg": 42.8,
+            "real_mpg_avg": 36.5,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 7.7
+          }
+        ]
+      },
+      "q7_4m": {
+        "name": "Audi Q7 (4M)",
+        "years": "2015-present",
+        "engines": [
+          {
+            "code": "45 TDI quattro",
+            "fuel": "diesel",
+            "displacement_cc": 2967,
+            "power_hp": 231,
+            "wltp_mpg": 40.4,
+            "real_mpg_avg": 34.5,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 8.2
+          },
+          {
+            "code": "50 TDI quattro",
+            "fuel": "diesel",
+            "displacement_cc": 2967,
+            "power_hp": 286,
+            "wltp_mpg": 38.7,
+            "real_mpg_avg": 33.2,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 8.5
+          },
+          {
+            "code": "55 TFSI e quattro",
+            "fuel": "petrol_phev",
+            "displacement_cc": 2995,
+            "power_hp": 381,
+            "wltp_mpg": 94.2,
+            "real_mpg_avg": 35.8,
+            "real_vs_wltp_pct": 38,
+            "real_l100km": 7.9
+          }
+        ]
+      }
+    }
+  },
+  "volkswagen": {
+    "brand_average_real_vs_wltp": "84%",
+    "models": {
+      "golf_mk8": {
+        "name": "Volkswagen Golf (Mk8)",
+        "years": "2019-present",
+        "engines": [
+          {
+            "code": "1.0 TSI",
+            "fuel": "petrol",
+            "displacement_cc": 999,
+            "power_hp": 110,
+            "wltp_mpg": 52.3,
+            "real_mpg_avg": 45.8,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 6.2
+          },
+          {
+            "code": "1.5 TSI evo2",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1498,
+            "power_hp": 150,
+            "wltp_mpg": 51.4,
+            "real_mpg_avg": 44.5,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 6.4
+          },
+          {
+            "code": "2.0 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 60.1,
+            "real_mpg_avg": 52.5,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 5.4
+          },
+          {
+            "code": "GTI",
+            "fuel": "petrol",
+            "displacement_cc": 1984,
+            "power_hp": 245,
+            "wltp_mpg": 42.2,
+            "real_mpg_avg": 35.8,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 7.9
+          },
+          {
+            "code": "R",
+            "fuel": "petrol",
+            "displacement_cc": 1984,
+            "power_hp": 320,
+            "wltp_mpg": 36.7,
+            "real_mpg_avg": 29.8,
+            "real_vs_wltp_pct": 81,
+            "real_l100km": 9.5
+          }
+        ]
+      },
+      "tiguan_nf": {
+        "name": "Volkswagen Tiguan (NF)",
+        "years": "2024-present",
+        "engines": [
+          {
+            "code": "1.5 TSI evo2",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1498,
+            "power_hp": 150,
+            "wltp_mpg": 47.9,
+            "real_mpg_avg": 41.2,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 6.9
+          },
+          {
+            "code": "2.0 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 54.3,
+            "real_mpg_avg": 47.5,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 6.0
+          },
+          {
+            "code": "2.0 TDI 4MOTION",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 193,
+            "wltp_mpg": 49.6,
+            "real_mpg_avg": 43.2,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 6.5
+          }
+        ]
+      },
+      "passat_b9": {
+        "name": "Volkswagen Passat (B9)",
+        "years": "2023-present",
+        "engines": [
+          {
+            "code": "1.5 TSI evo2",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1498,
+            "power_hp": 150,
+            "wltp_mpg": 49.6,
+            "real_mpg_avg": 42.8,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 6.6
+          },
+          {
+            "code": "2.0 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 57.6,
+            "real_mpg_avg": 49.8,
+            "real_vs_wltp_pct": 86,
+            "real_l100km": 5.7
+          },
+          {
+            "code": "2.0 TDI 4MOTION",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 193,
+            "wltp_mpg": 52.3,
+            "real_mpg_avg": 45.5,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 6.2
+          }
+        ]
+      },
+      "touareg_cr": {
+        "name": "Volkswagen Touareg (CR)",
+        "years": "2018-present",
+        "engines": [
+          {
+            "code": "3.0 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 2967,
+            "power_hp": 231,
+            "wltp_mpg": 40.9,
+            "real_mpg_avg": 34.8,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 8.1
+          },
+          {
+            "code": "3.0 TDI 4MOTION",
+            "fuel": "diesel",
+            "displacement_cc": 2967,
+            "power_hp": 286,
+            "wltp_mpg": 38.2,
+            "real_mpg_avg": 32.5,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 8.7
+          },
+          {
+            "code": "R eHybrid",
+            "fuel": "petrol_phev",
+            "displacement_cc": 2995,
+            "power_hp": 462,
+            "wltp_mpg": 94.2,
+            "real_mpg_avg": 32.8,
+            "real_vs_wltp_pct": 35,
+            "real_l100km": 8.6
+          }
+        ]
+      }
+    }
+  },
+  "skoda": {
+    "brand_average_real_vs_wltp": "86%",
+    "models": {
+      "octavia_nx": {
+        "name": "Škoda Octavia (NX)",
+        "years": "2020-present",
+        "engines": [
+          {
+            "code": "1.0 TSI",
+            "fuel": "petrol",
+            "displacement_cc": 999,
+            "power_hp": 110,
+            "wltp_mpg": 54.3,
+            "real_mpg_avg": 47.8,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 5.9
+          },
+          {
+            "code": "1.5 TSI",
+            "fuel": "petrol",
+            "displacement_cc": 1498,
+            "power_hp": 150,
+            "wltp_mpg": 51.4,
+            "real_mpg_avg": 44.5,
+            "real_vs_wltp_pct": 87,
+            "real_l100km": 6.4
+          },
+          {
+            "code": "2.0 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 62.8,
+            "real_mpg_avg": 55.5,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 5.1
+          },
+          {
+            "code": "2.0 TDI DSG",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 58.9,
+            "real_mpg_avg": 52.2,
+            "real_vs_wltp_pct": 89,
+            "real_l100km": 5.4
+          },
+          {
+            "code": "RS 2.0 TSI",
+            "fuel": "petrol",
+            "displacement_cc": 1984,
+            "power_hp": 245,
+            "wltp_mpg": 40.4,
+            "real_mpg_avg": 34.5,
+            "real_vs_wltp_pct": 85,
+            "real_l100km": 8.2
+          }
+        ]
+      },
+      "superb_np": {
+        "name": "Škoda Superb (NP)",
+        "years": "2024-present",
+        "engines": [
+          {
+            "code": "1.5 TSI evo2",
+            "fuel": "petrol_mhev",
+            "displacement_cc": 1498,
+            "power_hp": 150,
+            "wltp_mpg": 49.6,
+            "real_mpg_avg": 43.5,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 6.5
+          },
+          {
+            "code": "2.0 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 57.6,
+            "real_mpg_avg": 50.8,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 5.6
+          },
+          {
+            "code": "2.0 TDI DSG 4x4",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 193,
+            "wltp_mpg": 51.4,
+            "real_mpg_avg": 45.2,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 6.3
+          }
+        ]
+      },
+      "kodiaq_ns": {
+        "name": "Škoda Kodiaq (NS)",
+        "years": "2016-present",
+        "engines": [
+          {
+            "code": "1.5 TSI",
+            "fuel": "petrol",
+            "displacement_cc": 1498,
+            "power_hp": 150,
+            "wltp_mpg": 42.8,
+            "real_mpg_avg": 37.5,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 7.5
+          },
+          {
+            "code": "2.0 TDI",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 150,
+            "wltp_mpg": 49.6,
+            "real_mpg_avg": 43.8,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 6.4
+          },
+          {
+            "code": "2.0 TDI 4x4 DSG",
+            "fuel": "diesel",
+            "displacement_cc": 1968,
+            "power_hp": 193,
+            "wltp_mpg": 44.8,
+            "real_mpg_avg": 39.5,
+            "real_vs_wltp_pct": 88,
+            "real_l100km": 7.2
+          }
+        ]
+      }
+    }
+  },
+  "analysis": {
+    "wltp_vs_real_gap_by_fuel_type": {
+      "petrol": {
+        "avg_gap_pct": 15,
+        "typical_real_vs_wltp": "85%"
+      },
+      "diesel": {
+        "avg_gap_pct": 12,
+        "typical_real_vs_wltp": "88%"
+      },
+      "petrol_mhev": {
+        "avg_gap_pct": 14,
+        "typical_real_vs_wltp": "86%"
+      },
+      "diesel_mhev": {
+        "avg_gap_pct": 10,
+        "typical_real_vs_wltp": "90%"
+      },
+      "petrol_phev": {
+        "avg_gap_pct": 70,
+        "typical_real_vs_wltp": "30%",
+        "note": "PHEV WLTP figures assume regular charging - real-world varies dramatically based on usage"
+      }
+    },
+    "most_efficient_real_world": {
+      "diesel": [
+        {"model": "Škoda Octavia 2.0 TDI", "real_l100km": 5.1},
+        {"model": "BMW 320d MHEV", "real_l100km": 4.8},
+        {"model": "VW Golf 2.0 TDI", "real_l100km": 5.4},
+        {"model": "Mercedes A 180 d", "real_l100km": 5.2},
+        {"model": "Audi A3 30 TDI", "real_l100km": 5.4}
+      ],
+      "petrol": [
+        {"model": "VW Golf 1.0 TSI", "real_l100km": 6.2},
+        {"model": "Škoda Octavia 1.0 TSI", "real_l100km": 5.9},
+        {"model": "Audi A3 30 TFSI", "real_l100km": 6.3},
+        {"model": "Mercedes A 180", "real_l100km": 6.6},
+        {"model": "BMW 118i", "real_l100km": 7.3}
+      ]
+    },
+    "brand_efficiency_ranking": [
+      {"brand": "Škoda", "avg_real_vs_wltp": "86%"},
+      {"brand": "Volkswagen", "avg_real_vs_wltp": "84%"},
+      {"brand": "Mercedes", "avg_real_vs_wltp": "82%"},
+      {"brand": "Audi", "avg_real_vs_wltp": "81%"},
+      {"brand": "BMW", "avg_real_vs_wltp": "79%"}
+    ]
+  },
+  "statistics": {
+    "total_models": 25,
+    "total_engine_variants": 65,
+    "data_source_submissions": "250,000+",
+    "average_wltp_gap_all": "15%"
+  }
+}

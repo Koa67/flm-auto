@@ -1,0 +1,802 @@
+[
+  {
+    "brand": "BMW",
+    "model": "iX",
+    "searchTerms": [
+      "BMW iX",
+      "BMW iX review"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "2",
+    "searchTerms": [
+      "BMW 2",
+      "BMW 2 review"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "searchTerms": [
+      "BMW X3",
+      "BMW X3 review"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "4",
+    "searchTerms": [
+      "BMW 4",
+      "BMW 4 review"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "3",
+    "searchTerms": [
+      "BMW 3",
+      "BMW 3 review"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "8",
+    "searchTerms": [
+      "BMW 8",
+      "BMW 8 review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLA",
+    "searchTerms": [
+      "Mercedes CLA",
+      "Mercedes-Benz CLA review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "searchTerms": [
+      "Mercedes GLE",
+      "Mercedes-Benz GLE review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "AMG GT",
+    "searchTerms": [
+      "Mercedes AMG GT",
+      "Mercedes-Benz AMG GT review"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "searchTerms": [
+      "BMW 3 Series",
+      "BMW 3 Series review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "Q5",
+    "searchTerms": [
+      "Audi Q5",
+      "Audi Q5 review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "Q3",
+    "searchTerms": [
+      "Audi Q3",
+      "Audi Q3 review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "searchTerms": [
+      "Audi A6",
+      "Audi A6 review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "searchTerms": [
+      "Audi A3",
+      "Audi A3 review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "A7",
+    "searchTerms": [
+      "Audi A7",
+      "Audi A7 review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "A8",
+    "searchTerms": [
+      "Audi A8",
+      "Audi A8 review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "Q2",
+    "searchTerms": [
+      "Audi Q2",
+      "Audi Q2 review"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "model": "Q7",
+    "searchTerms": [
+      "Audi Q7",
+      "Audi Q7 review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "ID.",
+    "searchTerms": [
+      "VW ID.",
+      "Volkswagen ID. review"
+    ]
+  },
+  {
+    "brand": "Porsche",
+    "model": "Panamera",
+    "searchTerms": [
+      "Porsche Panamera",
+      "Porsche Panamera review"
+    ]
+  },
+  {
+    "brand": "Porsche",
+    "model": "Cayenne",
+    "searchTerms": [
+      "Porsche Cayenne",
+      "Porsche Cayenne review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "searchTerms": [
+      "VW Passat",
+      "Volkswagen Passat review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Caravelle",
+    "searchTerms": [
+      "VW Caravelle",
+      "Volkswagen Caravelle review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Transporter",
+    "searchTerms": [
+      "VW Transporter",
+      "Volkswagen Transporter review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "searchTerms": [
+      "VW Tiguan",
+      "Volkswagen Tiguan review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "searchTerms": [
+      "VW Caddy",
+      "Volkswagen Caddy review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "T",
+    "searchTerms": [
+      "VW T",
+      "Volkswagen T review"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "searchTerms": [
+      "VW Touareg",
+      "Volkswagen Touareg review"
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "searchTerms": [
+      "Skoda Octavia",
+      "Skoda Octavia review"
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "searchTerms": [
+      "Skoda Superb",
+      "Skoda Superb review"
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "searchTerms": [
+      "Skoda Kodiaq",
+      "Skoda Kodiaq review"
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "searchTerms": [
+      "Skoda Fabia",
+      "Skoda Fabia review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "searchTerms": [
+      "Mercedes GLC",
+      "Mercedes-Benz GLC review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLS",
+    "searchTerms": [
+      "Mercedes CLS",
+      "Mercedes-Benz CLS review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "searchTerms": [
+      "Hyundai i10",
+      "Hyundai i10 review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "searchTerms": [
+      "Hyundai i20",
+      "Hyundai i20 review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i30",
+    "searchTerms": [
+      "Hyundai i30",
+      "Hyundai i30 review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "searchTerms": [
+      "Hyundai Tucson",
+      "Hyundai Tucson review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "searchTerms": [
+      "Hyundai Santa Fe",
+      "Hyundai Santa Fe review"
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "searchTerms": [
+      "Volvo XC60",
+      "Volvo XC60 review"
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC90",
+    "searchTerms": [
+      "Volvo XC90",
+      "Volvo XC90 review"
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "model": "V60",
+    "searchTerms": [
+      "Volvo V60",
+      "Volvo V60 review"
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "model": "S60",
+    "searchTerms": [
+      "Volvo S60",
+      "Volvo S60 review"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "searchTerms": [
+      "Honda Civic",
+      "Honda Civic review"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "model": "Accord",
+    "searchTerms": [
+      "Honda Accord",
+      "Honda Accord review"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "searchTerms": [
+      "Honda Jazz",
+      "Honda Jazz review"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "model": "e",
+    "searchTerms": [
+      "Honda e",
+      "Honda e review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "searchTerms": [
+      "Toyota Corolla",
+      "Toyota Corolla review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "searchTerms": [
+      "Toyota Camry",
+      "Toyota Camry review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "searchTerms": [
+      "Toyota Yaris",
+      "Toyota Yaris review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "Land Cruiser",
+    "searchTerms": [
+      "Toyota Land Cruiser",
+      "Toyota Land Cruiser review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "Prius",
+    "searchTerms": [
+      "Toyota Prius",
+      "Toyota Prius review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "Highlander",
+    "searchTerms": [
+      "Toyota Highlander",
+      "Toyota Highlander review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "searchTerms": [
+      "Nissan Qashqai",
+      "Nissan Qashqai review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "searchTerms": [
+      "Nissan X-Trail",
+      "Nissan X-Trail review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "Micra",
+    "searchTerms": [
+      "Nissan Micra",
+      "Nissan Micra review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "Z",
+    "searchTerms": [
+      "Nissan Z",
+      "Nissan Z review"
+    ]
+  },
+  {
+    "brand": "Mazda",
+    "model": "Mazda3",
+    "searchTerms": [
+      "Mazda Mazda3",
+      "Mazda Mazda3 review"
+    ]
+  },
+  {
+    "brand": "Mazda",
+    "model": "MX-5",
+    "searchTerms": [
+      "Mazda MX-5",
+      "Mazda MX-5 review"
+    ]
+  },
+  {
+    "brand": "Kia",
+    "model": "Picanto",
+    "searchTerms": [
+      "Kia Picanto",
+      "Kia Picanto review"
+    ]
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "searchTerms": [
+      "Kia Rio",
+      "Kia Rio review"
+    ]
+  },
+  {
+    "brand": "Kia",
+    "model": "Ceed",
+    "searchTerms": [
+      "Kia Ceed",
+      "Kia Ceed review"
+    ]
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "searchTerms": [
+      "Kia Sportage",
+      "Kia Sportage review"
+    ]
+  },
+  {
+    "brand": "Kia",
+    "model": "Sorento",
+    "searchTerms": [
+      "Kia Sorento",
+      "Kia Sorento review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "Clio",
+    "searchTerms": [
+      "Renault Clio",
+      "Renault Clio review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "Megane",
+    "searchTerms": [
+      "Renault Megane",
+      "Renault Megane review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "Scenic",
+    "searchTerms": [
+      "Renault Scenic",
+      "Renault Scenic review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "Classe G",
+    "searchTerms": [
+      "Mercedes Classe G",
+      "Mercedes-Benz Classe G review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "Classe B",
+    "searchTerms": [
+      "Mercedes Classe B",
+      "Mercedes-Benz Classe B review"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "SL",
+    "searchTerms": [
+      "Mercedes SL",
+      "Mercedes-Benz SL review"
+    ]
+  },
+  {
+    "brand": "Porsche",
+    "model": "porsche",
+    "searchTerms": [
+      "Porsche porsche",
+      "Porsche porsche review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "4runner",
+    "searchTerms": [
+      "Toyota 4runner",
+      "Toyota 4runner review"
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "model": "crown",
+    "searchTerms": [
+      "Toyota crown",
+      "Toyota crown review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "elantra",
+    "searchTerms": [
+      "Hyundai elantra",
+      "Hyundai elantra review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "grandeur azera",
+    "searchTerms": [
+      "Hyundai grandeur azera",
+      "Hyundai grandeur azera review"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "model": "sonata",
+    "searchTerms": [
+      "Hyundai sonata",
+      "Hyundai sonata review"
+    ]
+  },
+  {
+    "brand": "Kia",
+    "model": "cerato",
+    "searchTerms": [
+      "Kia cerato",
+      "Kia cerato review"
+    ]
+  },
+  {
+    "brand": "Kia",
+    "model": "forte",
+    "searchTerms": [
+      "Kia forte",
+      "Kia forte review"
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "model": "c70",
+    "searchTerms": [
+      "Volvo c70",
+      "Volvo c70 review"
+    ]
+  },
+  {
+    "brand": "Mazda",
+    "model": "bt",
+    "searchTerms": [
+      "Mazda bt",
+      "Mazda bt review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "ad",
+    "searchTerms": [
+      "Nissan ad",
+      "Nissan ad review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "altima",
+    "searchTerms": [
+      "Nissan altima",
+      "Nissan altima review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "frontier",
+    "searchTerms": [
+      "Nissan frontier",
+      "Nissan frontier review"
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "model": "rogue",
+    "searchTerms": [
+      "Nissan rogue",
+      "Nissan rogue review"
+    ]
+  },
+  {
+    "brand": "Peugeot",
+    "model": "peugeot",
+    "searchTerms": [
+      "Peugeot peugeot",
+      "Peugeot peugeot review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "renault",
+    "searchTerms": [
+      "Renault renault",
+      "Renault renault review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "duster",
+    "searchTerms": [
+      "Renault duster",
+      "Renault duster review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "espace",
+    "searchTerms": [
+      "Renault espace",
+      "Renault espace review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "kangoo",
+    "searchTerms": [
+      "Renault kangoo",
+      "Renault kangoo review"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "model": "HR-V",
+    "searchTerms": [
+      "Honda HR-V",
+      "Honda HR-V review"
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "model": "Karoq",
+    "searchTerms": [
+      "Skoda Karoq",
+      "Skoda Karoq review"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "searchTerms": [
+      "Honda CR-V",
+      "Honda CR-V review"
+    ]
+  },
+  {
+    "brand": "Peugeot",
+    "model": "rifter",
+    "searchTerms": [
+      "Peugeot rifter",
+      "Peugeot rifter review"
+    ]
+  },
+  {
+    "brand": "Renault",
+    "model": "Twingo",
+    "searchTerms": [
+      "Renault Twingo",
+      "Renault Twingo review"
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC40",
+    "searchTerms": [
+      "Volvo XC40",
+      "Volvo XC40 review"
+    ]
+  },
+  {
+    "brand": "Mazda",
+    "model": "CX-3",
+    "searchTerms": [
+      "Mazda CX-3",
+      "Mazda CX-3 review"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "model": "pilot",
+    "searchTerms": [
+      "Honda pilot",
+      "Honda pilot review"
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "model": "Elroq",
+    "searchTerms": [
+      "Skoda Elroq",
+      "Skoda Elroq review"
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "model": "Enyaq",
+    "searchTerms": [
+      "Skoda Enyaq",
+      "Skoda Enyaq review"
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "model": "S90",
+    "searchTerms": [
+      "Volvo S90",
+      "Volvo S90 review"
+    ]
+  }
+]

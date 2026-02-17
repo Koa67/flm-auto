@@ -785,6 +785,18 @@
       "thumbnail_url": "https://www.imcdb.org/t001874070.jpg"
     },
     {
+      "vehicle_id": "2064936",
+      "vehicle_model": "L",
+      "chassis_code": "W222",
+      "movie_id": "33496221",
+      "movie_title": "Reservatet",
+      "movie_year": "2025",
+      "stars": 2,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2064936-Mercedes-Benz-S-350-d-L-W222-2016.html",
+      "movie_url": "https://www.imcdb.org/movie_33496221-Reservatet.html",
+      "thumbnail_url": "https://www.imcdb.org/t002064936.jpg"
+    },
+    {
       "vehicle_id": "1275316",
       "vehicle_model": "400",
       "chassis_code": "W222",
@@ -1551,6 +1563,18 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_2039108-Mercedes-Benz-S-550-W222-2014.html",
       "movie_url": "https://www.imcdb.org/movie_26671996-Locked.html",
       "thumbnail_url": "https://www.imcdb.org/t002039108.jpg"
+    },
+    {
+      "vehicle_id": "2065847",
+      "vehicle_model": "550",
+      "chassis_code": "W222",
+      "movie_id": "3443274",
+      "movie_title": "Every Witch Way",
+      "movie_year": "2014-2015",
+      "stars": 2,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2065847-Mercedes-Benz-S-550-W222-2014.html",
+      "movie_url": "https://www.imcdb.org/movie_3443274-Every-Witch-Way.html",
+      "thumbnail_url": "https://www.imcdb.org/t002065847.jpg"
     },
     {
       "vehicle_id": "1512422",
@@ -2885,18 +2909,6 @@
       "thumbnail_url": "https://www.imcdb.org/t002037547.jpg"
     },
     {
-      "vehicle_id": "2064936",
-      "vehicle_model": "Klasse",
-      "chassis_code": "W222",
-      "movie_id": "33496221",
-      "movie_title": "Reservatet",
-      "movie_year": "2025",
-      "stars": 2,
-      "vehicle_url": "https://www.imcdb.org/vehicle_2064936-Mercedes-Benz-S-Klasse-W222.html",
-      "movie_url": "https://www.imcdb.org/movie_33496221-Reservatet.html",
-      "thumbnail_url": "https://www.imcdb.org/t002064936.jpg"
-    },
-    {
       "vehicle_id": "1487495",
       "vehicle_model": "Klasse",
       "chassis_code": "W222",
@@ -3591,19 +3603,7 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_1007230-Mercedes-Benz-S-Klasse-W222-2014.html",
       "movie_url": "https://www.imcdb.org/movie_280289-Die-Pfefferk%C3%B6rner.html",
       "thumbnail_url": "https://www.imcdb.org/t001007230.jpg"
-    },
-    {
-      "vehicle_id": "1008278",
-      "vehicle_model": "Klasse",
-      "chassis_code": "W222",
-      "movie_id": "4392726",
-      "movie_title": "华丽上班族",
-      "movie_year": "2015",
-      "stars": 3,
-      "vehicle_url": "https://www.imcdb.org/vehicle_1008278-Mercedes-Benz-S-Klasse-W222-2014.html",
-      "movie_url": "https://www.imcdb.org/movie_4392726-Hua-li-shang-ban-zu.html",
-      "thumbnail_url": "https://www.imcdb.org/t001008278.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:31:30.082Z"
+  "scraped_at": "2026-01-31T13:04:59.646Z"
 }

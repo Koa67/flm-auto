@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-02-13T07:48:33.537Z",
+  "stats": {
+    "premiumPost2012_4star": 30,
+    "premiumPost2005_3star": 26,
+    "mainstreamPost2015_3star": 90,
+    "mainstreamPost2010_3star": 65,
+    "secondaryPost2018_3star": 3,
+    "skippedExisting": 2691,
+    "skippedNoProdYear": 554,
+    "skippedExcluded": 39,
+    "skippedTooOld": 770
+  },
+  "count": 214,
+  "coverage": 2905,
+  "byBrand": {
+    "Volkswagen": 18,
+    "Mercedes-Benz": 12,
+    "Hyundai": 23,
+    "Jaguar": 3,
+    "Land Rover": 1,
+    "Lexus": 2,
+    "Renault": 27,
+    "Citroen": 2,
+    "Mini": 1,
+    "BMW": 9,
+    "Toyota": 28,
+    "Audi": 11,
+    "Porsche": 7,
+    "Honda": 5,
+    "Kia": 14,
+    "Volvo": 10,
+    "Skoda": 11,
+    "Tesla": 1,
+    "Nissan": 20,
+    "Peugeot": 9
+  }
+}

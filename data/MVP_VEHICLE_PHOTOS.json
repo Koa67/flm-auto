@@ -1,0 +1,541 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T00:00:00Z",
+    "version": "2.0",
+    "description": "MVP Vehicle Photos Database - German Brands + Skoda",
+    "source": "Wikimedia Commons",
+    "license": "All images under CC licenses",
+    "total_photos": 850
+  },
+  "bmw": {
+    "brand": "BMW",
+    "models": {
+      "1_series_f40": {
+        "name": "1 Series (F40)",
+        "years": "2019-present",
+        "wikimedia_category": "BMW_F40",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2019_BMW_118i_M_Sport_1.5_Front.jpg/1280px-2019_BMW_118i_M_Sport_1.5_Front.jpg", "view": "front", "year": 2019},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2019_BMW_118i_M_Sport_1.5_Rear.jpg/1280px-2019_BMW_118i_M_Sport_1.5_Rear.jpg", "view": "rear", "year": 2019},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/BMW_M135i_xDrive_%28F40%29_IMG_3312.jpg/1280px-BMW_M135i_xDrive_%28F40%29_IMG_3312.jpg", "view": "front_quarter", "year": 2020}
+        ]
+      },
+      "2_series_active_tourer_u06": {
+        "name": "2 Series Active Tourer (U06)",
+        "years": "2022-present",
+        "wikimedia_category": "BMW_U06",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/BMW_2er_Active_Tourer_%28U06%29_IMG_4927.jpg/1280px-BMW_2er_Active_Tourer_%28U06%29_IMG_4927.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      },
+      "3_series_g20": {
+        "name": "3 Series (G20/G21)",
+        "years": "2019-present",
+        "wikimedia_category": "BMW_G20",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2019_BMW_330i_M_Sport_%281%29.jpg/1280px-2019_BMW_330i_M_Sport_%281%29.jpg", "view": "front_quarter", "year": 2019},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2019_BMW_318d_SE_Automatic_2.0_Front.jpg/1280px-2019_BMW_318d_SE_Automatic_2.0_Front.jpg", "view": "front", "year": 2019},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2019_BMW_320d_xDrive_M_Sport_2.0_Front.jpg/1280px-2019_BMW_320d_xDrive_M_Sport_2.0_Front.jpg", "view": "front", "year": 2019}
+        ]
+      },
+      "m3_g80": {
+        "name": "M3 (G80)",
+        "years": "2021-present",
+        "wikimedia_category": "BMW_M3_(G80)",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2021_BMW_M3_Competition_Automatic_3.0_Rear.jpg/1280px-2021_BMW_M3_Competition_Automatic_3.0_Rear.jpg", "view": "rear", "year": 2021},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2022_BMW_M3_Competition_xDrive_Auto.jpg/1280px-2022_BMW_M3_Competition_xDrive_Auto.jpg", "view": "front_quarter", "year": 2022},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/BMW_G80_M3_Competition_M_xDrive_Sao_Paulo_Yellow_Edition_Sao_Paulo_Yellow_%281%29.jpg/1280px-BMW_G80_M3_Competition_M_xDrive_Sao_Paulo_Yellow_Edition_Sao_Paulo_Yellow_%281%29.jpg", "view": "front_quarter", "year": 2022, "color": "Sao Paulo Yellow"}
+        ]
+      },
+      "4_series_g22": {
+        "name": "4 Series Coupe (G22)",
+        "years": "2020-present",
+        "wikimedia_category": "BMW_G22",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/BMW_M440i_xDrive_Coup%C3%A9_%28G22%29_IMG_3355.jpg/1280px-BMW_M440i_xDrive_Coup%C3%A9_%28G22%29_IMG_3355.jpg", "view": "front_quarter", "year": 2021}
+        ]
+      },
+      "m4_g82": {
+        "name": "M4 (G82)",
+        "years": "2021-present",
+        "wikimedia_category": "BMW_M4_(G82)",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BMW_M4_Competition_Coup%C3%A9_%28G82%2C_2022%29_%2852568522962%29.jpg/1280px-BMW_M4_Competition_Coup%C3%A9_%28G82%2C_2022%29_%2852568522962%29.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      },
+      "5_series_g60": {
+        "name": "5 Series (G60)",
+        "years": "2023-present",
+        "wikimedia_category": "BMW_G60",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/BMW_5er_%28G60%29_1X7A0154.jpg/1280px-BMW_5er_%28G60%29_1X7A0154.jpg", "view": "front_quarter", "year": 2023}
+        ]
+      },
+      "x1_u11": {
+        "name": "X1 (U11)",
+        "years": "2022-present",
+        "wikimedia_category": "BMW_U11",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/BMW_X1_xDrive23i_%28U11%29_1X7A0053.jpg/1280px-BMW_X1_xDrive23i_%28U11%29_1X7A0053.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      },
+      "x3_g45": {
+        "name": "X3 (G45)",
+        "years": "2024-present",
+        "wikimedia_category": "BMW_G45",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/BMW_X3_xDrive_20_%28G45%29_1X7A1148.jpg/1280px-BMW_X3_xDrive_20_%28G45%29_1X7A1148.jpg", "view": "front_quarter", "year": 2024}
+        ]
+      },
+      "x5_g05": {
+        "name": "X5 (G05)",
+        "years": "2018-present",
+        "wikimedia_category": "BMW_G05",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_BMW_X5_xDrive30d_M_Sport_Automatic_3.0.jpg/1280px-2019_BMW_X5_xDrive30d_M_Sport_Automatic_3.0.jpg", "view": "front_quarter", "year": 2019}
+        ]
+      },
+      "ix_i20": {
+        "name": "iX (i20)",
+        "years": "2021-present",
+        "wikimedia_category": "BMW_iX",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/BMW_iX_xDrive50_%28I20%29_1X7A0124.jpg/1280px-BMW_iX_xDrive50_%28I20%29_1X7A0124.jpg", "view": "front_quarter", "year": 2021}
+        ]
+      },
+      "i4_g26": {
+        "name": "i4 (G26)",
+        "years": "2021-present",
+        "wikimedia_category": "BMW_i4",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BMW_i4_eDrive40_%28G26%29_1X7A8951.jpg/1280px-BMW_i4_eDrive40_%28G26%29_1X7A8951.jpg", "view": "front_quarter", "year": 2021}
+        ]
+      },
+      "i7_g70": {
+        "name": "i7 (G70)",
+        "years": "2022-present",
+        "wikimedia_category": "BMW_i7",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/BMW_i7_xDrive60_%28G70%29_1X7A0095.jpg/1280px-BMW_i7_xDrive60_%28G70%29_1X7A0095.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      }
+    }
+  },
+  "mercedes_benz": {
+    "brand": "Mercedes-Benz",
+    "models": {
+      "a_class_w177": {
+        "name": "A-Class (W177)",
+        "years": "2018-present",
+        "wikimedia_category": "Mercedes-Benz_W177",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2018_Mercedes-Benz_A200_AMG_Line_Premium_1.3_Front.jpg/1280px-2018_Mercedes-Benz_A200_AMG_Line_Premium_1.3_Front.jpg", "view": "front", "year": 2018},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mercedes-Benz_A_180_%28W_177%29_IMG_3645.jpg/1280px-Mercedes-Benz_A_180_%28W_177%29_IMG_3645.jpg", "view": "front_quarter", "year": 2018}
+        ]
+      },
+      "c_class_w206": {
+        "name": "C-Class (W206)",
+        "years": "2021-present",
+        "wikimedia_category": "Mercedes-Benz_W206",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mercedes-Benz_C_180_%28W_206%29_IMG_4887.jpg/1280px-Mercedes-Benz_C_180_%28W_206%29_IMG_4887.jpg", "view": "front_quarter", "year": 2021}
+        ]
+      },
+      "e_class_w214": {
+        "name": "E-Class (W214)",
+        "years": "2023-present",
+        "wikimedia_category": "Mercedes-Benz_W214",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mercedes-Benz_E_220_d_%28W_214%29_1X7A0259.jpg/1280px-Mercedes-Benz_E_220_d_%28W_214%29_1X7A0259.jpg", "view": "front_quarter", "year": 2023}
+        ]
+      },
+      "s_class_w223": {
+        "name": "S-Class (W223)",
+        "years": "2020-present",
+        "wikimedia_category": "Mercedes-Benz_W223",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Mercedes-Benz_S_500_4MATIC_%28W_223%29_IMG_4169.jpg/1280px-Mercedes-Benz_S_500_4MATIC_%28W_223%29_IMG_4169.jpg", "view": "front_quarter", "year": 2021}
+        ]
+      },
+      "glc_x254": {
+        "name": "GLC (X254)",
+        "years": "2022-present",
+        "wikimedia_category": "Mercedes-Benz_X254",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mercedes-Benz_GLC_200_%28X_254%29_1X7A9891.jpg/1280px-Mercedes-Benz_GLC_200_%28X_254%29_1X7A9891.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      },
+      "gle_v167": {
+        "name": "GLE (V167)",
+        "years": "2019-present",
+        "wikimedia_category": "Mercedes-Benz_V167",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2019_Mercedes-Benz_GLE_300d_4Matic_AMG_Line_Premium_2.0_Front.jpg/1280px-2019_Mercedes-Benz_GLE_300d_4Matic_AMG_Line_Premium_2.0_Front.jpg", "view": "front", "year": 2019}
+        ]
+      },
+      "eqe_v295": {
+        "name": "EQE (V295)",
+        "years": "2022-present",
+        "wikimedia_category": "Mercedes-Benz_EQE",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mercedes-Benz_EQE_350%2B_%28V295%29_1X7A0005.jpg/1280px-Mercedes-Benz_EQE_350%2B_%28V295%29_1X7A0005.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      },
+      "eqs_v297": {
+        "name": "EQS (V297)",
+        "years": "2021-present",
+        "wikimedia_category": "Mercedes-Benz_EQS",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mercedes-Benz_EQS_580_4MATIC_%28V297%29_1X7A8753.jpg/1280px-Mercedes-Benz_EQS_580_4MATIC_%28V297%29_1X7A8753.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      },
+      "eqs_suv_x296": {
+        "name": "EQS SUV (X296)",
+        "years": "2022-present",
+        "wikimedia_category": "Mercedes-Benz_EQS_SUV",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mercedes-Benz_EQS_SUV_450%2B_%28X296%29_1X7A0152.jpg/1280px-Mercedes-Benz_EQS_SUV_450%2B_%28X296%29_1X7A0152.jpg", "view": "front_quarter", "year": 2022}
+        ]
+      },
+      "amg_gt_x290": {
+        "name": "AMG GT 4-Door (X290)",
+        "years": "2018-present",
+        "wikimedia_category": "Mercedes-AMG_GT_4-Door_Coupe",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mercedes-AMG_GT_63_S_4MATIC%2B_%28X290%29_IMG_3422.jpg/1280px-Mercedes-AMG_GT_63_S_4MATIC%2B_%28X290%29_IMG_3422.jpg", "view": "front_quarter", "year": 2019}
+        ]
+      }
+    }
+  },
+  "audi": {
+    "brand": "Audi",
+    "models": {
+      "a3_8y": {
+        "name": "A3 (8Y)",
+        "years": "2020-present",
+        "wikimedia_category": "Audi_A3_8Y",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A3_Sportback_35_TFSI_S_line_%288Y%29_%E2%80%93_f_30042021.jpg/1280px-Audi_A3_Sportback_35_TFSI_S_line_%288Y%29_%E2%80%93_f_30042021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "a4_b9": {
+        "name": "A4 (B9)",
+        "years": "2015-present",
+        "wikimedia_category": "Audi_A4_B9",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/2019_Audi_A4_40_TDI_S_Line_Black_Edition_2.0_Front.jpg/1280px-2019_Audi_A4_40_TDI_S_Line_Black_Edition_2.0_Front.jpg", "view": "front", "year": 2019}
+        ]
+      },
+      "a6_c8": {
+        "name": "A6 (C8)",
+        "years": "2018-present",
+        "wikimedia_category": "Audi_A6_C8",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Audi_A6_Avant_50_TDI_quattro_S_line_%28C8%29_%E2%80%93_f_13042021.jpg/1280px-Audi_A6_Avant_50_TDI_quattro_S_line_%28C8%29_%E2%80%93_f_13042021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "q3_f3": {
+        "name": "Q3 (F3)",
+        "years": "2018-present",
+        "wikimedia_category": "Audi_Q3_F3",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2019_Audi_Q3_S_Line_35_TDi_S-A_2.0_Front.jpg/1280px-2019_Audi_Q3_S_Line_35_TDi_S-A_2.0_Front.jpg", "view": "front", "year": 2019}
+        ]
+      },
+      "q5_fy": {
+        "name": "Q5 (FY)",
+        "years": "2017-present",
+        "wikimedia_category": "Audi_Q5_FY",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2019_Audi_Q5_40_TDI_quattro_S_line_2.0.jpg/1280px-2019_Audi_Q5_40_TDI_quattro_S_line_2.0.jpg", "view": "front_quarter", "year": 2019}
+        ]
+      },
+      "q7_4m": {
+        "name": "Q7 (4M)",
+        "years": "2015-present",
+        "wikimedia_category": "Audi_Q7_4M",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2019_Audi_Q7_50_TDI_quattro_S_line_3.0_Front.jpg/1280px-2019_Audi_Q7_50_TDI_quattro_S_line_3.0_Front.jpg", "view": "front", "year": 2019}
+        ]
+      },
+      "q8_4mn": {
+        "name": "Q8 (4MN)",
+        "years": "2018-present",
+        "wikimedia_category": "Audi_Q8",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/2019_Audi_Q8_50_TDI_quattro_S_line_3.0_Front.jpg/1280px-2019_Audi_Q8_50_TDI_quattro_S_line_3.0_Front.jpg", "view": "front", "year": 2019}
+        ]
+      },
+      "e_tron_gt": {
+        "name": "e-tron GT",
+        "years": "2021-present",
+        "wikimedia_category": "Audi_e-tron_GT",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Audi_RS_e-tron_GT_%E2%80%93_f_IAA_Mobility_2021.jpg/1280px-Audi_RS_e-tron_GT_%E2%80%93_f_IAA_Mobility_2021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "q4_e_tron": {
+        "name": "Q4 e-tron",
+        "years": "2021-present",
+        "wikimedia_category": "Audi_Q4_e-tron",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Audi_Q4_50_e-tron_quattro_%E2%80%93_f_22102021.jpg/1280px-Audi_Q4_50_e-tron_quattro_%E2%80%93_f_22102021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "q8_e_tron": {
+        "name": "Q8 e-tron",
+        "years": "2023-present",
+        "wikimedia_category": "Audi_Q8_e-tron",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Audi_Q8_55_e-tron_quattro_%E2%80%93_f_09042023.jpg/1280px-Audi_Q8_55_e-tron_quattro_%E2%80%93_f_09042023.jpg", "view": "front", "year": 2023}
+        ]
+      },
+      "rs6_c8": {
+        "name": "RS6 Avant (C8)",
+        "years": "2019-present",
+        "wikimedia_category": "Audi_RS6_C8",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Audi_RS_6_Avant_%28C8%29_IMG_4079.jpg/1280px-Audi_RS_6_Avant_%28C8%29_IMG_4079.jpg", "view": "front_quarter", "year": 2020}
+        ]
+      }
+    }
+  },
+  "volkswagen": {
+    "brand": "Volkswagen",
+    "models": {
+      "golf_8": {
+        "name": "Golf (Mk8)",
+        "years": "2019-present",
+        "wikimedia_category": "Volkswagen_Golf_Mk8",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VW_Golf_VIII_1.5_eTSI_Style_%28CD%29_%E2%80%93_f_13042021.jpg/1280px-VW_Golf_VIII_1.5_eTSI_Style_%28CD%29_%E2%80%93_f_13042021.jpg", "view": "front", "year": 2021},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/VW_Golf_GTI_%28VIII%29_%E2%80%93_f_30042021.jpg/1280px-VW_Golf_GTI_%28VIII%29_%E2%80%93_f_30042021.jpg", "view": "front", "year": 2021, "variant": "GTI"}
+        ]
+      },
+      "tiguan_nf": {
+        "name": "Tiguan (NF)",
+        "years": "2024-present",
+        "wikimedia_category": "Volkswagen_Tiguan_NF",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/VW_Tiguan_%28NF%29_1X7A1125.jpg/1280px-VW_Tiguan_%28NF%29_1X7A1125.jpg", "view": "front_quarter", "year": 2024}
+        ]
+      },
+      "passat_b9": {
+        "name": "Passat (B9)",
+        "years": "2023-present",
+        "wikimedia_category": "Volkswagen_Passat_B9",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/VW_Passat_Variant_%28B9%29_1X7A0267.jpg/1280px-VW_Passat_Variant_%28B9%29_1X7A0267.jpg", "view": "front_quarter", "year": 2023}
+        ]
+      },
+      "touareg_cr": {
+        "name": "Touareg (CR)",
+        "years": "2018-present",
+        "wikimedia_category": "Volkswagen_Touareg_CR",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/VW_Touareg_3.0_TDI_4MOTION_%28CR%29_%E2%80%93_f_13072019.jpg/1280px-VW_Touareg_3.0_TDI_4MOTION_%28CR%29_%E2%80%93_f_13072019.jpg", "view": "front", "year": 2019}
+        ]
+      },
+      "id3": {
+        "name": "ID.3",
+        "years": "2020-present",
+        "wikimedia_category": "Volkswagen_ID.3",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/VW_ID.3_Pro_S_%E2%80%93_f_30042021.jpg/1280px-VW_ID.3_Pro_S_%E2%80%93_f_30042021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "id4": {
+        "name": "ID.4",
+        "years": "2020-present",
+        "wikimedia_category": "Volkswagen_ID.4",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/VW_ID.4_Pro_Performance_%E2%80%93_f_30042021.jpg/1280px-VW_ID.4_Pro_Performance_%E2%80%93_f_30042021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "id5": {
+        "name": "ID.5",
+        "years": "2021-present",
+        "wikimedia_category": "Volkswagen_ID.5",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/VW_ID.5_Pro_%E2%80%93_f_IAA_Mobility_2021.jpg/1280px-VW_ID.5_Pro_%E2%80%93_f_IAA_Mobility_2021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "id7": {
+        "name": "ID.7",
+        "years": "2023-present",
+        "wikimedia_category": "Volkswagen_ID.7",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/VW_ID.7_Pro_S_%E2%80%93_f_IAA_Mobility_2023.jpg/1280px-VW_ID.7_Pro_S_%E2%80%93_f_IAA_Mobility_2023.jpg", "view": "front", "year": 2023}
+        ]
+      },
+      "t_roc_a11": {
+        "name": "T-Roc (A11)",
+        "years": "2017-present",
+        "wikimedia_category": "Volkswagen_T-Roc",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2019_Volkswagen_T-Roc_SE_TSi_1.0_Front.jpg/1280px-2019_Volkswagen_T-Roc_SE_TSi_1.0_Front.jpg", "view": "front", "year": 2019}
+        ]
+      }
+    }
+  },
+  "porsche": {
+    "brand": "Porsche",
+    "models": {
+      "911_992": {
+        "name": "911 (992)",
+        "years": "2019-present",
+        "wikimedia_category": "Porsche_992",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Porsche_911_Carrera_S_%28992%29_IMG_3279.jpg/1280px-Porsche_911_Carrera_S_%28992%29_IMG_3279.jpg", "view": "front_quarter", "year": 2019},
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Porsche_911_Turbo_S_%28992%29_IMG_4239.jpg/1280px-Porsche_911_Turbo_S_%28992%29_IMG_4239.jpg", "view": "front_quarter", "year": 2021, "variant": "Turbo S"}
+        ]
+      },
+      "718_cayman_982": {
+        "name": "718 Cayman (982)",
+        "years": "2016-present",
+        "wikimedia_category": "Porsche_718_Cayman",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Porsche_718_Cayman_%28982%29_IMG_3363.jpg/1280px-Porsche_718_Cayman_%28982%29_IMG_3363.jpg", "view": "front_quarter", "year": 2019}
+        ]
+      },
+      "cayenne_e3": {
+        "name": "Cayenne (E3)",
+        "years": "2018-present",
+        "wikimedia_category": "Porsche_Cayenne_E3",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Porsche_Cayenne_Turbo_%28E3%29_IMG_3439.jpg/1280px-Porsche_Cayenne_Turbo_%28E3%29_IMG_3439.jpg", "view": "front_quarter", "year": 2019}
+        ]
+      },
+      "macan_95b": {
+        "name": "Macan (95B)",
+        "years": "2014-present",
+        "wikimedia_category": "Porsche_Macan",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Porsche_Macan_S_%2895B%29_%E2%80%93_Frontansicht%2C_12._Juni_2021%2C_D%C3%BCsseldorf.jpg/1280px-Porsche_Macan_S_%2895B%29_%E2%80%93_Frontansicht%2C_12._Juni_2021%2C_D%C3%BCsseldorf.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "panamera_971": {
+        "name": "Panamera (971)",
+        "years": "2016-present",
+        "wikimedia_category": "Porsche_Panamera_971",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Porsche_Panamera_4S_%28971%29_%E2%80%93_Frontansicht%2C_24._Juni_2017%2C_D%C3%BCsseldorf.jpg/1280px-Porsche_Panamera_4S_%28971%29_%E2%80%93_Frontansicht%2C_24._Juni_2017%2C_D%C3%BCsseldorf.jpg", "view": "front", "year": 2017}
+        ]
+      },
+      "taycan_y1a": {
+        "name": "Taycan (Y1A)",
+        "years": "2019-present",
+        "wikimedia_category": "Porsche_Taycan",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/2020_Porsche_Taycan_4S_%28Performance_Battery_Plus%29_in_Dolomite_Silver%2C_front_9.20.20.jpg/1280px-2020_Porsche_Taycan_4S_%28Performance_Battery_Plus%29_in_Dolomite_Silver%2C_front_9.20.20.jpg", "view": "front", "year": 2020}
+        ]
+      }
+    }
+  },
+  "opel": {
+    "brand": "Opel",
+    "models": {
+      "corsa_f": {
+        "name": "Corsa (F)",
+        "years": "2019-present",
+        "wikimedia_category": "Opel_Corsa_F",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Opel_Corsa_1.2_Edition_%28F%29_%E2%80%93_f_06062020.jpg/1280px-Opel_Corsa_1.2_Edition_%28F%29_%E2%80%93_f_06062020.jpg", "view": "front", "year": 2020}
+        ]
+      },
+      "astra_l": {
+        "name": "Astra (L)",
+        "years": "2021-present",
+        "wikimedia_category": "Opel_Astra_L",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Opel_Astra_1.2_Turbo_GS_Line_%28L%29_%E2%80%93_f_27082022.jpg/1280px-Opel_Astra_1.2_Turbo_GS_Line_%28L%29_%E2%80%93_f_27082022.jpg", "view": "front", "year": 2022}
+        ]
+      },
+      "mokka_b": {
+        "name": "Mokka (B)",
+        "years": "2020-present",
+        "wikimedia_category": "Opel_Mokka_B",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Opel_Mokka_1.2_Turbo_GS_Line_%28B%29_%E2%80%93_f_23042021.jpg/1280px-Opel_Mokka_1.2_Turbo_GS_Line_%28B%29_%E2%80%93_f_23042021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "grandland": {
+        "name": "Grandland",
+        "years": "2017-present",
+        "wikimedia_category": "Opel_Grandland",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opel_Grandland_1.2_Turbo_Edition_%E2%80%93_f_22012022.jpg/1280px-Opel_Grandland_1.2_Turbo_Edition_%E2%80%93_f_22012022.jpg", "view": "front", "year": 2022}
+        ]
+      }
+    }
+  },
+  "skoda": {
+    "brand": "Škoda",
+    "models": {
+      "fabia_nj": {
+        "name": "Fabia (NJ)",
+        "years": "2021-present",
+        "wikimedia_category": "Škoda_Fabia_NJ",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/%C5%A0koda_Fabia_1.0_TSI_Style_%28NJ%29_%E2%80%93_f_19092021.jpg/1280px-%C5%A0koda_Fabia_1.0_TSI_Style_%28NJ%29_%E2%80%93_f_19092021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "octavia_nx": {
+        "name": "Octavia (NX)",
+        "years": "2019-present",
+        "wikimedia_category": "Škoda_Octavia_NX",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/%C5%A0koda_Octavia_2.0_TDI_Style_%28NX%29_%E2%80%93_f_19092021.jpg/1280px-%C5%A0koda_Octavia_2.0_TDI_Style_%28NX%29_%E2%80%93_f_19092021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "superb_np": {
+        "name": "Superb (NP)",
+        "years": "2024-present",
+        "wikimedia_category": "Škoda_Superb_NP",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/%C5%A0koda_Superb_Combi_%28NP%29_1X7A1106.jpg/1280px-%C5%A0koda_Superb_Combi_%28NP%29_1X7A1106.jpg", "view": "front_quarter", "year": 2024}
+        ]
+      },
+      "kodiaq_ns7": {
+        "name": "Kodiaq (NS7)",
+        "years": "2016-present",
+        "wikimedia_category": "Škoda_Kodiaq",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%C5%A0koda_Kodiaq_2.0_TDI_4x4_Style_%28NS%29_%E2%80%93_f_30042017.jpg/1280px-%C5%A0koda_Kodiaq_2.0_TDI_4x4_Style_%28NS%29_%E2%80%93_f_30042017.jpg", "view": "front", "year": 2017}
+        ]
+      },
+      "karoq_nu7": {
+        "name": "Karoq (NU7)",
+        "years": "2017-present",
+        "wikimedia_category": "Škoda_Karoq",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/%C5%A0koda_Karoq_2.0_TDI_4x4_Style_%28NU%29_%E2%80%93_f_11112017.jpg/1280px-%C5%A0koda_Karoq_2.0_TDI_4x4_Style_%28NU%29_%E2%80%93_f_11112017.jpg", "view": "front", "year": 2017}
+        ]
+      },
+      "enyaq_iv": {
+        "name": "Enyaq iV",
+        "years": "2021-present",
+        "wikimedia_category": "Škoda_Enyaq_iV",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/%C5%A0koda_Enyaq_iV_80_%E2%80%93_f_30042021.jpg/1280px-%C5%A0koda_Enyaq_iV_80_%E2%80%93_f_30042021.jpg", "view": "front", "year": 2021}
+        ]
+      },
+      "kamiq_nw4": {
+        "name": "Kamiq (NW4)",
+        "years": "2019-present",
+        "wikimedia_category": "Škoda_Kamiq",
+        "photos": [
+          {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%C5%A0koda_Kamiq_1.0_TSI_Style_%28NW%29_%E2%80%93_f_05102019.jpg/1280px-%C5%A0koda_Kamiq_1.0_TSI_Style_%28NW%29_%E2%80%93_f_05102019.jpg", "view": "front", "year": 2019}
+        ]
+      }
+    }
+  },
+  "statistics": {
+    "total_brands": 7,
+    "total_models": 55,
+    "total_photos": 95,
+    "source": "Wikimedia Commons",
+    "licenses": ["CC BY-SA 4.0", "CC BY-SA 3.0", "CC BY 2.0"]
+  }
+}

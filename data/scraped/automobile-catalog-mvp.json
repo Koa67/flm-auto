@@ -1,0 +1,14 @@
+{
+  "source": "automobile-catalog",
+  "type": "specs",
+  "scraped_at": "2026-01-31T08:56:25.235Z",
+  "brands": {
+    "BMW": [],
+    "Mercedes-Benz": [],
+    "Audi": [],
+    "Porsche": [],
+    "Volkswagen": [],
+    "Skoda": []
+  },
+  "total_vehicles": 0
+}

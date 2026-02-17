@@ -1145,6 +1145,18 @@
       "thumbnail_url": "https://www.imcdb.org/t001867348.jpg"
     },
     {
+      "vehicle_id": "2066328",
+      "vehicle_model": "220",
+      "chassis_code": "W210",
+      "movie_id": "7830346",
+      "movie_title": "Бухта Филиппа",
+      "movie_year": "2006",
+      "stars": 3,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2066328-Mercedes-Benz-E-220-W210-2000.html",
+      "movie_url": "https://www.imcdb.org/movie_7830346-Bukhta-Filippa.html",
+      "thumbnail_url": "https://www.imcdb.org/t002066328.jpg"
+    },
+    {
       "vehicle_id": "1874051",
       "vehicle_model": "CDI",
       "chassis_code": "W210",
@@ -3591,19 +3603,7 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_1944615-Mercedes-Benz-E-270-CDI-W210-2000.html",
       "movie_url": "https://www.imcdb.org/movie_211169-La-squadra.html",
       "thumbnail_url": "https://www.imcdb.org/t001944615.jpg"
-    },
-    {
-      "vehicle_id": "186752",
-      "vehicle_model": "CDI",
-      "chassis_code": "W210",
-      "movie_id": "1096980",
-      "movie_title": "Pitbull",
-      "movie_year": "2005-2008",
-      "stars": 2,
-      "vehicle_url": "https://www.imcdb.org/vehicle_186752-Mercedes-Benz-E-270-CDI-W210-2001.html",
-      "movie_url": "https://www.imcdb.org/movie_1096980-Pitbull.html",
-      "thumbnail_url": "https://www.imcdb.org/t186752.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:30:33.728Z"
+  "scraped_at": "2026-01-31T13:04:02.273Z"
 }

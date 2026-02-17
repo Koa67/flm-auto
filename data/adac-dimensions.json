@@ -1,0 +1,590 @@
+[
+  {
+    "brand": "BMW",
+    "model": "E3",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/e3/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:03.072Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "E9",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/e9/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:11.099Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "Glas 1600 GT",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/glas-1600-gt/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:18.655Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "Glas 3000 V8",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/glas-3000-v8/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:25.044Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "i3",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/i3/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:31.339Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "i4",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/i4/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:38.524Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "i5",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/i5/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:46.329Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "i7",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/i7/?filter=NONE",
+    "scraped_at": "2026-02-06T11:26:53.210Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "i8",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/i8/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:04.337Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "Isetta",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/isetta/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:11.866Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "iX",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/ix/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:18.271Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "iX1",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/ix1/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:24.711Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "iX2",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/ix2/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:31.016Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "iX3",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/ix3/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:37.459Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "M1",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/m1/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:45.418Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "Neue Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/neue-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:53.026Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "X1",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x1/?filter=NONE",
+    "scraped_at": "2026-02-06T11:27:59.336Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "X2",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x2/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:07.549Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "X3",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x3/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:13.266Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "X4",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/x4/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:19.482Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "A-Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/a-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:31.294Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "AMG GT",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/amg-gt/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:37.876Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "AMG GT 4-Türer Coupé",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/amg-gt-4-tuerer-coupe/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:45.541Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "AMG ONE",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/amg-one/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:51.808Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "B-Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/b-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:28:59.451Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:05.806Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "Citan",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/citan/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:12.054Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CL-Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cl-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:19.178Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLA",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cla/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:26.000Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLC-Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/clc-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:33.433Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLE",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cle/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:41.145Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLK-Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/clk-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:48.401Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "CLS",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/cls/?filter=NONE",
+    "scraped_at": "2026-02-06T11:29:55.370Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E-Klasse",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/e-klasse/?filter=NONE",
+    "scraped_at": "2026-02-06T11:30:02.819Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "EQA",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/eqa/?filter=NONE",
+    "scraped_at": "2026-02-06T11:30:09.997Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "EQC",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/eqc/?filter=NONE",
+    "scraped_at": "2026-02-06T11:30:49.756Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "EQE",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/eqe/?filter=NONE",
+    "scraped_at": "2026-02-06T11:30:57.687Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/eqe-suv/?filter=NONE",
+    "scraped_at": "2026-02-06T11:31:04.804Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "EQS",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/eqs/?filter=NONE",
+    "scraped_at": "2026-02-06T11:31:11.907Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A1",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a1/?filter=NONE",
+    "scraped_at": "2026-02-06T11:31:30.936Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A2",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a2/?filter=NONE",
+    "scraped_at": "2026-02-06T11:31:37.120Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a3/?filter=NONE",
+    "scraped_at": "2026-02-06T11:31:42.883Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/?filter=NONE",
+    "scraped_at": "2026-02-06T11:31:50.592Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A5",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a5/?filter=NONE",
+    "scraped_at": "2026-02-06T11:31:58.647Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a6/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:04.955Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A7",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a7/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:12.803Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "A8",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a8/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:19.203Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "allroad quattro",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/allroad-quattro/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:27.038Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Cabriolet",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/cabriolet/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:35.212Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Coupé",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/coupe/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:42.230Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "e-tron",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/e-tron/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:50.106Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "e-tron GT",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/e-tron-gt/?filter=NONE",
+    "scraped_at": "2026-02-06T11:32:58.129Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "F103",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/f103/?filter=NONE",
+    "scraped_at": "2026-02-06T11:33:04.436Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Q2",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q2/?filter=NONE",
+    "scraped_at": "2026-02-06T11:33:12.074Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Q3",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q3/?filter=NONE",
+    "scraped_at": "2026-02-06T11:33:19.383Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Q4 e-tron",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q4-e-tron/?filter=NONE",
+    "scraped_at": "2026-02-06T11:33:25.444Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Q5",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q5/?filter=NONE",
+    "scraped_at": "2026-02-06T11:33:32.118Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Q6 e-tron",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q6-e-tron/?filter=NONE",
+    "scraped_at": "2026-02-06T11:33:38.937Z"
+  },
+  {
+    "brand": "Audi",
+    "model": "Q7",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/q7/?filter=NONE",
+    "scraped_at": "2026-02-06T11:33:52.514Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Boxster",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/boxster/?filter=NONE",
+    "scraped_at": "2026-02-06T11:34:04.590Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Carrera GT",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/carrera-gt/?filter=NONE",
+    "scraped_at": "2026-02-06T11:34:11.340Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Cayenne",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/cayenne/?filter=NONE",
+    "scraped_at": "2026-02-06T11:34:18.812Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Cayman",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/cayman/?filter=NONE",
+    "scraped_at": "2026-02-06T11:34:24.811Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Macan",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/macan/?filter=NONE",
+    "scraped_at": "2026-02-06T11:34:33.045Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Panamera",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/panamera/?filter=NONE",
+    "scraped_at": "2026-02-06T11:34:40.200Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "356",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/356/?filter=NONE",
+    "scraped_at": "2026-02-06T11:35:22.491Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "550 Spyder",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/550-spyder/?filter=NONE",
+    "scraped_at": "2026-02-06T11:35:28.472Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "911",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/911/?filter=NONE",
+    "scraped_at": "2026-02-06T11:35:35.289Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "912",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/912/?filter=NONE",
+    "scraped_at": "2026-02-06T11:35:41.932Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "914",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/914/?filter=NONE",
+    "scraped_at": "2026-02-06T11:35:49.991Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "918 Spyder",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/918-spyder/?filter=NONE",
+    "scraped_at": "2026-02-06T11:35:58.472Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "924",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/924/?filter=NONE",
+    "scraped_at": "2026-02-06T11:36:04.926Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "928",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/928/?filter=NONE",
+    "scraped_at": "2026-02-06T11:36:12.159Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "944",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/944/?filter=NONE",
+    "scraped_at": "2026-02-06T11:36:19.072Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "959",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/959/?filter=NONE",
+    "scraped_at": "2026-02-06T11:36:26.557Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "968",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/968/?filter=NONE",
+    "scraped_at": "2026-02-06T11:36:33.848Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Test  Macan E 2025: Fein, schnell, teuer",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/porsche-macan-e/",
+    "scraped_at": "2026-02-06T11:36:40.345Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Cayenne E 2026: Irre schnell – auch beim Laden",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/porsche-cayenne/",
+    "scraped_at": "2026-02-06T11:36:47.204Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Citigo",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/citigo/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:00.892Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Elroq",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/elroq/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:07.025Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Enyaq",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/enyaq/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:13.829Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Fabia",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/fabia/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:21.144Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Favorit",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/favorit/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:28.582Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Felicia",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/felicia/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:36.537Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Forman",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/forman/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:44.366Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kamiq",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/kamiq/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:51.670Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Karoq",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/karoq/?filter=NONE",
+    "scraped_at": "2026-02-06T11:37:59.187Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/kodiaq/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:05.948Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:13.014Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Praktik",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/praktik/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:20.086Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/rapid/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:27.023Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Roomster",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/roomster/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:33.658Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "S105/120/130/135",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/s105-120-130-135/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:40.855Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Scala",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/scala/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:48.812Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/superb/?filter=NONE",
+    "scraped_at": "2026-02-06T11:38:56.345Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Yeti",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/yeti/?filter=NONE",
+    "scraped_at": "2026-02-06T11:39:02.257Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Škoda Octavia Combi: Ist das Familienauto auch sparsam?",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/skoda-octavia-test/",
+    "scraped_at": "2026-02-06T11:39:09.764Z"
+  },
+  {
+    "brand": "Skoda",
+    "model": "Škoda Epiq: Warum dieses Elektro-SUV zum Hit wird",
+    "source_url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/skoda-epiq/",
+    "scraped_at": "2026-02-06T11:39:16.931Z"
+  }
+]

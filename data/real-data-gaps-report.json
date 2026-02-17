@@ -1,0 +1,532 @@
+{
+  "timestamp": "2026-02-13T09:05:37.345Z",
+  "noVerifiedCount": 0,
+  "brandTiers": {
+    "Audi": {
+      "gold": 124,
+      "silver": 172,
+      "bronze": 112,
+      "incomplete": 37
+    },
+    "Mercedes-Benz": {
+      "gold": 62,
+      "silver": 154,
+      "bronze": 158,
+      "incomplete": 61
+    },
+    "Volkswagen": {
+      "gold": 143,
+      "silver": 131,
+      "bronze": 160,
+      "incomplete": 31
+    },
+    "Porsche": {
+      "gold": 13,
+      "silver": 12,
+      "bronze": 100,
+      "incomplete": 12
+    },
+    "Toyota": {
+      "gold": 76,
+      "silver": 178,
+      "bronze": 135,
+      "incomplete": 146
+    },
+    "BMW": {
+      "gold": 119,
+      "silver": 9,
+      "bronze": 72,
+      "incomplete": 50
+    },
+    "Lamborghini": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 23,
+      "incomplete": 4
+    },
+    "Skoda": {
+      "gold": 21,
+      "silver": 41,
+      "bronze": 44,
+      "incomplete": 7
+    },
+    "Hyundai": {
+      "gold": 90,
+      "silver": 40,
+      "bronze": 76,
+      "incomplete": 14
+    },
+    "Tesla": {
+      "gold": 5,
+      "silver": 0,
+      "bronze": 1,
+      "incomplete": 0
+    },
+    "Volvo": {
+      "gold": 38,
+      "silver": 26,
+      "bronze": 39,
+      "incomplete": 10
+    },
+    "Ferrari": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 13,
+      "incomplete": 0
+    },
+    "Ford": {
+      "gold": 13,
+      "silver": 1,
+      "bronze": 13,
+      "incomplete": 0
+    },
+    "Honda": {
+      "gold": 37,
+      "silver": 52,
+      "bronze": 67,
+      "incomplete": 30
+    },
+    "Nissan": {
+      "gold": 80,
+      "silver": 87,
+      "bronze": 151,
+      "incomplete": 41
+    },
+    "Mazda": {
+      "gold": 33,
+      "silver": 64,
+      "bronze": 49,
+      "incomplete": 23
+    },
+    "Kia": {
+      "gold": 73,
+      "silver": 46,
+      "bronze": 61,
+      "incomplete": 9
+    },
+    "Jaguar": {
+      "gold": 4,
+      "silver": 0,
+      "bronze": 7,
+      "incomplete": 1
+    },
+    "Seat": {
+      "gold": 6,
+      "silver": 0,
+      "bronze": 8,
+      "incomplete": 1
+    },
+    "Land Rover": {
+      "gold": 6,
+      "silver": 0,
+      "bronze": 3,
+      "incomplete": 0
+    },
+    "Lexus": {
+      "gold": 9,
+      "silver": 0,
+      "bronze": 4,
+      "incomplete": 0
+    },
+    "Peugeot": {
+      "gold": 11,
+      "silver": 50,
+      "bronze": 67,
+      "incomplete": 35
+    },
+    "Renault": {
+      "gold": 28,
+      "silver": 92,
+      "bronze": 82,
+      "incomplete": 44
+    },
+    "Opel": {
+      "gold": 6,
+      "silver": 3,
+      "bronze": 14,
+      "incomplete": 0
+    },
+    "Fiat": {
+      "gold": 2,
+      "silver": 0,
+      "bronze": 31,
+      "incomplete": 0
+    },
+    "Citroen": {
+      "gold": 0,
+      "silver": 1,
+      "bronze": 6,
+      "incomplete": 1
+    },
+    "Mini": {
+      "gold": 3,
+      "silver": 0,
+      "bronze": 7,
+      "incomplete": 0
+    },
+    "Alfa Romeo": {
+      "gold": 4,
+      "silver": 0,
+      "bronze": 21,
+      "incomplete": 0
+    },
+    "Maserati": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 5,
+      "incomplete": 1
+    },
+    "Aston Martin": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 6,
+      "incomplete": 0
+    },
+    "Bentley": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 4,
+      "incomplete": 0
+    },
+    "Rolls-Royce": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 6,
+      "incomplete": 0
+    }
+  },
+  "emptiest": [
+    {
+      "brand": "Toyota",
+      "model": "century",
+      "name": "i g40",
+      "id": "23719947-1fc3-4839-bbfc-4287fbc26cb6"
+    },
+    {
+      "brand": "Toyota",
+      "model": "starlet",
+      "name": "ii",
+      "id": "63e2332b-8766-452b-8776-d451b86f4f3c"
+    },
+    {
+      "brand": "Audi",
+      "model": "75",
+      "name": "Default",
+      "id": "b20088c1-13b5-45b6-a564-cc60911863a6"
+    },
+    {
+      "brand": "BMW",
+      "model": "M2Specs",
+      "name": "F87",
+      "id": "8974742d-9dc9-4aff-969f-903797b6495c"
+    },
+    {
+      "brand": "BMW",
+      "model": "2004Specs",
+      "name": "Default",
+      "id": "b40f286c-5b7c-4dc2-8a39-0005d1013a7e"
+    },
+    {
+      "brand": "BMW",
+      "model": "507Specs",
+      "name": "Default",
+      "id": "d6bb054a-9445-4d4d-a175-5801fd89b00c"
+    },
+    {
+      "brand": "BMW",
+      "model": "503Specs",
+      "name": "Default",
+      "id": "c992df96-6038-4802-b924-81968dc92733"
+    },
+    {
+      "brand": "BMW",
+      "model": "501Specs",
+      "name": "Default",
+      "id": "344b3911-21ba-49b8-b56a-e2e1fbcfe4ee"
+    },
+    {
+      "brand": "BMW",
+      "model": "335Specs",
+      "name": "Default",
+      "id": "63cb38b4-5013-4ced-8f19-eb444ea9aeb5"
+    },
+    {
+      "brand": "BMW",
+      "model": "328Specs",
+      "name": "Default",
+      "id": "01dd329b-09fb-4d7f-b66f-635b67da7509"
+    },
+    {
+      "brand": "Lamborghini",
+      "model": "GallardoSpecs",
+      "name": "Default",
+      "id": "f6c3ce66-d3dd-4bc1-8dcc-2301ded92471"
+    },
+    {
+      "brand": "Mazda",
+      "model": "818 kombi",
+      "name": "818 combi",
+      "id": "a11ce187-0b53-45dd-bf80-f89318da5f62"
+    },
+    {
+      "brand": "Mazda",
+      "model": "bongo",
+      "name": "bongo",
+      "id": "aaf0c8b5-2983-43e0-a4d1-4738a6402f60"
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3",
+      "name": "626 iii coupe gd",
+      "id": "39bf46d5-beb1-41ec-8f4a-f72e81e818c1"
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3",
+      "name": "323 ii hatchback bd",
+      "id": "0a089c38-e469-4eb2-a0bf-9fedb09932e1"
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3",
+      "name": "626 iii station wagon gv",
+      "id": "373faed5-7c2c-47d0-8ced-a092c63a5a87"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Ponton",
+      "name": "W105",
+      "id": "3a1d4c3a-2975-4bf9-8b52-8ce865eac168"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "C 111",
+      "name": "C 111",
+      "id": "fc290bef-fc07-4f8e-86f3-271d19dd3d11"
+    },
+    {
+      "brand": "Nissan",
+      "model": "cube",
+      "name": "z11",
+      "id": "32e54641-d743-41aa-b81e-c51f171f1fec"
+    },
+    {
+      "brand": "Nissan",
+      "model": "march",
+      "name": "k10",
+      "id": "405d2076-f69c-4a26-9830-b88727f8f8db"
+    },
+    {
+      "brand": "Nissan",
+      "model": "patrol",
+      "name": "station wagon w160",
+      "id": "a3916184-b8a1-4442-bc6d-7d5a5b827f8b"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "104 coupe",
+      "id": "b9e5c827-e9fc-42b7-a59d-f9196ab25cb9"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "2008 ii facelift",
+      "id": "27c65fa5-237e-488c-abd5-c7a2bb71c900"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "204 break",
+      "id": "bae9365d-3e9b-4174-9a9b-0b8e58af6150"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "304 break",
+      "id": "0db145b0-d235-47b5-9031-0f46d6adf50c"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "304 coupe",
+      "id": "2d50915a-41ca-41cb-a441-b28c16a067c2"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "504 coupe",
+      "id": "e65aae41-d582-4e93-813d-448dd683f54b"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "504 cabrio",
+      "id": "46777315-b87c-48c5-a31d-f2dbc8e5a0d3"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "name": "504 pick up",
+      "id": "61120a27-ee64-4102-917a-496bb99b5a3f"
+    },
+    {
+      "brand": "Toyota",
+      "model": "corona",
+      "name": "hatch tt",
+      "id": "33f5722c-f61c-48ab-83bd-2227a02ac7ea"
+    },
+    {
+      "brand": "Toyota",
+      "model": "corona",
+      "name": "rx rt",
+      "id": "d8284f86-59b0-48f3-b54d-127d05710097"
+    },
+    {
+      "brand": "Toyota",
+      "model": "corona",
+      "name": "station wagon rt118",
+      "id": "44d7b8b6-4ef1-46b7-ad73-39c894b9a773"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Land Cruiser",
+      "name": "j100 facelift",
+      "id": "0c60a817-9f0b-46b4-b9c1-ccd77d4af68d"
+    },
+    {
+      "brand": "Toyota",
+      "model": "tercel",
+      "name": "al25",
+      "id": "98d122fe-180c-47a0-817f-541f0f3d3a3b"
+    },
+    {
+      "brand": "Toyota",
+      "model": "tercel",
+      "name": "l1 l2",
+      "id": "abdb2383-0a19-4436-ad75-770b94b55397"
+    },
+    {
+      "brand": "Toyota",
+      "model": "ipsum",
+      "name": "Ipsum",
+      "id": "89e2e39e-38a8-4e1b-a960-12a1b30f5218"
+    },
+    {
+      "brand": "Toyota",
+      "model": "caldina",
+      "name": "Caldina",
+      "id": "b55c3cb0-b783-4fa5-9ce4-ec24736d0619"
+    },
+    {
+      "brand": "Toyota",
+      "model": "corsa",
+      "name": "Corsa",
+      "id": "97f8570a-c0d6-44ee-b78c-3eeeada404f8"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Lavida",
+      "name": "Lavida Lavida",
+      "id": "101a2821-2939-49e6-93dd-9a3a35388218"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Kurierwagen",
+      "name": "Default",
+      "id": "bf973d8c-149b-475a-8694-521e2cf15078"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Karmann",
+      "name": "Default",
+      "id": "2dc35a55-6ba7-4851-8c5a-0a7637dddcdf"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "California",
+      "name": "Default",
+      "id": "a38c7cc7-ccf5-472a-8d5a-5184e3239d08"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Crafter",
+      "name": "Default",
+      "id": "f3cfccdc-0ad4-4cea-b512-2df0f63d3f7a"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Parati",
+      "name": "Parati Parati",
+      "id": "1432f764-c6ff-4075-aa2c-ab9bb8d0e93f"
+    },
+    {
+      "brand": "Audi",
+      "model": "TT",
+      "name": "rs roadster 8j facelift",
+      "id": "c0648a0e-8760-49f4-8216-2948b748445d"
+    },
+    {
+      "brand": "Audi",
+      "model": "100",
+      "name": "100 100 Avant  type C4",
+      "id": "d066c3d0-ab4c-4192-92da-4a18f4138c95"
+    },
+    {
+      "brand": "Audi",
+      "model": "A8",
+      "name": "A8 A8 L 2022  D5",
+      "id": "8290f8f9-f059-4f41-a420-55f73dc7db23"
+    },
+    {
+      "brand": "Audi",
+      "model": "A",
+      "name": "100 4a c4",
+      "id": "3ddf61ab-490c-4ef1-8405-02d94c146966"
+    },
+    {
+      "brand": "Audi",
+      "model": "A",
+      "name": "100 avant c3 typ 44 44q facelift",
+      "id": "ea8dd4b9-794f-428c-a3f7-ceba584af84e"
+    },
+    {
+      "brand": "Audi",
+      "model": "A",
+      "name": "100 c3 typ 44 44q facelift",
+      "id": "c2d3b614-afab-43c7-85f9-72026b9720fd"
+    }
+  ],
+  "impacts": [
+    {
+      "label": "Safety ×25",
+      "missing": 2868,
+      "weight": 25,
+      "gain": 16.799437675726338
+    },
+    {
+      "label": "Videos ×15",
+      "missing": 1230,
+      "weight": 15,
+      "gain": 4.322867853795689
+    },
+    {
+      "label": "Photos ×15",
+      "missing": 1220,
+      "weight": 15,
+      "gain": 4.287722586691659
+    },
+    {
+      "label": "Family ×15",
+      "missing": 420,
+      "weight": 15,
+      "gain": 1.4761012183692597
+    },
+    {
+      "label": "Dims ×15",
+      "missing": 89,
+      "weight": 15,
+      "gain": 0.3127928772258669
+    }
+  ]
+}

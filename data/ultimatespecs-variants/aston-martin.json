@@ -1,0 +1,937 @@
+[
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/147391/Aston-Martin-DB12-Volante-40-V8.html",
+    "brand": "aston-martin",
+    "generation": "DB12-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/136173/Aston-Martin-DB12-40-V8.html",
+    "brand": "aston-martin",
+    "generation": "DB12"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/123080/Aston-Martin-Valkyrie-V12.html",
+    "brand": "aston-martin",
+    "generation": "Valkyrie"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/117232/Aston-Martin-DBX-40-V8.html",
+    "brand": "aston-martin",
+    "generation": "DBX"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/127777/Aston-Martin-DB11-52-V12-AMR.html",
+    "brand": "aston-martin",
+    "generation": "DB11"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/109041/Aston-Martin-DB11-V12.html",
+    "brand": "aston-martin",
+    "generation": "DB11"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/110791/Aston-Martin-DB11-V8.html",
+    "brand": "aston-martin",
+    "generation": "DB11"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/113735/Aston-Martin-DB11-Volante-40-V8.html",
+    "brand": "aston-martin",
+    "generation": "DB11-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59093/Aston-Martin-V12-Zagato-.html",
+    "brand": "aston-martin",
+    "generation": "V12-Zagato"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/25166/Aston-Martin-Virage-II--Coupe-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "Virage-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/25167/Aston-Martin-Virage-II--Volante-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "Virage-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59529/Aston-Martin-Vantage--V8-S-Roadster.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59530/Aston-Martin-Vantage--V8-S-Roadster-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59528/Aston-Martin-Vantage--V8-S-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/66636/Aston-Martin-Vantage-S-V12.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64430/Aston-Martin-Vantage-V12.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64634/Aston-Martin-Vantage-V12-Roadster.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/69649/Aston-Martin-Vantage-V12-S-Roadster.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/54484/Aston-Martin-Vantage-V8.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8223/Aston-Martin-Vantage-V8.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59523/Aston-Martin-Vantage-V8.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64330/Aston-Martin-Vantage-V8.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/53573/Aston-Martin-Vantage-V8-Roadster.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8225/Aston-Martin-Vantage-V8-Roadster.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59525/Aston-Martin-Vantage-V8-Roadster.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64399/Aston-Martin-Vantage-V8-Roadster.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8226/Aston-Martin-Vantage-V8-Roadster-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59526/Aston-Martin-Vantage-V8-Roadster-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64407/Aston-Martin-Vantage-V8-Roadster-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59527/Aston-Martin-Vantage-V8-S.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64423/Aston-Martin-Vantage-V8-S-Roadster-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64415/Aston-Martin-Vantage-V8-S-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8224/Aston-Martin-Vantage-V8-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/59524/Aston-Martin-Vantage-V8-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64391/Aston-Martin-Vantage-V8-Sportshift.html",
+    "brand": "aston-martin",
+    "generation": "Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/24765/Aston-Martin-Cygnet-.html",
+    "brand": "aston-martin",
+    "generation": "Cygnet"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/24766/Aston-Martin-Cygnet-CVT.html",
+    "brand": "aston-martin",
+    "generation": "Cygnet"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/64321/Aston-Martin-Cygnet-Start-Stop.html",
+    "brand": "aston-martin",
+    "generation": "Cygnet"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/39769/Aston-Martin-One-77-V12.html",
+    "brand": "aston-martin",
+    "generation": "One-77"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8333/Aston-Martin-Rapide-.html",
+    "brand": "aston-martin",
+    "generation": "Rapide"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/65351/Aston-Martin-Rapide-S.html",
+    "brand": "aston-martin",
+    "generation": "Rapide"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/69868/Aston-Martin-Rapide-S.html",
+    "brand": "aston-martin",
+    "generation": "Rapide"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/25269/Aston-Martin-DB9--Volante-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/683/Aston-Martin-DB9-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8221/Aston-Martin-DB9-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/62122/Aston-Martin-DB9-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/57231/Aston-Martin-DB9-Coupe-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8222/Aston-Martin-DB9-Coupe-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/684/Aston-Martin-DB9-Volante.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/62210/Aston-Martin-DB9-Volante.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/57238/Aston-Martin-DB9-Volante-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "DB9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3628/Aston-Martin-DB7-Volante-32-V8.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3627/Aston-Martin-DB7-Volante-60-V12.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/46205/Aston-Martin-DB7-Volante-60-V12-Auto.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3630/Aston-Martin-DB7-Coupe-32.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3629/Aston-Martin-DB7-Coupe-V12-GT.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/46229/Aston-Martin-DB7-Coupe-V12-GTA-.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3631/Aston-Martin-DB7-Coupe-V12-Vantage.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/46193/Aston-Martin-DB7-Coupe-V12-Vantage-Auto.html",
+    "brand": "aston-martin",
+    "generation": "DB7-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/373/Aston-Martin-Lagonda-Series-2.html",
+    "brand": "aston-martin",
+    "generation": "Lagonda"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/374/Aston-Martin-Lagonda-Series-3.html",
+    "brand": "aston-martin",
+    "generation": "Lagonda"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/375/Aston-Martin-Lagonda-Series-4.html",
+    "brand": "aston-martin",
+    "generation": "Lagonda"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/17714/Aston-Martin-DB6-.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/17710/Aston-Martin-DB6--Mk-II.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/17755/Aston-Martin-DB6--Vantage.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/17740/Aston-Martin-DB6--Volante.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/14269/Aston-Martin-DB6-Automatic.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/14274/Aston-Martin-DB6-Vantage-Automatic.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/29009/Aston-Martin-DB6-Vantage-Mk-II.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/29008/Aston-Martin-DB6-Volante-Mk-II.html",
+    "brand": "aston-martin",
+    "generation": "DB6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/17722/Aston-Martin-DB5-.html",
+    "brand": "aston-martin",
+    "generation": "DB5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/16526/Aston-Martin-DB5-Vantage.html",
+    "brand": "aston-martin",
+    "generation": "DB5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/19113/Aston-Martin-DB4-.html",
+    "brand": "aston-martin",
+    "generation": "DB4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/19112/Aston-Martin-DB4--GT.html",
+    "brand": "aston-martin",
+    "generation": "DB4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/19105/Aston-Martin-DB4--GT-Zagato.html",
+    "brand": "aston-martin",
+    "generation": "DB4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/19114/Aston-Martin-DB4--Vantage.html",
+    "brand": "aston-martin",
+    "generation": "DB4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/22599/Aston-Martin-DB4-GT-Bertone-Jet.html",
+    "brand": "aston-martin",
+    "generation": "DB4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/29002/Aston-Martin-DB4-Series-5.html",
+    "brand": "aston-martin",
+    "generation": "DB4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/29011/Aston-Martin-DB4-Vantage-GT.html",
+    "brand": "aston-martin",
+    "generation": "DB4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/19116/Aston-Martin-DB3-S.html",
+    "brand": "aston-martin",
+    "generation": "DB3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/16481/Aston-Martin-DB3-S.html",
+    "brand": "aston-martin",
+    "generation": "DB3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/33411/Aston-Martin-15-hp-Drop-head-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "15-hp"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/33404/Aston-Martin-15-hp-Speed-Model.html",
+    "brand": "aston-martin",
+    "generation": "15-hp"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/147390/Aston-Martin-Vantage-Roadster-2025-V8.html",
+    "brand": "aston-martin",
+    "generation": "Vantage-Roadster-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/139336/Aston-Martin-Vanquish-Coupe-2025-52-V12-Touchtronic.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish-Coupe-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/135488/Aston-Martin-DBS-Superleggera-770-Ultimate-Volante-52-V12.html",
+    "brand": "aston-martin",
+    "generation": "DBS-Superleggera-770-Ultimate-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/135487/Aston-Martin-DBS-Superleggera-770-Ultimate-52-V12.html",
+    "brand": "aston-martin",
+    "generation": "DBS-Superleggera-770-Ultimate"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/136409/Aston-Martin-Vantage-Roadster-2020-V12.html",
+    "brand": "aston-martin",
+    "generation": "Vantage-Roadster-2020"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/127774/Aston-Martin-Vantage-Roadster-2020-V8.html",
+    "brand": "aston-martin",
+    "generation": "Vantage-Roadster-2020"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/119536/Aston-Martin-DBS-Superleggera-Volante-52-V12.html",
+    "brand": "aston-martin",
+    "generation": "DBS-Superleggera-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/119535/Aston-Martin-DBS-Superleggera-52-V12.html",
+    "brand": "aston-martin",
+    "generation": "DBS-Superleggera"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/117228/Aston-Martin-Vantage-2019-AMR.html",
+    "brand": "aston-martin",
+    "generation": "Vantage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/113322/Aston-Martin-Vantage-2019-V8.html",
+    "brand": "aston-martin",
+    "generation": "Vantage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/61961/Aston-Martin-Vanquish-II-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/69866/Aston-Martin-Vanquish-II-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/108075/Aston-Martin-Vanquish-II-S-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/108076/Aston-Martin-Vanquish-II-S-Volante.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/66108/Aston-Martin-Vanquish-II-Volante.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/69867/Aston-Martin-Vanquish-II-Volante.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/50083/Aston-Martin-DBS-.html",
+    "brand": "aston-martin",
+    "generation": "DBS"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8216/Aston-Martin-DBS-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "DBS"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8217/Aston-Martin-DBS-Volante.html",
+    "brand": "aston-martin",
+    "generation": "DBS"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/8218/Aston-Martin-DBS-Volante-Touchtronic-II.html",
+    "brand": "aston-martin",
+    "generation": "DBS"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/682/Aston-Martin-V8-Vantage-Coupe.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/106162/Aston-Martin-V8-Vantage-GT8.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/106165/Aston-Martin-V8-Vantage-GT8-Sportshift-II.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/685/Aston-Martin-Vanquish-S.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3632/Aston-Martin-Vanquish-V12.html",
+    "brand": "aston-martin",
+    "generation": "Vanquish"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3635/Aston-Martin-V8-Volante-Volante.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3634/Aston-Martin-V8-Coupe-.html",
+    "brand": "aston-martin",
+    "generation": "V8-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3633/Aston-Martin-V8-Coupe-Vantage-V550.html",
+    "brand": "aston-martin",
+    "generation": "V8-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/21285/Aston-Martin-V8-Coupe-Vantage-V600.html",
+    "brand": "aston-martin",
+    "generation": "V8-Coupe"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3637/Aston-Martin-Virage-Volante-53-V8.html",
+    "brand": "aston-martin",
+    "generation": "Virage-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/33439/Aston-Martin-Virage-Volante-53-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "Virage-Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/3636/Aston-Martin-Virage-53-V8.html",
+    "brand": "aston-martin",
+    "generation": "Virage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/33442/Aston-Martin-Virage-53-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "Virage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/16492/Aston-Martin-Virage-Shooting-Brake.html",
+    "brand": "aston-martin",
+    "generation": "Virage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/16583/Aston-Martin-Virage-Vantage-V550.html",
+    "brand": "aston-martin",
+    "generation": "Virage"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132207/Aston-Martin-V8-(Series-5)-Saloon-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132209/Aston-Martin-V8-(Series-5)-Saloon-5-speed-US-market.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132208/Aston-Martin-V8-(Series-5)-Saloon-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132210/Aston-Martin-V8-(Series-5)-Saloon-Auto-US-market.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132211/Aston-Martin-V8-(Series-5)-Saloon-Catalyst.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132212/Aston-Martin-V8-(Series-5)-Saloon-Catalyst-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132247/Aston-Martin-V8-(Series-5)-Volante-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132249/Aston-Martin-V8-(Series-5)-Volante-5-speed-US-market.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132248/Aston-Martin-V8-(Series-5)-Volante-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132250/Aston-Martin-V8-(Series-5)-Volante-Auto-US-market.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132252/Aston-Martin-V8-(Series-5)-Volante-Catalyst-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132251/Aston-Martin-V8-(Series-5)-Volante-Catalyst-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-5 -Volante"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132227/Aston-Martin-V8-Vantage-Volante-(Series-3)-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage-Volante- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132232/Aston-Martin-V8-Vantage-Volante-(Series-3)-5-speed-US-market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage-Volante- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132228/Aston-Martin-V8-Vantage-Volante-(Series-3)-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage-Volante- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132229/Aston-Martin-V8-Vantage-Volante-(Series-3)-X-Pack-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage-Volante- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132230/Aston-Martin-V8-Vantage-Volante-(Series-3)-X-Pack-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage-Volante- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132231/Aston-Martin-V8-Vantage-Volante-(Series-3)-X-Pack-Works-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage-Volante- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132221/Aston-Martin-V8-Vantage-(Series-3)-Saloon-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-3 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132226/Aston-Martin-V8-Vantage-(Series-3)-Saloon-5-speed-US-market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-3 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132222/Aston-Martin-V8-Vantage-(Series-3)-Saloon-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-3 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132223/Aston-Martin-V8-Vantage-(Series-3)-Saloon-X-Pack-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-3 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132224/Aston-Martin-V8-Vantage-(Series-3)-Saloon-X-Pack-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-3 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132225/Aston-Martin-V8-Vantage-(Series-3)-Saloon-X-Pack-Works-5-speed.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-3 -Saloon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132214/Aston-Martin-V8-Vantage-(Series-2)-V540-OI.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132215/Aston-Martin-V8-Vantage-(Series-2)-V540-OI-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/134231/Aston-Martin-V8-Vantage-(Series-2)-V580.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132216/Aston-Martin-V8-Vantage-(Series-2)-V580-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132217/Aston-Martin-V8-Vantage-(Series-2)-V580-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132218/Aston-Martin-V8-Vantage-(Series-2)-V580-BBS.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132219/Aston-Martin-V8-Vantage-(Series-2)-V580-BBS-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132220/Aston-Martin-V8-Vantage-(Series-2)-V580-BBS-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/371/Aston-Martin-V8-Saloon-(Series-4)-V8.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132199/Aston-Martin-V8-Saloon-(Series-4)-V8.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132202/Aston-Martin-V8-Saloon-(Series-4)-V8-260HP-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132194/Aston-Martin-V8-Saloon-(Series-4)-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132206/Aston-Martin-V8-Saloon-(Series-4)-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132195/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132197/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132201/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132203/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132205/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132196/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132198/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132200/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132204/Aston-Martin-V8-Saloon-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Saloon- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132233/Aston-Martin-V8-Volante-(Series-4)-V8.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132239/Aston-Martin-V8-Volante-(Series-4)-V8.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132234/Aston-Martin-V8-Volante-(Series-4)-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132240/Aston-Martin-V8-Volante-(Series-4)-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132235/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132237/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132241/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132243/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132245/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132236/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132238/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132242/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132244/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132246/Aston-Martin-V8-Volante-(Series-4)-V8-US-Market-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8-Volante- Series-4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/372/Aston-Martin-V8-Vantage-(Series-I)-V540.html",
+    "brand": "aston-martin",
+    "generation": "V8-Vantage- Series-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132187/Aston-Martin-V8-(Series-3)-53-V8.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132189/Aston-Martin-V8-(Series-3)-53-V8.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132188/Aston-Martin-V8-(Series-3)-53-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132190/Aston-Martin-V8-(Series-3)-53-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132192/Aston-Martin-V8-(Series-3)-53-V8-Auto-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132191/Aston-Martin-V8-(Series-3)-53-V8-US-Market.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132185/Aston-Martin-V8-(Series-2)-53-V8.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Aston-Martin/132186/Aston-Martin-V8-(Series-2)-53-V8-Auto.html",
+    "brand": "aston-martin",
+    "generation": "V8- Series-2"
+  }
+]

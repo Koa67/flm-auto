@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-13T06:19:41.018Z",
+  "stats": {
+    "phase1Created": 16,
+    "phase2Enriched": 22,
+    "phase2Fields": 34,
+    "phase3Propagated": 9
+  },
+  "before": 3874,
+  "after": 3899
+}

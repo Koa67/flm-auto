@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "scraped_at": "2026-01-31T16:00:00Z",
+    "sources": ["Edmunds.com", "Skoda Official PDF", "Mercedes-Benz dealers", "auto-data.net"],
+    "version": "1.0",
+    "total_vehicles": 10
+  },
+  "vehicles": [
+    {
+      "brand": "bmw",
+      "model": "3-series",
+      "year": "2024",
+      "variant": "330i Sedan",
+      "body_type": "sedan",
+      "source": "edmunds",
+      "source_url": "https://www.edmunds.com/bmw/3-series/2024/features-specs/",
+      "interior": {
+        "front_headroom_mm": 983,
+        "rear_headroom_mm": 955,
+        "front_legroom_mm": 1067,
+        "rear_legroom_mm": 894,
+        "front_shoulder_room_mm": 1422,
+        "rear_shoulder_room_mm": 1387
+      },
+      "exterior": {
+        "length_mm": 4722,
+        "width_mm": 1827,
+        "height_mm": 1443,
+        "wheelbase_mm": 2851
+      },
+      "cargo": {
+        "volume_l": 479
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "q5",
+      "year": "2024",
+      "variant": "Premium Plus S line AWD 45 TFSI",
+      "body_type": "suv",
+      "source": "edmunds",
+      "source_url": "https://www.edmunds.com/audi/q5/2024/features-specs/",
+      "interior": {
+        "front_headroom_mm": 968,
+        "rear_headroom_mm": 958,
+        "front_legroom_mm": 1039,
+        "rear_legroom_mm": 965,
+        "front_shoulder_room_mm": 1466,
+        "rear_shoulder_room_mm": 1435
+      },
+      "exterior": {
+        "length_mm": 4681,
+        "width_mm": 1893,
+        "height_mm": 1664,
+        "wheelbase_mm": 2819
+      },
+      "cargo": {
+        "volume_l": 725,
+        "volume_max_l": 1515
+      }
+    },
+    {
+      "brand": "volkswagen",
+      "model": "tiguan",
+      "year": "2024",
+      "variant": "SE AWD",
+      "body_type": "suv",
+      "source": "edmunds",
+      "source_url": "https://www.edmunds.com/volkswagen/tiguan/2024/features-specs/",
+      "interior": {
+        "front_headroom_mm": 1006,
+        "rear_headroom_mm": 988,
+        "front_legroom_mm": 1021,
+        "rear_legroom_mm": 983,
+        "front_shoulder_room_mm": 1448,
+        "rear_shoulder_room_mm": 1417,
+        "front_hip_room_mm": 1384,
+        "rear_hip_room_mm": 1364
+      },
+      "exterior": {
+        "length_mm": 4727,
+        "width_mm": 1839,
+        "height_mm": 1689,
+        "wheelbase_mm": 2791
+      },
+      "cargo": {
+        "volume_l": 1065,
+        "volume_max_l": 2078
+      }
+    },
+    {
+      "brand": "mercedes-benz",
+      "model": "glc",
+      "year": "2024",
+      "variant": "GLC 300 4MATIC",
+      "body_type": "suv",
+      "source": "mercedes_dealer",
+      "source_url": "https://www.mercedesbenzofbellevue.com/inventory/all/2024-mercedes-benz-glc+300-suv.htm",
+      "interior": {
+        "front_headroom_mm": 1049,
+        "rear_headroom_mm": 1008,
+        "front_legroom_mm": 1034,
+        "rear_legroom_mm": 950,
+        "front_shoulder_room_mm": 1455,
+        "rear_shoulder_room_mm": 1438
+      },
+      "exterior": {
+        "length_mm": 4718,
+        "width_mm": 2076,
+        "height_mm": 1641,
+        "wheelbase_mm": 2888
+      },
+      "cargo": {
+        "volume_l": 620,
+        "volume_max_l": 1594
+      }
+    },
+    {
+      "brand": "skoda",
+      "model": "kodiaq",
+      "year": "2024",
+      "variant": "1.5 TSI 110kW (5-seater)",
+      "body_type": "suv",
+      "source": "skoda_official",
+      "source_url": "https://cdn.skoda-storyboard.com/2024/04/TD-Kodiaq-en_eda330ec.pdf",
+      "interior": {
+        "front_headroom_mm": 1063,
+        "rear_headroom_mm": 1015,
+        "third_row_headroom_mm": 920,
+        "front_width_mm": 1503,
+        "rear_width_mm": 1492,
+        "third_row_width_mm": 1272
+      },
+      "exterior": {
+        "length_mm": 4758,
+        "width_mm": 1864,
+        "height_mm": 1659,
+        "wheelbase_mm": 2791,
+        "ground_clearance_mm": 189
+      },
+      "cargo": {
+        "volume_l": 910,
+        "volume_max_l": 2105,
+        "volume_7_seater_l": 340
+      }
+    },
+    {
+      "brand": "skoda",
+      "model": "octavia",
+      "year": "2024",
+      "variant": "Combi",
+      "body_type": "wagon",
+      "source": "skoda_official",
+      "interior": {
+        "front_headroom_mm": 1012,
+        "rear_headroom_mm": 985
+      },
+      "exterior": {
+        "length_mm": 4689,
+        "width_mm": 1829,
+        "height_mm": 1468,
+        "wheelbase_mm": 2686
+      },
+      "cargo": {
+        "volume_l": 640,
+        "volume_max_l": 1700
+      }
+    },
+    {
+      "brand": "porsche",
+      "model": "cayenne",
+      "year": "2024",
+      "variant": "Base SUV",
+      "body_type": "suv",
+      "source": "porsche_dealer",
+      "source_url": "https://www.porschewestlake.com/porsche-information/porsche-cayenne-dimensions/",
+      "interior": {
+        "notes": "Porsche does not publish official interior dimensions"
+      },
+      "exterior": {
+        "length_mm": 4930,
+        "width_mm": 1983,
+        "height_mm": 1697,
+        "wheelbase_mm": 2895
+      },
+      "cargo": {
+        "volume_l": 770,
+        "volume_max_l": 1708
+      }
+    },
+    {
+      "brand": "bmw",
+      "model": "x3",
+      "year": "2024",
+      "variant": "xDrive30i",
+      "body_type": "suv",
+      "source": "edmunds",
+      "interior": {
+        "front_headroom_mm": 1029,
+        "rear_headroom_mm": 1003,
+        "front_legroom_mm": 1054,
+        "rear_legroom_mm": 927,
+        "front_shoulder_room_mm": 1470,
+        "rear_shoulder_room_mm": 1432
+      },
+      "exterior": {
+        "length_mm": 4708,
+        "width_mm": 1891,
+        "height_mm": 1676,
+        "wheelbase_mm": 2864
+      },
+      "cargo": {
+        "volume_l": 799,
+        "volume_max_l": 1775
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "a4",
+      "year": "2024",
+      "variant": "40 TFSI Premium",
+      "body_type": "sedan",
+      "source": "edmunds",
+      "interior": {
+        "front_headroom_mm": 960,
+        "rear_headroom_mm": 925,
+        "front_legroom_mm": 1048,
+        "rear_legroom_mm": 892,
+        "front_shoulder_room_mm": 1435,
+        "rear_shoulder_room_mm": 1380
+      },
+      "exterior": {
+        "length_mm": 4762,
+        "width_mm": 1847,
+        "height_mm": 1428,
+        "wheelbase_mm": 2820
+      },
+      "cargo": {
+        "volume_l": 354
+      }
+    },
+    {
+      "brand": "renault",
+      "model": "austral",
+      "year": "2024",
+      "variant": "E-Tech Full Hybrid",
+      "body_type": "suv",
+      "source": "renault_official",
+      "interior": {
+        "front_headroom_mm": 890,
+        "rear_headroom_mm": 860,
+        "front_legroom_mm": 1050,
+        "rear_legroom_mm": 890,
+        "rear_knee_room_mm": 234
+      },
+      "exterior": {
+        "length_mm": 4510,
+        "width_mm": 1825,
+        "height_mm": 1620,
+        "wheelbase_mm": 2667
+      },
+      "cargo": {
+        "volume_l": 500,
+        "volume_max_l": 1525
+      }
+    }
+  ]
+}

@@ -1,0 +1,917 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created_at": "2026-01-31",
+    "last_updated": "2026-01-31",
+    "description": "Comprehensive ownership cost database for FLM AUTO MVP brands",
+    "sources": {
+      "prices_new": ["BMW Press", "Mercedes France", "Audi Media", "Volkswagen FR", "Porsche FR", "Skoda FR", "L'Argus", "Elite-Auto"],
+      "prices_used": ["La Centrale", "L'Argus Cote", "AutoScout24"],
+      "reliability": ["TÜV Report 2025", "TÜV Report 2026", "ADAC 2024"],
+      "maintenance": ["ADAC", "L'Argus Entretien", "manufacturer data"],
+      "insurance": ["LeLynx", "Assurland", "manufacturer groups"],
+      "residual_value": ["Autovista", "L'Argus", "market analysis"],
+      "emissions": ["WLTP official", "ADAC real-world tests"],
+      "noise": ["Auto Motor und Sport", "ADAC tests"],
+      "ev_charging": ["IONITY", "manufacturer specs", "Bjørn Nyland tests"],
+      "towing": ["manufacturer specs"],
+      "spare_parts": ["ADAC Ersatzteile", "manufacturer pricing"]
+    },
+    "coverage": {
+      "brands": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Porsche", "Skoda"],
+      "models_count": 85,
+      "years_range": "2019-2026"
+    }
+  },
+
+  "1_prices_new": {
+    "description": "Prix catalogue neufs France 2025 (€)",
+    "currency": "EUR",
+    "market": "France",
+    "year": 2025,
+    "data": {
+      "BMW": {
+        "Serie_1": {"base": 34650, "top": 52900, "best_seller": "118i", "segment": "compact"},
+        "Serie_2_Active_Tourer": {"base": 38900, "top": 56500, "best_seller": "218i", "segment": "mpv"},
+        "Serie_3": {"base": 48700, "top": 71450, "best_seller": "320d", "segment": "berline_compacte"},
+        "Serie_3_Touring": {"base": 51200, "top": 73950, "best_seller": "320d", "segment": "break"},
+        "Serie_4_Gran_Coupe": {"base": 53800, "top": 78500, "best_seller": "420d", "segment": "coupe_4p"},
+        "Serie_5": {"base": 62900, "top": 89500, "best_seller": "520d", "segment": "berline_executive"},
+        "Serie_7": {"base": 113900, "top": 168500, "best_seller": "740d", "segment": "berline_luxe"},
+        "X1": {"base": 42850, "top": 61900, "best_seller": "sDrive18d", "segment": "suv_compact"},
+        "X3": {"base": 58900, "top": 82500, "best_seller": "xDrive20d", "segment": "suv_mid"},
+        "X5": {"base": 82900, "top": 115500, "best_seller": "xDrive30d", "segment": "suv_premium"},
+        "iX1": {"base": 52900, "top": 62900, "best_seller": "xDrive30", "segment": "suv_ev"},
+        "iX3": {"base": 71900, "top": 79900, "best_seller": "M Sport", "segment": "suv_ev"},
+        "i4": {"base": 58900, "top": 75900, "best_seller": "eDrive40", "segment": "berline_ev"},
+        "i5": {"base": 72900, "top": 89900, "best_seller": "eDrive40", "segment": "berline_ev"},
+        "i7": {"base": 136900, "top": 175900, "best_seller": "xDrive60", "segment": "berline_luxe_ev"}
+      },
+      "Mercedes-Benz": {
+        "Classe_A": {"base": 36550, "top": 58900, "best_seller": "A180", "segment": "compact"},
+        "Classe_B": {"base": 39900, "top": 55500, "best_seller": "B180", "segment": "mpv"},
+        "Classe_C": {"base": 53700, "top": 76500, "best_seller": "C220d", "segment": "berline_compacte"},
+        "Classe_C_Break": {"base": 56200, "top": 79000, "best_seller": "C220d", "segment": "break"},
+        "Classe_E": {"base": 67900, "top": 98500, "best_seller": "E220d", "segment": "berline_executive"},
+        "Classe_S": {"base": 119900, "top": 189500, "best_seller": "S400d", "segment": "berline_luxe"},
+        "GLA": {"base": 45900, "top": 63500, "best_seller": "GLA200", "segment": "suv_compact"},
+        "GLB": {"base": 48900, "top": 67500, "best_seller": "GLB200", "segment": "suv_compact_7pl"},
+        "GLC": {"base": 61900, "top": 89500, "best_seller": "GLC220d", "segment": "suv_mid"},
+        "GLC_EV": {"base": 71900, "top": 95500, "best_seller": "GLC300e", "segment": "suv_ev"},
+        "GLE": {"base": 82900, "top": 125500, "best_seller": "GLE300d", "segment": "suv_premium"},
+        "EQA": {"base": 52900, "top": 63900, "best_seller": "EQA250", "segment": "suv_ev"},
+        "EQB": {"base": 55900, "top": 67900, "best_seller": "EQB250", "segment": "suv_ev_7pl"},
+        "EQC": {"base": 71900, "top": 89500, "best_seller": "EQC400", "segment": "suv_ev"},
+        "EQE": {"base": 79900, "top": 102500, "best_seller": "EQE350", "segment": "berline_ev"},
+        "EQS": {"base": 119900, "top": 165500, "best_seller": "EQS450", "segment": "berline_luxe_ev"}
+      },
+      "Audi": {
+        "A1": {"base": 26900, "top": 38500, "best_seller": "30 TFSI", "segment": "mini"},
+        "A3_Sportback": {"base": 35400, "top": 52900, "best_seller": "35 TFSI", "segment": "compact"},
+        "A4": {"base": 47900, "top": 68500, "best_seller": "35 TDI", "segment": "berline_compacte"},
+        "A4_Avant": {"base": 50400, "top": 71000, "best_seller": "35 TDI", "segment": "break"},
+        "A5_Sportback": {"base": 52900, "top": 76500, "best_seller": "40 TDI", "segment": "coupe_4p"},
+        "A6": {"base": 62900, "top": 92500, "best_seller": "40 TDI", "segment": "berline_executive"},
+        "A6_Avant": {"base": 65400, "top": 95000, "best_seller": "40 TDI", "segment": "break"},
+        "A8": {"base": 105900, "top": 162500, "best_seller": "55 TFSI", "segment": "berline_luxe"},
+        "Q2": {"base": 33900, "top": 48500, "best_seller": "35 TFSI", "segment": "suv_mini"},
+        "Q3": {"base": 43850, "top": 62500, "best_seller": "35 TDI", "segment": "suv_compact"},
+        "Q3_Sportback": {"base": 46350, "top": 65000, "best_seller": "35 TDI", "segment": "suv_coupe"},
+        "Q5": {"base": 58900, "top": 82500, "best_seller": "40 TDI", "segment": "suv_mid"},
+        "Q5_Sportback": {"base": 61400, "top": 85000, "best_seller": "40 TDI", "segment": "suv_coupe"},
+        "Q7": {"base": 82900, "top": 115500, "best_seller": "50 TDI", "segment": "suv_premium"},
+        "Q8": {"base": 95900, "top": 135500, "best_seller": "55 TFSI", "segment": "suv_luxe"},
+        "Q4_e-tron": {"base": 52900, "top": 72500, "best_seller": "45 e-tron", "segment": "suv_ev"},
+        "Q6_e-tron": {"base": 65900, "top": 89500, "best_seller": "quattro", "segment": "suv_ev"},
+        "e-tron_GT": {"base": 109900, "top": 165500, "best_seller": "quattro", "segment": "gt_ev"}
+      },
+      "Volkswagen": {
+        "Polo": {"base": 21990, "top": 32500, "best_seller": "1.0 TSI", "segment": "mini"},
+        "Golf": {"base": 32990, "top": 52500, "best_seller": "1.5 eTSI", "segment": "compact"},
+        "Golf_Variant": {"base": 35990, "top": 55000, "best_seller": "1.5 eTSI", "segment": "break"},
+        "Passat": {"base": 45990, "top": 68500, "best_seller": "2.0 TDI", "segment": "berline_executive"},
+        "Passat_Variant": {"base": 48490, "top": 71000, "best_seller": "2.0 TDI", "segment": "break"},
+        "Arteon": {"base": 52990, "top": 72500, "best_seller": "2.0 TDI", "segment": "fastback"},
+        "T-Cross": {"base": 26990, "top": 38500, "best_seller": "1.0 TSI", "segment": "suv_mini"},
+        "T-Roc": {"base": 32990, "top": 48500, "best_seller": "1.5 TSI", "segment": "suv_compact"},
+        "Tiguan": {"base": 40900, "top": 68600, "best_seller": "1.5 eTSI", "segment": "suv_mid"},
+        "Tiguan_Allspace": {"base": 48900, "top": 72500, "best_seller": "2.0 TDI", "segment": "suv_7pl"},
+        "Tayron": {"base": 52990, "top": 72500, "best_seller": "2.0 TDI", "segment": "suv_mid"},
+        "Touareg": {"base": 72990, "top": 98500, "best_seller": "3.0 TDI", "segment": "suv_premium"},
+        "Touran": {"base": 38990, "top": 52500, "best_seller": "1.5 TSI", "segment": "mpv"},
+        "ID.3": {"base": 39990, "top": 52500, "best_seller": "Pro S", "segment": "compact_ev"},
+        "ID.4": {"base": 46990, "top": 62500, "best_seller": "Pro", "segment": "suv_ev"},
+        "ID.5": {"base": 52990, "top": 68500, "best_seller": "Pro", "segment": "suv_coupe_ev"},
+        "ID.7": {"base": 56990, "top": 72500, "best_seller": "Pro S", "segment": "berline_ev"}
+      },
+      "Porsche": {
+        "718_Cayman": {"base": 65900, "top": 112500, "best_seller": "T", "segment": "sportive"},
+        "718_Boxster": {"base": 67900, "top": 115500, "best_seller": "T", "segment": "roadster"},
+        "911_Carrera": {"base": 125900, "top": 235500, "best_seller": "Carrera S", "segment": "sportive_icone"},
+        "Panamera": {"base": 112900, "top": 198500, "best_seller": "4S", "segment": "gt"},
+        "Macan": {"base": 72900, "top": 105500, "best_seller": "4", "segment": "suv_sportif"},
+        "Macan_EV": {"base": 84900, "top": 115500, "best_seller": "4", "segment": "suv_ev"},
+        "Cayenne": {"base": 92900, "top": 185500, "best_seller": "S", "segment": "suv_premium"},
+        "Cayenne_Coupe": {"base": 99900, "top": 192500, "best_seller": "S", "segment": "suv_coupe"},
+        "Taycan": {"base": 98900, "top": 198500, "best_seller": "4S", "segment": "berline_ev"},
+        "Taycan_Cross_Turismo": {"base": 105900, "top": 205500, "best_seller": "4S", "segment": "break_ev"}
+      },
+      "Skoda": {
+        "Fabia": {"base": 17290, "top": 26500, "best_seller": "1.0 TSI", "segment": "mini"},
+        "Fabia_Combi": {"base": 19290, "top": 28500, "best_seller": "1.0 TSI", "segment": "break_mini"},
+        "Scala": {"base": 23990, "top": 32500, "best_seller": "1.0 TSI", "segment": "compact"},
+        "Octavia": {"base": 32990, "top": 48500, "best_seller": "1.5 TSI", "segment": "berline_compacte"},
+        "Octavia_Combi": {"base": 34990, "top": 50500, "best_seller": "1.5 TSI", "segment": "break"},
+        "Superb": {"base": 42990, "top": 62500, "best_seller": "2.0 TDI", "segment": "berline_executive"},
+        "Superb_Combi": {"base": 44990, "top": 64500, "best_seller": "2.0 TDI", "segment": "break"},
+        "Kamiq": {"base": 26990, "top": 38500, "best_seller": "1.0 TSI", "segment": "suv_mini"},
+        "Karoq": {"base": 32990, "top": 48500, "best_seller": "1.5 TSI", "segment": "suv_compact"},
+        "Kodiaq": {"base": 42990, "top": 62500, "best_seller": "2.0 TDI", "segment": "suv_7pl"},
+        "Enyaq": {"base": 45990, "top": 62500, "best_seller": "85", "segment": "suv_ev"},
+        "Enyaq_Coupe": {"base": 49990, "top": 66500, "best_seller": "85", "segment": "suv_coupe_ev"},
+        "Elroq": {"base": 34990, "top": 48500, "best_seller": "85", "segment": "suv_compact_ev"}
+      }
+    }
+  },
+
+  "2_reliability_tuv": {
+    "description": "TÜV Report 2025/2026 - Taux de défauts significatifs au contrôle technique (%)",
+    "source": "TÜV Report 2026 (9.5M inspections July 2024-June 2025)",
+    "methodology": "Pourcentage de véhicules avec défauts 'significatifs' ou 'dangereux' au CT",
+    "data": {
+      "2_3_years": {
+        "top_performers": [
+          {"model": "Mazda 2", "defect_rate": 2.9, "avg_km": 29000},
+          {"model": "Honda Jazz", "defect_rate": 2.4, "avg_km": 21000},
+          {"model": "Audi Q2", "defect_rate": 2.6, "avg_km": 32000},
+          {"model": "Porsche 911", "defect_rate": 2.6, "avg_km": 18000},
+          {"model": "Toyota Yaris Cross", "defect_rate": 3.2, "avg_km": 35000},
+          {"model": "BMW 1/2 Series", "defect_rate": 3.3, "avg_km": 38000},
+          {"model": "Mini Cooper SE", "defect_rate": 3.5, "avg_km": 27000},
+          {"model": "VW T-Roc", "defect_rate": 3.6, "avg_km": 42000},
+          {"model": "Mercedes C-Class", "defect_rate": 3.8, "avg_km": 45000},
+          {"model": "Audi Q4 e-tron", "defect_rate": 4.0, "avg_km": 32000}
+        ],
+        "worst_performers": [
+          {"model": "Tesla Model Y", "defect_rate": 17.3, "avg_km": 52000},
+          {"model": "Ford Mondeo", "defect_rate": 14.3, "avg_km": 48000},
+          {"model": "Tesla Model 3", "defect_rate": 13.1, "avg_km": 55000},
+          {"model": "Dacia Spring", "defect_rate": 13.0, "avg_km": 22000},
+          {"model": "Skoda Superb", "defect_rate": 11.2, "avg_km": 52000},
+          {"model": "Skoda Scala", "defect_rate": 11.8, "avg_km": 38000},
+          {"model": "Dacia Sandero", "defect_rate": 11.5, "avg_km": 35000},
+          {"model": "Skoda Enyaq", "defect_rate": 9.1, "avg_km": 38000}
+        ],
+        "mvp_brands": {
+          "BMW": {"avg_defect_rate": 5.8, "best_model": "1/2 Series", "worst_model": "X5/X6"},
+          "Mercedes": {"avg_defect_rate": 4.2, "best_model": "C-Class", "worst_model": "GLA"},
+          "Audi": {"avg_defect_rate": 4.5, "best_model": "Q2", "worst_model": "A4"},
+          "Volkswagen": {"avg_defect_rate": 5.2, "best_model": "T-Roc", "worst_model": "Sharan"},
+          "Porsche": {"avg_defect_rate": 3.2, "best_model": "911", "worst_model": "Cayenne"},
+          "Skoda": {"avg_defect_rate": 7.8, "best_model": "Karoq", "worst_model": "Superb"}
+        }
+      },
+      "4_5_years": {
+        "top_performers": [
+          {"model": "Porsche 911", "defect_rate": 4.0, "avg_km": 42000},
+          {"model": "VW T-Cross", "defect_rate": 5.2, "avg_km": 52000},
+          {"model": "VW T-Roc", "defect_rate": 6.0, "avg_km": 58000},
+          {"model": "Mercedes B-Class", "defect_rate": 6.2, "avg_km": 48000},
+          {"model": "Skoda Karoq", "defect_rate": 6.2, "avg_km": 55000},
+          {"model": "Audi Q2", "defect_rate": 6.5, "avg_km": 52000}
+        ],
+        "worst_performers": [
+          {"model": "Tesla Model 3", "defect_rate": 18.5, "avg_km": 85000},
+          {"model": "Dacia Duster", "defect_rate": 16.2, "avg_km": 62000},
+          {"model": "BMW 5/6 Series", "defect_rate": 14.8, "avg_km": 72000},
+          {"model": "VW Sharan", "defect_rate": 14.5, "avg_km": 68000},
+          {"model": "Seat Alhambra", "defect_rate": 14.2, "avg_km": 65000}
+        ]
+      },
+      "10_11_years": {
+        "brand_ranking": [
+          {"brand": "Mercedes-Benz", "avg_defect_rate": 18.5},
+          {"brand": "Audi", "avg_defect_rate": 19.2},
+          {"brand": "Toyota", "avg_defect_rate": 22.0},
+          {"brand": "BMW", "avg_defect_rate": 22.8},
+          {"brand": "Volkswagen", "avg_defect_rate": 23.5},
+          {"brand": "Skoda", "avg_defect_rate": 24.2},
+          {"brand": "Porsche", "avg_defect_rate": 15.5}
+        ]
+      },
+      "common_defects": {
+        "all_vehicles": ["lighting", "brakes", "suspension", "tires", "emissions"],
+        "ev_specific": ["brake_discs_corrosion", "axle_suspension", "regenerative_braking_wear"],
+        "bmw_specific": ["active_hood_dampers", "suspension", "lighting"],
+        "vw_group": ["foot_brake_function"]
+      }
+    }
+  },
+
+  "3_maintenance_costs": {
+    "description": "Coûts d'entretien annuels moyens (€)",
+    "source": "ADAC, L'Argus, données constructeurs",
+    "methodology": "Moyenne sur 5 ans, 15000 km/an",
+    "data": {
+      "BMW": {
+        "Serie_1": {"annual_avg": 580, "major_service": 850, "oil_change": 180, "brake_pads_front": 320},
+        "Serie_3": {"annual_avg": 720, "major_service": 1050, "oil_change": 220, "brake_pads_front": 380},
+        "Serie_5": {"annual_avg": 890, "major_service": 1350, "oil_change": 280, "brake_pads_front": 450},
+        "X1": {"annual_avg": 650, "major_service": 950, "oil_change": 200, "brake_pads_front": 350},
+        "X3": {"annual_avg": 780, "major_service": 1150, "oil_change": 250, "brake_pads_front": 420},
+        "X5": {"annual_avg": 950, "major_service": 1450, "oil_change": 320, "brake_pads_front": 520},
+        "i4": {"annual_avg": 380, "major_service": 450, "brake_pads_front": 380},
+        "iX3": {"annual_avg": 420, "major_service": 520, "brake_pads_front": 420}
+      },
+      "Mercedes-Benz": {
+        "Classe_A": {"annual_avg": 620, "major_service": 920, "oil_change": 190, "brake_pads_front": 340},
+        "Classe_C": {"annual_avg": 780, "major_service": 1150, "oil_change": 240, "brake_pads_front": 400},
+        "Classe_E": {"annual_avg": 920, "major_service": 1400, "oil_change": 290, "brake_pads_front": 480},
+        "GLA": {"annual_avg": 680, "major_service": 980, "oil_change": 210, "brake_pads_front": 360},
+        "GLC": {"annual_avg": 820, "major_service": 1200, "oil_change": 260, "brake_pads_front": 440},
+        "GLE": {"annual_avg": 980, "major_service": 1500, "oil_change": 340, "brake_pads_front": 540},
+        "EQA": {"annual_avg": 350, "major_service": 420, "brake_pads_front": 360},
+        "EQC": {"annual_avg": 420, "major_service": 520, "brake_pads_front": 440}
+      },
+      "Audi": {
+        "A3": {"annual_avg": 550, "major_service": 820, "oil_change": 170, "brake_pads_front": 310},
+        "A4": {"annual_avg": 680, "major_service": 1000, "oil_change": 210, "brake_pads_front": 360},
+        "A6": {"annual_avg": 850, "major_service": 1300, "oil_change": 270, "brake_pads_front": 440},
+        "Q3": {"annual_avg": 620, "major_service": 900, "oil_change": 190, "brake_pads_front": 340},
+        "Q5": {"annual_avg": 750, "major_service": 1100, "oil_change": 240, "brake_pads_front": 400},
+        "Q7": {"annual_avg": 920, "major_service": 1400, "oil_change": 310, "brake_pads_front": 500},
+        "Q4_e-tron": {"annual_avg": 360, "major_service": 440, "brake_pads_front": 340},
+        "e-tron_GT": {"annual_avg": 480, "major_service": 620, "brake_pads_front": 480}
+      },
+      "Volkswagen": {
+        "Golf": {"annual_avg": 420, "major_service": 620, "oil_change": 130, "brake_pads_front": 220},
+        "Passat": {"annual_avg": 520, "major_service": 780, "oil_change": 160, "brake_pads_front": 280},
+        "Tiguan": {"annual_avg": 480, "major_service": 720, "oil_change": 150, "brake_pads_front": 260},
+        "Touareg": {"annual_avg": 720, "major_service": 1100, "oil_change": 240, "brake_pads_front": 380},
+        "ID.3": {"annual_avg": 280, "major_service": 320, "brake_pads_front": 220},
+        "ID.4": {"annual_avg": 310, "major_service": 360, "brake_pads_front": 260}
+      },
+      "Porsche": {
+        "718_Cayman": {"annual_avg": 850, "major_service": 1400, "oil_change": 320, "brake_pads_front": 580},
+        "911": {"annual_avg": 1150, "major_service": 1850, "oil_change": 420, "brake_pads_front": 720},
+        "Macan": {"annual_avg": 780, "major_service": 1200, "oil_change": 280, "brake_pads_front": 480},
+        "Cayenne": {"annual_avg": 920, "major_service": 1450, "oil_change": 340, "brake_pads_front": 560},
+        "Taycan": {"annual_avg": 520, "major_service": 680, "brake_pads_front": 580}
+      },
+      "Skoda": {
+        "Fabia": {"annual_avg": 320, "major_service": 480, "oil_change": 100, "brake_pads_front": 160},
+        "Octavia": {"annual_avg": 380, "major_service": 560, "oil_change": 120, "brake_pads_front": 200},
+        "Superb": {"annual_avg": 450, "major_service": 680, "oil_change": 140, "brake_pads_front": 240},
+        "Karoq": {"annual_avg": 420, "major_service": 620, "oil_change": 130, "brake_pads_front": 220},
+        "Kodiaq": {"annual_avg": 480, "major_service": 720, "oil_change": 150, "brake_pads_front": 260},
+        "Enyaq": {"annual_avg": 280, "major_service": 320, "brake_pads_front": 220}
+      }
+    }
+  },
+
+  "4_insurance_groups": {
+    "description": "Groupes d'assurance et primes moyennes annuelles (€)",
+    "source": "SRA France, LeLynx, Assurland",
+    "methodology": "Conducteur 35 ans, 5 ans permis, bonus 0.50, tous risques",
+    "data": {
+      "BMW": {
+        "Serie_1_118i": {"group": 16, "avg_premium": 680, "theft_risk": "moyen"},
+        "Serie_3_320d": {"group": 19, "avg_premium": 820, "theft_risk": "élevé"},
+        "Serie_5_520d": {"group": 22, "avg_premium": 980, "theft_risk": "élevé"},
+        "X1_sDrive18d": {"group": 17, "avg_premium": 720, "theft_risk": "moyen"},
+        "X3_xDrive20d": {"group": 20, "avg_premium": 880, "theft_risk": "élevé"},
+        "X5_xDrive30d": {"group": 24, "avg_premium": 1150, "theft_risk": "très_élevé"},
+        "i4_eDrive40": {"group": 21, "avg_premium": 920, "theft_risk": "moyen"}
+      },
+      "Mercedes-Benz": {
+        "Classe_A_180": {"group": 15, "avg_premium": 650, "theft_risk": "moyen"},
+        "Classe_C_220d": {"group": 19, "avg_premium": 840, "theft_risk": "élevé"},
+        "Classe_E_220d": {"group": 22, "avg_premium": 1020, "theft_risk": "élevé"},
+        "GLA_200": {"group": 17, "avg_premium": 740, "theft_risk": "moyen"},
+        "GLC_220d": {"group": 20, "avg_premium": 900, "theft_risk": "élevé"},
+        "GLE_300d": {"group": 24, "avg_premium": 1180, "theft_risk": "très_élevé"},
+        "EQA_250": {"group": 18, "avg_premium": 780, "theft_risk": "moyen"}
+      },
+      "Audi": {
+        "A3_35_TFSI": {"group": 15, "avg_premium": 640, "theft_risk": "moyen"},
+        "A4_35_TDI": {"group": 18, "avg_premium": 780, "theft_risk": "élevé"},
+        "A6_40_TDI": {"group": 21, "avg_premium": 950, "theft_risk": "élevé"},
+        "Q3_35_TDI": {"group": 17, "avg_premium": 720, "theft_risk": "moyen"},
+        "Q5_40_TDI": {"group": 20, "avg_premium": 880, "theft_risk": "élevé"},
+        "Q7_50_TDI": {"group": 24, "avg_premium": 1150, "theft_risk": "très_élevé"},
+        "Q4_e-tron": {"group": 18, "avg_premium": 760, "theft_risk": "moyen"}
+      },
+      "Volkswagen": {
+        "Golf_1.5_TSI": {"group": 12, "avg_premium": 520, "theft_risk": "faible"},
+        "Passat_2.0_TDI": {"group": 15, "avg_premium": 640, "theft_risk": "moyen"},
+        "Tiguan_1.5_eTSI": {"group": 14, "avg_premium": 600, "theft_risk": "moyen"},
+        "Touareg_3.0_TDI": {"group": 21, "avg_premium": 920, "theft_risk": "élevé"},
+        "ID.3_Pro_S": {"group": 13, "avg_premium": 560, "theft_risk": "faible"},
+        "ID.4_Pro": {"group": 15, "avg_premium": 640, "theft_risk": "moyen"}
+      },
+      "Porsche": {
+        "718_Cayman": {"group": 25, "avg_premium": 1380, "theft_risk": "très_élevé"},
+        "911_Carrera_S": {"group": 28, "avg_premium": 1850, "theft_risk": "très_élevé"},
+        "Macan": {"group": 23, "avg_premium": 1120, "theft_risk": "très_élevé"},
+        "Cayenne_S": {"group": 26, "avg_premium": 1480, "theft_risk": "très_élevé"},
+        "Taycan_4S": {"group": 25, "avg_premium": 1350, "theft_risk": "élevé"}
+      },
+      "Skoda": {
+        "Fabia_1.0_TSI": {"group": 9, "avg_premium": 380, "theft_risk": "faible"},
+        "Octavia_1.5_TSI": {"group": 11, "avg_premium": 480, "theft_risk": "faible"},
+        "Superb_2.0_TDI": {"group": 14, "avg_premium": 580, "theft_risk": "moyen"},
+        "Karoq_1.5_TSI": {"group": 12, "avg_premium": 520, "theft_risk": "faible"},
+        "Kodiaq_2.0_TDI": {"group": 15, "avg_premium": 620, "theft_risk": "moyen"},
+        "Enyaq_85": {"group": 13, "avg_premium": 560, "theft_risk": "faible"}
+      }
+    }
+  },
+
+  "5_residual_value": {
+    "description": "Valeur résiduelle estimée après 3 ans / 60000 km (%)",
+    "source": "Autovista, L'Argus, analyse marché",
+    "data": {
+      "BMW": {
+        "Serie_1": {"rv_3y_60k": 52, "rv_5y_100k": 38},
+        "Serie_3": {"rv_3y_60k": 54, "rv_5y_100k": 40},
+        "Serie_5": {"rv_3y_60k": 50, "rv_5y_100k": 36},
+        "X1": {"rv_3y_60k": 56, "rv_5y_100k": 42},
+        "X3": {"rv_3y_60k": 58, "rv_5y_100k": 44},
+        "X5": {"rv_3y_60k": 55, "rv_5y_100k": 40},
+        "i4": {"rv_3y_60k": 48, "rv_5y_100k": 34},
+        "iX3": {"rv_3y_60k": 45, "rv_5y_100k": 32}
+      },
+      "Mercedes-Benz": {
+        "Classe_A": {"rv_3y_60k": 50, "rv_5y_100k": 36},
+        "Classe_C": {"rv_3y_60k": 52, "rv_5y_100k": 38},
+        "Classe_E": {"rv_3y_60k": 48, "rv_5y_100k": 34},
+        "GLA": {"rv_3y_60k": 54, "rv_5y_100k": 40},
+        "GLC": {"rv_3y_60k": 56, "rv_5y_100k": 42},
+        "GLE": {"rv_3y_60k": 52, "rv_5y_100k": 38},
+        "EQA": {"rv_3y_60k": 42, "rv_5y_100k": 28},
+        "EQC": {"rv_3y_60k": 38, "rv_5y_100k": 25}
+      },
+      "Audi": {
+        "A3": {"rv_3y_60k": 52, "rv_5y_100k": 38},
+        "A4": {"rv_3y_60k": 50, "rv_5y_100k": 36},
+        "A6": {"rv_3y_60k": 48, "rv_5y_100k": 34},
+        "Q3": {"rv_3y_60k": 56, "rv_5y_100k": 42},
+        "Q5": {"rv_3y_60k": 58, "rv_5y_100k": 44},
+        "Q7": {"rv_3y_60k": 54, "rv_5y_100k": 40},
+        "Q4_e-tron": {"rv_3y_60k": 46, "rv_5y_100k": 32},
+        "e-tron_GT": {"rv_3y_60k": 52, "rv_5y_100k": 38}
+      },
+      "Volkswagen": {
+        "Golf": {"rv_3y_60k": 54, "rv_5y_100k": 40},
+        "Passat": {"rv_3y_60k": 48, "rv_5y_100k": 34},
+        "Tiguan": {"rv_3y_60k": 56, "rv_5y_100k": 42},
+        "Touareg": {"rv_3y_60k": 52, "rv_5y_100k": 38},
+        "ID.3": {"rv_3y_60k": 44, "rv_5y_100k": 30},
+        "ID.4": {"rv_3y_60k": 46, "rv_5y_100k": 32}
+      },
+      "Porsche": {
+        "718_Cayman": {"rv_3y_60k": 68, "rv_5y_100k": 55},
+        "911": {"rv_3y_60k": 72, "rv_5y_100k": 60},
+        "Macan": {"rv_3y_60k": 62, "rv_5y_100k": 48},
+        "Cayenne": {"rv_3y_60k": 58, "rv_5y_100k": 44},
+        "Taycan": {"rv_3y_60k": 54, "rv_5y_100k": 40}
+      },
+      "Skoda": {
+        "Fabia": {"rv_3y_60k": 50, "rv_5y_100k": 36},
+        "Octavia": {"rv_3y_60k": 52, "rv_5y_100k": 38},
+        "Superb": {"rv_3y_60k": 46, "rv_5y_100k": 32},
+        "Karoq": {"rv_3y_60k": 54, "rv_5y_100k": 40},
+        "Kodiaq": {"rv_3y_60k": 52, "rv_5y_100k": 38},
+        "Enyaq": {"rv_3y_60k": 44, "rv_5y_100k": 30}
+      }
+    }
+  },
+
+  "6_real_emissions_co2": {
+    "description": "Émissions CO2 réelles vs WLTP (g/km)",
+    "source": "ADAC EcoTest, real-world measurements",
+    "methodology": "Tests ADAC + données communautaires",
+    "malus_2025": {
+      "thresholds": [
+        {"from": 118, "to": 131, "malus_per_g": 50},
+        {"from": 132, "to": 149, "malus_per_g": 60},
+        {"from": 150, "to": 174, "malus_per_g": 80},
+        {"from": 175, "to": 193, "malus_per_g": 100},
+        {"from": 194, "to": 225, "malus_per_g": 150},
+        {"from": 226, "malus": 60000, "note": "plafond"}
+      ]
+    },
+    "data": {
+      "BMW": {
+        "Serie_3_320d": {"wltp": 128, "real_adac": 148, "deviation": "+15.6%", "malus_2025": 1800},
+        "Serie_3_330e": {"wltp": 28, "real_adac": 85, "deviation": "+203%", "malus_2025": 0},
+        "X3_xDrive20d": {"wltp": 152, "real_adac": 175, "deviation": "+15.1%", "malus_2025": 4560},
+        "X5_xDrive30d": {"wltp": 178, "real_adac": 205, "deviation": "+15.2%", "malus_2025": 8550},
+        "i4_eDrive40": {"wltp": 0, "real_adac": 0, "deviation": "0%", "malus_2025": 0}
+      },
+      "Mercedes-Benz": {
+        "Classe_C_220d": {"wltp": 132, "real_adac": 152, "deviation": "+15.2%", "malus_2025": 2400},
+        "Classe_C_300e": {"wltp": 18, "real_adac": 72, "deviation": "+300%", "malus_2025": 0},
+        "GLC_220d": {"wltp": 158, "real_adac": 182, "deviation": "+15.2%", "malus_2025": 5280},
+        "GLE_300d": {"wltp": 182, "real_adac": 210, "deviation": "+15.4%", "malus_2025": 9900},
+        "EQA_250": {"wltp": 0, "real_adac": 0, "deviation": "0%", "malus_2025": 0}
+      },
+      "Audi": {
+        "A4_35_TDI": {"wltp": 125, "real_adac": 144, "deviation": "+15.2%", "malus_2025": 1380},
+        "A4_45_TFSI_e": {"wltp": 22, "real_adac": 78, "deviation": "+254%", "malus_2025": 0},
+        "Q5_40_TDI": {"wltp": 155, "real_adac": 178, "deviation": "+14.8%", "malus_2025": 4880},
+        "Q7_50_TDI": {"wltp": 195, "real_adac": 225, "deviation": "+15.4%", "malus_2025": 14700},
+        "Q4_e-tron": {"wltp": 0, "real_adac": 0, "deviation": "0%", "malus_2025": 0}
+      },
+      "Volkswagen": {
+        "Golf_1.5_TSI": {"wltp": 118, "real_adac": 138, "deviation": "+16.9%", "malus_2025": 600},
+        "Golf_1.4_eHybrid": {"wltp": 21, "real_adac": 68, "deviation": "+224%", "malus_2025": 0},
+        "Tiguan_1.5_eTSI": {"wltp": 138, "real_adac": 158, "deviation": "+14.5%", "malus_2025": 2880},
+        "Tiguan_2.0_TDI": {"wltp": 148, "real_adac": 172, "deviation": "+16.2%", "malus_2025": 4080},
+        "ID.4_Pro": {"wltp": 0, "real_adac": 0, "deviation": "0%", "malus_2025": 0}
+      },
+      "Porsche": {
+        "Macan_S": {"wltp": 208, "real_adac": 242, "deviation": "+16.3%", "malus_2025": 17100},
+        "Cayenne_S": {"wltp": 225, "real_adac": 262, "deviation": "+16.4%", "malus_2025": 24450},
+        "911_Carrera_S": {"wltp": 212, "real_adac": 248, "deviation": "+17.0%", "malus_2025": 18700},
+        "Taycan_4S": {"wltp": 0, "real_adac": 0, "deviation": "0%", "malus_2025": 0}
+      },
+      "Skoda": {
+        "Octavia_1.5_TSI": {"wltp": 118, "real_adac": 136, "deviation": "+15.3%", "malus_2025": 450},
+        "Octavia_2.0_TDI": {"wltp": 122, "real_adac": 142, "deviation": "+16.4%", "malus_2025": 1200},
+        "Kodiaq_2.0_TDI": {"wltp": 155, "real_adac": 180, "deviation": "+16.1%", "malus_2025": 5200},
+        "Enyaq_85": {"wltp": 0, "real_adac": 0, "deviation": "0%", "malus_2025": 0}
+      }
+    }
+  },
+
+  "7_interior_noise": {
+    "description": "Bruit intérieur mesuré à différentes vitesses (dB)",
+    "source": "Auto Motor und Sport, ADAC tests",
+    "methodology": "Mesure avec sonomètre calibré, conditions standardisées",
+    "data": {
+      "BMW": {
+        "Serie_3_320d": {"idle": 39, "50kmh": 58, "100kmh": 64, "130kmh": 68, "rating": "excellent"},
+        "Serie_5_520d": {"idle": 37, "50kmh": 56, "100kmh": 62, "130kmh": 66, "rating": "excellent"},
+        "X3_xDrive20d": {"idle": 40, "50kmh": 59, "100kmh": 65, "130kmh": 69, "rating": "très_bon"},
+        "X5_xDrive30d": {"idle": 38, "50kmh": 57, "100kmh": 63, "130kmh": 67, "rating": "excellent"},
+        "i4_eDrive40": {"idle": 32, "50kmh": 55, "100kmh": 62, "130kmh": 66, "rating": "excellent"}
+      },
+      "Mercedes-Benz": {
+        "Classe_C_220d": {"idle": 38, "50kmh": 57, "100kmh": 63, "130kmh": 67, "rating": "excellent"},
+        "Classe_E_220d": {"idle": 36, "50kmh": 55, "100kmh": 61, "130kmh": 65, "rating": "excellent"},
+        "Classe_S_400d": {"idle": 34, "50kmh": 53, "100kmh": 59, "130kmh": 63, "rating": "référence"},
+        "GLC_220d": {"idle": 39, "50kmh": 58, "100kmh": 64, "130kmh": 68, "rating": "très_bon"},
+        "EQS_450": {"idle": 28, "50kmh": 52, "100kmh": 58, "130kmh": 62, "rating": "référence"}
+      },
+      "Audi": {
+        "A4_35_TDI": {"idle": 39, "50kmh": 58, "100kmh": 64, "130kmh": 68, "rating": "excellent"},
+        "A6_40_TDI": {"idle": 37, "50kmh": 56, "100kmh": 62, "130kmh": 66, "rating": "excellent"},
+        "A8_55_TFSI": {"idle": 35, "50kmh": 54, "100kmh": 60, "130kmh": 64, "rating": "référence"},
+        "Q5_40_TDI": {"idle": 40, "50kmh": 59, "100kmh": 65, "130kmh": 69, "rating": "très_bon"},
+        "e-tron_GT": {"idle": 30, "50kmh": 54, "100kmh": 60, "130kmh": 64, "rating": "excellent"}
+      },
+      "Volkswagen": {
+        "Golf_1.5_TSI": {"idle": 42, "50kmh": 61, "100kmh": 67, "130kmh": 71, "rating": "bon"},
+        "Passat_2.0_TDI": {"idle": 40, "50kmh": 59, "100kmh": 65, "130kmh": 69, "rating": "très_bon"},
+        "Tiguan_2.0_TDI": {"idle": 41, "50kmh": 60, "100kmh": 66, "130kmh": 70, "rating": "bon"},
+        "Touareg_3.0_TDI": {"idle": 38, "50kmh": 57, "100kmh": 63, "130kmh": 67, "rating": "excellent"},
+        "ID.4_Pro": {"idle": 34, "50kmh": 57, "100kmh": 64, "130kmh": 68, "rating": "très_bon"}
+      },
+      "Porsche": {
+        "911_Carrera_S": {"idle": 44, "50kmh": 62, "100kmh": 68, "130kmh": 72, "rating": "bon"},
+        "Panamera_4S": {"idle": 36, "50kmh": 55, "100kmh": 61, "130kmh": 65, "rating": "excellent"},
+        "Macan_S": {"idle": 41, "50kmh": 60, "100kmh": 66, "130kmh": 70, "rating": "bon"},
+        "Cayenne_S": {"idle": 39, "50kmh": 58, "100kmh": 64, "130kmh": 68, "rating": "très_bon"},
+        "Taycan_4S": {"idle": 32, "50kmh": 55, "100kmh": 62, "130kmh": 66, "rating": "excellent"}
+      },
+      "Skoda": {
+        "Octavia_1.5_TSI": {"idle": 43, "50kmh": 62, "100kmh": 68, "130kmh": 72, "rating": "bon"},
+        "Superb_2.0_TDI": {"idle": 40, "50kmh": 59, "100kmh": 65, "130kmh": 69, "rating": "très_bon"},
+        "Kodiaq_2.0_TDI": {"idle": 42, "50kmh": 61, "100kmh": 67, "130kmh": 71, "rating": "bon"},
+        "Enyaq_85": {"idle": 35, "50kmh": 58, "100kmh": 65, "130kmh": 69, "rating": "très_bon"}
+      }
+    },
+    "rating_scale": {
+      "référence": "< 64 dB @ 130 km/h",
+      "excellent": "64-67 dB @ 130 km/h",
+      "très_bon": "68-70 dB @ 130 km/h",
+      "bon": "71-73 dB @ 130 km/h",
+      "moyen": "> 73 dB @ 130 km/h"
+    }
+  },
+
+  "8_ev_charging_times": {
+    "description": "Temps de charge VE réels (minutes)",
+    "source": "IONITY, Bjørn Nyland tests, manufacturer specs",
+    "methodology": "Temps 10-80% SOC en conditions réelles",
+    "data": {
+      "BMW": {
+        "iX1_xDrive30": {
+          "battery_kwh": 64.7,
+          "max_dc_kw": 130,
+          "10_80_optimal_min": 29,
+          "10_80_winter_min": 42,
+          "ac_11kw_0_100_h": 6.5,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "iX3": {
+          "battery_kwh": 80,
+          "max_dc_kw": 150,
+          "10_80_optimal_min": 32,
+          "10_80_winter_min": 45,
+          "ac_11kw_0_100_h": 7.5,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "i4_eDrive40": {
+          "battery_kwh": 83.9,
+          "max_dc_kw": 205,
+          "10_80_optimal_min": 31,
+          "10_80_winter_min": 42,
+          "ac_11kw_0_100_h": 8.5,
+          "preconditioning": true,
+          "curve_quality": "excellent"
+        },
+        "i5_eDrive40": {
+          "battery_kwh": 81.2,
+          "max_dc_kw": 205,
+          "10_80_optimal_min": 30,
+          "10_80_winter_min": 40,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "excellent"
+        },
+        "i7_xDrive60": {
+          "battery_kwh": 101.7,
+          "max_dc_kw": 195,
+          "10_80_optimal_min": 34,
+          "10_80_winter_min": 48,
+          "ac_11kw_0_100_h": 10,
+          "preconditioning": true,
+          "curve_quality": "très_bon"
+        }
+      },
+      "Mercedes-Benz": {
+        "EQA_250": {
+          "battery_kwh": 66.5,
+          "max_dc_kw": 100,
+          "10_80_optimal_min": 32,
+          "10_80_winter_min": 48,
+          "ac_11kw_0_100_h": 6.5,
+          "preconditioning": false,
+          "curve_quality": "moyen"
+        },
+        "EQB_250": {
+          "battery_kwh": 66.5,
+          "max_dc_kw": 100,
+          "10_80_optimal_min": 32,
+          "10_80_winter_min": 48,
+          "ac_11kw_0_100_h": 6.5,
+          "preconditioning": false,
+          "curve_quality": "moyen"
+        },
+        "EQE_350": {
+          "battery_kwh": 90.6,
+          "max_dc_kw": 170,
+          "10_80_optimal_min": 32,
+          "10_80_winter_min": 45,
+          "ac_11kw_0_100_h": 9,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "EQS_450": {
+          "battery_kwh": 107.8,
+          "max_dc_kw": 200,
+          "10_80_optimal_min": 31,
+          "10_80_winter_min": 42,
+          "ac_11kw_0_100_h": 11,
+          "preconditioning": true,
+          "curve_quality": "excellent"
+        }
+      },
+      "Audi": {
+        "Q4_e-tron_45": {
+          "battery_kwh": 82,
+          "max_dc_kw": 135,
+          "10_80_optimal_min": 36,
+          "10_80_winter_min": 52,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "Q6_e-tron_quattro": {
+          "battery_kwh": 100,
+          "max_dc_kw": 270,
+          "10_80_optimal_min": 21,
+          "10_80_winter_min": 30,
+          "ac_11kw_0_100_h": 10,
+          "preconditioning": true,
+          "curve_quality": "excellent"
+        },
+        "e-tron_GT_quattro": {
+          "battery_kwh": 93.4,
+          "max_dc_kw": 270,
+          "10_80_optimal_min": 22,
+          "10_80_winter_min": 32,
+          "ac_11kw_0_100_h": 9,
+          "preconditioning": true,
+          "curve_quality": "excellent"
+        }
+      },
+      "Volkswagen": {
+        "ID.3_Pro_S": {
+          "battery_kwh": 82,
+          "max_dc_kw": 170,
+          "10_80_optimal_min": 30,
+          "10_80_winter_min": 45,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "ID.4_Pro": {
+          "battery_kwh": 82,
+          "max_dc_kw": 175,
+          "10_80_optimal_min": 30,
+          "10_80_winter_min": 45,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "ID.5_Pro": {
+          "battery_kwh": 82,
+          "max_dc_kw": 175,
+          "10_80_optimal_min": 30,
+          "10_80_winter_min": 45,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "ID.7_Pro_S": {
+          "battery_kwh": 86,
+          "max_dc_kw": 200,
+          "10_80_optimal_min": 26,
+          "10_80_winter_min": 38,
+          "ac_11kw_0_100_h": 8.5,
+          "preconditioning": true,
+          "curve_quality": "excellent"
+        }
+      },
+      "Porsche": {
+        "Taycan_4S": {
+          "battery_kwh": 93.4,
+          "max_dc_kw": 270,
+          "10_80_optimal_min": 22,
+          "10_80_winter_min": 30,
+          "ac_11kw_0_100_h": 9,
+          "preconditioning": true,
+          "curve_quality": "référence"
+        },
+        "Taycan_Turbo": {
+          "battery_kwh": 93.4,
+          "max_dc_kw": 270,
+          "10_80_optimal_min": 22,
+          "10_80_winter_min": 28,
+          "ac_11kw_0_100_h": 9,
+          "preconditioning": true,
+          "curve_quality": "référence"
+        },
+        "Macan_4": {
+          "battery_kwh": 100,
+          "max_dc_kw": 270,
+          "10_80_optimal_min": 21,
+          "10_80_winter_min": 28,
+          "ac_11kw_0_100_h": 10,
+          "preconditioning": true,
+          "curve_quality": "référence"
+        }
+      },
+      "Skoda": {
+        "Enyaq_85": {
+          "battery_kwh": 82,
+          "max_dc_kw": 175,
+          "10_80_optimal_min": 29,
+          "10_80_winter_min": 42,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "Enyaq_Coupe_85": {
+          "battery_kwh": 82,
+          "max_dc_kw": 175,
+          "10_80_optimal_min": 29,
+          "10_80_winter_min": 42,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        },
+        "Elroq_85": {
+          "battery_kwh": 82,
+          "max_dc_kw": 175,
+          "10_80_optimal_min": 28,
+          "10_80_winter_min": 40,
+          "ac_11kw_0_100_h": 8,
+          "preconditioning": true,
+          "curve_quality": "bon"
+        }
+      }
+    },
+    "curve_quality_scale": {
+      "référence": "Maintient >200kW longtemps, excellente gestion thermique",
+      "excellent": "Bonne puissance soutenue, préconditionnement efficace",
+      "très_bon": "Chute progressive mais acceptable",
+      "bon": "Chute normale, préconditionnement basique",
+      "moyen": "Chute rapide, sensible au froid"
+    }
+  },
+
+  "9_towing_capacity": {
+    "description": "Capacité de remorquage (kg)",
+    "source": "Données constructeur",
+    "data": {
+      "BMW": {
+        "Serie_3_320d": {"braked": 1800, "unbraked": 750, "roof_load": 75, "tongue_weight": 90},
+        "Serie_5_520d": {"braked": 2000, "unbraked": 750, "roof_load": 75, "tongue_weight": 100},
+        "X1_sDrive18d": {"braked": 2000, "unbraked": 750, "roof_load": 75, "tongue_weight": 84},
+        "X3_xDrive20d": {"braked": 2400, "unbraked": 750, "roof_load": 100, "tongue_weight": 100},
+        "X5_xDrive30d": {"braked": 3500, "unbraked": 750, "roof_load": 100, "tongue_weight": 140},
+        "iX3": {"braked": 750, "unbraked": 750, "roof_load": 100, "tongue_weight": 75},
+        "i4": {"braked": 0, "unbraked": 0, "roof_load": 75, "tongue_weight": 0, "note": "pas d'attelage"}
+      },
+      "Mercedes-Benz": {
+        "Classe_C_220d": {"braked": 1800, "unbraked": 750, "roof_load": 75, "tongue_weight": 84},
+        "Classe_E_220d": {"braked": 2100, "unbraked": 750, "roof_load": 75, "tongue_weight": 100},
+        "GLA_200": {"braked": 1800, "unbraked": 750, "roof_load": 75, "tongue_weight": 84},
+        "GLC_220d": {"braked": 2500, "unbraked": 750, "roof_load": 100, "tongue_weight": 100},
+        "GLE_300d": {"braked": 3500, "unbraked": 750, "roof_load": 100, "tongue_weight": 140},
+        "EQA_250": {"braked": 1800, "unbraked": 750, "roof_load": 75, "tongue_weight": 84},
+        "EQC_400": {"braked": 1800, "unbraked": 750, "roof_load": 75, "tongue_weight": 84}
+      },
+      "Audi": {
+        "A4_35_TDI": {"braked": 1800, "unbraked": 750, "roof_load": 75, "tongue_weight": 90},
+        "A6_40_TDI": {"braked": 2100, "unbraked": 750, "roof_load": 75, "tongue_weight": 100},
+        "Q3_35_TDI": {"braked": 2000, "unbraked": 750, "roof_load": 75, "tongue_weight": 84},
+        "Q5_40_TDI": {"braked": 2400, "unbraked": 750, "roof_load": 100, "tongue_weight": 100},
+        "Q7_50_TDI": {"braked": 3500, "unbraked": 750, "roof_load": 100, "tongue_weight": 140},
+        "Q4_e-tron": {"braked": 1200, "unbraked": 750, "roof_load": 75, "tongue_weight": 75},
+        "e-tron_GT": {"braked": 0, "unbraked": 0, "roof_load": 75, "tongue_weight": 0, "note": "pas d'attelage"}
+      },
+      "Volkswagen": {
+        "Golf_1.5_TSI": {"braked": 1500, "unbraked": 650, "roof_load": 75, "tongue_weight": 75},
+        "Passat_2.0_TDI": {"braked": 2200, "unbraked": 750, "roof_load": 75, "tongue_weight": 100},
+        "Tiguan_2.0_TDI": {"braked": 2500, "unbraked": 750, "roof_load": 75, "tongue_weight": 100},
+        "Touareg_3.0_TDI": {"braked": 3500, "unbraked": 750, "roof_load": 100, "tongue_weight": 140},
+        "ID.4_Pro": {"braked": 1200, "unbraked": 750, "roof_load": 75, "tongue_weight": 75},
+        "ID.7": {"braked": 1400, "unbraked": 750, "roof_load": 75, "tongue_weight": 75}
+      },
+      "Porsche": {
+        "Macan_S": {"braked": 2400, "unbraked": 750, "roof_load": 100, "tongue_weight": 100},
+        "Macan_EV": {"braked": 2400, "unbraked": 750, "roof_load": 100, "tongue_weight": 100},
+        "Cayenne_S": {"braked": 3500, "unbraked": 750, "roof_load": 100, "tongue_weight": 140},
+        "Taycan_4S": {"braked": 0, "unbraked": 0, "roof_load": 75, "tongue_weight": 0, "note": "pas d'attelage"},
+        "Taycan_Cross_Turismo": {"braked": 2100, "unbraked": 750, "roof_load": 75, "tongue_weight": 84}
+      },
+      "Skoda": {
+        "Octavia_1.5_TSI": {"braked": 1500, "unbraked": 650, "roof_load": 75, "tongue_weight": 75},
+        "Superb_2.0_TDI": {"braked": 2200, "unbraked": 750, "roof_load": 75, "tongue_weight": 100},
+        "Karoq_1.5_TSI": {"braked": 1700, "unbraked": 690, "roof_load": 75, "tongue_weight": 80},
+        "Kodiaq_2.0_TDI": {"braked": 2500, "unbraked": 750, "roof_load": 75, "tongue_weight": 100},
+        "Enyaq_85": {"braked": 1200, "unbraked": 750, "roof_load": 75, "tongue_weight": 75}
+      }
+    }
+  },
+
+  "10_spare_parts_costs": {
+    "description": "Coût des pièces détachées principales (€)",
+    "source": "ADAC Ersatzteile, prix constructeur",
+    "methodology": "Pièces origine constructeur, hors main d'oeuvre",
+    "data": {
+      "BMW": {
+        "Serie_3": {
+          "windshield": 850, "front_bumper": 1200, "headlight_led": 1800, "side_mirror": 450,
+          "alternator": 680, "starter": 520, "water_pump": 380, "timing_belt_kit": 450,
+          "clutch_kit": 950, "turbo": 2200, "catalytic_converter": 1800,
+          "parts_availability": "excellent", "aftermarket_quality": "bon"
+        },
+        "X3": {
+          "windshield": 920, "front_bumper": 1400, "headlight_led": 2100, "side_mirror": 520,
+          "alternator": 720, "starter": 560, "water_pump": 420, "timing_belt_kit": 480,
+          "clutch_kit": 1050, "turbo": 2400, "catalytic_converter": 2000,
+          "parts_availability": "excellent", "aftermarket_quality": "bon"
+        }
+      },
+      "Mercedes-Benz": {
+        "Classe_C": {
+          "windshield": 920, "front_bumper": 1350, "headlight_led": 2000, "side_mirror": 480,
+          "alternator": 750, "starter": 580, "water_pump": 400, "timing_belt_kit": 500,
+          "clutch_kit": 1020, "turbo": 2350, "catalytic_converter": 1950,
+          "parts_availability": "excellent", "aftermarket_quality": "bon"
+        },
+        "GLC": {
+          "windshield": 980, "front_bumper": 1500, "headlight_led": 2300, "side_mirror": 550,
+          "alternator": 800, "starter": 620, "water_pump": 450, "timing_belt_kit": 550,
+          "clutch_kit": 1150, "turbo": 2600, "catalytic_converter": 2200,
+          "parts_availability": "excellent", "aftermarket_quality": "bon"
+        }
+      },
+      "Audi": {
+        "A4": {
+          "windshield": 780, "front_bumper": 1150, "headlight_led": 1700, "side_mirror": 420,
+          "alternator": 650, "starter": 480, "water_pump": 350, "timing_belt_kit": 420,
+          "clutch_kit": 880, "turbo": 2100, "catalytic_converter": 1700,
+          "parts_availability": "excellent", "aftermarket_quality": "excellent"
+        },
+        "Q5": {
+          "windshield": 850, "front_bumper": 1300, "headlight_led": 1950, "side_mirror": 480,
+          "alternator": 700, "starter": 540, "water_pump": 400, "timing_belt_kit": 480,
+          "clutch_kit": 1000, "turbo": 2300, "catalytic_converter": 1900,
+          "parts_availability": "excellent", "aftermarket_quality": "excellent"
+        }
+      },
+      "Volkswagen": {
+        "Golf": {
+          "windshield": 520, "front_bumper": 680, "headlight_led": 950, "side_mirror": 280,
+          "alternator": 420, "starter": 320, "water_pump": 220, "timing_belt_kit": 280,
+          "clutch_kit": 580, "turbo": 1400, "catalytic_converter": 1100,
+          "parts_availability": "excellent", "aftermarket_quality": "excellent"
+        },
+        "Tiguan": {
+          "windshield": 580, "front_bumper": 780, "headlight_led": 1100, "side_mirror": 320,
+          "alternator": 480, "starter": 380, "water_pump": 260, "timing_belt_kit": 320,
+          "clutch_kit": 680, "turbo": 1600, "catalytic_converter": 1300,
+          "parts_availability": "excellent", "aftermarket_quality": "excellent"
+        }
+      },
+      "Porsche": {
+        "Macan": {
+          "windshield": 1200, "front_bumper": 1800, "headlight_led": 2800, "side_mirror": 680,
+          "alternator": 950, "starter": 720, "water_pump": 550, "timing_belt_kit": 650,
+          "clutch_kit": 1500, "turbo": 3200, "catalytic_converter": 2800,
+          "parts_availability": "très_bon", "aftermarket_quality": "limité"
+        },
+        "911": {
+          "windshield": 1500, "front_bumper": 2200, "headlight_led": 3500, "side_mirror": 850,
+          "alternator": 1100, "starter": 850, "water_pump": 680, "timing_belt_kit": "N/A",
+          "clutch_kit": 2200, "turbo": 4500, "catalytic_converter": 3500,
+          "parts_availability": "très_bon", "aftermarket_quality": "limité"
+        }
+      },
+      "Skoda": {
+        "Octavia": {
+          "windshield": 450, "front_bumper": 580, "headlight_led": 780, "side_mirror": 220,
+          "alternator": 380, "starter": 280, "water_pump": 180, "timing_belt_kit": 240,
+          "clutch_kit": 520, "turbo": 1250, "catalytic_converter": 950,
+          "parts_availability": "excellent", "aftermarket_quality": "excellent"
+        },
+        "Kodiaq": {
+          "windshield": 520, "front_bumper": 680, "headlight_led": 920, "side_mirror": 280,
+          "alternator": 440, "starter": 340, "water_pump": 220, "timing_belt_kit": 280,
+          "clutch_kit": 620, "turbo": 1450, "catalytic_converter": 1150,
+          "parts_availability": "excellent", "aftermarket_quality": "excellent"
+        }
+      }
+    },
+    "availability_scale": {
+      "excellent": "Disponible immédiatement chez tous fournisseurs",
+      "très_bon": "1-3 jours max, réseau étendu",
+      "bon": "3-7 jours, certains fournisseurs",
+      "moyen": ">7 jours, fournisseurs spécialisés uniquement"
+    }
+  },
+
+  "summary_tco_comparison": {
+    "description": "Comparaison TCO sur 5 ans / 75000 km - Modèles comparables",
+    "methodology": "Prix neuf + dépréciation + entretien + assurance + carburant/électricité + malus",
+    "data": {
+      "compact_premium": {
+        "BMW_Serie_1_118i": {"purchase": 34650, "depreciation": 16632, "maintenance": 2900, "insurance": 3400, "fuel": 8250, "malus": 0, "tco_5y": 31182},
+        "Mercedes_A180": {"purchase": 36550, "depreciation": 18275, "maintenance": 3100, "insurance": 3250, "fuel": 7950, "malus": 0, "tco_5y": 32575},
+        "Audi_A3_35TFSI": {"purchase": 35400, "depreciation": 16992, "maintenance": 2750, "insurance": 3200, "fuel": 8100, "malus": 0, "tco_5y": 31042},
+        "Skoda_Octavia_1.5TSI": {"purchase": 32990, "depreciation": 15835, "maintenance": 1900, "insurance": 2400, "fuel": 7650, "malus": 450, "tco_5y": 28235}
+      },
+      "suv_mid": {
+        "BMW_X3_xDrive20d": {"purchase": 58900, "depreciation": 24738, "maintenance": 3900, "insurance": 4400, "fuel": 9750, "malus": 4560, "tco_5y": 47348},
+        "Mercedes_GLC_220d": {"purchase": 61900, "depreciation": 27236, "maintenance": 4100, "insurance": 4500, "fuel": 9900, "malus": 5280, "tco_5y": 51016},
+        "Audi_Q5_40TDI": {"purchase": 58900, "depreciation": 24738, "maintenance": 3750, "insurance": 4400, "fuel": 9600, "malus": 4880, "tco_5y": 47368},
+        "VW_Tiguan_2.0TDI": {"purchase": 50600, "depreciation": 22264, "maintenance": 2400, "insurance": 3000, "fuel": 9300, "malus": 4080, "tco_5y": 41044},
+        "Skoda_Kodiaq_2.0TDI": {"purchase": 42990, "depreciation": 20635, "maintenance": 2400, "insurance": 3100, "fuel": 9450, "malus": 5200, "tco_5y": 40785}
+      },
+      "ev_suv_compact": {
+        "BMW_iX1_xDrive30": {"purchase": 52900, "depreciation": 29095, "maintenance": 1900, "insurance": 3600, "fuel_elec": 3750, "malus": 0, "tco_5y": 38345},
+        "Mercedes_EQA_250": {"purchase": 52900, "depreciation": 30682, "maintenance": 1750, "insurance": 3900, "fuel_elec": 3600, "malus": 0, "tco_5y": 39932},
+        "Audi_Q4_e-tron_45": {"purchase": 52900, "depreciation": 28566, "maintenance": 1800, "insurance": 3800, "fuel_elec": 3450, "malus": 0, "tco_5y": 37616},
+        "VW_ID.4_Pro": {"purchase": 46990, "depreciation": 25365, "maintenance": 1550, "insurance": 3200, "fuel_elec": 3300, "malus": 0, "tco_5y": 33415},
+        "Skoda_Enyaq_85": {"purchase": 45990, "depreciation": 25755, "maintenance": 1400, "insurance": 2800, "fuel_elec": 3300, "malus": 0, "tco_5y": 33255}
+      }
+    },
+    "notes": {
+      "fuel_calculation": "15000 km/an, essence 1.80€/L, diesel 1.70€/L",
+      "electricity_calculation": "15000 km/an, 0.22€/kWh mix domicile/borne",
+      "depreciation_calculation": "Basé sur valeur résiduelle 5 ans",
+      "winner_compact_premium": "Skoda Octavia - meilleur rapport qualité/prix",
+      "winner_suv_mid": "Skoda Kodiaq - TCO le plus bas malgré malus",
+      "winner_ev_suv": "Skoda Enyaq - TCO minimal, fiabilité TÜV correcte"
+    }
+  }
+}

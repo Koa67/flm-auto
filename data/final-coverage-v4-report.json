@@ -1,0 +1,377 @@
+{
+  "timestamp": "2026-02-13T07:55:23.166Z",
+  "totals": {
+    "brands": 32,
+    "models": 1245,
+    "generations": 4268
+  },
+  "coverage": {
+    "specs": {
+      "covered": 4235,
+      "total": 4268,
+      "pct": 99.22680412371135
+    },
+    "photos": {
+      "covered": 4263,
+      "total": 4268,
+      "pct": 99.88284910965324,
+      "totalImages": 287553
+    },
+    "safety": {
+      "covered": 3653,
+      "total": 4268,
+      "pct": 85.5904404873477,
+      "bySource": {
+        "jncap": 15,
+        "euroncap": 282,
+        "propagated_model": 1679,
+        "iihs": 10,
+        "nhtsa": 189,
+        "propagated_platform": 456,
+        "inferred:premium_post2018": 66,
+        "inferred:mainstream_post2020": 160,
+        "inferred:premium_post2020_5star": 64,
+        "inferred:mainstream_post2015": 90,
+        "inferred:premium_post2005": 26,
+        "inferred:mainstream_post2010": 65,
+        "inferred:premium_post2012": 30,
+        "inferred:secondary_post2018": 3,
+        "inferred:mainstream_pre2010": 150,
+        "inferred:old_known_brand": 248,
+        "inferred:secondary_post2010": 3,
+        "inferred:premium_pre2005": 10,
+        "inferred:niche_post2010": 28,
+        "inferred:model_sibling_median": 79
+      },
+      "byStars": {
+        "2": 524,
+        "3": 425,
+        "4": 1011,
+        "5": 1693
+      }
+    },
+    "dims": {
+      "covered": 4188,
+      "total": 4268,
+      "pct": 98.12558575445173
+    },
+    "family": {
+      "covered": 4096,
+      "total": 4268,
+      "pct": 95.97000937207123
+    },
+    "videos": {
+      "covered": 4268,
+      "total": 4268,
+      "pct": 100,
+      "totalVideos": 54782
+    }
+  },
+  "score": 95.37839737582004,
+  "journey": [
+    41.88,
+    71.22,
+    73.715,
+    81.71,
+    95.37839737582004
+  ],
+  "rawCounts": {
+    "images": 287553,
+    "videos": 54782,
+    "safety": 3653,
+    "dims": 4188,
+    "fits": 4096,
+    "specs": 277393,
+    "recalls": 2820
+  },
+  "brandCoverage": {
+    "Audi": {
+      "total": 445,
+      "specs": 443,
+      "photos": 445,
+      "safety": 411,
+      "dims": 444,
+      "family": 444,
+      "videos": 445
+    },
+    "Mercedes-Benz": {
+      "total": 435,
+      "specs": 432,
+      "photos": 434,
+      "safety": 347,
+      "dims": 427,
+      "family": 424,
+      "videos": 435
+    },
+    "Volkswagen": {
+      "total": 465,
+      "specs": 465,
+      "photos": 465,
+      "safety": 384,
+      "dims": 455,
+      "family": 454,
+      "videos": 465
+    },
+    "Porsche": {
+      "total": 137,
+      "specs": 136,
+      "photos": 137,
+      "safety": 64,
+      "dims": 137,
+      "family": 137,
+      "videos": 137
+    },
+    "Toyota": {
+      "total": 535,
+      "specs": 523,
+      "photos": 535,
+      "safety": 511,
+      "dims": 529,
+      "family": 531,
+      "videos": 535
+    },
+    "BMW": {
+      "total": 250,
+      "specs": 250,
+      "photos": 250,
+      "safety": 178,
+      "dims": 227,
+      "family": 227,
+      "videos": 250
+    },
+    "Lamborghini": {
+      "total": 27,
+      "specs": 27,
+      "photos": 27,
+      "safety": 3,
+      "dims": 22,
+      "family": 19,
+      "videos": 27
+    },
+    "Skoda": {
+      "total": 113,
+      "specs": 113,
+      "photos": 113,
+      "safety": 97,
+      "dims": 112,
+      "family": 111,
+      "videos": 113
+    },
+    "Hyundai": {
+      "total": 220,
+      "specs": 220,
+      "photos": 220,
+      "safety": 217,
+      "dims": 218,
+      "family": 217,
+      "videos": 220
+    },
+    "Tesla": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 6,
+      "dims": 6,
+      "family": 6,
+      "videos": 6
+    },
+    "Volvo": {
+      "total": 113,
+      "specs": 113,
+      "photos": 113,
+      "safety": 104,
+      "dims": 113,
+      "family": 108,
+      "videos": 113
+    },
+    "Ferrari": {
+      "total": 13,
+      "specs": 13,
+      "photos": 13,
+      "safety": 11,
+      "dims": 12,
+      "family": 2,
+      "videos": 13
+    },
+    "Ford": {
+      "total": 27,
+      "specs": 27,
+      "photos": 27,
+      "safety": 15,
+      "dims": 26,
+      "family": 21,
+      "videos": 27
+    },
+    "Honda": {
+      "total": 186,
+      "specs": 184,
+      "photos": 186,
+      "safety": 170,
+      "dims": 184,
+      "family": 184,
+      "videos": 186
+    },
+    "Nissan": {
+      "total": 359,
+      "specs": 356,
+      "photos": 357,
+      "safety": 340,
+      "dims": 357,
+      "family": 358,
+      "videos": 359
+    },
+    "Mazda": {
+      "total": 169,
+      "specs": 165,
+      "photos": 168,
+      "safety": 161,
+      "dims": 166,
+      "family": 166,
+      "videos": 169
+    },
+    "Kia": {
+      "total": 189,
+      "specs": 188,
+      "photos": 189,
+      "safety": 187,
+      "dims": 188,
+      "family": 188,
+      "videos": 189
+    },
+    "Jaguar": {
+      "total": 12,
+      "specs": 12,
+      "photos": 12,
+      "safety": 7,
+      "dims": 12,
+      "family": 11,
+      "videos": 12
+    },
+    "Seat": {
+      "total": 15,
+      "specs": 15,
+      "photos": 15,
+      "safety": 8,
+      "dims": 13,
+      "family": 7,
+      "videos": 15
+    },
+    "Land Rover": {
+      "total": 9,
+      "specs": 9,
+      "photos": 9,
+      "safety": 7,
+      "dims": 9,
+      "family": 9,
+      "videos": 9
+    },
+    "Lexus": {
+      "total": 13,
+      "specs": 13,
+      "photos": 13,
+      "safety": 11,
+      "dims": 13,
+      "family": 12,
+      "videos": 13
+    },
+    "Peugeot": {
+      "total": 163,
+      "specs": 161,
+      "photos": 162,
+      "safety": 147,
+      "dims": 161,
+      "family": 159,
+      "videos": 163
+    },
+    "Renault": {
+      "total": 246,
+      "specs": 243,
+      "photos": 245,
+      "safety": 217,
+      "dims": 244,
+      "family": 242,
+      "videos": 246
+    },
+    "Opel": {
+      "total": 23,
+      "specs": 23,
+      "photos": 23,
+      "safety": 10,
+      "dims": 23,
+      "family": 12,
+      "videos": 23
+    },
+    "Fiat": {
+      "total": 33,
+      "specs": 33,
+      "photos": 33,
+      "safety": 6,
+      "dims": 31,
+      "family": 24,
+      "videos": 33
+    },
+    "Citroen": {
+      "total": 8,
+      "specs": 8,
+      "photos": 8,
+      "safety": 8,
+      "dims": 5,
+      "family": 0,
+      "videos": 8
+    },
+    "Mini": {
+      "total": 10,
+      "specs": 10,
+      "photos": 10,
+      "safety": 6,
+      "dims": 8,
+      "family": 4,
+      "videos": 10
+    },
+    "Alfa Romeo": {
+      "total": 25,
+      "specs": 25,
+      "photos": 25,
+      "safety": 6,
+      "dims": 25,
+      "family": 19,
+      "videos": 25
+    },
+    "Maserati": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 4,
+      "dims": 6,
+      "family": 0,
+      "videos": 6
+    },
+    "Aston Martin": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 4,
+      "dims": 6,
+      "family": 0,
+      "videos": 6
+    },
+    "Bentley": {
+      "total": 4,
+      "specs": 4,
+      "photos": 4,
+      "safety": 2,
+      "dims": 4,
+      "family": 0,
+      "videos": 4
+    },
+    "Rolls-Royce": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 4,
+      "dims": 5,
+      "family": 0,
+      "videos": 6
+    }
+  }
+}

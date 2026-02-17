@@ -1,0 +1,22 @@
+# QLoRA config pour Qwen2.5-3B-Instruct sur Apple Silicon
+# Framework : mlx-lm v0.30+
+
+model: "Qwen/Qwen2.5-3B-Instruct"
+
+# LoRA params
+num_layers: 16                   # 36 couches total, 16 = ~45%
+fine_tune_type: "lora"
+
+# Training params
+batch_size: 1                    # 1 pour 8GB RAM, 2 si 16GB
+grad_accumulation_steps: 8       # Effective batch = 8
+learning_rate: 2.0e-4
+iters: 27000                     # ~3 epochs (9075 examples * 3)
+max_seq_length: 2048             # Suffisant pour Q&A auto
+save_every: 1000
+steps_per_report: 100
+steps_per_eval: 500
+
+# Data
+train_data: "data/splits/train.jsonl"
+val_data: "data/splits/val.jsonl"

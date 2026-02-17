@@ -1,0 +1,2982 @@
+[
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150326/Kia-EV5-814kWh.html",
+    "brand": "kia",
+    "generation": "EV5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/138257/Kia-EV3-583-kWh-Standard-Range.html",
+    "brand": "kia",
+    "generation": "EV3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/138256/Kia-EV3-814-kWh-Long-Range.html",
+    "brand": "kia",
+    "generation": "EV3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/136392/Kia-EV9-761-kWh.html",
+    "brand": "kia",
+    "generation": "EV9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/136394/Kia-EV9-998-kWh.html",
+    "brand": "kia",
+    "generation": "EV9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/136393/Kia-EV9-998-kWh-AWD.html",
+    "brand": "kia",
+    "generation": "EV9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150400/Kia-EV9-998kWh-GT-AWD-6-seats.html",
+    "brand": "kia",
+    "generation": "EV9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150401/Kia-EV9-998kWh-GT-AWD-7-seats.html",
+    "brand": "kia",
+    "generation": "EV9"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119969/Kia-Seltos-16-Turbo-AWD.html",
+    "brand": "kia",
+    "generation": "Seltos"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119972/Kia-Seltos-20-AWD.html",
+    "brand": "kia",
+    "generation": "Seltos"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119968/Kia-Seltos-20-FWD.html",
+    "brand": "kia",
+    "generation": "Seltos"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119002/Kia-Telluride-38-V6-GDi.html",
+    "brand": "kia",
+    "generation": "Telluride"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119001/Kia-Telluride-38-V6-GDi-AWD.html",
+    "brand": "kia",
+    "generation": "Telluride"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121395/Kia-K5-16T.html",
+    "brand": "kia",
+    "generation": "K5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121397/Kia-K5-16T-AWD.html",
+    "brand": "kia",
+    "generation": "K5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121401/Kia-K5-25T-GT.html",
+    "brand": "kia",
+    "generation": "K5"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119138/Kia-XCeed-16-GDi-PHEV.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123965/Kia-XCeed-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117212/Kia-XCeed-10-T-GDI-DynamicLine.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117213/Kia-XCeed-10-T-GDI-DynamicPlusLine.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117214/Kia-XCeed-10-T-GDI-ExecutiveLine.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117215/Kia-XCeed-14-T-GDI-DynamicLine.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117216/Kia-XCeed-14-T-GDI-DynamicLine-DCT.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123969/Kia-XCeed-15-T-GDi.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123970/Kia-XCeed-15-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117217/Kia-XCeed-16-T-GDI-DynamicPlusLine.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117218/Kia-XCeed-16-T-GDI-DynamicPlusLine-DCT.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117219/Kia-XCeed-16-CRDi-115.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117220/Kia-XCeed-16-CRDi-115-DCT.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117221/Kia-XCeed-16-CRDi-136.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117222/Kia-XCeed-16-CRDi-136-DCT.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/120195/Kia-XCeed-16-CRDi-MHEV.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123975/Kia-XCeed-16-CRDi-MHEV.html",
+    "brand": "kia",
+    "generation": "XCeed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119010/Kia-Forte-16i-Turbo.html",
+    "brand": "kia",
+    "generation": "Forte"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119011/Kia-Forte-16i-Turbo-7-speed-DCT.html",
+    "brand": "kia",
+    "generation": "Forte"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119009/Kia-Forte-20i.html",
+    "brand": "kia",
+    "generation": "Forte"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119008/Kia-Forte-20i-IVT.html",
+    "brand": "kia",
+    "generation": "Forte"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141870/Kia-Stonic-10-T-GDI-100.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141869/Kia-Stonic-10-T-GDI-100-DCT7.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114435/Kia-Stonic-10-T-GDi-100HP.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141868/Kia-Stonic-10-T-GDI-120-48V-Mild-Hybrid.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141867/Kia-Stonic-10-T-GDI-120-48V-Mild-Hybrid-DCT7.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/112356/Kia-Stonic-10-T-GDi-120HP.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114442/Kia-Stonic-10-T-GDi-120HP-Auto.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121009/Kia-Stonic-10-T-GDi-MHEV-100HP.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/142517/Kia-Stonic-10-T-GDi-MHEV-100HP-DCT7.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121012/Kia-Stonic-10-T-GDi-MHEV-120HP.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121013/Kia-Stonic-10-T-GDi-MHEV-120HP-Auto.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/142529/Kia-Stonic-12.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141871/Kia-Stonic-12.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/112357/Kia-Stonic-125-MPi.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/112358/Kia-Stonic-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114444/Kia-Stonic-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Stonic"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/108374/Kia-Stinger-20.html",
+    "brand": "kia",
+    "generation": "Stinger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/108394/Kia-Stinger-20-AWD.html",
+    "brand": "kia",
+    "generation": "Stinger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/134575/Kia-Stinger-33-T-GDI-V6-AWD.html",
+    "brand": "kia",
+    "generation": "Stinger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/108320/Kia-Stinger-GT.html",
+    "brand": "kia",
+    "generation": "Stinger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/108396/Kia-Stinger-GT-AWD.html",
+    "brand": "kia",
+    "generation": "Stinger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/108615/Kia-Stinger-22D.html",
+    "brand": "kia",
+    "generation": "Stinger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/108617/Kia-Stinger-22D-AWD.html",
+    "brand": "kia",
+    "generation": "Stinger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4276/Kia-Cerato-II-16.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4271/Kia-Cerato-II-16.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4275/Kia-Cerato-II-20-CVVT.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4270/Kia-Cerato-II-20-CVVT.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4274/Kia-Cerato-II-15-CRDi.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4273/Kia-Cerato-II-16-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4269/Kia-Cerato-II-16-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4272/Kia-Cerato-II-20-CRDi.html",
+    "brand": "kia",
+    "generation": "Cerato-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4290/Kia-Opirus-35-V6.html",
+    "brand": "kia",
+    "generation": "Opirus"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12575/Kia-Opirus-38-V6.html",
+    "brand": "kia",
+    "generation": "Opirus"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4281/Kia-Joice-20.html",
+    "brand": "kia",
+    "generation": "Joice"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/39067/Kia-Elan-18-16v.html",
+    "brand": "kia",
+    "generation": "Elan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4280/Kia-Clarus-18.html",
+    "brand": "kia",
+    "generation": "Clarus"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4278/Kia-Clarus-18.html",
+    "brand": "kia",
+    "generation": "Clarus"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4279/Kia-Clarus-20.html",
+    "brand": "kia",
+    "generation": "Clarus"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4277/Kia-Clarus-20.html",
+    "brand": "kia",
+    "generation": "Clarus"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4294/Kia-Pride-13.html",
+    "brand": "kia",
+    "generation": "Pride"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150278/Kia-EV4-Fastback-Sedan-814kWh.html",
+    "brand": "kia",
+    "generation": "EV4-Fastback-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150277/Kia-EV4-Fastback-Sedan-814kWh-GT-Line.html",
+    "brand": "kia",
+    "generation": "EV4-Fastback-Sedan"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150399/Kia-PV5-Cargo-L2H1-515kWh.html",
+    "brand": "kia",
+    "generation": "PV5-Cargo-L2H1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150398/Kia-PV5-Cargo-L2H1-712kWh.html",
+    "brand": "kia",
+    "generation": "PV5-Cargo-L2H1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/149494/Kia-Sportage-2025-16-T-GDI-2WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/149492/Kia-Sportage-2025-16-T-GDI-2WD-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/149489/Kia-Sportage-2025-16-T-GDI-AWD-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/149486/Kia-Sportage-2025-16-T-GDI-Hybrid-2WD-Auto.html",
+    "brand": "kia",
+    "generation": "Sportage-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/149483/Kia-Sportage-2025-16-T-GDI-Hybrid-AWD-Auto.html",
+    "brand": "kia",
+    "generation": "Sportage-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/149478/Kia-Sportage-2025-16-CRDI-EcoDynamics+-2WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/149477/Kia-Sportage-2025-16-CRDI-EcoDynamics+-2WD-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150349/Kia-PV5-Passenger-515kWh.html",
+    "brand": "kia",
+    "generation": "PV5-Passenger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150346/Kia-PV5-Passenger-712kWh.html",
+    "brand": "kia",
+    "generation": "PV5-Passenger"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150301/Kia-EV4-583kWh.html",
+    "brand": "kia",
+    "generation": "EV4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150300/Kia-EV4-814kWh.html",
+    "brand": "kia",
+    "generation": "EV4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150279/Kia-EV4-814kWh-GT-Line.html",
+    "brand": "kia",
+    "generation": "EV4"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150378/Kia-PV5-Cargo-L1H1-515kWh.html",
+    "brand": "kia",
+    "generation": "PV5-Cargo-L1H1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/150376/Kia-PV5-Cargo-L1H1-712kWh.html",
+    "brand": "kia",
+    "generation": "PV5-Cargo-L1H1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/142501/Kia-Picanto-2025-12.html",
+    "brand": "kia",
+    "generation": "Picanto-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/142500/Kia-Picanto-2025-12-AMT.html",
+    "brand": "kia",
+    "generation": "Picanto-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141472/Kia-EV6-2024-63-kWh-RWD.html",
+    "brand": "kia",
+    "generation": "EV6-2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141466/Kia-EV6-2024-84-kWh-4WD.html",
+    "brand": "kia",
+    "generation": "EV6-2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141471/Kia-EV6-2024-84-kWh-RWD.html",
+    "brand": "kia",
+    "generation": "EV6-2024"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141313/Kia-Sorento-2025-22-CRDi-2WD-DCT8-5-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141310/Kia-Sorento-2025-22-CRDi-2WD-DCT8-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141312/Kia-Sorento-2025-22-CRDi-AWD-DCT8-5-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141306/Kia-Sorento-2025-22-CRDi-AWD-DCT8-6-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141308/Kia-Sorento-2025-22-CRDi-AWD-DCT8-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2025"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141467/Kia-EV6-2024-GT-Line--84kWh-4WD.html",
+    "brand": "kia",
+    "generation": "EV6-2024-GT-Line-"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/147528/Kia-EV6-2024-GT-Line--84kWh-GT-4WD.html",
+    "brand": "kia",
+    "generation": "EV6-2024-GT-Line-"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/141469/Kia-EV6-2024-GT-Line--84kWh-RWD.html",
+    "brand": "kia",
+    "generation": "EV6-2024-GT-Line-"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/136329/Kia-Niro-2022-EV-648-kWh.html",
+    "brand": "kia",
+    "generation": "Niro-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/138172/Kia-Niro-2022-16-GDi-Plug-in-Hybrid.html",
+    "brand": "kia",
+    "generation": "Niro-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/138171/Kia-Niro-2022-16-GDi-Hybrid.html",
+    "brand": "kia",
+    "generation": "Niro-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/130087/Kia-Sportage-2022-16-T-GDi-Plug-in-Hybrid-4WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/137240/Kia-Sportage-2022-16-T-GDI-150HP-Mild-Hybrid-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/137241/Kia-Sportage-2022-16-T-GDI-180HP-Mild-Hybrid-AWD-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/137243/Kia-Sportage-2022-16-T-GDI-180HP-Mild-Hybrid-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/130086/Kia-Sportage-2022-16-T-GDi-Hybrid.html",
+    "brand": "kia",
+    "generation": "Sportage-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/130084/Kia-Sportage-2022-16-T-GDi-Mild-Hybrid.html",
+    "brand": "kia",
+    "generation": "Sportage-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129671/Kia-Ceed-Sportswagon-2022-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/138492/Kia-Ceed-Sportswagon-2022-10-T-GDI-48V-DCT.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129672/Kia-Ceed-Sportswagon-2022-10-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129677/Kia-Ceed-Sportswagon-2022-15-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129678/Kia-Ceed-Sportswagon-2022-15-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/130103/Kia-Ceed-Sportswagon-2022-16-GDI-PHEV.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/131279/Kia-Ceed-Sportswagon-2022-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/131280/Kia-Ceed-Sportswagon-2022-16-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127630/Kia-Carnival-2021-35-V6-GDI.html",
+    "brand": "kia",
+    "generation": "Carnival-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129654/Kia-Ceed-2022-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/138489/Kia-Ceed-2022-10-T-GDI-48V-DCT.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129656/Kia-Ceed-2022-10-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129661/Kia-Ceed-2022-15-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129662/Kia-Ceed-2022-15-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129669/Kia-Ceed-2022-16-T-GDi-GT.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/131271/Kia-Ceed-2022-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/131272/Kia-Ceed-2022-16-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129689/Kia-ProCeed-2022-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "ProCeed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129691/Kia-ProCeed-2022-15-T-GDi.html",
+    "brand": "kia",
+    "generation": "ProCeed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129692/Kia-ProCeed-2022-15-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "ProCeed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/129695/Kia-ProCeed-2022-16-T-GDi-GT.html",
+    "brand": "kia",
+    "generation": "ProCeed-2022"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127348/Kia-EV6-58kWh.html",
+    "brand": "kia",
+    "generation": "EV6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127352/Kia-EV6-774kWh-AWD-GT-Line.html",
+    "brand": "kia",
+    "generation": "EV6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127353/Kia-EV6-774kWh-AWD-Performance.html",
+    "brand": "kia",
+    "generation": "EV6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127350/Kia-EV6-774kWh-AWD-Plus.html",
+    "brand": "kia",
+    "generation": "EV6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127351/Kia-EV6-774kWh-GT-Line.html",
+    "brand": "kia",
+    "generation": "EV6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127349/Kia-EV6-774kWh-Plus.html",
+    "brand": "kia",
+    "generation": "EV6"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/122621/Kia-Sorento-2021-16-T-GDi-Plug-in-Hybrid-4WD-5-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/122622/Kia-Sorento-2021-16-T-GDi-Plug-in-Hybrid-4WD-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121159/Kia-Sorento-2021-16-T-GDi-Hybrid.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121404/Kia-Sorento-2021-16-T-GDi-Hybrid-AWD.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123821/Kia-Sorento-2021-25-AWD.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123819/Kia-Sorento-2021-25-FWD.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123822/Kia-Sorento-2021-25T-AWD.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123823/Kia-Sorento-2021-25T-AWD-X-Line.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123820/Kia-Sorento-2021-25T-FWD.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121403/Kia-Sorento-2021-22-CRDi.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121405/Kia-Sorento-2021-22-CRDi-AWD.html",
+    "brand": "kia",
+    "generation": "Sorento-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121028/Kia-Rio-2021-10-T-GDI-MHEV-100HP.html",
+    "brand": "kia",
+    "generation": "Rio-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121032/Kia-Rio-2021-10-T-GDI-MHEV-120HP.html",
+    "brand": "kia",
+    "generation": "Rio-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121033/Kia-Rio-2021-10-T-GDI-MHEV-120HP-Auto.html",
+    "brand": "kia",
+    "generation": "Rio-2021"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121016/Kia-Picanto-2020-Picanto-10-DPi-4-seats.html",
+    "brand": "kia",
+    "generation": "Picanto-2020"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121025/Kia-Picanto-2020-Picanto-10-DPi-4-seats-Auto.html",
+    "brand": "kia",
+    "generation": "Picanto-2020"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121022/Kia-Picanto-2020-Picanto-10-DPi-5-seats.html",
+    "brand": "kia",
+    "generation": "Picanto-2020"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121020/Kia-Picanto-2020-Picanto-10-T-GDI-GT-Line.html",
+    "brand": "kia",
+    "generation": "Picanto-2020"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/121021/Kia-Picanto-2020-Picanto-10-T-GDI-X-Line.html",
+    "brand": "kia",
+    "generation": "Picanto-2020"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/120191/Kia-Soul-3-39kWh.html",
+    "brand": "kia",
+    "generation": "Soul-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116773/Kia-Soul-3-64kWh.html",
+    "brand": "kia",
+    "generation": "Soul-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123379/Kia-Pro-Ceed-2019-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115541/Kia-Pro-Ceed-2019-10-T-GDi-GT-Line.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115542/Kia-Pro-Ceed-2019-10-T-GDi-GT-PlusLine.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115543/Kia-Pro-Ceed-2019-14-T-GDi-GT-Line.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115544/Kia-Pro-Ceed-2019-14-T-GDi-GT-Line-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115545/Kia-Pro-Ceed-2019-14-T-GDi-GT-PlusLine.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115546/Kia-Pro-Ceed-2019-14-T-GDi-GT-PlusLine-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123381/Kia-Pro-Ceed-2019-15-T-GDi.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123382/Kia-Pro-Ceed-2019-15-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115551/Kia-Pro-Ceed-2019-16-T-GDi-GT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115552/Kia-Pro-Ceed-2019-16-T-GDi-GT-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115547/Kia-Pro-Ceed-2019-16-CRDi-GT-Line.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115548/Kia-Pro-Ceed-2019-16-CRDi-GT-Line-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115549/Kia-Pro-Ceed-2019-16-CRDi-GT-PlusLine.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115550/Kia-Pro-Ceed-2019-16-CRDi-GT-PlusLine-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114578/Kia-Sportage-2019-16-GDI.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114580/Kia-Sportage-2019-16-T-GDI.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114584/Kia-Sportage-2019-16-T-GDI-4WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116409/Kia-Sportage-2019-16-T-GDI-DynamicLine-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116410/Kia-Sportage-2019-16-T-GDI-DynamicPlusLine-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116411/Kia-Sportage-2019-16-T-GDI-GT-Line-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116412/Kia-Sportage-2019-16-T-GDI-GT-PlusLine-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114588/Kia-Sportage-2019-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114592/Kia-Sportage-2019-16-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116413/Kia-Sportage-2019-16-CRDi-MHEV-DynamicLine.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116414/Kia-Sportage-2019-16-CRDi-MHEV-DynamicLine-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116415/Kia-Sportage-2019-16-CRDi-MHEV-DynamicPlusLine.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116416/Kia-Sportage-2019-16-CRDi-MHEV-DynamicPlusLine-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116417/Kia-Sportage-2019-16-CRDi-MHEV-GT-Line.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116418/Kia-Sportage-2019-16-CRDi-MHEV-GT-Line-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116419/Kia-Sportage-2019-16-CRDi-MHEV-GT-PlusLine.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/116420/Kia-Sportage-2019-16-CRDi-MHEV-GT-PlusLine-7-DCT.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114596/Kia-Sportage-2019-20-CRDi-AWD.html",
+    "brand": "kia",
+    "generation": "Sportage-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114516/Kia-Optima-2019-16-T-GDi.html",
+    "brand": "kia",
+    "generation": "Optima-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114512/Kia-Optima-2019-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Optima-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/119128/Kia-Ceed-Sportswagon-2019-16-GDi-PHEV.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114333/Kia-Ceed-Sportswagon-2019-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123357/Kia-Ceed-Sportswagon-2019-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123362/Kia-Ceed-Sportswagon-2019-10-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114339/Kia-Ceed-Sportswagon-2019-14-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114340/Kia-Ceed-Sportswagon-2019-14-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123365/Kia-Ceed-Sportswagon-2019-15-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123366/Kia-Ceed-Sportswagon-2019-15-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123375/Kia-Ceed-Sportswagon-2019-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114343/Kia-Ceed-Sportswagon-2019-16-CRDi-115HP.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117384/Kia-Ceed-Sportswagon-2019-16-CRDi-136HP.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114346/Kia-Ceed-Sportswagon-2019-16-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123376/Kia-Ceed-Sportswagon-2019-16-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-Sportswagon-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114291/Kia-Sorento-2018-22-CRDi-4WD.html",
+    "brand": "kia",
+    "generation": "Sorento-2018"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/113852/Kia-Ceed-2019-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123331/Kia-Ceed-2019-10-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123336/Kia-Ceed-2019-10-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/113854/Kia-Ceed-2019-14-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/113855/Kia-Ceed-2019-14-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123339/Kia-Ceed-2019-15-T-GDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123340/Kia-Ceed-2019-15-T-GDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117382/Kia-Ceed-2019-16-T-GDi-GT.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117383/Kia-Ceed-2019-16-T-GDi-GT-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123349/Kia-Ceed-2019-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/113856/Kia-Ceed-2019-16-CRDi-115HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117381/Kia-Ceed-2019-16-CRDi-136HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/113857/Kia-Ceed-2019-16-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123350/Kia-Ceed-2019-16-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Ceed-2019"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115778/Kia-Optima-2019-Sportswagon-20-GDi-PHEV-DynamicPlusLine.html",
+    "brand": "kia",
+    "generation": "Optima-2019-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115779/Kia-Optima-2019-Sportswagon-20-GDi-PHEV-ExecutiveLine.html",
+    "brand": "kia",
+    "generation": "Optima-2019-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114518/Kia-Optima-2019-Sportswagon-16-T-GDi.html",
+    "brand": "kia",
+    "generation": "Optima-2019-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114515/Kia-Optima-2019-Sportswagon-16-CRDi.html",
+    "brand": "kia",
+    "generation": "Optima-2019-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/115793/Kia-Soul-2017-Soul-EV.html",
+    "brand": "kia",
+    "generation": "Soul-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109780/Kia-Soul-2017-16-GDi-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Soul-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109789/Kia-Soul-2017-16-T-GDi-DCT.html",
+    "brand": "kia",
+    "generation": "Soul-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109784/Kia-Soul-2017-16-CRDi-DCT.html",
+    "brand": "kia",
+    "generation": "Soul-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109781/Kia-Soul-2017-16-CRDi-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Soul-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109052/Kia-Picanto-3-10-MPI-67HP.html",
+    "brand": "kia",
+    "generation": "Picanto-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109053/Kia-Picanto-3-10-T-GDI-100HP.html",
+    "brand": "kia",
+    "generation": "Picanto-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109055/Kia-Picanto-3-12-MPI-84HP.html",
+    "brand": "kia",
+    "generation": "Picanto-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/109056/Kia-Picanto-3-12-MPI-84HP-Auto.html",
+    "brand": "kia",
+    "generation": "Picanto-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/107205/Kia-Rio-2017-10-T-GDI-100HP.html",
+    "brand": "kia",
+    "generation": "Rio-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/107495/Kia-Rio-2017-10-T-GDI-120HP.html",
+    "brand": "kia",
+    "generation": "Rio-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114434/Kia-Rio-2017-10-T-GDI-120HP-Auto.html",
+    "brand": "kia",
+    "generation": "Rio-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/107496/Kia-Rio-2017-12-MPI-84HP.html",
+    "brand": "kia",
+    "generation": "Rio-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/107497/Kia-Rio-2017-14-MPI-100HP.html",
+    "brand": "kia",
+    "generation": "Rio-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/107498/Kia-Rio-2017-14-CRDi-WGT-77HP.html",
+    "brand": "kia",
+    "generation": "Rio-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/107499/Kia-Rio-2017-14-CRDi-WGT-90HP.html",
+    "brand": "kia",
+    "generation": "Rio-2017"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/117259/Kia-Niro-e-Niro-39-kWh.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123161/Kia-Niro-e-Niro-392kWh.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/114746/Kia-Niro-e-Niro-64-kWh.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/123160/Kia-Niro-e-Niro-64kWh.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/111441/Kia-Niro-16-GDi-PHEV.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/127411/Kia-Niro-16-GDi-Hybrid.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/106919/Kia-Niro-16-HEV-Drive.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/106920/Kia-Niro-16-HEV-Emotion.html",
+    "brand": "kia",
+    "generation": "Niro"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/111282/Kia-Optima-Sportswagon-20-GDi-PHEV.html",
+    "brand": "kia",
+    "generation": "Optima-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105648/Kia-Optima-Sportswagon-20HPVL-163HP.html",
+    "brand": "kia",
+    "generation": "Optima-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105649/Kia-Optima-Sportswagon-20HPVL-163HP-Auto.html",
+    "brand": "kia",
+    "generation": "Optima-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105652/Kia-Optima-Sportswagon-GT-20-T-GDI-245HP.html",
+    "brand": "kia",
+    "generation": "Optima-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105650/Kia-Optima-Sportswagon-17-CRDi-141HP.html",
+    "brand": "kia",
+    "generation": "Optima-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105651/Kia-Optima-Sportswagon-17-CRDi-141HP-DCT.html",
+    "brand": "kia",
+    "generation": "Optima-Sportswagon"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105670/Kia-Optima-(JF)-20-GDI-PHEV.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73666/Kia-Optima-(JF)-20-HPVL-163HP-Auto.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73956/Kia-Optima-(JF)-GT-20-T-GDI-245HP.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73667/Kia-Optima-(JF)-17-CRDi-141HP.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73669/Kia-Optima-(JF)-17-CRDi-141HP-DCT.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73668/Kia-Optima-(JF)-17-CRDi-141HP-Stop-Go.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/74774/Kia-Optima-(JF)-17-CRDi-VGT-141HP-Drive-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/74776/Kia-Optima-(JF)-17-CRDi-VGT-141HP-Emotion-DCT-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/74775/Kia-Optima-(JF)-17-CRDi-VGT-141HP-Emotion-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Optima- JF"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73633/Kia-Sportage-(QL)-16-GDI-132HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73737/Kia-Sportage-(QL)-16-T-GDI-177HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73738/Kia-Sportage-(QL)-16-T-GDI-177HP-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73739/Kia-Sportage-(QL)-16-T-GDI-177HP-7DCT-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105429/Kia-Sportage-(QL)-16-T-GDI-GT-Line-4x4-177HP.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73740/Kia-Sportage-(QL)-17-CRDi-115HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73741/Kia-Sportage-(QL)-20-CRDi-136HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73742/Kia-Sportage-(QL)-20-CRDi-136HP-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105431/Kia-Sportage-(QL)-20-CRDi-136HP-4x4-Auto.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/105432/Kia-Sportage-(QL)-20-CRDi-185HP-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73743/Kia-Sportage-(QL)-20-CRDi-185HP-Auto-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage- QL"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73759/Kia-Ceed-2016-10-T-GDI-100HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73760/Kia-Ceed-2016-10-T-GDI-120HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73756/Kia-Ceed-2016-16-GDI-135HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73757/Kia-Ceed-2016-16-GDI-135HP-DCT.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73762/Kia-Ceed-2016-16-T-GDI-204HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73763/Kia-Ceed-2016-14-CRDi-90HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73764/Kia-Ceed-2016-16-CRDi-110HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73765/Kia-Ceed-2016-16-CRDi-110HP-ISG.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73766/Kia-Ceed-2016-16-CRDi-136HP.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73769/Kia-Ceed-2016-16-CRDi-136HP-DCT.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73770/Kia-Ceed-2016-16-CRDi-136HP-DCT-ISG.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73767/Kia-Ceed-2016-16-CRDi-136HP-ISG.html",
+    "brand": "kia",
+    "generation": "Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73786/Kia-Pro-Ceed-2016-10-T-GDI-100HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73787/Kia-Pro-Ceed-2016-10-T-GDI-120HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73783/Kia-Pro-Ceed-2016-14-MPI-100HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73784/Kia-Pro-Ceed-2016-16-GDI-135HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73785/Kia-Pro-Ceed-2016-16-GDI-135HP-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73788/Kia-Pro-Ceed-2016-16-T-GDI-204HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73789/Kia-Pro-Ceed-2016-14-CRDi-90HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73790/Kia-Pro-Ceed-2016-16-CRDi-110HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73791/Kia-Pro-Ceed-2016-16-CRDi-110HP-ISG.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73792/Kia-Pro-Ceed-2016-16-CRDi-136HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73794/Kia-Pro-Ceed-2016-16-CRDi-136HP-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73795/Kia-Pro-Ceed-2016-16-CRDi-136HP-DCT-ISG.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73793/Kia-Pro-Ceed-2016-16-CRDi-136HP-ISG.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72136/Kia-Rio-2015-3-doors-12HPVT-Concept.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72137/Kia-Rio-2015-3-doors-12HPVT-Drive.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72138/Kia-Rio-2015-5-doors-12HPVT-Drive.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72139/Kia-Rio-2015-5-doors-12HPVT-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72161/Kia-Rio-2015-5-doors-12HPVT-x-Tech-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71068/Kia-Rio-2015-3-doors-11-CRDi-WGT-75HP.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71067/Kia-Rio-2015-5-doors-11-CRDi-WGT-75HP.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72140/Kia-Rio-2015-5-doors-11-CRDi-WGT-Drive.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72141/Kia-Rio-2015-5-doors-11-CRDi-WGT-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72162/Kia-Rio-2015-5-doors-11-CRDi-WGT-x-Tech-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Rio-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72170/Kia-Venga-2015-14HPVT-Concept.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72171/Kia-Venga-2015-14HPVT-Drive.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72172/Kia-Venga-2015-16HPVT-Drive.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72173/Kia-Venga-2015-14-CRDi-WGT-Concept.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72174/Kia-Venga-2015-16-CRDi-VGT-115-Concept-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72175/Kia-Venga-2015-16-CRDi-VGT-128-Drive-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72176/Kia-Venga-2015-16-CRDi-VGT-128-Emotion-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72177/Kia-Venga-2015-16-CRDi-VGT-128-x-Tech-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga-2015"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73774/Kia-Ceed-SW-2016-10-T-GDI-100HP.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73775/Kia-Ceed-SW-2016-10-T-GDI-120HP.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73771/Kia-Ceed-SW-2016-14-MPI-100HP.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73772/Kia-Ceed-SW-2016-16-GDI-135HP.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73773/Kia-Ceed-SW-2016-16-GDI-135HP-DCT.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73776/Kia-Ceed-SW-2016-14-CRDi-90HP.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73777/Kia-Ceed-SW-2016-16-CRDi-110HP.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73778/Kia-Ceed-SW-2016-16-CRDi-110HP-ISG.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73779/Kia-Ceed-SW-2016-16-CRDi-136HP.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73781/Kia-Ceed-SW-2016-16-CRDi-136HP-DCT.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73782/Kia-Ceed-SW-2016-16-CRDi-136HP-DCT-ISG.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73780/Kia-Ceed-SW-2016-16-CRDi-136HP-ISG.html",
+    "brand": "kia",
+    "generation": "Ceed-SW-2016"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/70237/Kia-Sorento-3-24-GDI.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/70236/Kia-Sorento-3-24-GDI-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/70234/Kia-Sorento-3-24-GDI-Auto.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/70235/Kia-Sorento-3-24-GDI-Auto-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/70229/Kia-Sorento-3-20-CRDi-Auto.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71050/Kia-Sorento-3-22-CRDi-Concept-4x2-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71052/Kia-Sorento-3-22-CRDi-Concept-4x2-7-seats-Auto.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71051/Kia-Sorento-3-22-CRDi-Drive-4x2-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71053/Kia-Sorento-3-22-CRDi-Drive-4x2-7-seats-Auto.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71054/Kia-Sorento-3-22-CRDi-Emotion-4x4-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/71055/Kia-Sorento-3-22-CRDi-Emotion-4x4-7-seats-Auto.html",
+    "brand": "kia",
+    "generation": "Sorento-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68675/Kia-Sorento-2-2014-22-CRDi-Drive-4x2-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2-2014"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68681/Kia-Sorento-2-2014-22-CRDi-Emotion-4x4-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2-2014"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68682/Kia-Sorento-2-2014-22-CRDi-Emotion-Auto-4x4-7-seats.html",
+    "brand": "kia",
+    "generation": "Sorento-2-2014"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68569/Kia-Sportage-3-Restyling-16-GDi-135HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68709/Kia-Sportage-3-Restyling-16-GDi-135HP-Basic-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68652/Kia-Sportage-3-Restyling-16-GDi-135HP-Drive-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68710/Kia-Sportage-3-Restyling-16-GDi-135HP-Emotion-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69196/Kia-Sportage-3-Restyling-16-GDi-135HP-Maracana-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68568/Kia-Sportage-3-Restyling-17-CRDi-115HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68653/Kia-Sportage-3-Restyling-17-CRDi-115HP-Drive-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68711/Kia-Sportage-3-Restyling-17-CRDi-115HP-Emotion-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69197/Kia-Sportage-3-Restyling-17-CRDi-115HP-Maracana-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72837/Kia-Sportage-3-Restyling-17-CRDi-115HP-X-Tech-4x2-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68570/Kia-Sportage-3-Restyling-20-CRDi-136HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68571/Kia-Sportage-3-Restyling-20-CRDi-136HP-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68654/Kia-Sportage-3-Restyling-20-CRDi-136HP-Emotion-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68655/Kia-Sportage-3-Restyling-20-CRDi-136HP-Emotion-4x4-Auto.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68572/Kia-Sportage-3-Restyling-20-CRDi-184HP-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68573/Kia-Sportage-3-Restyling-20-CRDi-184HP-4x4-Auto.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68712/Kia-Sportage-3-Restyling-20-CRDi-184HP-Emotion-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-3-Restyling"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68668/Kia-Soul-2-16-GDi-132HP-Auto.html",
+    "brand": "kia",
+    "generation": "Soul-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69975/Kia-Soul-2-Drive-16-GDI-132HP.html",
+    "brand": "kia",
+    "generation": "Soul-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68669/Kia-Soul-2-16-VGT-128HP.html",
+    "brand": "kia",
+    "generation": "Soul-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68670/Kia-Soul-2-16-VGT-128HP-Auto.html",
+    "brand": "kia",
+    "generation": "Soul-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69977/Kia-Soul-2-Concept-16-CRDi-128HP.html",
+    "brand": "kia",
+    "generation": "Soul-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69976/Kia-Soul-2-Emotion-16-CRDi-128HP.html",
+    "brand": "kia",
+    "generation": "Soul-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73602/Kia-Carens-3-16-GDi-135HP-Basic-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73600/Kia-Carens-3-16-GDi-135HP-Concept-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73601/Kia-Carens-3-16-GDi-135HP-Concept-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69608/Kia-Carens-3-16-GDi-135HP-Drive-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73603/Kia-Carens-3-16-GDi-135HP-Drive-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69609/Kia-Carens-3-16-GDi-135HP-Drive-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73604/Kia-Carens-3-16-GDi-135HP-Drive-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73620/Kia-Carens-3-16-GDi-135HP-x-Tech-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73621/Kia-Carens-3-16-GDi-135HP-x-Tech-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69285/Kia-Carens-3-17-CRDi-VGT-115HP-Concept-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/65630/Kia-Carens-3-17-CRDi-VGT-115HP-Concept-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69286/Kia-Carens-3-17-CRDi-VGT-115HP-Concept-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73607/Kia-Carens-3-17-CRDi-VGT-115HP-Concept-Eco-Dynamics-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73606/Kia-Carens-3-17-CRDi-VGT-115HP-Concept-Eco-Dynamics-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/65625/Kia-Carens-3-17-CRDi-VGT-115HP-Drive-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73605/Kia-Carens-3-17-CRDi-VGT-115HP-Drive-Eco-Dynamics-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73608/Kia-Carens-3-17-CRDi-VGT-115HP-Drive-Eco-Dynamics-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69287/Kia-Carens-3-17-CRDi-VGT-115HP-Drive-EcoDynamics-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69288/Kia-Carens-3-17-CRDi-VGT-115HP-Drive-EcoDynamics-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73622/Kia-Carens-3-17-CRDi-VGT-115HP-x-Tech-Eco-Dynamics-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73623/Kia-Carens-3-17-CRDi-VGT-115HP-x-Tech-Eco-Dynamics-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73629/Kia-Carens-3-17-CRDi-VGT-141HP-DCT-Drive-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73630/Kia-Carens-3-17-CRDi-VGT-141HP-DCT-Drive-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73631/Kia-Carens-3-17-CRDi-VGT-141HP-DCT-Emotion-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73624/Kia-Carens-3-17-CRDi-VGT-141HP-Drive-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73625/Kia-Carens-3-17-CRDi-VGT-141HP-Drive-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73628/Kia-Carens-3-17-CRDi-VGT-141HP-Emotion-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73626/Kia-Carens-3-17-CRDi-VGT-141HP-x-Tech-5-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/73627/Kia-Carens-3-17-CRDi-VGT-141HP-x-Tech-7-seats.html",
+    "brand": "kia",
+    "generation": "Carens-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69051/Kia-Ceed-2-14HPVT-Maracana.html",
+    "brand": "kia",
+    "generation": "Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/64774/Kia-Ceed-2-GT.html",
+    "brand": "kia",
+    "generation": "Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69052/Kia-Ceed-2-14-CRDi-WGT-90HP-Maracana.html",
+    "brand": "kia",
+    "generation": "Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69053/Kia-Ceed-2-16-CRDi-VGT-128HP-Maracana.html",
+    "brand": "kia",
+    "generation": "Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/65557/Kia-Pro-Ceed-2-16-GDi-135HP-Drive-DCT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/64780/Kia-Pro-Ceed-2-GT.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/65551/Kia-Pro-Ceed-2-16-CRDi-VGT-110HP-Concept.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/65553/Kia-Pro-Ceed-2-16-CRDi-VGT-110HP-Drive.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/65558/Kia-Pro-Ceed-2-16-CRDi-VGT-128HP-Emotion-Aut.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68672/Kia-Optima-17-CRDi-Drive.html",
+    "brand": "kia",
+    "generation": "Optima"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68674/Kia-Optima-17-CRDi-Emotion-Auto.html",
+    "brand": "kia",
+    "generation": "Optima"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68673/Kia-Optima-17-CRDi-Emotion-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Optima"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/40411/Kia-Optima-17-CRDi-VGT-Concept.html",
+    "brand": "kia",
+    "generation": "Optima"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/40810/Kia-Optima-17-CRDi-VGT-Drive.html",
+    "brand": "kia",
+    "generation": "Optima"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/40412/Kia-Optima-17-CRDi-VGT-Emotion-Aut.html",
+    "brand": "kia",
+    "generation": "Optima"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/40811/Kia-Optima-17-CRDi-VGT-Emotion-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Optima"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/61913/Kia-Picanto-2-10-Basic-3-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25452/Kia-Picanto-2-10-Basic-5-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/61925/Kia-Picanto-2-10-Concept-3-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/61943/Kia-Picanto-2-10-Concept-5-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/61931/Kia-Picanto-2-10-Drive-3-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/61950/Kia-Picanto-2-10-Drive-5-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69605/Kia-Picanto-2-10HPVT-Basic-3-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69606/Kia-Picanto-2-10HPVT-Concept-3-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69607/Kia-Picanto-2-10HPVT-Concept-5-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72163/Kia-Picanto-2-10HPVT-Drive-5-doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72164/Kia-Picanto-2-10HPVT-x-Tech-Eco-Dynamics-5-doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/61937/Kia-Picanto-2-12-Emotion-3-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/61955/Kia-Picanto-2-12-Emotion-5-Doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72165/Kia-Picanto-2-12HPVT-Sporty---Trendy-5-doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/72166/Kia-Picanto-2-12HPVT-Sporty---Trendy-Auto-5-doors.html",
+    "brand": "kia",
+    "generation": "Picanto-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/26428/Kia-Pro-Ceed-14-CVVT-Basic.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25304/Kia-Pro-Ceed-14-CVVT-Concept.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25305/Kia-Pro-Ceed-14-CVVT-Drive.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25307/Kia-Pro-Ceed-16-CVVT-Active-Aut.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25306/Kia-Pro-Ceed-16-CVVT-Active-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25313/Kia-Pro-Ceed-16-CRDi-Active-128HP-Aut.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25311/Kia-Pro-Ceed-16-CRDi-Active-128HP-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25308/Kia-Pro-Ceed-16-CRDi-Concept-90HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25310/Kia-Pro-Ceed-16-CRDi-Drive-115HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25309/Kia-Pro-Ceed-16-CRDi-Drive-90HP.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/25312/Kia-Pro-Ceed-16-CRDi-Emotion-128HP-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Pro-Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12569/Kia-Soul-16-DOHC-Diva.html",
+    "brand": "kia",
+    "generation": "Soul"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12570/Kia-Soul-16-CRDi-VGT-Burner.html",
+    "brand": "kia",
+    "generation": "Soul"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12567/Kia-Soul-16-CRDi-VGT-Diva.html",
+    "brand": "kia",
+    "generation": "Soul"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13546/Kia-Soul-16-CRDi-VGT-Drive.html",
+    "brand": "kia",
+    "generation": "Soul"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13039/Kia-Sorento-2-20-CRDi-Concept-4x2-150HP.html",
+    "brand": "kia",
+    "generation": "Sorento-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13040/Kia-Sorento-2-20-CRDi-Drive-4x2-150HP.html",
+    "brand": "kia",
+    "generation": "Sorento-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13148/Kia-Sorento-2-22-CRDi-Active-4x4-197HP.html",
+    "brand": "kia",
+    "generation": "Sorento-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13150/Kia-Sorento-2-22-CRDi-Concept-4x2-197HP.html",
+    "brand": "kia",
+    "generation": "Sorento-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13149/Kia-Sorento-2-22-CRDi-Emotion-4x4-Aut-197HP.html",
+    "brand": "kia",
+    "generation": "Sorento-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9789/Kia-Sportage-3-16-140HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12763/Kia-Sportage-3-16-GDi-Drive-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9786/Kia-Sportage-3-20-161HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12463/Kia-Sportage-3-20-161HP-4x2-Aut.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9787/Kia-Sportage-3-20-161HP-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9788/Kia-Sportage-3-20-161HP-4x4-Aut.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9785/Kia-Sportage-3-17-CRDi-115HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12764/Kia-Sportage-3-17-CRDi-VGT-Drive-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9782/Kia-Sportage-3-20-CRDi-136HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9783/Kia-Sportage-3-20-CRDi-136HP-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9784/Kia-Sportage-3-20-CRDi-136HP-4x4-Aut.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12243/Kia-Sportage-3-20-CRDi-VGT-Emotion-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/67604/Kia-Sportage-3-Drive-Plus-17-CRDi-115HP-4x2.html",
+    "brand": "kia",
+    "generation": "Sportage-3"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10386/Kia-Rio-4p-14-DOHC-Active.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12547/Kia-Rio-4p-14-DOHC-Active.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10385/Kia-Rio-4p-14-DOHC-Concept.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12546/Kia-Rio-4p-14-DOHC-Concept.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10381/Kia-Rio-5p-14-DOHC-Active.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12542/Kia-Rio-5p-14-DOHC-Active.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10462/Kia-Rio-5p-14-DOHC-Concept.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12541/Kia-Rio-5p-14-DOHC-Concept.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10382/Kia-Rio-5p-16-DOHC-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12543/Kia-Rio-5p-16-DOHC-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10387/Kia-Rio-4p-15-CRDi-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12548/Kia-Rio-4p-15-CRDi-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10383/Kia-Rio-5p-15-CRDi-Active.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12544/Kia-Rio-5p-15-CRDi-Active.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10384/Kia-Rio-5p-15-CRDi-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12545/Kia-Rio-5p-15-CRDi-Emotion.html",
+    "brand": "kia",
+    "generation": "Rio"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10317/Kia-Venga-14-90HP-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8349/Kia-Venga-14-CVVT-Basic.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12549/Kia-Venga-14-CVVT-Basic.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10441/Kia-Venga-14-CVVT-Concept.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12561/Kia-Venga-14-CVVT-Concept.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/68666/Kia-Venga-14HPVT-Basic.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69620/Kia-Venga-14HPVT-Concept.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69621/Kia-Venga-14HPVT-Drive.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10313/Kia-Venga-14-CRDi-75HP.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8347/Kia-Venga-14-CRDi-90HP.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10314/Kia-Venga-14-CRDi-WGT-75HP-Concept.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12550/Kia-Venga-14-CRDi-WGT-75HP-Concept.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/26429/Kia-Venga-14-CRDi-WGT-90HP-Concept.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10315/Kia-Venga-14-CRDi-WGT-90HP-Drive.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12556/Kia-Venga-14-CRDi-WGT-90HP-Drive.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8348/Kia-Venga-16-CRDi-128HP.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69623/Kia-Venga-16-CRDi-VGT-115HP-Concept-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/40334/Kia-Venga-16-CRDi-VGT-116HP-Drive.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69624/Kia-Venga-16-CRDi-VGT-128HP-Drive-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10316/Kia-Venga-16-CRDi-VGT-128HP-Emotion.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12559/Kia-Venga-16-CRDi-VGT-128HP-Emotion.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/69625/Kia-Venga-16-CRDi-VGT-128HP-Emotion-Eco-Dynamics.html",
+    "brand": "kia",
+    "generation": "Venga"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4268/Kia-Ceed-14-CVVT.html",
+    "brand": "kia",
+    "generation": "Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4267/Kia-Ceed-16-CVVT.html",
+    "brand": "kia",
+    "generation": "Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4266/Kia-Ceed-20-CVVT.html",
+    "brand": "kia",
+    "generation": "Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4265/Kia-Ceed-16-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Ceed"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4258/Kia-Carens-2-20.html",
+    "brand": "kia",
+    "generation": "Carens-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13141/Kia-Carens-2-20-DOHC-Emotion-7-places.html",
+    "brand": "kia",
+    "generation": "Carens-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4257/Kia-Carens-2-20-CRDi.html",
+    "brand": "kia",
+    "generation": "Carens-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12583/Kia-Carens-2-20-CRDi-VGT-Active-5-plazas.html",
+    "brand": "kia",
+    "generation": "Carens-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13143/Kia-Carens-2-20-CRDi-VGT-Concept-5-places-115HP.html",
+    "brand": "kia",
+    "generation": "Carens-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12589/Kia-Carens-2-20-CRDi-VGT-Emotion-5-plazas.html",
+    "brand": "kia",
+    "generation": "Carens-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13139/Kia-Carens-2-20-CRDi-VGT-Emotion-7-places.html",
+    "brand": "kia",
+    "generation": "Carens-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4284/Kia-Magentis-II-20-CVVT.html",
+    "brand": "kia",
+    "generation": "Magentis-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4283/Kia-Magentis-II-27-V6.html",
+    "brand": "kia",
+    "generation": "Magentis-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4282/Kia-Magentis-II-20-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Magentis-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4301/Kia-Rio-II-14.html",
+    "brand": "kia",
+    "generation": "Rio-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4300/Kia-Rio-II-16-CVVT.html",
+    "brand": "kia",
+    "generation": "Rio-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4299/Kia-Rio-II-15-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Rio-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4264/Kia-Carnival-II-27-V6.html",
+    "brand": "kia",
+    "generation": "Carnival-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13460/Kia-Carnival-II-22-CRDi-VGT-Active.html",
+    "brand": "kia",
+    "generation": "Carnival-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13470/Kia-Carnival-II-22-CRDi-VGT-Auto.html",
+    "brand": "kia",
+    "generation": "Carnival-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13469/Kia-Carnival-II-22-CRDi-VGT-Emotion.html",
+    "brand": "kia",
+    "generation": "Carnival-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4263/Kia-Carnival-II-29-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Carnival-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13147/Kia-Carnival-II-29-CRDi-VGT-Active.html",
+    "brand": "kia",
+    "generation": "Carnival-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/13146/Kia-Carnival-II-29-CRDi-VGT-Concept.html",
+    "brand": "kia",
+    "generation": "Carnival-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4325/Kia-Sportage-2-20-CVVT-2WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4324/Kia-Sportage-2-20-CVVT-4WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4323/Kia-Sportage-2-27-V6-4WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4319/Kia-Sportage-2-20-CDRi-VGT-4WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4322/Kia-Sportage-2-20-CRDi-2WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4321/Kia-Sportage-2-20-CRDi-4WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4320/Kia-Sportage-2-20-CRDi-VGT-2WD.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/9558/Kia-Sportage-2-20-CRDi-VGT-Active-4x4.html",
+    "brand": "kia",
+    "generation": "Sportage-2"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4293/Kia-Picanto-10.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10456/Kia-Picanto-10-SOHC-Concept.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12538/Kia-Picanto-10-SOHC-Concept.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4292/Kia-Picanto-11.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10457/Kia-Picanto-11-SOHC-Active.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12513/Kia-Picanto-11-SOHC-Active.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10458/Kia-Picanto-11-SOHC-Emotion.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12436/Kia-Picanto-11-SOHC-Emotion.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10459/Kia-Picanto-11-SOHC-Emotion-Aut.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12438/Kia-Picanto-11-SOHC-Emotion-Aut.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4291/Kia-Picanto-11-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10460/Kia-Picanto-11-CRDi-VGT-Concept.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12533/Kia-Picanto-11-CRDi-VGT-Concept.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/10461/Kia-Picanto-11-CRDi-VGT-Emotion.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/12537/Kia-Picanto-11-CRDi-VGT-Emotion.html",
+    "brand": "kia",
+    "generation": "Picanto"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4312/Kia-Sorento-24-16v.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8361/Kia-Sorento-24-2WD.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8362/Kia-Sorento-24-2WD-Aut.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8350/Kia-Sorento-24-4WD.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8351/Kia-Sorento-24-4WD-Aut.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4309/Kia-Sorento-33-V6.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4311/Kia-Sorento-35-V6-.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8359/Kia-Sorento-22-CRDi-Active-4x4.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8363/Kia-Sorento-22-CRDi-Concept-4x2.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8360/Kia-Sorento-22-CRDi-Emotion-4x4-Aut.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/8364/Kia-Sorento-22-Diesel-2WD-Aut.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4310/Kia-Sorento-25-CRDi.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4308/Kia-Sorento-25-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Sorento"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4252/Kia-Carens-15-16.html",
+    "brand": "kia",
+    "generation": "Carens-15"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4256/Kia-Carens-15-18.html",
+    "brand": "kia",
+    "generation": "Carens-15"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4255/Kia-Carens-15-20.html",
+    "brand": "kia",
+    "generation": "Carens-15"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4253/Kia-Carens-15-20-CRDi.html",
+    "brand": "kia",
+    "generation": "Carens-15"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4254/Kia-Carens-15-20-CRDi-VGT.html",
+    "brand": "kia",
+    "generation": "Carens-15"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4288/Kia-Magentis-I-20.html",
+    "brand": "kia",
+    "generation": "Magentis-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4286/Kia-Magentis-I-20.html",
+    "brand": "kia",
+    "generation": "Magentis-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4287/Kia-Magentis-I-25-V6.html",
+    "brand": "kia",
+    "generation": "Magentis-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4285/Kia-Magentis-I-25-V6.html",
+    "brand": "kia",
+    "generation": "Magentis-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4289/Kia-Mentor-16.html",
+    "brand": "kia",
+    "generation": "Mentor"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4251/Kia-Carens-1-18.html",
+    "brand": "kia",
+    "generation": "Carens-1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4298/Kia-Rio-I-13.html",
+    "brand": "kia",
+    "generation": "Rio-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4296/Kia-Rio-I-13.html",
+    "brand": "kia",
+    "generation": "Rio-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4297/Kia-Rio-I-15.html",
+    "brand": "kia",
+    "generation": "Rio-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4295/Kia-Rio-I-15.html",
+    "brand": "kia",
+    "generation": "Rio-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4262/Kia-Carnival-I-25-V6.html",
+    "brand": "kia",
+    "generation": "Carnival-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4260/Kia-Carnival-I-25-V6.html",
+    "brand": "kia",
+    "generation": "Carnival-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4259/Kia-Carnival-I-29-HPDI.html",
+    "brand": "kia",
+    "generation": "Carnival-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4261/Kia-Carnival-I-29-TDi.html",
+    "brand": "kia",
+    "generation": "Carnival-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4304/Kia-Sephia-II-15.html",
+    "brand": "kia",
+    "generation": "Sephia-II"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4307/Kia-Shuma-I-15.html",
+    "brand": "kia",
+    "generation": "Shuma-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4305/Kia-Shuma-I-16-.html",
+    "brand": "kia",
+    "generation": "Shuma-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4306/Kia-Shuma-I-18.html",
+    "brand": "kia",
+    "generation": "Shuma-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4315/Kia-Sportage-1-20-16v-DOHC.html",
+    "brand": "kia",
+    "generation": "Sportage-1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4314/Kia-Sportage-1-20-16v-DOHC-Wagon.html",
+    "brand": "kia",
+    "generation": "Sportage-1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4317/Kia-Sportage-1-20i-16v-DOHC.html",
+    "brand": "kia",
+    "generation": "Sportage-1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4318/Kia-Sportage-1-20i-SOHC.html",
+    "brand": "kia",
+    "generation": "Sportage-1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4316/Kia-Sportage-1-20-TD.html",
+    "brand": "kia",
+    "generation": "Sportage-1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4313/Kia-Sportage-1-20-TD.html",
+    "brand": "kia",
+    "generation": "Sportage-1"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4302/Kia-Sephia-I-15i.html",
+    "brand": "kia",
+    "generation": "Sephia-I"
+  },
+  {
+    "url": "https://www.ultimatespecs.com/car-specs/Kia/4303/Kia-Sephia-I-16i.html",
+    "brand": "kia",
+    "generation": "Sephia-I"
+  }
+]

@@ -1,0 +1,2934 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-01T19:34:12.397Z",
+    "total_models": 34,
+    "currency": "EUR",
+    "depreciation_source": "Industry averages (DAT, Schwacke)"
+  },
+  "prices": [
+    {
+      "brand": "BMW",
+      "model": "3 Series",
+      "msrp_eur": 48000,
+      "segment": "premium_sedan",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 46560,
+          "low_price": 45120,
+          "high_price": 48000,
+          "prices_by_mileage": {
+            "0km": 48000,
+            "30000km": 47280,
+            "60000km": 46560,
+            "90000km": 45840,
+            "120000km": 45120
+          }
+        },
+        "1_years": {
+          "avg_price": 36360,
+          "low_price": 34920,
+          "high_price": 37080,
+          "prices_by_mileage": {
+            "0km": 37656,
+            "30000km": 37080,
+            "60000km": 36360,
+            "90000km": 35640,
+            "120000km": 34920
+          }
+        },
+        "2_years": {
+          "avg_price": 30480,
+          "low_price": 29040,
+          "high_price": 31200,
+          "prices_by_mileage": {
+            "0km": 31632,
+            "30000km": 31200,
+            "60000km": 30480,
+            "90000km": 29760,
+            "120000km": 29040
+          }
+        },
+        "3_years": {
+          "avg_price": 26040,
+          "low_price": 24600,
+          "high_price": 26616,
+          "prices_by_mileage": {
+            "0km": 27048,
+            "30000km": 26616,
+            "60000km": 26040,
+            "90000km": 25320,
+            "120000km": 24600
+          }
+        },
+        "4_years": {
+          "avg_price": 22560,
+          "low_price": 21120,
+          "high_price": 22992,
+          "prices_by_mileage": {
+            "0km": 23424,
+            "30000km": 22992,
+            "60000km": 22560,
+            "90000km": 21840,
+            "120000km": 21120
+          }
+        },
+        "5_years": {
+          "avg_price": 19416,
+          "low_price": 18120,
+          "high_price": 19848,
+          "prices_by_mileage": {
+            "0km": 20280,
+            "30000km": 19848,
+            "60000km": 19416,
+            "90000km": 18840,
+            "120000km": 18120
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.059Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "5 Series",
+      "msrp_eur": 62000,
+      "segment": "premium_sedan",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 60140,
+          "low_price": 58280,
+          "high_price": 62000,
+          "prices_by_mileage": {
+            "0km": 62000,
+            "30000km": 61070,
+            "60000km": 60140,
+            "90000km": 59210,
+            "120000km": 58280
+          }
+        },
+        "1_years": {
+          "avg_price": 46965,
+          "low_price": 45105,
+          "high_price": 47895,
+          "prices_by_mileage": {
+            "0km": 48639,
+            "30000km": 47895,
+            "60000km": 46965,
+            "90000km": 46035,
+            "120000km": 45105
+          }
+        },
+        "2_years": {
+          "avg_price": 39370,
+          "low_price": 37510,
+          "high_price": 40300,
+          "prices_by_mileage": {
+            "0km": 40858,
+            "30000km": 40300,
+            "60000km": 39370,
+            "90000km": 38440,
+            "120000km": 37510
+          }
+        },
+        "3_years": {
+          "avg_price": 33635,
+          "low_price": 31775,
+          "high_price": 34379,
+          "prices_by_mileage": {
+            "0km": 34937,
+            "30000km": 34379,
+            "60000km": 33635,
+            "90000km": 32705,
+            "120000km": 31775
+          }
+        },
+        "4_years": {
+          "avg_price": 29140,
+          "low_price": 27280,
+          "high_price": 29698,
+          "prices_by_mileage": {
+            "0km": 30256,
+            "30000km": 29698,
+            "60000km": 29140,
+            "90000km": 28210,
+            "120000km": 27280
+          }
+        },
+        "5_years": {
+          "avg_price": 25079,
+          "low_price": 23405,
+          "high_price": 25637,
+          "prices_by_mileage": {
+            "0km": 26195,
+            "30000km": 25637,
+            "60000km": 25079,
+            "90000km": 24335,
+            "120000km": 23405
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.128Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "X3",
+      "msrp_eur": 58000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 56260,
+          "low_price": 54520,
+          "high_price": 58000,
+          "prices_by_mileage": {
+            "0km": 58000,
+            "30000km": 57130,
+            "60000km": 56260,
+            "90000km": 55390,
+            "120000km": 54520
+          }
+        },
+        "1_years": {
+          "avg_price": 46255,
+          "low_price": 44515,
+          "high_price": 47125,
+          "prices_by_mileage": {
+            "0km": 47821,
+            "30000km": 47125,
+            "60000km": 46255,
+            "90000km": 45385,
+            "120000km": 44515
+          }
+        },
+        "2_years": {
+          "avg_price": 39730,
+          "low_price": 37990,
+          "high_price": 40600,
+          "prices_by_mileage": {
+            "0km": 41122,
+            "30000km": 40600,
+            "60000km": 39730,
+            "90000km": 38860,
+            "120000km": 37990
+          }
+        },
+        "3_years": {
+          "avg_price": 34365,
+          "low_price": 32625,
+          "high_price": 35061,
+          "prices_by_mileage": {
+            "0km": 35583,
+            "30000km": 35061,
+            "60000km": 34365,
+            "90000km": 33495,
+            "120000km": 32625
+          }
+        },
+        "4_years": {
+          "avg_price": 30160,
+          "low_price": 28420,
+          "high_price": 30682,
+          "prices_by_mileage": {
+            "0km": 31204,
+            "30000km": 30682,
+            "60000km": 30160,
+            "90000km": 29290,
+            "120000km": 28420
+          }
+        },
+        "5_years": {
+          "avg_price": 26361,
+          "low_price": 24795,
+          "high_price": 26883,
+          "prices_by_mileage": {
+            "0km": 27405,
+            "30000km": 26883,
+            "60000km": 26361,
+            "90000km": 25665,
+            "120000km": 24795
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.229Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "X5",
+      "msrp_eur": 82000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 79540,
+          "low_price": 77080,
+          "high_price": 82000,
+          "prices_by_mileage": {
+            "0km": 82000,
+            "30000km": 80770,
+            "60000km": 79540,
+            "90000km": 78310,
+            "120000km": 77080
+          }
+        },
+        "1_years": {
+          "avg_price": 65395,
+          "low_price": 62935,
+          "high_price": 66625,
+          "prices_by_mileage": {
+            "0km": 67609,
+            "30000km": 66625,
+            "60000km": 65395,
+            "90000km": 64165,
+            "120000km": 62935
+          }
+        },
+        "2_years": {
+          "avg_price": 56170,
+          "low_price": 53710,
+          "high_price": 57400,
+          "prices_by_mileage": {
+            "0km": 58138,
+            "30000km": 57400,
+            "60000km": 56170,
+            "90000km": 54940,
+            "120000km": 53710
+          }
+        },
+        "3_years": {
+          "avg_price": 48585,
+          "low_price": 46125,
+          "high_price": 49569,
+          "prices_by_mileage": {
+            "0km": 50307,
+            "30000km": 49569,
+            "60000km": 48585,
+            "90000km": 47355,
+            "120000km": 46125
+          }
+        },
+        "4_years": {
+          "avg_price": 42640,
+          "low_price": 40180,
+          "high_price": 43378,
+          "prices_by_mileage": {
+            "0km": 44116,
+            "30000km": 43378,
+            "60000km": 42640,
+            "90000km": 41410,
+            "120000km": 40180
+          }
+        },
+        "5_years": {
+          "avg_price": 37269,
+          "low_price": 35055,
+          "high_price": 38007,
+          "prices_by_mileage": {
+            "0km": 38745,
+            "30000km": 38007,
+            "60000km": 37269,
+            "90000km": 36285,
+            "120000km": 35055
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.294Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "i4",
+      "msrp_eur": 60000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 58200,
+          "low_price": 56400,
+          "high_price": 60000,
+          "prices_by_mileage": {
+            "0km": 60000,
+            "30000km": 59100,
+            "60000km": 58200,
+            "90000km": 57300,
+            "120000km": 56400
+          }
+        },
+        "1_years": {
+          "avg_price": 40650,
+          "low_price": 38850,
+          "high_price": 41550,
+          "prices_by_mileage": {
+            "0km": 42270,
+            "30000km": 41550,
+            "60000km": 40650,
+            "90000km": 39750,
+            "120000km": 38850
+          }
+        },
+        "2_years": {
+          "avg_price": 32100,
+          "low_price": 30300,
+          "high_price": 33000,
+          "prices_by_mileage": {
+            "0km": 33540,
+            "30000km": 33000,
+            "60000km": 32100,
+            "90000km": 31200,
+            "120000km": 30300
+          }
+        },
+        "3_years": {
+          "avg_price": 26550,
+          "low_price": 24750,
+          "high_price": 27270,
+          "prices_by_mileage": {
+            "0km": 27810,
+            "30000km": 27270,
+            "60000km": 26550,
+            "90000km": 25650,
+            "120000km": 24750
+          }
+        },
+        "4_years": {
+          "avg_price": 22800,
+          "low_price": 21000,
+          "high_price": 23340,
+          "prices_by_mileage": {
+            "0km": 23880,
+            "30000km": 23340,
+            "60000km": 22800,
+            "90000km": 21900,
+            "120000km": 21000
+          }
+        },
+        "5_years": {
+          "avg_price": 19470,
+          "low_price": 17850,
+          "high_price": 20010,
+          "prices_by_mileage": {
+            "0km": 20550,
+            "30000km": 20010,
+            "60000km": 19470,
+            "90000km": 18750,
+            "120000km": 17850
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.352Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "iX",
+      "msrp_eur": 85000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 82450,
+          "low_price": 79900,
+          "high_price": 85000,
+          "prices_by_mileage": {
+            "0km": 85000,
+            "30000km": 83725,
+            "60000km": 82450,
+            "90000km": 81175,
+            "120000km": 79900
+          }
+        },
+        "1_years": {
+          "avg_price": 57588,
+          "low_price": 55038,
+          "high_price": 58863,
+          "prices_by_mileage": {
+            "0km": 59883,
+            "30000km": 58863,
+            "60000km": 57588,
+            "90000km": 56313,
+            "120000km": 55038
+          }
+        },
+        "2_years": {
+          "avg_price": 45475,
+          "low_price": 42925,
+          "high_price": 46750,
+          "prices_by_mileage": {
+            "0km": 47515,
+            "30000km": 46750,
+            "60000km": 45475,
+            "90000km": 44200,
+            "120000km": 42925
+          }
+        },
+        "3_years": {
+          "avg_price": 37613,
+          "low_price": 35063,
+          "high_price": 38633,
+          "prices_by_mileage": {
+            "0km": 39398,
+            "30000km": 38633,
+            "60000km": 37613,
+            "90000km": 36338,
+            "120000km": 35063
+          }
+        },
+        "4_years": {
+          "avg_price": 32300,
+          "low_price": 29750,
+          "high_price": 33065,
+          "prices_by_mileage": {
+            "0km": 33830,
+            "30000km": 33065,
+            "60000km": 32300,
+            "90000km": 31025,
+            "120000km": 29750
+          }
+        },
+        "5_years": {
+          "avg_price": 27583,
+          "low_price": 25288,
+          "high_price": 28348,
+          "prices_by_mileage": {
+            "0km": 29113,
+            "30000km": 28348,
+            "60000km": 27583,
+            "90000km": 26563,
+            "120000km": 25288
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.411Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "msrp_eur": 52000,
+      "segment": "premium_sedan",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 50440,
+          "low_price": 48880,
+          "high_price": 52000,
+          "prices_by_mileage": {
+            "0km": 52000,
+            "30000km": 51220,
+            "60000km": 50440,
+            "90000km": 49660,
+            "120000km": 48880
+          }
+        },
+        "1_years": {
+          "avg_price": 39390,
+          "low_price": 37830,
+          "high_price": 40170,
+          "prices_by_mileage": {
+            "0km": 40794,
+            "30000km": 40170,
+            "60000km": 39390,
+            "90000km": 38610,
+            "120000km": 37830
+          }
+        },
+        "2_years": {
+          "avg_price": 33020,
+          "low_price": 31460,
+          "high_price": 33800,
+          "prices_by_mileage": {
+            "0km": 34268,
+            "30000km": 33800,
+            "60000km": 33020,
+            "90000km": 32240,
+            "120000km": 31460
+          }
+        },
+        "3_years": {
+          "avg_price": 28210,
+          "low_price": 26650,
+          "high_price": 28834,
+          "prices_by_mileage": {
+            "0km": 29302,
+            "30000km": 28834,
+            "60000km": 28210,
+            "90000km": 27430,
+            "120000km": 26650
+          }
+        },
+        "4_years": {
+          "avg_price": 24440,
+          "low_price": 22880,
+          "high_price": 24908,
+          "prices_by_mileage": {
+            "0km": 25376,
+            "30000km": 24908,
+            "60000km": 24440,
+            "90000km": 23660,
+            "120000km": 22880
+          }
+        },
+        "5_years": {
+          "avg_price": 21034,
+          "low_price": 19630,
+          "high_price": 21502,
+          "prices_by_mileage": {
+            "0km": 21970,
+            "30000km": 21502,
+            "60000km": 21034,
+            "90000km": 20410,
+            "120000km": 19630
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.501Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "E-Class",
+      "msrp_eur": 68000,
+      "segment": "premium_sedan",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 65960,
+          "low_price": 63920,
+          "high_price": 68000,
+          "prices_by_mileage": {
+            "0km": 68000,
+            "30000km": 66980,
+            "60000km": 65960,
+            "90000km": 64940,
+            "120000km": 63920
+          }
+        },
+        "1_years": {
+          "avg_price": 51510,
+          "low_price": 49470,
+          "high_price": 52530,
+          "prices_by_mileage": {
+            "0km": 53346,
+            "30000km": 52530,
+            "60000km": 51510,
+            "90000km": 50490,
+            "120000km": 49470
+          }
+        },
+        "2_years": {
+          "avg_price": 43180,
+          "low_price": 41140,
+          "high_price": 44200,
+          "prices_by_mileage": {
+            "0km": 44812,
+            "30000km": 44200,
+            "60000km": 43180,
+            "90000km": 42160,
+            "120000km": 41140
+          }
+        },
+        "3_years": {
+          "avg_price": 36890,
+          "low_price": 34850,
+          "high_price": 37706,
+          "prices_by_mileage": {
+            "0km": 38318,
+            "30000km": 37706,
+            "60000km": 36890,
+            "90000km": 35870,
+            "120000km": 34850
+          }
+        },
+        "4_years": {
+          "avg_price": 31960,
+          "low_price": 29920,
+          "high_price": 32572,
+          "prices_by_mileage": {
+            "0km": 33184,
+            "30000km": 32572,
+            "60000km": 31960,
+            "90000km": 30940,
+            "120000km": 29920
+          }
+        },
+        "5_years": {
+          "avg_price": 27506,
+          "low_price": 25670,
+          "high_price": 28118,
+          "prices_by_mileage": {
+            "0km": 28730,
+            "30000km": 28118,
+            "60000km": 27506,
+            "90000km": 26690,
+            "120000km": 25670
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.594Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "GLC",
+      "msrp_eur": 62000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 60140,
+          "low_price": 58280,
+          "high_price": 62000,
+          "prices_by_mileage": {
+            "0km": 62000,
+            "30000km": 61070,
+            "60000km": 60140,
+            "90000km": 59210,
+            "120000km": 58280
+          }
+        },
+        "1_years": {
+          "avg_price": 49445,
+          "low_price": 47585,
+          "high_price": 50375,
+          "prices_by_mileage": {
+            "0km": 51119,
+            "30000km": 50375,
+            "60000km": 49445,
+            "90000km": 48515,
+            "120000km": 47585
+          }
+        },
+        "2_years": {
+          "avg_price": 42470,
+          "low_price": 40610,
+          "high_price": 43400,
+          "prices_by_mileage": {
+            "0km": 43958,
+            "30000km": 43400,
+            "60000km": 42470,
+            "90000km": 41540,
+            "120000km": 40610
+          }
+        },
+        "3_years": {
+          "avg_price": 36735,
+          "low_price": 34875,
+          "high_price": 37479,
+          "prices_by_mileage": {
+            "0km": 38037,
+            "30000km": 37479,
+            "60000km": 36735,
+            "90000km": 35805,
+            "120000km": 34875
+          }
+        },
+        "4_years": {
+          "avg_price": 32240,
+          "low_price": 30380,
+          "high_price": 32798,
+          "prices_by_mileage": {
+            "0km": 33356,
+            "30000km": 32798,
+            "60000km": 32240,
+            "90000km": 31310,
+            "120000km": 30380
+          }
+        },
+        "5_years": {
+          "avg_price": 28179,
+          "low_price": 26505,
+          "high_price": 28737,
+          "prices_by_mileage": {
+            "0km": 29295,
+            "30000km": 28737,
+            "60000km": 28179,
+            "90000km": 27435,
+            "120000km": 26505
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.657Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "GLE",
+      "msrp_eur": 85000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 82450,
+          "low_price": 79900,
+          "high_price": 85000,
+          "prices_by_mileage": {
+            "0km": 85000,
+            "30000km": 83725,
+            "60000km": 82450,
+            "90000km": 81175,
+            "120000km": 79900
+          }
+        },
+        "1_years": {
+          "avg_price": 67788,
+          "low_price": 65238,
+          "high_price": 69063,
+          "prices_by_mileage": {
+            "0km": 70083,
+            "30000km": 69063,
+            "60000km": 67788,
+            "90000km": 66513,
+            "120000km": 65238
+          }
+        },
+        "2_years": {
+          "avg_price": 58225,
+          "low_price": 55675,
+          "high_price": 59500,
+          "prices_by_mileage": {
+            "0km": 60265,
+            "30000km": 59500,
+            "60000km": 58225,
+            "90000km": 56950,
+            "120000km": 55675
+          }
+        },
+        "3_years": {
+          "avg_price": 50363,
+          "low_price": 47813,
+          "high_price": 51383,
+          "prices_by_mileage": {
+            "0km": 52148,
+            "30000km": 51383,
+            "60000km": 50363,
+            "90000km": 49088,
+            "120000km": 47813
+          }
+        },
+        "4_years": {
+          "avg_price": 44200,
+          "low_price": 41650,
+          "high_price": 44965,
+          "prices_by_mileage": {
+            "0km": 45730,
+            "30000km": 44965,
+            "60000km": 44200,
+            "90000km": 42925,
+            "120000km": 41650
+          }
+        },
+        "5_years": {
+          "avg_price": 38633,
+          "low_price": 36338,
+          "high_price": 39398,
+          "prices_by_mileage": {
+            "0km": 40163,
+            "30000km": 39398,
+            "60000km": 38633,
+            "90000km": 37613,
+            "120000km": 36338
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.723Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "EQS",
+      "msrp_eur": 120000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 116400,
+          "low_price": 112800,
+          "high_price": 120000,
+          "prices_by_mileage": {
+            "0km": 120000,
+            "30000km": 118200,
+            "60000km": 116400,
+            "90000km": 114600,
+            "120000km": 112800
+          }
+        },
+        "1_years": {
+          "avg_price": 81300,
+          "low_price": 77700,
+          "high_price": 83100,
+          "prices_by_mileage": {
+            "0km": 84540,
+            "30000km": 83100,
+            "60000km": 81300,
+            "90000km": 79500,
+            "120000km": 77700
+          }
+        },
+        "2_years": {
+          "avg_price": 64200,
+          "low_price": 60600,
+          "high_price": 66000,
+          "prices_by_mileage": {
+            "0km": 67080,
+            "30000km": 66000,
+            "60000km": 64200,
+            "90000km": 62400,
+            "120000km": 60600
+          }
+        },
+        "3_years": {
+          "avg_price": 53100,
+          "low_price": 49500,
+          "high_price": 54540,
+          "prices_by_mileage": {
+            "0km": 55620,
+            "30000km": 54540,
+            "60000km": 53100,
+            "90000km": 51300,
+            "120000km": 49500
+          }
+        },
+        "4_years": {
+          "avg_price": 45600,
+          "low_price": 42000,
+          "high_price": 46680,
+          "prices_by_mileage": {
+            "0km": 47760,
+            "30000km": 46680,
+            "60000km": 45600,
+            "90000km": 43800,
+            "120000km": 42000
+          }
+        },
+        "5_years": {
+          "avg_price": 38940,
+          "low_price": 35700,
+          "high_price": 40020,
+          "prices_by_mileage": {
+            "0km": 41100,
+            "30000km": 40020,
+            "60000km": 38940,
+            "90000km": 37500,
+            "120000km": 35700
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.789Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "A4",
+      "msrp_eur": 47000,
+      "segment": "premium_sedan",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 45590,
+          "low_price": 44180,
+          "high_price": 47000,
+          "prices_by_mileage": {
+            "0km": 47000,
+            "30000km": 46295,
+            "60000km": 45590,
+            "90000km": 44885,
+            "120000km": 44180
+          }
+        },
+        "1_years": {
+          "avg_price": 35603,
+          "low_price": 34193,
+          "high_price": 36308,
+          "prices_by_mileage": {
+            "0km": 36872,
+            "30000km": 36308,
+            "60000km": 35603,
+            "90000km": 34898,
+            "120000km": 34193
+          }
+        },
+        "2_years": {
+          "avg_price": 29845,
+          "low_price": 28435,
+          "high_price": 30550,
+          "prices_by_mileage": {
+            "0km": 30973,
+            "30000km": 30550,
+            "60000km": 29845,
+            "90000km": 29140,
+            "120000km": 28435
+          }
+        },
+        "3_years": {
+          "avg_price": 25498,
+          "low_price": 24088,
+          "high_price": 26062,
+          "prices_by_mileage": {
+            "0km": 26485,
+            "30000km": 26062,
+            "60000km": 25498,
+            "90000km": 24793,
+            "120000km": 24088
+          }
+        },
+        "4_years": {
+          "avg_price": 22090,
+          "low_price": 20680,
+          "high_price": 22513,
+          "prices_by_mileage": {
+            "0km": 22936,
+            "30000km": 22513,
+            "60000km": 22090,
+            "90000km": 21385,
+            "120000km": 20680
+          }
+        },
+        "5_years": {
+          "avg_price": 19012,
+          "low_price": 17743,
+          "high_price": 19435,
+          "prices_by_mileage": {
+            "0km": 19858,
+            "30000km": 19435,
+            "60000km": 19012,
+            "90000km": 18448,
+            "120000km": 17743
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.841Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "A6",
+      "msrp_eur": 62000,
+      "segment": "premium_sedan",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 60140,
+          "low_price": 58280,
+          "high_price": 62000,
+          "prices_by_mileage": {
+            "0km": 62000,
+            "30000km": 61070,
+            "60000km": 60140,
+            "90000km": 59210,
+            "120000km": 58280
+          }
+        },
+        "1_years": {
+          "avg_price": 46965,
+          "low_price": 45105,
+          "high_price": 47895,
+          "prices_by_mileage": {
+            "0km": 48639,
+            "30000km": 47895,
+            "60000km": 46965,
+            "90000km": 46035,
+            "120000km": 45105
+          }
+        },
+        "2_years": {
+          "avg_price": 39370,
+          "low_price": 37510,
+          "high_price": 40300,
+          "prices_by_mileage": {
+            "0km": 40858,
+            "30000km": 40300,
+            "60000km": 39370,
+            "90000km": 38440,
+            "120000km": 37510
+          }
+        },
+        "3_years": {
+          "avg_price": 33635,
+          "low_price": 31775,
+          "high_price": 34379,
+          "prices_by_mileage": {
+            "0km": 34937,
+            "30000km": 34379,
+            "60000km": 33635,
+            "90000km": 32705,
+            "120000km": 31775
+          }
+        },
+        "4_years": {
+          "avg_price": 29140,
+          "low_price": 27280,
+          "high_price": 29698,
+          "prices_by_mileage": {
+            "0km": 30256,
+            "30000km": 29698,
+            "60000km": 29140,
+            "90000km": 28210,
+            "120000km": 27280
+          }
+        },
+        "5_years": {
+          "avg_price": 25079,
+          "low_price": 23405,
+          "high_price": 25637,
+          "prices_by_mileage": {
+            "0km": 26195,
+            "30000km": 25637,
+            "60000km": 25079,
+            "90000km": 24335,
+            "120000km": 23405
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.893Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "Q5",
+      "msrp_eur": 58000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 56260,
+          "low_price": 54520,
+          "high_price": 58000,
+          "prices_by_mileage": {
+            "0km": 58000,
+            "30000km": 57130,
+            "60000km": 56260,
+            "90000km": 55390,
+            "120000km": 54520
+          }
+        },
+        "1_years": {
+          "avg_price": 46255,
+          "low_price": 44515,
+          "high_price": 47125,
+          "prices_by_mileage": {
+            "0km": 47821,
+            "30000km": 47125,
+            "60000km": 46255,
+            "90000km": 45385,
+            "120000km": 44515
+          }
+        },
+        "2_years": {
+          "avg_price": 39730,
+          "low_price": 37990,
+          "high_price": 40600,
+          "prices_by_mileage": {
+            "0km": 41122,
+            "30000km": 40600,
+            "60000km": 39730,
+            "90000km": 38860,
+            "120000km": 37990
+          }
+        },
+        "3_years": {
+          "avg_price": 34365,
+          "low_price": 32625,
+          "high_price": 35061,
+          "prices_by_mileage": {
+            "0km": 35583,
+            "30000km": 35061,
+            "60000km": 34365,
+            "90000km": 33495,
+            "120000km": 32625
+          }
+        },
+        "4_years": {
+          "avg_price": 30160,
+          "low_price": 28420,
+          "high_price": 30682,
+          "prices_by_mileage": {
+            "0km": 31204,
+            "30000km": 30682,
+            "60000km": 30160,
+            "90000km": 29290,
+            "120000km": 28420
+          }
+        },
+        "5_years": {
+          "avg_price": 26361,
+          "low_price": 24795,
+          "high_price": 26883,
+          "prices_by_mileage": {
+            "0km": 27405,
+            "30000km": 26883,
+            "60000km": 26361,
+            "90000km": 25665,
+            "120000km": 24795
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:10.950Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "Q7",
+      "msrp_eur": 82000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 79540,
+          "low_price": 77080,
+          "high_price": 82000,
+          "prices_by_mileage": {
+            "0km": 82000,
+            "30000km": 80770,
+            "60000km": 79540,
+            "90000km": 78310,
+            "120000km": 77080
+          }
+        },
+        "1_years": {
+          "avg_price": 65395,
+          "low_price": 62935,
+          "high_price": 66625,
+          "prices_by_mileage": {
+            "0km": 67609,
+            "30000km": 66625,
+            "60000km": 65395,
+            "90000km": 64165,
+            "120000km": 62935
+          }
+        },
+        "2_years": {
+          "avg_price": 56170,
+          "low_price": 53710,
+          "high_price": 57400,
+          "prices_by_mileage": {
+            "0km": 58138,
+            "30000km": 57400,
+            "60000km": 56170,
+            "90000km": 54940,
+            "120000km": 53710
+          }
+        },
+        "3_years": {
+          "avg_price": 48585,
+          "low_price": 46125,
+          "high_price": 49569,
+          "prices_by_mileage": {
+            "0km": 50307,
+            "30000km": 49569,
+            "60000km": 48585,
+            "90000km": 47355,
+            "120000km": 46125
+          }
+        },
+        "4_years": {
+          "avg_price": 42640,
+          "low_price": 40180,
+          "high_price": 43378,
+          "prices_by_mileage": {
+            "0km": 44116,
+            "30000km": 43378,
+            "60000km": 42640,
+            "90000km": 41410,
+            "120000km": 40180
+          }
+        },
+        "5_years": {
+          "avg_price": 37269,
+          "low_price": 35055,
+          "high_price": 38007,
+          "prices_by_mileage": {
+            "0km": 38745,
+            "30000km": 38007,
+            "60000km": 37269,
+            "90000km": 36285,
+            "120000km": 35055
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.010Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron GT",
+      "msrp_eur": 105000,
+      "segment": "sports",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 101850,
+          "low_price": 98700,
+          "high_price": 105000,
+          "prices_by_mileage": {
+            "0km": 105000,
+            "30000km": 103425,
+            "60000km": 101850,
+            "90000km": 100275,
+            "120000km": 98700
+          }
+        },
+        "1_years": {
+          "avg_price": 86888,
+          "low_price": 83738,
+          "high_price": 88463,
+          "prices_by_mileage": {
+            "0km": 89723,
+            "30000km": 88463,
+            "60000km": 86888,
+            "90000km": 85313,
+            "120000km": 83738
+          }
+        },
+        "2_years": {
+          "avg_price": 77175,
+          "low_price": 74025,
+          "high_price": 78750,
+          "prices_by_mileage": {
+            "0km": 79695,
+            "30000km": 78750,
+            "60000km": 77175,
+            "90000km": 75600,
+            "120000km": 74025
+          }
+        },
+        "3_years": {
+          "avg_price": 70613,
+          "low_price": 67463,
+          "high_price": 71873,
+          "prices_by_mileage": {
+            "0km": 72817,
+            "30000km": 71873,
+            "60000km": 70613,
+            "90000km": 69038,
+            "120000km": 67463
+          }
+        },
+        "4_years": {
+          "avg_price": 65100,
+          "low_price": 61950,
+          "high_price": 66045,
+          "prices_by_mileage": {
+            "0km": 66990,
+            "30000km": 66045,
+            "60000km": 65100,
+            "90000km": 63525,
+            "120000km": 61950
+          }
+        },
+        "5_years": {
+          "avg_price": 60323,
+          "low_price": 57488,
+          "high_price": 61268,
+          "prices_by_mileage": {
+            "0km": 62213,
+            "30000km": 61268,
+            "60000km": 60323,
+            "90000km": 59063,
+            "120000km": 57488
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.074Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "msrp_eur": 32000,
+      "segment": "compact",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 31040,
+          "low_price": 30080,
+          "high_price": 32000,
+          "prices_by_mileage": {
+            "0km": 32000,
+            "30000km": 31520,
+            "60000km": 31040,
+            "90000km": 30560,
+            "120000km": 30080
+          }
+        },
+        "1_years": {
+          "avg_price": 23280,
+          "low_price": 22320,
+          "high_price": 23760,
+          "prices_by_mileage": {
+            "0km": 24144,
+            "30000km": 23760,
+            "60000km": 23280,
+            "90000km": 22800,
+            "120000km": 22320
+          }
+        },
+        "2_years": {
+          "avg_price": 18720,
+          "low_price": 17760,
+          "high_price": 19200,
+          "prices_by_mileage": {
+            "0km": 19488,
+            "30000km": 19200,
+            "60000km": 18720,
+            "90000km": 18240,
+            "120000km": 17760
+          }
+        },
+        "3_years": {
+          "avg_price": 15760,
+          "low_price": 14800,
+          "high_price": 16144,
+          "prices_by_mileage": {
+            "0km": 16432,
+            "30000km": 16144,
+            "60000km": 15760,
+            "90000km": 15280,
+            "120000km": 14800
+          }
+        },
+        "4_years": {
+          "avg_price": 13440,
+          "low_price": 12480,
+          "high_price": 13728,
+          "prices_by_mileage": {
+            "0km": 14016,
+            "30000km": 13728,
+            "60000km": 13440,
+            "90000km": 12960,
+            "120000km": 12480
+          }
+        },
+        "5_years": {
+          "avg_price": 11664,
+          "low_price": 10800,
+          "high_price": 11952,
+          "prices_by_mileage": {
+            "0km": 12240,
+            "30000km": 11952,
+            "60000km": 11664,
+            "90000km": 11280,
+            "120000km": 10800
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.134Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "msrp_eur": 42000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 40740,
+          "low_price": 39480,
+          "high_price": 42000,
+          "prices_by_mileage": {
+            "0km": 42000,
+            "30000km": 41370,
+            "60000km": 40740,
+            "90000km": 40110,
+            "120000km": 39480
+          }
+        },
+        "1_years": {
+          "avg_price": 33495,
+          "low_price": 32235,
+          "high_price": 34125,
+          "prices_by_mileage": {
+            "0km": 34629,
+            "30000km": 34125,
+            "60000km": 33495,
+            "90000km": 32865,
+            "120000km": 32235
+          }
+        },
+        "2_years": {
+          "avg_price": 28770,
+          "low_price": 27510,
+          "high_price": 29400,
+          "prices_by_mileage": {
+            "0km": 29778,
+            "30000km": 29400,
+            "60000km": 28770,
+            "90000km": 28140,
+            "120000km": 27510
+          }
+        },
+        "3_years": {
+          "avg_price": 24885,
+          "low_price": 23625,
+          "high_price": 25389,
+          "prices_by_mileage": {
+            "0km": 25767,
+            "30000km": 25389,
+            "60000km": 24885,
+            "90000km": 24255,
+            "120000km": 23625
+          }
+        },
+        "4_years": {
+          "avg_price": 21840,
+          "low_price": 20580,
+          "high_price": 22218,
+          "prices_by_mileage": {
+            "0km": 22596,
+            "30000km": 22218,
+            "60000km": 21840,
+            "90000km": 21210,
+            "120000km": 20580
+          }
+        },
+        "5_years": {
+          "avg_price": 19089,
+          "low_price": 17955,
+          "high_price": 19467,
+          "prices_by_mileage": {
+            "0km": 19845,
+            "30000km": 19467,
+            "60000km": 19089,
+            "90000km": 18585,
+            "120000km": 17955
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.217Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat",
+      "msrp_eur": 45000,
+      "segment": "premium_sedan",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 43650,
+          "low_price": 42300,
+          "high_price": 45000,
+          "prices_by_mileage": {
+            "0km": 45000,
+            "30000km": 44325,
+            "60000km": 43650,
+            "90000km": 42975,
+            "120000km": 42300
+          }
+        },
+        "1_years": {
+          "avg_price": 34088,
+          "low_price": 32738,
+          "high_price": 34763,
+          "prices_by_mileage": {
+            "0km": 35303,
+            "30000km": 34763,
+            "60000km": 34088,
+            "90000km": 33413,
+            "120000km": 32738
+          }
+        },
+        "2_years": {
+          "avg_price": 28575,
+          "low_price": 27225,
+          "high_price": 29250,
+          "prices_by_mileage": {
+            "0km": 29655,
+            "30000km": 29250,
+            "60000km": 28575,
+            "90000km": 27900,
+            "120000km": 27225
+          }
+        },
+        "3_years": {
+          "avg_price": 24413,
+          "low_price": 23063,
+          "high_price": 24953,
+          "prices_by_mileage": {
+            "0km": 25358,
+            "30000km": 24953,
+            "60000km": 24413,
+            "90000km": 23738,
+            "120000km": 23063
+          }
+        },
+        "4_years": {
+          "avg_price": 21150,
+          "low_price": 19800,
+          "high_price": 21555,
+          "prices_by_mileage": {
+            "0km": 21960,
+            "30000km": 21555,
+            "60000km": 21150,
+            "90000km": 20475,
+            "120000km": 19800
+          }
+        },
+        "5_years": {
+          "avg_price": 18203,
+          "low_price": 16988,
+          "high_price": 18608,
+          "prices_by_mileage": {
+            "0km": 19013,
+            "30000km": 18608,
+            "60000km": 18203,
+            "90000km": 17663,
+            "120000km": 16988
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.268Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "ID.4",
+      "msrp_eur": 48000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 46560,
+          "low_price": 45120,
+          "high_price": 48000,
+          "prices_by_mileage": {
+            "0km": 48000,
+            "30000km": 47280,
+            "60000km": 46560,
+            "90000km": 45840,
+            "120000km": 45120
+          }
+        },
+        "1_years": {
+          "avg_price": 32520,
+          "low_price": 31080,
+          "high_price": 33240,
+          "prices_by_mileage": {
+            "0km": 33816,
+            "30000km": 33240,
+            "60000km": 32520,
+            "90000km": 31800,
+            "120000km": 31080
+          }
+        },
+        "2_years": {
+          "avg_price": 25680,
+          "low_price": 24240,
+          "high_price": 26400,
+          "prices_by_mileage": {
+            "0km": 26832,
+            "30000km": 26400,
+            "60000km": 25680,
+            "90000km": 24960,
+            "120000km": 24240
+          }
+        },
+        "3_years": {
+          "avg_price": 21240,
+          "low_price": 19800,
+          "high_price": 21816,
+          "prices_by_mileage": {
+            "0km": 22248,
+            "30000km": 21816,
+            "60000km": 21240,
+            "90000km": 20520,
+            "120000km": 19800
+          }
+        },
+        "4_years": {
+          "avg_price": 18240,
+          "low_price": 16800,
+          "high_price": 18672,
+          "prices_by_mileage": {
+            "0km": 19104,
+            "30000km": 18672,
+            "60000km": 18240,
+            "90000km": 17520,
+            "120000km": 16800
+          }
+        },
+        "5_years": {
+          "avg_price": 15576,
+          "low_price": 14280,
+          "high_price": 16008,
+          "prices_by_mileage": {
+            "0km": 16440,
+            "30000km": 16008,
+            "60000km": 15576,
+            "90000km": 15000,
+            "120000km": 14280
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.321Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Porsche",
+      "model": "911",
+      "msrp_eur": 125000,
+      "segment": "sports",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 121250,
+          "low_price": 117500,
+          "high_price": 125000,
+          "prices_by_mileage": {
+            "0km": 125000,
+            "30000km": 123125,
+            "60000km": 121250,
+            "90000km": 119375,
+            "120000km": 117500
+          }
+        },
+        "1_years": {
+          "avg_price": 103438,
+          "low_price": 99688,
+          "high_price": 105313,
+          "prices_by_mileage": {
+            "0km": 106813,
+            "30000km": 105313,
+            "60000km": 103438,
+            "90000km": 101563,
+            "120000km": 99688
+          }
+        },
+        "2_years": {
+          "avg_price": 91875,
+          "low_price": 88125,
+          "high_price": 93750,
+          "prices_by_mileage": {
+            "0km": 94875,
+            "30000km": 93750,
+            "60000km": 91875,
+            "90000km": 90000,
+            "120000km": 88125
+          }
+        },
+        "3_years": {
+          "avg_price": 84063,
+          "low_price": 80313,
+          "high_price": 85563,
+          "prices_by_mileage": {
+            "0km": 86688,
+            "30000km": 85563,
+            "60000km": 84063,
+            "90000km": 82188,
+            "120000km": 80313
+          }
+        },
+        "4_years": {
+          "avg_price": 77500,
+          "low_price": 73750,
+          "high_price": 78625,
+          "prices_by_mileage": {
+            "0km": 79750,
+            "30000km": 78625,
+            "60000km": 77500,
+            "90000km": 75625,
+            "120000km": 73750
+          }
+        },
+        "5_years": {
+          "avg_price": 71813,
+          "low_price": 68438,
+          "high_price": 72938,
+          "prices_by_mileage": {
+            "0km": 74063,
+            "30000km": 72938,
+            "60000km": 71813,
+            "90000km": 70313,
+            "120000km": 68438
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.378Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayenne",
+      "msrp_eur": 95000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 92150,
+          "low_price": 89300,
+          "high_price": 95000,
+          "prices_by_mileage": {
+            "0km": 95000,
+            "30000km": 93575,
+            "60000km": 92150,
+            "90000km": 90725,
+            "120000km": 89300
+          }
+        },
+        "1_years": {
+          "avg_price": 75763,
+          "low_price": 72913,
+          "high_price": 77188,
+          "prices_by_mileage": {
+            "0km": 78328,
+            "30000km": 77188,
+            "60000km": 75763,
+            "90000km": 74338,
+            "120000km": 72913
+          }
+        },
+        "2_years": {
+          "avg_price": 65075,
+          "low_price": 62225,
+          "high_price": 66500,
+          "prices_by_mileage": {
+            "0km": 67355,
+            "30000km": 66500,
+            "60000km": 65075,
+            "90000km": 63650,
+            "120000km": 62225
+          }
+        },
+        "3_years": {
+          "avg_price": 56288,
+          "low_price": 53438,
+          "high_price": 57428,
+          "prices_by_mileage": {
+            "0km": 58283,
+            "30000km": 57428,
+            "60000km": 56288,
+            "90000km": 54863,
+            "120000km": 53438
+          }
+        },
+        "4_years": {
+          "avg_price": 49400,
+          "low_price": 46550,
+          "high_price": 50255,
+          "prices_by_mileage": {
+            "0km": 51110,
+            "30000km": 50255,
+            "60000km": 49400,
+            "90000km": 47975,
+            "120000km": 46550
+          }
+        },
+        "5_years": {
+          "avg_price": 43178,
+          "low_price": 40613,
+          "high_price": 44033,
+          "prices_by_mileage": {
+            "0km": 44888,
+            "30000km": 44033,
+            "60000km": 43178,
+            "90000km": 42038,
+            "120000km": 40613
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.464Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Porsche",
+      "model": "Taycan",
+      "msrp_eur": 98000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 95060,
+          "low_price": 92120,
+          "high_price": 98000,
+          "prices_by_mileage": {
+            "0km": 98000,
+            "30000km": 96530,
+            "60000km": 95060,
+            "90000km": 93590,
+            "120000km": 92120
+          }
+        },
+        "1_years": {
+          "avg_price": 66395,
+          "low_price": 63455,
+          "high_price": 67865,
+          "prices_by_mileage": {
+            "0km": 69041,
+            "30000km": 67865,
+            "60000km": 66395,
+            "90000km": 64925,
+            "120000km": 63455
+          }
+        },
+        "2_years": {
+          "avg_price": 52430,
+          "low_price": 49490,
+          "high_price": 53900,
+          "prices_by_mileage": {
+            "0km": 54782,
+            "30000km": 53900,
+            "60000km": 52430,
+            "90000km": 50960,
+            "120000km": 49490
+          }
+        },
+        "3_years": {
+          "avg_price": 43365,
+          "low_price": 40425,
+          "high_price": 44541,
+          "prices_by_mileage": {
+            "0km": 45423,
+            "30000km": 44541,
+            "60000km": 43365,
+            "90000km": 41895,
+            "120000km": 40425
+          }
+        },
+        "4_years": {
+          "avg_price": 37240,
+          "low_price": 34300,
+          "high_price": 38122,
+          "prices_by_mileage": {
+            "0km": 39004,
+            "30000km": 38122,
+            "60000km": 37240,
+            "90000km": 35770,
+            "120000km": 34300
+          }
+        },
+        "5_years": {
+          "avg_price": 31801,
+          "low_price": 29155,
+          "high_price": 32683,
+          "prices_by_mileage": {
+            "0km": 33565,
+            "30000km": 32683,
+            "60000km": 31801,
+            "90000km": 30625,
+            "120000km": 29155
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.534Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Porsche",
+      "model": "Macan",
+      "msrp_eur": 72000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 69840,
+          "low_price": 67680,
+          "high_price": 72000,
+          "prices_by_mileage": {
+            "0km": 72000,
+            "30000km": 70920,
+            "60000km": 69840,
+            "90000km": 68760,
+            "120000km": 67680
+          }
+        },
+        "1_years": {
+          "avg_price": 57420,
+          "low_price": 55260,
+          "high_price": 58500,
+          "prices_by_mileage": {
+            "0km": 59364,
+            "30000km": 58500,
+            "60000km": 57420,
+            "90000km": 56340,
+            "120000km": 55260
+          }
+        },
+        "2_years": {
+          "avg_price": 49320,
+          "low_price": 47160,
+          "high_price": 50400,
+          "prices_by_mileage": {
+            "0km": 51048,
+            "30000km": 50400,
+            "60000km": 49320,
+            "90000km": 48240,
+            "120000km": 47160
+          }
+        },
+        "3_years": {
+          "avg_price": 42660,
+          "low_price": 40500,
+          "high_price": 43524,
+          "prices_by_mileage": {
+            "0km": 44172,
+            "30000km": 43524,
+            "60000km": 42660,
+            "90000km": 41580,
+            "120000km": 40500
+          }
+        },
+        "4_years": {
+          "avg_price": 37440,
+          "low_price": 35280,
+          "high_price": 38088,
+          "prices_by_mileage": {
+            "0km": 38736,
+            "30000km": 38088,
+            "60000km": 37440,
+            "90000km": 36360,
+            "120000km": 35280
+          }
+        },
+        "5_years": {
+          "avg_price": 32724,
+          "low_price": 30780,
+          "high_price": 33372,
+          "prices_by_mileage": {
+            "0km": 34020,
+            "30000km": 33372,
+            "60000km": 32724,
+            "90000km": 31860,
+            "120000km": 30780
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.604Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "msrp_eur": 45000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 43650,
+          "low_price": 42300,
+          "high_price": 45000,
+          "prices_by_mileage": {
+            "0km": 45000,
+            "30000km": 44325,
+            "60000km": 43650,
+            "90000km": 42975,
+            "120000km": 42300
+          }
+        },
+        "1_years": {
+          "avg_price": 30488,
+          "low_price": 29138,
+          "high_price": 31163,
+          "prices_by_mileage": {
+            "0km": 31703,
+            "30000km": 31163,
+            "60000km": 30488,
+            "90000km": 29813,
+            "120000km": 29138
+          }
+        },
+        "2_years": {
+          "avg_price": 24075,
+          "low_price": 22725,
+          "high_price": 24750,
+          "prices_by_mileage": {
+            "0km": 25155,
+            "30000km": 24750,
+            "60000km": 24075,
+            "90000km": 23400,
+            "120000km": 22725
+          }
+        },
+        "3_years": {
+          "avg_price": 19913,
+          "low_price": 18563,
+          "high_price": 20453,
+          "prices_by_mileage": {
+            "0km": 20858,
+            "30000km": 20453,
+            "60000km": 19913,
+            "90000km": 19238,
+            "120000km": 18563
+          }
+        },
+        "4_years": {
+          "avg_price": 17100,
+          "low_price": 15750,
+          "high_price": 17505,
+          "prices_by_mileage": {
+            "0km": 17910,
+            "30000km": 17505,
+            "60000km": 17100,
+            "90000km": 16425,
+            "120000km": 15750
+          }
+        },
+        "5_years": {
+          "avg_price": 14603,
+          "low_price": 13388,
+          "high_price": 15008,
+          "prices_by_mileage": {
+            "0km": 15413,
+            "30000km": 15008,
+            "60000km": 14603,
+            "90000km": 14063,
+            "120000km": 13388
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.679Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model Y",
+      "msrp_eur": 52000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 50440,
+          "low_price": 48880,
+          "high_price": 52000,
+          "prices_by_mileage": {
+            "0km": 52000,
+            "30000km": 51220,
+            "60000km": 50440,
+            "90000km": 49660,
+            "120000km": 48880
+          }
+        },
+        "1_years": {
+          "avg_price": 35230,
+          "low_price": 33670,
+          "high_price": 36010,
+          "prices_by_mileage": {
+            "0km": 36634,
+            "30000km": 36010,
+            "60000km": 35230,
+            "90000km": 34450,
+            "120000km": 33670
+          }
+        },
+        "2_years": {
+          "avg_price": 27820,
+          "low_price": 26260,
+          "high_price": 28600,
+          "prices_by_mileage": {
+            "0km": 29068,
+            "30000km": 28600,
+            "60000km": 27820,
+            "90000km": 27040,
+            "120000km": 26260
+          }
+        },
+        "3_years": {
+          "avg_price": 23010,
+          "low_price": 21450,
+          "high_price": 23634,
+          "prices_by_mileage": {
+            "0km": 24102,
+            "30000km": 23634,
+            "60000km": 23010,
+            "90000km": 22230,
+            "120000km": 21450
+          }
+        },
+        "4_years": {
+          "avg_price": 19760,
+          "low_price": 18200,
+          "high_price": 20228,
+          "prices_by_mileage": {
+            "0km": 20696,
+            "30000km": 20228,
+            "60000km": 19760,
+            "90000km": 18980,
+            "120000km": 18200
+          }
+        },
+        "5_years": {
+          "avg_price": 16874,
+          "low_price": 15470,
+          "high_price": 17342,
+          "prices_by_mileage": {
+            "0km": 17810,
+            "30000km": 17342,
+            "60000km": 16874,
+            "90000km": 16250,
+            "120000km": 15470
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.772Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "msrp_eur": 105000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 101850,
+          "low_price": 98700,
+          "high_price": 105000,
+          "prices_by_mileage": {
+            "0km": 105000,
+            "30000km": 103425,
+            "60000km": 101850,
+            "90000km": 100275,
+            "120000km": 98700
+          }
+        },
+        "1_years": {
+          "avg_price": 71138,
+          "low_price": 67988,
+          "high_price": 72713,
+          "prices_by_mileage": {
+            "0km": 73973,
+            "30000km": 72713,
+            "60000km": 71138,
+            "90000km": 69563,
+            "120000km": 67988
+          }
+        },
+        "2_years": {
+          "avg_price": 56175,
+          "low_price": 53025,
+          "high_price": 57750,
+          "prices_by_mileage": {
+            "0km": 58695,
+            "30000km": 57750,
+            "60000km": 56175,
+            "90000km": 54600,
+            "120000km": 53025
+          }
+        },
+        "3_years": {
+          "avg_price": 46463,
+          "low_price": 43313,
+          "high_price": 47723,
+          "prices_by_mileage": {
+            "0km": 48668,
+            "30000km": 47723,
+            "60000km": 46463,
+            "90000km": 44888,
+            "120000km": 43313
+          }
+        },
+        "4_years": {
+          "avg_price": 39900,
+          "low_price": 36750,
+          "high_price": 40845,
+          "prices_by_mileage": {
+            "0km": 41790,
+            "30000km": 40845,
+            "60000km": 39900,
+            "90000km": 38325,
+            "120000km": 36750
+          }
+        },
+        "5_years": {
+          "avg_price": 34073,
+          "low_price": 31238,
+          "high_price": 35018,
+          "prices_by_mileage": {
+            "0km": 35963,
+            "30000km": 35018,
+            "60000km": 34073,
+            "90000km": 32813,
+            "120000km": 31238
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.832Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Ioniq 5",
+      "msrp_eur": 48000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 46560,
+          "low_price": 45120,
+          "high_price": 48000,
+          "prices_by_mileage": {
+            "0km": 48000,
+            "30000km": 47280,
+            "60000km": 46560,
+            "90000km": 45840,
+            "120000km": 45120
+          }
+        },
+        "1_years": {
+          "avg_price": 32520,
+          "low_price": 31080,
+          "high_price": 33240,
+          "prices_by_mileage": {
+            "0km": 33816,
+            "30000km": 33240,
+            "60000km": 32520,
+            "90000km": 31800,
+            "120000km": 31080
+          }
+        },
+        "2_years": {
+          "avg_price": 25680,
+          "low_price": 24240,
+          "high_price": 26400,
+          "prices_by_mileage": {
+            "0km": 26832,
+            "30000km": 26400,
+            "60000km": 25680,
+            "90000km": 24960,
+            "120000km": 24240
+          }
+        },
+        "3_years": {
+          "avg_price": 21240,
+          "low_price": 19800,
+          "high_price": 21816,
+          "prices_by_mileage": {
+            "0km": 22248,
+            "30000km": 21816,
+            "60000km": 21240,
+            "90000km": 20520,
+            "120000km": 19800
+          }
+        },
+        "4_years": {
+          "avg_price": 18240,
+          "low_price": 16800,
+          "high_price": 18672,
+          "prices_by_mileage": {
+            "0km": 19104,
+            "30000km": 18672,
+            "60000km": 18240,
+            "90000km": 17520,
+            "120000km": 16800
+          }
+        },
+        "5_years": {
+          "avg_price": 15576,
+          "low_price": 14280,
+          "high_price": 16008,
+          "prices_by_mileage": {
+            "0km": 16440,
+            "30000km": 16008,
+            "60000km": 15576,
+            "90000km": 15000,
+            "120000km": 14280
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.896Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Tucson",
+      "msrp_eur": 38000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 36860,
+          "low_price": 35720,
+          "high_price": 38000,
+          "prices_by_mileage": {
+            "0km": 38000,
+            "30000km": 37430,
+            "60000km": 36860,
+            "90000km": 36290,
+            "120000km": 35720
+          }
+        },
+        "1_years": {
+          "avg_price": 30305,
+          "low_price": 29165,
+          "high_price": 30875,
+          "prices_by_mileage": {
+            "0km": 31331,
+            "30000km": 30875,
+            "60000km": 30305,
+            "90000km": 29735,
+            "120000km": 29165
+          }
+        },
+        "2_years": {
+          "avg_price": 26030,
+          "low_price": 24890,
+          "high_price": 26600,
+          "prices_by_mileage": {
+            "0km": 26942,
+            "30000km": 26600,
+            "60000km": 26030,
+            "90000km": 25460,
+            "120000km": 24890
+          }
+        },
+        "3_years": {
+          "avg_price": 22515,
+          "low_price": 21375,
+          "high_price": 22971,
+          "prices_by_mileage": {
+            "0km": 23313,
+            "30000km": 22971,
+            "60000km": 22515,
+            "90000km": 21945,
+            "120000km": 21375
+          }
+        },
+        "4_years": {
+          "avg_price": 19760,
+          "low_price": 18620,
+          "high_price": 20102,
+          "prices_by_mileage": {
+            "0km": 20444,
+            "30000km": 20102,
+            "60000km": 19760,
+            "90000km": 19190,
+            "120000km": 18620
+          }
+        },
+        "5_years": {
+          "avg_price": 17271,
+          "low_price": 16245,
+          "high_price": 17613,
+          "prices_by_mileage": {
+            "0km": 17955,
+            "30000km": 17613,
+            "60000km": 17271,
+            "90000km": 16815,
+            "120000km": 16245
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:11.956Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC60",
+      "msrp_eur": 58000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 56260,
+          "low_price": 54520,
+          "high_price": 58000,
+          "prices_by_mileage": {
+            "0km": 58000,
+            "30000km": 57130,
+            "60000km": 56260,
+            "90000km": 55390,
+            "120000km": 54520
+          }
+        },
+        "1_years": {
+          "avg_price": 46255,
+          "low_price": 44515,
+          "high_price": 47125,
+          "prices_by_mileage": {
+            "0km": 47821,
+            "30000km": 47125,
+            "60000km": 46255,
+            "90000km": 45385,
+            "120000km": 44515
+          }
+        },
+        "2_years": {
+          "avg_price": 39730,
+          "low_price": 37990,
+          "high_price": 40600,
+          "prices_by_mileage": {
+            "0km": 41122,
+            "30000km": 40600,
+            "60000km": 39730,
+            "90000km": 38860,
+            "120000km": 37990
+          }
+        },
+        "3_years": {
+          "avg_price": 34365,
+          "low_price": 32625,
+          "high_price": 35061,
+          "prices_by_mileage": {
+            "0km": 35583,
+            "30000km": 35061,
+            "60000km": 34365,
+            "90000km": 33495,
+            "120000km": 32625
+          }
+        },
+        "4_years": {
+          "avg_price": 30160,
+          "low_price": 28420,
+          "high_price": 30682,
+          "prices_by_mileage": {
+            "0km": 31204,
+            "30000km": 30682,
+            "60000km": 30160,
+            "90000km": 29290,
+            "120000km": 28420
+          }
+        },
+        "5_years": {
+          "avg_price": 26361,
+          "low_price": 24795,
+          "high_price": 26883,
+          "prices_by_mileage": {
+            "0km": 27405,
+            "30000km": 26883,
+            "60000km": 26361,
+            "90000km": 25665,
+            "120000km": 24795
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:12.040Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC90",
+      "msrp_eur": 78000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 75660,
+          "low_price": 73320,
+          "high_price": 78000,
+          "prices_by_mileage": {
+            "0km": 78000,
+            "30000km": 76830,
+            "60000km": 75660,
+            "90000km": 74490,
+            "120000km": 73320
+          }
+        },
+        "1_years": {
+          "avg_price": 62205,
+          "low_price": 59865,
+          "high_price": 63375,
+          "prices_by_mileage": {
+            "0km": 64311,
+            "30000km": 63375,
+            "60000km": 62205,
+            "90000km": 61035,
+            "120000km": 59865
+          }
+        },
+        "2_years": {
+          "avg_price": 53430,
+          "low_price": 51090,
+          "high_price": 54600,
+          "prices_by_mileage": {
+            "0km": 55302,
+            "30000km": 54600,
+            "60000km": 53430,
+            "90000km": 52260,
+            "120000km": 51090
+          }
+        },
+        "3_years": {
+          "avg_price": 46215,
+          "low_price": 43875,
+          "high_price": 47151,
+          "prices_by_mileage": {
+            "0km": 47853,
+            "30000km": 47151,
+            "60000km": 46215,
+            "90000km": 45045,
+            "120000km": 43875
+          }
+        },
+        "4_years": {
+          "avg_price": 40560,
+          "low_price": 38220,
+          "high_price": 41262,
+          "prices_by_mileage": {
+            "0km": 41964,
+            "30000km": 41262,
+            "60000km": 40560,
+            "90000km": 39390,
+            "120000km": 38220
+          }
+        },
+        "5_years": {
+          "avg_price": 35451,
+          "low_price": 33345,
+          "high_price": 36153,
+          "prices_by_mileage": {
+            "0km": 36855,
+            "30000km": 36153,
+            "60000km": 35451,
+            "90000km": 34515,
+            "120000km": 33345
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:12.105Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Octavia",
+      "msrp_eur": 32000,
+      "segment": "compact",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 31040,
+          "low_price": 30080,
+          "high_price": 32000,
+          "prices_by_mileage": {
+            "0km": 32000,
+            "30000km": 31520,
+            "60000km": 31040,
+            "90000km": 30560,
+            "120000km": 30080
+          }
+        },
+        "1_years": {
+          "avg_price": 23280,
+          "low_price": 22320,
+          "high_price": 23760,
+          "prices_by_mileage": {
+            "0km": 24144,
+            "30000km": 23760,
+            "60000km": 23280,
+            "90000km": 22800,
+            "120000km": 22320
+          }
+        },
+        "2_years": {
+          "avg_price": 18720,
+          "low_price": 17760,
+          "high_price": 19200,
+          "prices_by_mileage": {
+            "0km": 19488,
+            "30000km": 19200,
+            "60000km": 18720,
+            "90000km": 18240,
+            "120000km": 17760
+          }
+        },
+        "3_years": {
+          "avg_price": 15760,
+          "low_price": 14800,
+          "high_price": 16144,
+          "prices_by_mileage": {
+            "0km": 16432,
+            "30000km": 16144,
+            "60000km": 15760,
+            "90000km": 15280,
+            "120000km": 14800
+          }
+        },
+        "4_years": {
+          "avg_price": 13440,
+          "low_price": 12480,
+          "high_price": 13728,
+          "prices_by_mileage": {
+            "0km": 14016,
+            "30000km": 13728,
+            "60000km": 13440,
+            "90000km": 12960,
+            "120000km": 12480
+          }
+        },
+        "5_years": {
+          "avg_price": 11664,
+          "low_price": 10800,
+          "high_price": 11952,
+          "prices_by_mileage": {
+            "0km": 12240,
+            "30000km": 11952,
+            "60000km": 11664,
+            "90000km": 11280,
+            "120000km": 10800
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:12.165Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq",
+      "msrp_eur": 42000,
+      "segment": "premium_suv",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 40740,
+          "low_price": 39480,
+          "high_price": 42000,
+          "prices_by_mileage": {
+            "0km": 42000,
+            "30000km": 41370,
+            "60000km": 40740,
+            "90000km": 40110,
+            "120000km": 39480
+          }
+        },
+        "1_years": {
+          "avg_price": 33495,
+          "low_price": 32235,
+          "high_price": 34125,
+          "prices_by_mileage": {
+            "0km": 34629,
+            "30000km": 34125,
+            "60000km": 33495,
+            "90000km": 32865,
+            "120000km": 32235
+          }
+        },
+        "2_years": {
+          "avg_price": 28770,
+          "low_price": 27510,
+          "high_price": 29400,
+          "prices_by_mileage": {
+            "0km": 29778,
+            "30000km": 29400,
+            "60000km": 28770,
+            "90000km": 28140,
+            "120000km": 27510
+          }
+        },
+        "3_years": {
+          "avg_price": 24885,
+          "low_price": 23625,
+          "high_price": 25389,
+          "prices_by_mileage": {
+            "0km": 25767,
+            "30000km": 25389,
+            "60000km": 24885,
+            "90000km": 24255,
+            "120000km": 23625
+          }
+        },
+        "4_years": {
+          "avg_price": 21840,
+          "low_price": 20580,
+          "high_price": 22218,
+          "prices_by_mileage": {
+            "0km": 22596,
+            "30000km": 22218,
+            "60000km": 21840,
+            "90000km": 21210,
+            "120000km": 20580
+          }
+        },
+        "5_years": {
+          "avg_price": 19089,
+          "low_price": 17955,
+          "high_price": 19467,
+          "prices_by_mileage": {
+            "0km": 19845,
+            "30000km": 19467,
+            "60000km": 19089,
+            "90000km": 18585,
+            "120000km": 17955
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:12.223Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq",
+      "msrp_eur": 48000,
+      "segment": "electric",
+      "prices_by_age": {
+        "0_years": {
+          "avg_price": 46560,
+          "low_price": 45120,
+          "high_price": 48000,
+          "prices_by_mileage": {
+            "0km": 48000,
+            "30000km": 47280,
+            "60000km": 46560,
+            "90000km": 45840,
+            "120000km": 45120
+          }
+        },
+        "1_years": {
+          "avg_price": 32520,
+          "low_price": 31080,
+          "high_price": 33240,
+          "prices_by_mileage": {
+            "0km": 33816,
+            "30000km": 33240,
+            "60000km": 32520,
+            "90000km": 31800,
+            "120000km": 31080
+          }
+        },
+        "2_years": {
+          "avg_price": 25680,
+          "low_price": 24240,
+          "high_price": 26400,
+          "prices_by_mileage": {
+            "0km": 26832,
+            "30000km": 26400,
+            "60000km": 25680,
+            "90000km": 24960,
+            "120000km": 24240
+          }
+        },
+        "3_years": {
+          "avg_price": 21240,
+          "low_price": 19800,
+          "high_price": 21816,
+          "prices_by_mileage": {
+            "0km": 22248,
+            "30000km": 21816,
+            "60000km": 21240,
+            "90000km": 20520,
+            "120000km": 19800
+          }
+        },
+        "4_years": {
+          "avg_price": 18240,
+          "low_price": 16800,
+          "high_price": 18672,
+          "prices_by_mileage": {
+            "0km": 19104,
+            "30000km": 18672,
+            "60000km": 18240,
+            "90000km": 17520,
+            "120000km": 16800
+          }
+        },
+        "5_years": {
+          "avg_price": 15576,
+          "low_price": 14280,
+          "high_price": 16008,
+          "prices_by_mileage": {
+            "0km": 16440,
+            "30000km": 16008,
+            "60000km": 15576,
+            "90000km": 15000,
+            "120000km": 14280
+          }
+        }
+      },
+      "market_data": {
+        "scraped_at": "2026-02-01T19:34:12.329Z",
+        "source": "calculated",
+        "currency": "EUR",
+        "market": "EU"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-13T10:31:00.331Z",
+  "stats": {
+    "phase1": {
+      "processed": 483,
+      "inserted": 0,
+      "updated": 113,
+      "enriched": 6,
+      "skipped": 182,
+      "unmatched": 182
+    },
+    "phase2": {
+      "processed": 62,
+      "inserted": 0,
+      "updated": 0,
+      "skipped": 45,
+      "unmatched": 17
+    },
+    "phase3": {
+      "processed": 45,
+      "inserted": 0,
+      "updated": 0,
+      "skipped": 32,
+      "unmatched": 13
+    },
+    "phase4": {
+      "processed": 3224,
+      "inserted": 1,
+      "updated": 139,
+      "skipped": 2505,
+      "unmatched": 579,
+      "skippedEuroNCAP": 909
+    },
+    "phase5": 0,
+    "phase6": 150
+  },
+  "before": {
+    "A": 496,
+    "B": 904,
+    "C": 776,
+    "D": 943,
+    "E": 534
+  },
+  "after": {
+    "A": 736,
+    "B": 945,
+    "C": 624,
+    "D": 866,
+    "E": 483
+  },
+  "verifiedGens": 1681,
+  "verifiedPct": "39.4",
+  "score": "73.6"
+}

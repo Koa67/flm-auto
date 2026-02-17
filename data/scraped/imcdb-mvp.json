@@ -1,0 +1,15 @@
+{
+  "source": "imcdb",
+  "type": "pop_culture",
+  "scraped_at": "2026-01-31T08:53:14.835Z",
+  "brands": {
+    "BMW": [],
+    "Mercedes-Benz": [],
+    "Audi": [],
+    "Porsche": [],
+    "Volkswagen": [],
+    "Skoda": []
+  },
+  "total_vehicles": 0,
+  "total_appearances": 0
+}

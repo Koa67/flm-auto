@@ -1,0 +1,362 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T05:30:00Z",
+    "version": "1.0",
+    "description": "Head-to-head comparisons from professional tests and drag races"
+  },
+  
+  "generation_battles": {
+    "compact_sport_sedans": {
+      "current_gen_2024": {
+        "contenders": [
+          {
+            "vehicle": "BMW M3 Competition xDrive (G80)",
+            "year": "2021-present",
+            "engine": "3.0L Twin-Turbo I6 (S58)",
+            "power_hp": 503,
+            "torque_nm": 650,
+            "zero_to_sixty_sec": 3.4,
+            "quarter_mile_sec": 11.2,
+            "top_speed_mph": 180,
+            "weight_kg": 1730,
+            "price_usd": 78000,
+            "drivetrain": "AWD (M xDrive)"
+          },
+          {
+            "vehicle": "Mercedes-AMG C63 S E Performance (W206)",
+            "year": "2023-present",
+            "engine": "2.0L Turbo I4 + Electric Motor",
+            "power_hp": 671,
+            "torque_nm": 1020,
+            "zero_to_sixty_sec": 3.4,
+            "quarter_mile_sec": 11.5,
+            "top_speed_mph": 174,
+            "weight_kg": 2111,
+            "price_usd": 85000,
+            "drivetrain": "AWD",
+            "notes": "Controversial 4-cylinder, heaviest in class"
+          },
+          {
+            "vehicle": "Audi RS4 Avant Competition Plus (B9.5)",
+            "year": "2023-present",
+            "engine": "2.9L Twin-Turbo V6",
+            "power_hp": 444,
+            "torque_nm": 600,
+            "zero_to_sixty_sec": 3.9,
+            "quarter_mile_sec": 12.0,
+            "top_speed_mph": 174,
+            "weight_kg": 1790,
+            "price_usd": 82000,
+            "drivetrain": "AWD (quattro)"
+          }
+        ],
+        "verdict": {
+          "winner_performance": "BMW M3 Competition",
+          "winner_practicality": "Audi RS4 Avant",
+          "most_controversial": "Mercedes-AMG C63 (4-cylinder)"
+        }
+      },
+      
+      "previous_gen_v8_era": {
+        "contenders": [
+          {
+            "vehicle": "BMW M3 (E92)",
+            "years": "2007-2013",
+            "engine": "4.0L V8 (S65)",
+            "power_hp": 414,
+            "torque_nm": 400,
+            "zero_to_sixty_sec": 4.1,
+            "quarter_mile_sec": 12.4,
+            "character": "High-revving, motorsport DNA"
+          },
+          {
+            "vehicle": "Mercedes-Benz C63 AMG (W204)",
+            "years": "2008-2014",
+            "engine": "6.2L V8 (M156)",
+            "power_hp": 451,
+            "torque_nm": 600,
+            "zero_to_sixty_sec": 4.3,
+            "quarter_mile_sec": 12.5,
+            "character": "Brutal, muscle car feel"
+          },
+          {
+            "vehicle": "Audi RS4 (B7)",
+            "years": "2006-2008",
+            "engine": "4.2L V8 (BNS)",
+            "power_hp": 420,
+            "torque_nm": 430,
+            "zero_to_sixty_sec": 4.5,
+            "quarter_mile_sec": 13.1,
+            "character": "All-weather capability, refined"
+          }
+        ],
+        "verdict": {
+          "source": "Car and Driver December 2007",
+          "first_place": "BMW M3 - Best driving experience",
+          "second_place": "Mercedes C63 AMG - Raw power and drama",
+          "third_place": "Audi RS4 - Most competent but least exciting"
+        }
+      }
+    },
+    
+    "mid_size_sport_sedans": {
+      "current_gen": {
+        "contenders": [
+          {
+            "vehicle": "BMW M5 Competition (G90)",
+            "year": "2024-present",
+            "engine": "4.4L Twin-Turbo V8 + Electric",
+            "power_hp": 717,
+            "torque_nm": 1000,
+            "zero_to_sixty_sec": 3.4,
+            "quarter_mile_sec": 11.3,
+            "drivetrain": "AWD (M xDrive)",
+            "type": "PHEV"
+          },
+          {
+            "vehicle": "Mercedes-AMG E63 S (W214)",
+            "year": "2024-present",
+            "engine": "4.0L Twin-Turbo V8 + Electric",
+            "power_hp": 805,
+            "torque_nm": 1055,
+            "zero_to_sixty_sec": 3.2,
+            "quarter_mile_sec": 11.0,
+            "drivetrain": "AWD (4MATIC+)",
+            "type": "PHEV"
+          },
+          {
+            "vehicle": "Audi RS6 Performance (C8)",
+            "year": "2024-present",
+            "engine": "4.0L Twin-Turbo V8 MHEV",
+            "power_hp": 621,
+            "torque_nm": 850,
+            "zero_to_sixty_sec": 3.4,
+            "quarter_mile_sec": 11.1,
+            "drivetrain": "AWD (quattro)",
+            "type": "Mild Hybrid"
+          }
+        ]
+      },
+      
+      "f90_era": {
+        "carwow_drag_race_results": {
+          "source": "Carwow July 2024",
+          "conditions": "Dry, same driver",
+          "results": [
+            {"vehicle": "Audi RS6 Performance", "quarter_mile": 11.1, "power_hp": 630},
+            {"vehicle": "BMW M5 Competition", "quarter_mile": 11.1, "power_hp": 625},
+            {"vehicle": "Mercedes-AMG E63 S", "quarter_mile": 11.1, "power_hp": 612}
+          ],
+          "verdict": "Photo finish - all within 0.05 seconds"
+        }
+      }
+    },
+    
+    "performance_suvs": {
+      "mid_size": {
+        "contenders": [
+          {
+            "vehicle": "BMW X3 M Competition",
+            "engine": "3.0L Twin-Turbo I6",
+            "power_hp": 503,
+            "zero_to_sixty": 3.8,
+            "quarter_mile": 12.0
+          },
+          {
+            "vehicle": "Mercedes-AMG GLC 63 S",
+            "engine": "4.0L Twin-Turbo V8",
+            "power_hp": 503,
+            "zero_to_sixty": 3.6,
+            "quarter_mile": 11.9
+          },
+          {
+            "vehicle": "Audi RS Q8",
+            "engine": "4.0L Twin-Turbo V8",
+            "power_hp": 591,
+            "zero_to_sixty": 3.7,
+            "quarter_mile": 11.7
+          }
+        ]
+      },
+      
+      "full_size": {
+        "contenders": [
+          {
+            "vehicle": "BMW X5 M Competition",
+            "engine": "4.4L Twin-Turbo V8",
+            "power_hp": 617,
+            "zero_to_sixty": 3.7,
+            "quarter_mile": 11.7
+          },
+          {
+            "vehicle": "Mercedes-AMG GLE 63 S",
+            "engine": "4.0L Twin-Turbo V8",
+            "power_hp": 603,
+            "zero_to_sixty": 3.7,
+            "quarter_mile": 12.2
+          },
+          {
+            "vehicle": "Porsche Cayenne Turbo GT",
+            "engine": "4.0L Twin-Turbo V8",
+            "power_hp": 631,
+            "zero_to_sixty": 3.1,
+            "quarter_mile": 11.2
+          },
+          {
+            "vehicle": "Lamborghini Urus Performante",
+            "engine": "4.0L Twin-Turbo V8",
+            "power_hp": 657,
+            "zero_to_sixty": 3.3,
+            "quarter_mile": 11.7
+          }
+        ]
+      }
+    },
+    
+    "electric_sedans": {
+      "current_gen": [
+        {
+          "vehicle": "Tesla Model S Plaid",
+          "power_hp": 1020,
+          "zero_to_sixty": 1.99,
+          "quarter_mile": 9.6,
+          "range_miles": 390
+        },
+        {
+          "vehicle": "Porsche Taycan Turbo GT",
+          "power_hp": 1019,
+          "zero_to_sixty": 2.1,
+          "quarter_mile": 9.8,
+          "range_miles": 305
+        },
+        {
+          "vehicle": "Audi RS e-tron GT Performance",
+          "power_hp": 912,
+          "zero_to_sixty": 2.8,
+          "quarter_mile": 10.0,
+          "range_miles": 295
+        },
+        {
+          "vehicle": "BMW i4 M50",
+          "power_hp": 536,
+          "zero_to_sixty": 3.7,
+          "quarter_mile": 11.9,
+          "range_miles": 270
+        },
+        {
+          "vehicle": "Mercedes-AMG EQE 53",
+          "power_hp": 677,
+          "zero_to_sixty": 3.2,
+          "quarter_mile": 11.5,
+          "range_miles": 285
+        }
+      ]
+    }
+  },
+  
+  "famous_drag_race_matchups": {
+    "carwow_classics": [
+      {
+        "title": "BMW M5 vs RS6 vs E63 S - The Holy Trinity",
+        "date": "2024",
+        "result": "Three-way tie (11.1s)",
+        "views": "15M+",
+        "significance": "Proves German trio evenly matched"
+      },
+      {
+        "title": "M3 Competition vs C63 S vs RS4",
+        "date": "2023",
+        "result": "M3 wins by 0.3s",
+        "notes": "M3's AWD advantage"
+      },
+      {
+        "title": "Tesla Plaid vs Everything",
+        "date": "2022",
+        "result": "Plaid wins vs all ICE cars",
+        "significance": "EV acceleration dominance"
+      }
+    ],
+    
+    "tuned_vs_stock": {
+      "examples": [
+        {
+          "matchup": "800hp BMW M5 vs Stock Lamborghini Huracan",
+          "result": "M5 wins",
+          "margin": "2+ car lengths"
+        },
+        {
+          "matchup": "1000hp Audi RS6 vs Stock Ferrari SF90",
+          "result": "SF90 wins",
+          "notes": "Hybrid launch advantage"
+        }
+      ]
+    }
+  },
+  
+  "nurburgring_lap_times": {
+    "production_sedans": [
+      {"vehicle": "Porsche Taycan Turbo GT", "time": "7:07.55", "year": 2024},
+      {"vehicle": "Mercedes-AMG GT 63 S E Performance", "time": "7:23.30", "year": 2023},
+      {"vehicle": "BMW M5 CS", "time": "7:29.57", "year": 2021},
+      {"vehicle": "Alfa Romeo Giulia GTAm", "time": "7:32.00", "year": 2021},
+      {"vehicle": "Mercedes-AMG E63 S", "time": "7:45.19", "year": 2017}
+    ],
+    "production_suvs": [
+      {"vehicle": "Porsche Cayenne Turbo GT", "time": "7:38.92", "year": 2021},
+      {"vehicle": "Audi RS Q8", "time": "7:42.67", "year": 2019},
+      {"vehicle": "Mercedes-AMG GLC 63 S", "time": "7:49.00", "year": 2018},
+      {"vehicle": "BMW X3 M Competition", "time": "7:57.00", "year": 2020}
+    ]
+  },
+  
+  "top_gear_track_times": {
+    "examples": [
+      {"vehicle": "Ferrari SF90", "time": "1:11.0"},
+      {"vehicle": "Porsche 911 GT3 RS", "time": "1:15.0"},
+      {"vehicle": "BMW M5 CS", "time": "1:19.0"},
+      {"vehicle": "Mercedes-AMG GT R", "time": "1:17.0"}
+    ],
+    "note": "Times vary based on conditions and driver"
+  },
+  
+  "real_world_observations": {
+    "bmw_m3_g80": {
+      "pros": [
+        "Best steering feel in class",
+        "Most adjustable dynamics (M xDrive)",
+        "Strong aftermarket support",
+        "Best manual option"
+      ],
+      "cons": [
+        "Controversial design",
+        "Heavy vs E46/E92",
+        "Expensive options"
+      ]
+    },
+    "mercedes_c63_w206": {
+      "pros": [
+        "Most powerful in class",
+        "High-tech hybrid system",
+        "Best interior quality"
+      ],
+      "cons": [
+        "4-cylinder controversial",
+        "Heaviest in class (2,111kg)",
+        "No manual option",
+        "Battery weight affects handling"
+      ]
+    },
+    "audi_rs4_b9": {
+      "pros": [
+        "Quattro all-weather capability",
+        "Avant wagon practicality",
+        "Most understated styling"
+      ],
+      "cons": [
+        "Least powerful",
+        "Most understeer",
+        "No RWD mode"
+      ]
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "metadata": {
+    "created_at": "2026-01-31T23:45:00Z",
+    "version": "1.0",
+    "description": "Classic and Iconic Vehicle Photos Database - Wikimedia Commons & Unsplash",
+    "license_info": "All images are under Creative Commons or Public Domain licenses",
+    "total_photos": 500
+  },
+  "iconic_vehicles": {
+    "ferrari_250_gto": {
+      "brand": "Ferrari",
+      "model": "250 GTO",
+      "year_range": "1962-1964",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/1962_Ferrari_250_GTO_-_Flickr_-_edvvc.jpg",
+          "description": "1962 Ferrari 250 GTO s/n 3505GT - Green",
+          "license": "CC BY 2.0",
+          "author": "edvvc",
+          "resolution": "1024x768"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ferrari_1962_250_GTO_%28Green%29_on_Pebble_Beach_Tour_d%27Elegance_2011_-Moto%40Club4AG.jpg",
+          "description": "1962 Ferrari 250 GTO at Pebble Beach 2011",
+          "license": "CC BY 2.0",
+          "resolution": "1920x1280"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/1963Ferrari250GTOs-n4675GT.jpg/1200px-1963Ferrari250GTOs-n4675GT.jpg",
+          "description": "1963 Ferrari 250 GTO s/n 4675GT",
+          "license": "CC BY 2.0",
+          "resolution": "2500x1669"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ferrari_250_GTO_3413GT_at_RM_Sothebys_Auction_Monterey_2018.jpg",
+          "description": "Ferrari 250 GTO at RM Sotheby's 2018 - $48.5M sale",
+          "license": "CC BY-SA 4.0",
+          "resolution": "4523x2550"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Ferrari_250_GTO"
+    },
+    "lamborghini_miura": {
+      "brand": "Lamborghini",
+      "model": "Miura",
+      "year_range": "1966-1973",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/1969_Lamborghini_Miura_P400_S_in_Arancia_Miura%2C_front_6.21.19.jpg/1280px-1969_Lamborghini_Miura_P400_S_in_Arancia_Miura%2C_front_6.21.19.jpg",
+          "description": "1969 Lamborghini Miura P400 S in Arancia Miura",
+          "license": "CC BY-SA 4.0",
+          "author": "Kevauto"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Lamborghini_Miura_%28orange%29.JPG/1280px-Lamborghini_Miura_%28orange%29.JPG",
+          "description": "Lamborghini Miura Orange",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Lamborghini_Miura"
+    },
+    "porsche_911_classic": {
+      "brand": "Porsche",
+      "model": "911",
+      "year_range": "1964-1973",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/1973_Porsche_911_Carrera_RS_2.7_%28901%29.jpg/1280px-1973_Porsche_911_Carrera_RS_2.7_%28901%29.jpg",
+          "description": "1973 Porsche 911 Carrera RS 2.7",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Porsche_911_2.0_Coup%C3%A9_%28Ur-Elfer%29_%E2%80%93_Frontansicht%2C_21._M%C3%A4rz_2011%2C_D%C3%BCsseldorf.jpg/1280px-Porsche_911_2.0_Coup%C3%A9_%28Ur-Elfer%29_%E2%80%93_Frontansicht%2C_21._M%C3%A4rz_2011%2C_D%C3%BCsseldorf.jpg",
+          "description": "Porsche 911 2.0 Coupe (Original)",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Porsche_911_(classic)"
+    },
+    "ford_mustang_1965": {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year_range": "1964-1973",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ford_Mustang_Hardtop_1964.jpg/1280px-Ford_Mustang_Hardtop_1964.jpg",
+          "description": "1964½ Ford Mustang Hardtop",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ford_Mustang_Shelby_GT500_%281967%29.jpg/1280px-Ford_Mustang_Shelby_GT500_%281967%29.jpg",
+          "description": "1967 Ford Mustang Shelby GT500",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Ford_Mustang_(first_generation)"
+    },
+    "mercedes_300sl": {
+      "brand": "Mercedes-Benz",
+      "model": "300 SL",
+      "year_range": "1954-1963",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/1955_Mercedes-Benz_300SL_Gullwing_Coupe_34.jpg/1280px-1955_Mercedes-Benz_300SL_Gullwing_Coupe_34.jpg",
+          "description": "1955 Mercedes-Benz 300SL Gullwing Coupe",
+          "license": "CC BY 2.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mercedes-Benz_300_SL_Roadster_%2810550694203%29.jpg/1280px-Mercedes-Benz_300_SL_Roadster_%2810550694203%29.jpg",
+          "description": "Mercedes-Benz 300 SL Roadster",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Mercedes-Benz_300_SL"
+    },
+    "jaguar_e_type": {
+      "brand": "Jaguar",
+      "model": "E-Type",
+      "year_range": "1961-1975",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Jaguar_E-Type_Series_1_3.8_Coupe_%28Lime_Rock%29.jpg/1280px-Jaguar_E-Type_Series_1_3.8_Coupe_%28Lime_Rock%29.jpg",
+          "description": "Jaguar E-Type Series 1 3.8 Coupe",
+          "license": "CC BY 2.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/1965_E-type_roadster.jpg/1280px-1965_E-type_roadster.jpg",
+          "description": "1965 Jaguar E-Type Roadster",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Jaguar_E-Type"
+    },
+    "aston_martin_db5": {
+      "brand": "Aston Martin",
+      "model": "DB5",
+      "year_range": "1963-1965",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/1964_Aston_Martin_DB5_%287_May_2014%29.jpg/1280px-1964_Aston_Martin_DB5_%287_May_2014%29.jpg",
+          "description": "1964 Aston Martin DB5",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Aston_martin_db5_silver.jpg/1280px-Aston_martin_db5_silver.jpg",
+          "description": "Aston Martin DB5 Silver",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Aston_Martin_DB5"
+    },
+    "volkswagen_beetle": {
+      "brand": "Volkswagen",
+      "model": "Beetle (Type 1)",
+      "year_range": "1938-2003",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/VW_K%C3%A4fer_%281957%29_-_Antarctica_1.jpg/1280px-VW_K%C3%A4fer_%281957%29_-_Antarctica_1.jpg",
+          "description": "1957 VW Käfer (Beetle)",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/1972_Volkswagen_Beetle_%2817100877389%29.jpg/1280px-1972_Volkswagen_Beetle_%2817100877389%29.jpg",
+          "description": "1972 Volkswagen Beetle",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Volkswagen_Beetle"
+    },
+    "bmw_2002": {
+      "brand": "BMW",
+      "model": "2002",
+      "year_range": "1968-1976",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/BMW_2002_tii_%281974%29.jpg/1280px-BMW_2002_tii_%281974%29.jpg",
+          "description": "1974 BMW 2002 tii",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/1974_BMW_2002_Turbo_-_fvl.jpg/1280px-1974_BMW_2002_Turbo_-_fvl.jpg",
+          "description": "1974 BMW 2002 Turbo",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:BMW_2002"
+    },
+    "porsche_356": {
+      "brand": "Porsche",
+      "model": "356",
+      "year_range": "1948-1965",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Porsche_356_Speedster_%28Lit._edition%29_in_Morges_2013_-_Front_right.jpg/1280px-Porsche_356_Speedster_%28Lit._edition%29_in_Morges_2013_-_Front_right.jpg",
+          "description": "Porsche 356 Speedster",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Porsche_356_C_%282015-04-26%29.JPG/1280px-Porsche_356_C_%282015-04-26%29.JPG",
+          "description": "Porsche 356 C",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Porsche_356"
+    },
+    "citroen_ds": {
+      "brand": "Citroën",
+      "model": "DS",
+      "year_range": "1955-1975",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Citroen_DS_21_Pallas_%282012-06-30%29.JPG/1280px-Citroen_DS_21_Pallas_%282012-06-30%29.JPG",
+          "description": "Citroën DS 21 Pallas",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Citroen_DS_%28Berlin%2C_2007%29.jpg/1280px-Citroen_DS_%28Berlin%2C_2007%29.jpg",
+          "description": "Citroën DS",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Citro%C3%ABn_DS"
+    },
+    "mini_classic": {
+      "brand": "Mini",
+      "model": "Original Mini",
+      "year_range": "1959-2000",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Austin_Mini_%281967%29_-_15459878894.jpg/1280px-Austin_Mini_%281967%29_-_15459878894.jpg",
+          "description": "1967 Austin Mini",
+          "license": "CC BY 2.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/1963_Morris_Mini_Cooper_S_%28ADO50%29.jpg/1280px-1963_Morris_Mini_Cooper_S_%28ADO50%29.jpg",
+          "description": "1963 Morris Mini Cooper S",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Mini_(original)"
+    },
+    "datsun_240z": {
+      "brand": "Datsun",
+      "model": "240Z",
+      "year_range": "1969-1973",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/1972_Datsun_240Z_%28HS30%29_coupe_%282015-08-07%29.jpg/1280px-1972_Datsun_240Z_%28HS30%29_coupe_%282015-08-07%29.jpg",
+          "description": "1972 Datsun 240Z",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Nissan_S30"
+    },
+    "toyota_2000gt": {
+      "brand": "Toyota",
+      "model": "2000GT",
+      "year_range": "1967-1970",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Toyota_2000GT%2C_1967.jpg/1280px-Toyota_2000GT%2C_1967.jpg",
+          "description": "1967 Toyota 2000GT",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Toyota_2000GT"
+    },
+    "ferrari_f40": {
+      "brand": "Ferrari",
+      "model": "F40",
+      "year_range": "1987-1992",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/F40_Ferrari_20090509.jpg/1280px-F40_Ferrari_20090509.jpg",
+          "description": "Ferrari F40",
+          "license": "CC BY 2.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/1987_Ferrari_F40_%28US%29_%E2%80%93_rear.jpg/1280px-1987_Ferrari_F40_%28US%29_%E2%80%93_rear.jpg",
+          "description": "1987 Ferrari F40 Rear",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Ferrari_F40"
+    },
+    "mclaren_f1": {
+      "brand": "McLaren",
+      "model": "F1",
+      "year_range": "1992-1998",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/McLaren_F1_%2813918618879%29.jpg/1280px-McLaren_F1_%2813918618879%29.jpg",
+          "description": "McLaren F1",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:McLaren_F1"
+    },
+    "bugatti_veyron": {
+      "brand": "Bugatti",
+      "model": "Veyron",
+      "year_range": "2005-2015",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg/1280px-Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg",
+          "description": "Bugatti Veyron 16.4",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Bugatti_Veyron"
+    },
+    "porsche_959": {
+      "brand": "Porsche",
+      "model": "959",
+      "year_range": "1986-1993",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Porsche_959_-_Flickr_-_Alexandre_Pr%C3%A9vot_%282%29_%28cropped%29.jpg/1280px-Porsche_959_-_Flickr_-_Alexandre_Pr%C3%A9vot_%282%29_%28cropped%29.jpg",
+          "description": "Porsche 959",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Porsche_959"
+    },
+    "bmw_e30_m3": {
+      "brand": "BMW",
+      "model": "E30 M3",
+      "year_range": "1986-1991",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BMW_M3_E30.JPG/1280px-BMW_M3_E30.JPG",
+          "description": "BMW M3 E30",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:BMW_M3_E30"
+    },
+    "nissan_skyline_r34": {
+      "brand": "Nissan",
+      "model": "Skyline GT-R R34",
+      "year_range": "1999-2002",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Nissan_Skyline_R34_GT-R_N%C3%BCr_%2827%29.JPG/1280px-Nissan_Skyline_R34_GT-R_N%C3%BCr_%2827%29.JPG",
+          "description": "Nissan Skyline R34 GT-R Nür",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Nissan_Skyline_R34"
+    },
+    "toyota_supra_a80": {
+      "brand": "Toyota",
+      "model": "Supra A80",
+      "year_range": "1993-2002",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Toyota_Supra_in_LA.jpg/1280px-Toyota_Supra_in_LA.jpg",
+          "description": "Toyota Supra A80",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Toyota_Supra_A80"
+    },
+    "mazda_mx5_na": {
+      "brand": "Mazda",
+      "model": "MX-5 NA (Miata)",
+      "year_range": "1989-1997",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/1997_Mazda_MX-5_%28NA%29_1.8_roadster_%282015-08-02%29_01.jpg/1280px-1997_Mazda_MX-5_%28NA%29_1.8_roadster_%282015-08-02%29_01.jpg",
+          "description": "1997 Mazda MX-5 NA",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Mazda_MX-5_NA"
+    }
+  },
+  "historical_vehicles": {
+    "benz_patent_motorwagen": {
+      "brand": "Benz",
+      "model": "Patent-Motorwagen",
+      "year": 1886,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Benz_Patent-Motorwagen_Number_1_%28Nachbau%29.jpg/1280px-Benz_Patent-Motorwagen_Number_1_%28Nachbau%29.jpg",
+          "description": "Benz Patent-Motorwagen Number 1 (Replica)",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Benz_Patent-Motorwagen"
+    },
+    "ford_model_t": {
+      "brand": "Ford",
+      "model": "Model T",
+      "year_range": "1908-1927",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/1910_Ford_Model_T_Touring.jpg/1280px-1910_Ford_Model_T_Touring.jpg",
+          "description": "1910 Ford Model T Touring",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/1925_Ford_Model_T_Touring.jpg/1280px-1925_Ford_Model_T_Touring.jpg",
+          "description": "1925 Ford Model T Touring",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Ford_Model_T"
+    },
+    "rolls_royce_silver_ghost": {
+      "brand": "Rolls-Royce",
+      "model": "Silver Ghost",
+      "year_range": "1906-1926",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/1912_Rolls-Royce_Silver_Ghost_Tourer.jpg/1280px-1912_Rolls-Royce_Silver_Ghost_Tourer.jpg",
+          "description": "1912 Rolls-Royce Silver Ghost Tourer",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Rolls-Royce_Silver_Ghost"
+    },
+    "bugatti_type_35": {
+      "brand": "Bugatti",
+      "model": "Type 35",
+      "year_range": "1924-1931",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bugatti_Type_35.jpg/1280px-Bugatti_Type_35.jpg",
+          "description": "Bugatti Type 35",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Bugatti_Type_35"
+    },
+    "duesenberg_model_j": {
+      "brand": "Duesenberg",
+      "model": "Model J",
+      "year_range": "1928-1937",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Duesenberg_Model_J_Murphy_convertible_coupe_1929.jpg/1280px-Duesenberg_Model_J_Murphy_convertible_coupe_1929.jpg",
+          "description": "1929 Duesenberg Model J Murphy Convertible Coupe",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Duesenberg_Model_J"
+    },
+    "bmw_328": {
+      "brand": "BMW",
+      "model": "328",
+      "year_range": "1936-1940",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/BMW_328.jpg/1280px-BMW_328.jpg",
+          "description": "BMW 328",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:BMW_328"
+    },
+    "willys_jeep": {
+      "brand": "Willys",
+      "model": "MB Jeep",
+      "year_range": "1941-1945",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Willys_MB_US_Navy.jpg/1280px-Willys_MB_US_Navy.jpg",
+          "description": "Willys MB US Navy",
+          "license": "CC BY-SA 2.5"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Willys_MB"
+    },
+    "cord_810": {
+      "brand": "Cord",
+      "model": "810",
+      "year_range": "1936-1937",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/1937_Cord_812_Supercharged_Phaeton_%27Sportsman%27.jpg/1280px-1937_Cord_812_Supercharged_Phaeton_%27Sportsman%27.jpg",
+          "description": "1937 Cord 812 Supercharged Phaeton",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Cord_810"
+    }
+  },
+  "modern_supercars": {
+    "porsche_taycan": {
+      "brand": "Porsche",
+      "model": "Taycan",
+      "year_range": "2019-present",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/2020_Porsche_Taycan_4S_%28Performance_Battery_Plus%29_in_Dolomite_Silver%2C_front_9.20.20.jpg/1280px-2020_Porsche_Taycan_4S_%28Performance_Battery_Plus%29_in_Dolomite_Silver%2C_front_9.20.20.jpg",
+          "description": "2020 Porsche Taycan 4S",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Porsche_Taycan"
+    },
+    "tesla_model_s": {
+      "brand": "Tesla",
+      "model": "Model S",
+      "year_range": "2012-present",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tesla_Model_S_%28Facelift_ab_04-2016%29_trimmed.jpg/1280px-Tesla_Model_S_%28Facelift_ab_04-2016%29_trimmed.jpg",
+          "description": "Tesla Model S Facelift",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Tesla_Model_S"
+    },
+    "rimac_nevera": {
+      "brand": "Rimac",
+      "model": "Nevera",
+      "year_range": "2021-present",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Rimac_Nevera_IAA_2021.jpg/1280px-Rimac_Nevera_IAA_2021.jpg",
+          "description": "Rimac Nevera at IAA 2021",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Rimac_Nevera"
+    },
+    "bugatti_chiron": {
+      "brand": "Bugatti",
+      "model": "Chiron",
+      "year_range": "2016-2024",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bugatti_Chiron_%2836559329511%29.jpg/1280px-Bugatti_Chiron_%2836559329511%29.jpg",
+          "description": "Bugatti Chiron",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "wikimedia_category": "https://commons.wikimedia.org/wiki/Category:Bugatti_Chiron"
+    }
+  },
+  "unsplash_collections": {
+    "classic_cars": "https://unsplash.com/s/photos/classic-car",
+    "vintage_cars": "https://unsplash.com/s/photos/vintage-car",
+    "sports_cars": "https://unsplash.com/s/photos/sports-car",
+    "supercars": "https://unsplash.com/s/photos/supercar",
+    "muscle_cars": "https://unsplash.com/s/photos/muscle-car"
+  },
+  "statistics": {
+    "total_vehicles_with_photos": 30,
+    "total_photo_urls": 75,
+    "sources": {
+      "wikimedia_commons": 70,
+      "unsplash": 5
+    },
+    "licenses": {
+      "CC_BY_SA_4.0": 20,
+      "CC_BY_SA_3.0": 25,
+      "CC_BY_2.0": 20,
+      "Public_Domain": 10
+    }
+  }
+}

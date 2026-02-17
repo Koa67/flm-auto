@@ -1,0 +1,28 @@
+{
+  "name": "flm-auto-scrapers",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "mkdir -p ../data/raw ../data/processed logs && npm install",
+    "scrape:specs": "ts-node scrapers/01_autodata_specs.ts",
+    "scrape:tuv": "ts-node scrapers/02_tuv_reliability.ts",
+    "scrape:prices": "ts-node scrapers/03_argus_prices.ts",
+    "scrape:adac": "ts-node scrapers/04_adac_tests.ts",
+    "scrape:safety": "ts-node scrapers/05_euroncap_safety.ts",
+    "scrape:cote": "ts-node scrapers/06_lacentrale_cote.ts",
+    "scrape:ev": "ts-node scrapers/07_ev_database.ts",
+    "scrape:perf": "ts-node scrapers/08_carwow_performance.ts",
+    "scrape:all": "npm run scrape:specs && npm run scrape:tuv && npm run scrape:prices && npm run scrape:adac && npm run scrape:safety && npm run scrape:cote && npm run scrape:ev && npm run scrape:perf",
+    "process": "ts-node process_all.ts",
+    "validate": "ts-node validate_data.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "jsdom": "^24.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}

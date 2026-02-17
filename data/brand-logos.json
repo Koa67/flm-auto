@@ -1,0 +1,194 @@
+[
+  {
+    "brand": "Opel",
+    "logo_url": "https://cdn.simpleicons.org/opel/ffffff",
+    "source": "simpleicons",
+    "format": "svg"
+  },
+  {
+    "brand": "Seat",
+    "logo_url": "https://cdn.simpleicons.org/seat/ffffff",
+    "source": "simpleicons",
+    "format": "svg"
+  },
+  {
+    "brand": "Citroen",
+    "logo_url": "https://cdn.simpleicons.org/citroen/ffffff",
+    "source": "simpleicons",
+    "format": "svg"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "logo_url": "https://cdn.simpleicons.org/mercedes/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "BMW",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Lamborghini",
+    "logo_url": "https://cdn.simpleicons.org/lamborghini/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Audi",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Audi-Logo_2016.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Porsche",
+    "logo_url": "https://cdn.simpleicons.org/porsche/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Volkswagen",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Skoda",
+    "logo_url": "https://cdn.simpleicons.org/skoda/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Tesla",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Hyundai",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Volvo",
+    "logo_url": "https://cdn.simpleicons.org/volvo/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Ferrari",
+    "logo_url": "https://cdn.simpleicons.org/ferrari/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Ford",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ford_Motor_Company_Logo.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Honda",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Honda.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Toyota",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Toyota.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Nissan",
+    "logo_url": "https://cdn.simpleicons.org/nissan/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Mazda",
+    "logo_url": "https://cdn.simpleicons.org/mazda/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Kia",
+    "logo_url": "https://cdn.simpleicons.org/kia/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Jaguar",
+    "logo_url": "https://cdn.simpleicons.org/jaguar/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Land Rover",
+    "logo_url": "https://cdn.simpleicons.org/landrover/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Lexus",
+    "logo_url": "https://cdn.simpleicons.org/lexus/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Peugeot",
+    "logo_url": "https://cdn.simpleicons.org/peugeot/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Renault",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Renault_2021_Text.svg",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Fiat",
+    "logo_url": "https://cdn.simpleicons.org/fiat/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Mini",
+    "logo_url": "https://cdn.simpleicons.org/mini/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Alfa Romeo",
+    "logo_url": "https://cdn.simpleicons.org/alfaromeo/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Maserati",
+    "logo_url": "https://cdn.simpleicons.org/maserati/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Aston Martin",
+    "logo_url": "https://cdn.simpleicons.org/astonmartin/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Bentley",
+    "logo_url": "https://cdn.simpleicons.org/bentley/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  },
+  {
+    "brand": "Rolls-Royce",
+    "logo_url": "https://cdn.simpleicons.org/rollsroyce/ffffff",
+    "source": "wikimedia",
+    "format": "svg"
+  }
+]

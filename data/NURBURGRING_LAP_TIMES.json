@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T06:00:00Z",
+    "version": "1.0",
+    "description": "Nürburgring Nordschleife Lap Times Database for FLM AUTO",
+    "track_length_km": 20.832,
+    "track_length_miles": 12.944,
+    "elevation_change_m": 300,
+    "corners": 73,
+    "nickname": "Green Hell"
+  },
+  
+  "all_time_records": {
+    "overall_fastest": {
+      "vehicle": "Porsche 919 Hybrid Evo",
+      "time": "5:19.546",
+      "driver": "Timo Bernhard",
+      "date": "June 29, 2018",
+      "category": "LMP1 Prototype",
+      "top_speed_kmh": 369,
+      "notes": "Unrestricted version of Le Mans winning car, absolute lap record"
+    },
+    
+    "fastest_production_car": {
+      "vehicle": "Mercedes-AMG ONE",
+      "time": "6:29.090",
+      "driver": "Maro Engel",
+      "date": "October 2024",
+      "category": "Supercar (Combustion/Hybrid)",
+      "power_hp": 1063,
+      "engine": "1.6L V6 Turbo F1-derived + 4 electric motors",
+      "notes": "First production car sub-6:30, improved from 6:35.183 in 2022"
+    },
+    
+    "fastest_production_ev": {
+      "vehicle": "Yangwang U9 Xtreme",
+      "time": "6:59.157",
+      "driver": "Not specified",
+      "date": "August 22, 2025",
+      "category": "Production EV",
+      "power_hp": 2928
+    },
+    
+    "fastest_fwd": {
+      "vehicle": "Honda Civic Type R (FL5)",
+      "time": "7:44.881",
+      "driver": "Ryuji Yamada",
+      "date": "April 2023",
+      "category": "Front-Wheel Drive",
+      "power_hp": 315
+    },
+    
+    "fastest_suv": {
+      "vehicle": "Audi RS Q8 Performance",
+      "time": "7:36.698",
+      "driver": "Frank Stippler",
+      "date": "2024",
+      "category": "SUV",
+      "power_hp": 640,
+      "previous_record": {"vehicle": "Porsche Cayenne Turbo GT", "time": "7:38.925"}
+    },
+    
+    "fastest_wagon": {
+      "vehicle": "BMW M3 CS Touring (G81)",
+      "time": "7:28.640",
+      "driver": "Jörg Weidinger",
+      "date": "2025",
+      "category": "Estate/Wagon",
+      "power_hp": 550
+    },
+    
+    "fastest_compact": {
+      "vehicle": "BMW M2 CS",
+      "time": "7:25.5",
+      "driver": "Jörg Weidinger", 
+      "date": "2025",
+      "category": "Compact Car",
+      "power_hp": 550,
+      "previous_record": {"vehicle": "Audi RS3 (2025)", "time": "7:33.123"}
+    },
+    
+    "fastest_sedan_hybrid": {
+      "vehicle": "Porsche Panamera Turbo S E-Hybrid",
+      "time": "7:24.17",
+      "driver": "Lars Kern",
+      "date": "2024",
+      "category": "Executive Sedan"
+    }
+  },
+  
+  "production_cars_top_25": [
+    {"rank": 1, "vehicle": "Mercedes-AMG ONE", "time": "6:29.090", "year": 2024, "type": "Hybrid Hypercar"},
+    {"rank": 2, "vehicle": "Porsche 911 GT2 RS Manthey", "time": "6:38.835", "year": 2021, "type": "Sports Car"},
+    {"rank": 3, "vehicle": "Mercedes-AMG GT Black Series", "time": "6:43.616", "year": 2020, "type": "Sports Car"},
+    {"rank": 4, "vehicle": "Porsche 991 GT2 RS Manthey", "time": "6:43.300", "year": 2021, "type": "Sports Car"},
+    {"rank": 5, "vehicle": "Ford Mustang GTD", "time": "6:52.072", "year": 2025, "type": "Sports Car"},
+    {"rank": 6, "vehicle": "Porsche 911 GT3 (992.2) Manthey", "time": "6:52.981", "year": 2025, "type": "Sports Car"},
+    {"rank": 7, "vehicle": "Lamborghini Revuelto", "time": "6:54.1", "year": 2024, "type": "Hybrid Supercar"},
+    {"rank": 8, "vehicle": "Porsche 911 GT3 (992.2)", "time": "6:56.294", "year": 2025, "type": "Sports Car"},
+    {"rank": 9, "vehicle": "Porsche 911 GT3 RS (992)", "time": "6:49.328", "year": 2022, "type": "Sports Car"},
+    {"rank": 10, "vehicle": "Lamborghini Huracan Performante", "time": "6:52.01", "year": 2017, "type": "Supercar"},
+    {"rank": 11, "vehicle": "Porsche 918 Spyder", "time": "6:57.00", "year": 2013, "type": "Hybrid Hypercar"},
+    {"rank": 12, "vehicle": "Lamborghini Aventador SVJ", "time": "6:44.97", "year": 2018, "type": "Supercar"},
+    {"rank": 13, "vehicle": "McLaren P1 LM", "time": "6:43.22", "year": 2017, "type": "Hybrid Hypercar"},
+    {"rank": 14, "vehicle": "Porsche 911 GT2 RS", "time": "6:47.30", "year": 2017, "type": "Sports Car"},
+    {"rank": 15, "vehicle": "Chevrolet Corvette ZR1X", "time": "6:49.275", "year": 2025, "type": "Prototype"},
+    {"rank": 16, "vehicle": "Porsche Taycan Turbo GT", "time": "7:07.55", "year": 2024, "type": "EV Sedan"},
+    {"rank": 17, "vehicle": "Xiaomi SU7 Ultra", "time": "7:04.957", "year": 2024, "type": "EV Sedan Prototype"},
+    {"rank": 18, "vehicle": "Ferrari 488 Pista", "time": "7:00.03", "year": 2019, "type": "Supercar"},
+    {"rank": 19, "vehicle": "Porsche Panamera Turbo S E-Hybrid", "time": "7:24.17", "year": 2024, "type": "Executive Sedan"},
+    {"rank": 20, "vehicle": "BMW M5 CS", "time": "7:29.57", "year": 2021, "type": "Sport Sedan"},
+    {"rank": 21, "vehicle": "BMW M2 CS", "time": "7:25.5", "year": 2025, "type": "Compact Sport"},
+    {"rank": 22, "vehicle": "BMW M3 CS Touring", "time": "7:28.640", "year": 2025, "type": "Sport Wagon"},
+    {"rank": 23, "vehicle": "Audi RS3", "time": "7:33.123", "year": 2024, "type": "Compact Sport"},
+    {"rank": 24, "vehicle": "BMW M4 CSL", "time": "7:20.207", "year": 2022, "type": "Sports Coupe"},
+    {"rank": 25, "vehicle": "Audi RS Q8 Performance", "time": "7:36.698", "year": 2024, "type": "SUV"}
+  ],
+  
+  "bmw_lap_times": {
+    "m_division": [
+      {"vehicle": "BMW M2 CS", "time": "7:25.5", "year": 2025, "driver": "Jörg Weidinger", "record": "Compact car class"},
+      {"vehicle": "BMW M3 CS Touring (G81)", "time": "7:28.640", "year": 2025, "driver": "Jörg Weidinger", "record": "Wagon class"},
+      {"vehicle": "BMW M4 CSL", "time": "7:20.207", "year": 2022, "driver": "Jörg Weidinger", "category": "Sports Coupe"},
+      {"vehicle": "BMW M4 CS", "time": "7:22.0", "year": 2024, "driver": "Not specified", "notes": "2 sec slower than CSL"},
+      {"vehicle": "BMW M5 CS", "time": "7:29.57", "year": 2021, "driver": "BMW test driver", "record": "Sport sedan class (at time)"},
+      {"vehicle": "BMW M3 Touring (G81)", "time": "7:35.060", "year": 2022, "driver": "Jörg Weidinger", "notes": "Initial wagon record"},
+      {"vehicle": "BMW M2 (G87)", "time": "7:38.706", "year": 2023, "driver": "Jörg Weidinger", "notes": "Former compact record"},
+      {"vehicle": "BMW M4 Competition", "time": "7:28.0", "year": 2021, "category": "Sports Coupe"},
+      {"vehicle": "BMW M3 Competition", "time": "7:30.0", "year": 2021, "category": "Sport Sedan"},
+      {"vehicle": "BMW M8 Competition", "time": "7:32.79", "year": 2019, "category": "GT Coupe"}
+    ],
+    "historical": [
+      {"vehicle": "BMW E30 M3 Sport Evo", "time": "8:22.0", "year": 1990, "notes": "Historic benchmark"},
+      {"vehicle": "BMW E46 M3 CSL", "time": "7:50.0", "year": 2003, "notes": "Legendary lightweight"},
+      {"vehicle": "BMW E92 M3 GTS", "time": "7:48.0", "year": 2010, "notes": "Track-focused special"},
+      {"vehicle": "BMW F80 M3", "time": "7:52.0", "year": 2014, "notes": "First turbo M3"}
+    ]
+  },
+  
+  "german_rivals_comparison": {
+    "compact_sports": [
+      {"vehicle": "BMW M2 CS", "time": "7:25.5", "year": 2025},
+      {"vehicle": "Audi RS3 (2025)", "time": "7:33.123", "year": 2024},
+      {"vehicle": "Mercedes-AMG A45 S", "time": "7:48.8", "year": 2020}
+    ],
+    "sport_sedans": [
+      {"vehicle": "BMW M5 CS", "time": "7:29.57", "year": 2021},
+      {"vehicle": "Mercedes-AMG GT 63 S E Performance", "time": "7:23.30", "year": 2023},
+      {"vehicle": "Porsche Panamera Turbo S E-Hybrid", "time": "7:24.17", "year": 2024}
+    ],
+    "sport_coupes": [
+      {"vehicle": "BMW M4 CSL", "time": "7:20.207", "year": 2022},
+      {"vehicle": "Mercedes-AMG GT Black Series", "time": "6:43.616", "year": 2020},
+      {"vehicle": "Porsche 911 GT3 (992)", "time": "6:55.2", "year": 2021}
+    ],
+    "suvs": [
+      {"vehicle": "Audi RS Q8 Performance", "time": "7:36.698", "year": 2024},
+      {"vehicle": "Porsche Cayenne Turbo GT", "time": "7:38.925", "year": 2021},
+      {"vehicle": "Mercedes-AMG GLC 63 S", "time": "7:49.369", "year": 2018},
+      {"vehicle": "BMW X3 M Competition", "time": "7:57.0", "year": 2020}
+    ]
+  },
+  
+  "ev_lap_times": {
+    "production_evs": [
+      {"vehicle": "Yangwang U9 Xtreme", "time": "6:59.157", "year": 2025, "power_hp": 2928},
+      {"vehicle": "Xiaomi SU7 Ultra", "time": "7:04.957", "year": 2024, "power_hp": 1548, "notes": "Prototype"},
+      {"vehicle": "Rimac Nevera Time Attack", "time": "7:05.298", "year": 2023, "power_hp": 1914},
+      {"vehicle": "Porsche Taycan Turbo GT", "time": "7:07.55", "year": 2024, "power_hp": 1019},
+      {"vehicle": "Tesla Model S Plaid", "time": "7:25.23", "year": 2023, "power_hp": 1020},
+      {"vehicle": "Porsche Taycan Turbo S", "time": "7:33.35", "year": 2022, "power_hp": 750}
+    ],
+    "prototypes": [
+      {"vehicle": "Xiaomi SU7 Ultra Prototype", "time": "6:22.091", "year": 2025, "driver": "David Pittard"},
+      {"vehicle": "Ford F-150 Lightning SuperTruck", "time": "6:43.482", "year": 2025, "driver": "Romain Dumas"},
+      {"vehicle": "Lotus Evija X", "time": "6:24.047", "year": 2024, "power_hp": 2011}
+    ]
+  },
+  
+  "category_records_2025": {
+    "sports_cars": {"vehicle": "Ford Mustang GTD", "time": "6:52.072", "driver": "Dirk Müller"},
+    "compact_cars": {"vehicle": "BMW M2 CS", "time": "7:25.5", "driver": "Jörg Weidinger"},
+    "wagons": {"vehicle": "BMW M3 CS Touring", "time": "7:28.640", "driver": "Jörg Weidinger"},
+    "suvs": {"vehicle": "Audi RS Q8 Performance", "time": "7:36.698"},
+    "fwd": {"vehicle": "Honda Civic Type R", "time": "7:44.881"},
+    "ev_prototype": {"vehicle": "Xiaomi SU7 Ultra Prototype", "time": "6:22.091", "driver": "David Pittard"}
+  },
+  
+  "manufacturer_bases_at_ring": [
+    "Porsche",
+    "BMW M Division",
+    "Mercedes-AMG",
+    "Audi",
+    "Volkswagen",
+    "Jaguar Land Rover",
+    "Aston Martin",
+    "Hyundai N"
+  ],
+  
+  "notable_drivers": {
+    "lars_kern": {"affiliation": "Porsche", "since": 2012, "notable_laps": ["GT2 RS Manthey 6:38.835", "Taycan Turbo GT 7:07.55"]},
+    "maro_engel": {"affiliation": "Mercedes-AMG", "notable_laps": ["AMG ONE 6:29.090", "GT Black Series 6:43.616"]},
+    "jorg_weidinger": {"affiliation": "BMW M", "notable_laps": ["M2 CS 7:25.5", "M3 CS Touring 7:28.640", "M4 CSL 7:20.207"]},
+    "frank_stippler": {"affiliation": "Audi", "notable_laps": ["RS Q8 Performance 7:36.698"]},
+    "dirk_muller": {"affiliation": "Ford", "notable_laps": ["Mustang GTD 6:52.072"]},
+    "timo_bernhard": {"affiliation": "Porsche", "notable_laps": ["919 Hybrid Evo 5:19.546 (absolute record)"]}
+  },
+  
+  "statistics": {
+    "total_official_records_2025": 14,
+    "categories_tracked": 11,
+    "sub_7_minute_production_cars": 18,
+    "sub_6_30_production_cars": 1,
+    "american_cars_in_top_10": 3
+  }
+}

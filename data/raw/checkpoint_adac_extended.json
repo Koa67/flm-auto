@@ -1,0 +1,16 @@
+{
+  "completedBrands": [
+    "Alfa Romeo",
+    "Audi",
+    "BMW",
+    "Citroen",
+    "Dacia",
+    "Ferrari"
+  ],
+  "totalUpdated": 0,
+  "totalSkipped": 0,
+  "totalCarPages": 511,
+  "totalNoExtData": 511,
+  "errors": 0,
+  "startedAt": "2026-02-09T15:25:25.310Z"
+}

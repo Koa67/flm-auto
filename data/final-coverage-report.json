@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-02-13T05:58:39.568Z",
+  "totals": {
+    "brands": 32,
+    "models": 1245,
+    "generations": 4268
+  },
+  "coverage": {
+    "photos": {
+      "covered": 4263,
+      "total": 4268,
+      "pct": 0.9988284910965324,
+      "totalImages": 287553
+    },
+    "videos": {
+      "covered": 1219,
+      "total": 4268,
+      "pct": 0.28561387066541705,
+      "totalVideos": 42261
+    },
+    "safety": {
+      "covered": 1999,
+      "total": 4268,
+      "pct": 0.468369259606373,
+      "bySource": {
+        "jncap": 15,
+        "euroncap": 282,
+        "propagated_model": 1085,
+        "nhtsa": 189,
+        "propagated_platform": 428
+      },
+      "starDist": {
+        "2": 2,
+        "3": 90,
+        "4": 354,
+        "5": 1553
+      }
+    },
+    "interiorDims": {
+      "covered": 3685,
+      "total": 4268,
+      "pct": 0.8634020618556701
+    },
+    "familyFit": {
+      "covered": 3534,
+      "total": 4268,
+      "pct": 0.8280224929709465
+    },
+    "exterior": {
+      "length": {
+        "covered": 3158,
+        "total": 4268
+      },
+      "width": {
+        "covered": 3154,
+        "total": 4268
+      },
+      "height": {
+        "covered": 2793,
+        "total": 4268
+      },
+      "wheelbase": {
+        "covered": 2780,
+        "total": 4268
+      },
+      "weight": {
+        "covered": 2667,
+        "total": 4268
+      }
+    },
+    "specs": 277393,
+    "recalls": 2820
+  },
+  "score": 71.56982193064667,
+  "before": {
+    "photos": 99.9,
+    "videos": 28.6,
+    "safety": 40.7,
+    "dims": 83.4,
+    "fit": 80.3,
+    "score": 69.5
+  },
+  "delta": 2.0698219306466683
+}

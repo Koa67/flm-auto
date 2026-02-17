@@ -1,0 +1,11 @@
+{
+  "variantsTotal": 44182,
+  "variantsFetched": 24665,
+  "specsExtracted": 14563,
+  "matched": 12726,
+  "unmatched": 11939,
+  "inserted": 14563,
+  "skipped": 19338,
+  "httpErrors": 179,
+  "parseErrors": 0
+}

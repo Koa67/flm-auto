@@ -1,0 +1,542 @@
+[
+  {
+    "id": "08f61ecb-d86d-431b-84ac-9b1d995a02aa",
+    "model_id": "6ce7d88d-ad9c-49fa-b173-286a10a0cc0e",
+    "brand": "BMW",
+    "model": "2002Specs",
+    "gen": "E10",
+    "slug": "e10",
+    "data": {
+      "photos": 66,
+      "specs": 45,
+      "variants": 1,
+      "videos": 17,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:27.684Z"
+  },
+  {
+    "id": "01dd329b-09fb-4d7f-b66f-635b67da7509",
+    "model_id": "9691ffe3-1284-46d1-8734-5282a9a6b2ae",
+    "brand": "BMW",
+    "model": "328Specs",
+    "gen": "Default",
+    "slug": "default",
+    "data": {
+      "photos": 3,
+      "specs": 29,
+      "variants": 1,
+      "videos": 32,
+      "safety": 0,
+      "dims": 0
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:28.201Z"
+  },
+  {
+    "id": "c992df96-6038-4802-b924-81968dc92733",
+    "model_id": "2025c78e-0a2f-4d95-87e4-92be5868d51b",
+    "brand": "BMW",
+    "model": "503Specs",
+    "gen": "Default",
+    "slug": "default",
+    "data": {
+      "photos": 3,
+      "specs": 5,
+      "variants": 1,
+      "videos": 37,
+      "safety": 0,
+      "dims": 0
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:28.700Z"
+  },
+  {
+    "id": "a514a88e-e81c-46b7-90ce-c33ecd284328",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G42",
+    "slug": "g42",
+    "data": {
+      "photos": 2,
+      "specs": 45,
+      "variants": 3,
+      "videos": 44,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:29.177Z"
+  },
+  {
+    "id": "916b8c07-3785-4c87-8510-c9469fc17e18",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G16",
+    "slug": "g16",
+    "data": {
+      "photos": 14,
+      "specs": 45,
+      "variants": 6,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:29.653Z"
+  },
+  {
+    "id": "17329ffe-335e-4305-8c6a-00cae0c1ae0a",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G15",
+    "slug": "g15",
+    "data": {
+      "photos": 14,
+      "specs": 45,
+      "variants": 6,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:30.120Z"
+  },
+  {
+    "id": "d329c2fe-0328-43a7-87ee-417260de5cac",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G14",
+    "slug": "g14",
+    "data": {
+      "photos": 14,
+      "specs": 44,
+      "variants": 6,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:30.568Z"
+  },
+  {
+    "id": "063efc18-ec13-4f3f-895d-b2decd6d81e3",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G29",
+    "slug": "g29",
+    "data": {
+      "photos": 14,
+      "specs": 44,
+      "variants": 3,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:30.999Z"
+  },
+  {
+    "id": "5a88d4b3-4735-404e-b29c-da3dcc0ca8af",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G32",
+    "slug": "g32",
+    "data": {
+      "photos": 14,
+      "specs": 44,
+      "variants": 8,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:31.466Z"
+  },
+  {
+    "id": "a251b9b8-5a07-41c0-902c-632d0716d394",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G12",
+    "slug": "g12",
+    "data": {
+      "photos": 14,
+      "specs": 44,
+      "variants": 10,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:31.948Z"
+  },
+  {
+    "id": "4e861a2c-b601-4cac-8097-2c1b6a5c0637",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "G11",
+    "slug": "g11",
+    "data": {
+      "photos": 14,
+      "specs": 44,
+      "variants": 7,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:32.437Z"
+  },
+  {
+    "id": "b45692e0-866a-49ac-975b-058800322a03",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F45",
+    "slug": "f45",
+    "data": {
+      "photos": 14,
+      "specs": 44,
+      "variants": 14,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:32.988Z"
+  },
+  {
+    "id": "2ea6c350-9069-4e37-a65e-c4de23186e05",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F46",
+    "slug": "f46",
+    "data": {
+      "photos": 14,
+      "specs": 44,
+      "variants": 10,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:33.572Z"
+  },
+  {
+    "id": "bf6b66fe-da8d-4cfb-afce-e4f4452da7c3",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F36",
+    "slug": "f36",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 19,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:34.092Z"
+  },
+  {
+    "id": "b3a4f08d-a106-4845-bba9-1102bf80eb04",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F33",
+    "slug": "f33",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 11,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:34.561Z"
+  },
+  {
+    "id": "b160ffd3-71ad-438b-a2e9-c4df9f83b99c",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F32",
+    "slug": "f32",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 19,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:34.994Z"
+  },
+  {
+    "id": "5bb8e9a7-0dbd-4b97-8d0f-6ebb3b6ad4f0",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F23",
+    "slug": "f23",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 12,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:35.419Z"
+  },
+  {
+    "id": "bbe5315b-e583-465d-8703-8ed18326c4cb",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F22",
+    "slug": "f22",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 13,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:35.857Z"
+  },
+  {
+    "id": "8d694f4d-483b-4540-9213-2a6c37a4cf53",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F20",
+    "slug": "f20",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 22,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:36.313Z"
+  },
+  {
+    "id": "f79c090b-7fdf-46d4-971a-65110892c54b",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F21",
+    "slug": "f21",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 22,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:36.774Z"
+  },
+  {
+    "id": "3e4f438f-9375-4af5-a35e-6139c8d85284",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F13",
+    "slug": "f13",
+    "data": {
+      "photos": 5,
+      "specs": 44,
+      "variants": 8,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:37.218Z"
+  },
+  {
+    "id": "c64f2f8b-7d3b-4da9-9b21-fd7d2746f3f5",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F12",
+    "slug": "f12",
+    "data": {
+      "photos": 5,
+      "specs": 7,
+      "variants": 8,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:37.641Z"
+  },
+  {
+    "id": "cfa02b01-72ad-4e7b-bebc-290ff1c1cafc",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "F06",
+    "slug": "f06",
+    "data": {
+      "photos": 5,
+      "specs": 4,
+      "variants": 8,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:38.063Z"
+  },
+  {
+    "id": "8eb7a916-65af-4cd2-9015-1a363da92c0c",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "E46",
+    "slug": "e46",
+    "data": {
+      "photos": 5,
+      "specs": 4,
+      "variants": 82,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:38.588Z"
+  },
+  {
+    "id": "c6a3b0de-0d3a-4578-bcdb-fe948179304e",
+    "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+    "brand": "BMW",
+    "model": "LCI",
+    "gen": "E39",
+    "slug": "e39",
+    "data": {
+      "photos": 5,
+      "specs": 4,
+      "variants": 44,
+      "videos": 8,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "lci_model",
+    "deleted_at": "2026-02-14T13:56:39.049Z"
+  },
+  {
+    "id": "8974742d-9dc9-4aff-969f-903797b6495c",
+    "model_id": "c029373b-64d7-4acf-9c73-620c5d3be6df",
+    "brand": "BMW",
+    "model": "M2Specs",
+    "gen": "F87",
+    "slug": "f87",
+    "data": {
+      "photos": 6,
+      "specs": 6,
+      "variants": 1,
+      "videos": 22,
+      "safety": 0,
+      "dims": 0
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:39.516Z"
+  },
+  {
+    "id": "1ebdf252-f70d-4156-be20-d1aff7269d1e",
+    "model_id": "7b96b4bd-8c1d-41ac-a530-d8f17adeac05",
+    "brand": "BMW",
+    "model": "M3Specs",
+    "gen": "G80",
+    "slug": "g80",
+    "data": {
+      "photos": 3,
+      "specs": 45,
+      "variants": 1,
+      "videos": 21,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:39.920Z"
+  },
+  {
+    "id": "f6c3ce66-d3dd-4bc1-8dcc-2301ded92471",
+    "model_id": "3615bce5-3c17-41c6-a0f5-c574b244ad6c",
+    "brand": "Lamborghini",
+    "model": "GallardoSpecs",
+    "gen": "Default",
+    "slug": "default",
+    "data": {
+      "photos": 6,
+      "specs": 3,
+      "variants": 1,
+      "videos": 21,
+      "safety": 0,
+      "dims": 0
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:40.585Z"
+  },
+  {
+    "id": "cd54088f-01a9-4c93-88f8-6022209444e0",
+    "model_id": "14ed376a-5da3-4ed4-83f0-9a465a6e8cf4",
+    "brand": "Lamborghini",
+    "model": "MurcielagoSpecs",
+    "gen": "Default",
+    "slug": "default",
+    "data": {
+      "photos": 3,
+      "specs": 44,
+      "variants": 1,
+      "videos": 39,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:41.116Z"
+  },
+  {
+    "id": "b377494c-2bc9-46a6-8c12-10ac258bd4da",
+    "model_id": "9c2e2a38-3f2f-42a9-b44c-986f15d9b5d9",
+    "brand": "Lamborghini",
+    "model": "VenenoSpecs",
+    "gen": "Default",
+    "slug": "default",
+    "data": {
+      "photos": 3,
+      "specs": 4,
+      "variants": 1,
+      "videos": 40,
+      "safety": 0,
+      "dims": 1
+    },
+    "reason": "specs_model_has_real_counterpart",
+    "deleted_at": "2026-02-14T13:56:41.597Z"
+  }
+]

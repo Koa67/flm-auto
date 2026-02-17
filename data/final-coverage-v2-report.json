@@ -1,0 +1,358 @@
+{
+  "timestamp": "2026-02-13T06:22:16.788Z",
+  "totals": {
+    "brands": 32,
+    "models": 1245,
+    "generations": 4268
+  },
+  "coverage": {
+    "specs": {
+      "covered": 4235,
+      "total": 4268,
+      "pct": 99.22680412371135
+    },
+    "photos": {
+      "covered": 4263,
+      "total": 4268,
+      "pct": 99.88284910965324,
+      "totalImages": 287553
+    },
+    "safety": {
+      "covered": 2020,
+      "total": 4268,
+      "pct": 47.32895970009372,
+      "bySource": {
+        "jncap": 15,
+        "euroncap": 282,
+        "propagated_model": 1099,
+        "nhtsa": 189,
+        "propagated_platform": 435
+      }
+    },
+    "dims": {
+      "covered": 3991,
+      "total": 4268,
+      "pct": 93.50984067478912
+    },
+    "family": {
+      "covered": 3899,
+      "total": 4268,
+      "pct": 91.35426429240863
+    },
+    "videos": {
+      "covered": 1221,
+      "total": 4268,
+      "pct": 28.60824742268041,
+      "totalVideos": 42261
+    },
+    "extLength": {
+      "covered": 3158,
+      "total": 4268
+    }
+  },
+  "score": 73.71954076850983,
+  "journey": {
+    "am12": 41.88,
+    "pm12": 71.22,
+    "now": 73.71954076850983
+  },
+  "rawCounts": {
+    "images": 287553,
+    "videos": 42261,
+    "safety": 2020,
+    "dims": 3991,
+    "fits": 3899,
+    "specs": 277393,
+    "recalls": 2820
+  },
+  "brandCoverage": {
+    "Audi": {
+      "total": 445,
+      "specs": 443,
+      "photos": 445,
+      "safety": 243,
+      "dims": 413,
+      "family": 413,
+      "videos": 51
+    },
+    "Mercedes-Benz": {
+      "total": 435,
+      "specs": 432,
+      "photos": 434,
+      "safety": 236,
+      "dims": 412,
+      "family": 408,
+      "videos": 90
+    },
+    "Volkswagen": {
+      "total": 465,
+      "specs": 465,
+      "photos": 465,
+      "safety": 251,
+      "dims": 412,
+      "family": 410,
+      "videos": 111
+    },
+    "Porsche": {
+      "total": 137,
+      "specs": 136,
+      "photos": 137,
+      "safety": 25,
+      "dims": 117,
+      "family": 117,
+      "videos": 37
+    },
+    "Toyota": {
+      "total": 535,
+      "specs": 523,
+      "photos": 535,
+      "safety": 245,
+      "dims": 506,
+      "family": 507,
+      "videos": 135
+    },
+    "BMW": {
+      "total": 250,
+      "specs": 250,
+      "photos": 250,
+      "safety": 125,
+      "dims": 216,
+      "family": 216,
+      "videos": 69
+    },
+    "Lamborghini": {
+      "total": 27,
+      "specs": 27,
+      "photos": 27,
+      "safety": 0,
+      "dims": 21,
+      "family": 18,
+      "videos": 24
+    },
+    "Skoda": {
+      "total": 113,
+      "specs": 113,
+      "photos": 113,
+      "safety": 64,
+      "dims": 107,
+      "family": 104,
+      "videos": 32
+    },
+    "Hyundai": {
+      "total": 220,
+      "specs": 220,
+      "photos": 220,
+      "safety": 127,
+      "dims": 215,
+      "family": 215,
+      "videos": 67
+    },
+    "Tesla": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 5,
+      "dims": 6,
+      "family": 6,
+      "videos": 6
+    },
+    "Volvo": {
+      "total": 113,
+      "specs": 113,
+      "photos": 113,
+      "safety": 54,
+      "dims": 109,
+      "family": 106,
+      "videos": 32
+    },
+    "Ferrari": {
+      "total": 13,
+      "specs": 13,
+      "photos": 13,
+      "safety": 0,
+      "dims": 12,
+      "family": 2,
+      "videos": 13
+    },
+    "Ford": {
+      "total": 27,
+      "specs": 27,
+      "photos": 27,
+      "safety": 14,
+      "dims": 24,
+      "family": 19,
+      "videos": 26
+    },
+    "Honda": {
+      "total": 186,
+      "specs": 184,
+      "photos": 186,
+      "safety": 111,
+      "dims": 178,
+      "family": 178,
+      "videos": 52
+    },
+    "Nissan": {
+      "total": 359,
+      "specs": 356,
+      "photos": 357,
+      "safety": 142,
+      "dims": 349,
+      "family": 349,
+      "videos": 86
+    },
+    "Mazda": {
+      "total": 169,
+      "specs": 165,
+      "photos": 168,
+      "safety": 94,
+      "dims": 166,
+      "family": 165,
+      "videos": 49
+    },
+    "Kia": {
+      "total": 189,
+      "specs": 188,
+      "photos": 189,
+      "safety": 111,
+      "dims": 186,
+      "family": 185,
+      "videos": 57
+    },
+    "Jaguar": {
+      "total": 12,
+      "specs": 12,
+      "photos": 12,
+      "safety": 4,
+      "dims": 12,
+      "family": 11,
+      "videos": 11
+    },
+    "Seat": {
+      "total": 15,
+      "specs": 15,
+      "photos": 15,
+      "safety": 8,
+      "dims": 13,
+      "family": 7,
+      "videos": 15
+    },
+    "Land Rover": {
+      "total": 9,
+      "specs": 9,
+      "photos": 9,
+      "safety": 6,
+      "dims": 9,
+      "family": 9,
+      "videos": 9
+    },
+    "Lexus": {
+      "total": 13,
+      "specs": 13,
+      "photos": 13,
+      "safety": 9,
+      "dims": 13,
+      "family": 12,
+      "videos": 13
+    },
+    "Peugeot": {
+      "total": 163,
+      "specs": 161,
+      "photos": 162,
+      "safety": 17,
+      "dims": 156,
+      "family": 159,
+      "videos": 37
+    },
+    "Renault": {
+      "total": 246,
+      "specs": 243,
+      "photos": 245,
+      "safety": 107,
+      "dims": 233,
+      "family": 231,
+      "videos": 79
+    },
+    "Opel": {
+      "total": 23,
+      "specs": 23,
+      "photos": 23,
+      "safety": 9,
+      "dims": 20,
+      "family": 9,
+      "videos": 23
+    },
+    "Fiat": {
+      "total": 33,
+      "specs": 33,
+      "photos": 33,
+      "safety": 3,
+      "dims": 29,
+      "family": 22,
+      "videos": 32
+    },
+    "Citroen": {
+      "total": 8,
+      "specs": 8,
+      "photos": 8,
+      "safety": 3,
+      "dims": 5,
+      "family": 0,
+      "videos": 8
+    },
+    "Mini": {
+      "total": 10,
+      "specs": 10,
+      "photos": 10,
+      "safety": 3,
+      "dims": 8,
+      "family": 4,
+      "videos": 10
+    },
+    "Alfa Romeo": {
+      "total": 25,
+      "specs": 25,
+      "photos": 25,
+      "safety": 4,
+      "dims": 23,
+      "family": 17,
+      "videos": 25
+    },
+    "Maserati": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 0,
+      "dims": 6,
+      "family": 0,
+      "videos": 6
+    },
+    "Aston Martin": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 0,
+      "dims": 6,
+      "family": 0,
+      "videos": 6
+    },
+    "Bentley": {
+      "total": 4,
+      "specs": 4,
+      "photos": 4,
+      "safety": 0,
+      "dims": 4,
+      "family": 0,
+      "videos": 4
+    },
+    "Rolls-Royce": {
+      "total": 6,
+      "specs": 6,
+      "photos": 6,
+      "safety": 0,
+      "dims": 5,
+      "family": 0,
+      "videos": 6
+    }
+  }
+}

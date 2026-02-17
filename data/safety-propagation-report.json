@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-12T21:47:42.013Z",
+  "stats": {
+    "modelsWithRatings": 295,
+    "modelsWithoutRatings": 859,
+    "candidatePairs": 405,
+    "propagated": 405,
+    "alreadyHas": 0,
+    "tooFarApart": 1170,
+    "inserted": 405
+  }
+}

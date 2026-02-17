@@ -1325,6 +1325,18 @@
       "thumbnail_url": "https://www.imcdb.org/t002052704.jpg"
     },
     {
+      "vehicle_id": "2065459",
+      "vehicle_model": "3",
+      "chassis_code": "E21",
+      "movie_id": "240396",
+      "movie_title": "Caldo soffocante",
+      "movie_year": "1991",
+      "stars": 1,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2065459-BMW-3-E21.html",
+      "movie_url": "https://www.imcdb.org/movie_240396-Caldo-soffocante.html",
+      "thumbnail_url": "https://www.imcdb.org/t002065459.jpg"
+    },
+    {
       "vehicle_id": "1622910",
       "vehicle_model": "3",
       "chassis_code": "E21",
@@ -3591,19 +3603,7 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_1479243-BMW-3-E21-1979.html",
       "movie_url": "https://www.imcdb.org/movie_100557-Das-schreckliche-M%C3%A4dchen.html",
       "thumbnail_url": "https://www.imcdb.org/t001479243.jpg"
-    },
-    {
-      "vehicle_id": "1562909",
-      "vehicle_model": "3",
-      "chassis_code": "E21",
-      "movie_id": "189823",
-      "movie_title": "Nucleo zero",
-      "movie_year": "1984",
-      "stars": 1,
-      "vehicle_url": "https://www.imcdb.org/vehicle_1562909-BMW-3-E21-1979.html",
-      "movie_url": "https://www.imcdb.org/movie_189823-Nucleo-zero.html",
-      "thumbnail_url": "https://www.imcdb.org/t001562909.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:29:23.885Z"
+  "scraped_at": "2026-01-31T13:02:52.360Z"
 }

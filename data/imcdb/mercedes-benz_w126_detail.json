@@ -845,6 +845,18 @@
       "thumbnail_url": "https://www.imcdb.org/t001948497.jpg"
     },
     {
+      "vehicle_id": "2026411",
+      "vehicle_model": "SE",
+      "chassis_code": "W126",
+      "movie_id": "165550",
+      "movie_title": "Y a-t-il un Français dans la salle?",
+      "movie_year": "1982",
+      "stars": 4,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2026411-Mercedes-Benz-280-SE-W126-1980.html",
+      "movie_url": "https://www.imcdb.org/movie_165550-Y-a-t-il-un-Fran%C3%A7ais-dans-la-salle.html",
+      "thumbnail_url": "https://www.imcdb.org/t002026411.jpg"
+    },
+    {
       "vehicle_id": "667185",
       "vehicle_model": "SE",
       "chassis_code": "W126",
@@ -3591,19 +3603,7 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_945477-Mercedes-Benz-380-SE-W126-1984.html",
       "movie_url": "https://www.imcdb.org/movie_108773-Finney.html",
       "thumbnail_url": "https://www.imcdb.org/t945477.jpg"
-    },
-    {
-      "vehicle_id": "1057778",
-      "vehicle_model": "SE",
-      "chassis_code": "W126",
-      "movie_id": "119309",
-      "movie_title": "香港大夜総会 タッチ&amp;マギー",
-      "movie_year": "1997",
-      "stars": 3,
-      "vehicle_url": "https://www.imcdb.org/vehicle_1057778-Mercedes-Benz-380-SE-W126-1984.html",
-      "movie_url": "https://www.imcdb.org/movie_119309-Hon-Kon-daiyasokai--Tatchi-%26-Magi.html",
-      "thumbnail_url": "https://www.imcdb.org/t001057778.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:30:22.116Z"
+  "scraped_at": "2026-01-31T13:03:50.555Z"
 }

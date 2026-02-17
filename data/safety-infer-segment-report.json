@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-02-13T07:47:26.464Z",
+  "stats": {
+    "premiumPost2020_5star": 64,
+    "premiumPost2018_4star": 66,
+    "mainstreamPost2020_4star": 160,
+    "skippedExisting": 2030,
+    "skippedNoProdYear": 554,
+    "skippedExcludedBrand": 54,
+    "skippedTooOld": 1340
+  },
+  "toInsertCount": 290,
+  "before": 2030,
+  "after": 2320,
+  "genCoverage": 2320,
+  "totalGens": 4268,
+  "byBrand": {
+    "Audi": 41,
+    "Volkswagen": 31,
+    "BMW": 26,
+    "Mercedes-Benz": 37,
+    "Porsche": 21,
+    "Hyundai": 21,
+    "Honda": 9,
+    "Toyota": 21,
+    "Kia": 16,
+    "Volvo": 5,
+    "Skoda": 10,
+    "Mazda": 3,
+    "Nissan": 7,
+    "Peugeot": 23,
+    "Renault": 19
+  }
+}

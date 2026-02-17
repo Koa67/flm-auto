@@ -1,0 +1,306 @@
+🖼️  FLM AUTO — Multi-Category Image Scraper
+
+  Loading brands... 32
+  Loading models... 1080
+  Loading generations... 4053
+  Loading existing image specs... 415 gens with images
+
+📊 Processing 32 brands, categories: interior, blueprint
+
+
+🏷️  Mercedes-Benz (88 models)
+   ✅ 222 images found so far (63 saved, 0 skipped)
+
+🏷️  BMW (67 models)
+   ✅ 310 images found so far (87 saved, 0 skipped)
+
+🏷️  Lamborghini (24 models)
+   ✅ 321 images found so far (91 saved, 0 skipped)
+
+🏷️  Audi (51 models)
+   ✅ 397 images found so far (119 saved, 0 skipped)
+
+🏷️  Porsche (39 models)
+   ✅ 445 images found so far (133 saved, 0 skipped)
+
+🏷️  Volkswagen (114 models)
+   ✅ 648 images found so far (195 saved, 0 skipped)
+
+🏷️  Skoda (33 models)
+   ✅ 740 images found so far (223 saved, 0 skipped)
+
+🏷️  Tesla (7 models)
+   ✅ 780 images found so far (233 saved, 0 skipped)
+
+🏷️  Hyundai (67 models)
+   ✅ 913 images found so far (274 saved, 0 skipped)
+
+🏷️  Volvo (28 models)
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+   ✅ 1248 images found so far (347 saved, 0 skipped)
+
+🏷️  Ferrari (13 models)
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ❌ DB error Ferrari Purosangue: TypeError: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ❌ DB error Ferrari 458: TypeError: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+   ✅ 1311 images found so far (363 saved, 0 skipped)
+
+🏷️  Ford (12 models)
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+   ✅ 1393 images found so far (382 saved, 0 skipped)
+
+🏷️  Honda (46 models)
+   ✅ 1705 images found so far (466 saved, 0 skipped)
+
+🏷️  Toyota (131 models)
+   ✅ 2481 images found so far (668 saved, 0 skipped)
+
+🏷️  Nissan (86 models)
+   ✅ 3017 images found so far (806 saved, 0 skipped)
+
+🏷️  Mazda (50 models)
+   ✅ 3166 images found so far (846 saved, 0 skipped)
+
+🏷️  Kia (59 models)
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+   ✅ 3489 images found so far (940 saved, 0 skipped)
+
+🏷️  Jaguar (7 models)
+      ⚠️ Wikimedia error: fetch failed
+      ⚠️ Wikimedia error: fetch failed
+   ✅ 3531 images found so far (951 saved, 0 skipped)
+
+🏷️  Land Rover (7 models)
+   ✅ 3570 images found so far (961 saved, 0 skipped)
+
+🏷️  Lexus (9 models)
+   ✅ 3615 images found so far (970 saved, 0 skipped)
+
+🏷️  Peugeot (21 models)
+   ✅ 3768 images found so far (1006 saved, 0 skipped)
+
+🏷️  Renault (11 models)
+   ✅ 3853 images found so far (1026 saved, 0 skipped)
+
+🏷️  Opel (8 models)
+   ✅ 3887 images found so far (1034 saved, 0 skipped)
+
+🏷️  Fiat (7 models)
+   ✅ 3939 images found so far (1045 saved, 0 skipped)
+
+🏷️  Seat (7 models)
+   ✅ 3974 images found so far (1053 saved, 0 skipped)
+
+🏷️  Citroen (8 models)
+   ✅ 4010 images found so far (1062 saved, 0 skipped)
+
+🏷️  Mini (6 models)
+   ✅ 4042 images found so far (1070 saved, 0 skipped)
+
+🏷️  Alfa Romeo (6 models)
+   ✅ 4085 images found so far (1080 saved, 0 skipped)
+
+🏷️  Maserati (6 models)
+   ✅ 4113 images found so far (1087 saved, 0 skipped)
+
+🏷️  Aston Martin (6 models)
+   ✅ 4137 images found so far (1092 saved, 0 skipped)
+
+🏷️  Bentley (4 models)
+   ✅ 4157 images found so far (1097 saved, 0 skipped)
+
+🏷️  Rolls-Royce (6 models)
+   ✅ 4187 images found so far (1103 saved, 0 skipped)
+
+════════════════════════════════════════════════════════════
+  SCRAPING COMPLETE
+════════════════════════════════════════════════════════════
+  Gens processed:  2341
+  Skipped (exist):  0
+  Images found:     4187
+  Saved to DB:      1103
+  Errors:           2
+
+  By category:
+    interior     3841
+    blueprint    346
+
+  📁 Local backup: ../data/images-multi-category.json
+════════════════════════════════════════════════════════════
+[23/51] A1 (3 gens)...   [24/51] Nuvolari (1 gens)...   [25/51] Avantissimo (1 gens)...   [26/51] Cabriolet (2 gens)...   [27/51] Avus (1 gens)...   [28/51] A (3 gens)...   [29/51] V (1 gens)...   [30/51] Quattro (3 gens)...   [31/51] 100 (1 gens)...   [32/51] 75 (1 gens)...   [33/51] 60 (1 gens)...   [34/51] Q (1 gens)...   [35/51] e (3 gens)...   [36/51] SQ (1 gens)...   [37/51] R (3 gens)...   [38/51] TT (3 gens)...   [39/51] Nuvolari (1 gens)...   [40/51] Avantissimo (1 gens)...   [41/51] Cabriolet (3 gens)...   [42/51] fox (1 gens)...   [43/51] pb18 (1 gens)...   [44/51] s1 (2 gens)...   [45/51] s2 (1 gens)...   [46/51] S3 (3 gens)...   [47/51] S4 (3 gens)...   [48/51] S5 (3 gens)...   [49/51] S6 (3 gens)...   [51/51] S8 (3 gens)...
+   ✅ Audi done — 272 total found, 69 saved, 0 errors
+
+🏷️  Porsche (39 models)
+   [1/39] 918 (1 gens)...   [2/39] Carrera (1 gens)...   [3/39] 968 (1 gens)...   [4/39] 944 (2 gens)...   [5/39] 959 (1 gens)...   [6/39] 928 (1 gens)...   [7/39] 924 (1 gens)...   [8/39] 914 (1 gens)...   [9/39] 912 (1 gens)...   [10/39] 356 (1 gens)...   [11/39] Panamera (3 gens)...   [12/39] 911 (3 gens)...   [13/39] Taycan (3 gens)...   [14/39] Macan (3 gens)...   [15/39] Cayenne (3 gens)...   [16/39] 718 (2 gens)...   [17/39] Cayman (2 gens)...   [18/39] Boxster (3 gens)...   [19/39] 918 (1 gens)...   [20/39] Carrera (2 gens)...   [21/39] 968 (1 gens)...   [22/39] 944 (1 gens)...   [23/39] 959 (1 gens)...   [24/39] 928 (1 gens)...   [25/39] 924 (1 gens)...   [26/39] 914 (1 gens)...   [27/39] 912 (1 gens)...   [28/39] 356 (1 gens)...   [29/39] Panamera (3 gens)...   [30/39] Taycan (3 gens)...   [31/39] Macan (2 gens)...   [32/39] 911 (1 gens)...   [33/39] Cayenne (3 gens)...   [34/39] 718 (1 gens)...   [35/39] Cayman (3 gens)...   [36/39] Boxster (3 gens)...   [37/39] porsche (3 gens)...   [38/39] mission e (1 gens)...
+   ✅ Porsche done — 329 total found, 84 saved, 0 errors
+
+🏷️  Volkswagen (114 models)
+   [2/114] ID.2 (1 gens)...   [3/114] ID.5 (2 gens)...   [4/114] Taigo (1 gens)...   [5/114] CC (1 gens)...   [6/114] Parati (1 gens)...   [7/114] SpaceFox (1 gens)...   [8/114] Passat (3 gens)...   [9/114] Magotan (1 gens)...   [10/114] Rabbit (1 gens)...   [11/114] Lavida (1 gens)...   [12/114] Eos (1 gens)...   [13/114] Fox (1 gens)...   [14/114] Phaeton (1 gens)...   [15/114] Gol (2 gens)...   [16/114] Lupo (1 gens)...   [17/114] W12 (2 gens)...   [18/114] Corrado (1 gens)...   [19/114] Santana (1 gens)...   [20/114] Derby (1 gens)...   [21/114] Brasilia (1 gens)...   [22/114] SP1 (1 gens)...   [23/114] Kurierwagen (1 gens)...   [24/114] K (1 gens)...   [25/114] Type (2 gens)...   [26/114] Karmann (1 gens)...   [27/114] Transporter (3 gens)...   [28/114] Caravelle (3 gens)...   [29/114] Tayron (1 gens)...   [30/114] Tiguan (3 gens)...   [31/114] California (1 gens)...   [33/114] T-Cross (2 gens)...   [34/114] ID.7 (3 gens)...   [35/114] Caddy (3 gens)...   [36/114] Crafter (3 gens)...   [37/114] Amarok (3 gens)...   [38/114] ID.3 (3 gens)...   [39/114] Touareg (2 gens)...   [40/114] T-Roc (3 gens)...   [41/114] ID.4 (3 gens)...   [42/114] Polo (3 gens)...   [43/114] Golf (3 gens)...   [44/114] Multivan (3 gens)...   [45/114] Arteon (3 gens)...   [46/114] Touran (3 gens)...   [47/114] Grand (2 gens)...   [48/114] Beetle (3 gens)...   [50/114] CrossPolo (2 gens)...   [51/114] T6 (1 gens)...   [52/114] Sharan (2 gens)...   [53/114] Jetta (2 gens)...   [54/114] Cross (1 gens)...   [55/114] CrossTouran (1 gens)...   [56/114] ID. (3 gens)...   [57/114] ID (2 gens)...   [58/114] Taigo (2 gens)...   [59/114] CC (3 gens)...   [60/114] SpaceFox (1 gens)...   [61/114] Parati (1 gens)...   [62/114] Passat (3 gens)...   [63/114] Magotan (2 gens)...   [64/114] Rabbit (3 gens)...   [65/114] Lavida (3 gens)...   [66/114] Eos (3 gens)...   [67/114] Fox (3 gens)...   [68/114] Phaeton (3 gens)...   [69/114] Gol (3 gens)...   [70/114] Lupo (2 gens)...   [71/114] Nardo (1 gens)...   [72/114] Corrado (3 gens)...   [73/114] Santana (2 gens)...   [74/114] Derby (3 gens)...   [75/114] Brasilia (3 gens)...   [76/114] SP (1 gens)...   [77/114] Kurierwagen (1 gens)...   [78/114] K (3 gens)...   [79/114] Type (1 gens)...   [80/114] Karmann (1 gens)...   [81/114] Caravelle (3 gens)...   [82/114] Transporter (3 gens)...   [83/114] Tayron (3 gens)...   [84/114] Tiguan (3 gens)...   [85/114] Caddy (3 gens)...   [86/114] T (3 gens)...   [87/114] California (1 gens)...   [88/114] Crafter (1 gens)...   [89/114] Amarok (3 gens)...   [90/114] Touareg (3 gens)...   [91/114] Polo (3 gens)...   [92/114] Golf (3 gens)...   [93/114] Multivan (3 gens)...   [94/114] Arteon (3 gens)...   [95/114] Touran (3 gens)...   [96/114] Grand (1 gens)...   [97/114] Up (3 gens)...   [98/114] Beetle (3 gens)...   [99/114] CrossPolo (1 gens)...   [100/114] Sharan (3 gens)...   [101/114] Jetta (3 gens)...   [102/114] Cross (3 gens)...   [103/114] CrossTouran (1 gens)...   [104/114] Golf Plus (1 gens)...   [105/114] Golf Sportsvan (1 gens)...   [106/114] e-Golf (1 gens)...   [107/114] e-Up! (1 gens)...   [108/114] ameo (1 gens)...   [109/114] bora (3 gens)...   [110/114] lamando (3 gens)...   [111/114] nivus (2 gens)...   [112/114] saveiro (1 gens)...   [113/114] viloran (1 gens)...   [114/114] xl1 (1 gens)...
+   ✅ Volkswagen done — 530 total found, 139 saved, 0 errors
+
+🏷️  Skoda (33 models)
+   [1/33] Elroq (2 gens)...   [2/33] Roomster (3 gens)...   [3/33] Laura (1 gens)...   [4/33] Scout (1 gens)...   [5/33] Pickup (1 gens)...   [6/33] Felicia (3 gens)...   [7/33] Forman (1 gens)...   [8/33] Favorit (2 gens)...   [9/33] 130 (1 gens)...   [10/33] Rapid (3 gens)...   [11/33] 105 (2 gens)...   [12/33] 120 (1 gens)...   [13/33] UVMV (1 gens)...   [14/33] Winnetou (1 gens)...   [15/33] 1202 (1 gens)...   [16/33] Octavia (3 gens)...   [17/33] 430 (1 gens)...   [18/33] Enyaq (3 gens)...   [19/33] Kamiq (3 gens)...   [20/33] Superb (3 gens)...   [21/33] Scala (3 gens)...   [22/33] Kodiaq (3 gens)...   [23/33] Karoq (3 gens)...   [24/33] Fabia (3 gens)...   [25/33] Citigo (3 gens)...   [26/33] Yeti (3 gens)...   [27/33] skoda (2 gens)...   [29/33] kushaq (1 gens)...   [30/33] kylaq (1 gens)...   [31/33] praktik (1 gens)...   [32/33] slavia (1 gens)...   [33/33] vision (1 gens)...
+   ✅ Skoda done — 558 total found, 148 saved, 0 errors
+
+🏷️  Tesla (7 models)
+   [1/7] Model 3 (1 gens)...   [2/7] Model S (1 gens)...   [3/7] Model X (1 gens)...   [4/7] Model Y (1 gens)...   [6/7] cybertruck (1 gens)...   [7/7] roadster (1 gens)...
+   ✅ Tesla done — 558 total found, 148 saved, 0 errors
+
+🏷️  Hyundai (67 models)
+   [1/67] i10 (3 gens)...   [2/67] i20 (3 gens)...   [3/67] i30 (3 gens)...   [4/67] ix20 (3 gens)...   [5/67] ix35 (3 gens)...   [6/67] Tucson (3 gens)...   [7/67] Kona (3 gens)...   [8/67] Kona Electric (2 gens)...   [9/67] Ioniq (2 gens)...   [10/67] Ioniq 5 (1 gens)...   [11/67] Ioniq 6 (1 gens)...   [12/67] Santa Fe (3 gens)...   [13/67] accent (3 gens)...   [14/67] alcazar (2 gens)...   [15/67] atos (2 gens)...   [16/67] aura (2 gens)...   [17/67] avante (1 gens)...   [18/67] bayon (2 gens)...   [19/67] casper (1 gens)...   [20/67] celesta (2 gens)...   [21/67] centennial (1 gens)...   [22/67] coupe (3 gens)...   [23/67] creta (3 gens)...   [24/67] custo (1 gens)...   [25/67] dynasty (1 gens)...   [26/67] elantra (3 gens)...   [27/67] eo (1 gens)...   [28/67] equus (1 gens)...   [29/67] exter (1 gens)...   [30/67] galloper (2 gens)...   [31/67] genesis (3 gens)...   [32/67] getz (1 gens)...   [33/67] grandeur azera (3 gens)...   [34/67] h (3 gens)...   [35/67] i40 (3 gens)...   [37/67] inster (1 gens)...   [38/67] ix25 (1 gens)...   [39/67] ix55 (1 gens)...   [40/67] lafesta (1 gens)...   [41/67] lavita (1 gens)...   [43/67] matrix (1 gens)...   [44/67] mufasa (1 gens)...   [45/67] nexo (2 gens)...   [46/67] nf (1 gens)...   [47/67] palisade (3 gens)...   [48/67] pony (2 gens)...   [49/67] reina (1 gens)...   [50/67] santa cruz (2 gens)...   [51/67] santamo (1 gens)...   [52/67] santro (1 gens)...   [53/67] solaris (3 gens)...   [54/67] sonata (3 gens)...   [55/67] stargazer (3 gens)...   [56/67] staria (2 gens)...   [57/67] stellar (1 gens)...   [58/67] terracan (1 gens)...   [59/67] tiburon (3 gens)...   [60/67] trajet (1 gens)...   [61/67] tuscani (2 gens)...   [62/67] veloster (3 gens)...   [63/67] venue (2 gens)...   [64/67] veracruz (1 gens)...   [65/67] verna (3 gens)...   [66/67] xcent (1 gens)...   [67/67] xg (1 gens)...
+   ✅ Hyundai done — 636 total found, 167 saved, 0 errors
+
+🏷️  Volvo (28 models)
+   [1/28] XC40 (3 gens)...   [2/28] XC60 (3 gens)...   [3/28] XC90 (3 gens)...   [4/28] V40 (3 gens)...   [5/28] V60 (3 gens)...   [6/28] V90 (3 gens)...   [7/28] S60 (3 gens)...   [8/28] S90 (3 gens)...   [9/28] C40 (3 gens)...   [10/28] EX30 (3 gens)...   [11/28] EX90 (2 gens)...   [12/28] volvo (3 gens)...   [13/28] 340 (1 gens)...   [14/28] 440 k (1 gens)...   [15/28] 460 l (1 gens)...   [16/28] 480 e (1 gens)...   [17/28] 780 bertone (1 gens)...   [18/28] c30 (2 gens)...   [19/28] c70 (3 gens)...   [20/28] em90 (1 gens)...   [21/28] ex40 (1 gens)...   [22/28] ex60 (2 gens)...   [24/28] s40 (3 gens)...   [25/28] s70 (1 gens)...   [26/28] s80 (3 gens)...   [27/28] v50 (2 gens)...   [28/28] v70 (3 gens)...
+   ✅ Volvo done — 697 total found, 180 saved, 0 errors
+
+🏷️  Ferrari (13 models)
+   [1/13] 296 (1 gens)...   [2/13] 488 (1 gens)...   [3/13] F8 (1 gens)...   [4/13] SF90 (1 gens)...   [5/13] Roma (1 gens)...   [6/13] Portofino (1 gens)...   [7/13] Purosangue (1 gens)...   [8/13] 812 (1 gens)...   [9/13] LaFerrari (1 gens)...   [10/13] 458 (1 gens)...   [11/13] California (1 gens)...   [12/13] F12 (1 gens)...   [13/13] GTC4Lusso (1 gens)...
+   ✅ Ferrari done — 719 total found, 186 saved, 0 errors
+
+🏷️  Ford (12 models)
+   [1/12] Fiesta (1 gens)...   [2/12] Focus (1 gens)...   [3/12] Mondeo (1 gens)...   [4/12] Mustang (1 gens)...   [5/12] Mustang Mach-E (1 gens)...   [6/12] Puma (1 gens)...   [7/12] Kuga (1 gens)...   [8/12] Explorer (1 gens)...   [9/12] Ranger (1 gens)...   [10/12] F-150 (1 gens)...   [11/12] Bronco (1 gens)...   [12/12] GT (1 gens)...
+   ✅ Ford done — 743 total found, 192 saved, 0 errors
+
+🏷️  Honda (46 models)
+   [1/46] Civic (3 gens)...   [2/46] Accord (3 gens)...   [3/46] CR-V (3 gens)...   [4/46] HR-V (3 gens)...   [5/46] Jazz (3 gens)...   [6/46] e (3 gens)...   [7/46] ZR-V (1 gens)...   [8/46] e:Ny1 (1 gens)...   [9/46] NSX (3 gens)...   [10/46] S2000 (2 gens)...   [11/46] Type R (1 gens)...   [12/46] br v (3 gens)...   [13/46] brio (3 gens)...   [14/46] capa (1 gens)...   [15/46] city (3 gens)...   [16/46] clarity (1 gens)...   [17/46] cr z (1 gens)...   [18/46] crossroad (1 gens)...   [19/46] crosstour (2 gens)...   [20/46] crx (3 gens)...   [21/46] domani (2 gens)...   [22/46] fit (3 gens)...   [23/46] fr v (2 gens)...   [24/46] insight (3 gens)...   [25/46] logo (1 gens)...   [26/46] m nv (1 gens)...   [27/46] mdx (1 gens)...   [28/46] mobilio (2 gens)...   [29/46] n box (3 gens)...   [30/46] n wgn (1 gens)...   [31/46] orthia (1 gens)...   [32/46] p7 (1 gens)...   [33/46] passport (3 gens)...   [34/46] pilot (3 gens)...   [35/46] rafaga (1 gens)...   [36/46] s mx (1 gens)...   [37/46] s600 (1 gens)...   [38/46] s660 (1 gens)...   [39/46] s7 (1 gens)...   [40/46] s800 (1 gens)...   [41/46] that s (1 gens)...   [42/46] today (1 gens)...   [43/46] ur v (2 gens)...   [44/46] vamos (1 gens)...   [45/46] vigor (1 gens)...   [46/46] wr v (3 gens)...
+   ✅ Honda done — 838 total found, 215 saved, 0 errors
+
+🏷️  Toyota (131 models)
+   [1/131] Corolla (3 gens)...   [2/131] Camry (3 gens)...   [3/131] Yaris (3 gens)...   [4/131] RAV4 (3 gens)...   [5/131] Land Cruiser (3 gens)...   [6/131] Prius (3 gens)...   [7/131] C-HR (3 gens)...   [8/131] Highlander (3 gens)...   [9/131] Supra (3 gens)...   [10/131] GR86 (1 gens)...   [11/131] bZ4X (2 gens)...   [12/131] Aygo (3 gens)...   [13/131] 4runner (3 gens)...   [14/131] toyota (3 gens)...   [15/131] allex (1 gens)...   [16/131] allion (1 gens)...   [17/131] alphard (3 gens)...   [18/131] altezza (2 gens)...   [19/131] aqua (3 gens)...   [20/131] aristo (3 gens)...   [21/131] aurion (3 gens)...   [22/131] auris (3 gens)...   [23/131] avalon (3 gens)...   [24/131] avanza (3 gens)...   [25/131] avensis (3 gens)...   [26/131] bb (2 gens)...   [27/131] belta (1 gens)...   [28/131] blade (1 gens)...   [29/131] blizzard (2 gens)...   [30/131] brevis (1 gens)...   [32/131] c pod (1 gens)...   [33/131] caldina (3 gens)...   [34/131] calya (2 gens)...   [35/131] cami (1 gens)...   [36/131] carib (1 gens)...   [37/131] carina (3 gens)...   [38/131] cavalier (1 gens)...   [39/131] celica (3 gens)...   [40/131] celsior (3 gens)...   [41/131] century (3 gens)...   [42/131] chaser (2 gens)...   [44/131] corona (3 gens)...   [45/131] corsa (3 gens)...   [46/131] cressida (2 gens)...   [47/131] cresta (3 gens)...   [48/131] crown (3 gens)...   [49/131] curren (1 gens)...   [50/131] cynos (3 gens)...   [51/131] duet (1 gens)...   [52/131] echo (2 gens)...   [53/131] estima (2 gens)...   [54/131] etios (1 gens)...   [56/131] fj cruiser (1 gens)...   [57/131] fortuner (3 gens)...   [58/131] frontlander (1 gens)...   [59/131] funcargo (1 gens)...   [60/131] gaia (1 gens)...   [61/131] glanza (1 gens)...   [62/131] grand hiace (3 gens)...   [63/131] granvia (1 gens)...   [64/131] harrier (3 gens)...   [65/131] hilux (3 gens)...   [66/131] innova (3 gens)...   [67/131] ipsum (2 gens)...   [68/131] iq (1 gens)...   [69/131] isis (1 gens)...   [70/131] izoa (2 gens)...   [71/131] kluger (3 gens)...   [72/131] levin (1 gens)...   [73/131] lite ace (1 gens)...   [74/131] mark ii (3 gens)...   [75/131] mark x (2 gens)...   [76/131] masterace (1 gens)...   [77/131] matrix (2 gens)...   [78/131] mega cruiser (1 gens)...   [79/131] mirai (2 gens)...   [80/131] mr s (1 gens)...   [81/131] nadia (1 gens)...   [82/131] noah (1 gens)...   [83/131] opa (1 gens)...   [84/131] origin (1 gens)...   [85/131] paseo (2 gens)...   [86/131] passo (1 gens)...   [87/131] picnic (1 gens)...   [88/131] platz (1 gens)...   [89/131] porte (2 gens)...   [90/131] premio (1 gens)...   [91/131] previa (1 gens)...   [92/131] proace (3 gens)...   [93/131] probox (1 gens)...   [94/131] progres (1 gens)...   [95/131] pronard (1 gens)...   [96/131] ractis (1 gens)...   [97/131] raize (1 gens)...   [98/131] raum (1 gens)...   [99/131] regius (1 gens)...   [100/131] rush (1 gens)...   [101/131] sai (2 gens)...   [102/131] scepter (2 gens)...   [103/131] sequoia (3 gens)...   [104/131] sera (1 gens)...   [105/131] sienna (3 gens)...   [106/131] sienta (3 gens)...   [107/131] soarer (2 gens)...   [108/131] sparky (1 gens)...   [109/131] sprinter (2 gens)...   [110/131] starlet (2 gens)...   [111/131] succeed (1 gens)...   [112/131] tacoma (3 gens)...   [113/131] tercel (3 gens)...   [114/131] town ace (2 gens)...   [115/131] tundra (3 gens)...   [116/131] urban cruiser (3 gens)...   [117/131] vanguard (1 gens)...   [118/131] veloz (1 gens)...   [119/131] venza (3 gens)...   [120/131] verossa (1 gens)...   [121/131] verso (1 gens)...   [122/131] vios (3 gens)...   [124/131] vitz (2 gens)...   [125/131] voltz (1 gens)...   [126/131] voxy (1 gens)...   [127/131] wigo (2 gens)...   [128/131] wildlander (2 gens)...   [129/131] will (3 gens)...   [130/131] windom (3 gens)...   [131/131] wish (3 gens)...
+   ✅ Toyota done — 1059 total found, 277 saved, 0 errors
+
+🏷️  Nissan (86 models)
+   [1/86] Qashqai (3 gens)...   [2/86] Juke (3 gens)...   [3/86] X-Trail (3 gens)...   [4/86] Leaf (3 gens)...   [5/86] Ariya (2 gens)...   [6/86] Micra (3 gens)...   [7/86] GT-R (3 gens)...   [8/86] 370Z (3 gens)...   [9/86] Z (3 gens)...   [10/86] Navara (3 gens)...   [11/86] 100 nx (1 gens)...   [12/86] 180 sx (1 gens)...   [13/86] 200 sx (2 gens)...   [14/86] 240sx (3 gens)...   [15/86] ad (3 gens)...   [16/86] almera (3 gens)...   [17/86] altima (3 gens)...   [18/86] avenir (2 gens)...   [19/86] bassara (1 gens)...   [20/86] bluebird (3 gens)...   [21/86] cedric (3 gens)...   [22/86] cefiro (1 gens)...   [23/86] cherry (3 gens)...   [24/86] cima (2 gens)...   [25/86] crew (1 gens)...   [26/86] cube (3 gens)...   [27/86] datsun (3 gens)...   [28/86] elgrand (2 gens)...   [29/86] expert (1 gens)...   [30/86] figaro (1 gens)...   [31/86] frontier (3 gens)...   [32/86] fuga (2 gens)...   [33/86] gloria (2 gens)...   [35/86] largo (1 gens)...   [36/86] laurel (3 gens)...   [37/86] leopard (1 gens)...   [38/86] liberty (1 gens)...   [39/86] livina (1 gens)...   [40/86] lucino (1 gens)...   [41/86] magnite (2 gens)...   [42/86] maxima (3 gens)...   [43/86] moco (1 gens)...   [44/86] nv200 (3 gens)...   [45/86] pixo (1 gens)...   [46/86] prairie (3 gens)...   [47/86] presea (2 gens)...   [48/86] primera (3 gens)...   [49/86] pulsar (3 gens)...   [50/86] quest (2 gens)...   [51/86] r nessa (1 gens)...   [52/86] rasheen (1 gens)...   [53/86] rogue (3 gens)...   [54/86] safari (2 gens)...   [55/86] sakura (1 gens)...   [56/86] silvia (3 gens)...   [57/86] sylphy (3 gens)...   [58/86] terra (2 gens)...   [59/86] tiida (2 gens)...   [61/86] kicks (3 gens)...   [62/86] king cab (1 gens)...   [63/86] lafesta (1 gens)...   [64/86] langley (2 gens)...   [65/86] march (3 gens)...   [66/86] mistral (2 gens)...   [67/86] murano (3 gens)...   [68/86] n7 (1 gens)...   [69/86] note (3 gens)...   [70/86] np 300 pick up (3 gens)...   [71/86] pathfinder (3 gens)...   [72/86] patrol (3 gens)...   [73/86] presage (1 gens)...   [74/86] president (2 gens)...   [75/86] sentra (3 gens)...   [76/86] serena (3 gens)...   [77/86] skyline (3 gens)...   [78/86] stagea (2 gens)...   [79/86] sunny (3 gens)...   [81/86] teana (2 gens)...   [82/86] tino (1 gens)...   [83/86] titan (3 gens)...   [84/86] townstar (1 gens)...   [85/86] vanette (2 gens)...   [86/86] versa (3 gens)...
+   ✅ Nissan done — 1220 total found, 319 saved, 0 errors
+
+🏷️  Mazda (50 models)
+   [1/50] Mazda3 (3 gens)...   [2/50] Mazda6 (1 gens)...   [3/50] CX-3 (3 gens)...   [4/50] CX-30 (1 gens)...   [5/50] CX-5 (1 gens)...   [6/50] CX-60 (1 gens)...   [7/50] CX-90 (1 gens)...   [8/50] MX-5 (3 gens)...   [9/50] MX-30 (1 gens)...   [10/50] RX-7 (3 gens)...   [11/50] RX-8 (1 gens)...   [12/50] 6e (2 gens)...   [13/50] 818 kombi (1 gens)...   [14/50] atenza (1 gens)...   [15/50] axela (1 gens)...   [17/50] b series (2 gens)...   [18/50] biante (1 gens)...   [19/50] bongo (3 gens)...   [20/50] bt (3 gens)...   [21/50] capella (1 gens)...   [22/50] carol (2 gens)...   [23/50] clef (1 gens)...   [24/50] cosmo (1 gens)...   [25/50] cronos (1 gens)...   [26/50] demio (2 gens)...   [29/50] familia (2 gens)...   [31/50] lantis (1 gens)...   [32/50] laputa (1 gens)...   [35/50] mpv (3 gens)...   [36/50] navajo (1 gens)...   [40/50] r360 (1 gens)...   [44/50] scrum (1 gens)...   [46/50] spiano (1 gens)...
+   ✅ Mazda done — 1265 total found, 329 saved, 0 errors
+
+🏷️  Kia (59 models)
+   [1/59] k9 (3 gens)...   [2/59] kx3 (2 gens)...   [3/59] Picanto (3 gens)...   [4/59] Rio (3 gens)...   [5/59] Ceed (3 gens)...   [6/59] Sportage (3 gens)...   [7/59] Sorento (3 gens)...   [8/59] Niro (3 gens)...   [9/59] EV6 (2 gens)...   [10/59] EV9 (2 gens)...   [11/59] Stinger (2 gens)...   [12/59] Carnival (3 gens)...   [13/59] avella (2 gens)...   [14/59] borrego (1 gens)...   [15/59] cadenza (3 gens)...   [16/59] capital (1 gens)...   [17/59] carens (3 gens)...   [18/59] cerato (3 gens)...   [19/59] clarus (2 gens)...   [20/59] concord (1 gens)...   [21/59] elan sport (1 gens)...   [22/59] enterprise (1 gens)...   [24/59] ev3 (1 gens)...   [25/59] ev4 (2 gens)...   [26/59] ev5 (1 gens)...   [27/59] forte (3 gens)...   [29/59] joice (1 gens)...   [30/59] k3 (3 gens)...   [31/59] k4 (3 gens)...   [32/59] k5 (2 gens)...   [33/59] k7 (1 gens)...   [34/59] k8 (1 gens)...   [35/59] magentis (3 gens)...   [36/59] mohave (2 gens)...   [37/59] opirus (1 gens)...   [38/59] optima (3 gens)...   [39/59] pegas (1 gens)...   [40/59] potentia (1 gens)...   [41/59] pride (2 gens)...   [42/59] pv5 (3 gens)...   [43/59] quoris (2 gens)...   [44/59] retona (1 gens)...   [45/59] roadster (1 gens)...   [46/59] sedona (3 gens)...   [47/59] seltos (3 gens)...   [48/59] sephia (2 gens)...   [49/59] shuma (2 gens)...   [50/59] soluto (1 gens)...   [51/59] sonet (2 gens)...   [52/59] soul (3 gens)...   [53/59] spectra (1 gens)...   [54/59] stonic (3 gens)...   [55/59] syros (1 gens)...   [56/59] tasman (1 gens)...   [57/59] telluride (3 gens)...   [58/59] venga (2 gens)...   [59/59] visto (1 gens)...
+   ✅ Kia done — 1297 total found, 339 saved, 0 errors
+
+🏷️  Jaguar (7 models)
+   [1/7] XE (1 gens)...   [2/7] XF (1 gens)...   [3/7] XJ (1 gens)...   [4/7] F-Type (1 gens)...   [5/7] F-Pace (1 gens)...   [6/7] E-Pace (1 gens)...   [7/7] I-Pace (1 gens)...
+   ✅ Jaguar done — 1305 total found, 342 saved, 0 errors
+
+🏷️  Land Rover (7 models)
+   [1/7] Range Rover (1 gens)...   [2/7] Range Rover Sport (1 gens)...   [3/7] Range Rover Velar (1 gens)...   [4/7] Range Rover Evoque (1 gens)...   [5/7] Discovery (1 gens)...   [6/7] Discovery Sport (1 gens)...   [7/7] Defender (1 gens)...
+   ✅ Land Rover done — 1312 total found, 344 saved, 0 errors
+
+🏷️  Lexus (9 models)
+   [1/9] IS (1 gens)...   [2/9] ES (1 gens)...   [3/9] LS (1 gens)...   [4/9] NX (1 gens)...   [5/9] RX (1 gens)...   [6/9] UX (1 gens)...   [7/9] LC (1 gens)...   [8/9] LFA (1 gens)...   [9/9] RZ (1 gens)...
+   ✅ Lexus done — 1317 total found, 345 saved, 0 errors
+
+🏷️  Peugeot (21 models)
+   [1/21] 208 (1 gens)...   [2/21] 308 (1 gens)...   [3/21] 408 (3 gens)...   [4/21] 508 (1 gens)...   [5/21] 2008 (1 gens)...   [6/21] 3008 (1 gens)...   [7/21] 5008 (1 gens)...   [8/21] e-208 (1 gens)...   [9/21] e-2008 (1 gens)...   [10/21] peugeot (3 gens)...   [11/21] 9x8 (1 gens)...   [12/21] bipper (1 gens)...   [13/21] e legend (1 gens)...   [14/21] hoggar (1 gens)...   [15/21] ion (1 gens)...   [16/21] landtrek (2 gens)...   [17/21] partner (3 gens)...   [18/21] pick up (1 gens)...   [19/21] rcz (2 gens)...   [20/21] rifter (3 gens)...   [21/21] traveller (3 gens)...
+   ✅ Peugeot done — 1357 total found, 354 saved, 0 errors
+
+🏷️  Renault (57 models)
+   [1/57] Clio (3 gens)...   [2/57] Megane (3 gens)...   [3/57] Captur (3 gens)...   [4/57] Kadjar (2 gens)...   [5/57] Austral (2 gens)...   [6/57] Arkana (2 gens)...   [7/57] Scenic (3 gens)...   [8/57] Zoe (3 gens)...   [9/57] Megane E-Tech (1 gens)...   [10/57] Twingo (3 gens)...   [11/57] renault (3 gens)...   [13/57] alaskan (1 gens)...   [14/57] avantime (1 gens)...   [15/57] boreal (1 gens)...   [16/57] city k ze (1 gens)...   [17/57] dauphine (1 gens)...   [18/57] duster (3 gens)...   [19/57] espace (3 gens)...   [20/57] estafette (1 gens)...   [21/57] express (1 gens)...   [23/57] filante (1 gens)...   [24/57] fluence (3 gens)...   [25/57] fuego (1 gens)...   [26/57] kangoo (3 gens)...   [27/57] kaptur (2 gens)...   [28/57] kardian (1 gens)...   [29/57] kiger (2 gens)...   [30/57] koleos (3 gens)...   [31/57] kwid (2 gens)...   [32/57] laguna (3 gens)...   [33/57] latitude (1 gens)...   [34/57] lodgy (2 gens)...   [35/57] logan (1 gens)...   [36/57] master (3 gens)...   [37/57] megan grandcoupe (2 gens)...   [38/57] modus (3 gens)...   [40/57] pulse (1 gens)...   [41/57] rafale (1 gens)...   [42/57] rapid (1 gens)...   [43/57] rodeo (1 gens)...   [44/57] safrane (2 gens)...   [45/57] symbioz (1 gens)...   [46/57] symbol (3 gens)...   [47/57] taliant (1 gens)...   [48/57] talisman (3 gens)...   [49/57] triber (2 gens)...   [50/57] twizy (1 gens)...   [51/57] sandero (1 gens)...   [52/57] scala (1 gens)...   [53/57] sport spider (1 gens)...   [54/57] super (1 gens)...   [55/57] trafic (3 gens)...   [56/57] vel satis (1 gens)...   [57/57] wind (1 gens)...
+   ✅ Renault done — 1418 total found, 371 saved, 0 errors
+
+🏷️  Opel (8 models)
+   [1/8] Corsa (1 gens)...   [2/8] Astra (1 gens)...   [3/8] Insignia (1 gens)...   [4/8] Mokka (1 gens)...   [5/8] Grandland (1 gens)...   [6/8] Crossland (1 gens)...   [7/8] Combo (1 gens)...   [8/8] Zafira (1 gens)...
+   ✅ Opel done — 1423 total found, 372 saved, 0 errors
+
+🏷️  Fiat (7 models)
+   [1/7] 500 (1 gens)...   [2/7] 500X (1 gens)...   [3/7] 500e (1 gens)...   [4/7] Panda (1 gens)...   [5/7] Tipo (1 gens)...   [6/7] Punto (1 gens)...   [7/7] 124 Spider (1 gens)...
+   ✅ Fiat done — 1438 total found, 375 saved, 0 errors
+
+🏷️  Seat (7 models)
+   [1/7] Ibiza (1 gens)...   [2/7] Leon (1 gens)...   [3/7] Arona (1 gens)...   [4/7] Ateca (1 gens)...   [5/7] Tarraco (1 gens)...   [6/7] Cupra Formentor (1 gens)...   [7/7] Cupra Born (1 gens)...
+   ✅ Seat done — 1438 total found, 375 saved, 0 errors
+
+🏷️  Citroen (8 models)
+   [1/8] C3 (1 gens)...   [2/8] C4 (1 gens)...   [3/8] C5 X (1 gens)...   [4/8] C3 Aircross (1 gens)...   [5/8] C4 Cactus (1 gens)...   [6/8] C5 Aircross (1 gens)...   [7/8] Berlingo (1 gens)...   [8/8] e-C4 (1 gens)...
+   ✅ Citroen done — 1444 total found, 377 saved, 0 errors
+
+🏷️  Mini (6 models)
+   [1/6] Cooper (1 gens)...   [2/6] Clubman (1 gens)...   [3/6] Countryman (1 gens)...   [4/6] Convertible (1 gens)...   [5/6] Electric (1 gens)...   [6/6] Aceman (1 gens)...
+   ✅ Mini done — 1445 total found, 378 saved, 0 errors
+
+🏷️  Alfa Romeo (6 models)
+   [1/6] Giulia (1 gens)...   [2/6] Stelvio (1 gens)...   [3/6] Tonale (1 gens)...   [4/6] Giulietta (1 gens)...   [5/6] 4C (1 gens)...   [6/6] 8C (1 gens)...
+   ✅ Alfa Romeo done — 1445 total found, 378 saved, 0 errors
+
+🏷️  Maserati (6 models)
+   [1/6] Ghibli (1 gens)...   [2/6] Quattroporte (1 gens)...   [3/6] Levante (1 gens)...   [4/6] GranTurismo (1 gens)...   [5/6] MC20 (1 gens)...   [6/6] Grecale (1 gens)...
+   ✅ Maserati done — 1450 total found, 379 saved, 0 errors
+
+🏷️  Aston Martin (6 models)
+   [1/6] Vantage (1 gens)...   [2/6] DB11 (1 gens)...   [3/6] DB12 (1 gens)...   [4/6] DBS (1 gens)...   [5/6] DBX (1 gens)...   [6/6] Valkyrie (1 gens)...
+   ✅ Aston Martin done — 1459 total found, 381 saved, 0 errors
+
+🏷️  Bentley (4 models)
+   [1/4] Continental GT (1 gens)...   [2/4] Flying Spur (1 gens)...   [3/4] Bentayga (1 gens)...   [4/4] Mulsanne (1 gens)...
+   ✅ Bentley done — 1469 total found, 383 saved, 0 errors
+
+🏷️  Rolls-Royce (6 models)
+   [1/6] Ghost (1 gens)...   [2/6] Phantom (1 gens)...   [3/6] Wraith (1 gens)...   [4/6] Dawn (1 gens)...   [5/6] Cullinan (1 gens)...   [6/6] Spectre (1 gens)...
+   ✅ Rolls-Royce done — 1479 total found, 385 saved, 0 errors
+
+════════════════════════════════════════════════════════════
+  SCRAPING COMPLETE
+════════════════════════════════════════════════════════════
+  Gens processed:  1936
+  Skipped (exist):  39
+  Images found:     1479
+  Saved to DB:      385
+  Errors:           0
+
+  By category:
+    interior     1362
+    blueprint    117
+
+  📁 Local backup: ../data/images-multi-category.json
+════════════════════════════════════════════════════════════

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-12T23:04:23.450Z",
+  "stats": {
+    "newRows": 9,
+    "updatedRows": 62,
+    "fieldsAdded": 99,
+    "alreadyComplete": 2568
+  },
+  "before": 3552,
+  "after": 3561
+}

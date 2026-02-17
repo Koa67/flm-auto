@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-02-12T23:21:45.479Z",
+  "phase1": {
+    "propagated": 434,
+    "tooFarApart": 736
+  },
+  "phase2": {
+    "platformsChecked": 18,
+    "propagated": 431,
+    "noRatedInGroup": 0,
+    "tooFarApart": 174
+  },
+  "totalNew": 865,
+  "dedupedInserts": 862,
+  "before": 876,
+  "after": 1738
+}

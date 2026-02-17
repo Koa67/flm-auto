@@ -1,0 +1,5192 @@
+[
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 1,
+    "brand": "Honda",
+    "model": "Jazz",
+    "defect_rate_percent": 2.4,
+    "avg_mileage_tkm": 28
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 2,
+    "brand": "Volkswagen",
+    "model": "Golf Sportsvan",
+    "defect_rate_percent": 2.5,
+    "avg_mileage_tkm": 31
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 3,
+    "brand": "Audi",
+    "model": "Q2",
+    "defect_rate_percent": 2.6,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 3,
+    "brand": "Porsche",
+    "model": "911 Carrera",
+    "defect_rate_percent": 2.6,
+    "avg_mileage_tkm": 21
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 5,
+    "brand": "Mitsubishi",
+    "model": "ASX",
+    "defect_rate_percent": 2.7,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 6,
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "defect_rate_percent": 2.9,
+    "avg_mileage_tkm": 36
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 6,
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "defect_rate_percent": 2.9,
+    "avg_mileage_tkm": 34
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 8,
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "defect_rate_percent": 3.3,
+    "avg_mileage_tkm": 53
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 9,
+    "brand": "Volkswagen",
+    "model": "e-Golf",
+    "defect_rate_percent": 3.4,
+    "avg_mileage_tkm": 32
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 10,
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "defect_rate_percent": 3.5,
+    "avg_mileage_tkm": 37
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 10,
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "defect_rate_percent": 3.5,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 12,
+    "brand": "Mazda",
+    "model": "2",
+    "defect_rate_percent": 3.6,
+    "avg_mileage_tkm": 29
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 13,
+    "brand": "Kia",
+    "model": "Picanto",
+    "defect_rate_percent": 3.8,
+    "avg_mileage_tkm": 25
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 13,
+    "brand": "Toyota",
+    "model": "RAV4",
+    "defect_rate_percent": 3.8,
+    "avg_mileage_tkm": 42
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 15,
+    "brand": "Audi",
+    "model": "Q5",
+    "defect_rate_percent": 4,
+    "avg_mileage_tkm": 58
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 15,
+    "brand": "Hyundai",
+    "model": "Kona Elektro",
+    "defect_rate_percent": 4,
+    "avg_mileage_tkm": 36
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 15,
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "defect_rate_percent": 4,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 18,
+    "brand": "BMW",
+    "model": "1/2",
+    "defect_rate_percent": 4.2,
+    "avg_mileage_tkm": 39
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 18,
+    "brand": "Suzuki",
+    "model": "Swift",
+    "defect_rate_percent": 4.2,
+    "avg_mileage_tkm": 31
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 20,
+    "brand": "BMW",
+    "model": "2 Active Tourer",
+    "defect_rate_percent": 4.3,
+    "avg_mileage_tkm": 46
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 20,
+    "brand": "BMW",
+    "model": "X1",
+    "defect_rate_percent": 4.3,
+    "avg_mileage_tkm": 44
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 22,
+    "brand": "Mini",
+    "model": "Cooper SE",
+    "defect_rate_percent": 4.4,
+    "avg_mileage_tkm": 25
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 22,
+    "brand": "Volvo",
+    "model": "XC60",
+    "defect_rate_percent": 4.4,
+    "avg_mileage_tkm": 53
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 24,
+    "brand": "Hyundai",
+    "model": "i10",
+    "defect_rate_percent": 4.5,
+    "avg_mileage_tkm": 25
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 24,
+    "brand": "Smart",
+    "model": "ForTwo",
+    "defect_rate_percent": 4.5,
+    "avg_mileage_tkm": 18
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 26,
+    "brand": "Audi",
+    "model": "A6/A7",
+    "defect_rate_percent": 4.6,
+    "avg_mileage_tkm": 68
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 26,
+    "brand": "Hyundai",
+    "model": "ix20",
+    "defect_rate_percent": 4.6,
+    "avg_mileage_tkm": 30
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 26,
+    "brand": "Renault",
+    "model": "Captur",
+    "defect_rate_percent": 4.6,
+    "avg_mileage_tkm": 30
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 26,
+    "brand": "Toyota",
+    "model": "Yaris",
+    "defect_rate_percent": 4.6,
+    "avg_mileage_tkm": 28
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 26,
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "defect_rate_percent": 4.6,
+    "avg_mileage_tkm": 57
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 31,
+    "brand": "Audi",
+    "model": "A4/A5",
+    "defect_rate_percent": 4.7,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 31,
+    "brand": "BMW",
+    "model": "X3/X4",
+    "defect_rate_percent": 4.7,
+    "avg_mileage_tkm": 53
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 31,
+    "brand": "Hyundai",
+    "model": "Kona",
+    "defect_rate_percent": 4.7,
+    "avg_mileage_tkm": 32
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 34,
+    "brand": "Mazda",
+    "model": "3",
+    "defect_rate_percent": 4.8,
+    "avg_mileage_tkm": 39
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 34,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "defect_rate_percent": 4.8,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 34,
+    "brand": "Mini",
+    "model": "Mini",
+    "defect_rate_percent": 4.8,
+    "avg_mileage_tkm": 30
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 37,
+    "brand": "Audi",
+    "model": "A3",
+    "defect_rate_percent": 4.9,
+    "avg_mileage_tkm": 41
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 37,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "defect_rate_percent": 4.9,
+    "avg_mileage_tkm": 64
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 37,
+    "brand": "Skoda",
+    "model": "Karoq",
+    "defect_rate_percent": 4.9,
+    "avg_mileage_tkm": 44
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 40,
+    "brand": "Peugeot",
+    "model": "2008",
+    "defect_rate_percent": 5,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 40,
+    "brand": "Seat",
+    "model": "Ateca",
+    "defect_rate_percent": 5,
+    "avg_mileage_tkm": 42
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 40,
+    "brand": "Volkswagen",
+    "model": "ID.3",
+    "defect_rate_percent": 5,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 40,
+    "brand": "Peugeot",
+    "model": "208",
+    "defect_rate_percent": 5.1,
+    "avg_mileage_tkm": 31
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 40,
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "defect_rate_percent": 5.1,
+    "avg_mileage_tkm": 49
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 46,
+    "brand": "Cupra",
+    "model": "Formentor",
+    "defect_rate_percent": 5.2,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 46,
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "defect_rate_percent": 5.2,
+    "avg_mileage_tkm": 36
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 46,
+    "brand": "Volkswagen",
+    "model": "T-Cross",
+    "defect_rate_percent": 5.2,
+    "avg_mileage_tkm": 27
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 49,
+    "brand": "Kia",
+    "model": "Rio",
+    "defect_rate_percent": 5.3,
+    "avg_mileage_tkm": 30
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 49,
+    "brand": "Mazda",
+    "model": "CX-3",
+    "defect_rate_percent": 5.3,
+    "avg_mileage_tkm": 36
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 51,
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "defect_rate_percent": 5.4,
+    "avg_mileage_tkm": 59
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 52,
+    "brand": "Audi",
+    "model": "Q3",
+    "defect_rate_percent": 5.6,
+    "avg_mileage_tkm": 42
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 52,
+    "brand": "Ford",
+    "model": "Ecosport",
+    "defect_rate_percent": 5.6,
+    "avg_mileage_tkm": 28
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 52,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "defect_rate_percent": 5.6,
+    "avg_mileage_tkm": 39
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 52,
+    "brand": "Opel",
+    "model": "Mokka",
+    "defect_rate_percent": 5.6,
+    "avg_mileage_tkm": 25
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 56,
+    "brand": "Nissan",
+    "model": "Micra",
+    "defect_rate_percent": 5.7,
+    "avg_mileage_tkm": 28
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 56,
+    "brand": "Renault",
+    "model": "Clio",
+    "defect_rate_percent": 5.7,
+    "avg_mileage_tkm": 32
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 58,
+    "brand": "Kia",
+    "model": "Ceed",
+    "defect_rate_percent": 5.8,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 59,
+    "brand": "Ford",
+    "model": "Puma",
+    "defect_rate_percent": 5.9,
+    "avg_mileage_tkm": 31
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 59,
+    "brand": "Renault",
+    "model": "Scenic",
+    "defect_rate_percent": 5.9,
+    "avg_mileage_tkm": 44
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 59,
+    "brand": "Skoda",
+    "model": "Fabia",
+    "defect_rate_percent": 5.9,
+    "avg_mileage_tkm": 32
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 59,
+    "brand": "Volkswagen",
+    "model": "ID.4/ID.5",
+    "defect_rate_percent": 5.9,
+    "avg_mileage_tkm": 38
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 63,
+    "brand": "Fiat",
+    "model": "500",
+    "defect_rate_percent": 6.1,
+    "avg_mileage_tkm": 24
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 64,
+    "brand": "Ford",
+    "model": "Fiesta",
+    "defect_rate_percent": 6.2,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 64,
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "defect_rate_percent": 6.2,
+    "avg_mileage_tkm": 42
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 66,
+    "brand": "Hyundai",
+    "model": "i30",
+    "defect_rate_percent": 6.3,
+    "avg_mileage_tkm": 38
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 66,
+    "brand": "Opel",
+    "model": "Corsa",
+    "defect_rate_percent": 6.3,
+    "avg_mileage_tkm": 29
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 66,
+    "brand": "Renault",
+    "model": "Twingo",
+    "defect_rate_percent": 6,
+    "avg_mileage_tkm": 25
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 69,
+    "brand": "Peugeot",
+    "model": "e-208",
+    "defect_rate_percent": 6.4,
+    "avg_mileage_tkm": 30
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 70,
+    "brand": "BMW",
+    "model": "3/4",
+    "defect_rate_percent": 6.5,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 70,
+    "brand": "BMW",
+    "model": "X5/X6",
+    "defect_rate_percent": 6.5,
+    "avg_mileage_tkm": 64
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 70,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "defect_rate_percent": 6.5,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 73,
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "defect_rate_percent": 6.6,
+    "avg_mileage_tkm": 64
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 74,
+    "brand": "Kia",
+    "model": "Sportage",
+    "defect_rate_percent": 6.7,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 74,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "defect_rate_percent": 6.7,
+    "avg_mileage_tkm": 46
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 74,
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "defect_rate_percent": 6.7,
+    "avg_mileage_tkm": 56
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 77,
+    "brand": "Opel",
+    "model": "Grandland",
+    "defect_rate_percent": 6.9,
+    "avg_mileage_tkm": 41
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 78,
+    "brand": "Toyota",
+    "model": "Aygo",
+    "defect_rate_percent": 7.1,
+    "avg_mileage_tkm": 31
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 78,
+    "brand": "Volkswagen",
+    "model": "Up!",
+    "defect_rate_percent": 7.1,
+    "avg_mileage_tkm": 35
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 80,
+    "brand": "Fiat",
+    "model": "Panda",
+    "defect_rate_percent": 7.3,
+    "avg_mileage_tkm": 27
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 81,
+    "brand": "Volkswagen",
+    "model": "e-Up!",
+    "defect_rate_percent": 7.5,
+    "avg_mileage_tkm": 27
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 82,
+    "brand": "Renault",
+    "model": "Megane",
+    "defect_rate_percent": 7.8,
+    "avg_mileage_tkm": 47
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 83,
+    "brand": "Seat",
+    "model": "Ibiza",
+    "defect_rate_percent": 7.9,
+    "avg_mileage_tkm": 33
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 84,
+    "brand": "Dacia",
+    "model": "Sandero",
+    "defect_rate_percent": 8,
+    "avg_mileage_tkm": 32
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 85,
+    "brand": "BMW",
+    "model": "5/6",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 65
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 85,
+    "brand": "Opel",
+    "model": "Astra",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 47
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 85,
+    "brand": "Seat",
+    "model": "Arona",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 31
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 85,
+    "brand": "Volkswagen",
+    "model": "Sharan",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 89,
+    "brand": "Opel",
+    "model": "e-Corsa",
+    "defect_rate_percent": 8.3,
+    "avg_mileage_tkm": 29
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 90,
+    "brand": "Dacia",
+    "model": "Duster",
+    "defect_rate_percent": 8.4,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 90,
+    "brand": "Opel",
+    "model": "Insignia",
+    "defect_rate_percent": 8.4,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 92,
+    "brand": "Citroën",
+    "model": "Berlingo",
+    "defect_rate_percent": 8.7,
+    "avg_mileage_tkm": 44
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 92,
+    "brand": "Seat",
+    "model": "Leon",
+    "defect_rate_percent": 8.7,
+    "avg_mileage_tkm": 43
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 94,
+    "brand": "Audi",
+    "model": "A1",
+    "defect_rate_percent": 8.9,
+    "avg_mileage_tkm": 31
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 94,
+    "brand": "Renault",
+    "model": "Zoe",
+    "defect_rate_percent": 8.9,
+    "avg_mileage_tkm": 30
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 94,
+    "brand": "Skoda",
+    "model": "Citigo",
+    "defect_rate_percent": 8.9,
+    "avg_mileage_tkm": 29
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 97,
+    "brand": "Ford",
+    "model": "Kuga",
+    "defect_rate_percent": 9,
+    "avg_mileage_tkm": 43
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 98,
+    "brand": "Seat",
+    "model": "Alhambra",
+    "defect_rate_percent": 9.4,
+    "avg_mileage_tkm": 52
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 98,
+    "brand": "Skoda",
+    "model": "Octavia",
+    "defect_rate_percent": 9.4,
+    "avg_mileage_tkm": 65
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 100,
+    "brand": "Dacia",
+    "model": "Dokker",
+    "defect_rate_percent": 9.5,
+    "avg_mileage_tkm": 42
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 101,
+    "brand": "Skoda",
+    "model": "Kamiq",
+    "defect_rate_percent": 9.6,
+    "avg_mileage_tkm": 34
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 102,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "defect_rate_percent": 10.1,
+    "avg_mileage_tkm": 70
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 103,
+    "brand": "Peugeot",
+    "model": "308",
+    "defect_rate_percent": 10.3,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 104,
+    "brand": "Opel",
+    "model": "Crossland",
+    "defect_rate_percent": 10.4,
+    "avg_mileage_tkm": 28
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 104,
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "defect_rate_percent": 10.4,
+    "avg_mileage_tkm": 54
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 106,
+    "brand": "Ford",
+    "model": "Focus",
+    "defect_rate_percent": 10.6,
+    "avg_mileage_tkm": 52
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 107,
+    "brand": "Ford",
+    "model": "S-Max",
+    "defect_rate_percent": 11.3,
+    "avg_mileage_tkm": 70
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 107,
+    "brand": "Skoda",
+    "model": "Superb",
+    "defect_rate_percent": 11.3,
+    "avg_mileage_tkm": 70
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 109,
+    "brand": "Skoda",
+    "model": "Scala",
+    "defect_rate_percent": 11.8,
+    "avg_mileage_tkm": 43
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 110,
+    "brand": "Ford",
+    "model": "Mondeo",
+    "defect_rate_percent": 13.2,
+    "avg_mileage_tkm": 72
+  },
+  {
+    "report_year": "2025",
+    "age_category": "2-3 ans",
+    "production_years": "2021-2022",
+    "rank": 111,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "defect_rate_percent": 14.2,
+    "avg_mileage_tkm": 53
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 1,
+    "brand": "Porsche",
+    "model": "911 Carrera",
+    "defect_rate_percent": 3.1,
+    "avg_mileage_tkm": 29
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 2,
+    "brand": "Volkswagen",
+    "model": "Golf Sportsvan",
+    "defect_rate_percent": 3.6,
+    "avg_mileage_tkm": 49
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 3,
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "defect_rate_percent": 4,
+    "avg_mileage_tkm": 53
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 4,
+    "brand": "Audi",
+    "model": "Q2",
+    "defect_rate_percent": 4.5,
+    "avg_mileage_tkm": 53
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 4,
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "defect_rate_percent": 4.5,
+    "avg_mileage_tkm": 50
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 6,
+    "brand": "Volkswagen",
+    "model": "e-Golf",
+    "defect_rate_percent": 4.6,
+    "avg_mileage_tkm": 44
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 7,
+    "brand": "Audi",
+    "model": "A3",
+    "defect_rate_percent": 5,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 7,
+    "brand": "Hyundai",
+    "model": "ix20",
+    "defect_rate_percent": 5,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 7,
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "defect_rate_percent": 5,
+    "avg_mileage_tkm": 69
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 10,
+    "brand": "Toyota",
+    "model": "RAV4",
+    "defect_rate_percent": 5.1,
+    "avg_mileage_tkm": 61
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 11,
+    "brand": "Skoda",
+    "model": "Karoq",
+    "defect_rate_percent": 5.3,
+    "avg_mileage_tkm": 62
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 12,
+    "brand": "Volkswagen",
+    "model": "ID.3",
+    "defect_rate_percent": 5.4,
+    "avg_mileage_tkm": 35
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 13,
+    "brand": "Honda",
+    "model": "Jazz",
+    "defect_rate_percent": 5.5,
+    "avg_mileage_tkm": 41
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 14,
+    "brand": "Mitsubishi",
+    "model": "ASX",
+    "defect_rate_percent": 5.6,
+    "avg_mileage_tkm": 55
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 15,
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "defect_rate_percent": 5.7,
+    "avg_mileage_tkm": 72
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 16,
+    "brand": "Audi",
+    "model": "Q3",
+    "defect_rate_percent": 5.8,
+    "avg_mileage_tkm": 54
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 16,
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "defect_rate_percent": 5.8,
+    "avg_mileage_tkm": 54
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 18,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "defect_rate_percent": 5.9,
+    "avg_mileage_tkm": 74
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 19,
+    "brand": "Renault",
+    "model": "Captur",
+    "defect_rate_percent": 6,
+    "avg_mileage_tkm": 45
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 20,
+    "brand": "Audi",
+    "model": "Q5",
+    "defect_rate_percent": 6.1,
+    "avg_mileage_tkm": 73
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 20,
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "defect_rate_percent": 6.1,
+    "avg_mileage_tkm": 57
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 20,
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "defect_rate_percent": 6.1,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 23,
+    "brand": "Mazda",
+    "model": "2",
+    "defect_rate_percent": 6.2,
+    "avg_mileage_tkm": 45
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 23,
+    "brand": "Seat",
+    "model": "Ateca",
+    "defect_rate_percent": 6.2,
+    "avg_mileage_tkm": 61
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 25,
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "defect_rate_percent": 6.3,
+    "avg_mileage_tkm": 69
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 26,
+    "brand": "Kia",
+    "model": "Rio",
+    "defect_rate_percent": 6.4,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 27,
+    "brand": "Audi",
+    "model": "A6/A7",
+    "defect_rate_percent": 6.5,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 27,
+    "brand": "Volkswagen",
+    "model": "Beetle",
+    "defect_rate_percent": 6.5,
+    "avg_mileage_tkm": 44
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 27,
+    "brand": "Volkswagen",
+    "model": "T-Cross",
+    "defect_rate_percent": 6.5,
+    "avg_mileage_tkm": 38
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 30,
+    "brand": "Kia",
+    "model": "Picanto",
+    "defect_rate_percent": 6.6,
+    "avg_mileage_tkm": 41
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 31,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "defect_rate_percent": 7.1,
+    "avg_mileage_tkm": 52
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 31,
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "defect_rate_percent": 7.1,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 33,
+    "brand": "Audi",
+    "model": "A4/A5",
+    "defect_rate_percent": 7.2,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 33,
+    "brand": "Ford",
+    "model": "Puma",
+    "defect_rate_percent": 7.2,
+    "avg_mileage_tkm": 36
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 33,
+    "brand": "Mazda",
+    "model": "CX-3",
+    "defect_rate_percent": 7.2,
+    "avg_mileage_tkm": 49
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 33,
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "defect_rate_percent": 7.2,
+    "avg_mileage_tkm": 84
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 37,
+    "brand": "Volvo",
+    "model": "XC60",
+    "defect_rate_percent": 7.3,
+    "avg_mileage_tkm": 80
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 38,
+    "brand": "Suzuki",
+    "model": "Swift",
+    "defect_rate_percent": 7.4,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 39,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "defect_rate_percent": 7.5,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 40,
+    "brand": "Hyundai",
+    "model": "Kona",
+    "defect_rate_percent": 7.6,
+    "avg_mileage_tkm": 50
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 41,
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "defect_rate_percent": 7.7,
+    "avg_mileage_tkm": 56
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 41,
+    "brand": "Opel",
+    "model": "Mokka",
+    "defect_rate_percent": 7.7,
+    "avg_mileage_tkm": 52
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 43,
+    "brand": "Ford",
+    "model": "Ecosport",
+    "defect_rate_percent": 7.9,
+    "avg_mileage_tkm": 46
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 43,
+    "brand": "Hyundai",
+    "model": "Kona Elektro",
+    "defect_rate_percent": 7.9,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 45,
+    "brand": "Hyundai",
+    "model": "i20",
+    "defect_rate_percent": 8.1,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 45,
+    "brand": "Opel",
+    "model": "Adam",
+    "defect_rate_percent": 8.1,
+    "avg_mileage_tkm": 44
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 47,
+    "brand": "Ford",
+    "model": "Fiesta",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 47,
+    "brand": "Opel",
+    "model": "Grandland",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 59
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 47,
+    "brand": "Skoda",
+    "model": "Fabia",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 52
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 47,
+    "brand": "Toyota",
+    "model": "Yaris",
+    "defect_rate_percent": 8.2,
+    "avg_mileage_tkm": 46
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 51,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "defect_rate_percent": 8.5,
+    "avg_mileage_tkm": 62
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 51,
+    "brand": "Skoda",
+    "model": "Octavia",
+    "defect_rate_percent": 8.5,
+    "avg_mileage_tkm": 85
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 51,
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "defect_rate_percent": 8.5,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 54,
+    "brand": "Kia",
+    "model": "Ceed",
+    "defect_rate_percent": 8.7,
+    "avg_mileage_tkm": 58
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 54,
+    "brand": "Seat",
+    "model": "Mii",
+    "defect_rate_percent": 8.7,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 54,
+    "brand": "Smart",
+    "model": "ForTwo",
+    "defect_rate_percent": 8.7,
+    "avg_mileage_tkm": 32
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 54,
+    "brand": "Volkswagen",
+    "model": "Up!",
+    "defect_rate_percent": 8.7,
+    "avg_mileage_tkm": 48
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 58,
+    "brand": "Skoda",
+    "model": "Rapid",
+    "defect_rate_percent": 8.8,
+    "avg_mileage_tkm": 59
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 59,
+    "brand": "Skoda",
+    "model": "Citigo",
+    "defect_rate_percent": 9,
+    "avg_mileage_tkm": 46
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 59,
+    "brand": "Volkswagen",
+    "model": "e-Up!",
+    "defect_rate_percent": 9,
+    "avg_mileage_tkm": 30
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 61,
+    "brand": "Seat",
+    "model": "Arona",
+    "defect_rate_percent": 9.1,
+    "avg_mileage_tkm": 48
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 62,
+    "brand": "BMW",
+    "model": "1/2",
+    "defect_rate_percent": 9.2,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 62,
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "defect_rate_percent": 9.2,
+    "avg_mileage_tkm": 59
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 62,
+    "brand": "Renault",
+    "model": "Scenic",
+    "defect_rate_percent": 9.2,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 62,
+    "brand": "Seat",
+    "model": "Ibiza",
+    "defect_rate_percent": 9.2,
+    "avg_mileage_tkm": 54
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 66,
+    "brand": "Seat",
+    "model": "Leon",
+    "defect_rate_percent": 9.3,
+    "avg_mileage_tkm": 68
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 67,
+    "brand": "Hyundai",
+    "model": "i30",
+    "defect_rate_percent": 9.4,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 67,
+    "brand": "Kia",
+    "model": "Sportage",
+    "defect_rate_percent": 9.4,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 69,
+    "brand": "BMW",
+    "model": "3/4",
+    "defect_rate_percent": 9.7,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 69,
+    "brand": "Ford",
+    "model": "Kuga",
+    "defect_rate_percent": 9.7,
+    "avg_mileage_tkm": 63
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 69,
+    "brand": "Nissan",
+    "model": "Micra",
+    "defect_rate_percent": 9.7,
+    "avg_mileage_tkm": 47
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 72,
+    "brand": "Renault",
+    "model": "Twingo",
+    "defect_rate_percent": 9.8,
+    "avg_mileage_tkm": 39
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 73,
+    "brand": "Audi",
+    "model": "A1",
+    "defect_rate_percent": 9.9,
+    "avg_mileage_tkm": 47
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 73,
+    "brand": "Fiat",
+    "model": "500",
+    "defect_rate_percent": 9.9,
+    "avg_mileage_tkm": 38
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 75,
+    "brand": "Citroën",
+    "model": "C3",
+    "defect_rate_percent": 10.1,
+    "avg_mileage_tkm": 48
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 76,
+    "brand": "Peugeot",
+    "model": "208",
+    "defect_rate_percent": 10.3,
+    "avg_mileage_tkm": 47
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 76,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "defect_rate_percent": 10.3,
+    "avg_mileage_tkm": 93
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 78,
+    "brand": "Mazda",
+    "model": "3",
+    "defect_rate_percent": 10.4,
+    "avg_mileage_tkm": 59
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 78,
+    "brand": "Opel",
+    "model": "Corsa",
+    "defect_rate_percent": 10.4,
+    "avg_mileage_tkm": 47
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 78,
+    "brand": "Toyota",
+    "model": "Aygo",
+    "defect_rate_percent": 10.4,
+    "avg_mileage_tkm": 45
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 81,
+    "brand": "Ford",
+    "model": "C-Max",
+    "defect_rate_percent": 10.6,
+    "avg_mileage_tkm": 63
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 81,
+    "brand": "Opel",
+    "model": "Astra",
+    "defect_rate_percent": 10.6,
+    "avg_mileage_tkm": 68
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 83,
+    "brand": "Ford",
+    "model": "Focus",
+    "defect_rate_percent": 10.7,
+    "avg_mileage_tkm": 66
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 83,
+    "brand": "Skoda",
+    "model": "Kamiq",
+    "defect_rate_percent": 10.7,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 85,
+    "brand": "Skoda",
+    "model": "Superb",
+    "defect_rate_percent": 10.8,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 86,
+    "brand": "Renault",
+    "model": "Megane",
+    "defect_rate_percent": 11.2,
+    "avg_mileage_tkm": 65
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 87,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "defect_rate_percent": 11.3,
+    "avg_mileage_tkm": 63
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 88,
+    "brand": "BMW",
+    "model": "X3/X4",
+    "defect_rate_percent": 11.4,
+    "avg_mileage_tkm": 72
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 88,
+    "brand": "Citroën",
+    "model": "Berlingo",
+    "defect_rate_percent": 11.4,
+    "avg_mileage_tkm": 66
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 88,
+    "brand": "Ford",
+    "model": "Mondeo",
+    "defect_rate_percent": 11.4,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 91,
+    "brand": "Peugeot",
+    "model": "2008",
+    "defect_rate_percent": 11.5,
+    "avg_mileage_tkm": 49
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 92,
+    "brand": "Renault",
+    "model": "Clio",
+    "defect_rate_percent": 11.7,
+    "avg_mileage_tkm": 53
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 93,
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "defect_rate_percent": 11.9,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 94,
+    "brand": "Fiat",
+    "model": "Panda",
+    "defect_rate_percent": 12,
+    "avg_mileage_tkm": 45
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 94,
+    "brand": "Peugeot",
+    "model": "308",
+    "defect_rate_percent": 12,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 96,
+    "brand": "Ford",
+    "model": "S-Max",
+    "defect_rate_percent": 12.3,
+    "avg_mileage_tkm": 85
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 97,
+    "brand": "Ford",
+    "model": "Ka+",
+    "defect_rate_percent": 12.5,
+    "avg_mileage_tkm": 43
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 98,
+    "brand": "Hyundai",
+    "model": "i10",
+    "defect_rate_percent": 13.4,
+    "avg_mileage_tkm": 42
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 99,
+    "brand": "Dacia",
+    "model": "Sandero",
+    "defect_rate_percent": 13.6,
+    "avg_mileage_tkm": 49
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 99,
+    "brand": "Opel",
+    "model": "Insignia",
+    "defect_rate_percent": 13.6,
+    "avg_mileage_tkm": 84
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 101,
+    "brand": "BMW",
+    "model": "X5/X6",
+    "defect_rate_percent": 14.4,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 102,
+    "brand": "Renault",
+    "model": "Zoe",
+    "defect_rate_percent": 14.5,
+    "avg_mileage_tkm": 42
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 103,
+    "brand": "Mini",
+    "model": "Mini",
+    "defect_rate_percent": 15.6,
+    "avg_mileage_tkm": 48
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 104,
+    "brand": "Opel",
+    "model": "Crossland",
+    "defect_rate_percent": 15.7,
+    "avg_mileage_tkm": 43
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 105,
+    "brand": "Dacia",
+    "model": "Duster",
+    "defect_rate_percent": 16.2,
+    "avg_mileage_tkm": 58
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 106,
+    "brand": "Dacia",
+    "model": "Dokker",
+    "defect_rate_percent": 16.7,
+    "avg_mileage_tkm": 62
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 107,
+    "brand": "Dacia",
+    "model": "Logan",
+    "defect_rate_percent": 16.8,
+    "avg_mileage_tkm": 63
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 108,
+    "brand": "BMW",
+    "model": "X1",
+    "defect_rate_percent": 17.4,
+    "avg_mileage_tkm": 61
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 109,
+    "brand": "Seat",
+    "model": "Alhambra",
+    "defect_rate_percent": 17.5,
+    "avg_mileage_tkm": 76
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 110,
+    "brand": "BMW",
+    "model": "2 Active Tourer",
+    "defect_rate_percent": 17.6,
+    "avg_mileage_tkm": 63
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 111,
+    "brand": "BMW",
+    "model": "5/6",
+    "defect_rate_percent": 17.7,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 112,
+    "brand": "Volkswagen",
+    "model": "Sharan",
+    "defect_rate_percent": 18.5,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "4-5 ans",
+    "production_years": "2019-2020",
+    "rank": 113,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "defect_rate_percent": 19.7,
+    "avg_mileage_tkm": 74
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 1,
+    "brand": "Porsche",
+    "model": "911 Carrera",
+    "defect_rate_percent": 3.1,
+    "avg_mileage_tkm": 40
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 2,
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "defect_rate_percent": 6,
+    "avg_mileage_tkm": 72
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 3,
+    "brand": "Mazda",
+    "model": "CX-3",
+    "defect_rate_percent": 6.6,
+    "avg_mileage_tkm": 69
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 4,
+    "brand": "Volkswagen",
+    "model": "Golf Sportsvan",
+    "defect_rate_percent": 6.8,
+    "avg_mileage_tkm": 70
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 5,
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "defect_rate_percent": 7.4,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 6,
+    "brand": "Audi",
+    "model": "Q2",
+    "defect_rate_percent": 7.7,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 7,
+    "brand": "Honda",
+    "model": "Jazz",
+    "defect_rate_percent": 8.4,
+    "avg_mileage_tkm": 57
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 7,
+    "brand": "Seat",
+    "model": "Ateca",
+    "defect_rate_percent": 8.4,
+    "avg_mileage_tkm": 86
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 9,
+    "brand": "Mazda",
+    "model": "2",
+    "defect_rate_percent": 8.7,
+    "avg_mileage_tkm": 67
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 10,
+    "brand": "Audi",
+    "model": "A3",
+    "defect_rate_percent": 9.1,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 11,
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "defect_rate_percent": 9.2,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 11,
+    "brand": "Mitsubishi",
+    "model": "ASX",
+    "defect_rate_percent": 9.2,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 11,
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "defect_rate_percent": 9.2,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 14,
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "defect_rate_percent": 9.3,
+    "avg_mileage_tkm": 78
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 14,
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "defect_rate_percent": 9.3,
+    "avg_mileage_tkm": 94
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 16,
+    "brand": "Seat",
+    "model": "Arona",
+    "defect_rate_percent": 9.7,
+    "avg_mileage_tkm": 59
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 17,
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "defect_rate_percent": 10,
+    "avg_mileage_tkm": 95
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 18,
+    "brand": "Toyota",
+    "model": "RAV4",
+    "defect_rate_percent": 10.1,
+    "avg_mileage_tkm": 86
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 19,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "defect_rate_percent": 10.5,
+    "avg_mileage_tkm": 96
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 20,
+    "brand": "Audi",
+    "model": "Q3",
+    "defect_rate_percent": 10.7,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 20,
+    "brand": "Mercedes-Benz",
+    "model": "GLE/ML",
+    "defect_rate_percent": 10.7,
+    "avg_mileage_tkm": 111
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 22,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "defect_rate_percent": 11,
+    "avg_mileage_tkm": 99
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 23,
+    "brand": "Renault",
+    "model": "Captur",
+    "defect_rate_percent": 11.1,
+    "avg_mileage_tkm": 65
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 24,
+    "brand": "Hyundai",
+    "model": "i20",
+    "defect_rate_percent": 11.2,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 24,
+    "brand": "Opel",
+    "model": "Mokka",
+    "defect_rate_percent": 11.2,
+    "avg_mileage_tkm": 72
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 26,
+    "brand": "Opel",
+    "model": "Grandland",
+    "defect_rate_percent": 11.3,
+    "avg_mileage_tkm": 76
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 27,
+    "brand": "Kia",
+    "model": "Rio",
+    "defect_rate_percent": 11.4,
+    "avg_mileage_tkm": 70
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 28,
+    "brand": "Audi",
+    "model": "A1",
+    "defect_rate_percent": 11.5,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 28,
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "defect_rate_percent": 11.5,
+    "avg_mileage_tkm": 97
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 30,
+    "brand": "Renault",
+    "model": "Scenic",
+    "defect_rate_percent": 11.6,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 31,
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "defect_rate_percent": 11.7,
+    "avg_mileage_tkm": 113
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 32,
+    "brand": "Opel",
+    "model": "Meriva",
+    "defect_rate_percent": 11.8,
+    "avg_mileage_tkm": 66
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 33,
+    "brand": "Audi",
+    "model": "Q5",
+    "defect_rate_percent": 11.9,
+    "avg_mileage_tkm": 117
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 33,
+    "brand": "Opel",
+    "model": "Adam",
+    "defect_rate_percent": 11.9,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 35,
+    "brand": "Seat",
+    "model": "Leon",
+    "defect_rate_percent": 12.2,
+    "avg_mileage_tkm": 95
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 36,
+    "brand": "Skoda",
+    "model": "Octavia",
+    "defect_rate_percent": 12.4,
+    "avg_mileage_tkm": 115
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 36,
+    "brand": "Volvo",
+    "model": "XC60",
+    "defect_rate_percent": 12.4,
+    "avg_mileage_tkm": 114
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 38,
+    "brand": "Skoda",
+    "model": "Citigo",
+    "defect_rate_percent": 12.5,
+    "avg_mileage_tkm": 61
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 38,
+    "brand": "Skoda",
+    "model": "Fabia",
+    "defect_rate_percent": 12.5,
+    "avg_mileage_tkm": 75
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 38,
+    "brand": "Skoda",
+    "model": "Yeti",
+    "defect_rate_percent": 12.5,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 41,
+    "brand": "Opel",
+    "model": "Astra",
+    "defect_rate_percent": 12.6,
+    "avg_mileage_tkm": 96
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 41,
+    "brand": "Suzuki",
+    "model": "Swift",
+    "defect_rate_percent": 12.6,
+    "avg_mileage_tkm": 73
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 41,
+    "brand": "Toyota",
+    "model": "Yaris",
+    "defect_rate_percent": 12.6,
+    "avg_mileage_tkm": 62
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 44,
+    "brand": "Audi",
+    "model": "A6/A7",
+    "defect_rate_percent": 12.9,
+    "avg_mileage_tkm": 128
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 45,
+    "brand": "Ford",
+    "model": "Ecosport",
+    "defect_rate_percent": 13,
+    "avg_mileage_tkm": 63
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 45,
+    "brand": "Skoda",
+    "model": "Rapid",
+    "defect_rate_percent": 13,
+    "avg_mileage_tkm": 85
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 45,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "defect_rate_percent": 13,
+    "avg_mileage_tkm": 70
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 48,
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "defect_rate_percent": 13.1,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 48,
+    "brand": "Volkswagen",
+    "model": "Up!",
+    "defect_rate_percent": 13.1,
+    "avg_mileage_tkm": 66
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 50,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "defect_rate_percent": 13.2,
+    "avg_mileage_tkm": 129
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 50,
+    "brand": "Volkswagen",
+    "model": "Beetle",
+    "defect_rate_percent": 13.2,
+    "avg_mileage_tkm": 62
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 52,
+    "brand": "Mazda",
+    "model": "3",
+    "defect_rate_percent": 13.3,
+    "avg_mileage_tkm": 85
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 53,
+    "brand": "Ford",
+    "model": "Kuga",
+    "defect_rate_percent": 13.4,
+    "avg_mileage_tkm": 90
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 54,
+    "brand": "Hyundai",
+    "model": "ix20",
+    "defect_rate_percent": 13.5,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 54,
+    "brand": "Skoda",
+    "model": "Superb",
+    "defect_rate_percent": 13.5,
+    "avg_mileage_tkm": 125
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 54,
+    "brand": "Toyota",
+    "model": "Auris",
+    "defect_rate_percent": 13.5,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 57,
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "defect_rate_percent": 13.7,
+    "avg_mileage_tkm": 118
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 58,
+    "brand": "Ford",
+    "model": "C-Max",
+    "defect_rate_percent": 13.8,
+    "avg_mileage_tkm": 84
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 58,
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "defect_rate_percent": 13.8,
+    "avg_mileage_tkm": 87
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 58,
+    "brand": "Kia",
+    "model": "Ceed",
+    "defect_rate_percent": 13.8,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 61,
+    "brand": "Ford",
+    "model": "B-Max",
+    "defect_rate_percent": 13.9,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 61,
+    "brand": "Kia",
+    "model": "Sportage",
+    "defect_rate_percent": 13.9,
+    "avg_mileage_tkm": 87
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 61,
+    "brand": "Smart",
+    "model": "ForTwo",
+    "defect_rate_percent": 13.9,
+    "avg_mileage_tkm": 49
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 61,
+    "brand": "Toyota",
+    "model": "Aygo",
+    "defect_rate_percent": 13.9,
+    "avg_mileage_tkm": 62
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 61,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "defect_rate_percent": 13.9,
+    "avg_mileage_tkm": 134
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 66,
+    "brand": "BMW",
+    "model": "1/2",
+    "defect_rate_percent": 14,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 67,
+    "brand": "Ford",
+    "model": "Ka+",
+    "defect_rate_percent": 14.1,
+    "avg_mileage_tkm": 56
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 67,
+    "brand": "Ford",
+    "model": "Mondeo",
+    "defect_rate_percent": 14.1,
+    "avg_mileage_tkm": 122
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 67,
+    "brand": "Ford",
+    "model": "S-Max",
+    "defect_rate_percent": 14.1,
+    "avg_mileage_tkm": 117
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 67,
+    "brand": "Seat",
+    "model": "Mii",
+    "defect_rate_percent": 14.1,
+    "avg_mileage_tkm": 66
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 71,
+    "brand": "Audi",
+    "model": "A4/A5",
+    "defect_rate_percent": 14.4,
+    "avg_mileage_tkm": 114
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 72,
+    "brand": "Peugeot",
+    "model": "208",
+    "defect_rate_percent": 14.5,
+    "avg_mileage_tkm": 66
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 73,
+    "brand": "BMW",
+    "model": "X3/X4",
+    "defect_rate_percent": 14.6,
+    "avg_mileage_tkm": 107
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 74,
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "defect_rate_percent": 15.1,
+    "avg_mileage_tkm": 110
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 75,
+    "brand": "Renault",
+    "model": "Megane",
+    "defect_rate_percent": 15.3,
+    "avg_mileage_tkm": 87
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 76,
+    "brand": "Opel",
+    "model": "Corsa",
+    "defect_rate_percent": 15.4,
+    "avg_mileage_tkm": 67
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 77,
+    "brand": "Seat",
+    "model": "Ibiza",
+    "defect_rate_percent": 15.5,
+    "avg_mileage_tkm": 80
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 78,
+    "brand": "BMW",
+    "model": "3/4",
+    "defect_rate_percent": 15.7,
+    "avg_mileage_tkm": 113
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 79,
+    "brand": "Peugeot",
+    "model": "2008",
+    "defect_rate_percent": 15.8,
+    "avg_mileage_tkm": 68
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 79,
+    "brand": "Peugeot",
+    "model": "308",
+    "defect_rate_percent": 15.8,
+    "avg_mileage_tkm": 101
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 81,
+    "brand": "Fiat",
+    "model": "500",
+    "defect_rate_percent": 16.1,
+    "avg_mileage_tkm": 54
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 82,
+    "brand": "Renault",
+    "model": "Twingo",
+    "defect_rate_percent": 16.4,
+    "avg_mileage_tkm": 56
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 83,
+    "brand": "Citroën",
+    "model": "C3",
+    "defect_rate_percent": 16.5,
+    "avg_mileage_tkm": 62
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 84,
+    "brand": "Hyundai",
+    "model": "i10",
+    "defect_rate_percent": 17.4,
+    "avg_mileage_tkm": 58
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 85,
+    "brand": "Opel",
+    "model": "Insignia",
+    "defect_rate_percent": 17.6,
+    "avg_mileage_tkm": 124
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 86,
+    "brand": "Ford",
+    "model": "Fiesta",
+    "defect_rate_percent": 17.8,
+    "avg_mileage_tkm": 73
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 86,
+    "brand": "Kia",
+    "model": "Picanto",
+    "defect_rate_percent": 17.8,
+    "avg_mileage_tkm": 60
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 88,
+    "brand": "Fiat",
+    "model": "Panda",
+    "defect_rate_percent": 18,
+    "avg_mileage_tkm": 58
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 88,
+    "brand": "Renault",
+    "model": "Clio",
+    "defect_rate_percent": 18,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 90,
+    "brand": "Citroën",
+    "model": "Berlingo",
+    "defect_rate_percent": 18.3,
+    "avg_mileage_tkm": 94
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 91,
+    "brand": "Hyundai",
+    "model": "i30",
+    "defect_rate_percent": 18.4,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 92,
+    "brand": "BMW",
+    "model": "X1",
+    "defect_rate_percent": 18.7,
+    "avg_mileage_tkm": 86
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 93,
+    "brand": "Ford",
+    "model": "Focus",
+    "defect_rate_percent": 19.5,
+    "avg_mileage_tkm": 100
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 93,
+    "brand": "Nissan",
+    "model": "Micra",
+    "defect_rate_percent": 19.5,
+    "avg_mileage_tkm": 57
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 95,
+    "brand": "Mini",
+    "model": "Mini",
+    "defect_rate_percent": 19.6,
+    "avg_mileage_tkm": 69
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 96,
+    "brand": "Dacia",
+    "model": "Sandero",
+    "defect_rate_percent": 19.7,
+    "avg_mileage_tkm": 69
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 97,
+    "brand": "Renault",
+    "model": "Zoe",
+    "defect_rate_percent": 19.9,
+    "avg_mileage_tkm": 61
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 98,
+    "brand": "BMW",
+    "model": "X5/X6",
+    "defect_rate_percent": 20.4,
+    "avg_mileage_tkm": 121
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 99,
+    "brand": "Volkswagen",
+    "model": "Sharan",
+    "defect_rate_percent": 20.8,
+    "avg_mileage_tkm": 116
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 100,
+    "brand": "Seat",
+    "model": "Alhambra",
+    "defect_rate_percent": 20.9,
+    "avg_mileage_tkm": 110
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 101,
+    "brand": "BMW",
+    "model": "2 Active Tourer",
+    "defect_rate_percent": 21.2,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 102,
+    "brand": "Dacia",
+    "model": "Logan",
+    "defect_rate_percent": 22.3,
+    "avg_mileage_tkm": 91
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 103,
+    "brand": "BMW",
+    "model": "5/6",
+    "defect_rate_percent": 23.6,
+    "avg_mileage_tkm": 111
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 104,
+    "brand": "Dacia",
+    "model": "Duster",
+    "defect_rate_percent": 24.3,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "6-7 ans",
+    "production_years": "2017-2018",
+    "rank": 105,
+    "brand": "Dacia",
+    "model": "Dokker",
+    "defect_rate_percent": 26.5,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 1,
+    "brand": "Porsche",
+    "model": "911 Carrera",
+    "defect_rate_percent": 4,
+    "avg_mileage_tkm": 51
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 2,
+    "brand": "Volkswagen",
+    "model": "Golf Sportsvan",
+    "defect_rate_percent": 10,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 3,
+    "brand": "Mazda",
+    "model": "2",
+    "defect_rate_percent": 10.6,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 4,
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "defect_rate_percent": 11,
+    "avg_mileage_tkm": 95
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 5,
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "defect_rate_percent": 11.1,
+    "avg_mileage_tkm": 91
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 6,
+    "brand": "Mercedes-Benz",
+    "model": "ML/GLE",
+    "defect_rate_percent": 11.8,
+    "avg_mileage_tkm": 141
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 7,
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "defect_rate_percent": 12,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 8,
+    "brand": "Audi",
+    "model": "A3",
+    "defect_rate_percent": 12.7,
+    "avg_mileage_tkm": 113
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 9,
+    "brand": "Honda",
+    "model": "Jazz",
+    "defect_rate_percent": 13.1,
+    "avg_mileage_tkm": 79
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 10,
+    "brand": "Mitsubishi",
+    "model": "ASX",
+    "defect_rate_percent": 13.3,
+    "avg_mileage_tkm": 104
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 11,
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "defect_rate_percent": 13.6,
+    "avg_mileage_tkm": 118
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 12,
+    "brand": "Opel",
+    "model": "Meriva",
+    "defect_rate_percent": 13.8,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 13,
+    "brand": "Volvo",
+    "model": "XC60",
+    "defect_rate_percent": 13.9,
+    "avg_mileage_tkm": 137
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 14,
+    "brand": "BMW",
+    "model": "X1",
+    "defect_rate_percent": 14.1,
+    "avg_mileage_tkm": 111
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 15,
+    "brand": "Hyundai",
+    "model": "i20",
+    "defect_rate_percent": 14.3,
+    "avg_mileage_tkm": 87
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 15,
+    "brand": "Toyota",
+    "model": "Aygo",
+    "defect_rate_percent": 14.3,
+    "avg_mileage_tkm": 74
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 15,
+    "brand": "Toyota",
+    "model": "RAV4",
+    "defect_rate_percent": 14.3,
+    "avg_mileage_tkm": 117
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 18,
+    "brand": "Audi",
+    "model": "Q5",
+    "defect_rate_percent": 14.4,
+    "avg_mileage_tkm": 136
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 19,
+    "brand": "Audi",
+    "model": "A1",
+    "defect_rate_percent": 14.5,
+    "avg_mileage_tkm": 94
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 19,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "defect_rate_percent": 14.5,
+    "avg_mileage_tkm": 119
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 21,
+    "brand": "Suzuki",
+    "model": "Swift",
+    "defect_rate_percent": 14.7,
+    "avg_mileage_tkm": 90
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 22,
+    "brand": "Renault",
+    "model": "Captur",
+    "defect_rate_percent": 14.8,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 22,
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "defect_rate_percent": 14.8,
+    "avg_mileage_tkm": 145
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 24,
+    "brand": "Audi",
+    "model": "Q3",
+    "defect_rate_percent": 15.2,
+    "avg_mileage_tkm": 105
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 24,
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "defect_rate_percent": 15.2,
+    "avg_mileage_tkm": 124
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 26,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "defect_rate_percent": 15.3,
+    "avg_mileage_tkm": 126
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 27,
+    "brand": "Audi",
+    "model": "A4/A5",
+    "defect_rate_percent": 15.8,
+    "avg_mileage_tkm": 145
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 27,
+    "brand": "Ford",
+    "model": "B-Max",
+    "defect_rate_percent": 15.8,
+    "avg_mileage_tkm": 78
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 27,
+    "brand": "Skoda",
+    "model": "Octavia",
+    "defect_rate_percent": 15.8,
+    "avg_mileage_tkm": 144
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 30,
+    "brand": "Opel",
+    "model": "Mokka",
+    "defect_rate_percent": 15.9,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 30,
+    "brand": "Seat",
+    "model": "Leon",
+    "defect_rate_percent": 15.9,
+    "avg_mileage_tkm": 123
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 30,
+    "brand": "Skoda",
+    "model": "Fabia",
+    "defect_rate_percent": 15.9,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 33,
+    "brand": "Ford",
+    "model": "S-Max",
+    "defect_rate_percent": 16.1,
+    "avg_mileage_tkm": 133
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 34,
+    "brand": "Mazda",
+    "model": "3",
+    "defect_rate_percent": 16.2,
+    "avg_mileage_tkm": 104
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 35,
+    "brand": "Toyota",
+    "model": "Yaris",
+    "defect_rate_percent": 16.4,
+    "avg_mileage_tkm": 79
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 36,
+    "brand": "Ford",
+    "model": "Kuga",
+    "defect_rate_percent": 16.6,
+    "avg_mileage_tkm": 116
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 37,
+    "brand": "Ford",
+    "model": "Mondeo",
+    "defect_rate_percent": 16.8,
+    "avg_mileage_tkm": 142
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 37,
+    "brand": "Volkswagen",
+    "model": "Up!",
+    "defect_rate_percent": 16.8,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 39,
+    "brand": "Skoda",
+    "model": "Yeti",
+    "defect_rate_percent": 17,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 39,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "defect_rate_percent": 17,
+    "avg_mileage_tkm": 158
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 41,
+    "brand": "Toyota",
+    "model": "Auris",
+    "defect_rate_percent": 17.1,
+    "avg_mileage_tkm": 101
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 42,
+    "brand": "Skoda",
+    "model": "Citigo",
+    "defect_rate_percent": 17.2,
+    "avg_mileage_tkm": 80
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 43,
+    "brand": "Audi",
+    "model": "A6/A7",
+    "defect_rate_percent": 17.3,
+    "avg_mileage_tkm": 161
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 43,
+    "brand": "Opel",
+    "model": "Adam",
+    "defect_rate_percent": 17.3,
+    "avg_mileage_tkm": 79
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 45,
+    "brand": "Volkswagen",
+    "model": "Beetle",
+    "defect_rate_percent": 17.7,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 45,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "defect_rate_percent": 17.7,
+    "avg_mileage_tkm": 88
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 47,
+    "brand": "Opel",
+    "model": "Corsa",
+    "defect_rate_percent": 17.9,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 47,
+    "brand": "Seat",
+    "model": "Mii",
+    "defect_rate_percent": 17.9,
+    "avg_mileage_tkm": 81
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 47,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "defect_rate_percent": 18.1,
+    "avg_mileage_tkm": 181
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 51,
+    "brand": "Ford",
+    "model": "C-Max",
+    "defect_rate_percent": 18.3,
+    "avg_mileage_tkm": 109
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 51,
+    "brand": "Opel",
+    "model": "Astra",
+    "defect_rate_percent": 18.3,
+    "avg_mileage_tkm": 122
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 53,
+    "brand": "Hyundai",
+    "model": "ix20",
+    "defect_rate_percent": 18.6,
+    "avg_mileage_tkm": 77
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 54,
+    "brand": "Hyundai",
+    "model": "ix35",
+    "defect_rate_percent": 18.9,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 54,
+    "brand": "Skoda",
+    "model": "Rapid",
+    "defect_rate_percent": 18.9,
+    "avg_mileage_tkm": 109
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 54,
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "defect_rate_percent": 18.9,
+    "avg_mileage_tkm": 112
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 57,
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "defect_rate_percent": 19,
+    "avg_mileage_tkm": 105
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 58,
+    "brand": "BMW",
+    "model": "3/4",
+    "defect_rate_percent": 19.3,
+    "avg_mileage_tkm": 142
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 58,
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "defect_rate_percent": 19.3,
+    "avg_mileage_tkm": 140
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 60,
+    "brand": "Skoda",
+    "model": "Roomster",
+    "defect_rate_percent": 19.5,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 61,
+    "brand": "BMW",
+    "model": "X3/X4",
+    "defect_rate_percent": 19.6,
+    "avg_mileage_tkm": 130
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 61,
+    "brand": "Smart",
+    "model": "ForTwo",
+    "defect_rate_percent": 19.6,
+    "avg_mileage_tkm": 63
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 63,
+    "brand": "Peugeot",
+    "model": "308",
+    "defect_rate_percent": 20,
+    "avg_mileage_tkm": 121
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 64,
+    "brand": "Ford",
+    "model": "Ecosport",
+    "defect_rate_percent": 20.2,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 64,
+    "brand": "Kia",
+    "model": "Rio",
+    "defect_rate_percent": 20.2,
+    "avg_mileage_tkm": 97
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 66,
+    "brand": "Hyundai",
+    "model": "i10",
+    "defect_rate_percent": 20.7,
+    "avg_mileage_tkm": 74
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 67,
+    "brand": "Peugeot",
+    "model": "208",
+    "defect_rate_percent": 20.8,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 67,
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "defect_rate_percent": 20.8,
+    "avg_mileage_tkm": 139
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 69,
+    "brand": "Kia",
+    "model": "Picanto",
+    "defect_rate_percent": 20.9,
+    "avg_mileage_tkm": 72
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 70,
+    "brand": "Skoda",
+    "model": "Superb",
+    "defect_rate_percent": 21,
+    "avg_mileage_tkm": 167
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 71,
+    "brand": "Opel",
+    "model": "Insignia",
+    "defect_rate_percent": 21.3,
+    "avg_mileage_tkm": 147
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 72,
+    "brand": "Renault",
+    "model": "Twingo",
+    "defect_rate_percent": 21.4,
+    "avg_mileage_tkm": 69
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 73,
+    "brand": "Citroën",
+    "model": "Berlingo",
+    "defect_rate_percent": 21.6,
+    "avg_mileage_tkm": 123
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 74,
+    "brand": "Peugeot",
+    "model": "2008",
+    "defect_rate_percent": 21.7,
+    "avg_mileage_tkm": 93
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 75,
+    "brand": "BMW",
+    "model": "2 Active Tourer",
+    "defect_rate_percent": 21.8,
+    "avg_mileage_tkm": 102
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 75,
+    "brand": "Ford",
+    "model": "Fiesta",
+    "defect_rate_percent": 21.8,
+    "avg_mileage_tkm": 90
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 77,
+    "brand": "Fiat",
+    "model": "Panda",
+    "defect_rate_percent": 21.9,
+    "avg_mileage_tkm": 73
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 77,
+    "brand": "Kia",
+    "model": "Sportage",
+    "defect_rate_percent": 21.9,
+    "avg_mileage_tkm": 107
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 77,
+    "brand": "Seat",
+    "model": "Alhambra",
+    "defect_rate_percent": 21.9,
+    "avg_mileage_tkm": 141
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 80,
+    "brand": "Nissan",
+    "model": "Micra",
+    "defect_rate_percent": 22.4,
+    "avg_mileage_tkm": 71
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 80,
+    "brand": "Seat",
+    "model": "Ibiza",
+    "defect_rate_percent": 22.4,
+    "avg_mileage_tkm": 99
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 82,
+    "brand": "Renault",
+    "model": "Scenic",
+    "defect_rate_percent": 22.5,
+    "avg_mileage_tkm": 109
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 83,
+    "brand": "Mini",
+    "model": "Mini",
+    "defect_rate_percent": 22.7,
+    "avg_mileage_tkm": 87
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 84,
+    "brand": "Volkswagen",
+    "model": "Sharan",
+    "defect_rate_percent": 23,
+    "avg_mileage_tkm": 147
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 85,
+    "brand": "Kia",
+    "model": "Ceed",
+    "defect_rate_percent": 23.1,
+    "avg_mileage_tkm": 113
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 86,
+    "brand": "Fiat",
+    "model": "500",
+    "defect_rate_percent": 23.2,
+    "avg_mileage_tkm": 70
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 87,
+    "brand": "BMW",
+    "model": "X5/X6",
+    "defect_rate_percent": 23.6,
+    "avg_mileage_tkm": 152
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 88,
+    "brand": "Hyundai",
+    "model": "i30",
+    "defect_rate_percent": 23.8,
+    "avg_mileage_tkm": 108
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 89,
+    "brand": "Ford",
+    "model": "Focus",
+    "defect_rate_percent": 24.2,
+    "avg_mileage_tkm": 122
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 90,
+    "brand": "Citroën",
+    "model": "C3",
+    "defect_rate_percent": 24.8,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 91,
+    "brand": "Renault",
+    "model": "Clio",
+    "defect_rate_percent": 25.7,
+    "avg_mileage_tkm": 90
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 92,
+    "brand": "Ford",
+    "model": "Ka",
+    "defect_rate_percent": 25.8,
+    "avg_mileage_tkm": 76
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 93,
+    "brand": "Renault",
+    "model": "Megane",
+    "defect_rate_percent": 26.1,
+    "avg_mileage_tkm": 122
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 94,
+    "brand": "BMW",
+    "model": "5/6",
+    "defect_rate_percent": 27.9,
+    "avg_mileage_tkm": 159
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 95,
+    "brand": "Dacia",
+    "model": "Logan",
+    "defect_rate_percent": 28.3,
+    "avg_mileage_tkm": 112
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 96,
+    "brand": "Dacia",
+    "model": "Sandero",
+    "defect_rate_percent": 28.6,
+    "avg_mileage_tkm": 89
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 97,
+    "brand": "Dacia",
+    "model": "Duster",
+    "defect_rate_percent": 29.7,
+    "avg_mileage_tkm": 101
+  },
+  {
+    "report_year": "2025",
+    "age_category": "8-9 ans",
+    "production_years": "2015-2016",
+    "rank": 98,
+    "brand": "Dacia",
+    "model": "Dokker",
+    "defect_rate_percent": 30.9,
+    "avg_mileage_tkm": 113
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 1,
+    "brand": "Porsche",
+    "model": "911 Carrera",
+    "defect_rate_percent": 5.6,
+    "avg_mileage_tkm": 65
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 2,
+    "brand": "Mercedes-Benz",
+    "model": "A-Class",
+    "defect_rate_percent": 14.7,
+    "avg_mileage_tkm": 120
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 3,
+    "brand": "Mercedes-Benz",
+    "model": "B-Class",
+    "defect_rate_percent": 14.8,
+    "avg_mileage_tkm": 108
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 4,
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "defect_rate_percent": 15.1,
+    "avg_mileage_tkm": 176
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 5,
+    "brand": "Audi",
+    "model": "A3",
+    "defect_rate_percent": 15.9,
+    "avg_mileage_tkm": 132
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 6,
+    "brand": "Volkswagen",
+    "model": "Golf Plus",
+    "defect_rate_percent": 16.2,
+    "avg_mileage_tkm": 99
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 7,
+    "brand": "Honda",
+    "model": "Jazz",
+    "defect_rate_percent": 16.6,
+    "avg_mileage_tkm": 94
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 8,
+    "brand": "Mercedes-Benz",
+    "model": "ML/GLE",
+    "defect_rate_percent": 16.9,
+    "avg_mileage_tkm": 169
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 9,
+    "brand": "Mitsubishi",
+    "model": "ASX",
+    "defect_rate_percent": 17.1,
+    "avg_mileage_tkm": 127
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 10,
+    "brand": "Mini",
+    "model": "Mini",
+    "defect_rate_percent": 17.3,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 11,
+    "brand": "Audi",
+    "model": "Q5",
+    "defect_rate_percent": 17.4,
+    "avg_mileage_tkm": 157
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 12,
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "defect_rate_percent": 17.6,
+    "avg_mileage_tkm": 132
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 13,
+    "brand": "BMW",
+    "model": "X1",
+    "defect_rate_percent": 17.8,
+    "avg_mileage_tkm": 130
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 14,
+    "brand": "Mazda",
+    "model": "3",
+    "defect_rate_percent": 18,
+    "avg_mileage_tkm": 114
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 14,
+    "brand": "Volvo",
+    "model": "XC60",
+    "defect_rate_percent": 18,
+    "avg_mileage_tkm": 170
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 16,
+    "brand": "Audi",
+    "model": "A4/A5",
+    "defect_rate_percent": 18.8,
+    "avg_mileage_tkm": 166
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 16,
+    "brand": "Audi",
+    "model": "Q3",
+    "defect_rate_percent": 18.8,
+    "avg_mileage_tkm": 128
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 18,
+    "brand": "Audi",
+    "model": "A1",
+    "defect_rate_percent": 19.1,
+    "avg_mileage_tkm": 113
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 18,
+    "brand": "Toyota",
+    "model": "Auris",
+    "defect_rate_percent": 19.1,
+    "avg_mileage_tkm": 118
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 20,
+    "brand": "Mazda",
+    "model": "2",
+    "defect_rate_percent": 19.4,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 20,
+    "brand": "Mercedes-Benz",
+    "model": "GLK",
+    "defect_rate_percent": 19.4,
+    "avg_mileage_tkm": 146
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 22,
+    "brand": "Skoda",
+    "model": "Citigo",
+    "defect_rate_percent": 19.5,
+    "avg_mileage_tkm": 96
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 23,
+    "brand": "Seat",
+    "model": "Leon",
+    "defect_rate_percent": 19.7,
+    "avg_mileage_tkm": 137
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 24,
+    "brand": "Smart",
+    "model": "ForTwo",
+    "defect_rate_percent": 19.8,
+    "avg_mileage_tkm": 80
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 25,
+    "brand": "Skoda",
+    "model": "Yeti",
+    "defect_rate_percent": 19.9,
+    "avg_mileage_tkm": 126
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 26,
+    "brand": "Suzuki",
+    "model": "Swift",
+    "defect_rate_percent": 20.1,
+    "avg_mileage_tkm": 105
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 27,
+    "brand": "Audi",
+    "model": "A6/A7",
+    "defect_rate_percent": 20.4,
+    "avg_mileage_tkm": 190
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 28,
+    "brand": "Suzuki",
+    "model": "Grand Vitara",
+    "defect_rate_percent": 20.5,
+    "avg_mileage_tkm": 119
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 29,
+    "brand": "Ford",
+    "model": "B-Max",
+    "defect_rate_percent": 20.7,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 30,
+    "brand": "BMW",
+    "model": "X5/X6",
+    "defect_rate_percent": 20.8,
+    "avg_mileage_tkm": 181
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 30,
+    "brand": "Ford",
+    "model": "Kuga",
+    "defect_rate_percent": 20.8,
+    "avg_mileage_tkm": 137
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 32,
+    "brand": "Renault",
+    "model": "Captur",
+    "defect_rate_percent": 20.9,
+    "avg_mileage_tkm": 99
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 33,
+    "brand": "Volkswagen",
+    "model": "Up!",
+    "defect_rate_percent": 21.3,
+    "avg_mileage_tkm": 97
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 34,
+    "brand": "Toyota",
+    "model": "Yaris",
+    "defect_rate_percent": 21.7,
+    "avg_mileage_tkm": 97
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 35,
+    "brand": "BMW",
+    "model": "X3/X4",
+    "defect_rate_percent": 22,
+    "avg_mileage_tkm": 154
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 36,
+    "brand": "Seat",
+    "model": "Mii",
+    "defect_rate_percent": 22.1,
+    "avg_mileage_tkm": 100
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 37,
+    "brand": "BMW",
+    "model": "3/4",
+    "defect_rate_percent": 22.6,
+    "avg_mileage_tkm": 163
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 37,
+    "brand": "Fiat",
+    "model": "Panda",
+    "defect_rate_percent": 22.6,
+    "avg_mileage_tkm": 82
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 39,
+    "brand": "Opel",
+    "model": "Meriva",
+    "defect_rate_percent": 22.7,
+    "avg_mileage_tkm": 96
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 40,
+    "brand": "BMW",
+    "model": "1/2",
+    "defect_rate_percent": 23,
+    "avg_mileage_tkm": 134
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 40,
+    "brand": "Opel",
+    "model": "Mokka",
+    "defect_rate_percent": 23,
+    "avg_mileage_tkm": 110
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 40,
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "defect_rate_percent": 23,
+    "avg_mileage_tkm": 133
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 43,
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "defect_rate_percent": 23.1,
+    "avg_mileage_tkm": 159
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 44,
+    "brand": "Skoda",
+    "model": "Rapid",
+    "defect_rate_percent": 23.2,
+    "avg_mileage_tkm": 118
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 45,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "defect_rate_percent": 23.3,
+    "avg_mileage_tkm": 134
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 46,
+    "brand": "Skoda",
+    "model": "Fabia",
+    "defect_rate_percent": 23.4,
+    "avg_mileage_tkm": 112
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 46,
+    "brand": "Toyota",
+    "model": "Aygo",
+    "defect_rate_percent": 23.4,
+    "avg_mileage_tkm": 95
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 46,
+    "brand": "Volkswagen",
+    "model": "Beetle",
+    "defect_rate_percent": 23.4,
+    "avg_mileage_tkm": 102
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 49,
+    "brand": "Ford",
+    "model": "C-Max",
+    "defect_rate_percent": 23.6,
+    "avg_mileage_tkm": 209
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 49,
+    "brand": "Opel",
+    "model": "Adam",
+    "defect_rate_percent": 23.6,
+    "avg_mileage_tkm": 93
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 51,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "defect_rate_percent": 23.7,
+    "avg_mileage_tkm": 154
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 51,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "defect_rate_percent": 23.7,
+    "avg_mileage_tkm": 106
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 53,
+    "brand": "Peugeot",
+    "model": "208",
+    "defect_rate_percent": 24,
+    "avg_mileage_tkm": 102
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 54,
+    "brand": "Skoda",
+    "model": "Roomster",
+    "defect_rate_percent": 24.3,
+    "avg_mileage_tkm": 121
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 55,
+    "brand": "Skoda",
+    "model": "Superb",
+    "defect_rate_percent": 24.5,
+    "avg_mileage_tkm": 181
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 56,
+    "brand": "Seat",
+    "model": "Alhambra",
+    "defect_rate_percent": 24.7,
+    "avg_mileage_tkm": 168
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 56,
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "defect_rate_percent": 24.7,
+    "avg_mileage_tkm": 156
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 58,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "defect_rate_percent": 25.3,
+    "avg_mileage_tkm": 182
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 59,
+    "brand": "Opel",
+    "model": "Astra",
+    "defect_rate_percent": 25.5,
+    "avg_mileage_tkm": 137
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 60,
+    "brand": "Hyundai",
+    "model": "ix20",
+    "defect_rate_percent": 25.6,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 61,
+    "brand": "Opel",
+    "model": "Corsa",
+    "defect_rate_percent": 25.7,
+    "avg_mileage_tkm": 101
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 62,
+    "brand": "Opel",
+    "model": "Insignia",
+    "defect_rate_percent": 26.5,
+    "avg_mileage_tkm": 173
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 63,
+    "brand": "Ford",
+    "model": "Fiesta",
+    "defect_rate_percent": 26.6,
+    "avg_mileage_tkm": 107
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 64,
+    "brand": "Volkswagen",
+    "model": "Sharan",
+    "defect_rate_percent": 26.7,
+    "avg_mileage_tkm": 174
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 65,
+    "brand": "Peugeot",
+    "model": "2008",
+    "defect_rate_percent": 26.8,
+    "avg_mileage_tkm": 108
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 66,
+    "brand": "Renault",
+    "model": "Scenic",
+    "defect_rate_percent": 26.9,
+    "avg_mileage_tkm": 118
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 67,
+    "brand": "Renault",
+    "model": "Clio",
+    "defect_rate_percent": 27.1,
+    "avg_mileage_tkm": 103
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 68,
+    "brand": "Hyundai",
+    "model": "ix35",
+    "defect_rate_percent": 27.3,
+    "avg_mileage_tkm": 123
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 69,
+    "brand": "Skoda",
+    "model": "Octavia",
+    "defect_rate_percent": 27.5,
+    "avg_mileage_tkm": 168
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 70,
+    "brand": "Peugeot",
+    "model": "308",
+    "defect_rate_percent": 27.6,
+    "avg_mileage_tkm": 140
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 70,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "defect_rate_percent": 27.6,
+    "avg_mileage_tkm": 191
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 72,
+    "brand": "Hyundai",
+    "model": "i10",
+    "defect_rate_percent": 27.9,
+    "avg_mileage_tkm": 83
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 73,
+    "brand": "Kia",
+    "model": "Sportage",
+    "defect_rate_percent": 28,
+    "avg_mileage_tkm": 127
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 74,
+    "brand": "Kia",
+    "model": "Rio",
+    "defect_rate_percent": 28.3,
+    "avg_mileage_tkm": 109
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 75,
+    "brand": "Citroën",
+    "model": "Berlingo",
+    "defect_rate_percent": 28.6,
+    "avg_mileage_tkm": 138
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 76,
+    "brand": "Fiat",
+    "model": "500",
+    "defect_rate_percent": 28.8,
+    "avg_mileage_tkm": 85
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 77,
+    "brand": "Kia",
+    "model": "Ceed",
+    "defect_rate_percent": 28.9,
+    "avg_mileage_tkm": 131
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 77,
+    "brand": "Kia",
+    "model": "Picanto",
+    "defect_rate_percent": 28.9,
+    "avg_mileage_tkm": 85
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 77,
+    "brand": "Seat",
+    "model": "Ibiza",
+    "defect_rate_percent": 28.9,
+    "avg_mileage_tkm": 120
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 80,
+    "brand": "Ford",
+    "model": "S-Max",
+    "defect_rate_percent": 29.1,
+    "avg_mileage_tkm": 177
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 81,
+    "brand": "Ford",
+    "model": "Ka",
+    "defect_rate_percent": 29.5,
+    "avg_mileage_tkm": 91
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 82,
+    "brand": "BMW",
+    "model": "5/6",
+    "defect_rate_percent": 29.6,
+    "avg_mileage_tkm": 183
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 83,
+    "brand": "Ford",
+    "model": "Focus",
+    "defect_rate_percent": 30,
+    "avg_mileage_tkm": 171
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 84,
+    "brand": "Hyundai",
+    "model": "i20",
+    "defect_rate_percent": 30.2,
+    "avg_mileage_tkm": 96
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 85,
+    "brand": "Ford",
+    "model": "Mondeo",
+    "defect_rate_percent": 30.4,
+    "avg_mileage_tkm": 184
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 86,
+    "brand": "Hyundai",
+    "model": "i30",
+    "defect_rate_percent": 30.5,
+    "avg_mileage_tkm": 120
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 87,
+    "brand": "Dacia",
+    "model": "Sandero",
+    "defect_rate_percent": 30.7,
+    "avg_mileage_tkm": 105
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 87,
+    "brand": "Nissan",
+    "model": "Micra",
+    "defect_rate_percent": 30.7,
+    "avg_mileage_tkm": 87
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 89,
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "defect_rate_percent": 31.2,
+    "avg_mileage_tkm": 130
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 90,
+    "brand": "Citroën",
+    "model": "C3",
+    "defect_rate_percent": 31.9,
+    "avg_mileage_tkm": 106
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 91,
+    "brand": "Renault",
+    "model": "Megane",
+    "defect_rate_percent": 32.7,
+    "avg_mileage_tkm": 136
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 92,
+    "brand": "Renault",
+    "model": "Twingo",
+    "defect_rate_percent": 33,
+    "avg_mileage_tkm": 92
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 93,
+    "brand": "Dacia",
+    "model": "Duster",
+    "defect_rate_percent": 34.1,
+    "avg_mileage_tkm": 122
+  },
+  {
+    "report_year": "2025",
+    "age_category": "10-11 ans",
+    "production_years": "2013-2014",
+    "rank": 94,
+    "brand": "Dacia",
+    "model": "Logan",
+    "defect_rate_percent": 39.6,
+    "avg_mileage_tkm": 132
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "completedBrands": [
+    "Alfa Romeo",
+    "Audi",
+    "BMW",
+    "Citroën",
+    "Dacia",
+    "Fiat",
+    "Ford",
+    "Honda",
+    "Hyundai",
+    "Kia",
+    "Mazda",
+    "Mercedes-Benz",
+    "Nissan",
+    "Opel",
+    "Peugeot",
+    "Porsche",
+    "Renault",
+    "Seat",
+    "Skoda",
+    "Tesla",
+    "Toyota",
+    "Volkswagen",
+    "Volvo"
+  ],
+  "totalSaved": 9088,
+  "totalSkipped": 309,
+  "totalModels": 611,
+  "totalGenerationHits": 0,
+  "errors": 1,
+  "startedAt": "2026-02-09T13:30:30.467Z"
+}

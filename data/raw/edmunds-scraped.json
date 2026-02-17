@@ -1,0 +1,57 @@
+[
+  {
+    "brand": "bmw",
+    "model": "3-series",
+    "year": "2024",
+    "variant": "330i Sedan",
+    "sources": {
+      "edmunds": "https://www.edmunds.com/bmw/3-series/2024/features-specs/"
+    },
+    "interior": {
+      "frontHeadroomMm": 983,
+      "rearHeadroomMm": 955,
+      "frontLegroomMm": 1067,
+      "rearLegroomMm": 894,
+      "frontShoulderRoomMm": 1422,
+      "rearShoulderRoomMm": 1387
+    },
+    "exterior": {
+      "lengthMm": 4722,
+      "widthMm": 1827,
+      "heightMm": 1443,
+      "wheelbaseMm": 2851
+    },
+    "cargo": {
+      "volumeL": 479
+    },
+    "scraped_at": "2026-01-31T15:30:00Z"
+  },
+  {
+    "brand": "audi",
+    "model": "q5",
+    "year": "2024",
+    "variant": "Premium Plus S line AWD 45 TFSI",
+    "sources": {
+      "edmunds": "https://www.edmunds.com/audi/q5/2024/features-specs/"
+    },
+    "interior": {
+      "frontHeadroomMm": 968,
+      "rearHeadroomMm": 958,
+      "frontLegroomMm": 1039,
+      "rearLegroomMm": 965,
+      "frontShoulderRoomMm": 1466,
+      "rearShoulderRoomMm": 1435
+    },
+    "exterior": {
+      "lengthMm": 4681,
+      "widthMm": 1893,
+      "heightMm": 1664,
+      "wheelbaseMm": 2819
+    },
+    "cargo": {
+      "volumeL": 725,
+      "volumeMaxL": 1515
+    },
+    "scraped_at": "2026-01-31T15:35:00Z"
+  }
+]

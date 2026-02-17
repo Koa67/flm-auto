@@ -40,3 +40,27 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# test artifacts
+/test-results/
+/playwright-report/
+
+# logs
+/logs/
+
+# editor/tool config
+/.claude/
+
+# scripts dependencies (separate from root)
+scripts/node_modules/
+scripts/package-lock.json
+
+# supabase temp
+supabase/.temp/
+
+# SLM model weights (too large for git, rebuild via training)
+slm/models/**/*.safetensors
+slm/models/**/*.gguf
+slm/models/**/*.bin
+slm/models/base/
+slm/models/alain-auto/

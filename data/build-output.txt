@@ -1,0 +1,96 @@
+
+> flm-auto@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+- Experiments (use with caution):
+  · optimizePackageImports
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 7.5s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+⚠ Using edge runtime on a page currently disables static generation for that page
+  Generating static pages using 7 workers (0/54) ...
+  Generating static pages using 7 workers (13/54) 
+  Generating static pages using 7 workers (26/54) 
+  Generating static pages using 7 workers (40/54) 
+✓ Generating static pages using 7 workers (54/54) in 4.2s
+  Finalizing page optimization ...
+
+Route (app)                                                Revalidate  Expire
+┌ ○ /                                                              1h      1y
+├ ○ /_not-found
+├ ƒ /api/alain/chat
+├ ƒ /api/blueprints/compare
+├ ƒ /api/brands
+├ ƒ /api/cargo
+├ ƒ /api/compare
+├ ƒ /api/configurateur/search
+├ ƒ /api/dimensions
+├ ƒ /api/family-fit
+├ ƒ /api/family-fit/[id]
+├ ƒ /api/family-fit/search
+├ ƒ /api/health
+├ ƒ /api/newsletter/subscribe
+├ ƒ /api/og
+├ ƒ /api/price-alerts
+├ ƒ /api/recalls
+├ ƒ /api/recommend
+├ ƒ /api/saved-comparisons
+├ ƒ /api/saved-searches
+├ ƒ /api/screen-cars
+├ ƒ /api/search
+├ ƒ /api/seats/compatible
+├ ƒ /api/seats/list
+├ ○ /api/stats                                                     1h      1y
+├ ƒ /api/trims
+├ ƒ /api/ux-score
+├ ƒ /api/vehicles
+├ ƒ /api/vehicles/[id]
+├ ƒ /api/wishlist
+├ ƒ /api/wishlist/details
+├ ƒ /api/wishlist/merge
+├ ƒ /auth/callback
+├ ○ /cgu
+├ ○ /coffre
+├ ƒ /comparatif/[slugs]
+├ ○ /comparer
+├ ○ /confidentialite
+├ ○ /configurateur
+├ ○ /connexion
+├ ƒ /dashboard
+├ ○ /dashboard/settings
+├ ○ /family-fit
+├ ○ /favoris
+├ ○ /marques                                                       1h      1y
+├ ƒ /marques/[brand]
+├ ƒ /marques/[brand]/[model]
+├ ƒ /marques/[brand]/[model]/[generation]
+├ ƒ /marques/[brand]/[model]/[generation]/alternatives
+├ ƒ /marques/[brand]/[model]/[generation]/dimensions
+├ ƒ /marques/[brand]/[model]/[generation]/fiche-technique
+├ ƒ /marques/[brand]/[model]/[generation]/photos
+├ ƒ /marques/[brand]/[model]/[generation]/securite
+├ ƒ /marques/[brand]/[model]/[generation]/videos
+├ ● /meilleur/[category]                                           1d      1y
+│ ├ /meilleur/suv-familial-2024                                    1d      1y
+│ ├ /meilleur/berline-sportive-2024                                1d      1y
+│ ├ /meilleur/voiture-5-etoiles-euroncap-2024                      1d      1y
+│ └ [+2 more paths]
+├ ○ /mentions-legales
+├ ○ /profil
+├ ○ /recherche
+├ ○ /robots.txt
+├ ○ /sitemap.xml
+└ ○ /tco
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-02-12T23:22:25.281Z",
+  "stats": {
+    "gensUpdated": 0,
+    "fieldsAdded": 0,
+    "lengthFilled": 0,
+    "widthFilled": 0,
+    "heightFilled": 0,
+    "wheelbaseFilled": 0,
+    "weightFilled": 0,
+    "alreadyComplete": 0
+  },
+  "missing": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "wheelbase": 0,
+    "weight": 0
+  }
+}

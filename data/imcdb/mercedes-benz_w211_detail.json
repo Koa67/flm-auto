@@ -593,6 +593,18 @@
       "thumbnail_url": "https://www.imcdb.org/t001074116.jpg"
     },
     {
+      "vehicle_id": "2064049",
+      "vehicle_model": "CDI",
+      "chassis_code": "W211",
+      "movie_id": "386946",
+      "movie_title": "M jak miłość",
+      "movie_year": "2000-2025",
+      "stars": 2,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2064049-Mercedes-Benz-E-200-CDI-W211-2005.html",
+      "movie_url": "https://www.imcdb.org/movie_386946-M-jak-mi%C5%82o%C5%9B%C4%87.html",
+      "thumbnail_url": "https://www.imcdb.org/t002064049.jpg"
+    },
+    {
       "vehicle_id": "498195",
       "vehicle_model": "CDI",
       "chassis_code": "W211",
@@ -2501,6 +2513,18 @@
       "thumbnail_url": "https://www.imcdb.org/t001856465.jpg"
     },
     {
+      "vehicle_id": "2065614",
+      "vehicle_model": "CDI",
+      "chassis_code": "W211",
+      "movie_id": "430676",
+      "movie_title": "Ti piace Hitchcock?",
+      "movie_year": "2005",
+      "stars": 2,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2065614-Mercedes-Benz-E-270-CDI-W211-2003.html",
+      "movie_url": "https://www.imcdb.org/movie_430676-Ti-piace-Hitchcock.html",
+      "thumbnail_url": "https://www.imcdb.org/t002065614.jpg"
+    },
+    {
       "vehicle_id": "84135",
       "vehicle_model": "CDI",
       "chassis_code": "W211",
@@ -3579,31 +3603,7 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_794900-Mercedes-Benz-E-320-CDI-W211-2002.html",
       "movie_url": "https://www.imcdb.org/movie_3436130-%C5%A0koda-l%C3%A1sky.html",
       "thumbnail_url": "https://www.imcdb.org/t794900.jpg"
-    },
-    {
-      "vehicle_id": "1259363",
-      "vehicle_model": "CDI",
-      "chassis_code": "W211",
-      "movie_id": "1111729",
-      "movie_title": "Twarzą w twarz",
-      "movie_year": "2007",
-      "stars": 2,
-      "vehicle_url": "https://www.imcdb.org/vehicle_1259363-Mercedes-Benz-E-320-CDI-W211-2002.html",
-      "movie_url": "https://www.imcdb.org/movie_1111729-Twarz%C4%85-w-twarz.html",
-      "thumbnail_url": "https://www.imcdb.org/t001259363.jpg"
-    },
-    {
-      "vehicle_id": "22018",
-      "vehicle_model": "CDI",
-      "chassis_code": "W211",
-      "movie_id": "420328",
-      "movie_title": "XXL",
-      "movie_year": "2004",
-      "stars": 2,
-      "vehicle_url": "https://www.imcdb.org/vehicle_22018-Mercedes-Benz-E-320-CDI-W211-2003.html",
-      "movie_url": "https://www.imcdb.org/movie_420328-XXL.html",
-      "thumbnail_url": "https://www.imcdb.org/t022018.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:30:39.436Z"
+  "scraped_at": "2026-01-31T13:04:08.360Z"
 }

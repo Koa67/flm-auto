@@ -1,0 +1,3619 @@
+{
+  "category_A_delete": [
+    {
+      "id": "08f61ecb-d86d-431b-84ac-9b1d995a02aa",
+      "model_id": "6ce7d88d-ad9c-49fa-b173-286a10a0cc0e",
+      "brand": "BMW",
+      "model": "2002Specs",
+      "gen": "E10",
+      "slug": "e10",
+      "data": {
+        "photos": 66,
+        "specs": 45,
+        "variants": 1,
+        "videos": 17,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "specs_model_has_real_counterpart"
+    },
+    {
+      "id": "01dd329b-09fb-4d7f-b66f-635b67da7509",
+      "model_id": "9691ffe3-1284-46d1-8734-5282a9a6b2ae",
+      "brand": "BMW",
+      "model": "328Specs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 29,
+        "variants": 1,
+        "videos": 32,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_has_real_counterpart"
+    },
+    {
+      "id": "c992df96-6038-4802-b924-81968dc92733",
+      "model_id": "2025c78e-0a2f-4d95-87e4-92be5868d51b",
+      "brand": "BMW",
+      "model": "503Specs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 5,
+        "variants": 1,
+        "videos": 37,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_has_real_counterpart"
+    },
+    {
+      "id": "a514a88e-e81c-46b7-90ce-c33ecd284328",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G42",
+      "slug": "g42",
+      "data": {
+        "photos": 2,
+        "specs": 45,
+        "variants": 3,
+        "videos": 44,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "916b8c07-3785-4c87-8510-c9469fc17e18",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G16",
+      "slug": "g16",
+      "data": {
+        "photos": 14,
+        "specs": 45,
+        "variants": 6,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "17329ffe-335e-4305-8c6a-00cae0c1ae0a",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G15",
+      "slug": "g15",
+      "data": {
+        "photos": 14,
+        "specs": 45,
+        "variants": 6,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "d329c2fe-0328-43a7-87ee-417260de5cac",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G14",
+      "slug": "g14",
+      "data": {
+        "photos": 14,
+        "specs": 44,
+        "variants": 6,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "063efc18-ec13-4f3f-895d-b2decd6d81e3",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G29",
+      "slug": "g29",
+      "data": {
+        "photos": 14,
+        "specs": 44,
+        "variants": 3,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "5a88d4b3-4735-404e-b29c-da3dcc0ca8af",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G32",
+      "slug": "g32",
+      "data": {
+        "photos": 14,
+        "specs": 44,
+        "variants": 8,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "a251b9b8-5a07-41c0-902c-632d0716d394",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G12",
+      "slug": "g12",
+      "data": {
+        "photos": 14,
+        "specs": 44,
+        "variants": 10,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "4e861a2c-b601-4cac-8097-2c1b6a5c0637",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "G11",
+      "slug": "g11",
+      "data": {
+        "photos": 14,
+        "specs": 44,
+        "variants": 7,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "b45692e0-866a-49ac-975b-058800322a03",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F45",
+      "slug": "f45",
+      "data": {
+        "photos": 14,
+        "specs": 44,
+        "variants": 14,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "2ea6c350-9069-4e37-a65e-c4de23186e05",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F46",
+      "slug": "f46",
+      "data": {
+        "photos": 14,
+        "specs": 44,
+        "variants": 10,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "bf6b66fe-da8d-4cfb-afce-e4f4452da7c3",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F36",
+      "slug": "f36",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 19,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "b3a4f08d-a106-4845-bba9-1102bf80eb04",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F33",
+      "slug": "f33",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 11,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "b160ffd3-71ad-438b-a2e9-c4df9f83b99c",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F32",
+      "slug": "f32",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 19,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "5bb8e9a7-0dbd-4b97-8d0f-6ebb3b6ad4f0",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F23",
+      "slug": "f23",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 12,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "bbe5315b-e583-465d-8703-8ed18326c4cb",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F22",
+      "slug": "f22",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 13,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "8d694f4d-483b-4540-9213-2a6c37a4cf53",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F20",
+      "slug": "f20",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 22,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "f79c090b-7fdf-46d4-971a-65110892c54b",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F21",
+      "slug": "f21",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 22,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "3e4f438f-9375-4af5-a35e-6139c8d85284",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F13",
+      "slug": "f13",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 8,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "c64f2f8b-7d3b-4da9-9b21-fd7d2746f3f5",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F12",
+      "slug": "f12",
+      "data": {
+        "photos": 5,
+        "specs": 7,
+        "variants": 8,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "cfa02b01-72ad-4e7b-bebc-290ff1c1cafc",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "F06",
+      "slug": "f06",
+      "data": {
+        "photos": 5,
+        "specs": 4,
+        "variants": 8,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "8eb7a916-65af-4cd2-9015-1a363da92c0c",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "E46",
+      "slug": "e46",
+      "data": {
+        "photos": 5,
+        "specs": 4,
+        "variants": 82,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "c6a3b0de-0d3a-4578-bcdb-fe948179304e",
+      "model_id": "d0542fe7-48bd-437e-9ce8-f23f672cb5c4",
+      "brand": "BMW",
+      "model": "LCI",
+      "gen": "E39",
+      "slug": "e39",
+      "data": {
+        "photos": 5,
+        "specs": 4,
+        "variants": 44,
+        "videos": 8,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "lci_model"
+    },
+    {
+      "id": "8974742d-9dc9-4aff-969f-903797b6495c",
+      "model_id": "c029373b-64d7-4acf-9c73-620c5d3be6df",
+      "brand": "BMW",
+      "model": "M2Specs",
+      "gen": "F87",
+      "slug": "f87",
+      "data": {
+        "photos": 6,
+        "specs": 6,
+        "variants": 1,
+        "videos": 22,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_has_real_counterpart"
+    },
+    {
+      "id": "1ebdf252-f70d-4156-be20-d1aff7269d1e",
+      "model_id": "7b96b4bd-8c1d-41ac-a530-d8f17adeac05",
+      "brand": "BMW",
+      "model": "M3Specs",
+      "gen": "G80",
+      "slug": "g80",
+      "data": {
+        "photos": 3,
+        "specs": 45,
+        "variants": 1,
+        "videos": 21,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "specs_model_has_real_counterpart"
+    },
+    {
+      "id": "f6c3ce66-d3dd-4bc1-8dcc-2301ded92471",
+      "model_id": "3615bce5-3c17-41c6-a0f5-c574b244ad6c",
+      "brand": "Lamborghini",
+      "model": "GallardoSpecs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 6,
+        "specs": 3,
+        "variants": 1,
+        "videos": 21,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_has_real_counterpart"
+    },
+    {
+      "id": "cd54088f-01a9-4c93-88f8-6022209444e0",
+      "model_id": "14ed376a-5da3-4ed4-83f0-9a465a6e8cf4",
+      "brand": "Lamborghini",
+      "model": "MurcielagoSpecs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 44,
+        "variants": 1,
+        "videos": 39,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "specs_model_has_real_counterpart"
+    },
+    {
+      "id": "b377494c-2bc9-46a6-8c12-10ac258bd4da",
+      "model_id": "9c2e2a38-3f2f-42a9-b44c-986f15d9b5d9",
+      "brand": "Lamborghini",
+      "model": "VenenoSpecs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 4,
+        "variants": 1,
+        "videos": 40,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "specs_model_has_real_counterpart"
+    }
+  ],
+  "category_B_review": [
+    {
+      "id": "b40f286c-5b7c-4dc2-8a39-0005d1013a7e",
+      "model_id": "e1a158a5-099a-4071-a9ce-d6625190af80",
+      "brand": "BMW",
+      "model": "2004Specs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 35,
+        "variants": 1,
+        "videos": 19,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_no_counterpart_has_data"
+    },
+    {
+      "id": "63cb38b4-5013-4ced-8f19-eb444ea9aeb5",
+      "model_id": "dc93fba8-4ee7-44a3-b7bb-a08eadb6d831",
+      "brand": "BMW",
+      "model": "335Specs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 5,
+        "variants": 1,
+        "videos": 41,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_no_counterpart_has_data"
+    },
+    {
+      "id": "344b3911-21ba-49b8-b56a-e2e1fbcfe4ee",
+      "model_id": "b748a58a-c3cb-49d5-8f73-3aaf90db9f79",
+      "brand": "BMW",
+      "model": "501Specs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 5,
+        "variants": 1,
+        "videos": 30,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_no_counterpart_has_data"
+    },
+    {
+      "id": "d6bb054a-9445-4d4d-a175-5801fd89b00c",
+      "model_id": "9e947587-5ae2-41e0-96b8-ab2d907c39a7",
+      "brand": "BMW",
+      "model": "507Specs",
+      "gen": "Default",
+      "slug": "default",
+      "data": {
+        "photos": 3,
+        "specs": 8,
+        "variants": 1,
+        "videos": 40,
+        "safety": 0,
+        "dims": 0
+      },
+      "reason": "specs_model_no_counterpart_has_data"
+    },
+    {
+      "id": "96384ae3-d06a-4a69-9968-976be97bfd52",
+      "model_id": "ab7ad93a-5f36-46bd-adc3-6dcc3103913b",
+      "brand": "BMW",
+      "model": "bmw",
+      "gen": "02 e10",
+      "slug": "bmw-02-e10-1974",
+      "data": {
+        "photos": 1014,
+        "specs": 36,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "eccfbe4e-5e72-47cb-b623-605985d7cc77",
+      "model_id": "ab7ad93a-5f36-46bd-adc3-6dcc3103913b",
+      "brand": "BMW",
+      "model": "bmw",
+      "gen": "700 ls",
+      "slug": "bmw-700-ls-1962",
+      "data": {
+        "photos": 22,
+        "specs": 59,
+        "variants": 0,
+        "videos": 10,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "19950c54-e263-4512-8c78-2b647834499b",
+      "model_id": "c21034ea-3028-4c4c-ab70-6cb30c05f0d6",
+      "brand": "BMW",
+      "model": "M1Specs",
+      "gen": "E26",
+      "slug": "e26",
+      "data": {
+        "photos": 54,
+        "specs": 114,
+        "variants": 1,
+        "videos": 21,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "specs_model_no_counterpart_has_data"
+    },
+    {
+      "id": "19ec6c13-8be2-401d-8fe1-8343a57b2ede",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "peugeot",
+      "slug": "peugeot-peugeot-2007",
+      "data": {
+        "photos": 101,
+        "specs": 506,
+        "variants": 0,
+        "videos": 50,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f2bfe605-43b9-4ad4-ae32-4ce1acc48bc1",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "106 i 1a c",
+      "slug": "peugeot-106-i-1a-c-1993",
+      "data": {
+        "photos": 9,
+        "specs": 103,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "25204ddd-3fc4-46d2-9bb5-196e53670fc1",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "205 i 741a c",
+      "slug": "peugeot-205-i-741a-c-1986",
+      "data": {
+        "photos": 9,
+        "specs": 94,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "bb6ce396-d66a-4db2-abd0-2ef37e855e91",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "207 cc facelift",
+      "slug": "peugeot-207-cc-facelift-2009",
+      "data": {
+        "photos": 9,
+        "specs": 80,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "96791725-1f37-4a74-9241-5d43bbe557fd",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "207 facelift",
+      "slug": "peugeot-207-facelift-2009",
+      "data": {
+        "photos": 9,
+        "specs": 59,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "168c6e6f-0d8a-4ba1-9059-363a93bc5c79",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "207 cc",
+      "slug": "peugeot-207-cc-2006",
+      "data": {
+        "photos": 9,
+        "specs": 78,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "affb37ff-85fb-48ad-b7b5-f43c9dabb327",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "301 facelift",
+      "slug": "peugeot-301-facelift-2017",
+      "data": {
+        "photos": 9,
+        "specs": 89,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "dbf74f61-d7da-4159-a650-5402a3cdb3e8",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "305 ii 581m",
+      "slug": "peugeot-305-ii-581m-1982",
+      "data": {
+        "photos": 9,
+        "specs": 26,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e1226768-fe53-4fc4-bbc8-470e9c966eea",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "305 i 581a",
+      "slug": "peugeot-305-i-581a-1977",
+      "data": {
+        "photos": 9,
+        "specs": 19,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "8744852b-79e0-4bea-969e-22f2eb2c481f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "307 cc",
+      "slug": "peugeot-307-cc-2003",
+      "data": {
+        "photos": 10,
+        "specs": 69,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "c5862f4d-a210-4ebe-bfe6-0a061faf80e9",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "408 ii facelift",
+      "slug": "peugeot-408-ii-facelift-2018",
+      "data": {
+        "photos": 9,
+        "specs": 41,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a7c9f5e6-d32c-4a4d-b1d4-c849d561f1f5",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "408 ii",
+      "slug": "peugeot-408-ii-2014",
+      "data": {
+        "photos": 5,
+        "specs": 45,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "93cded7d-1751-4d99-9058-806023505c66",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "107 phase i 2005 5 door",
+      "slug": "peugeot-107-phase-i-2005-5-door-2005",
+      "data": {
+        "photos": 8,
+        "specs": 107,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "5d9b05dc-8a89-4390-b8d2-930cabb28726",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "108 hatch",
+      "slug": "peugeot-108-hatch-2014",
+      "data": {
+        "photos": 1,
+        "specs": 37,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "d6613309-99b6-46b3-bbe3-d396111089e1",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "2008 ii",
+      "slug": "peugeot-2008-ii-2020",
+      "data": {
+        "photos": 8,
+        "specs": 87,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "41f69fe0-7419-4bae-8795-863d1121e27f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "2008 i",
+      "slug": "peugeot-2008-i-2013",
+      "data": {
+        "photos": 11,
+        "specs": 88,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "851ab336-b7c8-444e-a3c9-ef8278c6dcf1",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "206 sw",
+      "slug": "peugeot-206-sw-2002",
+      "data": {
+        "photos": 10,
+        "specs": 89,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ba0418a4-4bc9-4121-85a0-32e2f1f9ca14",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "208 ii phase i",
+      "slug": "peugeot-208-ii-phase-i-2019",
+      "data": {
+        "photos": 5,
+        "specs": 104,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "98f16d8b-ceda-4506-8785-d2514a997e27",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "208 i phase i",
+      "slug": "peugeot-208-i-phase-i-2014",
+      "data": {
+        "photos": 11,
+        "specs": 83,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2e1d87f8-cc31-45df-b37e-61d7a9b84b8b",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "3008 iii phase i",
+      "slug": "peugeot-3008-iii-phase-i-2023",
+      "data": {
+        "photos": 1,
+        "specs": 45,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "72148133-29db-4356-90b5-846c459fb3b2",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "3008 ii phase ii",
+      "slug": "peugeot-3008-ii-phase-ii-2020",
+      "data": {
+        "photos": 4,
+        "specs": 74,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "db87bc2e-f198-4fbe-ae49-bba1a3c7cc9a",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "3008 ii phase i",
+      "slug": "peugeot-3008-ii-phase-i-2016",
+      "data": {
+        "photos": 5,
+        "specs": 78,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2273bb7c-1b2b-4606-819e-3bd675aec52b",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "3008 i phase ii",
+      "slug": "peugeot-3008-i-phase-ii-2013",
+      "data": {
+        "photos": 5,
+        "specs": 105,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f6343864-5348-4318-bda2-9fd3878f97ee",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "305 ii break 581e",
+      "slug": "peugeot-305-ii-break-581e-1982",
+      "data": {
+        "photos": 5,
+        "specs": 16,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "5f7efaf8-0d0d-43f8-83ea-de86fff9454b",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "305 i break 581d",
+      "slug": "peugeot-305-i-break-581d-1980",
+      "data": {
+        "photos": 5,
+        "specs": 15,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "cc2473ac-c818-49a6-b32c-637a0ff3fcad",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "306 cabrio facelift",
+      "slug": "peugeot-306-cabrio-facelift-1997",
+      "data": {
+        "photos": 5,
+        "specs": 80,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "de7c6099-9382-4960-89f6-9375dc692009",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "306 hatchback facelift",
+      "slug": "peugeot-306-hatchback-facelift-1997",
+      "data": {
+        "photos": 5,
+        "specs": 95,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "c8c4d8ed-6aa1-449f-a979-eb4e0e45d50d",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "306 break 7e",
+      "slug": "peugeot-306-break-7e-1997",
+      "data": {
+        "photos": 5,
+        "specs": 85,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "94b57443-3e99-402f-bfe9-79dc0b614f43",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "306 sedan 7b",
+      "slug": "peugeot-306-sedan-7b-1994",
+      "data": {
+        "photos": 5,
+        "specs": 84,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "122f9a8d-34cc-4c96-ab69-135e334536bd",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 sw iii phase ii",
+      "slug": "peugeot-308-sw-iii-phase-ii-2025",
+      "data": {
+        "photos": 5,
+        "specs": 90,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "8a2edc07-7be5-4b93-bdc8-6f4d648405aa",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 sw iii phase i",
+      "slug": "peugeot-308-sw-iii-phase-i-2023",
+      "data": {
+        "photos": 4,
+        "specs": 98,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "85da6eb6-e192-4614-91fe-b32e86d15723",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 sw ii phase ii",
+      "slug": "peugeot-308-sw-ii-phase-ii-2017",
+      "data": {
+        "photos": 9,
+        "specs": 79,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "23737444-c618-4a0c-9f70-f3f29571eb63",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 sw ii phase i",
+      "slug": "peugeot-308-sw-ii-phase-i-2015",
+      "data": {
+        "photos": 5,
+        "specs": 73,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ac4a6067-d172-4dd2-874a-53a5a41946ab",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 sw i phase ii",
+      "slug": "peugeot-308-sw-i-phase-ii-2011",
+      "data": {
+        "photos": 5,
+        "specs": 87,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "595bb4a3-f245-4c81-8541-6abc92a5972a",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 cc i phase ii",
+      "slug": "peugeot-308-cc-i-phase-ii-2011",
+      "data": {
+        "photos": 11,
+        "specs": 70,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a4304c1c-76da-4639-8ca7-7ae1a99fdafe",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 i phase ii",
+      "slug": "peugeot-308-i-phase-ii-2011",
+      "data": {
+        "photos": 5,
+        "specs": 95,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "924ad294-d91a-4b7e-9a75-5d86495d03d8",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "309 10c 10a 3 door",
+      "slug": "peugeot-309-10c-10a-3-door-1986",
+      "data": {
+        "photos": 5,
+        "specs": 84,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f51666a6-f8a3-40fa-a0b0-1e80edbbf7d3",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "404 berline",
+      "slug": "peugeot-404-berline-1963",
+      "data": {
+        "photos": 11,
+        "specs": 49,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2f872a6a-9aff-488a-b341-3feaa0df1490",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "407 sw",
+      "slug": "peugeot-407-sw-2006",
+      "data": {
+        "photos": 3,
+        "specs": 89,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "6f0a477f-19ae-4aed-8262-fb22242cb208",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "5008 iii phase i",
+      "slug": "peugeot-5008-iii-phase-i-2024",
+      "data": {
+        "photos": 5,
+        "specs": 43,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "6140f0b9-5293-4843-96be-0318c67f6566",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "5008 ii phase ii",
+      "slug": "peugeot-5008-ii-phase-ii-2020",
+      "data": {
+        "photos": 8,
+        "specs": 73,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f126e718-88fc-4775-9253-811b1ca82941",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "5008 i phase ii",
+      "slug": "peugeot-5008-i-phase-ii-2013",
+      "data": {
+        "photos": 5,
+        "specs": 72,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f463ed6d-f779-4e95-96cf-b534ac0e329c",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "106 ii",
+      "slug": "peugeot-106-ii-1996",
+      "data": {
+        "photos": 11,
+        "specs": 90,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "9a2f39ae-04c5-4965-9661-25ba58c680ce",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "206 facelift",
+      "slug": "peugeot-206-facelift-2003",
+      "data": {
+        "photos": 7,
+        "specs": 69,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "8957f61a-56c4-4cbd-b5cc-caebb96f61bb",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "206 cc",
+      "slug": "peugeot-206-cc-2000",
+      "data": {
+        "photos": 10,
+        "specs": 73,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a0a3d0be-eb8a-410d-bbb4-07b66c2a72cf",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "207 super",
+      "slug": "peugeot-207-super-2006",
+      "data": {
+        "photos": 8,
+        "specs": 42,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "cb80eeaa-7f59-417f-8909-00b72a09ba0f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "309 10c 10a",
+      "slug": "peugeot-309-10c-10a-1988",
+      "data": {
+        "photos": 5,
+        "specs": 70,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "abf673ff-07ca-49f7-ab0d-9ba550b60c21",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "405 i 15b facelift",
+      "slug": "peugeot-405-i-15b-facelift-1992",
+      "data": {
+        "photos": 5,
+        "specs": 39,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a7f27b65-c20d-492c-bf06-d693555c983b",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "406 phase ii",
+      "slug": "peugeot-406-phase-ii-2000",
+      "data": {
+        "photos": 11,
+        "specs": 75,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "5e6e4ee9-2bc5-45b7-a013-1806a557e7d9",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "406 phase i",
+      "slug": "peugeot-406-phase-i-1996",
+      "data": {
+        "photos": 11,
+        "specs": 94,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "fb4dd202-1427-4893-bab8-6153b159a75f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "408 i",
+      "slug": "peugeot-408-i-2010",
+      "data": {
+        "photos": 10,
+        "specs": 43,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "b9e5c827-e9fc-42b7-a59d-f9196ab25cb9",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "104 coupe",
+      "slug": "peugeot-104-coupe-1979",
+      "data": {
+        "photos": 11,
+        "specs": 22,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "62d8c538-fda2-4918-a1d0-da564030bbf0",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "107 phase ii 2008 3 door",
+      "slug": "peugeot-107-phase-ii-2008-3-door-2010",
+      "data": {
+        "photos": 5,
+        "specs": 0,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "43445510-3eeb-4741-a4a2-03ff5aba7fe3",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "108 top cabrio",
+      "slug": "peugeot-108-top-cabrio-2018",
+      "data": {
+        "photos": 5,
+        "specs": 43,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "27c65fa5-237e-488c-abd5-c7a2bb71c900",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "2008 ii facelift",
+      "slug": "peugeot-2008-ii-facelift-2023",
+      "data": {
+        "photos": 11,
+        "specs": 0,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "38446128-ab9c-4961-8825-c900ef01074d",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "2008 i facelift",
+      "slug": "peugeot-2008-i-facelift-2016",
+      "data": {
+        "photos": 11,
+        "specs": 79,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "bae9365d-3e9b-4174-9a9b-0b8e58af6150",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "204 break",
+      "slug": "peugeot-204-break-1973",
+      "data": {
+        "photos": 11,
+        "specs": 15,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "eba3ea65-14c8-4483-8cba-38d13ea0bde3",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "205 i 20a c facelift 1987 3 door",
+      "slug": "peugeot-205-i-20a-c-facelift-1987-3-door-1987",
+      "data": {
+        "photos": 5,
+        "specs": 143,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "90d7d7e0-dd5d-4ff1-b10b-cf2ef199b497",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "206 sedan",
+      "slug": "peugeot-206-sedan-2007",
+      "data": {
+        "photos": 7,
+        "specs": 62,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e95101b3-7d27-4d9a-9f57-1e18326f0bac",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "207 sw facelift",
+      "slug": "peugeot-207-sw-facelift-2009",
+      "data": {
+        "photos": 11,
+        "specs": 59,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "13b6f7eb-5f74-4467-aa92-c4f470738a9d",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "207 sw",
+      "slug": "peugeot-207-sw-2007",
+      "data": {
+        "photos": 11,
+        "specs": 62,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "32a36020-5839-446a-9b0b-33a61d25ae4b",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "208 ii phase ii",
+      "slug": "peugeot-208-ii-phase-ii-2023",
+      "data": {
+        "photos": 5,
+        "specs": 96,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "d1627626-b18c-47bd-b124-3daeadf955b2",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "208 i phase ii",
+      "slug": "peugeot-208-i-phase-ii-2015",
+      "data": {
+        "photos": 5,
+        "specs": 87,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "0db145b0-d235-47b5-9031-0f46d6adf50c",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "304 break",
+      "slug": "peugeot-304-break-1976",
+      "data": {
+        "photos": 11,
+        "specs": 15,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2d50915a-41ca-41cb-a441-b28c16a067c2",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "304 coupe",
+      "slug": "peugeot-304-coupe-1972",
+      "data": {
+        "photos": 11,
+        "specs": 17,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "03d52a80-46bc-43c9-935e-381421458ff7",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "306 sedan facelift",
+      "slug": "peugeot-306-sedan-facelift-1997",
+      "data": {
+        "photos": 5,
+        "specs": 95,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "0c8376ff-3712-41f4-83f6-1b389beb658f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "306 cabrio 7d",
+      "slug": "peugeot-306-cabrio-7d-1994",
+      "data": {
+        "photos": 5,
+        "specs": 76,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "388ec221-b841-4d9f-855d-71c08dab1ec4",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "306 hatchback 7a c",
+      "slug": "peugeot-306-hatchback-7a-c-1993",
+      "data": {
+        "photos": 5,
+        "specs": 72,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "62b637d1-1c8c-48cb-abc6-b93a3aa23937",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 iii phase ii",
+      "slug": "peugeot-308-iii-phase-ii-2025",
+      "data": {
+        "photos": 5,
+        "specs": 94,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "526621d1-99da-440e-bc4e-fb03a24a4749",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 iii phase i",
+      "slug": "peugeot-308-iii-phase-i-2023",
+      "data": {
+        "photos": 11,
+        "specs": 107,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4f04778a-a782-4c49-905e-21328293a2da",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 ii phase ii",
+      "slug": "peugeot-308-ii-phase-ii-2017",
+      "data": {
+        "photos": 5,
+        "specs": 82,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "6992a156-0209-4e77-ac75-eecac2b45f8d",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 i phase i",
+      "slug": "peugeot-308-i-phase-i-2007",
+      "data": {
+        "photos": 5,
+        "specs": 91,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4155ad06-4fc9-47a5-83d3-45fe3cb3826d",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "309 3c 3a facelift 1989 3 door",
+      "slug": "peugeot-309-3c-3a-facelift-1989-3-door-1989",
+      "data": {
+        "photos": 5,
+        "specs": 82,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "0e9eb3be-a776-4fdc-b0cc-fb84ddf9f041",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "405 i break 15e facelift",
+      "slug": "peugeot-405-i-break-15e-facelift-1992",
+      "data": {
+        "photos": 5,
+        "specs": 40,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "c42a6488-3993-4694-81fc-e7cecb94a868",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "405 i break 15e",
+      "slug": "peugeot-405-i-break-15e-1988",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7783419d-eed9-4877-9da4-e7ea2e6e2c15",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "406 coupe phase ii",
+      "slug": "peugeot-406-coupe-phase-ii-2003",
+      "data": {
+        "photos": 10,
+        "specs": 57,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "cc90e540-c97e-47ef-8e11-64af71d19ce4",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "406 break phase ii",
+      "slug": "peugeot-406-break-phase-ii-2000",
+      "data": {
+        "photos": 5,
+        "specs": 44,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a91146d7-4be6-493d-b22b-171b7a503908",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "406 coupe phase i",
+      "slug": "peugeot-406-coupe-phase-i-2000",
+      "data": {
+        "photos": 5,
+        "specs": 81,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "66f8444f-1ad1-4672-8f71-5e4be1d5de7b",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "406 break phase i",
+      "slug": "peugeot-406-break-phase-i-1996",
+      "data": {
+        "photos": 5,
+        "specs": 59,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2a61a440-dcb1-4884-9455-b76297f0706c",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "5008 i phase i",
+      "slug": "peugeot-5008-i-phase-i-2009",
+      "data": {
+        "photos": 10,
+        "specs": 46,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e65aae41-d582-4e93-813d-448dd683f54b",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "504 coupe",
+      "slug": "peugeot-504-coupe-1977",
+      "data": {
+        "photos": 11,
+        "specs": 12,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "46777315-b87c-48c5-a31d-f2dbc8e5a0d3",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "504 cabrio",
+      "slug": "peugeot-504-cabrio-1982",
+      "data": {
+        "photos": 11,
+        "specs": 15,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "61120a27-ee64-4102-917a-496bb99b5a3f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "504 pick up",
+      "slug": "peugeot-504-pick-up-1980",
+      "data": {
+        "photos": 11,
+        "specs": 14,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ff239731-de85-4e77-8c8a-bdac83b787f4",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "505 551a",
+      "slug": "peugeot-505-551a-1986",
+      "data": {
+        "photos": 5,
+        "specs": 56,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7257cc6a-eda6-4716-8df7-f0e5a746a3ae",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 ii phase ii",
+      "slug": "peugeot-508-ii-phase-ii-2023",
+      "data": {
+        "photos": 9,
+        "specs": 64,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "9914e37f-de61-4cf0-8b7f-27b94f51e0c9",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508l ii phase ii",
+      "slug": "peugeot-508l-ii-phase-ii-2023",
+      "data": {
+        "photos": 5,
+        "specs": 40,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a11eaab5-c57a-4d7e-93e9-defe76649475",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508l ii phase i",
+      "slug": "peugeot-508l-ii-phase-i-2019",
+      "data": {
+        "photos": 5,
+        "specs": 43,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "378b44f9-b304-4bcb-a3f9-085b5c37dfc3",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 ii phase i",
+      "slug": "peugeot-508-ii-phase-i-2020",
+      "data": {
+        "photos": 5,
+        "specs": 80,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "b152e7e6-0a87-422f-b2ef-64ab5690199f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 i phase ii",
+      "slug": "peugeot-508-i-phase-ii-2014",
+      "data": {
+        "photos": 5,
+        "specs": 70,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ca2fda96-f826-4dce-90c8-05fc0ed1f400",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 i rxh phase ii",
+      "slug": "peugeot-508-i-rxh-phase-ii-2014",
+      "data": {
+        "photos": 5,
+        "specs": 14,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e34fbfe4-1f0c-4b3b-bee2-727263e6811e",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 i rxh phase i",
+      "slug": "peugeot-508-i-rxh-phase-i-2011",
+      "data": {
+        "photos": 5,
+        "specs": 65,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "6b118da3-2ac9-45a7-8c59-b523e9d205b2",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 i phase i",
+      "slug": "peugeot-508-i-phase-i-2010",
+      "data": {
+        "photos": 9,
+        "specs": 20,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "66f90b36-ed68-4482-bcaa-d08374cf9600",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "605 6b",
+      "slug": "peugeot-605-6b-1997",
+      "data": {
+        "photos": 5,
+        "specs": 46,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "67aaa1bf-cf33-4939-bb50-a05e7aa1a464",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "607 phase ii",
+      "slug": "peugeot-607-phase-ii-2004",
+      "data": {
+        "photos": 5,
+        "specs": 89,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7dd331ce-122d-4a81-8884-3c2e82d5fd87",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "806",
+      "slug": "peugeot-806-1996",
+      "data": {
+        "photos": 8,
+        "specs": 81,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4288f847-7c79-494c-b694-c9fe461c8147",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 ii sw phase ii",
+      "slug": "peugeot-508-ii-sw-phase-ii-2023",
+      "data": {
+        "photos": 5,
+        "specs": 63,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "57618621-403e-4a69-876d-626ddb6ba5cb",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 ii sw phase i",
+      "slug": "peugeot-508-ii-sw-phase-i-2020",
+      "data": {
+        "photos": 5,
+        "specs": 62,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7f9fedf1-3680-4c72-be3e-3795404a702e",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 i sw phase i",
+      "slug": "peugeot-508-i-sw-phase-i-2010",
+      "data": {
+        "photos": 5,
+        "specs": 63,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "35ad7bed-71cd-4756-9772-f485fd6ad242",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "107 phase ii 2008 5 door",
+      "slug": "peugeot-107-phase-ii-2008-5-door-2010",
+      "data": {
+        "photos": 5,
+        "specs": 45,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4433b838-9c2a-449c-b65b-7f194f773c2d",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "3008 i phase i",
+      "slug": "peugeot-3008-i-phase-i-2011",
+      "data": {
+        "photos": 5,
+        "specs": 110,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "969af365-ab46-4b0b-960f-5277793dc222",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 ii phase i",
+      "slug": "peugeot-308-ii-phase-i-2015",
+      "data": {
+        "photos": 5,
+        "specs": 95,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f42af7d6-e79f-435a-a6f8-4635f334751f",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "107 phase iii 2012 5 door",
+      "slug": "peugeot-107-phase-iii-2012-5-door-2012",
+      "data": {
+        "photos": 5,
+        "specs": 61,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7a7d429b-5633-48bc-b84d-6c2870abd506",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "504 break",
+      "slug": "peugeot-504-break-1975",
+      "data": {
+        "photos": 8,
+        "specs": 9,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "96cd492d-2231-4e49-b4a4-71c0536e29d7",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "508 i sw phase ii",
+      "slug": "peugeot-508-i-sw-phase-ii-2014",
+      "data": {
+        "photos": 5,
+        "specs": 59,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ca37f739-f916-453a-86ce-8fb29e9f90c8",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "5008 ii phase i",
+      "slug": "peugeot-5008-ii-phase-i-2016",
+      "data": {
+        "photos": 13,
+        "specs": 92,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ff708c7f-2b96-48ce-b0ed-66801c4737e9",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "304 cabrio",
+      "slug": "peugeot-304-cabrio-1972",
+      "data": {
+        "photos": 8,
+        "specs": 15,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "18fd1743-8871-4ae4-96d6-8fed0a1ebdcc",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "308 cc i phase i",
+      "slug": "peugeot-308-cc-i-phase-i-2010",
+      "data": {
+        "photos": 13,
+        "specs": 91,
+        "variants": 0,
+        "videos": 6,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "9e2b3572-3837-4c00-aaeb-605e242be0e8",
+      "model_id": "c6c4a54d-48d4-4299-9114-341af4c54827",
+      "brand": "Peugeot",
+      "model": "peugeot",
+      "gen": "505 break 551d",
+      "slug": "peugeot-505-break-551d-1986",
+      "data": {
+        "photos": 13,
+        "specs": 54,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4cfc1a60-23e3-4261-8449-5f5053dfc4db",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "912e",
+      "slug": "porsche-912e-1976",
+      "data": {
+        "photos": 144,
+        "specs": 44,
+        "variants": 0,
+        "videos": 5,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "bdc61bad-e719-4bd5-9dc6-45deb7ff85fa",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "porsche",
+      "slug": "porsche-porsche-1965",
+      "data": {
+        "photos": 2,
+        "specs": 67,
+        "variants": 0,
+        "videos": 18,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ce2281bb-3526-4d73-944c-d80d144bd11e",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "356 coupe",
+      "slug": "porsche-356-coupe-1950",
+      "data": {
+        "photos": 2,
+        "specs": 74,
+        "variants": 0,
+        "videos": 3,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7521dd13-6f89-4a09-80e7-7f64d99abe20",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "718 spyder",
+      "slug": "porsche-718-spyder-2023",
+      "data": {
+        "photos": 2,
+        "specs": 92,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "95b0c143-6654-4284-8103-572656cc2534",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "718 cayman",
+      "slug": "porsche-718-cayman-2020",
+      "data": {
+        "photos": 2,
+        "specs": 100,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a24c0423-3c70-4170-851b-106a9577fe58",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "718 boxster",
+      "slug": "porsche-718-boxster-2020",
+      "data": {
+        "photos": 2,
+        "specs": 52,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2cc63307-ee82-4407-990a-f831912cace5",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911 992 facelift",
+      "slug": "porsche-911-992-facelift-2025",
+      "data": {
+        "photos": 5,
+        "specs": 101,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "ebd29bc4-e0c2-40f5-81d6-7f1ca8d0cb13",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911 cabriolet 992 facelift",
+      "slug": "porsche-911-cabriolet-992-facelift-2025",
+      "data": {
+        "photos": 2,
+        "specs": 94,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "8ee1df0e-7343-4a69-86d0-f77ba6eeec2d",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911 targa 992 facelift",
+      "slug": "porsche-911-targa-992-facelift-2025",
+      "data": {
+        "photos": 2,
+        "specs": 89,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "019ad316-502c-4316-bf80-6aa6a18005d2",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911 dakar",
+      "slug": "porsche-911-dakar-2022",
+      "data": {
+        "photos": 2,
+        "specs": 76,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7428065d-bb7d-4307-97ac-efc190910d8e",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911 targa",
+      "slug": "porsche-911-targa-2020",
+      "data": {
+        "photos": 2,
+        "specs": 91,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2f3e8385-0ab0-41fd-93db-b68cbfd98252",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911 speedster 991 ii",
+      "slug": "porsche-911-speedster-991-ii-2019",
+      "data": {
+        "photos": 2,
+        "specs": 65,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "99a4429c-2595-40d5-a1d5-6ae4a96d35b8",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911 cabriolet",
+      "slug": "porsche-911-cabriolet-2020",
+      "data": {
+        "photos": 10,
+        "specs": 93,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "eae2ebba-3111-4d48-a10f-b2cf537c7ac5",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "911",
+      "slug": "porsche-911-2020",
+      "data": {
+        "photos": 10,
+        "specs": 656,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "47784d02-4dd1-481c-bcc9-1b66dacd52f7",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "918 spyder",
+      "slug": "porsche-918-spyder-2013",
+      "data": {
+        "photos": 2,
+        "specs": 77,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "339e2656-cfdd-474f-955c-7b1e23ab02b5",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "944 cabrio",
+      "slug": "porsche-944-cabrio-1989",
+      "data": {
+        "photos": 10,
+        "specs": 14,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "70d1bc44-5b3c-45ef-8f12-ddb4b6fc154c",
+      "model_id": "49dd8a78-c6c3-465a-889e-b1fc0662f63a",
+      "brand": "Porsche",
+      "model": "porsche",
+      "gen": "968 cabrio",
+      "slug": "porsche-968-cabrio-1991",
+      "data": {
+        "photos": 9,
+        "specs": 34,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "45618100-fbed-4b90-9e98-400db326bdc7",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "10 phase ii",
+      "slug": "renault-10-phase-ii-1967",
+      "data": {
+        "photos": 656,
+        "specs": 90,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "a4879a95-5795-407e-939f-5dc1e7361d60",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "11 b c37",
+      "slug": "renault-11-b-c37-1987",
+      "data": {
+        "photos": 6,
+        "specs": 54,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "5943217a-748c-4f05-af87-3c600365c240",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "12 variable",
+      "slug": "renault-12-variable-1973",
+      "data": {
+        "photos": 2,
+        "specs": 26,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "c4016623-550a-4821-8595-f2712f7dacf8",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "renault",
+      "slug": "renault-renault-1971",
+      "data": {
+        "photos": 2,
+        "specs": 134,
+        "variants": 0,
+        "videos": 41,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f112014f-8a03-4e26-979d-286ba05dad44",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "14",
+      "slug": "renault-14-1979",
+      "data": {
+        "photos": 6,
+        "specs": 27,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "d88bc460-67ff-434c-ba8f-d5c8b7b53be4",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "16",
+      "slug": "renault-16-1974",
+      "data": {
+        "photos": 2,
+        "specs": 22,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4672e7bd-64b2-4499-b781-4226558be546",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "18 variable",
+      "slug": "renault-18-variable-1980",
+      "data": {
+        "photos": 6,
+        "specs": 43,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4c79afe3-6dd6-49f0-8b83-db6238c40f8e",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "18",
+      "slug": "renault-18-1984",
+      "data": {
+        "photos": 6,
+        "specs": 47,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "25304725-b275-439d-bd1c-3066c868ac86",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "19 europa",
+      "slug": "renault-19-europa-1996",
+      "data": {
+        "photos": 2,
+        "specs": 21,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2756a750-bbe9-4be7-bf93-5f6b58fced78",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "19 b c53 facelift",
+      "slug": "renault-19-b-c53-facelift-1992",
+      "data": {
+        "photos": 2,
+        "specs": 56,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "35c1cf07-fc29-4de5-8212-d48beeb838fe",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "19 chamade l53 facelift",
+      "slug": "renault-19-chamade-l53-facelift-1992",
+      "data": {
+        "photos": 2,
+        "specs": 62,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f379a417-c6db-4ee8-9fa3-868bfc94c183",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "19 i chamade l53",
+      "slug": "renault-19-i-chamade-l53-1989",
+      "data": {
+        "photos": 6,
+        "specs": 66,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "0d84c6b9-3288-4c89-b006-d06567fce919",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "19 i b c53",
+      "slug": "renault-19-i-b-c53-1988",
+      "data": {
+        "photos": 9,
+        "specs": 52,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7248d3bc-761c-4a5b-acc6-7bfef7211715",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "20",
+      "slug": "renault-20-1980",
+      "data": {
+        "photos": 9,
+        "specs": 28,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f756b748-26fb-4895-8bb4-a1b47fb20cf5",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "21 b48",
+      "slug": "renault-21-b48-1989",
+      "data": {
+        "photos": 9,
+        "specs": 78,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e4111432-7e0b-413d-b8c7-21cfc18946e1",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "21 combi k48",
+      "slug": "renault-21-combi-k48-1986",
+      "data": {
+        "photos": 9,
+        "specs": 64,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "395f0c53-fe44-4ef3-a456-5af61f856b7e",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "19 i cabriolet d53",
+      "slug": "renault-19-i-cabriolet-d53-1991",
+      "data": {
+        "photos": 15,
+        "specs": 20,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "3d364864-f581-401b-abc7-0b5eafad2035",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "25 b29",
+      "slug": "renault-25-b29-1988",
+      "data": {
+        "photos": 7,
+        "specs": 30,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "6117346c-c425-4142-9b5e-95da9ebe788f",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "30",
+      "slug": "renault-30-1978",
+      "data": {
+        "photos": 7,
+        "specs": 0,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "f93c6c0a-a80d-4f92-b26b-0a415fe38799",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "5 e tech electric",
+      "slug": "renault-5-e-tech-electric-2024",
+      "data": {
+        "photos": 5,
+        "specs": 32,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "3b542249-e047-4eba-b63f-cf35b8dbddc6",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "4 e tech electric",
+      "slug": "renault-4-e-tech-electric-2024",
+      "data": {
+        "photos": 7,
+        "specs": 17,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "7a4d0946-bdf1-4e1c-af39-910547c83aba",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "9 l42",
+      "slug": "renault-9-l42-1987",
+      "data": {
+        "photos": 6,
+        "specs": 50,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "5fbc2fe0-3f23-491e-a540-40a637052049",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "19 cabriolet d53 facelift",
+      "slug": "renault-19-cabriolet-d53-facelift-1992",
+      "data": {
+        "photos": 5,
+        "specs": 57,
+        "variants": 0,
+        "videos": 3,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "515838d9-9cf1-409c-b16c-bb05a806ae50",
+      "model_id": "3d19654a-3fe3-41ae-a368-1e349d98638e",
+      "brand": "Renault",
+      "model": "renault",
+      "gen": "21 hatchback l48",
+      "slug": "renault-21-hatchback-l48-1989",
+      "data": {
+        "photos": 6,
+        "specs": 57,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "90d5e598-2334-43d3-85fc-dadb2ff680fd",
+      "model_id": "73d9e44b-ec8f-4194-addd-6fc3ed543e11",
+      "brand": "Skoda",
+      "model": "skoda",
+      "gen": "skoda",
+      "slug": "skoda-skoda-1969",
+      "data": {
+        "photos": 7,
+        "specs": 70,
+        "variants": 0,
+        "videos": 11,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2b6e47e9-5e90-44f0-af2f-af987e603a2b",
+      "model_id": "73d9e44b-ec8f-4194-addd-6fc3ed543e11",
+      "brand": "Skoda",
+      "model": "skoda",
+      "gen": "110 coupe",
+      "slug": "skoda-110-coupe-1969",
+      "data": {
+        "photos": 3,
+        "specs": 25,
+        "variants": 0,
+        "videos": 5,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "847e2878-3764-451d-8b91-299e664479bc",
+      "model_id": "1067beb9-a26a-462f-994f-ac9146ce1f80",
+      "brand": "Toyota",
+      "model": "toyota",
+      "gen": "86 ii",
+      "slug": "toyota-86-ii-2021",
+      "data": {
+        "photos": 149,
+        "specs": 79,
+        "variants": 0,
+        "videos": 21,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "c719e013-1c02-42fe-89aa-e0cdcd76c5a4",
+      "model_id": "1067beb9-a26a-462f-994f-ac9146ce1f80",
+      "brand": "Toyota",
+      "model": "toyota",
+      "gen": "86 i facelift",
+      "slug": "toyota-86-i-facelift-2016",
+      "data": {
+        "photos": 2,
+        "specs": 42,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "39db9d2b-27bc-49c8-bb5b-0cd856c9295c",
+      "model_id": "1067beb9-a26a-462f-994f-ac9146ce1f80",
+      "brand": "Toyota",
+      "model": "toyota",
+      "gen": "86 i",
+      "slug": "toyota-86-i-2012",
+      "data": {
+        "photos": 12,
+        "specs": 54,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "229d2788-e09f-4d82-98e1-e7d51d7e72cf",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "140 combi",
+      "slug": "volvo-140-combi-1972",
+      "data": {
+        "photos": 235,
+        "specs": 49,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "3ed47489-b323-4caa-acef-c098a935487d",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "140 142",
+      "slug": "volvo-140-142-1972",
+      "data": {
+        "photos": 6,
+        "specs": 27,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2bfe7851-b995-4b6a-aa86-ce4aed17fc3a",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "volvo",
+      "slug": "volvo-volvo-1972",
+      "data": {
+        "photos": 6,
+        "specs": 44,
+        "variants": 0,
+        "videos": 48,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "3c325909-690a-44fb-bdaf-087b06899aae",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "1800e",
+      "slug": "volvo-1800e-1969",
+      "data": {
+        "photos": 6,
+        "specs": 59,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "57706169-f958-45cb-8e3a-8a5a83f7c672",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "1800s",
+      "slug": "volvo-1800s-1965",
+      "data": {
+        "photos": 6,
+        "specs": 72,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "4440890e-5d55-46d9-8a93-3af790a488fd",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "p1800",
+      "slug": "volvo-p1800-1961",
+      "data": {
+        "photos": 6,
+        "specs": 59,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "bfb145c8-3a76-4856-9c66-c8a14d1ead49",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "240 combi p245",
+      "slug": "volvo-240-combi-p245-1979",
+      "data": {
+        "photos": 6,
+        "specs": 34,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e88a3fda-5e08-4e08-ad99-145e54057bab",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "240 p242 p244",
+      "slug": "volvo-240-p242-p244-1979",
+      "data": {
+        "photos": 6,
+        "specs": 60,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "6e7d0321-7a49-4857-828a-95c161e3aca8",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "260 combi p265",
+      "slug": "volvo-260-combi-p265-1980",
+      "data": {
+        "photos": 6,
+        "specs": 16,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "2b637276-6abc-4ea1-8484-6fa671ab3a01",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "260 p262 p264",
+      "slug": "volvo-260-p262-p264-1980",
+      "data": {
+        "photos": 6,
+        "specs": 23,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "fc3f9f1f-e5b1-4218-8c43-1c71dba17fb5",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "66 combi",
+      "slug": "volvo-66-combi-1975",
+      "data": {
+        "photos": 6,
+        "specs": 3,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "07f3e72e-bfd4-4bf6-ad0c-dae64df0bb18",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "740",
+      "slug": "volvo-740-1984",
+      "data": {
+        "photos": 6,
+        "specs": 31,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "91724eb3-0c9f-4ea1-ae4e-5442055bc815",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "760 kombi 704",
+      "slug": "volvo-760-kombi-704-1985",
+      "data": {
+        "photos": 6,
+        "specs": 8,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "52419f99-6d58-41dc-a9e6-b142fb4512f4",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "760 704",
+      "slug": "volvo-760-704-1986",
+      "data": {
+        "photos": 6,
+        "specs": 11,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "0fae5117-e02f-4fca-85d4-e3cb3eee7626",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "850 combi lw",
+      "slug": "volvo-850-combi-lw-1996",
+      "data": {
+        "photos": 6,
+        "specs": 70,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e629cab9-72bc-48ce-a161-822041bb605b",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "850 ls",
+      "slug": "volvo-850-ls-1995",
+      "data": {
+        "photos": 6,
+        "specs": 103,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "3015064c-61cf-4b1d-b689-6e60452416c1",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "940 combi",
+      "slug": "volvo-940-combi-1991",
+      "data": {
+        "photos": 6,
+        "specs": 11,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "e2c17fb0-f853-4cdf-a5d8-644940a5e24c",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "940",
+      "slug": "volvo-940-1990",
+      "data": {
+        "photos": 6,
+        "specs": 71,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "82b17e24-c12a-4654-bebf-885964447770",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "960",
+      "slug": "volvo-960-1990",
+      "data": {
+        "photos": 16,
+        "specs": 43,
+        "variants": 0,
+        "videos": 2,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    },
+    {
+      "id": "abd49f50-9672-4148-85a0-08891abf494f",
+      "model_id": "8e243699-73d3-4ee6-8432-42b8d8eeb067",
+      "brand": "Volvo",
+      "model": "volvo",
+      "gen": "260 coupe p262",
+      "slug": "volvo-260-coupe-p262-1975",
+      "data": {
+        "photos": 16,
+        "specs": 19,
+        "variants": 0,
+        "videos": 5,
+        "safety": 1,
+        "dims": 1
+      },
+      "reason": "model_equals_brand_has_data"
+    }
+  ],
+  "category_C_legit_missing": [
+    {
+      "id": "1c2a960f-d2a9-4bdb-adf3-afa1cf8e19f9",
+      "model_id": "c9a5e69f-9c54-4058-9193-9729d5f0cdb9",
+      "brand": "Renault",
+      "model": "Type XA",
+      "gen": "Type XA",
+      "slug": "type-xa-type-xa-x",
+      "data": {
+        "photos": 0,
+        "specs": 26,
+        "variants": 0,
+        "videos": 29,
+        "safety": 0,
+        "dims": 1
+      },
+      "reason": "legit_no_photos"
+    }
+  ],
+  "summary": {
+    "total_gens": 4268,
+    "total_suspect": 211,
+    "category_A": 30,
+    "category_B": 181,
+    "category_C": 1
+  }
+}

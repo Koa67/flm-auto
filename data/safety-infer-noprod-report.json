@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-02-13T07:49:37.500Z",
+  "stats": {
+    "phase1": 411,
+    "phase2": 28,
+    "phase3": 79
+  },
+  "total": 518,
+  "coverage": 3527
+}

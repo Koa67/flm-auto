@@ -1,0 +1,913 @@
+{
+  "metadata": {
+    "created_at": "2026-01-31T22:30:00Z",
+    "version": "1.0",
+    "description": "Historical and Classic Cars Database (1886-1970)",
+    "sources": [
+      "classiccardatabase.com",
+      "carfolio.com",
+      "conceptcarz.com",
+      "carspector.com",
+      "automobile-catalog.com",
+      "Wikipedia various articles"
+    ]
+  },
+  "pioneer_era_1886_1914": [
+    {
+      "brand": "Benz",
+      "model": "Patent-Motorwagen",
+      "year": 1886,
+      "body_type": "tricycle",
+      "engine": {
+        "type": "single-cylinder 4-stroke",
+        "displacement_cc": 954,
+        "power_hp": 0.75,
+        "fuel": "ligroin"
+      },
+      "performance": {
+        "top_speed_kmh": 16
+      },
+      "dimensions": {
+        "wheelbase_mm": 1450,
+        "weight_kg": 265
+      },
+      "production": 25,
+      "notes": "First true automobile, patented January 29, 1886"
+    },
+    {
+      "brand": "Daimler",
+      "model": "Motorized Carriage",
+      "year": 1886,
+      "body_type": "carriage",
+      "engine": {
+        "type": "single-cylinder",
+        "displacement_cc": 462,
+        "power_hp": 1.1
+      },
+      "performance": {
+        "top_speed_kmh": 18
+      },
+      "notes": "Built independently of Benz"
+    },
+    {
+      "brand": "Panhard",
+      "model": "Système Panhard",
+      "year": 1891,
+      "body_type": "carriage",
+      "engine": {
+        "type": "V-twin Daimler",
+        "displacement_cc": 1200,
+        "power_hp": 4
+      },
+      "notes": "First front-engine, rear-drive layout - still used today"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "Type 3",
+      "year": 1891,
+      "body_type": "vis-à-vis",
+      "engine": {
+        "type": "Daimler V-twin",
+        "power_hp": 2
+      },
+      "production": 64,
+      "notes": "Peugeot's first production car"
+    },
+    {
+      "brand": "Ford",
+      "model": "Model T",
+      "year": 1908,
+      "year_end": 1927,
+      "body_type": "various",
+      "engine": {
+        "type": "inline-4",
+        "displacement_cc": 2896,
+        "power_hp": 20
+      },
+      "performance": {
+        "top_speed_kmh": 72
+      },
+      "dimensions": {
+        "wheelbase_mm": 2540,
+        "length_mm": 3404,
+        "weight_kg": 540
+      },
+      "production": 15007034,
+      "notes": "Revolutionized car production, assembly line, democratized automobile"
+    },
+    {
+      "brand": "Rolls-Royce",
+      "model": "Silver Ghost",
+      "year": 1906,
+      "year_end": 1926,
+      "body_type": "touring/limousine",
+      "engine": {
+        "type": "inline-6",
+        "displacement_cc": 7036,
+        "power_hp": 48
+      },
+      "performance": {
+        "top_speed_kmh": 120
+      },
+      "dimensions": {
+        "wheelbase_mm": 3658,
+        "weight_kg": 1540
+      },
+      "production": 7874,
+      "notes": "Best car in the world - established Rolls-Royce reputation"
+    },
+    {
+      "brand": "Cadillac",
+      "model": "Model Thirty",
+      "year": 1909,
+      "body_type": "touring",
+      "engine": {
+        "type": "inline-4",
+        "displacement_cc": 4690,
+        "power_hp": 30
+      },
+      "notes": "Electric starter pioneer, interchangeable parts"
+    }
+  ],
+  "vintage_era_1914_1930": [
+    {
+      "brand": "Bentley",
+      "model": "3 Litre",
+      "year": 1921,
+      "year_end": 1929,
+      "body_type": "sports/touring",
+      "engine": {
+        "type": "inline-4 SOHC",
+        "displacement_cc": 2996,
+        "power_hp": 70
+      },
+      "performance": {
+        "top_speed_kmh": 145,
+        "acceleration_0_100_s": 15
+      },
+      "dimensions": {
+        "wheelbase_mm": 2985
+      },
+      "production": 1622,
+      "notes": "Won Le Mans 1924, 1927"
+    },
+    {
+      "brand": "Bugatti",
+      "model": "Type 35",
+      "year": 1924,
+      "year_end": 1931,
+      "body_type": "racing/sports",
+      "engine": {
+        "type": "inline-8 SOHC",
+        "displacement_cc": 2262,
+        "power_hp": 130
+      },
+      "performance": {
+        "top_speed_kmh": 200
+      },
+      "dimensions": {
+        "wheelbase_mm": 2400,
+        "weight_kg": 750
+      },
+      "production": 340,
+      "notes": "Most successful racing car in history - 1000+ wins"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "SSK",
+      "year": 1928,
+      "year_end": 1932,
+      "body_type": "sports",
+      "engine": {
+        "type": "inline-6 supercharged",
+        "displacement_cc": 7065,
+        "power_hp": 250
+      },
+      "performance": {
+        "top_speed_kmh": 235
+      },
+      "dimensions": {
+        "wheelbase_mm": 2950,
+        "weight_kg": 1550
+      },
+      "production": 40,
+      "notes": "Super Sport Kurz - legendary racing car"
+    },
+    {
+      "brand": "Duesenberg",
+      "model": "Model J",
+      "year": 1928,
+      "year_end": 1937,
+      "body_type": "luxury/custom",
+      "engine": {
+        "type": "inline-8 DOHC",
+        "displacement_cc": 6876,
+        "power_hp": 265
+      },
+      "performance": {
+        "top_speed_kmh": 185
+      },
+      "dimensions": {
+        "wheelbase_mm": 3607,
+        "weight_kg": 2200
+      },
+      "production": 481,
+      "notes": "Most expensive American car, Hollywood stars, royalty"
+    },
+    {
+      "brand": "Alfa Romeo",
+      "model": "6C 1750",
+      "year": 1929,
+      "year_end": 1933,
+      "body_type": "sports/touring",
+      "engine": {
+        "type": "inline-6 DOHC",
+        "displacement_cc": 1752,
+        "power_hp": 85
+      },
+      "performance": {
+        "top_speed_kmh": 150
+      },
+      "production": 2635,
+      "notes": "Racing legend, Mille Miglia victories"
+    }
+  ],
+  "pre_war_era_1930_1945": [
+    {
+      "brand": "Volkswagen",
+      "model": "Beetle (Type 1)",
+      "year": 1938,
+      "year_end": 2003,
+      "body_type": "sedan",
+      "engine": {
+        "type": "flat-4 air-cooled",
+        "displacement_cc": 1131,
+        "power_hp": 25
+      },
+      "performance": {
+        "top_speed_kmh": 100
+      },
+      "dimensions": {
+        "wheelbase_mm": 2400,
+        "length_mm": 4070,
+        "width_mm": 1540,
+        "height_mm": 1500,
+        "weight_kg": 750
+      },
+      "cargo": {
+        "front_trunk_l": 85
+      },
+      "production": 21529464,
+      "notes": "Best-selling single design ever, Ferdinand Porsche design"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "540K",
+      "year": 1936,
+      "year_end": 1940,
+      "body_type": "roadster/cabriolet",
+      "engine": {
+        "type": "inline-8 supercharged",
+        "displacement_cc": 5401,
+        "power_hp": 180
+      },
+      "performance": {
+        "top_speed_kmh": 170
+      },
+      "dimensions": {
+        "wheelbase_mm": 3290,
+        "weight_kg": 2400
+      },
+      "production": 419,
+      "notes": "Elegant pre-war luxury, kompressor boost"
+    },
+    {
+      "brand": "BMW",
+      "model": "328",
+      "year": 1936,
+      "year_end": 1940,
+      "body_type": "roadster",
+      "engine": {
+        "type": "inline-6",
+        "displacement_cc": 1971,
+        "power_hp": 80
+      },
+      "performance": {
+        "top_speed_kmh": 150,
+        "acceleration_0_100_s": 12
+      },
+      "dimensions": {
+        "wheelbase_mm": 2400,
+        "weight_kg": 830
+      },
+      "production": 464,
+      "notes": "Advanced hemispherical head design, racing success"
+    },
+    {
+      "brand": "Bugatti",
+      "model": "Type 57SC Atlantic",
+      "year": 1936,
+      "year_end": 1938,
+      "body_type": "coupe",
+      "engine": {
+        "type": "inline-8 supercharged",
+        "displacement_cc": 3257,
+        "power_hp": 200
+      },
+      "performance": {
+        "top_speed_kmh": 200
+      },
+      "dimensions": {
+        "wheelbase_mm": 3300,
+        "weight_kg": 950
+      },
+      "production": 4,
+      "notes": "Most valuable car ever sold (~$40M), Art Deco masterpiece"
+    },
+    {
+      "brand": "Cord",
+      "model": "810/812",
+      "year": 1936,
+      "year_end": 1937,
+      "body_type": "sedan/convertible",
+      "engine": {
+        "type": "V8 supercharged (812)",
+        "displacement_cc": 4729,
+        "power_hp": 190
+      },
+      "performance": {
+        "top_speed_kmh": 177
+      },
+      "dimensions": {
+        "wheelbase_mm": 3226,
+        "length_mm": 4940,
+        "weight_kg": 1633
+      },
+      "production": 2320,
+      "notes": "Front-wheel drive pioneer, hidden headlights, Art Deco"
+    },
+    {
+      "brand": "Willys",
+      "model": "MB Jeep",
+      "year": 1941,
+      "year_end": 1945,
+      "body_type": "utility",
+      "engine": {
+        "type": "inline-4",
+        "displacement_cc": 2199,
+        "power_hp": 60
+      },
+      "performance": {
+        "top_speed_kmh": 105
+      },
+      "dimensions": {
+        "wheelbase_mm": 2032,
+        "length_mm": 3327,
+        "width_mm": 1575,
+        "height_mm": 1830,
+        "weight_kg": 1040
+      },
+      "production": 361349,
+      "notes": "WWII military workhorse, spawned Jeep brand"
+    }
+  ],
+  "post_war_era_1945_1960": [
+    {
+      "brand": "Porsche",
+      "model": "356",
+      "year": 1948,
+      "year_end": 1965,
+      "body_type": "coupe/cabriolet",
+      "variants": [
+        {
+          "name": "356 Pre-A",
+          "year": "1948-1955",
+          "engine_cc": 1086,
+          "power_hp": 40
+        },
+        {
+          "name": "356A",
+          "year": "1955-1959",
+          "engine_cc": 1582,
+          "power_hp": 60
+        },
+        {
+          "name": "356B",
+          "year": "1959-1963",
+          "engine_cc": 1582,
+          "power_hp": 75
+        },
+        {
+          "name": "356C",
+          "year": "1963-1965",
+          "engine_cc": 1582,
+          "power_hp": 95
+        },
+        {
+          "name": "Carrera",
+          "year": "1955-1965",
+          "engine_cc": 1966,
+          "power_hp": 130
+        }
+      ],
+      "dimensions": {
+        "wheelbase_mm": 2100,
+        "length_mm": 3950,
+        "width_mm": 1670,
+        "height_mm": 1300,
+        "weight_kg": 830
+      },
+      "production": 76303,
+      "notes": "First Porsche production car, set the template"
+    },
+    {
+      "brand": "Land Rover",
+      "model": "Series I",
+      "year": 1948,
+      "year_end": 1958,
+      "body_type": "utility",
+      "engine": {
+        "type": "inline-4",
+        "displacement_cc": 1595,
+        "power_hp": 50
+      },
+      "dimensions": {
+        "wheelbase_mm": 2032,
+        "length_mm": 3378,
+        "width_mm": 1549,
+        "height_mm": 1867,
+        "weight_kg": 1148
+      },
+      "notes": "Born from Jeep inspiration, agricultural workhorse"
+    },
+    {
+      "brand": "Jaguar",
+      "model": "XK120",
+      "year": 1948,
+      "year_end": 1954,
+      "body_type": "roadster/coupe",
+      "engine": {
+        "type": "inline-6 DOHC",
+        "displacement_cc": 3442,
+        "power_hp": 160
+      },
+      "performance": {
+        "top_speed_kmh": 201,
+        "acceleration_0_100_s": 10
+      },
+      "dimensions": {
+        "wheelbase_mm": 2591,
+        "length_mm": 4394,
+        "width_mm": 1562,
+        "height_mm": 1320,
+        "weight_kg": 1293
+      },
+      "production": 12055,
+      "notes": "Fastest production car when launched, XK engine legend"
+    },
+    {
+      "brand": "Citroën",
+      "model": "DS",
+      "year": 1955,
+      "year_end": 1975,
+      "body_type": "sedan/wagon",
+      "variants": [
+        {
+          "name": "DS 19",
+          "year": "1955-1965",
+          "engine_cc": 1911,
+          "power_hp": 75
+        },
+        {
+          "name": "DS 21",
+          "year": "1965-1972",
+          "engine_cc": 2175,
+          "power_hp": 109
+        },
+        {
+          "name": "DS 23",
+          "year": "1972-1975",
+          "engine_cc": 2347,
+          "power_hp": 130
+        }
+      ],
+      "dimensions": {
+        "wheelbase_mm": 3125,
+        "length_mm": 4802,
+        "width_mm": 1790,
+        "height_mm": 1470,
+        "weight_kg": 1180
+      },
+      "production": 1456115,
+      "notes": "Revolutionary design - hydropneumatic suspension, semi-automatic"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "300SL",
+      "year": 1954,
+      "year_end": 1963,
+      "body_type": "coupe/roadster",
+      "variants": [
+        {
+          "name": "300SL Gullwing",
+          "year": "1954-1957",
+          "body": "coupe",
+          "production": 1400
+        },
+        {
+          "name": "300SL Roadster",
+          "year": "1957-1963",
+          "body": "roadster",
+          "production": 1858
+        }
+      ],
+      "engine": {
+        "type": "inline-6 fuel-injected",
+        "displacement_cc": 2996,
+        "power_hp": 215
+      },
+      "performance": {
+        "top_speed_kmh": 250,
+        "acceleration_0_100_s": 8.8
+      },
+      "dimensions": {
+        "wheelbase_mm": 2400,
+        "length_mm": 4520,
+        "width_mm": 1790,
+        "height_mm": 1300,
+        "weight_kg": 1295
+      },
+      "production": 3258,
+      "notes": "Gullwing doors, first fuel-injected production car, fastest of era"
+    },
+    {
+      "brand": "Chevrolet",
+      "model": "Corvette C1",
+      "year": 1953,
+      "year_end": 1962,
+      "body_type": "roadster/convertible",
+      "variants": [
+        {
+          "name": "Blue Flame Six",
+          "year": "1953-1955",
+          "engine_cc": 3859,
+          "power_hp": 150
+        },
+        {
+          "name": "V8",
+          "year": "1955-1962",
+          "engine_cc": 4638,
+          "power_hp": 360
+        }
+      ],
+      "dimensions": {
+        "wheelbase_mm": 2591,
+        "length_mm": 4283,
+        "width_mm": 1829,
+        "height_mm": 1321,
+        "weight_kg": 1315
+      },
+      "production": 69015,
+      "notes": "America's sports car, fiberglass body"
+    },
+    {
+      "brand": "BMW",
+      "model": "Isetta",
+      "year": 1955,
+      "year_end": 1962,
+      "body_type": "microcar",
+      "engine": {
+        "type": "single-cylinder",
+        "displacement_cc": 298,
+        "power_hp": 13
+      },
+      "performance": {
+        "top_speed_kmh": 85
+      },
+      "dimensions": {
+        "wheelbase_mm": 1500,
+        "length_mm": 2285,
+        "width_mm": 1380,
+        "height_mm": 1340,
+        "weight_kg": 350
+      },
+      "production": 161728,
+      "notes": "Bubble car, front-opening door, saved BMW from bankruptcy"
+    },
+    {
+      "brand": "Mini",
+      "model": "Original Mini",
+      "year": 1959,
+      "year_end": 2000,
+      "body_type": "hatchback",
+      "variants": [
+        {
+          "name": "850",
+          "engine_cc": 848,
+          "power_hp": 34
+        },
+        {
+          "name": "Cooper",
+          "engine_cc": 997,
+          "power_hp": 55
+        },
+        {
+          "name": "Cooper S",
+          "engine_cc": 1275,
+          "power_hp": 76
+        }
+      ],
+      "dimensions": {
+        "wheelbase_mm": 2036,
+        "length_mm": 3054,
+        "width_mm": 1410,
+        "height_mm": 1346,
+        "weight_kg": 617
+      },
+      "interior": {
+        "front_headroom_mm": 892,
+        "rear_headroom_mm": 864,
+        "front_legroom_mm": 1041,
+        "rear_legroom_mm": 737
+      },
+      "production": 5387862,
+      "notes": "Revolutionary transverse engine, FWD, 80% interior space"
+    }
+  ],
+  "classic_era_1960_1970": [
+    {
+      "brand": "Ferrari",
+      "model": "250 GTO",
+      "year": 1962,
+      "year_end": 1964,
+      "body_type": "coupe",
+      "engine": {
+        "type": "V12 SOHC",
+        "displacement_cc": 2953,
+        "power_hp": 300
+      },
+      "performance": {
+        "top_speed_kmh": 280,
+        "acceleration_0_100_s": 5.8
+      },
+      "dimensions": {
+        "wheelbase_mm": 2400,
+        "length_mm": 4400,
+        "width_mm": 1675,
+        "height_mm": 1215,
+        "weight_kg": 880
+      },
+      "production": 39,
+      "notes": "Most valuable car ever sold at auction ($70M+), racing legend"
+    },
+    {
+      "brand": "Lamborghini",
+      "model": "Miura",
+      "year": 1966,
+      "year_end": 1973,
+      "body_type": "coupe",
+      "variants": [
+        {
+          "name": "P400",
+          "year": "1966-1969",
+          "power_hp": 350
+        },
+        {
+          "name": "P400S",
+          "year": "1968-1971",
+          "power_hp": 370
+        },
+        {
+          "name": "P400SV",
+          "year": "1971-1973",
+          "power_hp": 385
+        }
+      ],
+      "engine": {
+        "type": "V12 transverse mid-mounted",
+        "displacement_cc": 3929,
+        "power_hp": 385
+      },
+      "performance": {
+        "top_speed_kmh": 280,
+        "acceleration_0_100_s": 6.7
+      },
+      "dimensions": {
+        "wheelbase_mm": 2500,
+        "length_mm": 4370,
+        "width_mm": 1760,
+        "height_mm": 1050,
+        "weight_kg": 1180
+      },
+      "production": 764,
+      "notes": "First true supercar, mid-engine layout, Gandini design"
+    },
+    {
+      "brand": "Ford",
+      "model": "Mustang (1st gen)",
+      "year": 1964,
+      "year_end": 1973,
+      "body_type": "coupe/convertible/fastback",
+      "variants": [
+        {
+          "name": "Base I6",
+          "engine_cc": 2786,
+          "power_hp": 101
+        },
+        {
+          "name": "289 V8",
+          "engine_cc": 4736,
+          "power_hp": 210
+        },
+        {
+          "name": "Boss 302",
+          "engine_cc": 4942,
+          "power_hp": 290
+        },
+        {
+          "name": "Boss 429",
+          "engine_cc": 7030,
+          "power_hp": 375
+        },
+        {
+          "name": "Shelby GT500",
+          "engine_cc": 7014,
+          "power_hp": 355
+        }
+      ],
+      "dimensions": {
+        "wheelbase_mm": 2743,
+        "length_mm": 4613,
+        "width_mm": 1732,
+        "height_mm": 1295,
+        "weight_kg": 1225
+      },
+      "production": 2800000,
+      "notes": "Created the pony car segment, 1M sold in first 2 years"
+    },
+    {
+      "brand": "Porsche",
+      "model": "911 (901/911)",
+      "year": 1964,
+      "year_end": 1973,
+      "body_type": "coupe/targa",
+      "variants": [
+        {
+          "name": "911",
+          "year": "1964-1968",
+          "engine_cc": 1991,
+          "power_hp": 130
+        },
+        {
+          "name": "911S",
+          "year": "1967-1973",
+          "engine_cc": 2195,
+          "power_hp": 180
+        },
+        {
+          "name": "911T",
+          "year": "1967-1973",
+          "engine_cc": 2195,
+          "power_hp": 110
+        },
+        {
+          "name": "911E",
+          "year": "1969-1973",
+          "engine_cc": 2341,
+          "power_hp": 165
+        },
+        {
+          "name": "Carrera RS 2.7",
+          "year": "1973",
+          "engine_cc": 2687,
+          "power_hp": 210
+        }
+      ],
+      "dimensions": {
+        "wheelbase_mm": 2268,
+        "length_mm": 4163,
+        "width_mm": 1610,
+        "height_mm": 1320,
+        "weight_kg": 1080
+      },
+      "interior": {
+        "front_headroom_mm": 940,
+        "rear_headroom_mm": 800,
+        "front_legroom_mm": 1060,
+        "rear_legroom_mm": 600,
+        "notes": "2+2 seating, rear very tight"
+      },
+      "production": 81100,
+      "notes": "Iconic design continues today, air-cooled flat-6"
+    },
+    {
+      "brand": "Toyota",
+      "model": "2000GT",
+      "year": 1967,
+      "year_end": 1970,
+      "body_type": "coupe",
+      "engine": {
+        "type": "inline-6 DOHC",
+        "displacement_cc": 1988,
+        "power_hp": 150
+      },
+      "performance": {
+        "top_speed_kmh": 220,
+        "acceleration_0_100_s": 8.6
+      },
+      "dimensions": {
+        "wheelbase_mm": 2330,
+        "length_mm": 4175,
+        "width_mm": 1600,
+        "height_mm": 1160,
+        "weight_kg": 1120
+      },
+      "production": 351,
+      "notes": "First Japanese exotic, James Bond car, Yamaha collaboration"
+    },
+    {
+      "brand": "Dodge",
+      "model": "Charger R/T",
+      "year": 1966,
+      "year_end": 1970,
+      "body_type": "coupe",
+      "variants": [
+        {
+          "name": "R/T 440",
+          "engine_cc": 7212,
+          "power_hp": 375
+        },
+        {
+          "name": "R/T Hemi",
+          "engine_cc": 6981,
+          "power_hp": 425
+        },
+        {
+          "name": "Daytona",
+          "year": "1969",
+          "engine_cc": 6981,
+          "power_hp": 425
+        }
+      ],
+      "dimensions": {
+        "wheelbase_mm": 2946,
+        "length_mm": 5283,
+        "width_mm": 1930,
+        "height_mm": 1356,
+        "weight_kg": 1665
+      },
+      "notes": "Muscle car icon, Dukes of Hazzard, Bullitt"
+    },
+    {
+      "brand": "BMW",
+      "model": "2002",
+      "year": 1968,
+      "year_end": 1976,
+      "body_type": "sedan/hatchback",
+      "variants": [
+        {
+          "name": "2002",
+          "engine_cc": 1990,
+          "power_hp": 100
+        },
+        {
+          "name": "2002tii",
+          "engine_cc": 1990,
+          "power_hp": 130
+        },
+        {
+          "name": "2002 Turbo",
+          "engine_cc": 1990,
+          "power_hp": 170
+        }
+      ],
+      "performance": {
+        "top_speed_kmh": 185,
+        "acceleration_0_100_s": 9.5
+      },
+      "dimensions": {
+        "wheelbase_mm": 2500,
+        "length_mm": 4230,
+        "width_mm": 1590,
+        "height_mm": 1410,
+        "weight_kg": 990
+      },
+      "interior": {
+        "front_headroom_mm": 940,
+        "rear_headroom_mm": 920,
+        "front_legroom_mm": 1060,
+        "rear_legroom_mm": 850
+      },
+      "production": 861940,
+      "notes": "Father of sports sedan segment, created BMW's sporty image"
+    }
+  ],
+  "notes": {
+    "data_sources": "Multiple historical sources, some specs approximate due to era",
+    "conversions": {
+      "horsepower": "SAE gross (pre-1972) vs SAE net (post-1972) varies",
+      "dimensions": "Converted from inches where needed (×25.4)"
+    },
+    "production_numbers": "Factory records where available, estimates otherwise"
+  }
+}

@@ -1,0 +1,901 @@
+{
+  "metadata": {
+    "scraped_at": "2026-01-31T18:00:00Z",
+    "sources": ["Edmunds.com", "Skoda Official PDF", "Mercedes dealers", "BMW dealers", "Audi dealers", "VW press", "CarAndDriver", "TheCarConnection", "AutoPadre", "CarsDirect", "US News", "Hyundai dealers"],
+    "version": "3.0",
+    "total_vehicles": 37,
+    "notes": "Extended with Golden Set vehicles. Porsche (911, Taycan, Macan, Cayenne) do NOT publish official interior dimensions."
+  },
+  "vehicles": [
+    {
+      "brand": "bmw",
+      "model": "3-series",
+      "year": 2024,
+      "variant": "330i Sedan",
+      "body_type": "sedan",
+      "source": "edmunds",
+      "interior": {
+        "front_headroom_mm": 983,
+        "rear_headroom_mm": 955,
+        "front_legroom_mm": 1067,
+        "rear_legroom_mm": 894,
+        "front_shoulder_room_mm": 1422,
+        "rear_shoulder_room_mm": 1387
+      },
+      "exterior": {
+        "length_mm": 4722,
+        "width_mm": 1827,
+        "height_mm": 1443,
+        "wheelbase_mm": 2851
+      },
+      "cargo": {
+        "volume_l": 479
+      }
+    },
+    {
+      "brand": "bmw",
+      "model": "m340i",
+      "year": 2024,
+      "variant": "M340i xDrive Sedan",
+      "golden_set_id": "GS-001",
+      "body_type": "sedan",
+      "source": "bmw_dealer",
+      "interior": {
+        "front_headroom_mm": 983,
+        "rear_headroom_mm": 955,
+        "front_legroom_mm": 1067,
+        "rear_legroom_mm": 894,
+        "front_shoulder_room_mm": 1422,
+        "rear_shoulder_room_mm": 1387
+      },
+      "exterior": {
+        "length_mm": 4722,
+        "width_mm": 1827,
+        "height_mm": 1443,
+        "wheelbase_mm": 2851
+      },
+      "cargo": {
+        "volume_l": 479
+      },
+      "notes": "Same dimensions as 330i (G20 platform)"
+    },
+    {
+      "brand": "bmw",
+      "model": "m3",
+      "year": 2024,
+      "variant": "M3 Competition G80",
+      "golden_set_id": "GS-004",
+      "body_type": "sedan",
+      "source": "richmond_bmw",
+      "interior": {
+        "front_headroom_mm": 1031,
+        "rear_headroom_mm": 960,
+        "front_legroom_mm": 1057,
+        "rear_legroom_mm": 904,
+        "front_shoulder_room_mm": 1422,
+        "rear_shoulder_room_mm": 1387
+      },
+      "exterior": {
+        "length_mm": 4794,
+        "width_mm": 1903,
+        "height_mm": 1433,
+        "wheelbase_mm": 2857
+      },
+      "cargo": {
+        "volume_l": 368
+      }
+    },
+    {
+      "brand": "bmw",
+      "model": "i4",
+      "year": 2024,
+      "variant": "i4 M50",
+      "golden_set_id": "GS-026",
+      "body_type": "sedan",
+      "source": "bmw_seattle",
+      "interior": {
+        "front_headroom_mm": 970,
+        "rear_headroom_mm": 930,
+        "front_legroom_mm": 1054,
+        "rear_legroom_mm": 869,
+        "front_shoulder_room_mm": 1402,
+        "rear_shoulder_room_mm": 1379
+      },
+      "exterior": {
+        "length_mm": 4783,
+        "width_mm": 1852,
+        "height_mm": 1448,
+        "wheelbase_mm": 2856
+      },
+      "cargo": {
+        "volume_l": 481
+      }
+    },
+    {
+      "brand": "bmw",
+      "model": "x1",
+      "year": 2024,
+      "variant": "xDrive28i",
+      "body_type": "suv",
+      "source": "bmw_dealer",
+      "interior": {
+        "front_headroom_mm": 1069,
+        "rear_headroom_mm": 998,
+        "front_legroom_mm": 1026,
+        "rear_legroom_mm": 940,
+        "front_shoulder_room_mm": 1425,
+        "rear_shoulder_room_mm": 1400
+      },
+      "exterior": {
+        "length_mm": 4506,
+        "width_mm": 1844,
+        "height_mm": 1641,
+        "wheelbase_mm": 2692
+      },
+      "cargo": {
+        "volume_l": 728,
+        "volume_max_l": 1620
+      }
+    },
+    {
+      "brand": "bmw",
+      "model": "x3",
+      "year": 2024,
+      "variant": "xDrive30i",
+      "body_type": "suv",
+      "source": "edmunds",
+      "interior": {
+        "front_headroom_mm": 1029,
+        "rear_headroom_mm": 1003,
+        "front_legroom_mm": 1054,
+        "rear_legroom_mm": 927,
+        "front_shoulder_room_mm": 1470,
+        "rear_shoulder_room_mm": 1432
+      },
+      "exterior": {
+        "length_mm": 4708,
+        "width_mm": 1891,
+        "height_mm": 1676,
+        "wheelbase_mm": 2864
+      },
+      "cargo": {
+        "volume_l": 799,
+        "volume_max_l": 1775
+      }
+    },
+    {
+      "brand": "bmw",
+      "model": "x5",
+      "year": 2024,
+      "variant": "xDrive40i",
+      "body_type": "suv",
+      "source": "bmw_dealer",
+      "interior": {
+        "front_headroom_mm": 1036,
+        "rear_headroom_mm": 983,
+        "front_legroom_mm": 1011,
+        "rear_legroom_mm": 950,
+        "front_shoulder_room_mm": 1524,
+        "rear_shoulder_room_mm": 1476
+      },
+      "exterior": {
+        "length_mm": 4933,
+        "width_mm": 2004,
+        "height_mm": 1765,
+        "wheelbase_mm": 2975
+      },
+      "cargo": {
+        "volume_l": 960,
+        "volume_max_l": 2047
+      }
+    },
+    {
+      "brand": "bmw",
+      "model": "5-series",
+      "year": 2024,
+      "variant": "530i Sedan",
+      "body_type": "sedan",
+      "source": "bmw_official",
+      "interior": {
+        "front_headroom_mm": 1018,
+        "rear_headroom_mm": 970,
+        "front_legroom_mm": 1067,
+        "rear_legroom_mm": 943,
+        "front_shoulder_room_mm": 1474,
+        "rear_shoulder_room_mm": 1445
+      },
+      "exterior": {
+        "length_mm": 5060,
+        "width_mm": 1900,
+        "height_mm": 1505,
+        "wheelbase_mm": 2995
+      },
+      "cargo": {
+        "volume_l": 520
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "a3",
+      "year": 2024,
+      "variant": "Premium 40 TFSI",
+      "body_type": "sedan",
+      "source": "carbuzz",
+      "interior": {
+        "front_headroom_mm": 986,
+        "rear_headroom_mm": 930,
+        "front_legroom_mm": 1044,
+        "rear_legroom_mm": 894,
+        "front_shoulder_room_mm": 1397,
+        "rear_shoulder_room_mm": 1367
+      },
+      "exterior": {
+        "length_mm": 4494,
+        "width_mm": 1816,
+        "height_mm": 1422,
+        "wheelbase_mm": 2617
+      },
+      "cargo": {
+        "volume_l": 309
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "a4",
+      "year": 2024,
+      "variant": "40 TFSI Premium",
+      "body_type": "sedan",
+      "source": "edmunds",
+      "interior": {
+        "front_headroom_mm": 960,
+        "rear_headroom_mm": 925,
+        "front_legroom_mm": 1048,
+        "rear_legroom_mm": 892,
+        "front_shoulder_room_mm": 1435,
+        "rear_shoulder_room_mm": 1380
+      },
+      "exterior": {
+        "length_mm": 4762,
+        "width_mm": 1847,
+        "height_mm": 1428,
+        "wheelbase_mm": 2820
+      },
+      "cargo": {
+        "volume_l": 354
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "s4",
+      "year": 2024,
+      "variant": "Premium Plus 3.0 TFSI quattro",
+      "golden_set_id": "GS-002",
+      "body_type": "sedan",
+      "source": "carsdirect",
+      "interior": {
+        "front_headroom_mm": 947,
+        "rear_headroom_mm": 950,
+        "front_legroom_mm": 1049,
+        "rear_legroom_mm": 907,
+        "front_shoulder_room_mm": 1420,
+        "rear_shoulder_room_mm": 1384
+      },
+      "exterior": {
+        "length_mm": 4762,
+        "width_mm": 1847,
+        "height_mm": 1428,
+        "wheelbase_mm": 2820
+      },
+      "cargo": {
+        "volume_l": 340
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "a6",
+      "year": 2024,
+      "variant": "Premium 45 TFSI",
+      "body_type": "sedan",
+      "source": "audi_official",
+      "interior": {
+        "front_headroom_mm": 991,
+        "rear_headroom_mm": 947,
+        "front_legroom_mm": 1050,
+        "rear_legroom_mm": 930,
+        "front_shoulder_room_mm": 1464,
+        "rear_shoulder_room_mm": 1421
+      },
+      "exterior": {
+        "length_mm": 4939,
+        "width_mm": 1886,
+        "height_mm": 1457,
+        "wheelbase_mm": 2912
+      },
+      "cargo": {
+        "volume_l": 424
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "q5",
+      "year": 2024,
+      "variant": "Premium Plus S line AWD 45 TFSI",
+      "body_type": "suv",
+      "source": "edmunds",
+      "interior": {
+        "front_headroom_mm": 968,
+        "rear_headroom_mm": 958,
+        "front_legroom_mm": 1039,
+        "rear_legroom_mm": 965,
+        "front_shoulder_room_mm": 1466,
+        "rear_shoulder_room_mm": 1435
+      },
+      "exterior": {
+        "length_mm": 4681,
+        "width_mm": 1893,
+        "height_mm": 1664,
+        "wheelbase_mm": 2819
+      },
+      "cargo": {
+        "volume_l": 725,
+        "volume_max_l": 1515
+      }
+    },
+    {
+      "brand": "audi",
+      "model": "q7",
+      "year": 2024,
+      "variant": "Premium 45 TFSI",
+      "body_type": "suv",
+      "source": "audi_dealer",
+      "interior": {
+        "front_headroom_mm": 1013,
+        "rear_headroom_mm": 986,
+        "third_row_headroom_mm": 912,
+        "front_legroom_mm": 1059,
+        "rear_legroom_mm": 986,
+        "third_row_legroom_mm": 742,
+        "front_shoulder_room_mm": 1511,
+        "rear_shoulder_room_mm": 1486,
+        "third_row_shoulder_mm": 1255
+      },
+      "exterior": {
+        "length_mm": 5070,
+        "width_mm": 1968,
+        "height_mm": 1737,
+        "wheelbase_mm": 2995
+      },
+      "cargo": {
+        "volume_l": 385,
+        "volume_max_l": 1928
+      }
+    },
+    {
+      "brand": "mercedes-benz",
+      "model": "c-class",
+      "year": 2024,
+      "variant": "C 300 4MATIC Sedan W206",
+      "body_type": "sedan",
+      "source": "statecollegemercedes",
+      "interior": {
+        "front_headroom_mm": 1016,
+        "rear_headroom_mm": 953,
+        "front_legroom_mm": 1059,
+        "rear_legroom_mm": 914,
+        "front_shoulder_room_mm": 1430,
+        "rear_shoulder_room_mm": 1412
+      },
+      "exterior": {
+        "length_mm": 4791,
+        "width_mm": 1820,
+        "height_mm": 1450,
+        "wheelbase_mm": 2875
+      },
+      "cargo": {
+        "volume_l": 455
+      }
+    },
+    {
+      "brand": "mercedes-amg",
+      "model": "c43",
+      "year": 2024,
+      "variant": "AMG C 43 4MATIC Sedan",
+      "golden_set_id": "GS-003",
+      "body_type": "sedan",
+      "source": "statecollegemercedes",
+      "interior": {
+        "front_headroom_mm": 1016,
+        "rear_headroom_mm": 953,
+        "front_legroom_mm": 1059,
+        "rear_legroom_mm": 914,
+        "front_shoulder_room_mm": 1430,
+        "rear_shoulder_room_mm": 1412
+      },
+      "exterior": {
+        "length_mm": 4791,
+        "width_mm": 1920,
+        "height_mm": 1450,
+        "wheelbase_mm": 2875
+      },
+      "cargo": {
+        "volume_l": 455
+      },
+      "notes": "Same interior as C-Class W206"
+    },
+    {
+      "brand": "mercedes-benz",
+      "model": "e-class",
+      "year": 2024,
+      "variant": "E 350 4MATIC Sedan",
+      "body_type": "sedan",
+      "source": "thecarconnection",
+      "interior": {
+        "front_headroom_mm": 963,
+        "rear_headroom_mm": 970,
+        "front_legroom_mm": 1049,
+        "rear_legroom_mm": 909,
+        "front_shoulder_room_mm": 1468,
+        "rear_shoulder_room_mm": 1445
+      },
+      "exterior": {
+        "length_mm": 4950,
+        "width_mm": 1872,
+        "height_mm": 1471,
+        "wheelbase_mm": 2961
+      },
+      "cargo": {
+        "volume_l": 541
+      }
+    },
+    {
+      "brand": "mercedes-benz",
+      "model": "glc",
+      "year": 2024,
+      "variant": "GLC 300 4MATIC",
+      "body_type": "suv",
+      "source": "mercedes_dealer",
+      "interior": {
+        "front_headroom_mm": 1049,
+        "rear_headroom_mm": 1008,
+        "front_legroom_mm": 1034,
+        "rear_legroom_mm": 950,
+        "front_shoulder_room_mm": 1455,
+        "rear_shoulder_room_mm": 1438
+      },
+      "exterior": {
+        "length_mm": 4718,
+        "width_mm": 2076,
+        "height_mm": 1641,
+        "wheelbase_mm": 2888
+      },
+      "cargo": {
+        "volume_l": 620,
+        "volume_max_l": 1594
+      }
+    },
+    {
+      "brand": "mercedes-benz",
+      "model": "gle",
+      "year": 2024,
+      "variant": "GLE 450 4MATIC",
+      "body_type": "suv",
+      "source": "caranddriver",
+      "interior": {
+        "front_headroom_mm": 1074,
+        "rear_headroom_mm": 1026,
+        "front_legroom_mm": 1024,
+        "rear_legroom_mm": 1039,
+        "front_shoulder_room_mm": 1506,
+        "rear_shoulder_room_mm": 1481
+      },
+      "exterior": {
+        "length_mm": 4925,
+        "width_mm": 1948,
+        "height_mm": 1798,
+        "wheelbase_mm": 2995
+      },
+      "cargo": {
+        "volume_l": 943,
+        "volume_max_l": 2121
+      }
+    },
+    {
+      "brand": "volkswagen",
+      "model": "tiguan",
+      "year": 2024,
+      "variant": "SE AWD",
+      "golden_set_id": "GS-011",
+      "body_type": "suv",
+      "source": "edmunds",
+      "interior": {
+        "front_headroom_mm": 1006,
+        "rear_headroom_mm": 988,
+        "front_legroom_mm": 1021,
+        "rear_legroom_mm": 983,
+        "front_shoulder_room_mm": 1448,
+        "rear_shoulder_room_mm": 1417,
+        "front_hip_room_mm": 1384,
+        "rear_hip_room_mm": 1364
+      },
+      "exterior": {
+        "length_mm": 4727,
+        "width_mm": 1839,
+        "height_mm": 1689,
+        "wheelbase_mm": 2791
+      },
+      "cargo": {
+        "volume_l": 1065,
+        "volume_max_l": 2078
+      }
+    },
+    {
+      "brand": "volkswagen",
+      "model": "passat",
+      "year": 2024,
+      "variant": "Variant 1.5 eTSI",
+      "golden_set_id": "GS-024",
+      "body_type": "wagon",
+      "source": "vw_press",
+      "interior": {
+        "front_headroom_mm": 1038,
+        "rear_headroom_mm": 986,
+        "front_legroom_mm": 1077,
+        "rear_legroom_mm": 992,
+        "front_shoulder_room_mm": 1445,
+        "rear_shoulder_room_mm": 1448
+      },
+      "exterior": {
+        "length_mm": 4917,
+        "width_mm": 1849,
+        "height_mm": 1497,
+        "wheelbase_mm": 2841
+      },
+      "cargo": {
+        "volume_l": 690,
+        "volume_max_l": 1920
+      }
+    },
+    {
+      "brand": "volkswagen",
+      "model": "golf",
+      "year": 2024,
+      "variant": "1.5 TSI",
+      "body_type": "hatchback",
+      "source": "vw_official",
+      "interior": {
+        "front_headroom_mm": 987,
+        "rear_headroom_mm": 979,
+        "front_legroom_mm": 1056,
+        "rear_legroom_mm": 903,
+        "front_shoulder_room_mm": 1415,
+        "rear_shoulder_room_mm": 1396
+      },
+      "exterior": {
+        "length_mm": 4284,
+        "width_mm": 1789,
+        "height_mm": 1456,
+        "wheelbase_mm": 2636
+      },
+      "cargo": {
+        "volume_l": 381,
+        "volume_max_l": 1237
+      }
+    },
+    {
+      "brand": "skoda",
+      "model": "kodiaq",
+      "year": 2024,
+      "variant": "1.5 TSI 110kW (5-seater)",
+      "body_type": "suv",
+      "source": "skoda_official",
+      "interior": {
+        "front_headroom_mm": 1063,
+        "rear_headroom_mm": 1015,
+        "third_row_headroom_mm": 920,
+        "front_width_mm": 1503,
+        "rear_width_mm": 1492,
+        "third_row_width_mm": 1272
+      },
+      "exterior": {
+        "length_mm": 4758,
+        "width_mm": 1864,
+        "height_mm": 1659,
+        "wheelbase_mm": 2791,
+        "ground_clearance_mm": 189
+      },
+      "cargo": {
+        "volume_l": 910,
+        "volume_max_l": 2105,
+        "volume_7_seater_l": 340
+      }
+    },
+    {
+      "brand": "skoda",
+      "model": "octavia",
+      "year": 2024,
+      "variant": "Combi 1.5 TSI",
+      "body_type": "wagon",
+      "source": "skoda_official",
+      "interior": {
+        "front_headroom_mm": 1012,
+        "rear_headroom_mm": 985
+      },
+      "exterior": {
+        "length_mm": 4689,
+        "width_mm": 1829,
+        "height_mm": 1468,
+        "wheelbase_mm": 2686
+      },
+      "cargo": {
+        "volume_l": 640,
+        "volume_max_l": 1700
+      }
+    },
+    {
+      "brand": "skoda",
+      "model": "superb",
+      "year": 2024,
+      "variant": "1.5 TSI 110kW",
+      "body_type": "sedan",
+      "source": "skoda_official",
+      "interior": {
+        "front_headroom_mm": 1049,
+        "rear_headroom_mm": 986,
+        "front_width_mm": 1508,
+        "rear_width_mm": 1504
+      },
+      "exterior": {
+        "length_mm": 4912,
+        "width_mm": 1849,
+        "height_mm": 1481,
+        "wheelbase_mm": 2841
+      },
+      "cargo": {
+        "volume_l": 645,
+        "volume_max_l": 1795
+      }
+    },
+    {
+      "brand": "skoda",
+      "model": "superb-combi",
+      "year": 2024,
+      "variant": "1.5 TSI 110kW",
+      "golden_set_id": "GS-023",
+      "body_type": "wagon",
+      "source": "skoda_official",
+      "interior": {
+        "front_headroom_mm": 1049,
+        "rear_headroom_mm": 986,
+        "front_width_mm": 1508,
+        "rear_width_mm": 1504
+      },
+      "exterior": {
+        "length_mm": 4902,
+        "width_mm": 1849,
+        "height_mm": 1482,
+        "wheelbase_mm": 2841
+      },
+      "cargo": {
+        "volume_l": 690,
+        "volume_max_l": 1920
+      }
+    },
+    {
+      "brand": "porsche",
+      "model": "911",
+      "year": 2024,
+      "variant": "Carrera S 992",
+      "golden_set_id": "GS-013",
+      "body_type": "coupe",
+      "source": "porsche_official",
+      "interior": {
+        "notes": "Porsche does NOT publish official interior dimensions for 911"
+      },
+      "exterior": {
+        "length_mm": 4519,
+        "width_mm": 1852,
+        "height_mm": 1298,
+        "wheelbase_mm": 2450
+      },
+      "cargo": {
+        "frunk_l": 128,
+        "rear_seats_l": 264
+      }
+    },
+    {
+      "brand": "porsche",
+      "model": "taycan",
+      "year": 2024,
+      "variant": "4S Performance Battery Plus",
+      "golden_set_id": "GS-027",
+      "body_type": "sedan",
+      "source": "porsche_official",
+      "interior": {
+        "notes": "Porsche does NOT publish official interior dimensions for Taycan"
+      },
+      "exterior": {
+        "length_mm": 4963,
+        "width_mm": 1966,
+        "height_mm": 1379,
+        "wheelbase_mm": 2900
+      },
+      "cargo": {
+        "volume_l": 405,
+        "frunk_l": 84
+      }
+    },
+    {
+      "brand": "porsche",
+      "model": "cayenne",
+      "year": 2024,
+      "variant": "Base SUV",
+      "body_type": "suv",
+      "source": "porsche_dealer",
+      "interior": {
+        "notes": "Porsche does not publish official interior dimensions"
+      },
+      "exterior": {
+        "length_mm": 4930,
+        "width_mm": 1983,
+        "height_mm": 1697,
+        "wheelbase_mm": 2895
+      },
+      "cargo": {
+        "volume_l": 770,
+        "volume_max_l": 1708
+      }
+    },
+    {
+      "brand": "porsche",
+      "model": "macan",
+      "year": 2024,
+      "variant": "S",
+      "golden_set_id": "GS-009",
+      "body_type": "suv",
+      "source": "porsche_official",
+      "interior": {
+        "notes": "Porsche does NOT publish official interior dimensions"
+      },
+      "exterior": {
+        "length_mm": 4726,
+        "width_mm": 1922,
+        "height_mm": 1596,
+        "wheelbase_mm": 2807
+      },
+      "cargo": {
+        "volume_l": 520,
+        "volume_max_l": 1350
+      }
+    },
+    {
+      "brand": "tesla",
+      "model": "model-3",
+      "year": 2024,
+      "variant": "Performance (Highland)",
+      "golden_set_id": "GS-025",
+      "body_type": "sedan",
+      "source": "autopadre",
+      "interior": {
+        "front_headroom_mm": 1024,
+        "rear_headroom_mm": 960,
+        "front_legroom_mm": 1085,
+        "rear_legroom_mm": 894,
+        "front_shoulder_room_mm": 1433,
+        "rear_shoulder_room_mm": 1413
+      },
+      "exterior": {
+        "length_mm": 4720,
+        "width_mm": 1850,
+        "height_mm": 1441,
+        "wheelbase_mm": 2875
+      },
+      "cargo": {
+        "volume_l": 425,
+        "frunk_l": 88
+      }
+    },
+    {
+      "brand": "hyundai",
+      "model": "ioniq-5",
+      "year": 2024,
+      "variant": "Limited AWD",
+      "golden_set_id": "GS-030",
+      "body_type": "suv",
+      "source": "doral_hyundai",
+      "interior": {
+        "front_headroom_mm": 993,
+        "rear_headroom_mm": 953,
+        "front_legroom_mm": 1059,
+        "rear_legroom_mm": 1001,
+        "front_shoulder_room_mm": 1466,
+        "rear_shoulder_room_mm": 1466,
+        "front_hip_room_mm": 1369,
+        "rear_hip_room_mm": 1361
+      },
+      "exterior": {
+        "length_mm": 4635,
+        "width_mm": 1890,
+        "height_mm": 1600,
+        "wheelbase_mm": 3000
+      },
+      "cargo": {
+        "volume_l": 770,
+        "volume_max_l": 1679
+      }
+    },
+    {
+      "brand": "renault",
+      "model": "austral",
+      "year": 2024,
+      "variant": "E-Tech Full Hybrid",
+      "body_type": "suv",
+      "source": "renault_official",
+      "interior": {
+        "front_headroom_mm": 890,
+        "rear_headroom_mm": 860,
+        "front_legroom_mm": 1050,
+        "rear_legroom_mm": 890,
+        "rear_knee_room_mm": 234
+      },
+      "exterior": {
+        "length_mm": 4510,
+        "width_mm": 1825,
+        "height_mm": 1620,
+        "wheelbase_mm": 2667
+      },
+      "cargo": {
+        "volume_l": 500,
+        "volume_max_l": 1525
+      }
+    },
+    {
+      "brand": "renault",
+      "model": "scenic",
+      "year": 2024,
+      "variant": "E-Tech Electric",
+      "body_type": "suv",
+      "source": "renault_official",
+      "interior": {
+        "front_headroom_mm": 975,
+        "rear_headroom_mm": 920,
+        "front_legroom_mm": 1065,
+        "rear_legroom_mm": 907
+      },
+      "exterior": {
+        "length_mm": 4470,
+        "width_mm": 1866,
+        "height_mm": 1571,
+        "wheelbase_mm": 2785
+      },
+      "cargo": {
+        "volume_l": 545,
+        "volume_max_l": 1670
+      }
+    },
+    {
+      "brand": "renault",
+      "model": "espace",
+      "year": 2024,
+      "variant": "E-Tech Full Hybrid",
+      "body_type": "suv",
+      "source": "renault_official",
+      "interior": {
+        "front_headroom_mm": 1010,
+        "rear_headroom_mm": 980,
+        "front_legroom_mm": 1075,
+        "rear_legroom_mm": 975,
+        "third_row_legroom_mm": 650
+      },
+      "exterior": {
+        "length_mm": 4716,
+        "width_mm": 1866,
+        "height_mm": 1694,
+        "wheelbase_mm": 2785
+      },
+      "cargo": {
+        "volume_l": 473,
+        "volume_max_l": 1818
+      }
+    }
+  ]
+}

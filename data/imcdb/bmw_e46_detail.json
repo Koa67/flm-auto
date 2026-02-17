@@ -1085,18 +1085,6 @@
       "thumbnail_url": "https://www.imcdb.org/t001108049.jpg"
     },
     {
-      "vehicle_id": "1113251",
-      "vehicle_model": "3",
-      "chassis_code": "E46",
-      "movie_id": "1302067",
-      "movie_title": "Yogi Bear",
-      "movie_year": "2010",
-      "stars": 1,
-      "vehicle_url": "https://www.imcdb.org/vehicle_1113251-BMW-3-E46.html",
-      "movie_url": "https://www.imcdb.org/movie_1302067-Yogi-Bear.html",
-      "thumbnail_url": "https://www.imcdb.org/t001113251.jpg"
-    },
-    {
       "vehicle_id": "1128088",
       "vehicle_model": "3",
       "chassis_code": "E46",
@@ -3603,7 +3591,19 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_931771-BMW-3-E46-1998.html",
       "movie_url": "https://www.imcdb.org/movie_285964-Quelqu-un-de-bien.html",
       "thumbnail_url": "https://www.imcdb.org/t931771.jpg"
+    },
+    {
+      "vehicle_id": "931848",
+      "vehicle_model": "3",
+      "chassis_code": "E46",
+      "movie_id": "3486542",
+      "movie_title": "Mediterranea",
+      "movie_year": "2015",
+      "stars": 1,
+      "vehicle_url": "https://www.imcdb.org/vehicle_931848-BMW-3-E46-1998.html",
+      "movie_url": "https://www.imcdb.org/movie_3486542-Mediterranea.html",
+      "thumbnail_url": "https://www.imcdb.org/t931848.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:28:48.783Z"
+  "scraped_at": "2026-01-31T13:02:18.391Z"
 }

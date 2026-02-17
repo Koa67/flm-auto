@@ -1,0 +1,233 @@
+[
+  {
+    "model": "BMW 3 Series",
+    "url": "https://en.wikipedia.org/wiki/BMW_3_Series",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/BMW_G20_%282022%29_IMG_7316_%282%29.jpg/330px-BMW_G20_%282022%29_IMG_7316_%282%29.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:03.343Z"
+  },
+  {
+    "model": "BMW 5 Series",
+    "url": "https://en.wikipedia.org/wiki/BMW_5_Series",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BMW_G60_520i_1X7A2443.jpg/330px-BMW_G60_520i_1X7A2443.jpg",
+    "description": "The BMW 5 Series is an executive car manufactured and marketed by BMW since 1972. It is the successor to the BMW New Class sedans and is currently in its eighth generation. The car is sold as either a sedan or, since 1991, a station wagon (marketed as \"Touring\"). A 5-door fastback (marketed as \"Gran Turismo\") was sold between 2009 and 2017. Each successive generation has been given an internal G-code designation since 2017. Previously, a F-code designation was used between 2010 and 2016, while a",
+    "scraped_at": "2026-02-01T11:17:03.402Z"
+  },
+  {
+    "model": "BMW 7 Series",
+    "url": "https://en.wikipedia.org/wiki/BMW_7_Series",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/BMW_730d_%28G11%2C_Facelift%29_%E2%80%93_f_16012021.jpg/330px-BMW_730d_%28G11%2C_Facelift%29_%E2%80%93_f_16012021.jpg",
+    "description": "The first generation of the 7 Series was powered by straight-6 petrol engines, and following generations have been powered by inline-4, straight-6, V8 and V12 engines with both natural aspiration and turbocharging. Since 1995, diesel engines have been optional in the 7 Series.\n",
+    "scraped_at": "2026-02-01T11:17:03.588Z"
+  },
+  {
+    "model": "BMW X3",
+    "url": "https://en.wikipedia.org/wiki/BMW_X3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/BMW_G45_20_IMG_3794.jpg/330px-BMW_G45_20_IMG_3794.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:03.818Z"
+  },
+  {
+    "model": "BMW X5",
+    "url": "https://en.wikipedia.org/wiki/BMW_X5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_BMW_X5_M50d_Automatic_3.0.jpg/330px-2019_BMW_X5_M50d_Automatic_3.0.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:03.993Z"
+  },
+  {
+    "model": "BMW M3",
+    "url": "https://en.wikipedia.org/wiki/BMW_M3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/BMW_M3_Competition_%28G80%29_IMG_4041.jpg/330px-BMW_M3_Competition_%28G80%29_IMG_4041.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:04.207Z"
+  },
+  {
+    "model": "BMW M5",
+    "url": "https://en.wikipedia.org/wiki/BMW_M5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/BMW%2C_Techno_Classica_2018%2C_Essen_%28IMG_8995%29.jpg/330px-BMW%2C_Techno_Classica_2018%2C_Essen_%28IMG_8995%29.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:04.391Z"
+  },
+  {
+    "model": "Mercedes-Benz C-Class",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes-Benz_W206_IMG_6380.jpg/330px-Mercedes-Benz_W206_IMG_6380.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:04.603Z"
+  },
+  {
+    "model": "Mercedes-Benz E-Class",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mercedes-Benz_W214_1X7A1841.jpg/330px-Mercedes-Benz_W214_1X7A1841.jpg",
+    "description": "The Mercedes-Benz E-Class is a range of executive cars manufactured by German automaker Mercedes-Benz in various engine and body configurations. Produced since September 1953, the E-Class falls as a midrange in the Mercedes line-up, and has been marketed worldwide across five generations.\n",
+    "scraped_at": "2026-02-01T11:17:04.790Z"
+  },
+  {
+    "model": "Mercedes-Benz S-Class",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_S-Class",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mercedes-Benz_W223_IMG_6663.jpg/330px-Mercedes-Benz_W223_IMG_6663.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:04.995Z"
+  },
+  {
+    "model": "Mercedes-Benz GLC",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Mercedes-Benz_X254_1X7A6343.jpg/330px-Mercedes-Benz_X254_1X7A6343.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:05.194Z"
+  },
+  {
+    "model": "Mercedes-Benz GLE",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg/330px-Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:05.402Z"
+  },
+  {
+    "model": "Audi A3",
+    "url": "https://en.wikipedia.org/wiki/Audi_A3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Audi_A3_8Y_Sedan_IMG_5936.jpg/330px-Audi_A3_8Y_Sedan_IMG_5936.jpg",
+    "description": "\n\nGerman subcompact executive/small family car\n\n",
+    "scraped_at": "2026-02-01T11:17:05.619Z"
+  },
+  {
+    "model": "Audi A4",
+    "url": "https://en.wikipedia.org/wiki/Audi_A4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg/330px-Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:05.806Z"
+  },
+  {
+    "model": "Audi A6",
+    "url": "https://en.wikipedia.org/wiki/Audi_A6",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Audi_A6_C9_IAA_2025_DSC_1920.jpg/330px-Audi_A6_C9_IAA_2025_DSC_1920.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:06.008Z"
+  },
+  {
+    "model": "Audi Q5",
+    "url": "https://en.wikipedia.org/wiki/Audi_Q5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Audi_Q5_FY_50_TFSI_e_Facelift_IMG_5931.jpg/330px-Audi_Q5_FY_50_TFSI_e_Facelift_IMG_5931.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:06.201Z"
+  },
+  {
+    "model": "Audi Q7",
+    "url": "https://en.wikipedia.org/wiki/Audi_Q7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2017_Audi_Q7_S_Line_Quattro_3.0_Front.jpg/330px-2017_Audi_Q7_S_Line_Quattro_3.0_Front.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:06.406Z"
+  },
+  {
+    "model": "Audi R8",
+    "url": "https://en.wikipedia.org/wiki/Audi_R8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2018_Audi_R8_Coupe_V10_plus_Front.jpg/330px-2018_Audi_R8_Coupe_V10_plus_Front.jpg",
+    "description": "The Audi R8, based on the Audi Le Mans quattro concept car (designed by Frank Lamberty and Julian Hoenig) first appeared at the 2003 International Geneva Motor Show and the 2003 Frankfurt International Motor Show. The R8 road car was officially launched at the Paris Auto Show on 30 September 2006. There was some confusion with the name, which the car shares with the 24 Hours of Le Mans winning R8 Le Mans Prototype (LMP). Initial models included the R8 4.2 FSI coupé (with a V8 engine) and R8 5.2 ",
+    "scraped_at": "2026-02-01T11:17:06.616Z"
+  },
+  {
+    "model": "Volkswagen Golf",
+    "url": "https://en.wikipedia.org/wiki/Volkswagen_Golf",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Volkswagen_Golf_Style_1.5_Front.jpg/330px-2020_Volkswagen_Golf_Style_1.5_Front.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:06.808Z"
+  },
+  {
+    "model": "Volkswagen Passat",
+    "url": "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg/330px-VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:07.001Z"
+  },
+  {
+    "model": "Volkswagen Tiguan",
+    "url": "https://en.wikipedia.org/wiki/Volkswagen_Tiguan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2018_Volkswagen_Tiguan_R-Line_TSi_BlueMotion_4Motion_2.0_Front.jpg/330px-2018_Volkswagen_Tiguan_R-Line_TSi_BlueMotion_4Motion_2.0_Front.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:07.205Z"
+  },
+  {
+    "model": "Volkswagen ID.4",
+    "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2020_Volkswagen_ID.4_Pro_%28Netherlands%29_front_view.jpg/330px-2020_Volkswagen_ID.4_Pro_%28Netherlands%29_front_view.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:07.433Z"
+  },
+  {
+    "model": "Porsche 911",
+    "url": "https://en.wikipedia.org/wiki/Porsche_911",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg/330px-Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:07.609Z"
+  },
+  {
+    "model": "Porsche Cayenne",
+    "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Porsche_Cayenne_%28III%2C_Facelift%29_%E2%80%93_f_01012025.jpg/330px-Porsche_Cayenne_%28III%2C_Facelift%29_%E2%80%93_f_01012025.jpg",
+    "description": "\n\nMid-size luxury crossover SUV\n\n",
+    "scraped_at": "2026-02-01T11:17:07.807Z"
+  },
+  {
+    "model": "Porsche Taycan",
+    "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2020_Porsche_Taycan_4S_79kWh_Front.jpg/330px-2020_Porsche_Taycan_4S_79kWh_Front.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:08.020Z"
+  },
+  {
+    "model": "Porsche Macan",
+    "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Porsche_Macan_4_IMG_2153.jpg/330px-Porsche_Macan_4_IMG_2153.jpg",
+    "description": "\n \n",
+    "scraped_at": "2026-02-01T11:17:08.224Z"
+  },
+  {
+    "model": "Tesla Model 3",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2019_Tesla_Model_3_Performance_AWD_Front.jpg/330px-2019_Tesla_Model_3_Performance_AWD_Front.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:08.423Z"
+  },
+  {
+    "model": "Tesla Model S",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Cscr-featured.svg/20px-Cscr-featured.svg.png",
+    "description": "\n\n\n",
+    "scraped_at": "2026-02-01T11:17:08.645Z"
+  },
+  {
+    "model": "Tesla Model X",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ambox_current_red_Americas.svg/60px-Ambox_current_red_Americas.svg.png",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:08.816Z"
+  },
+  {
+    "model": "Tesla Model Y",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2023_Tesla_Model_Y_Long_Range_All-Wheel_Drive_in_Pearl_White_Multi-Coat%2C_front_right%2C_2024-09-25.jpg/330px-2023_Tesla_Model_Y_Long_Range_All-Wheel_Drive_in_Pearl_White_Multi-Coat%2C_front_right%2C_2024-09-25.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:09.028Z"
+  },
+  {
+    "model": "Hyundai Ioniq 5",
+    "url": "https://en.wikipedia.org/wiki/Hyundai_Ioniq_5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Hyundai_Ioniq_5_AWD_Techniq-Paket_%E2%80%93_f_31122024.jpg/330px-Hyundai_Ioniq_5_AWD_Techniq-Paket_%E2%80%93_f_31122024.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:09.230Z"
+  },
+  {
+    "model": "Volvo XC60",
+    "url": "https://en.wikipedia.org/wiki/Volvo_XC60",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2018_Volvo_XC60_R-Design_D5_P-Pulse_2.0_Front.jpg/330px-2018_Volvo_XC60_R-Design_D5_P-Pulse_2.0_Front.jpg",
+    "description": "\n\n",
+    "scraped_at": "2026-02-01T11:17:09.433Z"
+  },
+  {
+    "model": "Volvo XC90",
+    "url": "https://en.wikipedia.org/wiki/Volvo_XC90",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Volvo_XC90_T8_AWD_Plug-in_Hybrid_Plus_%28II%2C_2._Facelift%29_%E2%80%93_f_03102025.jpg/330px-Volvo_XC90_T8_AWD_Plug-in_Hybrid_Plus_%28II%2C_2._Facelift%29_%E2%80%93_f_03102025.jpg",
+    "description": "\n",
+    "scraped_at": "2026-02-01T11:17:09.617Z"
+  }
+]

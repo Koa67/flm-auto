@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FLM AUTO — Vehicle Body Type Silhouettes -->
+<!-- Usage: Each symbol can be referenced via <use href="#silhouette-{type}" /> -->
+<!-- All viewBoxes are 200x80, stroke: none, fill: currentColor for theme adaptability -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- SEDAN / BERLINE -->
+  <symbol id="silhouette-sedan" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M20,58 C20,58 22,55 30,55 L36,55 C38,55 40,57 42,57 C44,57 48,55 50,55 L55,55 C57,42 68,28 82,25 C90,23 105,22 118,22 C131,22 142,24 148,28 C156,33 162,42 164,48 L168,50 C170,51 172,53 172,55 L170,55 C172,55 176,57 178,57 C180,57 182,55 184,55 L186,55 C192,55 194,58 194,58 L194,62 C192,64 188,66 182,66 C176,66 172,62 172,58 L50,58 C50,62 46,66 40,66 C34,66 30,62 30,58 L20,58 Z"/>
+    <circle fill="currentColor" cx="40" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="40" cy="60" r="4"/>
+    <circle fill="currentColor" cx="172" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="172" cy="60" r="4"/>
+    <!-- Windows -->
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M75,44 L82,30 C88,27 98,26 108,26 L108,44 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M112,26 C122,26 134,27 142,30 L152,44 L112,44 Z"/>
+  </symbol>
+
+  <!-- SUV -->
+  <symbol id="silhouette-suv" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M18,54 L28,54 C28,54 30,51 34,51 L38,51 C42,51 44,54 44,54 L160,54 C160,54 162,51 166,51 L170,51 C174,51 176,54 176,54 L188,54 L188,50 L178,46 C176,38 170,26 162,22 C156,18 142,16 126,16 L88,16 C76,16 64,18 58,22 L48,30 L38,32 C32,34 26,38 22,42 L18,48 Z"/>
+    <circle fill="currentColor" cx="38" cy="56" r="8"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="38" cy="56" r="5"/>
+    <circle fill="currentColor" cx="168" cy="56" r="8"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="168" cy="56" r="5"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M62,40 L68,26 C74,22 84,20 96,20 L96,40 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M100,20 C116,20 132,20 144,22 L158,34 L158,40 L100,40 Z"/>
+  </symbol>
+
+  <!-- HATCHBACK / COMPACTE -->
+  <symbol id="silhouette-hatchback" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M22,58 L32,58 C32,54 36,50 42,50 C48,50 52,54 52,58 L156,58 C156,54 160,50 166,50 C172,50 176,54 176,58 L186,58 L186,52 L176,48 C174,44 172,38 168,34 L160,30 C158,24 148,20 136,18 C128,16 110,16 96,16 C82,16 68,18 62,24 L50,36 C42,38 34,42 28,46 L22,52 Z"/>
+    <circle fill="currentColor" cx="42" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="42" cy="60" r="4"/>
+    <circle fill="currentColor" cx="166" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="166" cy="60" r="4"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M68,42 L72,28 C78,22 88,20 98,20 L98,42 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M102,20 C118,20 132,20 142,22 L162,36 L162,42 L102,42 Z"/>
+  </symbol>
+
+  <!-- BREAK / WAGON / ESTATE -->
+  <symbol id="silhouette-wagon" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M20,58 L30,58 C30,54 34,50 40,50 C46,50 50,54 50,58 L158,58 C158,54 162,50 168,50 C174,50 178,54 178,58 L190,58 L190,50 L182,46 L180,28 C178,24 174,22 168,22 L136,22 C132,22 128,22 124,24 L82,24 C76,24 68,26 62,30 L50,40 C42,42 34,46 28,50 L20,54 Z"/>
+    <circle fill="currentColor" cx="40" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="40" cy="60" r="4"/>
+    <circle fill="currentColor" cx="168" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="168" cy="60" r="4"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M68,42 L74,32 C78,28 86,26 94,26 L94,42 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M98,26 L136,26 C142,26 148,26 152,26 L168,26 L174,28 L176,42 L98,42 Z"/>
+  </symbol>
+
+  <!-- COUPE -->
+  <symbol id="silhouette-coupe" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M18,58 L28,58 C28,54 32,50 38,50 C44,50 48,54 48,58 L160,58 C160,54 164,50 170,50 C176,50 180,54 180,58 L190,58 L190,52 L180,48 C178,42 174,36 168,32 C162,28 152,24 140,22 C130,20 114,20 100,22 C86,24 72,28 64,34 L48,46 C40,48 32,50 24,52 L18,54 Z"/>
+    <circle fill="currentColor" cx="38" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="38" cy="60" r="4"/>
+    <circle fill="currentColor" cx="170" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="170" cy="60" r="4"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M72,44 L78,32 C84,28 94,26 104,24 L104,44 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M108,24 C120,22 134,24 144,28 L162,40 L162,44 L108,44 Z"/>
+  </symbol>
+
+  <!-- CABRIOLET / CONVERTIBLE -->
+  <symbol id="silhouette-cabriolet" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M18,58 L28,58 C28,54 32,50 38,50 C44,50 48,54 48,58 L160,58 C160,54 164,50 170,50 C176,50 180,54 180,58 L190,58 L190,52 L180,48 C178,44 174,40 168,38 L148,34 L132,32 L120,34 C112,36 104,38 96,38 L80,38 L68,40 C58,42 46,46 36,50 L24,54 L18,56 Z"/>
+    <circle fill="currentColor" cx="38" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="38" cy="60" r="4"/>
+    <circle fill="currentColor" cx="170" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="170" cy="60" r="4"/>
+  </symbol>
+
+  <!-- MINIVAN / MONOSPACE -->
+  <symbol id="silhouette-minivan" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M16,56 L26,56 C26,52 30,48 36,48 C42,48 46,52 46,56 L162,56 C162,52 166,48 172,48 C178,48 182,52 182,56 L192,56 L192,46 L184,42 L182,24 C180,18 176,16 170,16 L76,16 C68,16 60,18 54,22 L40,34 C32,38 24,42 20,46 L16,50 Z"/>
+    <circle fill="currentColor" cx="36" cy="58" r="8"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="36" cy="58" r="5"/>
+    <circle fill="currentColor" cx="172" cy="58" r="8"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="172" cy="58" r="5"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M58,38 L64,24 C68,20 74,18 82,18 L82,38 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M86,18 L120,18 L120,38 L86,38 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M124,18 L168,18 C174,18 178,20 178,22 L180,38 L124,38 Z"/>
+  </symbol>
+
+  <!-- PICKUP -->
+  <symbol id="silhouette-pickup" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M16,56 L26,56 C26,52 30,48 36,48 C42,48 46,52 46,56 L158,56 C158,52 162,48 168,48 C174,48 178,52 178,56 L192,56 L192,40 L176,38 L176,30 L120,30 L118,22 C114,18 106,16 96,16 L76,16 C68,16 60,20 56,24 L44,36 C36,40 28,44 22,48 L16,52 Z"/>
+    <circle fill="currentColor" cx="36" cy="58" r="8"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="36" cy="58" r="5"/>
+    <circle fill="currentColor" cx="168" cy="58" r="8"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="168" cy="58" r="5"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M60,36 L66,26 C70,20 78,18 88,18 L88,36 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M92,18 C102,18 110,20 114,24 L116,32 L116,36 L92,36 Z"/>
+    <!-- Bed line -->
+    <line stroke="var(--bg-primary, #0a0a0f)" stroke-width="1" x1="122" y1="30" x2="174" y2="30" opacity="0.3"/>
+  </symbol>
+
+  <!-- SPORTS CAR / SUPERCAR -->
+  <symbol id="silhouette-sports" viewBox="0 0 200 80">
+    <path fill="currentColor" d="M14,58 L26,58 C26,54 30,50 36,50 C42,50 46,54 46,58 L162,58 C162,54 166,50 172,50 C178,50 182,54 182,58 L192,58 L192,52 L184,48 C182,44 178,40 172,38 C166,36 156,34 146,32 C136,30 118,30 104,32 C90,34 76,38 66,42 L44,50 C34,52 24,54 18,56 L14,58 Z"/>
+    <circle fill="currentColor" cx="36" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="36" cy="60" r="4"/>
+    <circle fill="currentColor" cx="172" cy="60" r="7"/>
+    <circle fill="var(--bg-primary, #0a0a0f)" cx="172" cy="60" r="4"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M78,46 L86,38 C92,34 102,32 112,32 L112,46 Z"/>
+    <path fill="var(--bg-primary, #0a0a0f)" opacity="0.4" d="M116,32 C128,32 140,34 148,36 L166,44 L166,46 L116,46 Z"/>
+  </symbol>
+
+</svg>

@@ -1,0 +1,655 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T05:00:00Z",
+    "version": "1.0",
+    "description": "Comprehensive Pop Culture & Motorsport Database for FLM AUTO",
+    "categories": ["tv_shows", "movies", "video_games", "comics", "drag_racing", "drifting", "world_records"]
+  },
+  
+  "tv_shows": {
+    "magnum_pi": {
+      "title": "Magnum P.I.",
+      "years": "1980-1988",
+      "network": "CBS",
+      "seasons": 8,
+      "episodes": 162,
+      "setting": "Oahu, Hawaii",
+      "lead_actor": "Tom Selleck",
+      "character": "Thomas Magnum",
+      "primary_vehicle": {
+        "make": "Ferrari",
+        "model": "308 GTS Quattrovalvole",
+        "color": "Rosso Corsa (Red)",
+        "license_plate": "ROBIN 1",
+        "owner_in_show": "Robin Masters",
+        "specs": {
+          "engine": "2.9L V8",
+          "power_hp": 237,
+          "torque_nm": 260,
+          "zero_to_sixty": 6.5,
+          "top_speed_mph": 156
+        },
+        "versions_used": [
+          {"years": "1980-1981", "model": "1979 308 GTS", "notes": "Carbureted, 2-valve"},
+          {"years": "1981-1984", "model": "1980 308 GTSi", "notes": "Fuel-injected, 2-valve, 205hp"},
+          {"years": "1984-1988", "model": "1984 308 GTS QV", "notes": "Quattrovalvole, 4-valve, 230hp"}
+        ],
+        "production_notes": {
+          "cars_per_season": 5,
+          "modifications": "Seat padding removed, seats bolted back for 6'4\" Tom Selleck",
+          "stunt_cars": "Kit cars on Pontiac Fiero chassis",
+          "supplier": "Ferrari North America"
+        },
+        "fun_facts": [
+          "Porsche 928 was originally planned but Porsche refused modifications",
+          "Ferrari happily agreed to supply cars",
+          "Tom Selleck bought cast members Porsche 928s after final season",
+          "Theme music peaked at #25 on Billboard Hot 100 in 1982"
+        ],
+        "auction_record": {
+          "year": 2017,
+          "house": "Bonhams Scottsdale",
+          "price_usd": 181500,
+          "vin": "ZFFUA13A4E0051941"
+        }
+      },
+      "other_vehicles": [
+        {"vehicle": "Audi 5000", "designation": "Robin 2"},
+        {"vehicle": "Mercedes-Benz 380SL", "driver": "Rick"},
+        {"vehicle": "GMC Jimmy", "designation": "Robin 3"},
+        {"vehicle": "Volkswagen Vanagon GL", "driver": "T.C.", "use": "Island Hoppers van"}
+      ],
+      "cultural_impact": "Made Ferrari 308 GTS iconic, boosted Ferrari sales significantly"
+    },
+    
+    "miami_vice": {
+      "title": "Miami Vice",
+      "years": "1984-1990",
+      "network": "NBC",
+      "seasons": 5,
+      "setting": "Miami, Florida",
+      "lead_actors": ["Don Johnson", "Philip Michael Thomas"],
+      "characters": ["Sonny Crockett", "Ricardo Tubbs"],
+      "primary_vehicles": [
+        {
+          "seasons": "1-3 (episodes 1-44)",
+          "make": "Ferrari",
+          "model": "Daytona Spyder 365 GTS/4 (replica)",
+          "color": "Black",
+          "license_plate": "ZAQ178",
+          "notes": "Actually Corvette C3 with McBurnie fiberglass body kit",
+          "cost_per_replica": 49000,
+          "fate": "Destroyed on-screen after Ferrari lawsuit"
+        },
+        {
+          "seasons": "3-5 (episodes 45-111)",
+          "make": "Ferrari",
+          "model": "Testarossa",
+          "year": 1986,
+          "color": "White",
+          "chassis": "63631",
+          "specs": {
+            "engine": "4.9L Flat-12",
+            "power_hp": 390,
+            "top_speed_mph": 180
+          },
+          "notes": "Two Testarossas donated by Ferrari after lawsuit",
+          "original_color": "Black (repainted white for filming)",
+          "stunt_car": "De Tomaso Pantera with Testarossa body"
+        }
+      ],
+      "other_vehicles": [
+        {"vehicle": "1964 Cadillac Coupe de Ville Convertible", "driver": "Tubbs"},
+        {"vehicle": "1961 Ford Thunderbird", "driver": "Stan Switek", "color": "Turquoise"},
+        {"vehicle": "1971 Mercury Cougar XR-7 Convertible", "driver": "Gina Calabrese"}
+      ],
+      "cultural_impact": "Defined 1980s aesthetic, influenced fashion and car culture"
+    },
+    
+    "knight_rider": {
+      "title": "Knight Rider",
+      "years": "1982-1986",
+      "network": "NBC",
+      "seasons": 4,
+      "lead_actor": "David Hasselhoff",
+      "character": "Michael Knight",
+      "primary_vehicle": {
+        "name": "KITT (Knight Industries Two Thousand)",
+        "make": "Pontiac",
+        "model": "Firebird Trans Am",
+        "year": 1982,
+        "color": "Black",
+        "voice_actor": "William Daniels",
+        "build_cost_1982": 100000,
+        "build_cost_adjusted": 250000,
+        "cars_used": 23,
+        "cars_destroyed": 18,
+        "fictional_specs": {
+          "top_speed_mph": 300,
+          "turbo_boost": "50 feet vertical jump",
+          "armor": "Molecular bonded shell",
+          "features": ["Self-driving", "Flamethrower", "Ejection seats", "Oil jets", "Smoke screen"]
+        }
+      },
+      "trivia": [
+        "Originally planned as Datsun 280ZX",
+        "Red scanner inspired by Battlestar Galactica Cylons",
+        "William Daniels requested no credit"
+      ]
+    },
+    
+    "dukes_of_hazzard": {
+      "title": "The Dukes of Hazzard",
+      "years": "1979-1985",
+      "network": "CBS",
+      "seasons": 7,
+      "primary_vehicle": {
+        "name": "General Lee",
+        "make": "Dodge",
+        "model": "Charger",
+        "year": 1969,
+        "color": "Orange (Hemi Orange)",
+        "number": "01",
+        "horn": "Dixie",
+        "cars_used": "255-321 destroyed during production",
+        "specs": {
+          "engine": "440 Magnum V8",
+          "power_hp": 375
+        }
+      }
+    },
+    
+    "a_team": {
+      "title": "The A-Team",
+      "years": "1983-1987",
+      "network": "NBC",
+      "primary_vehicle": {
+        "make": "GMC",
+        "model": "Vandura",
+        "year": 1983,
+        "color": "Black with red stripe and grey",
+        "features": ["Weapons storage", "Surveillance equipment"],
+        "driver": "B.A. Baracus (Mr. T)"
+      },
+      "secondary_vehicle": {
+        "make": "Chevrolet",
+        "model": "Corvette C4",
+        "driver": "Face"
+      }
+    },
+    
+    "initial_d": {
+      "title": "Initial D",
+      "type": "Anime/Manga",
+      "years": "1995-2013 (manga), 1998-2014 (anime)",
+      "primary_vehicle": {
+        "name": "Hachi-Roku",
+        "make": "Toyota",
+        "model": "AE86 Sprinter Trueno",
+        "driver": "Takumi Fujiwara",
+        "technique": "Tofu delivery drift technique",
+        "cultural_impact": "Made AE86 legendary, prices skyrocketed"
+      },
+      "other_vehicles": [
+        {"make": "Mazda", "model": "RX-7 FC3S", "driver": "Ryosuke Takahashi"},
+        {"make": "Mazda", "model": "RX-7 FD3S", "driver": "Keisuke Takahashi"},
+        {"make": "Nissan", "model": "Skyline GT-R R32", "driver": "Nakazato"},
+        {"make": "Nissan", "model": "Silvia S13", "driver": "Iketani"}
+      ]
+    },
+    
+    "top_gear_grand_tour": {
+      "vehicles_featured": {
+        "oliver": {
+          "make": "Opel",
+          "model": "Kadett A",
+          "year": 1963,
+          "episode": "Botswana Special",
+          "owner": "Richard Hammond",
+          "status": "Kept by Hammond after filming"
+        },
+        "reasonably_priced_cars": [
+          {"make": "Suzuki", "model": "Liana", "years": "2002-2006"},
+          {"make": "Chevrolet", "model": "Lacetti", "years": "2006-2010"},
+          {"make": "Kia", "model": "Cee'd", "years": "2010-2013"},
+          {"make": "Vauxhall", "model": "Astra Tech Line", "years": "2013-2015"}
+        ]
+      }
+    }
+  },
+  
+  "movies": {
+    "james_bond_bmw": {
+      "goldeneye_1995": {
+        "vehicle": "BMW Z3",
+        "color": "Atlanta Blue Metallic",
+        "screen_time": "Brief (~30 seconds)",
+        "gadgets": ["Stinger missiles (unused)", "Ejector seat (unused)", "All-points radar"],
+        "impact": "15,000+ orders for Z3 after release"
+      },
+      "tomorrow_never_dies_1997": {
+        "vehicle": "BMW 750iL (E38)",
+        "gadgets": ["Remote control via phone", "Bulletproof body", "Tire spike dispenser", "Roof missiles", "Reinflating tires", "Wire cutter"],
+        "famous_scene": "Remote driving through car park",
+        "fate": "Driven off rooftop into Avis rental"
+      },
+      "world_is_not_enough_1999": {
+        "vehicle": "BMW Z8",
+        "gadgets": ["Titanium armor", "Surface-to-air missiles", "6 cup holders"],
+        "fate": "Cut in half by helicopter saw",
+        "notes": "Last BMW Bond car before return to Aston Martin"
+      }
+    },
+    
+    "fast_and_furious": {
+      "iconic_vehicles": [
+        {
+          "movie": "The Fast and the Furious (2001)",
+          "vehicle": "Toyota Supra MK4",
+          "color": "Orange",
+          "driver": "Brian O'Conner (Paul Walker)",
+          "mods": "2JZ-GTE twin-turbo, NOS, PlayStation 1 in dash",
+          "auction_2021": 550000
+        },
+        {
+          "movie": "The Fast and the Furious (2001)",
+          "vehicle": "Dodge Charger R/T",
+          "year": 1970,
+          "driver": "Dom Toretto (Vin Diesel)",
+          "notes": "Wheelie scene iconic"
+        },
+        {
+          "movie": "Furious 7 (2015)",
+          "vehicle": "Lykan HyperSport",
+          "scene": "Jumping between Abu Dhabi towers",
+          "value": 3400000
+        }
+      ],
+      "bmw_appearances": [
+        {"movie": "Mission Impossible Fallout", "vehicle": "BMW M5 (F90)"},
+        {"movie": "Fast & Furious 6", "vehicle": "BMW M5 (E60)"}
+      ]
+    },
+    
+    "italian_job": {
+      "original_1969": {
+        "vehicles": ["Mini Cooper S (red)", "Mini Cooper S (white)", "Mini Cooper S (blue)"],
+        "chase_location": "Turin, Italy",
+        "cultural_impact": "Made Mini Cooper iconic"
+      },
+      "remake_2003": {
+        "vehicles": ["Mini Cooper S (multiple colors)"],
+        "chase_location": "Los Angeles"
+      }
+    },
+    
+    "back_to_future": {
+      "vehicle": {
+        "make": "DeLorean",
+        "model": "DMC-12",
+        "modification": "Flux Capacitor time machine",
+        "required_speed": "88 mph",
+        "power_source": ["Plutonium", "Lightning", "Mr. Fusion"],
+        "cultural_impact": "Saved DeLorean from obscurity"
+      }
+    },
+    
+    "transporter": {
+      "vehicles": [
+        {"movie": "The Transporter (2002)", "vehicle": "BMW 735i (E38)", "driver": "Frank Martin (Jason Statham)"},
+        {"movie": "Transporter 2 (2005)", "vehicle": "Audi A8 W12"},
+        {"movie": "Transporter 3 (2008)", "vehicle": "Audi A8 W12"}
+      ]
+    },
+    
+    "ronin": {
+      "year": 1998,
+      "famous_chase": "Paris chase scene",
+      "vehicles": [
+        {"vehicle": "BMW M5 (E34)", "color": "Green"},
+        {"vehicle": "Audi S8 (D2)", "color": "Dark Blue"},
+        {"vehicle": "Peugeot 406", "notes": "Driven wrong way through tunnel"},
+        {"vehicle": "Mercedes-Benz 450 SEL 6.9"}
+      ],
+      "notes": "Considered one of best car chases ever filmed"
+    },
+    
+    "gone_in_60_seconds": {
+      "year": 2000,
+      "star_car": {
+        "name": "Eleanor",
+        "make": "Ford",
+        "model": "Mustang Shelby GT500",
+        "year": 1967,
+        "modifications": "Custom body kit, supercharged V8"
+      }
+    }
+  },
+  
+  "video_games": {
+    "need_for_speed": {
+      "series_start": 1994,
+      "30th_anniversary": 2024,
+      "total_games": 25,
+      "best_selling": {"title": "Most Wanted (2005)", "copies_sold": "18 million+"},
+      "bmw_presence": "Featured since NFS III: Hot Pursuit (1998)",
+      "iconic_bmw_cars": [
+        {"game": "NFS Most Wanted (2005)", "vehicle": "BMW M3 GTR (E46)", "status": "Cover car, protagonist's car, most iconic NFS car ever"},
+        {"game": "NFS Carbon (2006)", "vehicle": "BMW M3 GTR (E46)", "status": "Returns as unlockable"},
+        {"game": "NFS Underground 2", "vehicle": "BMW M3 (E46)"},
+        {"game": "NFS Heat (2019)", "vehicle": "BMW M3 Evolution II (E30)"},
+        {"game": "NFS Heat (2019)", "vehicle": "BMW M3 GTR Legends Edition"},
+        {"game": "NFS Unbound (2022)", "vehicle": "BMW M4 (G82)"},
+        {"game": "NFS Unbound Vol.9 (2024)", "vehicle": "Custom M3 GTR '05", "notes": "Most Wanted tribute"}
+      ],
+      "nfs_most_wanted_m3_gtr": {
+        "significance": "Most iconic NFS car ever - 75% of Google M3 GTR searches lead to NFS content",
+        "color": "Titan Silver Metallic with blue stripes",
+        "engine": "P60B40 4.0L V8 (450hp race spec)",
+        "story": "Hero car sabotaged by Razor, player retrieves it by defeating Blacklist",
+        "real_car_basis": "#42 Team BMW Motorsport M3 GTR - 2001 ALMS GT Champion",
+        "drivers": ["Jörg Müller", "J.J. Lehto"],
+        "race_record": "7 wins in 10 races, drivers + team + manufacturers championship 2001",
+        "strassenversion": {
+          "units_built": 10,
+          "price_2001": 250000,
+          "power_hp": 346,
+          "weight_kg": 1350,
+          "top_speed_kmh": 295,
+          "notes": "Only BMW ever with P60B40 engine, rarest M3 ever"
+        }
+      },
+      "bmw_ea_partnership_2024": {
+        "event": "30th anniversary collaboration",
+        "special_car": "Real #42 M3 GTR wrapped in Most Wanted livery",
+        "display": "BMW Welt Munich, Nov 27 2024 - Jan 6 2025",
+        "game_update": "NFS Unbound Vol.9 Lockdown - inspired by Most Wanted"
+      }
+    },
+    
+    "gran_turismo": {
+      "series_start": 1997,
+      "bmw_featured_since": "Gran Turismo 2 (1999)",
+      "notable_bmw": [
+        {"game": "GT Sport", "vehicle": "BMW M6 GT3"},
+        {"game": "GT7", "vehicle": "BMW M3 '03 (E46)", "notes": "Fan favorite"},
+        {"game": "GT7", "vehicle": "BMW M4 '21 (G82)"}
+      ]
+    },
+    
+    "forza": {
+      "forza_motorsport": {
+        "bmw_presence": "Extensive since Forza 1 (2005)",
+        "cover_cars_bmw": ["Forza Motorsport 4 featured BMW partnership"]
+      },
+      "forza_horizon": {
+        "notable_bmw": [
+          {"game": "FH5", "vehicle": "BMW M3 (E30)", "barn_find": true},
+          {"game": "FH5", "vehicle": "BMW X5 M FE", "forza_edition": true}
+        ]
+      }
+    },
+    
+    "assetto_corsa": {
+      "bmw_content": "Extensive modding community",
+      "official_bmw": ["M3 E30", "M3 E92", "Z4 GT3"],
+      "popular_mods": ["E36 drift builds", "E46 M3 variants"]
+    },
+    
+    "gta_series": {
+      "bmw_inspired": [
+        {"gta_name": "Sentinel", "inspired_by": "BMW 3 Series (E36/E46)"},
+        {"gta_name": "Sentinel XS", "inspired_by": "BMW M3"},
+        {"gta_name": "Ubermacht Oracle", "inspired_by": "BMW 7 Series"},
+        {"gta_name": "Ubermacht Zion", "inspired_by": "BMW 6 Series"}
+      ]
+    }
+  },
+  
+  "drag_racing": {
+    "carwow_leaderboard_top_50": {
+      "source": "carwow.co.uk official leaderboard",
+      "date": "January 2026",
+      "entries": [
+        {"rank": 1, "vehicle": "Rimac Nevera", "time_sec": 8.4, "power_hp": 1914},
+        {"rank": 2, "vehicle": "McMurtry Spéirling", "time_sec": 8.4, "power_hp": 1000},
+        {"rank": 3, "vehicle": "Koenigsegg Jesko Absolut", "time_sec": 8.9},
+        {"rank": 4, "vehicle": "BMW M240i (1,100hp tuned)", "time_sec": 8.9},
+        {"rank": 5, "vehicle": "BMW M240i (1,000hp tuned)", "time_sec": 9.1},
+        {"rank": 10, "vehicle": "BMW M3 Touring (1,000hp)", "time_sec": 9.4},
+        {"rank": 15, "vehicle": "Tesla Model S Plaid", "time_sec": 9.6},
+        {"rank": 20, "vehicle": "Porsche Taycan Turbo GT", "time_sec": 9.8},
+        {"rank": 25, "vehicle": "Lamborghini Revuelto", "time_sec": 9.8},
+        {"rank": 30, "vehicle": "BMW M4 (1,000hp)", "time_sec": 9.8},
+        {"rank": 40, "vehicle": "BMW M5 Competition (F90) 1,000hp Evolve", "time_sec": 10.0},
+        {"rank": 50, "vehicle": "Porsche 911 Turbo S (992)", "time_sec": 10.1}
+      ]
+    },
+    
+    "stock_quarter_mile_times": {
+      "bmw": [
+        {"vehicle": "BMW M5 CS", "time_sec": 10.9, "power_hp": 627},
+        {"vehicle": "BMW M3 Competition xDrive", "time_sec": 11.2, "power_hp": 503},
+        {"vehicle": "BMW M4 Competition", "time_sec": 11.7, "power_hp": 503},
+        {"vehicle": "BMW i4 M50", "time_sec": 11.9, "power_hp": 536},
+        {"vehicle": "BMW M240i xDrive", "time_sec": 12.1, "power_hp": 382},
+        {"vehicle": "BMW M340i xDrive", "time_sec": 12.5, "power_hp": 382}
+      ],
+      "mercedes": [
+        {"vehicle": "Mercedes-AMG GT 63 S E Performance", "time_sec": 10.9, "power_hp": 831},
+        {"vehicle": "Mercedes-AMG E63 S", "time_sec": 11.1, "power_hp": 603},
+        {"vehicle": "Mercedes-AMG C63 S E Performance", "time_sec": 11.5, "power_hp": 671},
+        {"vehicle": "Mercedes-AMG A45 S", "time_sec": 12.1, "power_hp": 416}
+      ],
+      "audi": [
+        {"vehicle": "Audi RS e-tron GT", "time_sec": 10.8, "power_hp": 637},
+        {"vehicle": "Audi RS6 Performance", "time_sec": 11.1, "power_hp": 621},
+        {"vehicle": "Audi RS7 Performance", "time_sec": 11.3, "power_hp": 621},
+        {"vehicle": "Audi RS3", "time_sec": 11.9, "power_hp": 401}
+      ],
+      "porsche": [
+        {"vehicle": "Porsche Taycan Turbo GT", "time_sec": 9.8, "power_hp": 1019},
+        {"vehicle": "Porsche 911 Turbo S (992)", "time_sec": 10.1, "power_hp": 640},
+        {"vehicle": "Porsche Taycan Turbo S", "time_sec": 10.3, "power_hp": 750},
+        {"vehicle": "Porsche 911 GT3 RS (992)", "time_sec": 11.0, "power_hp": 518}
+      ]
+    },
+    
+    "world_records": {
+      "bmw_m3_g80_record": {
+        "time_sec": 8.5,
+        "tuner": "MLife Auto Care",
+        "power_hp": 780,
+        "mods": ["Precision turbo", "Pure Drivetrain Stage 3 trans"],
+        "zero_to_sixty": 1.6,
+        "date": "December 2023"
+      },
+      "longest_drift_bmw_m5": {
+        "record": "Longest drift",
+        "vehicle": "BMW M5 (F90)",
+        "distance_km": 374.17,
+        "time_hours": 8,
+        "location": "BMW Test Center, Miramas",
+        "date": "December 2017",
+        "fuel_consumed_liters": 1635.5
+      }
+    }
+  },
+  
+  "drifting": {
+    "formula_drift": {
+      "bmw_champions": [
+        {
+          "year": 2013,
+          "driver": "Michael Essa",
+          "team": "Essa Autosport",
+          "vehicle": "BMW M3 (E46)",
+          "engine": "S54 turbocharged",
+          "notes": "First and only BMW with BMW engine to win FD championship"
+        }
+      ],
+      "popular_bmw_platforms": [
+        {
+          "model": "E36 3 Series",
+          "years": "1992-1999",
+          "advantages": ["Lightweight", "Trailing arm suspension", "ZF 5-speed gearbox", "Affordable"],
+          "recommended_model": "328i or 325is",
+          "budget_entry": "$2,500-5,000"
+        },
+        {
+          "model": "E46 3 Series",
+          "years": "1999-2006",
+          "advantages": ["Wider chassis", "Same suspension as E36", "Better refinement"],
+          "recommended_model": "330i (same parts as M3, cheaper)",
+          "notes": "Considered one of best drift chassis ever"
+        },
+        {
+          "model": "E92 M3",
+          "years": "2007-2013",
+          "advantages": ["414hp V8", "Strong chassis"],
+          "notes": "Popular in pro-level competition"
+        }
+      ],
+      "james_deane": {
+        "titles": 16,
+        "status": "Most successful drifter in history",
+        "current_car": "BMW M3 E46 by HGK Racing",
+        "specs": {
+          "power_hp": 1000,
+          "engine": "2JZ with nitrous",
+          "build_cost_gbp": 150000
+        }
+      }
+    },
+    
+    "drift_kings": {
+      "keiichi_tsuchiya": {
+        "nickname": "Drift King",
+        "famous_car": "Toyota AE86",
+        "influence": "Inspired Initial D anime"
+      },
+      "red_bull_driftbrothers": {
+        "vehicle": "BMW M4 Competition",
+        "power_hp": 1040,
+        "torque_nm": 1300,
+        "notes": "Factory-supported drift team"
+      }
+    },
+    
+    "best_drift_bmw_ranking": [
+      {"rank": 1, "model": "E46 M3/330i", "reason": "Best all-around drift platform"},
+      {"rank": 2, "model": "E36 M3/328i", "reason": "Lighter, more affordable"},
+      {"rank": 3, "model": "E92 M3", "reason": "More power, heavier"},
+      {"rank": 4, "model": "F82 M4", "reason": "Modern, turbo power"},
+      {"rank": 5, "model": "E30 325i", "reason": "Classic, lightweight"}
+    ]
+  },
+  
+  "comic_books_animation": {
+    "speed_racer": {
+      "original": "Mach GoGoGo (1967)",
+      "vehicle": "Mach 5",
+      "inspiration": "Ferrari 250 Testa Rossa + Ford GT40"
+    },
+    "batman": {
+      "batmobile_versions": [
+        {"era": "1966 TV", "base": "Lincoln Futura concept"},
+        {"era": "1989 film", "design": "Anton Furst"},
+        {"era": "Tumbler (Dark Knight)", "type": "Military vehicle"},
+        {"era": "2022 film", "base": "Muscle car aesthetic"}
+      ]
+    },
+    "transformers": {
+      "bumblebee": {
+        "original": "VW Beetle",
+        "movie_version": "Chevrolet Camaro",
+        "reason_for_change": "GM partnership"
+      }
+    }
+  },
+  
+  "guinness_world_records": {
+    "bmw_records": [
+      {
+        "record": "Greatest distance vehicle drift in 8 hours",
+        "official_title": "GUINNESS WORLD RECORDS™",
+        "vehicle": "BMW M5 (F90)",
+        "achievement_miles": 232.5,
+        "achievement_km": 374.17,
+        "previous_record_miles": 89.55,
+        "margin_miles": 143,
+        "location": "BMW Performance Center, Greer, South Carolina",
+        "date": "December 11, 2017",
+        "driver": "Johan Schwartz",
+        "driver_title": "BMW Driving Instructor",
+        "vehicle_specs": {
+          "power_hp": 600,
+          "engine": "4.4L V8 M TwinPower Turbo",
+          "drivetrain": "M xDrive (rear-only mode)",
+          "condition": "100% stock with Continental ExtremeContact Sport tires"
+        },
+        "refueling": {
+          "method": "Mid-drift refueling (like fighter jet mid-air refueling)",
+          "system": "Custom dry break fuel system by Detroit Speed",
+          "refuel_car": "BMW M5 F10",
+          "refuel_driver": "Matt Mullins (BMW Performance Center Chief Instructor)",
+          "fuel_operator": "Matt Butts (Detroit Speed)",
+          "refuel_count": 5,
+          "safety": "Operator secured by safety tether, leaning between moving vehicles"
+        },
+        "conditions": {
+          "surface": "Wet skid pad (water-assisted)",
+          "breaks": "None - no food, no bathroom, no stops",
+          "average_speed_mph": 29
+        },
+        "record_still_stands": true,
+        "years_unbroken": 7
+      },
+      {
+        "record": "Longest twin vehicle drift (water assisted)",
+        "official_title": "GUINNESS WORLD RECORDS™",
+        "vehicles": ["BMW M5 F90 (drift car)", "BMW M5 F10 (refuel car)"],
+        "achievement_miles": 49.25,
+        "achievement_km": 79.3,
+        "duration": "1 hour",
+        "location": "BMW Performance Center, Greer, South Carolina",
+        "date": "December 11, 2017",
+        "drivers": ["Johan Schwartz", "Matt Mullins"],
+        "notes": "Set accidentally during refueling operations for main record"
+      },
+      {
+        "record": "First longest drift record (BMW)",
+        "vehicle": "BMW M5 (F10)",
+        "achievement_miles": 51.278,
+        "location": "BMW Performance Center, Greer, South Carolina",
+        "date": "May 11, 2013",
+        "driver": "Johan Schwartz",
+        "duration": "1 hour 40 minutes",
+        "notes": "Later broken by Toyota GT86 (Harald Müller 2014, Jesse Adams 2017)"
+      },
+      {
+        "record": "Fastest production sedan (Nürburgring Nordschleife)",
+        "vehicle": "BMW M5 CS",
+        "time": "7:29.57",
+        "date": "2021",
+        "driver": "BMW test driver"
+      }
+    ],
+    "drift_record_history": [
+      {"year": 2011, "driver": "Mauro Calo (Autocar)", "vehicle": "Mercedes-AMG C63", "distance_miles": 1.43, "type": "Dry"},
+      {"year": 2013, "driver": "Johan Schwartz", "vehicle": "BMW M5 F10", "distance_miles": 51.278, "type": "Wet"},
+      {"year": 2014, "driver": "Harald Müller", "vehicle": "Toyota GT86", "distance_km": 144.12, "type": "Wet"},
+      {"year": 2017, "driver": "Jesse Adams", "vehicle": "Toyota GT86", "distance_km": 165.04, "type": "Wet"},
+      {"year": 2017, "driver": "Johan Schwartz", "vehicle": "BMW M5 F90", "distance_miles": 232.5, "type": "Wet", "current_record": true}
+    ]
+  },
+  
+  "statistics": {
+    "total_tv_shows": 7,
+    "total_movies": 15,
+    "total_video_games": 6,
+    "total_drag_times": 50,
+    "total_drift_platforms": 10,
+    "total_world_records": 5
+  }
+}

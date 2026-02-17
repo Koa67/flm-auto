@@ -1,0 +1,409 @@
+{
+  "metadata": {
+    "scraped_at": "2026-01-31T21:00:00Z",
+    "sources": ["Edmunds.com", "US News Cars", "Car and Driver", "KBB", "Audi Media", "BMW dealers", "Mercedes dealers", "Ford dealers", "Toyota dealers"],
+    "version": "5.0",
+    "total_vehicles": 60,
+    "notes": "Extended scrape session - Added EVs and popular SUVs for Post-MVP preparation"
+  },
+  "new_vehicles": [
+    {
+      "brand": "bmw",
+      "model": "iX",
+      "year": 2024,
+      "variant": "xDrive50",
+      "body_type": "suv",
+      "source": "bmw_dealers_usnews",
+      "interior": {
+        "front_headroom_mm": 1054,
+        "rear_headroom_mm": 1003,
+        "front_legroom_mm": 1021,
+        "rear_legroom_mm": 988,
+        "front_shoulder_room_mm": 1562,
+        "rear_shoulder_room_mm": 1481
+      },
+      "exterior": {
+        "length_mm": 4953,
+        "width_mm": 1967,
+        "height_mm": 1696,
+        "wheelbase_mm": 3000
+      },
+      "cargo": {
+        "volume_l": 1006,
+        "volume_max_l": 2205
+      },
+      "notes": "All-electric flagship SUV. Panoramic Sky Lounge Roof available."
+    },
+    {
+      "brand": "mercedes-benz",
+      "model": "EQS-SUV",
+      "year": 2024,
+      "variant": "EQS 450+ SUV",
+      "body_type": "suv",
+      "source": "usnews_mercedes",
+      "interior": {
+        "front_headroom_mm": 1034,
+        "rear_headroom_mm": 1034,
+        "third_row_headroom_mm": 899,
+        "front_legroom_mm": 1041,
+        "rear_legroom_mm": 1041,
+        "third_row_legroom_mm": 711,
+        "front_shoulder_room_mm": 1524,
+        "rear_shoulder_room_mm": 1486
+      },
+      "exterior": {
+        "length_mm": 5125,
+        "width_mm": 1959,
+        "height_mm": 1718,
+        "wheelbase_mm": 3210,
+        "ground_clearance_mm": 220
+      },
+      "cargo": {
+        "volume_l": 880,
+        "volume_max_l": 2100
+      },
+      "notes": "Class-leading rear legroom (41+ inches). Optional 7 seats. Hyperscreen available."
+    },
+    {
+      "brand": "audi",
+      "model": "Q8-e-tron",
+      "year": 2024,
+      "variant": "Q8 e-tron Premium Plus quattro",
+      "body_type": "suv",
+      "source": "audi_media_edmunds",
+      "interior": {
+        "front_headroom_mm": 968,
+        "rear_headroom_mm": 981,
+        "front_legroom_mm": 1036,
+        "rear_legroom_mm": 993,
+        "front_shoulder_room_mm": 1488,
+        "rear_shoulder_room_mm": 1455
+      },
+      "exterior": {
+        "length_mm": 4901,
+        "width_mm": 1935,
+        "height_mm": 1651,
+        "wheelbase_mm": 2921
+      },
+      "cargo": {
+        "volume_l": 807,
+        "volume_max_l": 1596
+      },
+      "notes": "Renamed from e-tron. Dual-motor AWD standard. 285+ mile range."
+    },
+    {
+      "brand": "audi",
+      "model": "Q8-e-tron-Sportback",
+      "year": 2024,
+      "variant": "Q8 e-tron Sportback S line quattro",
+      "body_type": "suv",
+      "source": "audi_media_carbuzz",
+      "interior": {
+        "front_headroom_mm": 968,
+        "rear_headroom_mm": 963,
+        "front_legroom_mm": 1036,
+        "rear_legroom_mm": 993,
+        "front_shoulder_room_mm": 1488,
+        "rear_shoulder_room_mm": 1453
+      },
+      "cargo": {
+        "volume_l": 770,
+        "volume_max_l": 1385
+      },
+      "notes": "Sportback coupe-style roofline. 1.2 inches less rear headroom than standard."
+    },
+    {
+      "brand": "toyota",
+      "model": "RAV4",
+      "year": 2024,
+      "variant": "XLE Premium AWD",
+      "body_type": "suv",
+      "source": "toyota_dealers",
+      "interior": {
+        "front_headroom_mm": 958,
+        "rear_headroom_mm": 1003,
+        "front_legroom_mm": 1041,
+        "rear_legroom_mm": 960,
+        "front_shoulder_room_mm": 1468,
+        "rear_shoulder_room_mm": 1433,
+        "front_hip_room_mm": 1379,
+        "rear_hip_room_mm": 1212
+      },
+      "exterior": {
+        "length_mm": 4600,
+        "width_mm": 1855,
+        "height_mm": 1705,
+        "wheelbase_mm": 2690
+      },
+      "cargo": {
+        "volume_l": 1065,
+        "volume_max_l": 1977
+      },
+      "notes": "Best-selling SUV in America. Hybrid and PHEV available."
+    },
+    {
+      "brand": "ford",
+      "model": "Mustang-Mach-E",
+      "year": 2024,
+      "variant": "Premium AWD Extended Range",
+      "body_type": "suv",
+      "source": "ford_dealers_usnews",
+      "interior": {
+        "front_headroom_mm": 1026,
+        "rear_headroom_mm": 998,
+        "front_legroom_mm": 1100,
+        "rear_legroom_mm": 968,
+        "front_shoulder_room_mm": 1463,
+        "rear_shoulder_room_mm": 1420,
+        "front_hip_room_mm": 1407,
+        "rear_hip_room_mm": 1351
+      },
+      "exterior": {
+        "length_mm": 4743,
+        "width_mm": 1881,
+        "height_mm": 1624,
+        "wheelbase_mm": 2984
+      },
+      "cargo": {
+        "volume_l": 841,
+        "volume_max_l": 1690,
+        "frunk_l": 133
+      },
+      "notes": "Electric Mustang SUV. 320-mile range with Extended Range battery."
+    },
+    {
+      "brand": "kia",
+      "model": "EV6",
+      "year": 2024,
+      "variant": "Wind AWD",
+      "body_type": "suv",
+      "source": "kia_dealers",
+      "interior": {
+        "front_headroom_mm": 1003,
+        "rear_headroom_mm": 955,
+        "front_legroom_mm": 1049,
+        "rear_legroom_mm": 991,
+        "front_shoulder_room_mm": 1466,
+        "rear_shoulder_room_mm": 1443
+      },
+      "exterior": {
+        "length_mm": 4680,
+        "width_mm": 1880,
+        "height_mm": 1550,
+        "wheelbase_mm": 2900
+      },
+      "cargo": {
+        "volume_l": 697,
+        "volume_max_l": 1300,
+        "frunk_l": 52
+      },
+      "notes": "E-GMP platform shared with Ioniq 5. 800V architecture for fast charging."
+    },
+    {
+      "brand": "rivian",
+      "model": "R1S",
+      "year": 2024,
+      "variant": "Dual Motor",
+      "body_type": "suv",
+      "source": "rivian_official",
+      "interior": {
+        "front_headroom_mm": 1029,
+        "rear_headroom_mm": 1008,
+        "third_row_headroom_mm": 927,
+        "front_legroom_mm": 1092,
+        "rear_legroom_mm": 978,
+        "third_row_legroom_mm": 711
+      },
+      "exterior": {
+        "length_mm": 5054,
+        "width_mm": 2015,
+        "height_mm": 1796,
+        "wheelbase_mm": 3075
+      },
+      "cargo": {
+        "volume_l": 566,
+        "volume_max_l": 2044,
+        "frunk_l": 340
+      },
+      "notes": "3-row electric SUV. Excellent off-road capability. Gear Tunnel storage."
+    },
+    {
+      "brand": "tesla",
+      "model": "Model-Y",
+      "year": 2024,
+      "variant": "Long Range AWD",
+      "body_type": "suv",
+      "source": "tesla_official",
+      "interior": {
+        "front_headroom_mm": 1043,
+        "rear_headroom_mm": 998,
+        "front_legroom_mm": 1067,
+        "rear_legroom_mm": 968,
+        "front_shoulder_room_mm": 1422,
+        "rear_shoulder_room_mm": 1400
+      },
+      "exterior": {
+        "length_mm": 4751,
+        "width_mm": 1921,
+        "height_mm": 1624,
+        "wheelbase_mm": 2890
+      },
+      "cargo": {
+        "volume_l": 971,
+        "volume_max_l": 2158,
+        "frunk_l": 117
+      },
+      "notes": "Best-selling EV globally. Optional 7-seat configuration."
+    },
+    {
+      "brand": "volvo",
+      "model": "XC40",
+      "year": 2024,
+      "variant": "Recharge Pure Electric",
+      "body_type": "suv",
+      "source": "volvo_official",
+      "interior": {
+        "front_headroom_mm": 1011,
+        "rear_headroom_mm": 978,
+        "front_legroom_mm": 1044,
+        "rear_legroom_mm": 927,
+        "front_shoulder_room_mm": 1432,
+        "rear_shoulder_room_mm": 1397
+      },
+      "exterior": {
+        "length_mm": 4425,
+        "width_mm": 1863,
+        "height_mm": 1652,
+        "wheelbase_mm": 2702
+      },
+      "cargo": {
+        "volume_l": 452,
+        "volume_max_l": 1328
+      },
+      "notes": "Compact electric SUV. Available as ICE, PHEV, or pure electric."
+    },
+    {
+      "brand": "volvo",
+      "model": "XC90",
+      "year": 2024,
+      "variant": "Recharge T8 AWD",
+      "body_type": "suv",
+      "source": "volvo_official",
+      "interior": {
+        "front_headroom_mm": 1026,
+        "rear_headroom_mm": 1008,
+        "third_row_headroom_mm": 909,
+        "front_legroom_mm": 1067,
+        "rear_legroom_mm": 927,
+        "third_row_legroom_mm": 787,
+        "front_shoulder_room_mm": 1499,
+        "rear_shoulder_room_mm": 1471
+      },
+      "exterior": {
+        "length_mm": 4953,
+        "width_mm": 2008,
+        "height_mm": 1776,
+        "wheelbase_mm": 2984
+      },
+      "cargo": {
+        "volume_l": 467,
+        "volume_max_l": 2427
+      },
+      "notes": "Flagship 7-seater SUV. Optional integrated booster seats in 2nd row."
+    },
+    {
+      "brand": "peugeot",
+      "model": "3008",
+      "year": 2024,
+      "variant": "GT",
+      "body_type": "suv",
+      "source": "peugeot_official",
+      "interior": {
+        "front_headroom_mm": 954,
+        "rear_headroom_mm": 917,
+        "front_legroom_mm": 1049,
+        "rear_legroom_mm": 889,
+        "front_shoulder_room_mm": 1435,
+        "rear_shoulder_room_mm": 1400
+      },
+      "exterior": {
+        "length_mm": 4447,
+        "width_mm": 1841,
+        "height_mm": 1624,
+        "wheelbase_mm": 2675
+      },
+      "cargo": {
+        "volume_l": 520,
+        "volume_max_l": 1670
+      },
+      "notes": "Popular European compact SUV. i-Cockpit interior design."
+    },
+    {
+      "brand": "peugeot",
+      "model": "5008",
+      "year": 2024,
+      "variant": "GT",
+      "body_type": "suv",
+      "source": "peugeot_official",
+      "interior": {
+        "front_headroom_mm": 965,
+        "rear_headroom_mm": 945,
+        "third_row_headroom_mm": 880,
+        "front_legroom_mm": 1049,
+        "rear_legroom_mm": 940,
+        "third_row_legroom_mm": 741
+      },
+      "exterior": {
+        "length_mm": 4641,
+        "width_mm": 1844,
+        "height_mm": 1646,
+        "wheelbase_mm": 2840
+      },
+      "cargo": {
+        "volume_l": 780,
+        "volume_max_l": 1940
+      },
+      "notes": "7-seater family SUV. All seats individually foldable."
+    }
+  ],
+  "sources_reference": {
+    "primary": [
+      {
+        "name": "Edmunds.com",
+        "url_pattern": "https://www.edmunds.com/{brand}/{model}/{year}/features-specs/",
+        "data_format": "inches",
+        "reliability": 5
+      },
+      {
+        "name": "US News Cars",
+        "url_pattern": "https://cars.usnews.com/cars-trucks/{brand}/{model}/interior",
+        "data_format": "inches",
+        "reliability": 5
+      },
+      {
+        "name": "Audi Media",
+        "url_pattern": "https://media.audiusa.com/",
+        "data_format": "official specs PDF",
+        "reliability": 5
+      }
+    ],
+    "secondary": [
+      {
+        "name": "BMW Dealers",
+        "url_pattern": "https://www.bmwof{city}.com/",
+        "data_format": "inches",
+        "reliability": 4
+      },
+      {
+        "name": "Car and Driver",
+        "url_pattern": "https://www.caranddriver.com/{brand}/{model}/specs",
+        "data_format": "mixed",
+        "reliability": 5
+      }
+    ],
+    "conversion": {
+      "inches_to_mm": 25.4,
+      "cubic_feet_to_liters": 28.3168
+    }
+  }
+}

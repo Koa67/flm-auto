@@ -1,0 +1,231 @@
+{
+  "timestamp": "2026-02-11T01:36:29.872Z",
+  "total_generations": 4268,
+  "coverage": {
+    "photos": {
+      "has": 3550,
+      "missing": 718,
+      "rows": 284016
+    },
+    "videos": {
+      "has": 1219,
+      "missing": 3049,
+      "rows": 42261
+    },
+    "specs": {
+      "has": 4235,
+      "missing": 33,
+      "rows": 277393
+    },
+    "dimensions": {
+      "has": 3552,
+      "missing": 716,
+      "rows": 3552
+    },
+    "safety": {
+      "has": 219,
+      "missing": 4049,
+      "rows": 219
+    },
+    "family_fit": {
+      "has": 3428,
+      "missing": 840,
+      "rows": 3428
+    }
+  },
+  "brand_gaps": {
+    "Mercedes-Benz": {
+      "total": 435,
+      "noPhotos": 130,
+      "noSpecs": 3,
+      "noDims": 62
+    },
+    "Nissan": {
+      "total": 359,
+      "noPhotos": 103,
+      "noSpecs": 3,
+      "noDims": 30
+    },
+    "Mazda": {
+      "total": 169,
+      "noPhotos": 80,
+      "noSpecs": 4,
+      "noDims": 17
+    },
+    "Toyota": {
+      "total": 535,
+      "noPhotos": 62,
+      "noSpecs": 12,
+      "noDims": 38
+    },
+    "Peugeot": {
+      "total": 163,
+      "noPhotos": 62,
+      "noSpecs": 2,
+      "noDims": 15
+    },
+    "Audi": {
+      "total": 445,
+      "noPhotos": 60,
+      "noSpecs": 2,
+      "noDims": 122
+    },
+    "Renault": {
+      "total": 246,
+      "noPhotos": 45,
+      "noSpecs": 3,
+      "noDims": 14
+    },
+    "Volkswagen": {
+      "total": 465,
+      "noPhotos": 37,
+      "noSpecs": 0,
+      "noDims": 157
+    },
+    "Hyundai": {
+      "total": 220,
+      "noPhotos": 36,
+      "noSpecs": 0,
+      "noDims": 14
+    },
+    "Kia": {
+      "total": 189,
+      "noPhotos": 27,
+      "noSpecs": 1,
+      "noDims": 4
+    },
+    "BMW": {
+      "total": 250,
+      "noPhotos": 26,
+      "noSpecs": 0,
+      "noDims": 75
+    },
+    "Honda": {
+      "total": 186,
+      "noPhotos": 22,
+      "noSpecs": 2,
+      "noDims": 17
+    },
+    "Porsche": {
+      "total": 137,
+      "noPhotos": 16,
+      "noSpecs": 1,
+      "noDims": 55
+    },
+    "Volvo": {
+      "total": 113,
+      "noPhotos": 7,
+      "noSpecs": 0,
+      "noDims": 15
+    },
+    "Skoda": {
+      "total": 113,
+      "noPhotos": 6,
+      "noSpecs": 0,
+      "noDims": 6
+    },
+    "Lamborghini": {
+      "total": 27,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 14
+    },
+    "Tesla": {
+      "total": 6,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 0
+    },
+    "Ferrari": {
+      "total": 13,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 3
+    },
+    "Ford": {
+      "total": 27,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 8
+    },
+    "Jaguar": {
+      "total": 12,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 0
+    },
+    "Seat": {
+      "total": 15,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 4
+    },
+    "Land Rover": {
+      "total": 9,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 4
+    },
+    "Lexus": {
+      "total": 13,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 2
+    },
+    "Opel": {
+      "total": 23,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 3
+    },
+    "Fiat": {
+      "total": 33,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 4
+    },
+    "Citroen": {
+      "total": 8,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 3
+    },
+    "Mini": {
+      "total": 10,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 6
+    },
+    "Alfa Romeo": {
+      "total": 25,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 2
+    },
+    "Maserati": {
+      "total": 6,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 6
+    },
+    "Aston Martin": {
+      "total": 6,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 6
+    },
+    "Bentley": {
+      "total": 4,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 4
+    },
+    "Rolls-Royce": {
+      "total": 6,
+      "noPhotos": 0,
+      "noSpecs": 0,
+      "noDims": 6
+    }
+  },
+  "completely_empty_count": 0
+}

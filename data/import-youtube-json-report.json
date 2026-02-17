@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-13T07:00:27.806Z",
+  "stats": {
+    "matched": 443,
+    "unmatched": 0,
+    "skippedExisting": 190,
+    "inserted": 443,
+    "brandMissed": [],
+    "modelMissed": []
+  },
+  "uniqueGens": 65,
+  "totalInput": 633
+}

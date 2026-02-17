@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-11T23:20:33.384Z",
+  "stats": {
+    "apiPages": 0,
+    "totalRecords": 0,
+    "autoRecords": 0,
+    "newRecalls": 0,
+    "duplicates": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "inserted": 0,
+    "brandNotInDB": 0,
+    "httpErrors": 6
+  }
+}

@@ -2945,6 +2945,18 @@
       "thumbnail_url": "https://www.imcdb.org/t001889964.jpg"
     },
     {
+      "vehicle_id": "2065224",
+      "vehicle_model": "SL",
+      "chassis_code": "R107",
+      "movie_id": "30096221",
+      "movie_title": "Ella McKay",
+      "movie_year": "2025",
+      "stars": 1,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2065224-Mercedes-Benz-380-SL-R107-1981.html",
+      "movie_url": "https://www.imcdb.org/movie_30096221-Ella-McKay.html",
+      "thumbnail_url": "https://www.imcdb.org/t002065224.jpg"
+    },
+    {
       "vehicle_id": "758644",
       "vehicle_model": "SL",
       "chassis_code": "R107",
@@ -3591,19 +3603,7 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_92774-Mercedes-Benz-450-SL-R107-1972.html",
       "movie_url": "https://www.imcdb.org/movie_94006-Some-Kind-of-Wonderful.html",
       "thumbnail_url": "https://www.imcdb.org/t092774.jpg"
-    },
-    {
-      "vehicle_id": "93542",
-      "vehicle_model": "SL",
-      "chassis_code": "R107",
-      "movie_id": "72805",
-      "movie_title": "Columbo: Playback",
-      "movie_year": "1975",
-      "stars": 3,
-      "vehicle_url": "https://www.imcdb.org/vehicle_93542-Mercedes-Benz-450-SL-R107-1972.html",
-      "movie_url": "https://www.imcdb.org/movie_72805-Columbo--Playback.html",
-      "thumbnail_url": "https://www.imcdb.org/t093542.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:30:50.767Z"
+  "scraped_at": "2026-01-31T13:04:20.032Z"
 }

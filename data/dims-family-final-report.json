@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-13T07:52:06.140Z",
+  "stats": {
+    "p1Estimated": 0,
+    "p2Propagated": 3,
+    "p3FitCreated": 98,
+    "p4FitPropagated": 5
+  },
+  "dims": 4188,
+  "fits": 4096,
+  "total": 4268
+}

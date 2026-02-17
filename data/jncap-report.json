@@ -1,0 +1,435 @@
+{
+  "timestamp": "2026-02-13T05:51:36.464Z",
+  "stats": {
+    "pagesChecked": 77,
+    "pagesFound": 70,
+    "pagesNotFound": 7,
+    "pagesError": 109,
+    "matched": 15,
+    "alreadyHasSafety": 26,
+    "noMatch": 29,
+    "inserted": 15
+  },
+  "results": [
+    {
+      "brand": "Suzuki",
+      "model": "WAGON R",
+      "year": "2017",
+      "stars": 4
+    },
+    {
+      "brand": "Subaru",
+      "model": "LEGACY OUTBACK",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "ROOMY (with SCA) THOR (with SCA) JUSTY (with SCA)",
+      "year": "2017",
+      "stars": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "ROOMY THOR",
+      "year": "2017",
+      "stars": 4
+    },
+    {
+      "brand": "Nissan",
+      "model": "LEAF",
+      "year": "2017",
+      "stars": 5
+    },
+    {
+      "brand": "Daihatsu",
+      "model": "MOVE CANBUS",
+      "year": "2022",
+      "stars": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROBOX VAN FAMILIA VAN",
+      "year": "2003",
+      "stars": 6
+    },
+    {
+      "brand": "Honda",
+      "model": "FREED",
+      "year": "2024",
+      "stars": 5
+    },
+    {
+      "brand": "Subaru",
+      "model": "FORESTAR",
+      "year": "2018",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "FIT",
+      "year": "2020",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "HARRIER",
+      "year": "2020",
+      "stars": 5
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "DELICA D:5",
+      "year": "2007",
+      "stars": 6
+    },
+    {
+      "brand": "Mazda",
+      "model": "DEMIO",
+      "year": "2014",
+      "stars": 5
+    },
+    {
+      "brand": "Daihatsu",
+      "model": "Tanto CHIFFON",
+      "year": "2023",
+      "stars": 4
+    },
+    {
+      "brand": "Suzuki",
+      "model": "SPACIA",
+      "year": "2023",
+      "stars": 4
+    },
+    {
+      "brand": "Suzuki",
+      "model": "SWIFT",
+      "year": "2023",
+      "stars": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "SIENTA",
+      "year": "2022",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "X BEE",
+      "year": "2018",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "COROLLA FIELDER",
+      "year": "2012",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "COROLLA SPORT",
+      "year": "2018",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "ODYSSEY",
+      "year": "2018",
+      "stars": 5
+    },
+    {
+      "brand": "Nissan",
+      "model": "ELGRAND",
+      "year": "2011",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "EVERY CLIPPER RIO",
+      "year": "2014",
+      "stars": 3
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "ECLIPSE CROSS",
+      "year": "2018",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "ALPHARD",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "VEZEL",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "ALTO Lapin",
+      "year": "2015",
+      "stars": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "AQUA",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "OUTLANDER PHEV",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Daihatsu",
+      "model": "Rocky RAIZE REX",
+      "year": "2019",
+      "stars": 5
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo",
+      "year": "2019",
+      "stars": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4",
+      "year": "2019",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "YARIS",
+      "year": "2020",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "HUSTLER FLAIR CROSSOVER",
+      "year": "2020",
+      "stars": 4
+    },
+    {
+      "brand": "Daihatsu",
+      "model": "TAFT",
+      "year": "2020",
+      "stars": 4
+    },
+    {
+      "brand": "Nissan",
+      "model": "DAYZ",
+      "year": "2020",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "YARIS CROSS",
+      "year": "2020",
+      "stars": 5
+    },
+    {
+      "brand": "Nissan",
+      "model": "KICKS",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Subaru",
+      "model": "LEVORG",
+      "year": "2020",
+      "stars": 5
+    },
+    {
+      "brand": "Nissan",
+      "model": "ROOX",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "SOLIO",
+      "year": "2021",
+      "stars": 4
+    },
+    {
+      "brand": "Nissan",
+      "model": "NOTE",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "N-ONE",
+      "year": "2021",
+      "stars": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "COROLLA",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-30",
+      "year": "2021",
+      "stars": 5
+    },
+    {
+      "brand": "Subaru",
+      "model": "BRZ GR86",
+      "year": "2021",
+      "stars": 2
+    },
+    {
+      "brand": "Subaru",
+      "model": "SOLTERRA bZ4X",
+      "year": "2022",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "VOXY",
+      "year": "2022",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "WAGON R SMILE",
+      "year": "2022",
+      "stars": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "COROLLA CROSS",
+      "year": "2022",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "ALTO CAROL",
+      "year": "2022",
+      "stars": 4
+    },
+    {
+      "brand": "Daihatsu",
+      "model": "HIJET CARGO",
+      "year": "2022",
+      "stars": 4
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": "2022",
+      "stars": 4
+    },
+    {
+      "brand": "Nissan",
+      "model": "SAKURA",
+      "year": "2022",
+      "stars": 5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-60",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "STEP WGN",
+      "year": "2022",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "PRIUS",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "CROWN (CROSSOVER",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Nissan",
+      "model": "SERENA",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Subaru",
+      "model": "CROSSTREK",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Nissan",
+      "model": "X-TRAIL",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Lexus",
+      "model": "NX",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Lexus",
+      "model": "RX",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Lexus",
+      "model": "LBX",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "ZR-V",
+      "year": "2023",
+      "stars": 5
+    },
+    {
+      "brand": "Toyota",
+      "model": "CROWN (SEDAN)",
+      "year": "2024",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "CIVIC",
+      "year": "2024",
+      "stars": 5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-80",
+      "year": "2024",
+      "stars": 5
+    },
+    {
+      "brand": "Honda",
+      "model": "WR-V",
+      "year": "2024",
+      "stars": 5
+    },
+    {
+      "brand": "Suzuki",
+      "model": "FRONX",
+      "year": "2024",
+      "stars": 4
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-27T16:31:58.199Z",
+  "scraped_at": "2026-01-31T13:05:26.952Z",
   "total_chassis": 37,
   "total_appearances": 10183,
   "details": [
@@ -1088,18 +1088,6 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1108049-BMW-3-E46.html",
           "movie_url": "https://www.imcdb.org/movie_4500922-Maze-Runner--The-Death-Cure.html",
           "thumbnail_url": "https://www.imcdb.org/t001108049.jpg"
-        },
-        {
-          "vehicle_id": "1113251",
-          "vehicle_model": "3",
-          "chassis_code": "E46",
-          "movie_id": "1302067",
-          "movie_title": "Yogi Bear",
-          "movie_year": "2010",
-          "stars": 1,
-          "vehicle_url": "https://www.imcdb.org/vehicle_1113251-BMW-3-E46.html",
-          "movie_url": "https://www.imcdb.org/movie_1302067-Yogi-Bear.html",
-          "thumbnail_url": "https://www.imcdb.org/t001113251.jpg"
         },
         {
           "vehicle_id": "1128088",
@@ -3608,9 +3596,21 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_931771-BMW-3-E46-1998.html",
           "movie_url": "https://www.imcdb.org/movie_285964-Quelqu-un-de-bien.html",
           "thumbnail_url": "https://www.imcdb.org/t931771.jpg"
+        },
+        {
+          "vehicle_id": "931848",
+          "vehicle_model": "3",
+          "chassis_code": "E46",
+          "movie_id": "3486542",
+          "movie_title": "Mediterranea",
+          "movie_year": "2015",
+          "stars": 1,
+          "vehicle_url": "https://www.imcdb.org/vehicle_931848-BMW-3-E46-1998.html",
+          "movie_url": "https://www.imcdb.org/movie_3486542-Mediterranea.html",
+          "thumbnail_url": "https://www.imcdb.org/t931848.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:28:48.783Z"
+      "scraped_at": "2026-01-31T13:02:18.391Z"
     },
     {
       "brand": "BMW",
@@ -7219,7 +7219,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001597268.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:28:54.392Z"
+      "scraped_at": "2026-01-31T13:02:24.253Z"
     },
     {
       "brand": "BMW",
@@ -10828,7 +10828,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001069890.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:00.674Z"
+      "scraped_at": "2026-01-31T13:02:30.007Z"
     },
     {
       "brand": "BMW",
@@ -14437,7 +14437,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001734373.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:06.450Z"
+      "scraped_at": "2026-01-31T13:02:35.835Z"
     },
     {
       "brand": "BMW",
@@ -18046,7 +18046,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001296641.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:12.286Z"
+      "scraped_at": "2026-01-31T13:02:41.664Z"
     },
     {
       "brand": "BMW",
@@ -21655,7 +21655,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001629720.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:18.227Z"
+      "scraped_at": "2026-01-31T13:02:47.260Z"
     },
     {
       "brand": "BMW",
@@ -22982,6 +22982,18 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_2052704-BMW-3-E21.html",
           "movie_url": "https://www.imcdb.org/movie_28221323-Russkie-detki.html",
           "thumbnail_url": "https://www.imcdb.org/t002052704.jpg"
+        },
+        {
+          "vehicle_id": "2065459",
+          "vehicle_model": "3",
+          "chassis_code": "E21",
+          "movie_id": "240396",
+          "movie_title": "Caldo soffocante",
+          "movie_year": "1991",
+          "stars": 1,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2065459-BMW-3-E21.html",
+          "movie_url": "https://www.imcdb.org/movie_240396-Caldo-soffocante.html",
+          "thumbnail_url": "https://www.imcdb.org/t002065459.jpg"
         },
         {
           "vehicle_id": "1622910",
@@ -25250,21 +25262,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1479243-BMW-3-E21-1979.html",
           "movie_url": "https://www.imcdb.org/movie_100557-Das-schreckliche-M%C3%A4dchen.html",
           "thumbnail_url": "https://www.imcdb.org/t001479243.jpg"
-        },
-        {
-          "vehicle_id": "1562909",
-          "vehicle_model": "3",
-          "chassis_code": "E21",
-          "movie_id": "189823",
-          "movie_title": "Nucleo zero",
-          "movie_year": "1984",
-          "stars": 1,
-          "vehicle_url": "https://www.imcdb.org/vehicle_1562909-BMW-3-E21-1979.html",
-          "movie_url": "https://www.imcdb.org/movie_189823-Nucleo-zero.html",
-          "thumbnail_url": "https://www.imcdb.org/t001562909.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:23.885Z"
+      "scraped_at": "2026-01-31T13:02:52.360Z"
     },
     {
       "brand": "BMW",
@@ -28873,7 +28873,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001407944.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:29.631Z"
+      "scraped_at": "2026-01-31T13:02:58.258Z"
     },
     {
       "brand": "BMW",
@@ -32482,7 +32482,7 @@
           "thumbnail_url": "https://www.imcdb.org/t340764.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:35.356Z"
+      "scraped_at": "2026-01-31T13:03:03.917Z"
     },
     {
       "brand": "BMW",
@@ -36091,7 +36091,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001079356.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:41.038Z"
+      "scraped_at": "2026-01-31T13:03:09.273Z"
     },
     {
       "brand": "BMW",
@@ -38512,6 +38512,30 @@
           "thumbnail_url": "https://www.imcdb.org/t002053545.jpg"
         },
         {
+          "vehicle_id": "2065728",
+          "vehicle_model": "7",
+          "chassis_code": "E38",
+          "movie_id": "33046197",
+          "movie_title": "The Wrecking Crew",
+          "movie_year": "2026",
+          "stars": 2,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2065728-BMW-7-E38.html",
+          "movie_url": "https://www.imcdb.org/movie_33046197-The-Wrecking-Crew.html",
+          "thumbnail_url": "https://www.imcdb.org/t002065728.jpg"
+        },
+        {
+          "vehicle_id": "2066019",
+          "vehicle_model": "7",
+          "chassis_code": "E38",
+          "movie_id": "456020",
+          "movie_title": "Waist Deep",
+          "movie_year": "2006",
+          "stars": 1,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2066019-BMW-7-E38.html",
+          "movie_url": "https://www.imcdb.org/movie_456020-Waist-Deep.html",
+          "thumbnail_url": "https://www.imcdb.org/t002066019.jpg"
+        },
+        {
           "vehicle_id": "1143910",
           "vehicle_model": "7",
           "chassis_code": "E38",
@@ -39674,33 +39698,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1363851-BMW-7-E38-1994.html",
           "movie_url": "https://www.imcdb.org/movie_129425-Tatort-Ein-Hauch-von-Hollywood.html",
           "thumbnail_url": "https://www.imcdb.org/t001363851.jpg"
-        },
-        {
-          "vehicle_id": "1371726",
-          "vehicle_model": "7",
-          "chassis_code": "E38",
-          "movie_id": "1004520296",
-          "movie_title": "Pee Chai Tee San Dee",
-          "movie_year": "1997",
-          "stars": 2,
-          "vehicle_url": "https://www.imcdb.org/vehicle_1371726-BMW-7-E38-1994.html",
-          "movie_url": "https://www.imcdb.org/movie_1004520296-Pee-Chai-Tee-San-Dee.html",
-          "thumbnail_url": "https://www.imcdb.org/t001371726.jpg"
-        },
-        {
-          "vehicle_id": "1373478",
-          "vehicle_model": "7",
-          "chassis_code": "E38",
-          "movie_id": "117841",
-          "movie_title": "Tatort - Buntes Wasser",
-          "movie_year": "1996",
-          "stars": 2,
-          "vehicle_url": "https://www.imcdb.org/vehicle_1373478-BMW-7-E38-1994.html",
-          "movie_url": "https://www.imcdb.org/movie_117841-Tatort-Buntes-Wasser.html",
-          "thumbnail_url": "https://www.imcdb.org/t001373478.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:46.507Z"
+      "scraped_at": "2026-01-31T13:03:14.881Z"
     },
     {
       "brand": "BMW",
@@ -43309,7 +43309,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001936179.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:52.069Z"
+      "scraped_at": "2026-01-31T13:03:20.139Z"
     },
     {
       "brand": "BMW",
@@ -46078,6 +46078,18 @@
           "thumbnail_url": "https://www.imcdb.org/t002007125.jpg"
         },
         {
+          "vehicle_id": "2065752",
+          "vehicle_model": "5",
+          "chassis_code": "E12",
+          "movie_id": "165550",
+          "movie_title": "Y a-t-il un Français dans la salle?",
+          "movie_year": "1982",
+          "stars": 1,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2065752-BMW-5-E12-1973.html",
+          "movie_url": "https://www.imcdb.org/movie_165550-Y-a-t-il-un-Fran%C3%A7ais-dans-la-salle.html",
+          "thumbnail_url": "https://www.imcdb.org/t002065752.jpg"
+        },
+        {
           "vehicle_id": "278356",
           "vehicle_model": "5",
           "chassis_code": "E12",
@@ -46904,21 +46916,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_776331-BMW-5-E12-1977.html",
           "movie_url": "https://www.imcdb.org/movie_87716-Mi-manda-Picone.html",
           "thumbnail_url": "https://www.imcdb.org/t776331.jpg"
-        },
-        {
-          "vehicle_id": "789573",
-          "vehicle_model": "5",
-          "chassis_code": "E12",
-          "movie_id": "174389",
-          "movie_title": "La trappola",
-          "movie_year": "1989",
-          "stars": 2,
-          "vehicle_url": "https://www.imcdb.org/vehicle_789573-BMW-5-E12-1977.html",
-          "movie_url": "https://www.imcdb.org/movie_174389-La-trappola.html",
-          "thumbnail_url": "https://www.imcdb.org/t789573.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:29:57.532Z"
+      "scraped_at": "2026-01-31T13:03:25.705Z"
     },
     {
       "brand": "BMW",
@@ -50527,7 +50527,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001290939.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:02.995Z"
+      "scraped_at": "2026-01-31T13:03:31.216Z"
     },
     {
       "brand": "BMW",
@@ -51148,7 +51148,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001156236.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:04.239Z"
+      "scraped_at": "2026-01-31T13:03:32.246Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -54757,7 +54757,7 @@
           "thumbnail_url": "https://www.imcdb.org/t822226.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:10.280Z"
+      "scraped_at": "2026-01-31T13:03:38.483Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -58366,7 +58366,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001002121.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:16.197Z"
+      "scraped_at": "2026-01-31T13:03:44.314Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -59213,6 +59213,18 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1948497-Mercedes-Benz-280-SE-W126-1980.html",
           "movie_url": "https://www.imcdb.org/movie_7005636-Lykkeland.html",
           "thumbnail_url": "https://www.imcdb.org/t001948497.jpg"
+        },
+        {
+          "vehicle_id": "2026411",
+          "vehicle_model": "SE",
+          "chassis_code": "W126",
+          "movie_id": "165550",
+          "movie_title": "Y a-t-il un Français dans la salle?",
+          "movie_year": "1982",
+          "stars": 4,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2026411-Mercedes-Benz-280-SE-W126-1980.html",
+          "movie_url": "https://www.imcdb.org/movie_165550-Y-a-t-il-un-Fran%C3%A7ais-dans-la-salle.html",
+          "thumbnail_url": "https://www.imcdb.org/t002026411.jpg"
         },
         {
           "vehicle_id": "667185",
@@ -61961,21 +61973,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_945477-Mercedes-Benz-380-SE-W126-1984.html",
           "movie_url": "https://www.imcdb.org/movie_108773-Finney.html",
           "thumbnail_url": "https://www.imcdb.org/t945477.jpg"
-        },
-        {
-          "vehicle_id": "1057778",
-          "vehicle_model": "SE",
-          "chassis_code": "W126",
-          "movie_id": "119309",
-          "movie_title": "香港大夜総会 タッチ&amp;マギー",
-          "movie_year": "1997",
-          "stars": 3,
-          "vehicle_url": "https://www.imcdb.org/vehicle_1057778-Mercedes-Benz-380-SE-W126-1984.html",
-          "movie_url": "https://www.imcdb.org/movie_119309-Hon-Kon-daiyasokai--Tatchi-%26-Magi.html",
-          "thumbnail_url": "https://www.imcdb.org/t001057778.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:22.116Z"
+      "scraped_at": "2026-01-31T13:03:50.555Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -65584,7 +65584,7 @@
           "thumbnail_url": "https://www.imcdb.org/t685349.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:27.958Z"
+      "scraped_at": "2026-01-31T13:03:56.366Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -66731,6 +66731,18 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1867348-Mercedes-Benz-E-220-W210-1999.html",
           "movie_url": "https://www.imcdb.org/movie_1388434-Dhaam-Dhoom.html",
           "thumbnail_url": "https://www.imcdb.org/t001867348.jpg"
+        },
+        {
+          "vehicle_id": "2066328",
+          "vehicle_model": "220",
+          "chassis_code": "W210",
+          "movie_id": "7830346",
+          "movie_title": "Бухта Филиппа",
+          "movie_year": "2006",
+          "stars": 3,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2066328-Mercedes-Benz-E-220-W210-2000.html",
+          "movie_url": "https://www.imcdb.org/movie_7830346-Bukhta-Filippa.html",
+          "thumbnail_url": "https://www.imcdb.org/t002066328.jpg"
         },
         {
           "vehicle_id": "1874051",
@@ -69179,21 +69191,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1944615-Mercedes-Benz-E-270-CDI-W210-2000.html",
           "movie_url": "https://www.imcdb.org/movie_211169-La-squadra.html",
           "thumbnail_url": "https://www.imcdb.org/t001944615.jpg"
-        },
-        {
-          "vehicle_id": "186752",
-          "vehicle_model": "CDI",
-          "chassis_code": "W210",
-          "movie_id": "1096980",
-          "movie_title": "Pitbull",
-          "movie_year": "2005-2008",
-          "stars": 2,
-          "vehicle_url": "https://www.imcdb.org/vehicle_186752-Mercedes-Benz-E-270-CDI-W210-2001.html",
-          "movie_url": "https://www.imcdb.org/movie_1096980-Pitbull.html",
-          "thumbnail_url": "https://www.imcdb.org/t186752.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:33.728Z"
+      "scraped_at": "2026-01-31T13:04:02.273Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -69788,6 +69788,18 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1074116-Mercedes-Benz-E-200-CDI-W211-2005.html",
           "movie_url": "https://www.imcdb.org/movie_1176096-Bam-gua-nat.html",
           "thumbnail_url": "https://www.imcdb.org/t001074116.jpg"
+        },
+        {
+          "vehicle_id": "2064049",
+          "vehicle_model": "CDI",
+          "chassis_code": "W211",
+          "movie_id": "386946",
+          "movie_title": "M jak miłość",
+          "movie_year": "2000-2025",
+          "stars": 2,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2064049-Mercedes-Benz-E-200-CDI-W211-2005.html",
+          "movie_url": "https://www.imcdb.org/movie_386946-M-jak-mi%C5%82o%C5%9B%C4%87.html",
+          "thumbnail_url": "https://www.imcdb.org/t002064049.jpg"
         },
         {
           "vehicle_id": "498195",
@@ -71698,6 +71710,18 @@
           "thumbnail_url": "https://www.imcdb.org/t001856465.jpg"
         },
         {
+          "vehicle_id": "2065614",
+          "vehicle_model": "CDI",
+          "chassis_code": "W211",
+          "movie_id": "430676",
+          "movie_title": "Ti piace Hitchcock?",
+          "movie_year": "2005",
+          "stars": 2,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2065614-Mercedes-Benz-E-270-CDI-W211-2003.html",
+          "movie_url": "https://www.imcdb.org/movie_430676-Ti-piace-Hitchcock.html",
+          "thumbnail_url": "https://www.imcdb.org/t002065614.jpg"
+        },
+        {
           "vehicle_id": "84135",
           "vehicle_model": "CDI",
           "chassis_code": "W211",
@@ -72776,33 +72800,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_794900-Mercedes-Benz-E-320-CDI-W211-2002.html",
           "movie_url": "https://www.imcdb.org/movie_3436130-%C5%A0koda-l%C3%A1sky.html",
           "thumbnail_url": "https://www.imcdb.org/t794900.jpg"
-        },
-        {
-          "vehicle_id": "1259363",
-          "vehicle_model": "CDI",
-          "chassis_code": "W211",
-          "movie_id": "1111729",
-          "movie_title": "Twarzą w twarz",
-          "movie_year": "2007",
-          "stars": 2,
-          "vehicle_url": "https://www.imcdb.org/vehicle_1259363-Mercedes-Benz-E-320-CDI-W211-2002.html",
-          "movie_url": "https://www.imcdb.org/movie_1111729-Twarz%C4%85-w-twarz.html",
-          "thumbnail_url": "https://www.imcdb.org/t001259363.jpg"
-        },
-        {
-          "vehicle_id": "22018",
-          "vehicle_model": "CDI",
-          "chassis_code": "W211",
-          "movie_id": "420328",
-          "movie_title": "XXL",
-          "movie_year": "2004",
-          "stars": 2,
-          "vehicle_url": "https://www.imcdb.org/vehicle_22018-Mercedes-Benz-E-320-CDI-W211-2003.html",
-          "movie_url": "https://www.imcdb.org/movie_420328-XXL.html",
-          "thumbnail_url": "https://www.imcdb.org/t022018.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:39.436Z"
+      "scraped_at": "2026-01-31T13:04:08.360Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -76411,7 +76411,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001895535.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:45.097Z"
+      "scraped_at": "2026-01-31T13:04:14.280Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -79360,6 +79360,18 @@
           "thumbnail_url": "https://www.imcdb.org/t001889964.jpg"
         },
         {
+          "vehicle_id": "2065224",
+          "vehicle_model": "SL",
+          "chassis_code": "R107",
+          "movie_id": "30096221",
+          "movie_title": "Ella McKay",
+          "movie_year": "2025",
+          "stars": 1,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2065224-Mercedes-Benz-380-SL-R107-1981.html",
+          "movie_url": "https://www.imcdb.org/movie_30096221-Ella-McKay.html",
+          "thumbnail_url": "https://www.imcdb.org/t002065224.jpg"
+        },
+        {
           "vehicle_id": "758644",
           "vehicle_model": "SL",
           "chassis_code": "R107",
@@ -80006,21 +80018,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_92774-Mercedes-Benz-450-SL-R107-1972.html",
           "movie_url": "https://www.imcdb.org/movie_94006-Some-Kind-of-Wonderful.html",
           "thumbnail_url": "https://www.imcdb.org/t092774.jpg"
-        },
-        {
-          "vehicle_id": "93542",
-          "vehicle_model": "SL",
-          "chassis_code": "R107",
-          "movie_id": "72805",
-          "movie_title": "Columbo: Playback",
-          "movie_year": "1975",
-          "stars": 3,
-          "vehicle_url": "https://www.imcdb.org/vehicle_93542-Mercedes-Benz-450-SL-R107-1972.html",
-          "movie_url": "https://www.imcdb.org/movie_72805-Columbo--Playback.html",
-          "thumbnail_url": "https://www.imcdb.org/t093542.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:50.767Z"
+      "scraped_at": "2026-01-31T13:04:20.032Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -83629,7 +83629,7 @@
           "thumbnail_url": "https://www.imcdb.org/t026777.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:30:56.449Z"
+      "scraped_at": "2026-01-31T13:04:25.684Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -87238,7 +87238,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001739576.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:02.054Z"
+      "scraped_at": "2026-01-31T13:04:31.476Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -90847,7 +90847,7 @@
           "thumbnail_url": "https://www.imcdb.org/t690909.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:07.739Z"
+      "scraped_at": "2026-01-31T13:04:37.200Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -94456,7 +94456,7 @@
           "thumbnail_url": "https://www.imcdb.org/t088325.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:13.320Z"
+      "scraped_at": "2026-01-31T13:04:42.854Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -98065,7 +98065,7 @@
           "thumbnail_url": "https://www.imcdb.org/t391339.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:19.038Z"
+      "scraped_at": "2026-01-31T13:04:48.622Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -101674,7 +101674,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001480168.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:24.534Z"
+      "scraped_at": "2026-01-31T13:04:54.088Z"
     },
     {
       "brand": "Mercedes-Benz",
@@ -102463,6 +102463,18 @@
           "thumbnail_url": "https://www.imcdb.org/t001874070.jpg"
         },
         {
+          "vehicle_id": "2064936",
+          "vehicle_model": "L",
+          "chassis_code": "W222",
+          "movie_id": "33496221",
+          "movie_title": "Reservatet",
+          "movie_year": "2025",
+          "stars": 2,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2064936-Mercedes-Benz-S-350-d-L-W222-2016.html",
+          "movie_url": "https://www.imcdb.org/movie_33496221-Reservatet.html",
+          "thumbnail_url": "https://www.imcdb.org/t002064936.jpg"
+        },
+        {
           "vehicle_id": "1275316",
           "vehicle_model": "400",
           "chassis_code": "W222",
@@ -103229,6 +103241,18 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_2039108-Mercedes-Benz-S-550-W222-2014.html",
           "movie_url": "https://www.imcdb.org/movie_26671996-Locked.html",
           "thumbnail_url": "https://www.imcdb.org/t002039108.jpg"
+        },
+        {
+          "vehicle_id": "2065847",
+          "vehicle_model": "550",
+          "chassis_code": "W222",
+          "movie_id": "3443274",
+          "movie_title": "Every Witch Way",
+          "movie_year": "2014-2015",
+          "stars": 2,
+          "vehicle_url": "https://www.imcdb.org/vehicle_2065847-Mercedes-Benz-S-550-W222-2014.html",
+          "movie_url": "https://www.imcdb.org/movie_3443274-Every-Witch-Way.html",
+          "thumbnail_url": "https://www.imcdb.org/t002065847.jpg"
         },
         {
           "vehicle_id": "1512422",
@@ -104563,18 +104587,6 @@
           "thumbnail_url": "https://www.imcdb.org/t002037547.jpg"
         },
         {
-          "vehicle_id": "2064936",
-          "vehicle_model": "Klasse",
-          "chassis_code": "W222",
-          "movie_id": "33496221",
-          "movie_title": "Reservatet",
-          "movie_year": "2025",
-          "stars": 2,
-          "vehicle_url": "https://www.imcdb.org/vehicle_2064936-Mercedes-Benz-S-Klasse-W222.html",
-          "movie_url": "https://www.imcdb.org/movie_33496221-Reservatet.html",
-          "thumbnail_url": "https://www.imcdb.org/t002064936.jpg"
-        },
-        {
           "vehicle_id": "1487495",
           "vehicle_model": "Klasse",
           "chassis_code": "W222",
@@ -105269,21 +105281,9 @@
           "vehicle_url": "https://www.imcdb.org/vehicle_1007230-Mercedes-Benz-S-Klasse-W222-2014.html",
           "movie_url": "https://www.imcdb.org/movie_280289-Die-Pfefferk%C3%B6rner.html",
           "thumbnail_url": "https://www.imcdb.org/t001007230.jpg"
-        },
-        {
-          "vehicle_id": "1008278",
-          "vehicle_model": "Klasse",
-          "chassis_code": "W222",
-          "movie_id": "4392726",
-          "movie_title": "华丽上班族",
-          "movie_year": "2015",
-          "stars": 3,
-          "vehicle_url": "https://www.imcdb.org/vehicle_1008278-Mercedes-Benz-S-Klasse-W222-2014.html",
-          "movie_url": "https://www.imcdb.org/movie_4392726-Hua-li-shang-ban-zu.html",
-          "thumbnail_url": "https://www.imcdb.org/t001008278.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:30.082Z"
+      "scraped_at": "2026-01-31T13:04:59.646Z"
     },
     {
       "brand": "Lamborghini",
@@ -108892,7 +108892,7 @@
           "thumbnail_url": "https://www.imcdb.org/t639951.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:35.577Z"
+      "scraped_at": "2026-01-31T13:05:04.668Z"
     },
     {
       "brand": "Lamborghini",
@@ -110893,7 +110893,7 @@
           "thumbnail_url": "https://www.imcdb.org/t002042301.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:38.965Z"
+      "scraped_at": "2026-01-31T13:05:07.895Z"
     },
     {
       "brand": "Lamborghini",
@@ -111038,7 +111038,7 @@
           "vehicle_model": "",
           "chassis_code": "Aventador LP 700-4",
           "movie_id": "5298946",
-          "movie_title": "Yuan lai shi you xi",
+          "movie_title": "缘来是游戏",
           "movie_year": "2014",
           "stars": 3,
           "vehicle_url": "https://www.imcdb.org/vehicle_992353-Lamborghini-Aventador-LP-700-4-2011.html",
@@ -112834,7 +112834,7 @@
           "thumbnail_url": "https://www.imcdb.org/t929276.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:42.197Z"
+      "scraped_at": "2026-01-31T13:05:11.132Z"
     },
     {
       "brand": "Lamborghini",
@@ -115987,7 +115987,7 @@
           "thumbnail_url": "https://www.imcdb.org/t464294.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:47.125Z"
+      "scraped_at": "2026-01-31T13:05:15.974Z"
     },
     {
       "brand": "Lamborghini",
@@ -116968,7 +116968,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001995945.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:48.882Z"
+      "scraped_at": "2026-01-31T13:05:17.655Z"
     },
     {
       "brand": "Lamborghini",
@@ -119677,7 +119677,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001575671.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:53.288Z"
+      "scraped_at": "2026-01-31T13:05:22.032Z"
     },
     {
       "brand": "Lamborghini",
@@ -122530,7 +122530,7 @@
           "thumbnail_url": "https://www.imcdb.org/t001219932.jpg"
         }
       ],
-      "scraped_at": "2026-01-27T16:31:57.693Z"
+      "scraped_at": "2026-01-31T13:05:26.449Z"
     }
   ]
 }

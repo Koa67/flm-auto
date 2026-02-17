@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-12T23:21:21.317Z",
+  "stats": {
+    "ancapVehicles": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "alreadyRated": 0,
+    "newRatings": 0,
+    "inserted": 0,
+    "errors": 0
+  }
+}

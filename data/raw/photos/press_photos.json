@@ -1,0 +1,102 @@
+[
+  {
+    "brand": "BMW",
+    "model": "3 Series (E90)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2005-2008_BMW_320i_%28E90%29_sedan_%282011-07-17%29_01.jpg",
+    "width": 3797,
+    "height": 1822,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:35.927Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series (F30)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/2016_BMW_318i_%28F30_LCI%29_Sports_Line_sedan_%282018-11-02%29_01.jpg",
+    "width": 3869,
+    "height": 1794,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:36.479Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series (G20)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2019_BMW_318d_SE_Automatic_2.0_Front.jpg",
+    "width": 4681,
+    "height": 2318,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:37.066Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "5 Series (G30)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg",
+    "width": 5234,
+    "height": 2431,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:37.626Z"
+  },
+  {
+    "brand": "BMW",
+    "model": "X5 (G05)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/2020_BMW_X5_xDrive_40i%2C_front_left.jpg",
+    "width": 4833,
+    "height": 3187,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:38.199Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Class (W205)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mercedes-Benz_C_200_Avantgarde_%28W_205%29_%E2%80%93_Frontansicht%2C_26._April_2014%2C_D%C3%BCsseldorf.jpg",
+    "width": 3418,
+    "height": 1711,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:38.758Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "E-Class (W213)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2019_Mercedes-Benz_E220d_SE_Automatic_2.0_Front.jpg",
+    "width": 4323,
+    "height": 2025,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:39.309Z"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S-Class (W223)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mercedes-Benz_W223_IMG_3951.jpg",
+    "width": 5294,
+    "height": 2455,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:39.861Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "911 (992)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/2025_Porsche_992_Carrera_convertible_DSC_7026.jpg",
+    "width": 4143,
+    "height": 2769,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:42.076Z"
+  },
+  {
+    "brand": "Porsche",
+    "model": "Taycan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2020_Porsche_Taycan_4S_79kWh_Front.jpg",
+    "width": 4869,
+    "height": 2099,
+    "source": "Wikipedia",
+    "license": "CC BY-SA",
+    "scraped_at": "2026-02-01T11:23:43.217Z"
+  }
+]

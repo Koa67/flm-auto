@@ -2417,6 +2417,30 @@
       "thumbnail_url": "https://www.imcdb.org/t002053545.jpg"
     },
     {
+      "vehicle_id": "2065728",
+      "vehicle_model": "7",
+      "chassis_code": "E38",
+      "movie_id": "33046197",
+      "movie_title": "The Wrecking Crew",
+      "movie_year": "2026",
+      "stars": 2,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2065728-BMW-7-E38.html",
+      "movie_url": "https://www.imcdb.org/movie_33046197-The-Wrecking-Crew.html",
+      "thumbnail_url": "https://www.imcdb.org/t002065728.jpg"
+    },
+    {
+      "vehicle_id": "2066019",
+      "vehicle_model": "7",
+      "chassis_code": "E38",
+      "movie_id": "456020",
+      "movie_title": "Waist Deep",
+      "movie_year": "2006",
+      "stars": 1,
+      "vehicle_url": "https://www.imcdb.org/vehicle_2066019-BMW-7-E38.html",
+      "movie_url": "https://www.imcdb.org/movie_456020-Waist-Deep.html",
+      "thumbnail_url": "https://www.imcdb.org/t002066019.jpg"
+    },
+    {
       "vehicle_id": "1143910",
       "vehicle_model": "7",
       "chassis_code": "E38",
@@ -3579,31 +3603,7 @@
       "vehicle_url": "https://www.imcdb.org/vehicle_1363851-BMW-7-E38-1994.html",
       "movie_url": "https://www.imcdb.org/movie_129425-Tatort-Ein-Hauch-von-Hollywood.html",
       "thumbnail_url": "https://www.imcdb.org/t001363851.jpg"
-    },
-    {
-      "vehicle_id": "1371726",
-      "vehicle_model": "7",
-      "chassis_code": "E38",
-      "movie_id": "1004520296",
-      "movie_title": "Pee Chai Tee San Dee",
-      "movie_year": "1997",
-      "stars": 2,
-      "vehicle_url": "https://www.imcdb.org/vehicle_1371726-BMW-7-E38-1994.html",
-      "movie_url": "https://www.imcdb.org/movie_1004520296-Pee-Chai-Tee-San-Dee.html",
-      "thumbnail_url": "https://www.imcdb.org/t001371726.jpg"
-    },
-    {
-      "vehicle_id": "1373478",
-      "vehicle_model": "7",
-      "chassis_code": "E38",
-      "movie_id": "117841",
-      "movie_title": "Tatort - Buntes Wasser",
-      "movie_year": "1996",
-      "stars": 2,
-      "vehicle_url": "https://www.imcdb.org/vehicle_1373478-BMW-7-E38-1994.html",
-      "movie_url": "https://www.imcdb.org/movie_117841-Tatort-Buntes-Wasser.html",
-      "thumbnail_url": "https://www.imcdb.org/t001373478.jpg"
     }
   ],
-  "scraped_at": "2026-01-27T16:29:46.507Z"
+  "scraped_at": "2026-01-31T13:03:14.881Z"
 }

@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "created_at": "2026-01-31T22:00:00Z",
+    "version": "1.0",
+    "description": "Complete automotive brands database - Historical to Present (1886-2026)",
+    "total_brands": 320,
+    "sources": [
+      "Wikipedia - List of automobile manufacturers",
+      "Wikipedia - Timeline of motor vehicle brands",
+      "automobile-catalog.com",
+      "autoevolution.com",
+      "ultimatespecs.com",
+      "bmwgroup-classic.com",
+      "carbrands.org"
+    ]
+  },
+  "brands_by_country": {
+    "germany": {
+      "active": [
+        {"name": "Mercedes-Benz", "founded": 1926, "parent": "Mercedes-Benz Group", "first_car": 1886, "notes": "Benz Patent-Motorwagen 1886"},
+        {"name": "BMW", "founded": 1916, "parent": "BMW Group", "first_car": 1928, "notes": "Started with Dixi 3/15"},
+        {"name": "Audi", "founded": 1909, "parent": "Volkswagen Group", "first_car": 1910, "notes": "Founded as August Horch Automobilwerke"},
+        {"name": "Volkswagen", "founded": 1937, "parent": "Volkswagen Group", "first_car": 1938, "notes": "Beetle origins"},
+        {"name": "Porsche", "founded": 1931, "parent": "Volkswagen Group", "first_car": 1948, "notes": "356 first production car"},
+        {"name": "Opel", "founded": 1862, "parent": "Stellantis", "first_car": 1899, "notes": "Sewing machines before cars"},
+        {"name": "Smart", "founded": 1994, "parent": "Mercedes-Benz Group", "first_car": 1998, "notes": "City car specialist"},
+        {"name": "Maybach", "founded": 1909, "parent": "Mercedes-Benz Group", "first_car": 1921, "notes": "Revived 2002, ultra-luxury"},
+        {"name": "Alpina", "founded": 1965, "parent": "BMW Group", "first_car": 1965, "notes": "Acquired by BMW 2022"},
+        {"name": "Brabus", "founded": 1977, "parent": "Independent", "first_car": 1977, "notes": "Mercedes tuner"},
+        {"name": "AMG", "founded": 1967, "parent": "Mercedes-Benz Group", "first_car": 1967, "notes": "Mercedes performance division"},
+        {"name": "Gumpert", "founded": 2004, "parent": "Various", "first_car": 2004, "notes": "Now Apollo Automobil"},
+        {"name": "Artega", "founded": 2006, "parent": "Independent", "first_car": 2009, "notes": "Sports car maker"},
+        {"name": "Wiesmann", "founded": 1988, "parent": "Independent", "first_car": 1993, "notes": "Handcrafted sports cars"}
+      ],
+      "defunct": [
+        {"name": "Auto Union", "years": "1932-1969", "notes": "Merged into Audi"},
+        {"name": "DKW", "years": "1916-1966", "notes": "Part of Auto Union"},
+        {"name": "Horch", "years": "1899-1940", "notes": "Part of Auto Union, luxury cars"},
+        {"name": "Wanderer", "years": "1896-1946", "notes": "Part of Auto Union"},
+        {"name": "NSU", "years": "1873-1977", "notes": "Merged with Audi"},
+        {"name": "Borgward", "years": "1929-1961", "notes": "Bankrupt, revived briefly 2015-2022"},
+        {"name": "Goliath", "years": "1928-1961", "notes": "Borgward subsidiary"},
+        {"name": "Lloyd", "years": "1908-1963", "notes": "Borgward subsidiary"},
+        {"name": "Messerschmitt", "years": "1953-1964", "notes": "KR175/KR200 microcars"},
+        {"name": "Heinkel", "years": "1956-1958", "notes": "Kabine microcar"},
+        {"name": "Isetta", "years": "1955-1962", "notes": "BMW-produced bubble car"},
+        {"name": "Glas", "years": "1955-1969", "notes": "Acquired by BMW"},
+        {"name": "Trabant", "years": "1957-1991", "notes": "East German icon"},
+        {"name": "Wartburg", "years": "1956-1991", "notes": "East German manufacturer"},
+        {"name": "IFA", "years": "1948-1990", "notes": "East German state company"},
+        {"name": "Benz", "years": "1883-1926", "notes": "Merged with Daimler"},
+        {"name": "Daimler-Motoren-Gesellschaft", "years": "1890-1926", "notes": "Merged with Benz"}
+      ]
+    },
+    "italy": {
+      "active": [
+        {"name": "Ferrari", "founded": 1939, "parent": "Ferrari N.V.", "first_car": 1947, "notes": "125 S first car"},
+        {"name": "Lamborghini", "founded": 1963, "parent": "Volkswagen Group (Audi)", "first_car": 1964, "notes": "350 GT first car"},
+        {"name": "Maserati", "founded": 1914, "parent": "Stellantis", "first_car": 1926, "notes": "Tipo 26 first car"},
+        {"name": "Alfa Romeo", "founded": 1910, "parent": "Stellantis", "first_car": 1910, "notes": "24 HP first car"},
+        {"name": "Fiat", "founded": 1899, "parent": "Stellantis", "first_car": 1899, "notes": "3½ HP first car"},
+        {"name": "Abarth", "founded": 1949, "parent": "Stellantis", "first_car": 1950, "notes": "Performance specialist"},
+        {"name": "Lancia", "founded": 1906, "parent": "Stellantis", "first_car": 1908, "notes": "Tipo 51 first car"},
+        {"name": "Pagani", "founded": 1992, "parent": "Independent", "first_car": 1999, "notes": "Zonda first car"},
+        {"name": "Dallara", "founded": 1972, "parent": "Independent", "first_car": 1972, "notes": "Racing car specialist"},
+        {"name": "Pininfarina", "founded": 1930, "parent": "Mahindra", "first_car": 2020, "notes": "Battista hypercar"}
+      ],
+      "defunct": [
+        {"name": "Autobianchi", "years": "1955-1995", "notes": "Absorbed by Lancia"},
+        {"name": "De Tomaso", "years": "1959-2012", "notes": "Pantera legendary"},
+        {"name": "Innocenti", "years": "1947-1997", "notes": "License-built BMC/BL cars"},
+        {"name": "Iso", "years": "1953-1974", "notes": "Grifo, Rivolta"},
+        {"name": "Bizzarrini", "years": "1964-1969", "notes": "GT 5300"},
+        {"name": "OSCA", "years": "1947-1967", "notes": "Maserati brothers"},
+        {"name": "Cisitalia", "years": "1946-1965", "notes": "Racing pioneer"}
+      ]
+    },
+    "united_kingdom": {
+      "active": [
+        {"name": "Rolls-Royce", "founded": 1906, "parent": "BMW Group", "first_car": 1904, "notes": "10 HP first car"},
+        {"name": "Bentley", "founded": 1919, "parent": "Volkswagen Group", "first_car": 1921, "notes": "3 Litre first car"},
+        {"name": "Aston Martin", "founded": 1913, "parent": "Various", "first_car": 1915, "notes": "Coal Scuttle first car"},
+        {"name": "McLaren", "founded": 1963, "parent": "McLaren Group", "first_car": 1992, "notes": "F1 first road car"},
+        {"name": "Jaguar", "founded": 1922, "parent": "JLR/Tata", "first_car": 1935, "notes": "Started as Swallow Sidecar"},
+        {"name": "Land Rover", "founded": 1948, "parent": "JLR/Tata", "first_car": 1948, "notes": "Series I first vehicle"},
+        {"name": "Range Rover", "founded": 1970, "parent": "JLR/Tata", "first_car": 1970, "notes": "Part of Land Rover"},
+        {"name": "Mini", "founded": 1959, "parent": "BMW Group", "first_car": 1959, "notes": "Original Mini"},
+        {"name": "Lotus", "founded": 1948, "parent": "Geely", "first_car": 1948, "notes": "Mark I first car"},
+        {"name": "Morgan", "founded": 1910, "parent": "Investindustrial", "first_car": 1910, "notes": "Three-wheelers first"},
+        {"name": "TVR", "founded": 1946, "parent": "Various", "first_car": 1949, "notes": "Revived multiple times"},
+        {"name": "Caterham", "founded": 1973, "parent": "VT Holdings", "first_car": 1973, "notes": "Seven continuation"},
+        {"name": "Ariel", "founded": 1999, "parent": "Independent", "first_car": 2000, "notes": "Atom minimalist"},
+        {"name": "BAC", "founded": 2009, "parent": "Independent", "first_car": 2011, "notes": "Mono single-seater"},
+        {"name": "Noble", "founded": 1999, "parent": "Independent", "first_car": 2000, "notes": "M12 first car"},
+        {"name": "Ginetta", "founded": 1958, "parent": "LNT Group", "first_car": 1958, "notes": "Kit cars origin"},
+        {"name": "Radical", "founded": 1997, "parent": "Independent", "first_car": 1997, "notes": "Track-focused"},
+        {"name": "Lister", "founded": 1954, "parent": "Independent", "first_car": 1954, "notes": "Racing heritage"}
+      ],
+      "defunct": [
+        {"name": "MG", "years": "1924-2005", "notes": "Now Chinese-owned SAIC"},
+        {"name": "Austin", "years": "1905-1989", "notes": "Merged into BMC/BL"},
+        {"name": "Morris", "years": "1912-1984", "notes": "Merged into BMC/BL"},
+        {"name": "Rover", "years": "1878-2005", "notes": "Multiple owners, defunct"},
+        {"name": "Triumph", "years": "1885-1984", "notes": "Part of British Leyland"},
+        {"name": "Sunbeam", "years": "1899-1976", "notes": "Part of Rootes/Chrysler"},
+        {"name": "Hillman", "years": "1907-1976", "notes": "Part of Rootes"},
+        {"name": "Jensen", "years": "1934-1976", "notes": "Interceptor famous"},
+        {"name": "Bristol", "years": "1945-2020", "notes": "Ultra-exclusive"},
+        {"name": "Daimler", "years": "1896-2007", "notes": "Absorbed by Jaguar"},
+        {"name": "Vauxhall", "years": "1857-present", "notes": "GM then Stellantis, still active as Opel badge"},
+        {"name": "AC", "years": "1901-1984", "notes": "Cobra famous"},
+        {"name": "Alvis", "years": "1919-1967", "notes": "Luxury cars"},
+        {"name": "Riley", "years": "1898-1969", "notes": "Part of BMC/BL"},
+        {"name": "Wolseley", "years": "1895-1975", "notes": "Part of BMC/BL"},
+        {"name": "Singer", "years": "1905-1970", "notes": "Part of Rootes"},
+        {"name": "Humber", "years": "1898-1976", "notes": "Part of Rootes"},
+        {"name": "Standard", "years": "1903-1963", "notes": "Merged with Triumph"},
+        {"name": "Lanchester", "years": "1895-1956", "notes": "Absorbed by Daimler"},
+        {"name": "Armstrong Siddeley", "years": "1919-1960", "notes": "Aircraft and cars"},
+        {"name": "Lagonda", "years": "1906-1990", "notes": "Part of Aston Martin"},
+        {"name": "Reliant", "years": "1935-2002", "notes": "Robin three-wheeler"}
+      ]
+    },
+    "france": {
+      "active": [
+        {"name": "Peugeot", "founded": 1810, "parent": "Stellantis", "first_car": 1889, "notes": "Oldest car brand"},
+        {"name": "Renault", "founded": 1899, "parent": "Renault Group", "first_car": 1899, "notes": "Voiturette first car"},
+        {"name": "Citroën", "founded": 1919, "parent": "Stellantis", "first_car": 1919, "notes": "Type A first car"},
+        {"name": "DS", "founded": 2009, "parent": "Stellantis", "first_car": 2010, "notes": "Citroën premium spin-off"},
+        {"name": "Alpine", "founded": 1955, "parent": "Renault Group", "first_car": 1955, "notes": "Revived 2017"},
+        {"name": "Bugatti", "founded": 1909, "parent": "Rimac Group", "first_car": 1910, "notes": "Type 13 first car"}
+      ],
+      "defunct": [
+        {"name": "Simca", "years": "1934-1978", "notes": "Acquired by Chrysler"},
+        {"name": "Talbot", "years": "1903-1994", "notes": "Multiple revivals"},
+        {"name": "Panhard", "years": "1887-1967", "notes": "Merged with Citroën"},
+        {"name": "Delahaye", "years": "1894-1954", "notes": "Luxury cars"},
+        {"name": "Delage", "years": "1905-1953", "notes": "Merged with Delahaye"},
+        {"name": "Hotchkiss", "years": "1903-1954", "notes": "Military and civilian"},
+        {"name": "Facel Vega", "years": "1954-1964", "notes": "Grand tourers"},
+        {"name": "Matra", "years": "1964-2003", "notes": "Sports and Renault Espace"},
+        {"name": "Voisin", "years": "1905-1939", "notes": "Art deco luxury"},
+        {"name": "Bugatti (original)", "years": "1909-1963", "notes": "Before revival"}
+      ]
+    },
+    "united_states": {
+      "active": [
+        {"name": "Ford", "founded": 1903, "parent": "Ford Motor Company", "first_car": 1903, "notes": "Model A first car"},
+        {"name": "Chevrolet", "founded": 1911, "parent": "General Motors", "first_car": 1912, "notes": "Classic Six first car"},
+        {"name": "Cadillac", "founded": 1902, "parent": "General Motors", "first_car": 1902, "notes": "Model A first car"},
+        {"name": "GMC", "founded": 1912, "parent": "General Motors", "first_car": 1912, "notes": "Trucks primarily"},
+        {"name": "Buick", "founded": 1899, "parent": "General Motors", "first_car": 1899, "notes": "Oldest US brand in continuous production"},
+        {"name": "Lincoln", "founded": 1917, "parent": "Ford Motor Company", "first_car": 1920, "notes": "Luxury division"},
+        {"name": "Jeep", "founded": 1941, "parent": "Stellantis", "first_car": 1941, "notes": "Military origins"},
+        {"name": "Dodge", "founded": 1900, "parent": "Stellantis", "first_car": 1914, "notes": "Dodge Brothers"},
+        {"name": "Ram", "founded": 2010, "parent": "Stellantis", "first_car": 2010, "notes": "Split from Dodge"},
+        {"name": "Chrysler", "founded": 1925, "parent": "Stellantis", "first_car": 1924, "notes": "Chrysler Six first car"},
+        {"name": "Tesla", "founded": 2003, "parent": "Tesla Inc", "first_car": 2008, "notes": "Roadster first car"},
+        {"name": "Rivian", "founded": 2009, "parent": "Rivian Automotive", "first_car": 2021, "notes": "R1T first production"},
+        {"name": "Lucid", "founded": 2007, "parent": "Lucid Group", "first_car": 2021, "notes": "Air first car"},
+        {"name": "Fisker", "founded": 2016, "parent": "Fisker Inc", "first_car": 2023, "notes": "Ocean first car (second company)"},
+        {"name": "Karma", "founded": 2014, "parent": "Wanxiang", "first_car": 2016, "notes": "Revera/GS-6"},
+        {"name": "SSC", "founded": 1998, "parent": "Independent", "first_car": 2006, "notes": "Ultimate Aero, Tuatara"},
+        {"name": "Hennessey", "founded": 1991, "parent": "Independent", "first_car": 2021, "notes": "Venom F5"}
+      ],
+      "defunct": [
+        {"name": "Pontiac", "years": "1926-2010", "notes": "GM discontinued"},
+        {"name": "Oldsmobile", "years": "1897-2004", "notes": "GM discontinued"},
+        {"name": "Saturn", "years": "1985-2010", "notes": "GM discontinued"},
+        {"name": "Hummer", "years": "1992-2010", "notes": "Revived as GMC Hummer EV"},
+        {"name": "Mercury", "years": "1938-2011", "notes": "Ford discontinued"},
+        {"name": "Plymouth", "years": "1928-2001", "notes": "Chrysler discontinued"},
+        {"name": "DeSoto", "years": "1928-1961", "notes": "Chrysler discontinued"},
+        {"name": "Imperial", "years": "1955-1975", "notes": "Chrysler luxury"},
+        {"name": "AMC", "years": "1954-1988", "notes": "Acquired by Chrysler"},
+        {"name": "Studebaker", "years": "1852-1967", "notes": "Wagons then cars"},
+        {"name": "Packard", "years": "1899-1958", "notes": "Merged with Studebaker"},
+        {"name": "Nash", "years": "1916-1957", "notes": "Became AMC"},
+        {"name": "Hudson", "years": "1909-1957", "notes": "Became AMC"},
+        {"name": "Kaiser", "years": "1945-1955", "notes": "Merged with Willys"},
+        {"name": "Willys", "years": "1908-1963", "notes": "Jeep origins"},
+        {"name": "Tucker", "years": "1947-1948", "notes": "48 cars produced"},
+        {"name": "DeLorean", "years": "1975-1982", "notes": "DMC-12 famous"},
+        {"name": "Saleen", "years": "1983-present", "notes": "Tuner, sporadic production"},
+        {"name": "Vector", "years": "1978-1993", "notes": "W8, M12"},
+        {"name": "Panoz", "years": "1989-2020", "notes": "Racing heritage"}
+      ]
+    },
+    "japan": {
+      "active": [
+        {"name": "Toyota", "founded": 1937, "parent": "Toyota Motor Corporation", "first_car": 1936, "notes": "AA first car"},
+        {"name": "Honda", "founded": 1948, "parent": "Honda Motor Company", "first_car": 1963, "notes": "T360 truck, S500 car"},
+        {"name": "Nissan", "founded": 1933, "parent": "Renault-Nissan-Mitsubishi", "first_car": 1914, "notes": "As Datsun"},
+        {"name": "Mazda", "founded": 1920, "parent": "Independent", "first_car": 1960, "notes": "R360 Coupe first"},
+        {"name": "Subaru", "founded": 1953, "parent": "Toyota (20%)", "first_car": 1954, "notes": "1500 first car"},
+        {"name": "Mitsubishi", "founded": 1870, "parent": "Renault-Nissan-Mitsubishi", "first_car": 1917, "notes": "Model A first"},
+        {"name": "Suzuki", "founded": 1909, "parent": "Toyota (5%)", "first_car": 1955, "notes": "Suzulight first"},
+        {"name": "Lexus", "founded": 1989, "parent": "Toyota", "first_car": 1989, "notes": "LS 400 first"},
+        {"name": "Infiniti", "founded": 1989, "parent": "Nissan", "first_car": 1989, "notes": "Q45 first"},
+        {"name": "Acura", "founded": 1986, "parent": "Honda", "first_car": 1986, "notes": "Legend first"},
+        {"name": "Daihatsu", "founded": 1907, "parent": "Toyota", "first_car": 1930, "notes": "Three-wheelers first"}
+      ],
+      "defunct": [
+        {"name": "Datsun", "years": "1931-1986, 2013-2022", "notes": "Became Nissan, briefly revived"},
+        {"name": "Prince", "years": "1952-1966", "notes": "Merged with Nissan"},
+        {"name": "Isuzu", "years": "1916-present", "notes": "Trucks only now, no passenger cars"},
+        {"name": "Scion", "years": "2003-2016", "notes": "Toyota youth brand, discontinued"}
+      ]
+    },
+    "south_korea": {
+      "active": [
+        {"name": "Hyundai", "founded": 1967, "parent": "Hyundai Motor Group", "first_car": 1968, "notes": "Cortina license-built"},
+        {"name": "Kia", "founded": 1944, "parent": "Hyundai Motor Group", "first_car": 1974, "notes": "Brisa first"},
+        {"name": "Genesis", "founded": 2015, "parent": "Hyundai Motor Group", "first_car": 2015, "notes": "G90 first"},
+        {"name": "SsangYong", "founded": 1954, "parent": "KG Mobility", "first_car": 1988, "notes": "Korando first own design"}
+      ],
+      "defunct": [
+        {"name": "Daewoo", "years": "1967-2001", "notes": "Acquired by GM"},
+        {"name": "Samsung Motors", "years": "1994-2000", "notes": "Became Renault Samsung"}
+      ]
+    },
+    "sweden": {
+      "active": [
+        {"name": "Volvo", "founded": 1927, "parent": "Geely", "first_car": 1927, "notes": "ÖV 4 first car"},
+        {"name": "Polestar", "founded": 1996, "parent": "Geely/Volvo", "first_car": 2017, "notes": "Racing then EVs"},
+        {"name": "Koenigsegg", "founded": 1994, "parent": "Independent", "first_car": 2002, "notes": "CC8S first"}
+      ],
+      "defunct": [
+        {"name": "Saab", "years": "1945-2016", "notes": "Multiple bankruptcies"},
+        {"name": "Scania-Vabis", "years": "1911-1969", "notes": "Trucks now"}
+      ]
+    },
+    "czech_republic": {
+      "active": [
+        {"name": "Škoda", "founded": 1895, "parent": "Volkswagen Group", "first_car": 1905, "notes": "Voiturette A first"}
+      ],
+      "defunct": [
+        {"name": "Tatra", "years": "1850-present", "notes": "Trucks only now"}
+      ]
+    },
+    "spain": {
+      "active": [
+        {"name": "SEAT", "founded": 1950, "parent": "Volkswagen Group", "first_car": 1953, "notes": "1400 first (Fiat license)"},
+        {"name": "Cupra", "founded": 2018, "parent": "Volkswagen Group (SEAT)", "first_car": 2018, "notes": "Performance spin-off"}
+      ],
+      "defunct": [
+        {"name": "Hispano-Suiza", "years": "1904-1946", "notes": "Luxury cars, revived recently"}
+      ]
+    },
+    "romania": {
+      "active": [
+        {"name": "Dacia", "founded": 1966, "parent": "Renault Group", "first_car": 1966, "notes": "1100 first (Renault license)"}
+      ]
+    },
+    "china": {
+      "active": [
+        {"name": "BYD", "founded": 1995, "parent": "BYD Company", "first_car": 2003, "notes": "Flyer first"},
+        {"name": "Geely", "founded": 1986, "parent": "Zhejiang Geely Holding", "first_car": 1998, "notes": "Owns Volvo"},
+        {"name": "Great Wall", "founded": 1984, "parent": "Great Wall Motor", "first_car": 1990, "notes": "Pickup trucks first"},
+        {"name": "Chery", "founded": 1997, "parent": "Chery Automobile", "first_car": 1999, "notes": "Fengyun first"},
+        {"name": "NIO", "founded": 2014, "parent": "NIO Inc", "first_car": 2018, "notes": "ES8 first"},
+        {"name": "XPeng", "founded": 2014, "parent": "XPeng Inc", "first_car": 2018, "notes": "G3 first"},
+        {"name": "Li Auto", "founded": 2015, "parent": "Li Auto Inc", "first_car": 2019, "notes": "ONE first"},
+        {"name": "Zeekr", "founded": 2021, "parent": "Geely", "first_car": 2021, "notes": "001 first"},
+        {"name": "Hongqi", "founded": 1958, "parent": "FAW Group", "first_car": 1958, "notes": "CA72 first"},
+        {"name": "SAIC", "founded": 1955, "parent": "SAIC Motor", "first_car": 1958, "notes": "Phoenix first"},
+        {"name": "MG", "founded": 1924, "parent": "SAIC Motor", "first_car": 1924, "notes": "British origin, now Chinese"},
+        {"name": "Lynk & Co", "founded": 2016, "parent": "Geely", "first_car": 2017, "notes": "01 first"},
+        {"name": "Polestar", "founded": 1996, "parent": "Geely/Volvo", "first_car": 2017, "notes": "Swedish-Chinese"},
+        {"name": "Aiways", "founded": 2017, "parent": "Aiways Automobile", "first_car": 2019, "notes": "U5 first"},
+        {"name": "Leapmotor", "founded": 2015, "parent": "Stellantis (21%)", "first_car": 2019, "notes": "S01 first"},
+        {"name": "Wuling", "founded": 1958, "parent": "SAIC-GM-Wuling", "first_car": 1958, "notes": "Mini EV famous"},
+        {"name": "Ora", "founded": 2018, "parent": "Great Wall Motor", "first_car": 2018, "notes": "R1 first"},
+        {"name": "Voyah", "founded": 2020, "parent": "Dongfeng Motor", "first_car": 2020, "notes": "FREE first"},
+        {"name": "Avatr", "founded": 2018, "parent": "Changan/Huawei/CATL", "first_car": 2022, "notes": "11 first"}
+      ]
+    },
+    "india": {
+      "active": [
+        {"name": "Tata", "founded": 1945, "parent": "Tata Motors", "first_car": 1991, "notes": "Sierra first"},
+        {"name": "Mahindra", "founded": 1945, "parent": "Mahindra Group", "first_car": 1947, "notes": "Jeep license"}
+      ],
+      "defunct": [
+        {"name": "Hindustan", "years": "1942-2017", "notes": "Ambassador famous"},
+        {"name": "Premier", "years": "1944-2018", "notes": "Padmini famous"}
+      ]
+    },
+    "netherlands": {
+      "active": [
+        {"name": "Donkervoort", "founded": 1978, "parent": "Independent", "first_car": 1978, "notes": "Lotus Seven-inspired"},
+        {"name": "Spyker", "founded": 1999, "parent": "Various", "first_car": 2000, "notes": "C8 first"}
+      ],
+      "defunct": [
+        {"name": "DAF", "years": "1958-1975", "notes": "Cars acquired by Volvo"}
+      ]
+    },
+    "austria": {
+      "defunct": [
+        {"name": "Steyr-Daimler-Puch", "years": "1899-2001", "notes": "G-Wagen production"},
+        {"name": "Gräf & Stift", "years": "1904-2001", "notes": "Luxury cars"}
+      ]
+    },
+    "russia": {
+      "active": [
+        {"name": "Lada", "founded": 1966, "parent": "AvtoVAZ (Renault)", "first_car": 1970, "notes": "2101 first"},
+        {"name": "UAZ", "founded": 1941, "parent": "Sollers", "first_car": 1958, "notes": "Military vehicles"},
+        {"name": "GAZ", "founded": 1932, "parent": "Sollers", "first_car": 1932, "notes": "Ford license"}
+      ],
+      "defunct": [
+        {"name": "Moskvitch", "years": "1930-2006", "notes": "Revived 2022"},
+        {"name": "ZIL", "years": "1916-2016", "notes": "Luxury limousines"},
+        {"name": "Volga", "years": "1956-2010", "notes": "GAZ subsidiary"}
+      ]
+    },
+    "australia": {
+      "defunct": [
+        {"name": "Holden", "years": "1856-2020", "notes": "GM discontinued"},
+        {"name": "Ford Australia", "years": "1925-2016", "notes": "Local production ended"}
+      ]
+    },
+    "malaysia": {
+      "active": [
+        {"name": "Proton", "founded": 1983, "parent": "Geely (49.9%)", "first_car": 1985, "notes": "Saga first"},
+        {"name": "Perodua", "founded": 1992, "parent": "Daihatsu/Toyota", "first_car": 1994, "notes": "Kancil first"}
+      ]
+    },
+    "vietnam": {
+      "active": [
+        {"name": "VinFast", "founded": 2017, "parent": "Vingroup", "first_car": 2019, "notes": "Fadil first"}
+      ]
+    }
+  },
+  "historical_models_by_era": {
+    "pioneer_era_1886_1914": {
+      "description": "Dawn of the automobile - hand-built, experimental vehicles",
+      "key_models": [
+        {"brand": "Benz", "model": "Patent-Motorwagen", "year": 1886, "notes": "First true automobile"},
+        {"brand": "Daimler", "model": "Motorized Carriage", "year": 1886, "notes": "Independent invention"},
+        {"brand": "Peugeot", "model": "Type 2", "year": 1890, "notes": "Daimler-engined"},
+        {"brand": "Panhard", "model": "Système Panhard", "year": 1891, "notes": "First front-engine layout"},
+        {"brand": "Ford", "model": "Model T", "year": 1908, "notes": "15 million produced"},
+        {"brand": "Rolls-Royce", "model": "Silver Ghost", "year": 1906, "notes": "Best car in the world"},
+        {"brand": "Cadillac", "model": "Model Thirty", "year": 1909, "notes": "Electric starter pioneer"}
+      ]
+    },
+    "vintage_era_1914_1930": {
+      "description": "Post-WWI growth, standardization begins",
+      "key_models": [
+        {"brand": "Bentley", "model": "3 Litre", "year": 1921, "notes": "Racing legend"},
+        {"brand": "Bugatti", "model": "Type 35", "year": 1924, "notes": "Most successful racing car"},
+        {"brand": "Mercedes-Benz", "model": "SSK", "year": 1928, "notes": "Supercharged sports car"},
+        {"brand": "Duesenberg", "model": "Model J", "year": 1928, "notes": "American luxury icon"},
+        {"brand": "Alfa Romeo", "model": "6C 1750", "year": 1929, "notes": "Racing heritage"}
+      ]
+    },
+    "pre_war_era_1930_1945": {
+      "description": "Art Deco influence, streamlining begins",
+      "key_models": [
+        {"brand": "Volkswagen", "model": "Beetle", "year": 1938, "notes": "21+ million produced"},
+        {"brand": "Mercedes-Benz", "model": "540K", "year": 1936, "notes": "Elegant supercharged"},
+        {"brand": "BMW", "model": "328", "year": 1936, "notes": "Advanced sports car"},
+        {"brand": "Bugatti", "model": "Type 57SC Atlantic", "year": 1936, "notes": "Most valuable car ever"},
+        {"brand": "Cord", "model": "810/812", "year": 1936, "notes": "Front-wheel drive pioneer"},
+        {"brand": "Lincoln", "model": "Zephyr", "year": 1936, "notes": "Streamlined design"},
+        {"brand": "Willys", "model": "MB Jeep", "year": 1941, "notes": "Military workhorse"}
+      ]
+    },
+    "post_war_era_1945_1960": {
+      "description": "Recovery, economic growth, mass production",
+      "key_models": [
+        {"brand": "Porsche", "model": "356", "year": 1948, "notes": "First Porsche sports car"},
+        {"brand": "Land Rover", "model": "Series I", "year": 1948, "notes": "Utilitarian legend"},
+        {"brand": "Jaguar", "model": "XK120", "year": 1948, "notes": "Fastest production car"},
+        {"brand": "Citroën", "model": "DS", "year": 1955, "notes": "Revolutionary design"},
+        {"brand": "Mercedes-Benz", "model": "300SL", "year": 1954, "notes": "Gullwing doors"},
+        {"brand": "Chevrolet", "model": "Corvette", "year": 1953, "notes": "American sports car"},
+        {"brand": "BMW", "model": "Isetta", "year": 1955, "notes": "Bubble car saved BMW"},
+        {"brand": "Mini", "model": "Original Mini", "year": 1959, "notes": "Revolutionary packaging"}
+      ]
+    },
+    "classic_era_1960_1980": {
+      "description": "Muscle cars, sports cars golden age, oil crisis",
+      "key_models": [
+        {"brand": "Ferrari", "model": "250 GTO", "year": 1962, "notes": "Most valuable car"},
+        {"brand": "Lamborghini", "model": "Miura", "year": 1966, "notes": "First supercar"},
+        {"brand": "Ford", "model": "Mustang", "year": 1964, "notes": "Pony car pioneer"},
+        {"brand": "Porsche", "model": "911", "year": 1964, "notes": "Iconic sports car"},
+        {"brand": "Toyota", "model": "2000GT", "year": 1967, "notes": "Japanese exotic"},
+        {"brand": "Dodge", "model": "Charger", "year": 1966, "notes": "Muscle car icon"},
+        {"brand": "BMW", "model": "2002", "year": 1968, "notes": "Sports sedan pioneer"},
+        {"brand": "Honda", "model": "Civic", "year": 1972, "notes": "Compact car revolution"},
+        {"brand": "Volkswagen", "model": "Golf", "year": 1974, "notes": "Hot hatch pioneer"}
+      ]
+    },
+    "modern_era_1980_2000": {
+      "description": "Electronic revolution, Japanese dominance, safety focus",
+      "key_models": [
+        {"brand": "Audi", "model": "Quattro", "year": 1980, "notes": "AWD revolution"},
+        {"brand": "Ferrari", "model": "F40", "year": 1987, "notes": "Last Enzo Ferrari"},
+        {"brand": "McLaren", "model": "F1", "year": 1992, "notes": "Ultimate supercar"},
+        {"brand": "Mazda", "model": "MX-5 Miata", "year": 1989, "notes": "Roadster revival"},
+        {"brand": "Toyota", "model": "Supra A80", "year": 1993, "notes": "2JZ legend"},
+        {"brand": "Nissan", "model": "Skyline GT-R R32", "year": 1989, "notes": "Godzilla"},
+        {"brand": "BMW", "model": "E30 M3", "year": 1986, "notes": "Homologation special"},
+        {"brand": "Porsche", "model": "959", "year": 1986, "notes": "Technology showcase"}
+      ]
+    },
+    "contemporary_era_2000_present": {
+      "description": "Electrification, connectivity, autonomy",
+      "key_models": [
+        {"brand": "Tesla", "model": "Model S", "year": 2012, "notes": "EV revolution"},
+        {"brand": "Porsche", "model": "Taycan", "year": 2019, "notes": "Performance EV"},
+        {"brand": "Bugatti", "model": "Veyron", "year": 2005, "notes": "1000+ hp production car"},
+        {"brand": "Ferrari", "model": "LaFerrari", "year": 2013, "notes": "Hybrid hypercar"},
+        {"brand": "McLaren", "model": "P1", "year": 2013, "notes": "Holy trinity member"},
+        {"brand": "Porsche", "model": "918 Spyder", "year": 2013, "notes": "Holy trinity member"},
+        {"brand": "Rimac", "model": "Nevera", "year": 2021, "notes": "Electric hypercar king"},
+        {"brand": "Lucid", "model": "Air", "year": 2021, "notes": "Luxury EV sedan"}
+      ]
+    }
+  },
+  "statistics": {
+    "total_brands_ever": "1000+",
+    "currently_active": "~320",
+    "major_automotive_groups": [
+      {"name": "Volkswagen Group", "brands": ["VW", "Audi", "Porsche", "Bentley", "Lamborghini", "Bugatti", "SEAT", "Škoda", "Cupra"]},
+      {"name": "Stellantis", "brands": ["Fiat", "Alfa Romeo", "Maserati", "Lancia", "Abarth", "Jeep", "Dodge", "Ram", "Chrysler", "Peugeot", "Citroën", "DS", "Opel", "Vauxhall"]},
+      {"name": "Toyota Group", "brands": ["Toyota", "Lexus", "Daihatsu", "Subaru (20%)", "Suzuki (5%)"]},
+      {"name": "Hyundai Motor Group", "brands": ["Hyundai", "Kia", "Genesis"]},
+      {"name": "General Motors", "brands": ["Chevrolet", "Buick", "GMC", "Cadillac"]},
+      {"name": "Ford Motor Company", "brands": ["Ford", "Lincoln"]},
+      {"name": "BMW Group", "brands": ["BMW", "Mini", "Rolls-Royce"]},
+      {"name": "Mercedes-Benz Group", "brands": ["Mercedes-Benz", "AMG", "Maybach", "Smart"]},
+      {"name": "Renault Group", "brands": ["Renault", "Dacia", "Alpine"]},
+      {"name": "Geely", "brands": ["Geely", "Volvo", "Polestar", "Lynk & Co", "Zeekr", "Lotus", "Proton (49.9%)"]},
+      {"name": "Tata Motors", "brands": ["Tata", "Jaguar", "Land Rover"]}
+    ]
+  }
+}

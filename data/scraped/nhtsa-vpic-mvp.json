@@ -1,0 +1,3102 @@
+{
+  "source": "nhtsa-vpic",
+  "scraped_at": "2026-01-31T08:53:14.835Z",
+  "brands": {
+    "BMW": {
+      "models": [
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1707,
+          "model_name": "128i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1708,
+          "model_name": "135i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1709,
+          "model_name": "328i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1710,
+          "model_name": "M3"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1711,
+          "model_name": "335i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1712,
+          "model_name": "335is"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1713,
+          "model_name": "335d"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1714,
+          "model_name": "X6"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1715,
+          "model_name": "528i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1716,
+          "model_name": "535i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1717,
+          "model_name": "X5"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1718,
+          "model_name": "550i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1719,
+          "model_name": "X3"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1720,
+          "model_name": "740i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1721,
+          "model_name": "740Li"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1722,
+          "model_name": "750i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1723,
+          "model_name": "750Li"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1724,
+          "model_name": "760Li"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1725,
+          "model_name": "Z4"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1727,
+          "model_name": "750xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1728,
+          "model_name": "750Lxi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1729,
+          "model_name": "M6"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1730,
+          "model_name": "528xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1731,
+          "model_name": "640i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1732,
+          "model_name": "650i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1733,
+          "model_name": "650xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1736,
+          "model_name": "G 450 X"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1737,
+          "model_name": "F 800 S"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1738,
+          "model_name": "F 800 ST"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1739,
+          "model_name": "F 800 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1740,
+          "model_name": "F 800 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1741,
+          "model_name": "HP2"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1742,
+          "model_name": "S 1000 RR"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1743,
+          "model_name": "R 1200 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1744,
+          "model_name": "R 1200 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1745,
+          "model_name": "R 1200 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1746,
+          "model_name": "K 1300 S"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1747,
+          "model_name": "K 1300 GT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1748,
+          "model_name": "K 1300 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1749,
+          "model_name": "F 650 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1750,
+          "model_name": "G 650 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1751,
+          "model_name": "R 900 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1752,
+          "model_name": "K 1600 GT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1753,
+          "model_name": "K 1600 GTL"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1754,
+          "model_name": "F 700 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1755,
+          "model_name": "F 800 GT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1756,
+          "model_name": "C 600"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1757,
+          "model_name": "C 650 GT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1758,
+          "model_name": "HP4"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1759,
+          "model_name": "S 1000 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1760,
+          "model_name": "R nineT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1970,
+          "model_name": "1M"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 1971,
+          "model_name": "ActiveE"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2024,
+          "model_name": "M5"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2170,
+          "model_name": "228i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2171,
+          "model_name": "M235i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2172,
+          "model_name": "320i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2173,
+          "model_name": "328d"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2178,
+          "model_name": "i3"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2179,
+          "model_name": "i8"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2219,
+          "model_name": "ActiveHybrid 3"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2220,
+          "model_name": "428i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2230,
+          "model_name": "435i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2231,
+          "model_name": "535d"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2240,
+          "model_name": "ActiveHybrid 5"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2300,
+          "model_name": "X1"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2350,
+          "model_name": "R 1150 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2351,
+          "model_name": "R 1200 S"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2352,
+          "model_name": "R 1200 ST"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2353,
+          "model_name": "K 1200 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2354,
+          "model_name": "K 1200 S"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2355,
+          "model_name": "K 1200 LT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2359,
+          "model_name": "K 1200 GT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2360,
+          "model_name": "R 1150 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2361,
+          "model_name": "R 850 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2376,
+          "model_name": "535xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2377,
+          "model_name": "328xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2378,
+          "model_name": "335xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2584,
+          "model_name": "525i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2585,
+          "model_name": "530i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2586,
+          "model_name": "530xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2587,
+          "model_name": "525xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2762,
+          "model_name": "325Ci"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2763,
+          "model_name": "330Ci"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2764,
+          "model_name": "325i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2765,
+          "model_name": "325xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2777,
+          "model_name": "330i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2778,
+          "model_name": "330xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 2804,
+          "model_name": "760i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 3051,
+          "model_name": "545i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 3052,
+          "model_name": "645Ci"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 3054,
+          "model_name": "745i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 3055,
+          "model_name": "745Li"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5094,
+          "model_name": "K 1100 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5095,
+          "model_name": "K75"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5096,
+          "model_name": "K75S"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5097,
+          "model_name": "K75RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5098,
+          "model_name": "K 1100 LT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5099,
+          "model_name": "R 100"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5100,
+          "model_name": "R 100 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5101,
+          "model_name": "R 100 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5102,
+          "model_name": "R 100 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5104,
+          "model_name": "R 1100 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5105,
+          "model_name": "R 1100 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5106,
+          "model_name": "R 1100 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5108,
+          "model_name": "F 650"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5109,
+          "model_name": "F 650 S"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5110,
+          "model_name": "R 1100 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5111,
+          "model_name": "K 1200 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5112,
+          "model_name": "R 1200 C"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5132,
+          "model_name": "F 650 CS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5136,
+          "model_name": "R 1100 S"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5137,
+          "model_name": "R 1150 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5138,
+          "model_name": "R 1150 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5139,
+          "model_name": "R 1200 CL"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5178,
+          "model_name": "318i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5185,
+          "model_name": "318iS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5186,
+          "model_name": "318iC"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5187,
+          "model_name": "325iS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5190,
+          "model_name": "325iC"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5195,
+          "model_name": "540i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5198,
+          "model_name": "840Ci"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5199,
+          "model_name": "850Ci"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5200,
+          "model_name": "850CSi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5217,
+          "model_name": "318ti"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5237,
+          "model_name": "328iC"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5238,
+          "model_name": "328iS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5239,
+          "model_name": "Z3"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5253,
+          "model_name": "323i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5254,
+          "model_name": "323is"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5255,
+          "model_name": "323iC"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5324,
+          "model_name": "Z8"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5343,
+          "model_name": "525iA"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5347,
+          "model_name": "530iA"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5348,
+          "model_name": "540iA"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5355,
+          "model_name": "Alpina"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5384,
+          "model_name": "645i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 5992,
+          "model_name": "X4"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9253,
+          "model_name": "335"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9452,
+          "model_name": "740iL"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9453,
+          "model_name": "750iL"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9459,
+          "model_name": "M3Ci"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9567,
+          "model_name": "M2"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9568,
+          "model_name": "340i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9569,
+          "model_name": "330e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 9570,
+          "model_name": "M4"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 10045,
+          "model_name": "S 1000 XR"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 10046,
+          "model_name": "R 1200 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 10047,
+          "model_name": "C 650"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 10587,
+          "model_name": "328Ci"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13375,
+          "model_name": "R 100 GSPD"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13425,
+          "model_name": "735i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13426,
+          "model_name": "735iL"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13427,
+          "model_name": "850i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13429,
+          "model_name": "325ix"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13431,
+          "model_name": "325/325e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13437,
+          "model_name": "635CSi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13438,
+          "model_name": "535i/535is"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13439,
+          "model_name": "L7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13442,
+          "model_name": "524td"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13448,
+          "model_name": "528e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13459,
+          "model_name": "325i/325is"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13825,
+          "model_name": "230i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13826,
+          "model_name": "M240i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13827,
+          "model_name": "430i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13828,
+          "model_name": "440i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13834,
+          "model_name": "B7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13835,
+          "model_name": "740e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 13868,
+          "model_name": "750i, Alpina B7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14503,
+          "model_name": "533i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14504,
+          "model_name": "633 csi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14505,
+          "model_name": "733i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14578,
+          "model_name": "R 100 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14579,
+          "model_name": "K 100 LT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14580,
+          "model_name": "K 100 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14581,
+          "model_name": "K1"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14583,
+          "model_name": "K100"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14584,
+          "model_name": "K 100 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14585,
+          "model_name": "R 65"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14586,
+          "model_name": "R 80"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14587,
+          "model_name": "R 80 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14588,
+          "model_name": "R 80 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14589,
+          "model_name": "R 65 LS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14590,
+          "model_name": "R 80 ST"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 14829,
+          "model_name": "R 100 CS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 19172,
+          "model_name": "730i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 20811,
+          "model_name": "540d"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 20813,
+          "model_name": "530e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 20814,
+          "model_name": "M550i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 20815,
+          "model_name": "M760i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 21787,
+          "model_name": "650i, Alpina B6"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 21788,
+          "model_name": "750Li, Alpina B7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 21790,
+          "model_name": "750Lxi, Alpina B7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 21791,
+          "model_name": "750xi, Alpina B7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 21792,
+          "model_name": "750i, B7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 21793,
+          "model_name": "650i, B6"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 24940,
+          "model_name": "X2"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 24944,
+          "model_name": "640xi"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 25884,
+          "model_name": "X7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26481,
+          "model_name": "M340i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26482,
+          "model_name": "745e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26483,
+          "model_name": "840i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26484,
+          "model_name": "M850i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26485,
+          "model_name": "M8"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26611,
+          "model_name": "G 310 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26612,
+          "model_name": "G 310 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26613,
+          "model_name": "C 400 GT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26614,
+          "model_name": "C 400 X"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26617,
+          "model_name": "F 750 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26618,
+          "model_name": "F 850 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26625,
+          "model_name": "R 1250 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26626,
+          "model_name": "R 1250 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26628,
+          "model_name": "R 1250 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26629,
+          "model_name": "R 1250 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26636,
+          "model_name": "K 1600 B"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26637,
+          "model_name": "C Evolution"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 26851,
+          "model_name": "G 650"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 27296,
+          "model_name": "F 900"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 28092,
+          "model_name": "R 18 Classic"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 28093,
+          "model_name": "R 18"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 28100,
+          "model_name": "M440i"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 29050,
+          "model_name": "M760Li"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 29051,
+          "model_name": "745Le"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 29435,
+          "model_name": "CE 04"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 29436,
+          "model_name": "M 1000"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 29578,
+          "model_name": "iX"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 29579,
+          "model_name": "i4"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 30512,
+          "model_name": "i7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 30516,
+          "model_name": "XM"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 31534,
+          "model_name": "ActiveHybrid 7"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 31653,
+          "model_name": "Alpina B8"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 32327,
+          "model_name": "750e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 32328,
+          "model_name": "i5"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33564,
+          "model_name": "CE 02"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33565,
+          "model_name": "R 18 Roctane"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33566,
+          "model_name": "R 18 B"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33567,
+          "model_name": "R 18 Transcontinental"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33568,
+          "model_name": "F 900 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33569,
+          "model_name": "F 900 GS Adventure"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33570,
+          "model_name": "F 900 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33571,
+          "model_name": "F 900 XR"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33572,
+          "model_name": "M 1000 XR"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33573,
+          "model_name": "M 1000 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33574,
+          "model_name": "M 1000 RR"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33575,
+          "model_name": "R 1250 GS Adventure"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33576,
+          "model_name": "R 1300 GS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33577,
+          "model_name": "R 12"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33578,
+          "model_name": "R 12 nineT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 33706,
+          "model_name": "325/325eS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 34628,
+          "model_name": "550e"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 35419,
+          "model_name": "F 900 GS-P"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 35420,
+          "model_name": "R 1300 GS Adventure"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 35528,
+          "model_name": "228"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 36379,
+          "model_name": "M235"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 36591,
+          "model_name": "R 1300 RT"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 36592,
+          "model_name": "R 1300 R"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 36593,
+          "model_name": "R 1300 RS"
+        },
+        {
+          "make_id": 452,
+          "make_name": "BMW",
+          "model_id": 36594,
+          "model_name": "R 12 G/S"
+        }
+      ],
+      "vehicle_types": [
+        {
+          "MakeId": 452,
+          "MakeName": "BMW",
+          "VehicleTypeId": 1,
+          "VehicleTypeName": "Motorcycle"
+        },
+        {
+          "MakeId": 452,
+          "MakeName": "BMW",
+          "VehicleTypeId": 2,
+          "VehicleTypeName": "Passenger Car"
+        },
+        {
+          "MakeId": 452,
+          "MakeName": "BMW",
+          "VehicleTypeId": 7,
+          "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+        }
+      ],
+      "wmis": [
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-03-17",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 972,
+          "Name": "BMW AG MOTORCYCLES",
+          "UpdatedOn": "2025-08-06",
+          "VehicleType": "Motorcycle",
+          "WMI": "WB1"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2018-05-24",
+          "DateAvailableToPublic": "2018-05-24",
+          "Id": 972,
+          "Name": "BMW AG MOTORCYCLES",
+          "UpdatedOn": "2025-08-06",
+          "VehicleType": "Motorcycle",
+          "WMI": "WB3"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2019-07-26",
+          "DateAvailableToPublic": "2019-07-26",
+          "Id": 972,
+          "Name": "BMW AG MOTORCYCLES",
+          "UpdatedOn": "2025-08-06",
+          "VehicleType": "Motorcycle",
+          "WMI": "WB4"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-03-10",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 966,
+          "Name": "BMW AG",
+          "UpdatedOn": "2015-03-18",
+          "VehicleType": "Passenger Car",
+          "WMI": "WBA"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-03-10",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 967,
+          "Name": "BMW M GMBH",
+          "UpdatedOn": "2015-03-18",
+          "VehicleType": "Passenger Car",
+          "WMI": "WBS"
+        },
+        {
+          "Country": "UNITED STATES (USA)",
+          "CreatedOn": "2015-03-10",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 968,
+          "Name": "BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA",
+          "UpdatedOn": null,
+          "VehicleType": "Passenger Car",
+          "WMI": "4US"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-03-18",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 966,
+          "Name": "BMW AG",
+          "UpdatedOn": "2015-03-18",
+          "VehicleType": "Passenger Car",
+          "WMI": "WMW"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-04-07",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 966,
+          "Name": "BMW AG",
+          "UpdatedOn": "2015-04-07",
+          "VehicleType": "Passenger Car",
+          "WMI": "5UM"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-05-04",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 966,
+          "Name": "BMW AG",
+          "UpdatedOn": "2022-01-12",
+          "VehicleType": "Passenger Car",
+          "WMI": "WBY"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-07-15",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 957,
+          "Name": "BMW OF NORTH AMERICA, LLC",
+          "UpdatedOn": null,
+          "VehicleType": "Passenger Car",
+          "WMI": "WAP"
+        }
+      ],
+      "model_count": 258
+    },
+    "Mercedes-Benz": {
+      "models": [
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 1703,
+          "model_name": "Sprinter"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2079,
+          "model_name": "SL-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2080,
+          "model_name": "SLK-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2081,
+          "model_name": "E-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2082,
+          "model_name": "CLS-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2083,
+          "model_name": "CLA-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2084,
+          "model_name": "GLA-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2085,
+          "model_name": "C-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2086,
+          "model_name": "S-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2087,
+          "model_name": "SLS-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2113,
+          "model_name": "B-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2129,
+          "model_name": "M-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2130,
+          "model_name": "GL-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2131,
+          "model_name": "G-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2132,
+          "model_name": "GLK-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2678,
+          "model_name": "CL-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2822,
+          "model_name": "CLK-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2936,
+          "model_name": "SLR McLaren"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 2939,
+          "model_name": "R-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 5881,
+          "model_name": "AMG GT"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 5885,
+          "model_name": "GLC-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 5886,
+          "model_name": "GLE-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 11451,
+          "model_name": "Metris"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 11452,
+          "model_name": "SLC-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 13819,
+          "model_name": "ML-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14005,
+          "model_name": "GLS-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14013,
+          "model_name": "190"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14014,
+          "model_name": "300"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14015,
+          "model_name": "500"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14081,
+          "model_name": "L1013"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14082,
+          "model_name": "L1113"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14083,
+          "model_name": "L1116"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14084,
+          "model_name": "L1316"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14085,
+          "model_name": "L1418"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14087,
+          "model_name": "L1117"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14088,
+          "model_name": "L1317"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14089,
+          "model_name": "L1419"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14090,
+          "model_name": "LP1419"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14091,
+          "model_name": "LPS1525"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14092,
+          "model_name": "LP1219"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14093,
+          "model_name": "L1319"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14773,
+          "model_name": "280"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14774,
+          "model_name": "240"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 14775,
+          "model_name": "380"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 17597,
+          "model_name": "400"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 17598,
+          "model_name": "600"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 17599,
+          "model_name": "350"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 17600,
+          "model_name": "420"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 17601,
+          "model_name": "560"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 17602,
+          "model_name": "260"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 24879,
+          "model_name": "A-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 26498,
+          "model_name": "GLB-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 26499,
+          "model_name": "EQC-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 29045,
+          "model_name": "EQS-Class Sedan"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 30229,
+          "model_name": "EQE-Class Sedan"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 30230,
+          "model_name": "EQB-Class"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 30265,
+          "model_name": "EQS-Class SUV"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 31097,
+          "model_name": "EQE-Class SUV"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 33099,
+          "model_name": "eSprinter"
+        },
+        {
+          "make_id": 449,
+          "make_name": "Mercedes-Benz",
+          "model_id": 33769,
+          "model_name": "CLE"
+        }
+      ],
+      "vehicle_types": [
+        {
+          "MakeId": 449,
+          "MakeName": "MERCEDES-BENZ",
+          "VehicleTypeId": 2,
+          "VehicleTypeName": "Passenger Car"
+        },
+        {
+          "MakeId": 449,
+          "MakeName": "MERCEDES-BENZ",
+          "VehicleTypeId": 3,
+          "VehicleTypeName": "Truck"
+        },
+        {
+          "MakeId": 449,
+          "MakeName": "MERCEDES-BENZ",
+          "VehicleTypeId": 5,
+          "VehicleTypeName": "Bus"
+        },
+        {
+          "MakeId": 449,
+          "MakeName": "MERCEDES-BENZ",
+          "VehicleTypeId": 7,
+          "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+        },
+        {
+          "MakeId": 449,
+          "MakeName": "MERCEDES-BENZ",
+          "VehicleTypeId": 10,
+          "VehicleTypeName": "Incomplete Vehicle"
+        }
+      ],
+      "wmis": [
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-04-17",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1042,
+          "Name": "MERCEDES-BENZ CARS",
+          "UpdatedOn": null,
+          "VehicleType": "Passenger Car",
+          "WMI": "WDD"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-04-17",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1042,
+          "Name": "MERCEDES-BENZ CARS",
+          "UpdatedOn": "2015-05-21",
+          "VehicleType": "Passenger Car",
+          "WMI": "WDB"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-04-17",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1042,
+          "Name": "MERCEDES-BENZ CARS",
+          "UpdatedOn": "2015-04-17",
+          "VehicleType": "Passenger Car",
+          "WMI": "WME"
+        },
+        {
+          "Country": "UNITED STATES (USA)",
+          "CreatedOn": "2015-04-17",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1042,
+          "Name": "MERCEDES-BENZ CARS",
+          "UpdatedOn": null,
+          "VehicleType": "Passenger Car",
+          "WMI": "55S"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2019-11-05",
+          "DateAvailableToPublic": "2019-11-05",
+          "Id": 1042,
+          "Name": "MERCEDES-BENZ CARS",
+          "UpdatedOn": null,
+          "VehicleType": "Passenger Car",
+          "WMI": "W1K"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-03-09",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1023,
+          "Name": "MERCEDES-BENZ, AG",
+          "UpdatedOn": "2017-08-17",
+          "VehicleType": "Truck",
+          "WMI": "WD3"
+        },
+        {
+          "Country": "UNITED STATES (USA)",
+          "CreatedOn": "2015-05-27",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1023,
+          "Name": "MERCEDES-BENZ, AG",
+          "UpdatedOn": "2015-05-28",
+          "VehicleType": "Truck",
+          "WMI": "WD0"
+        },
+        {
+          "Country": "ARGENTINA",
+          "CreatedOn": "2016-05-03",
+          "DateAvailableToPublic": "2016-05-03",
+          "Id": 964,
+          "Name": "MERCEDES-BENZ USA, LLC (SPRINTER)",
+          "UpdatedOn": "2016-05-03",
+          "VehicleType": "Truck",
+          "WMI": "8BU"
+        },
+        {
+          "Country": "UNITED STATES (USA)",
+          "CreatedOn": "2016-10-31",
+          "DateAvailableToPublic": "2016-10-31",
+          "Id": 15880,
+          "Name": "MERCEDES-BENZ TRUCK COMPANY INC",
+          "UpdatedOn": "2016-10-31",
+          "VehicleType": "Truck",
+          "WMI": "1MB"
+        },
+        {
+          "Country": "BRAZIL",
+          "CreatedOn": "2016-10-31",
+          "DateAvailableToPublic": "2016-10-31",
+          "Id": 15880,
+          "Name": "MERCEDES-BENZ TRUCK COMPANY INC",
+          "UpdatedOn": "2016-10-31",
+          "VehicleType": "Truck",
+          "WMI": "9DB"
+        }
+      ],
+      "model_count": 60
+    },
+    "Audi": {
+      "models": [
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3145,
+          "model_name": "TT"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3146,
+          "model_name": "A4"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3147,
+          "model_name": "S4"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3148,
+          "model_name": "A6"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3149,
+          "model_name": "RS 6"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3150,
+          "model_name": "allroad"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3151,
+          "model_name": "A8"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3675,
+          "model_name": "RS 4"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3676,
+          "model_name": "A3"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3677,
+          "model_name": "S6"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3678,
+          "model_name": "S8"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3679,
+          "model_name": "Q7"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3787,
+          "model_name": "A5"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3788,
+          "model_name": "S5"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3789,
+          "model_name": "R8"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3861,
+          "model_name": "TTS"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 3862,
+          "model_name": "Q5"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 4014,
+          "model_name": "RS 5"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 4015,
+          "model_name": "A7"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 4016,
+          "model_name": "TT RS"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 4051,
+          "model_name": "Q3"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 4052,
+          "model_name": "SQ5"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 8056,
+          "model_name": "90"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 8057,
+          "model_name": "100"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 8058,
+          "model_name": "V8"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 8059,
+          "model_name": "Cabriolet"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 8173,
+          "model_name": "S3"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 8258,
+          "model_name": "S7"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 8685,
+          "model_name": "RS 7"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 13759,
+          "model_name": "A4 allroad"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 14336,
+          "model_name": "5000"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 14337,
+          "model_name": "4000"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 14342,
+          "model_name": "80"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 14343,
+          "model_name": "200"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 14348,
+          "model_name": "Coupe"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 16783,
+          "model_name": "RS 3"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 25317,
+          "model_name": "Q8"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 25874,
+          "model_name": "e-tron"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 27028,
+          "model_name": "A6 allroad"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 27029,
+          "model_name": "Q5 e"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 27122,
+          "model_name": "A8 e"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 27401,
+          "model_name": "SQ7"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 27402,
+          "model_name": "SQ8"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 27403,
+          "model_name": "RS Q8"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 27819,
+          "model_name": "e-tron Sportback"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 28998,
+          "model_name": "RS e-tron GT"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 29351,
+          "model_name": "Q4"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 29708,
+          "model_name": "A8 L"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 29994,
+          "model_name": "e-tron GT"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 34061,
+          "model_name": "A7 e"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 34062,
+          "model_name": "A8 L e"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 34850,
+          "model_name": "Q6"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 34851,
+          "model_name": "SQ6"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 35165,
+          "model_name": "RS 6 Avant"
+        },
+        {
+          "make_id": 582,
+          "make_name": "Audi",
+          "model_id": 35659,
+          "model_name": "S e-tron GT"
+        }
+      ],
+      "vehicle_types": [
+        {
+          "MakeId": 582,
+          "MakeName": "AUDI",
+          "VehicleTypeId": 2,
+          "VehicleTypeName": "Passenger Car"
+        },
+        {
+          "MakeId": 582,
+          "MakeName": "AUDI",
+          "VehicleTypeId": 7,
+          "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+        }
+      ],
+      "wmis": [
+        {
+          "Country": "HUNGARY",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1149,
+          "Name": "AUDI AG",
+          "UpdatedOn": "2015-06-01",
+          "VehicleType": "Passenger Car",
+          "WMI": "TRU"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1149,
+          "Name": "AUDI AG",
+          "UpdatedOn": "2015-06-01",
+          "VehicleType": "Passenger Car",
+          "WMI": "WAU"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1150,
+          "Name": "AUDI SPORT GMBH",
+          "UpdatedOn": "2015-06-01",
+          "VehicleType": "Passenger Car",
+          "WMI": "WUA"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1149,
+          "Name": "AUDI AG",
+          "UpdatedOn": "2023-01-25",
+          "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+          "WMI": "WA1"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2020-04-28",
+          "DateAvailableToPublic": "2020-04-28",
+          "Id": 1150,
+          "Name": "AUDI SPORT GMBH",
+          "UpdatedOn": "2023-01-25",
+          "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+          "WMI": "WU1"
+        }
+      ],
+      "model_count": 55
+    },
+    "Porsche": {
+      "models": [
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 7832,
+          "model_name": "911"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 7847,
+          "model_name": "Boxster"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 7895,
+          "model_name": "Cayenne"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 7900,
+          "model_name": "Cayman"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 7994,
+          "model_name": "Panamera"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 8022,
+          "model_name": "918"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 8031,
+          "model_name": "Macan"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 13846,
+          "model_name": "944"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 13847,
+          "model_name": "928"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 13848,
+          "model_name": "924"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 14080,
+          "model_name": "968"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 28090,
+          "model_name": "Taycan"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 31222,
+          "model_name": "718 Boxster"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 31223,
+          "model_name": "718 Spyder"
+        },
+        {
+          "make_id": 584,
+          "make_name": "Porsche",
+          "model_id": 31224,
+          "model_name": "718 Cayman"
+        }
+      ],
+      "vehicle_types": [
+        {
+          "MakeId": 584,
+          "MakeName": "PORSCHE",
+          "VehicleTypeId": 2,
+          "VehicleTypeName": "Passenger Car"
+        },
+        {
+          "MakeId": 584,
+          "MakeName": "PORSCHE",
+          "VehicleTypeId": 7,
+          "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+        }
+      ],
+      "wmis": [
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-08-11",
+          "DateAvailableToPublic": "2015-08-11",
+          "Id": 13510,
+          "Name": "DR. ING. H.C.F. PORSCHE AG",
+          "UpdatedOn": null,
+          "VehicleType": "Passenger Car",
+          "WMI": "WP0"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-08-12",
+          "DateAvailableToPublic": "2015-08-12",
+          "Id": 13510,
+          "Name": "DR. ING. H.C.F. PORSCHE AG",
+          "UpdatedOn": null,
+          "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+          "WMI": "WP1"
+        }
+      ],
+      "model_count": 15
+    },
+    "Volkswagen": {
+      "models": [
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 1951,
+          "model_name": "Routan"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3133,
+          "model_name": "Golf"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3134,
+          "model_name": "Passat"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3135,
+          "model_name": "Phaeton"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3136,
+          "model_name": "Touareg"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3137,
+          "model_name": "Jetta"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3140,
+          "model_name": "GTI"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3141,
+          "model_name": "R32"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 3142,
+          "model_name": "Jetta Wagon"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 4084,
+          "model_name": "Rabbit"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 4167,
+          "model_name": "Eos"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 5059,
+          "model_name": "Golf SportWagen"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8051,
+          "model_name": "Golf III"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8053,
+          "model_name": "Corrado"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8055,
+          "model_name": "EuroVan"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8118,
+          "model_name": "e-Golf"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8119,
+          "model_name": "Beetle"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8121,
+          "model_name": "CC"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8151,
+          "model_name": "Tiguan"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8364,
+          "model_name": "Jetta SportWagen"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 8460,
+          "model_name": "Cabrio"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 13670,
+          "model_name": "Golf GTI"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 13844,
+          "model_name": "Golf R"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 14216,
+          "model_name": "CABRIOLET"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 14217,
+          "model_name": "FOX"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 14261,
+          "model_name": "Quantum"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 14262,
+          "model_name": "Scirocco"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 14266,
+          "model_name": "Vanagon"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 14568,
+          "model_name": "Dasher"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 14569,
+          "model_name": "KOMBI"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 17618,
+          "model_name": "Atlas"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 24230,
+          "model_name": "Golf Alltrack"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 24247,
+          "model_name": "Tiguan Limited"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 25871,
+          "model_name": "Arteon"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 26088,
+          "model_name": "GLI"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 27124,
+          "model_name": "Atlas Cross Sport"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 28219,
+          "model_name": "ID.4"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 28652,
+          "model_name": "Taos"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 29681,
+          "model_name": "Jetta GLI"
+        },
+        {
+          "make_id": 482,
+          "make_name": "Volkswagen",
+          "model_id": 35143,
+          "model_name": "ID. Buzz"
+        }
+      ],
+      "vehicle_types": [
+        {
+          "MakeId": 482,
+          "MakeName": "VOLKSWAGEN",
+          "VehicleTypeId": 2,
+          "VehicleTypeName": "Passenger Car"
+        },
+        {
+          "MakeId": 482,
+          "MakeName": "VOLKSWAGEN",
+          "VehicleTypeId": 3,
+          "VehicleTypeName": "Truck"
+        },
+        {
+          "MakeId": 482,
+          "MakeName": "VOLKSWAGEN",
+          "VehicleTypeId": 7,
+          "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+        },
+        {
+          "MakeId": 482,
+          "MakeName": "VOLKSWAGEN",
+          "VehicleTypeId": 10,
+          "VehicleTypeName": "Incomplete Vehicle"
+        }
+      ],
+      "wmis": [
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1148,
+          "Name": "VOLKSWAGEN AG",
+          "UpdatedOn": "2022-08-08",
+          "VehicleType": "Passenger Car",
+          "WMI": "WVW"
+        },
+        {
+          "Country": "MEXICO",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 16478,
+          "Name": "VOLKSWAGEN DE MEXICO SA DE CV",
+          "UpdatedOn": "2022-08-08",
+          "VehicleType": "Passenger Car",
+          "WMI": "3VW"
+        },
+        {
+          "Country": "MEXICO",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1147,
+          "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+          "UpdatedOn": null,
+          "VehicleType": "Passenger Car",
+          "WMI": "9BW"
+        },
+        {
+          "Country": "UNITED STATES (USA)",
+          "CreatedOn": "2015-06-30",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1147,
+          "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+          "UpdatedOn": "2015-07-20",
+          "VehicleType": "Passenger Car",
+          "WMI": "1VW"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-08-21",
+          "DateAvailableToPublic": "2015-08-21",
+          "Id": 1147,
+          "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+          "UpdatedOn": null,
+          "VehicleType": "Truck",
+          "WMI": "WV1"
+        },
+        {
+          "Country": "UNITED STATES (USA)",
+          "CreatedOn": "2016-11-17",
+          "DateAvailableToPublic": "2016-11-17",
+          "Id": 1147,
+          "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+          "UpdatedOn": null,
+          "VehicleType": "Truck",
+          "WMI": "1V1"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-06-01",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1148,
+          "Name": "VOLKSWAGEN AG",
+          "UpdatedOn": "2022-08-08",
+          "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+          "WMI": "WVG"
+        },
+        {
+          "Country": "GERMANY",
+          "CreatedOn": "2015-08-13",
+          "DateAvailableToPublic": "2015-08-13",
+          "Id": 1147,
+          "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+          "UpdatedOn": "2015-08-20",
+          "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+          "WMI": "WV2"
+        },
+        {
+          "Country": "UNITED STATES (USA)",
+          "CreatedOn": "2016-11-17",
+          "DateAvailableToPublic": "2016-11-17",
+          "Id": 1147,
+          "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+          "UpdatedOn": null,
+          "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+          "WMI": "1V2"
+        },
+        {
+          "Country": "MEXICO",
+          "CreatedOn": "2017-05-04",
+          "DateAvailableToPublic": "2017-05-04",
+          "Id": 16478,
+          "Name": "VOLKSWAGEN DE MEXICO SA DE CV",
+          "UpdatedOn": null,
+          "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+          "WMI": "3VV"
+        }
+      ],
+      "model_count": 40
+    },
+    "Skoda": {
+      "models": [],
+      "vehicle_types": [],
+      "wmis": [
+        {
+          "Country": "TURKEY",
+          "CreatedOn": "2015-06-18",
+          "DateAvailableToPublic": "2015-01-01",
+          "Id": 1129,
+          "Name": "TEMSA SKODA SABANCI ULASIM ARACLARI A.S.",
+          "UpdatedOn": null,
+          "VehicleType": "Bus",
+          "WMI": "NLT"
+        }
+      ],
+      "model_count": 0
+    }
+  }
+}

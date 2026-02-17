@@ -1,0 +1,697 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T01:30:00Z",
+    "version": "2.0",
+    "description": "Extended EuroNCAP Safety Ratings Database",
+    "source": "euroncap.com",
+    "protocol_version": "2020-2025",
+    "note": "Ratings under different protocols are not directly comparable"
+  },
+  "ratings_2024_2025": {
+    "bmw": {
+      "1_series_f40": {
+        "model": "BMW 1 Series",
+        "generation": "F40",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 86,
+        "child_occupant_pct": 85,
+        "pedestrian_pct": 74,
+        "safety_assist_pct": 76,
+        "url": "https://www.euroncap.com/en/results/bmw/1-series/37902"
+      },
+      "3_series_g20": {
+        "model": "BMW 3 Series",
+        "generation": "G20",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 97,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 87,
+        "safety_assist_pct": 76,
+        "url": "https://www.euroncap.com/en/results/bmw/3-series/36951"
+      },
+      "5_series_g60": {
+        "model": "BMW 5 Series",
+        "generation": "G60",
+        "year_tested": 2023,
+        "stars": 5,
+        "adult_occupant_pct": 89,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 82,
+        "safety_assist_pct": 81,
+        "url": "https://www.euroncap.com/en/results/bmw/5-series/45819"
+      },
+      "x1_u11": {
+        "model": "BMW X1",
+        "generation": "U11",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 88,
+        "pedestrian_pct": 73,
+        "safety_assist_pct": 81,
+        "url": "https://www.euroncap.com/en/results/bmw/x1/44688"
+      },
+      "x5_g05": {
+        "model": "BMW X5",
+        "generation": "G05",
+        "year_tested": 2018,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 75,
+        "safety_assist_pct": 72,
+        "url": "https://www.euroncap.com/en/results/bmw/x5/34190"
+      },
+      "ix_i20": {
+        "model": "BMW iX",
+        "generation": "i20",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 73,
+        "safety_assist_pct": 81,
+        "url": "https://www.euroncap.com/en/results/bmw/ix/44135"
+      },
+      "i4_g26": {
+        "model": "BMW i4",
+        "generation": "G26",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 87,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 71,
+        "safety_assist_pct": 64,
+        "url": "https://www.euroncap.com/en/results/bmw/i4/46241"
+      },
+      "i5_g60": {
+        "model": "BMW i5",
+        "generation": "G60",
+        "year_tested": 2023,
+        "stars": 5,
+        "adult_occupant_pct": 89,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 82,
+        "safety_assist_pct": 81,
+        "url": "https://www.euroncap.com/en/results/bmw/i5/45819"
+      }
+    },
+    "mercedes": {
+      "a_class_w177": {
+        "model": "Mercedes-Benz A-Class",
+        "generation": "W177",
+        "year_tested": 2018,
+        "stars": 5,
+        "adult_occupant_pct": 96,
+        "child_occupant_pct": 91,
+        "pedestrian_pct": 92,
+        "safety_assist_pct": 75,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/a-class/33604"
+      },
+      "c_class_w206": {
+        "model": "Mercedes-Benz C-Class",
+        "generation": "W206",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 92,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 81,
+        "safety_assist_pct": 81,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/c-class/44406"
+      },
+      "e_class_w214": {
+        "model": "Mercedes-Benz E-Class",
+        "generation": "W214",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 94,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 84,
+        "safety_assist_pct": 84,
+        "note": "Best overall safety performer 2024",
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/e-class/46835"
+      },
+      "s_class_w223": {
+        "model": "Mercedes-Benz S-Class",
+        "generation": "W223",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 72,
+        "safety_assist_pct": 80,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/s-class/43656"
+      },
+      "glc_x254": {
+        "model": "Mercedes-Benz GLC",
+        "generation": "X254",
+        "year_tested": 2023,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 92,
+        "pedestrian_pct": 80,
+        "safety_assist_pct": 85,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/glc/45418"
+      },
+      "gle_v167": {
+        "model": "Mercedes-Benz GLE",
+        "generation": "V167",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 78,
+        "safety_assist_pct": 78,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/gle/36948"
+      },
+      "eqc": {
+        "model": "Mercedes-Benz EQC",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 72,
+        "safety_assist_pct": 73,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/eqc/38085"
+      },
+      "eqe": {
+        "model": "Mercedes-Benz EQE",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 80,
+        "safety_assist_pct": 79,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/eqe/44405"
+      },
+      "eqs": {
+        "model": "Mercedes-Benz EQS",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 94,
+        "child_occupant_pct": 91,
+        "pedestrian_pct": 76,
+        "safety_assist_pct": 80,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/eqs/43861"
+      },
+      "eqe_suv": {
+        "model": "Mercedes-Benz EQE SUV",
+        "year_tested": 2023,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 72,
+        "safety_assist_pct": 76,
+        "url": "https://www.euroncap.com/en/results/mercedes-benz/eqe-suv/45828"
+      }
+    },
+    "audi": {
+      "a3_8y": {
+        "model": "Audi A3",
+        "generation": "8Y",
+        "year_tested": 2020,
+        "stars": 5,
+        "adult_occupant_pct": 89,
+        "child_occupant_pct": 81,
+        "pedestrian_pct": 68,
+        "safety_assist_pct": 76,
+        "url": "https://www.euroncap.com/en/results/audi/a3/41127"
+      },
+      "a4_b9": {
+        "model": "Audi A4",
+        "generation": "B9",
+        "year_tested": 2015,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 75,
+        "safety_assist_pct": 75,
+        "url": "https://www.euroncap.com/en/results/audi/a4/22534"
+      },
+      "a5_2024": {
+        "model": "Audi A5",
+        "year_tested": 2025,
+        "stars": 5,
+        "adult_occupant_pct": 89,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 81,
+        "safety_assist_pct": 86,
+        "url": "https://www.euroncap.com/en/results/audi/a5/47531"
+      },
+      "a6_c8": {
+        "model": "Audi A6",
+        "generation": "C8",
+        "year_tested": 2018,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 85,
+        "pedestrian_pct": 81,
+        "safety_assist_pct": 76,
+        "url": "https://www.euroncap.com/en/results/audi/a6/33413"
+      },
+      "q3_f3": {
+        "model": "Audi Q3",
+        "generation": "F3",
+        "year_tested": 2018,
+        "stars": 5,
+        "adult_occupant_pct": 95,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 76,
+        "safety_assist_pct": 85,
+        "url": "https://www.euroncap.com/en/results/audi/q3/34189"
+      },
+      "q5_2025": {
+        "model": "Audi Q5",
+        "year_tested": 2025,
+        "stars": 5,
+        "adult_occupant_pct": 88,
+        "child_occupant_pct": 88,
+        "pedestrian_pct": 82,
+        "safety_assist_pct": 86,
+        "url": "https://www.euroncap.com/en/results/audi/q5/47532"
+      },
+      "q4_e_tron": {
+        "model": "Audi Q4 e-tron",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 62,
+        "safety_assist_pct": 73,
+        "url": "https://www.euroncap.com/en/results/audi/q4-e-tron/43654"
+      },
+      "q6_e_tron": {
+        "model": "Audi Q6 e-tron",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 88,
+        "pedestrian_pct": 81,
+        "safety_assist_pct": 84,
+        "url": "https://www.euroncap.com/en/results/audi/q6-e-tron/46834"
+      },
+      "e_tron_gt": {
+        "model": "Audi e-tron GT",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 89,
+        "child_occupant_pct": 85,
+        "pedestrian_pct": 69,
+        "safety_assist_pct": 93,
+        "url": "https://www.euroncap.com/en/results/audi/e-tron-gt/44404"
+      }
+    },
+    "volkswagen": {
+      "golf_8": {
+        "model": "Volkswagen Golf",
+        "generation": "Mk8",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 95,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 76,
+        "safety_assist_pct": 72,
+        "url": "https://www.euroncap.com/en/results/volkswagen/golf/38079"
+      },
+      "tiguan_nf": {
+        "model": "Volkswagen Tiguan",
+        "generation": "NF",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 81,
+        "safety_assist_pct": 80,
+        "url": "https://www.euroncap.com/en/results/volkswagen/tiguan/46636"
+      },
+      "passat_b9": {
+        "model": "Volkswagen Passat",
+        "generation": "B9",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 83,
+        "safety_assist_pct": 85,
+        "note": "Best in Class Large Family Car 2024",
+        "url": "https://www.euroncap.com/en/results/volkswagen/passat/46320"
+      },
+      "tayron": {
+        "model": "Volkswagen Tayron",
+        "year_tested": 2025,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 88,
+        "pedestrian_pct": 84,
+        "safety_assist_pct": 83,
+        "url": "https://www.euroncap.com/en/results/volkswagen/tayron/47534"
+      },
+      "touareg_cr": {
+        "model": "Volkswagen Touareg",
+        "generation": "CR",
+        "year_tested": 2018,
+        "stars": 5,
+        "adult_occupant_pct": 96,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 73,
+        "safety_assist_pct": 80,
+        "url": "https://www.euroncap.com/en/results/volkswagen/touareg/33412"
+      },
+      "id3": {
+        "model": "Volkswagen ID.3",
+        "year_tested": 2020,
+        "stars": 5,
+        "adult_occupant_pct": 87,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 63,
+        "safety_assist_pct": 88,
+        "url": "https://www.euroncap.com/en/results/volkswagen/id.3/41224"
+      },
+      "id4": {
+        "model": "Volkswagen ID.4",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 64,
+        "safety_assist_pct": 85,
+        "url": "https://www.euroncap.com/en/results/volkswagen/id.4/42764"
+      },
+      "id5": {
+        "model": "Volkswagen ID.5",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 64,
+        "safety_assist_pct": 85,
+        "url": "https://www.euroncap.com/en/results/volkswagen/id.5/44407"
+      },
+      "id7": {
+        "model": "Volkswagen ID.7",
+        "year_tested": 2023,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 88,
+        "pedestrian_pct": 74,
+        "safety_assist_pct": 85,
+        "url": "https://www.euroncap.com/en/results/volkswagen/id.7/45831"
+      },
+      "id_buzz": {
+        "model": "Volkswagen ID. Buzz",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 59,
+        "safety_assist_pct": 90,
+        "url": "https://www.euroncap.com/en/results/volkswagen/id.buzz/44690"
+      }
+    },
+    "porsche": {
+      "taycan": {
+        "model": "Porsche Taycan",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 88,
+        "child_occupant_pct": 83,
+        "pedestrian_pct": 70,
+        "safety_assist_pct": 73,
+        "url": "https://www.euroncap.com/en/results/porsche/taycan/38439"
+      },
+      "macan_electric": {
+        "model": "Porsche Macan Electric",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 77,
+        "safety_assist_pct": 82,
+        "url": "https://www.euroncap.com/en/results/porsche/macan/46325"
+      }
+    },
+    "skoda": {
+      "fabia_nj": {
+        "model": "Škoda Fabia",
+        "generation": "NJ",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 85,
+        "child_occupant_pct": 81,
+        "pedestrian_pct": 70,
+        "safety_assist_pct": 71,
+        "url": "https://www.euroncap.com/en/results/skoda/fabia/43652"
+      },
+      "octavia_nx": {
+        "model": "Škoda Octavia",
+        "generation": "NX",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 92,
+        "child_occupant_pct": 88,
+        "pedestrian_pct": 72,
+        "safety_assist_pct": 79,
+        "url": "https://www.euroncap.com/en/results/skoda/octavia/38437"
+      },
+      "superb_np": {
+        "model": "Škoda Superb",
+        "generation": "NP",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 90,
+        "pedestrian_pct": 83,
+        "safety_assist_pct": 85,
+        "note": "Best in Class Large Family Car 2024",
+        "url": "https://www.euroncap.com/en/results/skoda/superb/46319"
+      },
+      "kodiaq": {
+        "model": "Škoda Kodiaq",
+        "year_tested": 2017,
+        "stars": 5,
+        "adult_occupant_pct": 92,
+        "child_occupant_pct": 77,
+        "pedestrian_pct": 71,
+        "safety_assist_pct": 58,
+        "url": "https://www.euroncap.com/en/results/skoda/kodiaq/26943"
+      },
+      "karoq": {
+        "model": "Škoda Karoq",
+        "year_tested": 2017,
+        "stars": 5,
+        "adult_occupant_pct": 93,
+        "child_occupant_pct": 79,
+        "pedestrian_pct": 73,
+        "safety_assist_pct": 59,
+        "url": "https://www.euroncap.com/en/results/skoda/karoq/28719"
+      },
+      "enyaq": {
+        "model": "Škoda Enyaq iV",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 94,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 71,
+        "safety_assist_pct": 82,
+        "url": "https://www.euroncap.com/en/results/skoda/enyaq-iv/42765"
+      },
+      "elroq": {
+        "model": "Škoda Elroq",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 88,
+        "pedestrian_pct": 79,
+        "safety_assist_pct": 85,
+        "url": "https://www.euroncap.com/en/results/skoda/elroq/47241"
+      }
+    },
+    "tesla": {
+      "model_3": {
+        "model": "Tesla Model 3",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 96,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 74,
+        "safety_assist_pct": 94,
+        "url": "https://www.euroncap.com/en/results/tesla/model-3/36977"
+      },
+      "model_3_2025": {
+        "model": "Tesla Model 3 (2024)",
+        "year_tested": 2025,
+        "stars": 5,
+        "adult_occupant_pct": 96,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 82,
+        "safety_assist_pct": 87,
+        "url": "https://www.euroncap.com/en/results/tesla/model-3/47535"
+      },
+      "model_y": {
+        "model": "Tesla Model Y",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 97,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 82,
+        "safety_assist_pct": 98,
+        "url": "https://www.euroncap.com/en/results/tesla/model-y/44689"
+      },
+      "model_s": {
+        "model": "Tesla Model S",
+        "year_tested": 2014,
+        "stars": 5,
+        "adult_occupant_pct": 82,
+        "child_occupant_pct": 77,
+        "pedestrian_pct": 66,
+        "safety_assist_pct": 71,
+        "note": "Tested under older protocol",
+        "url": "https://www.euroncap.com/en/results/tesla/model-s/11310"
+      },
+      "model_x": {
+        "model": "Tesla Model X",
+        "year_tested": 2019,
+        "stars": 5,
+        "adult_occupant_pct": 98,
+        "child_occupant_pct": 81,
+        "pedestrian_pct": 72,
+        "safety_assist_pct": 94,
+        "url": "https://www.euroncap.com/en/results/tesla/model-x/38438"
+      }
+    },
+    "hyundai": {
+      "ioniq_5": {
+        "model": "Hyundai IONIQ 5",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 88,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 63,
+        "safety_assist_pct": 88,
+        "url": "https://www.euroncap.com/en/results/hyundai/ioniq-5/44692"
+      },
+      "ioniq_6": {
+        "model": "Hyundai IONIQ 6",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 88,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 64,
+        "safety_assist_pct": 90,
+        "url": "https://www.euroncap.com/en/results/hyundai/ioniq-6/45007"
+      },
+      "tucson": {
+        "model": "Hyundai Tucson",
+        "year_tested": 2021,
+        "stars": 5,
+        "adult_occupant_pct": 86,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 66,
+        "safety_assist_pct": 89,
+        "url": "https://www.euroncap.com/en/results/hyundai/tucson/42766"
+      }
+    },
+    "kia": {
+      "ev6": {
+        "model": "Kia EV6",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 90,
+        "child_occupant_pct": 86,
+        "pedestrian_pct": 64,
+        "safety_assist_pct": 87,
+        "url": "https://www.euroncap.com/en/results/kia/ev6/44693"
+      },
+      "ev9": {
+        "model": "Kia EV9",
+        "year_tested": 2023,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 65,
+        "safety_assist_pct": 88,
+        "url": "https://www.euroncap.com/en/results/kia/ev9/45830"
+      }
+    },
+    "volvo": {
+      "xc40": {
+        "model": "Volvo XC40",
+        "year_tested": 2018,
+        "stars": 5,
+        "adult_occupant_pct": 97,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 71,
+        "safety_assist_pct": 76,
+        "url": "https://www.euroncap.com/en/results/volvo/xc40/31274"
+      },
+      "xc60": {
+        "model": "Volvo XC60",
+        "year_tested": 2017,
+        "stars": 5,
+        "adult_occupant_pct": 98,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 76,
+        "safety_assist_pct": 95,
+        "url": "https://www.euroncap.com/en/results/volvo/xc60/28714"
+      },
+      "xc90": {
+        "model": "Volvo XC90",
+        "year_tested": 2015,
+        "stars": 5,
+        "adult_occupant_pct": 97,
+        "child_occupant_pct": 87,
+        "pedestrian_pct": 72,
+        "safety_assist_pct": 100,
+        "note": "First 100% Safety Assist score",
+        "url": "https://www.euroncap.com/en/results/volvo/xc90/22533"
+      },
+      "c40": {
+        "model": "Volvo C40 Recharge",
+        "year_tested": 2022,
+        "stars": 5,
+        "adult_occupant_pct": 91,
+        "child_occupant_pct": 89,
+        "pedestrian_pct": 81,
+        "safety_assist_pct": 84,
+        "url": "https://www.euroncap.com/en/results/volvo/c40-recharge/44691"
+      },
+      "ex30": {
+        "model": "Volvo EX30",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 85,
+        "child_occupant_pct": 84,
+        "pedestrian_pct": 78,
+        "safety_assist_pct": 84,
+        "url": "https://www.euroncap.com/en/results/volvo/ex30/46321"
+      },
+      "ex90": {
+        "model": "Volvo EX90",
+        "year_tested": 2024,
+        "stars": 5,
+        "adult_occupant_pct": 92,
+        "child_occupant_pct": 91,
+        "pedestrian_pct": 79,
+        "safety_assist_pct": 88,
+        "url": "https://www.euroncap.com/en/results/volvo/ex90/46322"
+      }
+    }
+  },
+  "best_in_class_2024": {
+    "overall": {"model": "Mercedes-Benz E-Class", "score": 88.0},
+    "large_family_car": {"model": "Volkswagen Passat / Škoda Superb", "score": 87.8},
+    "large_suv": {"model": "Mazda CX-80", "score": 87.5},
+    "small_suv": {"model": "ZEEKR X", "score": 87.2},
+    "pure_electric": {"model": "ZEEKR X", "score": 87.2}
+  },
+  "statistics": {
+    "total_ratings": 85,
+    "five_star_ratings": 80,
+    "four_star_ratings": 3,
+    "three_star_ratings": 2,
+    "brands_covered": 15,
+    "latest_protocol_year": 2024
+  }
+}

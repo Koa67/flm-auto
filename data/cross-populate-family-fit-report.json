@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-12T23:05:20.570Z",
+  "stats": {
+    "newRows": 0,
+    "updatedRows": 37,
+    "fieldsAdded": 148,
+    "alreadyComplete": 7,
+    "noDimsData": 3517
+  },
+  "before": 3428,
+  "after": 3428
+}

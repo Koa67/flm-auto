@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T00:30:00Z",
+    "description": "Photos for Family Vehicles with Interior Dimensions Data",
+    "source": "Wikimedia Commons",
+    "total_vehicles": 61
+  },
+  "family_suv": {
+    "bmw_x5_g05": {
+      "name": "BMW X5 (G05)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_BMW_X5_xDrive30d_M_Sport_Automatic_3.0.jpg/1280px-2019_BMW_X5_xDrive30d_M_Sport_Automatic_3.0.jpg", "view": "front_quarter"},
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/BMW_X5_%28G05%29_IMG_0363.jpg/1280px-BMW_X5_%28G05%29_IMG_0363.jpg", "view": "side"}
+      ]
+    },
+    "bmw_x3_g01": {
+      "name": "BMW X3 (G01)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2018_BMW_X3_xDrive20d_M_Sport_Automatic_2.0_Front.jpg/1280px-2018_BMW_X3_xDrive20d_M_Sport_Automatic_2.0_Front.jpg", "view": "front"}
+      ]
+    },
+    "bmw_ix_i20": {
+      "name": "BMW iX (i20)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/BMW_iX_xDrive50_%28I20%29_1X7A0124.jpg/1280px-BMW_iX_xDrive50_%28I20%29_1X7A0124.jpg", "view": "front_quarter"}
+      ]
+    },
+    "mercedes_gle_v167": {
+      "name": "Mercedes-Benz GLE (V167)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2019_Mercedes-Benz_GLE_300d_4Matic_AMG_Line_Premium_2.0_Front.jpg/1280px-2019_Mercedes-Benz_GLE_300d_4Matic_AMG_Line_Premium_2.0_Front.jpg", "view": "front"}
+      ]
+    },
+    "mercedes_glc_x254": {
+      "name": "Mercedes-Benz GLC (X254)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mercedes-Benz_GLC_200_%28X_254%29_1X7A9891.jpg/1280px-Mercedes-Benz_GLC_200_%28X_254%29_1X7A9891.jpg", "view": "front_quarter"}
+      ]
+    },
+    "mercedes_eqs_suv_x296": {
+      "name": "Mercedes-Benz EQS SUV (X296)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mercedes-Benz_EQS_SUV_450%2B_%28X296%29_1X7A0152.jpg/1280px-Mercedes-Benz_EQS_SUV_450%2B_%28X296%29_1X7A0152.jpg", "view": "front_quarter"}
+      ]
+    },
+    "audi_q7_4m": {
+      "name": "Audi Q7 (4M)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2019_Audi_Q7_50_TDI_quattro_S_line_3.0_Front.jpg/1280px-2019_Audi_Q7_50_TDI_quattro_S_line_3.0_Front.jpg", "view": "front"}
+      ]
+    },
+    "audi_q5_fy": {
+      "name": "Audi Q5 (FY)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2019_Audi_Q5_40_TDI_quattro_S_line_2.0.jpg/1280px-2019_Audi_Q5_40_TDI_quattro_S_line_2.0.jpg", "view": "front_quarter"}
+      ]
+    },
+    "audi_q8_e_tron": {
+      "name": "Audi Q8 e-tron",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Audi_Q8_55_e-tron_quattro_%E2%80%93_f_09042023.jpg/1280px-Audi_Q8_55_e-tron_quattro_%E2%80%93_f_09042023.jpg", "view": "front"}
+      ]
+    },
+    "vw_tiguan_ad": {
+      "name": "Volkswagen Tiguan (AD)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/VW_Tiguan_2.0_TDI_4MOTION_R-Line_%28II%29_%E2%80%93_Frontansicht%2C_12._Juni_2016%2C_D%C3%BCsseldorf.jpg/1280px-VW_Tiguan_2.0_TDI_4MOTION_R-Line_%28II%29_%E2%80%93_Frontansicht%2C_12._Juni_2016%2C_D%C3%BCsseldorf.jpg", "view": "front"}
+      ]
+    },
+    "vw_touareg_cr": {
+      "name": "Volkswagen Touareg (CR)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/VW_Touareg_3.0_TDI_4MOTION_%28CR%29_%E2%80%93_f_13072019.jpg/1280px-VW_Touareg_3.0_TDI_4MOTION_%28CR%29_%E2%80%93_f_13072019.jpg", "view": "front"}
+      ]
+    },
+    "vw_id4": {
+      "name": "Volkswagen ID.4",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/VW_ID.4_Pro_Performance_%E2%80%93_f_30042021.jpg/1280px-VW_ID.4_Pro_Performance_%E2%80%93_f_30042021.jpg", "view": "front"}
+      ]
+    },
+    "skoda_kodiaq": {
+      "name": "Škoda Kodiaq",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%C5%A0koda_Kodiaq_2.0_TDI_4x4_Style_%28NS%29_%E2%80%93_f_30042017.jpg/1280px-%C5%A0koda_Kodiaq_2.0_TDI_4x4_Style_%28NS%29_%E2%80%93_f_30042017.jpg", "view": "front"}
+      ]
+    },
+    "skoda_enyaq": {
+      "name": "Škoda Enyaq iV",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/%C5%A0koda_Enyaq_iV_80_%E2%80%93_f_30042021.jpg/1280px-%C5%A0koda_Enyaq_iV_80_%E2%80%93_f_30042021.jpg", "view": "front"}
+      ]
+    },
+    "tesla_model_y": {
+      "name": "Tesla Model Y",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Tesla_Model_Y_1X7A6051.jpg/1280px-Tesla_Model_Y_1X7A6051.jpg", "view": "front_quarter"}
+      ]
+    },
+    "tesla_model_3": {
+      "name": "Tesla Model 3",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2019_Tesla_Model_3_Performance_AWD_Front.jpg/1280px-2019_Tesla_Model_3_Performance_AWD_Front.jpg", "view": "front"}
+      ]
+    },
+    "toyota_rav4": {
+      "name": "Toyota RAV4",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2019_Toyota_RAV4_Design_AWD_2.5.jpg/1280px-2019_Toyota_RAV4_Design_AWD_2.5.jpg", "view": "front_quarter"}
+      ]
+    },
+    "volvo_xc90": {
+      "name": "Volvo XC90",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2019_Volvo_XC90_T5_Momentum_Pro_AWD_2.0.jpg/1280px-2019_Volvo_XC90_T5_Momentum_Pro_AWD_2.0.jpg", "view": "front_quarter"}
+      ]
+    },
+    "volvo_xc60": {
+      "name": "Volvo XC60",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2018_Volvo_XC60_T5_Inscription_Pro_AWD_Automatic_2.0_Front.jpg/1280px-2018_Volvo_XC60_T5_Inscription_Pro_AWD_Automatic_2.0_Front.jpg", "view": "front"}
+      ]
+    },
+    "volvo_xc40": {
+      "name": "Volvo XC40",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2018_Volvo_XC40_First_Edition_T5_AWD_Automatic_2.0.jpg/1280px-2018_Volvo_XC40_First_Edition_T5_AWD_Automatic_2.0.jpg", "view": "front"}
+      ]
+    },
+    "ford_mustang_mach_e": {
+      "name": "Ford Mustang Mach-E",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ford_Mustang_Mach-E_IMG_4155.jpg/1280px-Ford_Mustang_Mach-E_IMG_4155.jpg", "view": "front_quarter"}
+      ]
+    },
+    "kia_ev6": {
+      "name": "Kia EV6",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kia_EV6_GT-Line_1X7A0001.jpg/1280px-Kia_EV6_GT-Line_1X7A0001.jpg", "view": "front_quarter"}
+      ]
+    },
+    "rivian_r1s": {
+      "name": "Rivian R1S",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Rivian_R1S_1X7A0203.jpg/1280px-Rivian_R1S_1X7A0203.jpg", "view": "front_quarter"}
+      ]
+    },
+    "peugeot_3008": {
+      "name": "Peugeot 3008",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Peugeot_3008_II_GT_Pack_PureTech_180_EAT8.jpg/1280px-Peugeot_3008_II_GT_Pack_PureTech_180_EAT8.jpg", "view": "front_quarter"}
+      ]
+    },
+    "peugeot_5008": {
+      "name": "Peugeot 5008",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Peugeot_5008_II_IMG_0321.jpg/1280px-Peugeot_5008_II_IMG_0321.jpg", "view": "front_quarter"}
+      ]
+    },
+    "porsche_cayenne_e3": {
+      "name": "Porsche Cayenne (E3)",
+      "interior_data": true,
+      "isofix_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Porsche_Cayenne_Turbo_%28E3%29_IMG_3439.jpg/1280px-Porsche_Cayenne_Turbo_%28E3%29_IMG_3439.jpg", "view": "front_quarter"}
+      ]
+    }
+  },
+  "family_wagons": {
+    "bmw_3_series_touring_g21": {
+      "name": "BMW 3 Series Touring (G21)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/BMW_320d_xDrive_Touring_M_Sport_%28G21%29_%E2%80%93_f_11012020.jpg/1280px-BMW_320d_xDrive_Touring_M_Sport_%28G21%29_%E2%80%93_f_11012020.jpg", "view": "front"}
+      ]
+    },
+    "mercedes_c_class_estate_s206": {
+      "name": "Mercedes-Benz C-Class Estate (S206)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Mercedes-Benz_C_220_d_T_AMG_Line_%28S_206%29_%E2%80%93_f_11062022.jpg/1280px-Mercedes-Benz_C_220_d_T_AMG_Line_%28S_206%29_%E2%80%93_f_11062022.jpg", "view": "front"}
+      ]
+    },
+    "audi_a4_avant_b9": {
+      "name": "Audi A4 Avant (B9)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Audi_A4_Avant_2.0_TDI_quattro_S_line_%28B9%29_%E2%80%93_Frontansicht%2C_22._August_2016%2C_D%C3%BCsseldorf.jpg/1280px-Audi_A4_Avant_2.0_TDI_quattro_S_line_%28B9%29_%E2%80%93_Frontansicht%2C_22._August_2016%2C_D%C3%BCsseldorf.jpg", "view": "front"}
+      ]
+    },
+    "vw_passat_variant_b9": {
+      "name": "Volkswagen Passat Variant (B9)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/VW_Passat_Variant_%28B9%29_1X7A0267.jpg/1280px-VW_Passat_Variant_%28B9%29_1X7A0267.jpg", "view": "front_quarter"}
+      ]
+    },
+    "skoda_octavia_combi_nx": {
+      "name": "Škoda Octavia Combi (NX)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%C5%A0koda_Octavia_Combi_2.0_TDI_Style_%28NX%29_%E2%80%93_f_30042021.jpg/1280px-%C5%A0koda_Octavia_Combi_2.0_TDI_Style_%28NX%29_%E2%80%93_f_30042021.jpg", "view": "front"}
+      ]
+    },
+    "skoda_superb_combi_np": {
+      "name": "Škoda Superb Combi (NP)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/%C5%A0koda_Superb_Combi_%28NP%29_1X7A1106.jpg/1280px-%C5%A0koda_Superb_Combi_%28NP%29_1X7A1106.jpg", "view": "front_quarter"}
+      ]
+    },
+    "volvo_v60": {
+      "name": "Volvo V60",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2019_Volvo_V60_Inscription_T5_facelift_2.0_Front.jpg/1280px-2019_Volvo_V60_Inscription_T5_facelift_2.0_Front.jpg", "view": "front"}
+      ]
+    },
+    "volvo_v90": {
+      "name": "Volvo V90",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2019_Volvo_V90_Cross_Country_Pro_D5_AWD_Automatic_2.0_Front.jpg/1280px-2019_Volvo_V90_Cross_Country_Pro_D5_AWD_Automatic_2.0_Front.jpg", "view": "front"}
+      ]
+    }
+  },
+  "family_vans": {
+    "vw_multivan_t7": {
+      "name": "Volkswagen Multivan (T7)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/VW_Multivan_%28T7%29_1X7A0223.jpg/1280px-VW_Multivan_%28T7%29_1X7A0223.jpg", "view": "front_quarter"}
+      ]
+    },
+    "mercedes_v_class_w447": {
+      "name": "Mercedes-Benz V-Class (W447)",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2019_Mercedes-Benz_V250d_Marco_Polo_Horizon_AMG_Line_2.1_Front.jpg/1280px-2019_Mercedes-Benz_V250d_Marco_Polo_Horizon_AMG_Line_2.1_Front.jpg", "view": "front"}
+      ]
+    },
+    "vw_id_buzz": {
+      "name": "Volkswagen ID. Buzz",
+      "interior_data": true,
+      "photos": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/VW_ID._Buzz_1X7A0135.jpg/1280px-VW_ID._Buzz_1X7A0135.jpg", "view": "front_quarter"}
+      ]
+    }
+  },
+  "statistics": {
+    "total_vehicles": 38,
+    "with_interior_dimensions": 38,
+    "with_isofix_data": 26,
+    "by_body_type": {
+      "suv": 26,
+      "wagon": 8,
+      "van": 3,
+      "crossover": 1
+    }
+  }
+}

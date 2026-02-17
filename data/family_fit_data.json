@@ -1,0 +1,4183 @@
+[
+  {
+    "generation_id": "6de66d15-7c40-46b3-9cbc-ce892aab4a05",
+    "brand": "bmw",
+    "model": "iX",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1481,
+    "rear_legroom_mm": 988,
+    "width_per_seat_mm": 494,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_dealers_usnews"
+  },
+  {
+    "generation_id": "6b51ce99-a21e-4658-b904-140abb77f946",
+    "brand": "mercedes-benz",
+    "model": "EQS-SUV",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1034,
+    "rear_shoulder_room_mm": 1486,
+    "rear_legroom_mm": 1041,
+    "width_per_seat_mm": 495,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "usnews_mercedes"
+  },
+  {
+    "generation_id": "f26166f4-01ae-4dfe-a96e-b3fb9e9fa236",
+    "brand": "audi",
+    "model": "Q8-e-tron",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 981,
+    "rear_shoulder_room_mm": 1455,
+    "rear_legroom_mm": 993,
+    "width_per_seat_mm": 485,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_media_edmunds"
+  },
+  {
+    "generation_id": "f26166f4-01ae-4dfe-a96e-b3fb9e9fa236",
+    "brand": "audi",
+    "model": "Q8-e-tron-Sportback",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 963,
+    "rear_shoulder_room_mm": 1453,
+    "rear_legroom_mm": 993,
+    "width_per_seat_mm": 484,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_media_carbuzz"
+  },
+  {
+    "generation_id": "f12b66ae-4027-47da-b2c9-e74fb3f62210",
+    "brand": "toyota",
+    "model": "RAV4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1433,
+    "rear_legroom_mm": 960,
+    "width_per_seat_mm": 478,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "toyota_dealers"
+  },
+  {
+    "generation_id": "4c427eb3-566b-4909-a7a0-3d574fed172b",
+    "brand": "ford",
+    "model": "Mustang-Mach-E",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 998,
+    "rear_shoulder_room_mm": 1420,
+    "rear_legroom_mm": 968,
+    "width_per_seat_mm": 473,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "ford_dealers_usnews"
+  },
+  {
+    "generation_id": "f15c593a-ccd5-42f8-bfe5-58501b538eeb",
+    "brand": "kia",
+    "model": "EV6",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1443,
+    "rear_legroom_mm": 991,
+    "width_per_seat_mm": 481,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "kia_dealers"
+  },
+  {
+    "generation_id": "81defa5e-2a7f-4659-9bce-9166a0898330",
+    "brand": "volvo",
+    "model": "XC40",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 978,
+    "rear_shoulder_room_mm": 1397,
+    "rear_legroom_mm": 927,
+    "width_per_seat_mm": 466,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1397mm < 1400mm minimum)"
+    },
+    "source": "volvo_official"
+  },
+  {
+    "generation_id": "5740977f-bedc-4609-9a0f-261d9f5349dc",
+    "brand": "volvo",
+    "model": "XC90",
+    "year": 2024,
+    "isofix_points": 3,
+    "isofix_positions": [
+      "left",
+      "center",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1008,
+    "rear_shoulder_room_mm": 1471,
+    "rear_legroom_mm": 927,
+    "width_per_seat_mm": 490,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "excellent",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "excellent",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "volvo_official"
+  },
+  {
+    "generation_id": "df545e90-626d-4677-a4c7-b4104492cc6e",
+    "brand": "bmw",
+    "model": "3-series",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "f3b7f75b-bd20-457e-91cb-19052fd798d4",
+    "brand": "audi",
+    "model": "q5",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 958,
+    "rear_shoulder_room_mm": 1435,
+    "rear_legroom_mm": 965,
+    "width_per_seat_mm": 478,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "dd9e9b27-69f0-4429-88de-c04ab6c57fca",
+    "brand": "volkswagen",
+    "model": "tiguan",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 988,
+    "rear_shoulder_room_mm": 1417,
+    "rear_legroom_mm": 983,
+    "width_per_seat_mm": 472,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "41262eec-769f-44d3-888a-a30e5969861e",
+    "brand": "mercedes-benz",
+    "model": "glc",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1008,
+    "rear_shoulder_room_mm": 1438,
+    "rear_legroom_mm": 950,
+    "width_per_seat_mm": 479,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "mercedes_dealer"
+  },
+  {
+    "generation_id": "eb0b8c1f-82dc-49df-85b7-dc6ccd6036a7",
+    "brand": "skoda",
+    "model": "kodiaq",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1015,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "61fb236a-6c73-4945-9433-325f5df37069",
+    "brand": "skoda",
+    "model": "octavia",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 985,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "065e8e7a-751c-4a40-946f-c1b4ac45dcba",
+    "brand": "porsche",
+    "model": "cayenne",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_dealer"
+  },
+  {
+    "generation_id": "6799925f-544d-4c3a-becf-be1932e2e6fa",
+    "brand": "bmw",
+    "model": "x3",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1432,
+    "rear_legroom_mm": 927,
+    "width_per_seat_mm": 477,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "af5d19de-8caa-495e-acee-7ec171030abe",
+    "brand": "audi",
+    "model": "a4",
+    "year": "2024",
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 925,
+    "rear_shoulder_room_mm": 1380,
+    "rear_legroom_mm": 892,
+    "width_per_seat_mm": 460,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1380mm < 1400mm minimum)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "df545e90-626d-4677-a4c7-b4104492cc6e",
+    "brand": "bmw",
+    "model": "3-series",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "ef2d4b86-e565-43be-b8c2-620ea6375718",
+    "brand": "bmw",
+    "model": "x1",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 998,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 940,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "6799925f-544d-4c3a-becf-be1932e2e6fa",
+    "brand": "bmw",
+    "model": "x3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1432,
+    "rear_legroom_mm": 927,
+    "width_per_seat_mm": 477,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "9e8bfe26-0dae-47d9-89ee-3b664f8ee1ec",
+    "brand": "bmw",
+    "model": "x5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 983,
+    "rear_shoulder_room_mm": 1476,
+    "rear_legroom_mm": 950,
+    "width_per_seat_mm": 492,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "86ff940d-e7ee-42f9-b968-1c333de48c5a",
+    "brand": "audi",
+    "model": "a3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 930,
+    "rear_shoulder_room_mm": 1367,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 456,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1367mm < 1400mm minimum)"
+    },
+    "source": "carbuzz"
+  },
+  {
+    "generation_id": "af5d19de-8caa-495e-acee-7ec171030abe",
+    "brand": "audi",
+    "model": "a4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 925,
+    "rear_shoulder_room_mm": 1380,
+    "rear_legroom_mm": 892,
+    "width_per_seat_mm": 460,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1380mm < 1400mm minimum)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "f3b7f75b-bd20-457e-91cb-19052fd798d4",
+    "brand": "audi",
+    "model": "q5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 958,
+    "rear_shoulder_room_mm": 1435,
+    "rear_legroom_mm": 965,
+    "width_per_seat_mm": 478,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "f1af2625-a7c8-42ee-8ed5-a797eef46ecd",
+    "brand": "audi",
+    "model": "q7",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1486,
+    "rear_legroom_mm": 986,
+    "width_per_seat_mm": 495,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_dealer"
+  },
+  {
+    "generation_id": "546db9a5-db14-4417-85a4-de1f248897fe",
+    "brand": "mercedes-benz",
+    "model": "e-class",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 970,
+    "rear_shoulder_room_mm": 1445,
+    "rear_legroom_mm": 909,
+    "width_per_seat_mm": 482,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "thecarconnection"
+  },
+  {
+    "generation_id": "41262eec-769f-44d3-888a-a30e5969861e",
+    "brand": "mercedes-benz",
+    "model": "glc",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1008,
+    "rear_shoulder_room_mm": 1438,
+    "rear_legroom_mm": 950,
+    "width_per_seat_mm": 479,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "mercedes_dealer"
+  },
+  {
+    "generation_id": "808b9a57-a342-4126-bcd1-a9f37971865d",
+    "brand": "mercedes-benz",
+    "model": "gle",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1026,
+    "rear_shoulder_room_mm": 1481,
+    "rear_legroom_mm": 1039,
+    "width_per_seat_mm": 494,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "caranddriver"
+  },
+  {
+    "generation_id": "dd9e9b27-69f0-4429-88de-c04ab6c57fca",
+    "brand": "volkswagen",
+    "model": "tiguan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 988,
+    "rear_shoulder_room_mm": 1417,
+    "rear_legroom_mm": 983,
+    "width_per_seat_mm": 472,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "3e96ef4c-e412-41fb-9c70-d88ab7206e12",
+    "brand": "volkswagen",
+    "model": "passat",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1448,
+    "rear_legroom_mm": 992,
+    "width_per_seat_mm": 483,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "vw_press"
+  },
+  {
+    "generation_id": "d482ed52-3118-4491-bcb0-afcf46c025a7",
+    "brand": "volkswagen",
+    "model": "golf",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 979,
+    "rear_shoulder_room_mm": 1396,
+    "rear_legroom_mm": 903,
+    "width_per_seat_mm": 465,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1396mm < 1400mm minimum)"
+    },
+    "source": "vw_official"
+  },
+  {
+    "generation_id": "eb0b8c1f-82dc-49df-85b7-dc6ccd6036a7",
+    "brand": "skoda",
+    "model": "kodiaq",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1015,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "61fb236a-6c73-4945-9433-325f5df37069",
+    "brand": "skoda",
+    "model": "octavia",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 985,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "d6e4d88c-173c-4be5-8740-8d5d426d9a6e",
+    "brand": "skoda",
+    "model": "superb",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "d6e4d88c-173c-4be5-8740-8d5d426d9a6e",
+    "brand": "skoda",
+    "model": "superb-combi",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "065e8e7a-751c-4a40-946f-c1b4ac45dcba",
+    "brand": "porsche",
+    "model": "cayenne",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_dealer"
+  },
+  {
+    "generation_id": "aa634510-ca6d-48ec-82a1-28befc606c78",
+    "brand": "porsche",
+    "model": "macan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "9e8bfe26-0dae-47d9-89ee-3b664f8ee1ec",
+    "brand": "bmw",
+    "model": "5-series",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 970,
+    "rear_shoulder_room_mm": 1445,
+    "rear_legroom_mm": 943,
+    "width_per_seat_mm": 482,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_official"
+  },
+  {
+    "generation_id": "dc503375-9a44-4fdc-b491-62b569bae02d",
+    "brand": "audi",
+    "model": "a6",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 947,
+    "rear_shoulder_room_mm": 1421,
+    "rear_legroom_mm": 930,
+    "width_per_seat_mm": 474,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_official"
+  },
+  {
+    "generation_id": "df545e90-626d-4677-a4c7-b4104492cc6e",
+    "brand": "bmw",
+    "model": "3-series",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "a0baa135-b578-48a4-9250-b7f1b0fe922c",
+    "brand": "bmw",
+    "model": "m340i",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "a0baa135-b578-48a4-9250-b7f1b0fe922c",
+    "brand": "bmw",
+    "model": "m3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 960,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 904,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "richmond_bmw"
+  },
+  {
+    "generation_id": "a537f9f2-4d2b-43ef-82f0-69f5d21da257",
+    "brand": "bmw",
+    "model": "i4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 930,
+    "rear_shoulder_room_mm": 1379,
+    "rear_legroom_mm": 869,
+    "width_per_seat_mm": 460,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1379mm < 1400mm minimum)"
+    },
+    "source": "bmw_seattle"
+  },
+  {
+    "generation_id": "ef2d4b86-e565-43be-b8c2-620ea6375718",
+    "brand": "bmw",
+    "model": "x1",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 998,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 940,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "6799925f-544d-4c3a-becf-be1932e2e6fa",
+    "brand": "bmw",
+    "model": "x3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1432,
+    "rear_legroom_mm": 927,
+    "width_per_seat_mm": 477,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "9e8bfe26-0dae-47d9-89ee-3b664f8ee1ec",
+    "brand": "bmw",
+    "model": "x5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 983,
+    "rear_shoulder_room_mm": 1476,
+    "rear_legroom_mm": 950,
+    "width_per_seat_mm": 492,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "9e8bfe26-0dae-47d9-89ee-3b664f8ee1ec",
+    "brand": "bmw",
+    "model": "5-series",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 970,
+    "rear_shoulder_room_mm": 1445,
+    "rear_legroom_mm": 943,
+    "width_per_seat_mm": 482,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_official"
+  },
+  {
+    "generation_id": "86ff940d-e7ee-42f9-b968-1c333de48c5a",
+    "brand": "audi",
+    "model": "a3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 930,
+    "rear_shoulder_room_mm": 1367,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 456,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1367mm < 1400mm minimum)"
+    },
+    "source": "carbuzz"
+  },
+  {
+    "generation_id": "af5d19de-8caa-495e-acee-7ec171030abe",
+    "brand": "audi",
+    "model": "a4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 925,
+    "rear_shoulder_room_mm": 1380,
+    "rear_legroom_mm": 892,
+    "width_per_seat_mm": 460,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1380mm < 1400mm minimum)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "dc503375-9a44-4fdc-b491-62b569bae02d",
+    "brand": "audi",
+    "model": "a6",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 947,
+    "rear_shoulder_room_mm": 1421,
+    "rear_legroom_mm": 930,
+    "width_per_seat_mm": 474,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_official"
+  },
+  {
+    "generation_id": "f3b7f75b-bd20-457e-91cb-19052fd798d4",
+    "brand": "audi",
+    "model": "q5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 958,
+    "rear_shoulder_room_mm": 1435,
+    "rear_legroom_mm": 965,
+    "width_per_seat_mm": 478,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "f1af2625-a7c8-42ee-8ed5-a797eef46ecd",
+    "brand": "audi",
+    "model": "q7",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1486,
+    "rear_legroom_mm": 986,
+    "width_per_seat_mm": 495,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_dealer"
+  },
+  {
+    "generation_id": "546db9a5-db14-4417-85a4-de1f248897fe",
+    "brand": "mercedes-benz",
+    "model": "c-class",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 953,
+    "rear_shoulder_room_mm": 1412,
+    "rear_legroom_mm": 914,
+    "width_per_seat_mm": 471,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "statecollegemercedes"
+  },
+  {
+    "generation_id": "546db9a5-db14-4417-85a4-de1f248897fe",
+    "brand": "mercedes-benz",
+    "model": "e-class",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 970,
+    "rear_shoulder_room_mm": 1445,
+    "rear_legroom_mm": 909,
+    "width_per_seat_mm": 482,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "thecarconnection"
+  },
+  {
+    "generation_id": "41262eec-769f-44d3-888a-a30e5969861e",
+    "brand": "mercedes-benz",
+    "model": "glc",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1008,
+    "rear_shoulder_room_mm": 1438,
+    "rear_legroom_mm": 950,
+    "width_per_seat_mm": 479,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "mercedes_dealer"
+  },
+  {
+    "generation_id": "808b9a57-a342-4126-bcd1-a9f37971865d",
+    "brand": "mercedes-benz",
+    "model": "gle",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1026,
+    "rear_shoulder_room_mm": 1481,
+    "rear_legroom_mm": 1039,
+    "width_per_seat_mm": 494,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "caranddriver"
+  },
+  {
+    "generation_id": "dd9e9b27-69f0-4429-88de-c04ab6c57fca",
+    "brand": "volkswagen",
+    "model": "tiguan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 988,
+    "rear_shoulder_room_mm": 1417,
+    "rear_legroom_mm": 983,
+    "width_per_seat_mm": 472,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "3e96ef4c-e412-41fb-9c70-d88ab7206e12",
+    "brand": "volkswagen",
+    "model": "passat",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1448,
+    "rear_legroom_mm": 992,
+    "width_per_seat_mm": 483,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "vw_press"
+  },
+  {
+    "generation_id": "d482ed52-3118-4491-bcb0-afcf46c025a7",
+    "brand": "volkswagen",
+    "model": "golf",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 979,
+    "rear_shoulder_room_mm": 1396,
+    "rear_legroom_mm": 903,
+    "width_per_seat_mm": 465,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1396mm < 1400mm minimum)"
+    },
+    "source": "vw_official"
+  },
+  {
+    "generation_id": "eb0b8c1f-82dc-49df-85b7-dc6ccd6036a7",
+    "brand": "skoda",
+    "model": "kodiaq",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1015,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "61fb236a-6c73-4945-9433-325f5df37069",
+    "brand": "skoda",
+    "model": "octavia",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 985,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "d6e4d88c-173c-4be5-8740-8d5d426d9a6e",
+    "brand": "skoda",
+    "model": "superb",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "d6e4d88c-173c-4be5-8740-8d5d426d9a6e",
+    "brand": "skoda",
+    "model": "superb-combi",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "4232a696-ef4b-437c-87d7-8a3c682be577",
+    "brand": "porsche",
+    "model": "911",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "c08a6c8c-087a-48be-8e12-f24c350f66eb",
+    "brand": "porsche",
+    "model": "taycan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "065e8e7a-751c-4a40-946f-c1b4ac45dcba",
+    "brand": "porsche",
+    "model": "cayenne",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_dealer"
+  },
+  {
+    "generation_id": "aa634510-ca6d-48ec-82a1-28befc606c78",
+    "brand": "porsche",
+    "model": "macan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "47858d45-aae4-4b01-87e6-3c99db7ea9a8",
+    "brand": "hyundai",
+    "model": "ioniq-5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 953,
+    "rear_shoulder_room_mm": 1466,
+    "rear_legroom_mm": 1001,
+    "width_per_seat_mm": 489,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "doral_hyundai"
+  },
+  {
+    "generation_id": "df545e90-626d-4677-a4c7-b4104492cc6e",
+    "brand": "bmw",
+    "model": "3-series",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "a0baa135-b578-48a4-9250-b7f1b0fe922c",
+    "brand": "bmw",
+    "model": "m340i",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "d8e0d2cf-0a62-41c8-af07-8ef9630a16a1",
+    "brand": "bmw",
+    "model": "320d-touring",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 955,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "bmw_platform"
+  },
+  {
+    "generation_id": "a0baa135-b578-48a4-9250-b7f1b0fe922c",
+    "brand": "bmw",
+    "model": "m3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 960,
+    "rear_shoulder_room_mm": 1387,
+    "rear_legroom_mm": 904,
+    "width_per_seat_mm": 462,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1387mm < 1400mm minimum)"
+    },
+    "source": "richmond_bmw"
+  },
+  {
+    "generation_id": "d8e0d2cf-0a62-41c8-af07-8ef9630a16a1",
+    "brand": "bmw",
+    "model": "m2",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 927,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 838,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "richmond_bmw"
+  },
+  {
+    "generation_id": "a537f9f2-4d2b-43ef-82f0-69f5d21da257",
+    "brand": "bmw",
+    "model": "i4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 930,
+    "rear_shoulder_room_mm": 1379,
+    "rear_legroom_mm": 869,
+    "width_per_seat_mm": 460,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1379mm < 1400mm minimum)"
+    },
+    "source": "bmw_seattle"
+  },
+  {
+    "generation_id": "c63151bd-b0de-42c9-9f53-8f00bf5f3a06",
+    "brand": "bmw",
+    "model": "z4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "braman_bmw"
+  },
+  {
+    "generation_id": "ef2d4b86-e565-43be-b8c2-620ea6375718",
+    "brand": "bmw",
+    "model": "x1",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 998,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 940,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "6799925f-544d-4c3a-becf-be1932e2e6fa",
+    "brand": "bmw",
+    "model": "x3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1432,
+    "rear_legroom_mm": 927,
+    "width_per_seat_mm": 477,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "bbad53a7-ea90-4949-846a-35808a42c8ec",
+    "brand": "bmw",
+    "model": "x3-m40i",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1432,
+    "rear_legroom_mm": 927,
+    "width_per_seat_mm": 477,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "9e8bfe26-0dae-47d9-89ee-3b664f8ee1ec",
+    "brand": "bmw",
+    "model": "x5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 983,
+    "rear_shoulder_room_mm": 1476,
+    "rear_legroom_mm": 950,
+    "width_per_seat_mm": 492,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_dealer"
+  },
+  {
+    "generation_id": "9e8bfe26-0dae-47d9-89ee-3b664f8ee1ec",
+    "brand": "bmw",
+    "model": "5-series",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 970,
+    "rear_shoulder_room_mm": 1445,
+    "rear_legroom_mm": 943,
+    "width_per_seat_mm": 482,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "bmw_official"
+  },
+  {
+    "generation_id": "86ff940d-e7ee-42f9-b968-1c333de48c5a",
+    "brand": "audi",
+    "model": "a3",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 930,
+    "rear_shoulder_room_mm": 1367,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 456,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1367mm < 1400mm minimum)"
+    },
+    "source": "carbuzz"
+  },
+  {
+    "generation_id": "af5d19de-8caa-495e-acee-7ec171030abe",
+    "brand": "audi",
+    "model": "a4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1384,
+    "rear_legroom_mm": 907,
+    "width_per_seat_mm": 461,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1384mm < 1400mm minimum)"
+    },
+    "source": "audiwpb"
+  },
+  {
+    "generation_id": "af5d19de-8caa-495e-acee-7ec171030abe",
+    "brand": "audi",
+    "model": "a4-avant",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 907,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "usnews"
+  },
+  {
+    "generation_id": "b9fb2849-113a-40ba-b9c1-44bdd4bf05c7",
+    "brand": "audi",
+    "model": "rs4-avant",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1384,
+    "rear_legroom_mm": 907,
+    "width_per_seat_mm": 461,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1384mm < 1400mm minimum)"
+    },
+    "source": "audiwpb"
+  },
+  {
+    "generation_id": "01a90011-d9c1-4102-a761-955142e5815b",
+    "brand": "audi",
+    "model": "tt-rs",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 859,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 734,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "autopadre_truecar"
+  },
+  {
+    "generation_id": "f3b7f75b-bd20-457e-91cb-19052fd798d4",
+    "brand": "audi",
+    "model": "sq5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 998,
+    "rear_shoulder_room_mm": 1435,
+    "rear_legroom_mm": 965,
+    "width_per_seat_mm": 478,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_nw_indiana"
+  },
+  {
+    "generation_id": "dc503375-9a44-4fdc-b491-62b569bae02d",
+    "brand": "audi",
+    "model": "a6",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 947,
+    "rear_shoulder_room_mm": 1421,
+    "rear_legroom_mm": 930,
+    "width_per_seat_mm": 474,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "good",
+        "center": "not_recommended",
+        "right": "good"
+      },
+      "booster": {
+        "left": "good",
+        "center": "tight",
+        "right": "good"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_official"
+  },
+  {
+    "generation_id": "f3b7f75b-bd20-457e-91cb-19052fd798d4",
+    "brand": "audi",
+    "model": "q5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 998,
+    "rear_shoulder_room_mm": 1435,
+    "rear_legroom_mm": 965,
+    "width_per_seat_mm": 478,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "f1af2625-a7c8-42ee-8ed5-a797eef46ecd",
+    "brand": "audi",
+    "model": "q7",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1486,
+    "rear_legroom_mm": 986,
+    "width_per_seat_mm": 495,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "audi_dealer"
+  },
+  {
+    "generation_id": "f26166f4-01ae-4dfe-a96e-b3fb9e9fa236",
+    "brand": "audi",
+    "model": "e-tron-gt",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 818,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "kbb"
+  },
+  {
+    "generation_id": "546db9a5-db14-4417-85a4-de1f248897fe",
+    "brand": "mercedes-benz",
+    "model": "c-class",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 953,
+    "rear_shoulder_room_mm": 1412,
+    "rear_legroom_mm": 914,
+    "width_per_seat_mm": 471,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "statecollegemercedes"
+  },
+  {
+    "generation_id": "ddcaa5e0-1a1b-4130-a70a-0a200ba9a990",
+    "brand": "mercedes-benz",
+    "model": "eqe",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 965,
+    "rear_shoulder_room_mm": 1420,
+    "rear_legroom_mm": 970,
+    "width_per_seat_mm": 473,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "mboftysonscorner"
+  },
+  {
+    "generation_id": "546db9a5-db14-4417-85a4-de1f248897fe",
+    "brand": "mercedes-benz",
+    "model": "e-class",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 970,
+    "rear_shoulder_room_mm": 1445,
+    "rear_legroom_mm": 909,
+    "width_per_seat_mm": 482,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "thecarconnection"
+  },
+  {
+    "generation_id": "41262eec-769f-44d3-888a-a30e5969861e",
+    "brand": "mercedes-benz",
+    "model": "glc",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1008,
+    "rear_shoulder_room_mm": 1438,
+    "rear_legroom_mm": 950,
+    "width_per_seat_mm": 479,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "mercedes_dealer"
+  },
+  {
+    "generation_id": "808b9a57-a342-4126-bcd1-a9f37971865d",
+    "brand": "mercedes-benz",
+    "model": "gle",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1026,
+    "rear_shoulder_room_mm": 1481,
+    "rear_legroom_mm": 1039,
+    "width_per_seat_mm": 494,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "caranddriver"
+  },
+  {
+    "generation_id": "dd9e9b27-69f0-4429-88de-c04ab6c57fca",
+    "brand": "volkswagen",
+    "model": "tiguan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 988,
+    "rear_shoulder_room_mm": 1417,
+    "rear_legroom_mm": 983,
+    "width_per_seat_mm": 472,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "edmunds"
+  },
+  {
+    "generation_id": "3e96ef4c-e412-41fb-9c70-d88ab7206e12",
+    "brand": "volkswagen",
+    "model": "passat",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1448,
+    "rear_legroom_mm": 992,
+    "width_per_seat_mm": 483,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "vw_press"
+  },
+  {
+    "generation_id": "d482ed52-3118-4491-bcb0-afcf46c025a7",
+    "brand": "volkswagen",
+    "model": "golf",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 979,
+    "rear_shoulder_room_mm": 1396,
+    "rear_legroom_mm": 903,
+    "width_per_seat_mm": 465,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1396mm < 1400mm minimum)"
+    },
+    "source": "vw_official"
+  },
+  {
+    "generation_id": "e78a065f-8f04-4de2-8d69-6f255b3730c9",
+    "brand": "skoda",
+    "model": "karoq",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1020,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official_pdf"
+  },
+  {
+    "generation_id": "eb0b8c1f-82dc-49df-85b7-dc6ccd6036a7",
+    "brand": "skoda",
+    "model": "kodiaq",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 3,
+    "rear_headroom_mm": 1015,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "61fb236a-6c73-4945-9433-325f5df37069",
+    "brand": "skoda",
+    "model": "octavia",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 985,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "d6e4d88c-173c-4be5-8740-8d5d426d9a6e",
+    "brand": "skoda",
+    "model": "superb-combi",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 986,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "skoda_official"
+  },
+  {
+    "generation_id": "4232a696-ef4b-437c-87d7-8a3c682be577",
+    "brand": "porsche",
+    "model": "911",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "9744d45d-7758-4dd5-8cbe-7fe1d9fa043a",
+    "brand": "porsche",
+    "model": "cayman-gt4",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "c08a6c8c-087a-48be-8e12-f24c350f66eb",
+    "brand": "porsche",
+    "model": "taycan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "aa634510-ca6d-48ec-82a1-28befc606c78",
+    "brand": "porsche",
+    "model": "macan",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 950,
+    "rear_shoulder_room_mm": 1400,
+    "rear_legroom_mm": 900,
+    "width_per_seat_mm": 467,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "porsche_official"
+  },
+  {
+    "generation_id": "47858d45-aae4-4b01-87e6-3c99db7ea9a8",
+    "brand": "hyundai",
+    "model": "ioniq-5",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 953,
+    "rear_shoulder_room_mm": 1466,
+    "rear_legroom_mm": 1001,
+    "width_per_seat_mm": 489,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "doral_hyundai"
+  },
+  {
+    "generation_id": "1e57c6b0-8289-4bcf-b49a-99d5c47b3533",
+    "brand": "hyundai",
+    "model": "tucson",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 1003,
+    "rear_shoulder_room_mm": 1422,
+    "rear_legroom_mm": 1049,
+    "width_per_seat_mm": 474,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": true,
+      "reason": "Possible avec sièges étroits (type Diono)"
+    },
+    "source": "checkeredflaghyundaiworld"
+  },
+  {
+    "generation_id": "3324d568-3fcf-4fa9-ae5f-846c01259c26",
+    "brand": "volvo",
+    "model": "v60",
+    "year": 2024,
+    "isofix_points": 2,
+    "isofix_positions": [
+      "left",
+      "right"
+    ],
+    "top_tether_points": 2,
+    "rear_headroom_mm": 968,
+    "rear_shoulder_room_mm": 1384,
+    "rear_legroom_mm": 894,
+    "width_per_seat_mm": 461,
+    "compatibility": {
+      "infant": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "toddler": {
+        "left": "excellent",
+        "center": "not_recommended",
+        "right": "excellent"
+      },
+      "booster": {
+        "left": "excellent",
+        "center": "tight",
+        "right": "excellent"
+      }
+    },
+    "three_across": {
+      "possible": false,
+      "reason": "Largeur insuffisante (1384mm < 1400mm minimum)"
+    },
+    "source": "volvo_dealers"
+  }
+]

@@ -1,0 +1,91 @@
+╔══════════════════════════════════════════════════════════════╗
+║   FLM AUTO — DEDUP GENERATIONS 🔍 DRY-RUN                ║
+╚══════════════════════════════════════════════════════════════╝
+
+  ℹ️  Dry-run mode. Pass --execute to actually modify the database.
+
+  Loading brands... 32
+  Loading models... 1110
+  Loading generations... 4170
+  Loading spec counts... 321209 specs across 4172 gens
+
+═══════════════════════════════════════════════════════════════
+  DUPLICATE GROUPS: 81  |  DEFAULT MERGES: 14
+  TOTAL GENERATIONS TO REMOVE: 119
+═══════════════════════════════════════════════════════════════
+
+  🏷️  Mercedes-Benz — 77 groups, 97 to remove
+    Classe E: KEEP "w211" (88 specs)
+      ↳ MERGE "W211" (45 specs) → delete
+    Classe E: KEEP "w213" (105 specs)
+      ↳ MERGE "W213" (46 specs) → delete
+    Classe E: KEEP "w212" (94 specs)
+      ↳ MERGE "W212" (62 specs) → delete
+      ↳ MERGE "W212" (45 specs) → delete
+    Classe E: KEEP "w210" (70 specs)
+      ↳ MERGE "W210" (45 specs) → delete
+    Classe E: KEEP "w214" (97 specs)
+      ↳ MERGE "W214" (45 specs) → delete
+    ... +72 more groups
+
+  🏷️  Volkswagen — 6 groups, 7 to remove
+    ID.: KEEP "concept" (33 specs)
+      ↳ MERGE "concept" (30 specs) → delete
+    T: KEEP "facelift" (77 specs)
+      ↳ MERGE "facelift" (70 specs) → delete
+      ↳ MERGE "facelift" (68 specs) → delete
+    ID: KEEP "phideon" (96 specs)
+      ↳ MERGE "Default" (104 specs) → delete
+    Taigo: KEEP "taigo" (147 specs)
+      ↳ MERGE "Default" (93 specs) → delete
+    Lupo: KEEP "6x" (90 specs)
+      ↳ MERGE "Default" (84 specs) → delete
+    ... +1 more groups
+
+  🏷️  Porsche — 3 groups, 4 to remove
+    Boxster: KEEP "boxster" (98 specs)
+      ↳ MERGE "boxster" (95 specs) → delete
+      ↳ MERGE "boxster" (90 specs) → delete
+    Carrera: KEEP "carrera gt" (101 specs)
+      ↳ MERGE "Default" (146 specs) → delete
+    Macan: KEEP "i 95b" (103 specs)
+      ↳ MERGE "Default" (50 specs) → delete
+
+  🏷️  Skoda — 3 groups, 3 to remove
+    Elroq: KEEP "elroq" (71 specs)
+      ↳ MERGE "Default" (589 specs) → delete
+    Favorit: KEEP "favorit" (82 specs)
+      ↳ MERGE "Default" (164 specs) → delete
+    105: KEEP "120" (58 specs)
+      ↳ MERGE "Default" (131 specs) → delete
+
+  🏷️  Honda — 2 groups, 4 to remove
+    e: KEEP "ii" (105 specs)
+      ↳ MERGE "ii" (76 specs) → delete
+      ↳ MERGE "ii" (50 specs) → delete
+    e: KEEP "i" (118 specs)
+      ↳ MERGE "i" (69 specs) → delete
+      ↳ MERGE "i" (58 specs) → delete
+
+  🏷️  BMW — 2 groups, 2 to remove
+    XM: KEEP "G09" (135 specs)
+      ↳ MERGE "Default" (47 specs) → delete
+    2000: KEEP "E06" (87 specs)
+      ↳ MERGE "Default" (83 specs) → delete
+
+  🏷️  Lamborghini — 1 groups, 1 to remove
+    Huracan: KEEP "LP610" (45 specs)
+      ↳ MERGE "Default" (72 specs) → delete
+
+  🏷️  Audi — 1 groups, 1 to remove
+    100: KEEP "100 Coupe S" (42 specs)
+      ↳ MERGE "Default" (194 specs) → delete
+
+═══════════════════════════════════════════════════════════════
+  SUMMARY
+═══════════════════════════════════════════════════════════════
+  Duplicate groups found: 81
+  Default merge candidates: 14
+  Total gens to remove: 119
+  Mode: 🔍 DRY-RUN (pass --execute to apply)
+═══════════════════════════════════════════════════════════════

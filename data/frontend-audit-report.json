@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-02-13T11:00:00Z",
+  "build": {
+    "status": "pass",
+    "typescript_errors": 0,
+    "warnings": 1,
+    "warning_details": ["middleware file convention deprecated (use proxy)"],
+    "pages_static": 21,
+    "pages_dynamic": 28,
+    "pages_ssg": 5,
+    "total_routes": 54,
+    "build_time_seconds": 7.5,
+    "compiler": "turbopack"
+  },
+  "page_audit": [
+    {"page": "/", "status": "ok", "issues": [], "priority": null},
+    {"page": "/marques", "status": "ok", "issues": [], "priority": null},
+    {"page": "/marques/[brand]", "status": "ok", "issues": [], "priority": null},
+    {"page": "/marques/[brand]/[model]", "status": "ok", "issues": [], "priority": null},
+    {"page": "/marques/.../[generation]", "status": "ok", "issues": ["confidence badge now integrated"], "priority": null},
+    {"page": "/marques/.../securite", "status": "ok", "issues": ["confidence badge now integrated, EuroNCAP % bars working"], "priority": null},
+    {"page": "/marques/.../photos", "status": "ok", "issues": ["now filters confidence=E images"], "priority": null},
+    {"page": "/marques/.../videos", "status": "fixed", "issues": ["FIXED: youtube_id→video_id (was returning null data)", "FIXED: now filters confidence=E videos"], "priority": "P0"},
+    {"page": "/marques/.../dimensions", "status": "ok", "issues": ["trunk_volume_liters correct"], "priority": null},
+    {"page": "/marques/.../alternatives", "status": "ok", "issues": [], "priority": null},
+    {"page": "/marques/.../fiche-technique", "status": "ok", "issues": [], "priority": null},
+    {"page": "/comparatif/[slugs]", "status": "warning", "issues": ["trunk_volume_l spec_type key used (via third_party_specs key-value, not direct column)"], "priority": "P2"},
+    {"page": "/comparer", "status": "ok", "issues": [], "priority": null},
+    {"page": "/recherche", "status": "ok", "issues": ["loads 500 gens client-side — acceptable for 4K scale"], "priority": "P2"},
+    {"page": "/family-fit", "status": "ok", "issues": [], "priority": null},
+    {"page": "/coffre", "status": "ok", "issues": [], "priority": null},
+    {"page": "/configurateur", "status": "ok", "issues": [], "priority": null},
+    {"page": "/meilleur/[category]", "status": "ok", "issues": [], "priority": null},
+    {"page": "/connexion", "status": "ok", "issues": [], "priority": null},
+    {"page": "/dashboard", "status": "ok", "issues": [], "priority": null},
+    {"page": "/favoris", "status": "ok", "issues": [], "priority": null},
+    {"page": "/profil", "status": "ok", "issues": [], "priority": null},
+    {"page": "/cgu", "status": "ok", "issues": [], "priority": null},
+    {"page": "/confidentialite", "status": "ok", "issues": [], "priority": null},
+    {"page": "/mentions-legales", "status": "ok", "issues": [], "priority": null},
+    {"page": "/tco", "status": "ok", "issues": [], "priority": null},
+    {"page": "/sitemap.xml", "status": "ok", "issues": ["18,364 URLs generated"], "priority": null}
+  ],
+  "data_integration": {
+    "confidence_column_used": true,
+    "confidence_where": [
+      "safety_ratings → securite page (badge displayed)",
+      "safety_ratings → vehicle page (badge displayed)",
+      "vehicle_images → photos page (E filtered out)",
+      "vehicle_images → vehicle page (E filtered out)",
+      "vehicle_videos → videos page (E filtered out)"
+    ],
+    "generation_data_quality_view": true,
+    "quality_api_endpoint": "/api/vehicles/[id]/quality",
+    "vehicle_images_in_gallery": true,
+    "vehicle_videos_embed": true,
+    "safety_percentages_shown": true,
+    "recalls_component": true
+  },
+  "image_domains": {
+    "wikimedia": true,
+    "ultimatespecs": true,
+    "youtube_thumbnails": true,
+    "pexels": true,
+    "euroncap": true,
+    "unsplash": true,
+    "supabase": true
+  },
+  "seo": {
+    "sitemap_urls": 18364,
+    "json_ld_schema": true,
+    "og_images": true,
+    "meta_descriptions": true,
+    "canonical_urls": true
+  },
+  "fixes_applied": [
+    {
+      "file": "src/app/marques/[brand]/[model]/[generation]/videos/page.tsx",
+      "fix": "youtube_id → video_id (column didn't exist, query returned null)",
+      "severity": "critical"
+    },
+    {
+      "file": "src/app/marques/[brand]/[model]/[generation]/videos/page.tsx",
+      "fix": "Added .neq('confidence', 'E') filter + select confidence column",
+      "severity": "high"
+    },
+    {
+      "file": "src/app/marques/[brand]/[model]/[generation]/photos/page.tsx",
+      "fix": "Added .neq('confidence', 'E') filter + select confidence column",
+      "severity": "medium"
+    },
+    {
+      "file": "src/app/marques/[brand]/[model]/[generation]/page.tsx",
+      "fix": "Added .neq('confidence', 'E') filter on vehicle_images + ConfidenceBadge on safety",
+      "severity": "medium"
+    },
+    {
+      "file": "src/app/marques/[brand]/[model]/[generation]/securite/page.tsx",
+      "fix": "Added ConfidenceBadge next to star rating",
+      "severity": "medium"
+    },
+    {
+      "file": "next.config.ts",
+      "fix": "Added 6 missing image domains (i.ytimg.com x4, ultimatespecs, euroncap)",
+      "severity": "high"
+    },
+    {
+      "file": "src/components/confidence-badge.tsx",
+      "fix": "Created ConfidenceBadge component with 5 tiers (A-E)",
+      "severity": "feature"
+    },
+    {
+      "file": "src/app/api/vehicles/[id]/quality/route.ts",
+      "fix": "Created quality API endpoint reading generation_data_quality view",
+      "severity": "feature"
+    }
+  ],
+  "api_endpoints_tested": {
+    "/api/stats": "ok — returns {brands:32, generations:4268, photos:287553, specs:277393, videos:57300}",
+    "/api/brands": "ok — returns 32 brands",
+    "/api/vehicles/[id]/quality": "ok — returns quality view data with overall_tier"
+  }
+}

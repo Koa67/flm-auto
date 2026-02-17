@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-14T14:03:07.053Z",
+  "stats": {
+    "total": 1137,
+    "matched": 0,
+    "alreadyRated": 478,
+    "noBrand": 295,
+    "noModel": 164,
+    "noGen": 165,
+    "inserted": 0
+  },
+  "before": 3738,
+  "after": 3738,
+  "total_gens": 4238
+}

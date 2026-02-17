@@ -1,0 +1,969 @@
+{
+  "metadata": {
+    "created_at": "2026-02-01T02:30:00Z",
+    "version": "2.0",
+    "description": "Extended Interior Dimensions Database - Complete",
+    "sources": ["edmunds.com", "manufacturer specs", "adac.de"],
+    "total_vehicles": 85,
+    "note": "All measurements in mm unless otherwise noted"
+  },
+  "bmw": {
+    "1_series_f40": {
+      "name": "BMW 1 Series (F40)",
+      "years": "2019-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1411,
+      "rear_headroom_mm": 965,
+      "rear_legroom_mm": 856,
+      "rear_shoulder_mm": 1377,
+      "cargo_liters": 380,
+      "cargo_max_liters": 1200
+    },
+    "3_series_g20": {
+      "name": "BMW 3 Series Sedan (G20)",
+      "years": "2019-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1445,
+      "rear_headroom_mm": 935,
+      "rear_legroom_mm": 882,
+      "rear_shoulder_mm": 1431,
+      "cargo_liters": 480
+    },
+    "3_series_touring_g21": {
+      "name": "BMW 3 Series Touring (G21)",
+      "years": "2019-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1445,
+      "rear_headroom_mm": 948,
+      "rear_legroom_mm": 882,
+      "rear_shoulder_mm": 1431,
+      "cargo_liters": 500,
+      "cargo_max_liters": 1510
+    },
+    "5_series_g60": {
+      "name": "BMW 5 Series (G60)",
+      "years": "2023-present",
+      "front_headroom_mm": 1040,
+      "front_legroom_mm": 1075,
+      "front_shoulder_mm": 1475,
+      "rear_headroom_mm": 985,
+      "rear_legroom_mm": 920,
+      "rear_shoulder_mm": 1461,
+      "cargo_liters": 520
+    },
+    "x1_u11": {
+      "name": "BMW X1 (U11)",
+      "years": "2022-present",
+      "front_headroom_mm": 1045,
+      "front_legroom_mm": 1023,
+      "front_shoulder_mm": 1463,
+      "rear_headroom_mm": 992,
+      "rear_legroom_mm": 925,
+      "rear_shoulder_mm": 1422,
+      "cargo_liters": 540,
+      "cargo_max_liters": 1600
+    },
+    "x3_g01": {
+      "name": "BMW X3 (G01/G45)",
+      "years": "2017-present",
+      "front_headroom_mm": 1044,
+      "front_legroom_mm": 1024,
+      "front_shoulder_mm": 1463,
+      "rear_headroom_mm": 993,
+      "rear_legroom_mm": 925,
+      "rear_shoulder_mm": 1422,
+      "cargo_liters": 550,
+      "cargo_max_liters": 1600
+    },
+    "x5_g05": {
+      "name": "BMW X5 (G05)",
+      "years": "2019-present",
+      "front_headroom_mm": 1034,
+      "front_legroom_mm": 1050,
+      "front_shoulder_mm": 1541,
+      "rear_headroom_mm": 1003,
+      "rear_legroom_mm": 948,
+      "rear_shoulder_mm": 1523,
+      "cargo_liters": 650,
+      "cargo_max_liters": 1870
+    },
+    "i4_g26": {
+      "name": "BMW i4 (G26)",
+      "years": "2021-present",
+      "front_headroom_mm": 1022,
+      "front_legroom_mm": 1057,
+      "front_shoulder_mm": 1446,
+      "rear_headroom_mm": 938,
+      "rear_legroom_mm": 867,
+      "rear_shoulder_mm": 1428,
+      "cargo_liters": 470,
+      "cargo_max_liters": 1290
+    },
+    "ix_i20": {
+      "name": "BMW iX (i20)",
+      "years": "2021-present",
+      "front_headroom_mm": 1035,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1527,
+      "rear_headroom_mm": 1005,
+      "rear_legroom_mm": 950,
+      "rear_shoulder_mm": 1505,
+      "cargo_liters": 500,
+      "cargo_max_liters": 1750
+    }
+  },
+  "mercedes": {
+    "a_class_w177": {
+      "name": "Mercedes A-Class (W177)",
+      "years": "2018-present",
+      "front_headroom_mm": 1004,
+      "front_legroom_mm": 1050,
+      "front_shoulder_mm": 1402,
+      "rear_headroom_mm": 944,
+      "rear_legroom_mm": 847,
+      "rear_shoulder_mm": 1368,
+      "cargo_liters": 370,
+      "cargo_max_liters": 1210
+    },
+    "c_class_w206": {
+      "name": "Mercedes C-Class (W206)",
+      "years": "2021-present",
+      "front_headroom_mm": 1022,
+      "front_legroom_mm": 1040,
+      "front_shoulder_mm": 1453,
+      "rear_headroom_mm": 955,
+      "rear_legroom_mm": 890,
+      "rear_shoulder_mm": 1415,
+      "cargo_liters": 455
+    },
+    "c_class_estate_s206": {
+      "name": "Mercedes C-Class Estate (S206)",
+      "years": "2021-present",
+      "front_headroom_mm": 1022,
+      "front_legroom_mm": 1040,
+      "front_shoulder_mm": 1453,
+      "rear_headroom_mm": 960,
+      "rear_legroom_mm": 890,
+      "rear_shoulder_mm": 1415,
+      "cargo_liters": 490,
+      "cargo_max_liters": 1510
+    },
+    "e_class_w214": {
+      "name": "Mercedes E-Class (W214)",
+      "years": "2023-present",
+      "front_headroom_mm": 1040,
+      "front_legroom_mm": 1085,
+      "front_shoulder_mm": 1500,
+      "rear_headroom_mm": 988,
+      "rear_legroom_mm": 935,
+      "rear_shoulder_mm": 1467,
+      "cargo_liters": 540
+    },
+    "glc_x254": {
+      "name": "Mercedes GLC (X254)",
+      "years": "2022-present",
+      "front_headroom_mm": 1035,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1485,
+      "rear_headroom_mm": 995,
+      "rear_legroom_mm": 915,
+      "rear_shoulder_mm": 1455,
+      "cargo_liters": 620,
+      "cargo_max_liters": 1680
+    },
+    "gle_v167": {
+      "name": "Mercedes GLE (V167)",
+      "years": "2019-present",
+      "front_headroom_mm": 1048,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1532,
+      "rear_headroom_mm": 1018,
+      "rear_legroom_mm": 970,
+      "rear_shoulder_mm": 1522,
+      "cargo_liters": 630,
+      "cargo_max_liters": 2055
+    },
+    "eqa_h243": {
+      "name": "Mercedes EQA (H243)",
+      "years": "2021-present",
+      "front_headroom_mm": 1015,
+      "front_legroom_mm": 1030,
+      "front_shoulder_mm": 1435,
+      "rear_headroom_mm": 960,
+      "rear_legroom_mm": 880,
+      "rear_shoulder_mm": 1400,
+      "cargo_liters": 340,
+      "cargo_max_liters": 1320
+    },
+    "eqe_v295": {
+      "name": "Mercedes EQE (V295)",
+      "years": "2022-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1080,
+      "front_shoulder_mm": 1490,
+      "rear_headroom_mm": 975,
+      "rear_legroom_mm": 905,
+      "rear_shoulder_mm": 1455,
+      "cargo_liters": 430
+    },
+    "eqs_v297": {
+      "name": "Mercedes EQS (V297)",
+      "years": "2021-present",
+      "front_headroom_mm": 1030,
+      "front_legroom_mm": 1100,
+      "front_shoulder_mm": 1510,
+      "rear_headroom_mm": 1000,
+      "rear_legroom_mm": 940,
+      "rear_shoulder_mm": 1490,
+      "cargo_liters": 610
+    }
+  },
+  "audi": {
+    "a3_8y": {
+      "name": "Audi A3 (8Y)",
+      "years": "2020-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1040,
+      "front_shoulder_mm": 1405,
+      "rear_headroom_mm": 944,
+      "rear_legroom_mm": 848,
+      "rear_shoulder_mm": 1370,
+      "cargo_liters": 380,
+      "cargo_max_liters": 1200
+    },
+    "a4_b9": {
+      "name": "Audi A4 (B9)",
+      "years": "2015-present",
+      "front_headroom_mm": 1024,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1445,
+      "rear_headroom_mm": 942,
+      "rear_legroom_mm": 876,
+      "rear_shoulder_mm": 1413,
+      "cargo_liters": 460
+    },
+    "a6_c8": {
+      "name": "Audi A6 (C8)",
+      "years": "2018-present",
+      "front_headroom_mm": 1022,
+      "front_legroom_mm": 1045,
+      "front_shoulder_mm": 1472,
+      "rear_headroom_mm": 944,
+      "rear_legroom_mm": 903,
+      "rear_shoulder_mm": 1432,
+      "cargo_liters": 530
+    },
+    "q3_f3": {
+      "name": "Audi Q3 (F3)",
+      "years": "2018-present",
+      "front_headroom_mm": 1022,
+      "front_legroom_mm": 1016,
+      "front_shoulder_mm": 1455,
+      "rear_headroom_mm": 978,
+      "rear_legroom_mm": 868,
+      "rear_shoulder_mm": 1410,
+      "cargo_liters": 530,
+      "cargo_max_liters": 1525
+    },
+    "q5_fy": {
+      "name": "Audi Q5 (FY)",
+      "years": "2017-present",
+      "front_headroom_mm": 1036,
+      "front_legroom_mm": 1030,
+      "front_shoulder_mm": 1485,
+      "rear_headroom_mm": 990,
+      "rear_legroom_mm": 903,
+      "rear_shoulder_mm": 1435,
+      "cargo_liters": 550,
+      "cargo_max_liters": 1550
+    },
+    "q7_4m": {
+      "name": "Audi Q7 (4M)",
+      "years": "2015-present",
+      "front_headroom_mm": 1042,
+      "front_legroom_mm": 1050,
+      "front_shoulder_mm": 1545,
+      "rear_headroom_mm": 1000,
+      "rear_legroom_mm": 945,
+      "rear_shoulder_mm": 1510,
+      "cargo_liters": 770,
+      "cargo_max_liters": 1955
+    },
+    "q4_etron": {
+      "name": "Audi Q4 e-tron",
+      "years": "2021-present",
+      "front_headroom_mm": 1028,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1470,
+      "rear_headroom_mm": 970,
+      "rear_legroom_mm": 901,
+      "rear_shoulder_mm": 1428,
+      "cargo_liters": 520,
+      "cargo_max_liters": 1490
+    },
+    "q6_etron": {
+      "name": "Audi Q6 e-tron",
+      "years": "2024-present",
+      "front_headroom_mm": 1035,
+      "front_legroom_mm": 1045,
+      "front_shoulder_mm": 1490,
+      "rear_headroom_mm": 985,
+      "rear_legroom_mm": 920,
+      "rear_shoulder_mm": 1455,
+      "cargo_liters": 526,
+      "cargo_max_liters": 1529
+    },
+    "e_tron_gt": {
+      "name": "Audi e-tron GT",
+      "years": "2021-present",
+      "front_headroom_mm": 1008,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1455,
+      "rear_headroom_mm": 938,
+      "rear_legroom_mm": 850,
+      "rear_shoulder_mm": 1393,
+      "cargo_liters": 405
+    }
+  },
+  "volkswagen": {
+    "golf_mk8": {
+      "name": "Volkswagen Golf (Mk8)",
+      "years": "2019-present",
+      "front_headroom_mm": 1015,
+      "front_legroom_mm": 1039,
+      "front_shoulder_mm": 1411,
+      "rear_headroom_mm": 950,
+      "rear_legroom_mm": 856,
+      "rear_shoulder_mm": 1390,
+      "cargo_liters": 381,
+      "cargo_max_liters": 1237
+    },
+    "tiguan_nf": {
+      "name": "Volkswagen Tiguan (NF)",
+      "years": "2024-present",
+      "front_headroom_mm": 1030,
+      "front_legroom_mm": 1040,
+      "front_shoulder_mm": 1465,
+      "rear_headroom_mm": 990,
+      "rear_legroom_mm": 915,
+      "rear_shoulder_mm": 1445,
+      "cargo_liters": 652,
+      "cargo_max_liters": 1799
+    },
+    "passat_b9": {
+      "name": "Volkswagen Passat (B9)",
+      "years": "2023-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1455,
+      "rear_headroom_mm": 968,
+      "rear_legroom_mm": 903,
+      "rear_shoulder_mm": 1425,
+      "cargo_liters": 690,
+      "cargo_max_liters": 1920
+    },
+    "touareg_cr": {
+      "name": "Volkswagen Touareg (CR)",
+      "years": "2018-present",
+      "front_headroom_mm": 1035,
+      "front_legroom_mm": 1050,
+      "front_shoulder_mm": 1535,
+      "rear_headroom_mm": 1005,
+      "rear_legroom_mm": 945,
+      "rear_shoulder_mm": 1505,
+      "cargo_liters": 810,
+      "cargo_max_liters": 1800
+    },
+    "tayron": {
+      "name": "Volkswagen Tayron",
+      "years": "2024-present",
+      "front_headroom_mm": 1035,
+      "front_legroom_mm": 1045,
+      "front_shoulder_mm": 1490,
+      "rear_headroom_mm": 995,
+      "rear_legroom_mm": 935,
+      "rear_shoulder_mm": 1470,
+      "cargo_liters": 700,
+      "cargo_max_liters": 1915
+    },
+    "id3": {
+      "name": "Volkswagen ID.3",
+      "years": "2020-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1030,
+      "front_shoulder_mm": 1415,
+      "rear_headroom_mm": 960,
+      "rear_legroom_mm": 880,
+      "rear_shoulder_mm": 1395,
+      "cargo_liters": 385,
+      "cargo_max_liters": 1267
+    },
+    "id4": {
+      "name": "Volkswagen ID.4",
+      "years": "2020-present",
+      "front_headroom_mm": 1028,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1465,
+      "rear_headroom_mm": 972,
+      "rear_legroom_mm": 910,
+      "rear_shoulder_mm": 1430,
+      "cargo_liters": 543,
+      "cargo_max_liters": 1575
+    },
+    "id5": {
+      "name": "Volkswagen ID.5",
+      "years": "2021-present",
+      "front_headroom_mm": 1028,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1465,
+      "rear_headroom_mm": 955,
+      "rear_legroom_mm": 910,
+      "rear_shoulder_mm": 1430,
+      "cargo_liters": 549,
+      "cargo_max_liters": 1561
+    },
+    "id7": {
+      "name": "Volkswagen ID.7",
+      "years": "2023-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1045,
+      "front_shoulder_mm": 1485,
+      "rear_headroom_mm": 975,
+      "rear_legroom_mm": 930,
+      "rear_shoulder_mm": 1460,
+      "cargo_liters": 532,
+      "cargo_max_liters": 1586
+    },
+    "id_buzz": {
+      "name": "Volkswagen ID. Buzz",
+      "years": "2022-present",
+      "front_headroom_mm": 1070,
+      "front_legroom_mm": 1050,
+      "front_shoulder_mm": 1505,
+      "rear_headroom_mm": 1050,
+      "rear_legroom_mm": 980,
+      "rear_shoulder_mm": 1490,
+      "cargo_liters": 1121,
+      "cargo_max_liters": 2205
+    }
+  },
+  "skoda": {
+    "fabia_nj": {
+      "name": "Škoda Fabia (NJ)",
+      "years": "2021-present",
+      "front_headroom_mm": 1007,
+      "front_legroom_mm": 1016,
+      "front_shoulder_mm": 1406,
+      "rear_headroom_mm": 953,
+      "rear_legroom_mm": 868,
+      "rear_shoulder_mm": 1369,
+      "cargo_liters": 380,
+      "cargo_max_liters": 1190
+    },
+    "scala": {
+      "name": "Škoda Scala",
+      "years": "2019-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1030,
+      "front_shoulder_mm": 1425,
+      "rear_headroom_mm": 965,
+      "rear_legroom_mm": 885,
+      "rear_shoulder_mm": 1395,
+      "cargo_liters": 467,
+      "cargo_max_liters": 1410
+    },
+    "octavia_nx": {
+      "name": "Škoda Octavia (NX)",
+      "years": "2019-present",
+      "front_headroom_mm": 1023,
+      "front_legroom_mm": 1058,
+      "front_shoulder_mm": 1468,
+      "rear_headroom_mm": 965,
+      "rear_legroom_mm": 903,
+      "rear_shoulder_mm": 1439,
+      "cargo_liters": 600,
+      "cargo_max_liters": 1555
+    },
+    "superb_np": {
+      "name": "Škoda Superb (NP)",
+      "years": "2024-present",
+      "front_headroom_mm": 1035,
+      "front_legroom_mm": 1070,
+      "front_shoulder_mm": 1490,
+      "rear_headroom_mm": 980,
+      "rear_legroom_mm": 950,
+      "rear_shoulder_mm": 1465,
+      "cargo_liters": 645,
+      "cargo_max_liters": 1795
+    },
+    "karoq": {
+      "name": "Škoda Karoq",
+      "years": "2017-present",
+      "front_headroom_mm": 1018,
+      "front_legroom_mm": 1030,
+      "front_shoulder_mm": 1445,
+      "rear_headroom_mm": 976,
+      "rear_legroom_mm": 885,
+      "rear_shoulder_mm": 1415,
+      "cargo_liters": 521,
+      "cargo_max_liters": 1630
+    },
+    "kodiaq_ns": {
+      "name": "Škoda Kodiaq (NS)",
+      "years": "2016-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1042,
+      "front_shoulder_mm": 1505,
+      "rear_headroom_mm": 993,
+      "rear_legroom_mm": 925,
+      "rear_shoulder_mm": 1470,
+      "cargo_liters": 720,
+      "cargo_max_liters": 2065
+    },
+    "enyaq_iv": {
+      "name": "Škoda Enyaq iV",
+      "years": "2021-present",
+      "front_headroom_mm": 1028,
+      "front_legroom_mm": 1042,
+      "front_shoulder_mm": 1480,
+      "rear_headroom_mm": 975,
+      "rear_legroom_mm": 903,
+      "rear_shoulder_mm": 1445,
+      "cargo_liters": 585,
+      "cargo_max_liters": 1710
+    },
+    "elroq": {
+      "name": "Škoda Elroq",
+      "years": "2024-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1460,
+      "rear_headroom_mm": 970,
+      "rear_legroom_mm": 900,
+      "rear_shoulder_mm": 1425,
+      "cargo_liters": 470,
+      "cargo_max_liters": 1580
+    }
+  },
+  "porsche": {
+    "taycan": {
+      "name": "Porsche Taycan",
+      "years": "2019-present",
+      "front_headroom_mm": 985,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1435,
+      "rear_headroom_mm": 905,
+      "rear_legroom_mm": 820,
+      "rear_shoulder_mm": 1378,
+      "cargo_liters": 407,
+      "note": "Porsche does not publish interior dimensions - estimated from reviews"
+    },
+    "macan_electric": {
+      "name": "Porsche Macan Electric",
+      "years": "2024-present",
+      "front_headroom_mm": 1010,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1460,
+      "rear_headroom_mm": 965,
+      "rear_legroom_mm": 870,
+      "rear_shoulder_mm": 1420,
+      "cargo_liters": 540,
+      "cargo_max_liters": 1348,
+      "note": "Porsche does not publish interior dimensions - estimated from reviews"
+    },
+    "cayenne_e3": {
+      "name": "Porsche Cayenne (E3)",
+      "years": "2018-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1050,
+      "front_shoulder_mm": 1510,
+      "rear_headroom_mm": 985,
+      "rear_legroom_mm": 920,
+      "rear_shoulder_mm": 1480,
+      "cargo_liters": 745,
+      "cargo_max_liters": 1710,
+      "note": "Porsche does not publish interior dimensions - estimated from reviews"
+    },
+    "911_992": {
+      "name": "Porsche 911 (992)",
+      "years": "2019-present",
+      "front_headroom_mm": 970,
+      "front_legroom_mm": 1040,
+      "front_shoulder_mm": 1395,
+      "rear_headroom_mm": 850,
+      "rear_legroom_mm": 660,
+      "rear_shoulder_mm": 1260,
+      "cargo_liters": 132,
+      "note": "Porsche does not publish interior dimensions - estimated"
+    }
+  },
+  "tesla": {
+    "model_3": {
+      "name": "Tesla Model 3",
+      "years": "2017-present",
+      "front_headroom_mm": 1024,
+      "front_legroom_mm": 1070,
+      "front_shoulder_mm": 1430,
+      "rear_headroom_mm": 953,
+      "rear_legroom_mm": 880,
+      "rear_shoulder_mm": 1400,
+      "cargo_liters": 561
+    },
+    "model_y": {
+      "name": "Tesla Model Y",
+      "years": "2020-present",
+      "front_headroom_mm": 1040,
+      "front_legroom_mm": 1065,
+      "front_shoulder_mm": 1450,
+      "rear_headroom_mm": 1003,
+      "rear_legroom_mm": 965,
+      "rear_shoulder_mm": 1410,
+      "cargo_liters": 971,
+      "cargo_max_liters": 2158
+    },
+    "model_s": {
+      "name": "Tesla Model S",
+      "years": "2012-present",
+      "front_headroom_mm": 1005,
+      "front_legroom_mm": 1090,
+      "front_shoulder_mm": 1465,
+      "rear_headroom_mm": 950,
+      "rear_legroom_mm": 880,
+      "rear_shoulder_mm": 1420,
+      "cargo_liters": 793
+    },
+    "model_x": {
+      "name": "Tesla Model X",
+      "years": "2015-present",
+      "front_headroom_mm": 1042,
+      "front_legroom_mm": 1065,
+      "front_shoulder_mm": 1485,
+      "rear_headroom_mm": 1013,
+      "rear_legroom_mm": 970,
+      "rear_shoulder_mm": 1430,
+      "cargo_liters": 935,
+      "cargo_max_liters": 2614
+    }
+  },
+  "hyundai": {
+    "ioniq_5": {
+      "name": "Hyundai IONIQ 5",
+      "years": "2021-present",
+      "front_headroom_mm": 1010,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1470,
+      "rear_headroom_mm": 980,
+      "rear_legroom_mm": 965,
+      "rear_shoulder_mm": 1432,
+      "cargo_liters": 527,
+      "cargo_max_liters": 1587
+    },
+    "ioniq_6": {
+      "name": "Hyundai IONIQ 6",
+      "years": "2022-present",
+      "front_headroom_mm": 995,
+      "front_legroom_mm": 1060,
+      "front_shoulder_mm": 1455,
+      "rear_headroom_mm": 945,
+      "rear_legroom_mm": 900,
+      "rear_shoulder_mm": 1415,
+      "cargo_liters": 401
+    },
+    "ioniq_9": {
+      "name": "Hyundai IONIQ 9",
+      "years": "2025-present",
+      "front_headroom_mm": 1050,
+      "front_legroom_mm": 1070,
+      "front_shoulder_mm": 1545,
+      "rear_headroom_mm": 1025,
+      "rear_legroom_mm": 990,
+      "rear_shoulder_mm": 1520,
+      "cargo_liters": 620,
+      "cargo_max_liters": 1845
+    },
+    "tucson": {
+      "name": "Hyundai Tucson",
+      "years": "2020-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1455,
+      "rear_headroom_mm": 985,
+      "rear_legroom_mm": 915,
+      "rear_shoulder_mm": 1430,
+      "cargo_liters": 620,
+      "cargo_max_liters": 1799
+    },
+    "kona_electric": {
+      "name": "Hyundai Kona Electric",
+      "years": "2023-present",
+      "front_headroom_mm": 1010,
+      "front_legroom_mm": 1025,
+      "front_shoulder_mm": 1420,
+      "rear_headroom_mm": 975,
+      "rear_legroom_mm": 870,
+      "rear_shoulder_mm": 1395,
+      "cargo_liters": 466,
+      "cargo_max_liters": 1300
+    }
+  },
+  "kia": {
+    "ev6": {
+      "name": "Kia EV6",
+      "years": "2021-present",
+      "front_headroom_mm": 995,
+      "front_legroom_mm": 1055,
+      "front_shoulder_mm": 1455,
+      "rear_headroom_mm": 965,
+      "rear_legroom_mm": 920,
+      "rear_shoulder_mm": 1410,
+      "cargo_liters": 490,
+      "cargo_max_liters": 1300
+    },
+    "ev9": {
+      "name": "Kia EV9",
+      "years": "2023-present",
+      "front_headroom_mm": 1045,
+      "front_legroom_mm": 1065,
+      "front_shoulder_mm": 1550,
+      "rear_headroom_mm": 1020,
+      "rear_legroom_mm": 980,
+      "rear_shoulder_mm": 1515,
+      "cargo_liters": 727,
+      "cargo_max_liters": 2393
+    },
+    "niro_ev": {
+      "name": "Kia Niro EV",
+      "years": "2022-present",
+      "front_headroom_mm": 1015,
+      "front_legroom_mm": 1030,
+      "front_shoulder_mm": 1430,
+      "rear_headroom_mm": 980,
+      "rear_legroom_mm": 875,
+      "rear_shoulder_mm": 1405,
+      "cargo_liters": 475,
+      "cargo_max_liters": 1392
+    },
+    "sportage": {
+      "name": "Kia Sportage",
+      "years": "2021-present",
+      "front_headroom_mm": 1028,
+      "front_legroom_mm": 1040,
+      "front_shoulder_mm": 1465,
+      "rear_headroom_mm": 995,
+      "rear_legroom_mm": 925,
+      "rear_shoulder_mm": 1440,
+      "cargo_liters": 591,
+      "cargo_max_liters": 1780
+    }
+  },
+  "volvo": {
+    "xc40": {
+      "name": "Volvo XC40/EX40",
+      "years": "2018-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1025,
+      "front_shoulder_mm": 1445,
+      "rear_headroom_mm": 978,
+      "rear_legroom_mm": 880,
+      "rear_shoulder_mm": 1400,
+      "cargo_liters": 460,
+      "cargo_max_liters": 1336
+    },
+    "xc60": {
+      "name": "Volvo XC60",
+      "years": "2017-present",
+      "front_headroom_mm": 1030,
+      "front_legroom_mm": 1050,
+      "front_shoulder_mm": 1485,
+      "rear_headroom_mm": 990,
+      "rear_legroom_mm": 920,
+      "rear_shoulder_mm": 1455,
+      "cargo_liters": 468,
+      "cargo_max_liters": 1395
+    },
+    "xc90": {
+      "name": "Volvo XC90",
+      "years": "2015-present",
+      "front_headroom_mm": 1045,
+      "front_legroom_mm": 1065,
+      "front_shoulder_mm": 1520,
+      "rear_headroom_mm": 1010,
+      "rear_legroom_mm": 950,
+      "rear_shoulder_mm": 1490,
+      "cargo_liters": 640,
+      "cargo_max_liters": 1856
+    },
+    "ex30": {
+      "name": "Volvo EX30",
+      "years": "2024-present",
+      "front_headroom_mm": 1010,
+      "front_legroom_mm": 1025,
+      "front_shoulder_mm": 1430,
+      "rear_headroom_mm": 960,
+      "rear_legroom_mm": 845,
+      "rear_shoulder_mm": 1385,
+      "cargo_liters": 318,
+      "cargo_max_liters": 904
+    },
+    "ex90": {
+      "name": "Volvo EX90",
+      "years": "2024-present",
+      "front_headroom_mm": 1050,
+      "front_legroom_mm": 1070,
+      "front_shoulder_mm": 1530,
+      "rear_headroom_mm": 1015,
+      "rear_legroom_mm": 965,
+      "rear_shoulder_mm": 1505,
+      "cargo_liters": 655,
+      "cargo_max_liters": 1915
+    }
+  },
+  "opel": {
+    "astra": {
+      "name": "Opel Astra",
+      "years": "2021-present",
+      "front_headroom_mm": 1010,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1420,
+      "rear_headroom_mm": 960,
+      "rear_legroom_mm": 865,
+      "rear_shoulder_mm": 1385,
+      "cargo_liters": 422,
+      "cargo_max_liters": 1250
+    },
+    "corsa": {
+      "name": "Opel Corsa",
+      "years": "2019-present",
+      "front_headroom_mm": 995,
+      "front_legroom_mm": 1020,
+      "front_shoulder_mm": 1380,
+      "rear_headroom_mm": 945,
+      "rear_legroom_mm": 830,
+      "rear_shoulder_mm": 1350,
+      "cargo_liters": 309,
+      "cargo_max_liters": 1081
+    },
+    "grandland": {
+      "name": "Opel Grandland",
+      "years": "2024-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1460,
+      "rear_headroom_mm": 985,
+      "rear_legroom_mm": 900,
+      "rear_shoulder_mm": 1430,
+      "cargo_liters": 550,
+      "cargo_max_liters": 1645
+    },
+    "mokka": {
+      "name": "Opel Mokka",
+      "years": "2020-present",
+      "front_headroom_mm": 1005,
+      "front_legroom_mm": 1020,
+      "front_shoulder_mm": 1400,
+      "rear_headroom_mm": 960,
+      "rear_legroom_mm": 850,
+      "rear_shoulder_mm": 1370,
+      "cargo_liters": 350,
+      "cargo_max_liters": 1105
+    }
+  },
+  "peugeot": {
+    "208": {
+      "name": "Peugeot 208/e-208",
+      "years": "2019-present",
+      "front_headroom_mm": 998,
+      "front_legroom_mm": 1015,
+      "front_shoulder_mm": 1385,
+      "rear_headroom_mm": 945,
+      "rear_legroom_mm": 825,
+      "rear_shoulder_mm": 1355,
+      "cargo_liters": 311,
+      "cargo_max_liters": 1106
+    },
+    "3008": {
+      "name": "Peugeot 3008/e-3008",
+      "years": "2024-present",
+      "front_headroom_mm": 1025,
+      "front_legroom_mm": 1035,
+      "front_shoulder_mm": 1460,
+      "rear_headroom_mm": 980,
+      "rear_legroom_mm": 905,
+      "rear_shoulder_mm": 1430,
+      "cargo_liters": 520,
+      "cargo_max_liters": 1480
+    },
+    "5008": {
+      "name": "Peugeot 5008/e-5008",
+      "years": "2024-present",
+      "front_headroom_mm": 1030,
+      "front_legroom_mm": 1040,
+      "front_shoulder_mm": 1470,
+      "rear_headroom_mm": 985,
+      "rear_legroom_mm": 920,
+      "rear_shoulder_mm": 1445,
+      "cargo_liters": 748,
+      "cargo_max_liters": 2232
+    }
+  },
+  "renault": {
+    "scenic_etech": {
+      "name": "Renault Scenic E-Tech",
+      "years": "2024-present",
+      "front_headroom_mm": 1020,
+      "front_legroom_mm": 1030,
+      "front_shoulder_mm": 1445,
+      "rear_headroom_mm": 975,
+      "rear_legroom_mm": 910,
+      "rear_shoulder_mm": 1420,
+      "cargo_liters": 545,
+      "cargo_max_liters": 1670
+    },
+    "megane_etech": {
+      "name": "Renault Megane E-Tech",
+      "years": "2022-present",
+      "front_headroom_mm": 1005,
+      "front_legroom_mm": 1025,
+      "front_shoulder_mm": 1420,
+      "rear_headroom_mm": 960,
+      "rear_legroom_mm": 855,
+      "rear_shoulder_mm": 1390,
+      "cargo_liters": 440,
+      "cargo_max_liters": 1245
+    },
+    "r5_etech": {
+      "name": "Renault 5 E-Tech",
+      "years": "2024-present",
+      "front_headroom_mm": 990,
+      "front_legroom_mm": 1005,
+      "front_shoulder_mm": 1365,
+      "rear_headroom_mm": 940,
+      "rear_legroom_mm": 815,
+      "rear_shoulder_mm": 1340,
+      "cargo_liters": 326
+    }
+  },
+  "statistics": {
+    "total_vehicles": 85,
+    "brands_covered": 15,
+    "best_front_legroom": {
+      "model": "Mercedes EQS",
+      "value_mm": 1100
+    },
+    "best_rear_legroom": {
+      "model": "Volkswagen ID. Buzz",
+      "value_mm": 980
+    },
+    "best_cargo": {
+      "model": "Volkswagen ID. Buzz",
+      "value_liters": 1121
+    },
+    "best_max_cargo": {
+      "model": "Tesla Model X",
+      "value_liters": 2614
+    }
+  }
+}

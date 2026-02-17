@@ -1,36 +1,36 @@
 {
-  "scraped_at": "2026-01-27T16:22:55.119Z",
-  "total_appearances": 127058,
+  "scraped_at": "2026-01-31T08:48:09.337Z",
+  "total_appearances": 127129,
   "brands": [
     {
       "name": "BMW",
       "chassis_count": 143,
-      "model_count": 752,
-      "total": 39018,
+      "model_count": 751,
+      "total": 39040,
       "top_5_chassis": [
         {
           "code": "E46",
-          "count": 2950,
+          "count": 2951,
           "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E46&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "E30",
-          "count": 2946,
+          "count": 2949,
           "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E30&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "E36",
-          "count": 2539,
+          "count": 2541,
           "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E36&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "E39",
-          "count": 2192,
+          "count": 2193,
           "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E39&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "E34",
-          "count": 2012,
+          "count": 2014,
           "url": "https://www.imcdb.org/vehicles.php?make=BMW&model=E34&modelMatch=2&modelInclChassis=on"
         }
       ]
@@ -38,32 +38,32 @@
     {
       "name": "Mercedes-Benz",
       "chassis_count": 364,
-      "model_count": 2240,
-      "total": 88013,
+      "model_count": 2244,
+      "total": 88062,
       "top_5_chassis": [
         {
           "code": "W123",
-          "count": 5080,
+          "count": 5083,
           "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W123&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "W124",
-          "count": 3449,
+          "count": 3450,
           "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W124&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "W126",
-          "count": 2999,
+          "count": 3001,
           "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W126&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "W115",
-          "count": 2724,
+          "count": 2726,
           "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=W115&modelMatch=2&modelInclChassis=on"
         },
         {
           "code": "T1N",
-          "count": 2689,
+          "count": 2691,
           "url": "https://www.imcdb.org/vehicles.php?make=Mercedes-Benz&model=T1N&modelMatch=2&modelInclChassis=on"
         }
       ]

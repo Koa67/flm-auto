@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "description": "Wikimedia Commons Categories for Vehicle Photos - Ready for automated scraping",
+    "api_endpoint": "https://commons.wikimedia.org/w/api.php",
+    "api_params": {
+      "action": "query",
+      "list": "categorymembers",
+      "cmtype": "file",
+      "cmlimit": "50",
+      "format": "json"
+    },
+    "image_url_pattern": "https://upload.wikimedia.org/wikipedia/commons/thumb/{hash}/{filename}/{width}px-{filename}"
+  },
+  "bmw_categories": {
+    "current_models": [
+      "Category:BMW_F40",
+      "Category:BMW_U06",
+      "Category:BMW_G20",
+      "Category:BMW_G21",
+      "Category:BMW_M3_(G80)",
+      "Category:BMW_M3_(G81)",
+      "Category:BMW_G22",
+      "Category:BMW_G23",
+      "Category:BMW_M4_(G82)",
+      "Category:BMW_M4_(G83)",
+      "Category:BMW_G30",
+      "Category:BMW_G31",
+      "Category:BMW_G60",
+      "Category:BMW_G61",
+      "Category:BMW_G70",
+      "Category:BMW_U11",
+      "Category:BMW_G01",
+      "Category:BMW_G45",
+      "Category:BMW_G05",
+      "Category:BMW_G06",
+      "Category:BMW_G07",
+      "Category:BMW_iX",
+      "Category:BMW_i4",
+      "Category:BMW_i5",
+      "Category:BMW_i7",
+      "Category:BMW_iX1",
+      "Category:BMW_iX3",
+      "Category:BMW_Z4_(G29)"
+    ],
+    "classic_models": [
+      "Category:BMW_E30",
+      "Category:BMW_E36",
+      "Category:BMW_E46",
+      "Category:BMW_E90",
+      "Category:BMW_E92",
+      "Category:BMW_F30",
+      "Category:BMW_M3_E30",
+      "Category:BMW_M3_E36",
+      "Category:BMW_M3_E46",
+      "Category:BMW_M3_E90",
+      "Category:BMW_2002",
+      "Category:BMW_328",
+      "Category:BMW_507",
+      "Category:BMW_Isetta"
+    ]
+  },
+  "mercedes_categories": {
+    "current_models": [
+      "Category:Mercedes-Benz_W177",
+      "Category:Mercedes-Benz_V177",
+      "Category:Mercedes-Benz_W206",
+      "Category:Mercedes-Benz_S206",
+      "Category:Mercedes-Benz_W214",
+      "Category:Mercedes-Benz_S214",
+      "Category:Mercedes-Benz_W223",
+      "Category:Mercedes-Benz_X254",
+      "Category:Mercedes-Benz_V167",
+      "Category:Mercedes-Benz_C167",
+      "Category:Mercedes-Benz_X167",
+      "Category:Mercedes-Benz_W463",
+      "Category:Mercedes-Benz_EQA",
+      "Category:Mercedes-Benz_EQB",
+      "Category:Mercedes-Benz_EQC",
+      "Category:Mercedes-Benz_EQE",
+      "Category:Mercedes-Benz_EQE_SUV",
+      "Category:Mercedes-Benz_EQS",
+      "Category:Mercedes-Benz_EQS_SUV",
+      "Category:Mercedes-AMG_GT_4-Door_Coupe",
+      "Category:Mercedes-AMG_SL_(R232)"
+    ],
+    "classic_models": [
+      "Category:Mercedes-Benz_300_SL",
+      "Category:Mercedes-Benz_W123",
+      "Category:Mercedes-Benz_W124",
+      "Category:Mercedes-Benz_W201",
+      "Category:Mercedes-Benz_W140",
+      "Category:Mercedes-Benz_R107",
+      "Category:Mercedes-Benz_W113",
+      "Category:Mercedes-Benz_W111",
+      "Category:Mercedes-Benz_600"
+    ]
+  },
+  "audi_categories": {
+    "current_models": [
+      "Category:Audi_A1_GB",
+      "Category:Audi_A3_8Y",
+      "Category:Audi_A4_B9",
+      "Category:Audi_A5_F5",
+      "Category:Audi_A6_C8",
+      "Category:Audi_A7_C8",
+      "Category:Audi_A8_D5",
+      "Category:Audi_Q2",
+      "Category:Audi_Q3_F3",
+      "Category:Audi_Q4_e-tron",
+      "Category:Audi_Q5_FY",
+      "Category:Audi_Q7_4M",
+      "Category:Audi_Q8",
+      "Category:Audi_Q8_e-tron",
+      "Category:Audi_e-tron_GT",
+      "Category:Audi_RS_e-tron_GT",
+      "Category:Audi_RS6_C8",
+      "Category:Audi_RS7_C8",
+      "Category:Audi_R8_(Type_4S)",
+      "Category:Audi_TT_FV"
+    ],
+    "classic_models": [
+      "Category:Audi_Quattro",
+      "Category:Audi_RS2",
+      "Category:Audi_80",
+      "Category:Audi_100",
+      "Category:Audi_Sport_quattro"
+    ]
+  },
+  "volkswagen_categories": {
+    "current_models": [
+      "Category:Volkswagen_Polo_AW",
+      "Category:Volkswagen_Golf_Mk8",
+      "Category:Volkswagen_Golf_GTI_Mk8",
+      "Category:Volkswagen_Golf_R_Mk8",
+      "Category:Volkswagen_Tiguan_AD",
+      "Category:Volkswagen_Tiguan_NF",
+      "Category:Volkswagen_Passat_B9",
+      "Category:Volkswagen_Arteon",
+      "Category:Volkswagen_Touareg_CR",
+      "Category:Volkswagen_T-Roc",
+      "Category:Volkswagen_T-Cross",
+      "Category:Volkswagen_Taigo",
+      "Category:Volkswagen_ID.3",
+      "Category:Volkswagen_ID.4",
+      "Category:Volkswagen_ID.5",
+      "Category:Volkswagen_ID.7",
+      "Category:Volkswagen_ID._Buzz",
+      "Category:Volkswagen_Multivan_T7"
+    ],
+    "classic_models": [
+      "Category:Volkswagen_Beetle",
+      "Category:Volkswagen_Golf_Mk1",
+      "Category:Volkswagen_Golf_Mk2",
+      "Category:Volkswagen_Golf_GTI_Mk1",
+      "Category:Volkswagen_Bus",
+      "Category:Volkswagen_Karmann_Ghia",
+      "Category:Volkswagen_Corrado"
+    ]
+  },
+  "porsche_categories": {
+    "current_models": [
+      "Category:Porsche_992",
+      "Category:Porsche_992_Turbo",
+      "Category:Porsche_992_GT3",
+      "Category:Porsche_718_Cayman",
+      "Category:Porsche_718_Boxster",
+      "Category:Porsche_Cayenne_E3",
+      "Category:Porsche_Macan",
+      "Category:Porsche_Macan_Electric",
+      "Category:Porsche_Panamera_971",
+      "Category:Porsche_Taycan"
+    ],
+    "classic_models": [
+      "Category:Porsche_356",
+      "Category:Porsche_911_(classic)",
+      "Category:Porsche_930",
+      "Category:Porsche_964",
+      "Category:Porsche_993",
+      "Category:Porsche_996",
+      "Category:Porsche_997",
+      "Category:Porsche_991",
+      "Category:Porsche_959",
+      "Category:Porsche_Carrera_GT",
+      "Category:Porsche_918_Spyder"
+    ]
+  },
+  "opel_categories": {
+    "current_models": [
+      "Category:Opel_Corsa_F",
+      "Category:Opel_Astra_L",
+      "Category:Opel_Mokka_B",
+      "Category:Opel_Grandland",
+      "Category:Opel_Crossland",
+      "Category:Opel_Combo_E",
+      "Category:Opel_Zafira_Life"
+    ],
+    "classic_models": [
+      "Category:Opel_Kadett",
+      "Category:Opel_Manta",
+      "Category:Opel_GT",
+      "Category:Opel_Calibra"
+    ]
+  },
+  "skoda_categories": {
+    "current_models": [
+      "Category:Škoda_Fabia_NJ",
+      "Category:Škoda_Scala",
+      "Category:Škoda_Octavia_NX",
+      "Category:Škoda_Superb_NP",
+      "Category:Škoda_Kamiq",
+      "Category:Škoda_Karoq",
+      "Category:Škoda_Kodiaq",
+      "Category:Škoda_Enyaq_iV",
+      "Category:Škoda_Elroq"
+    ],
+    "classic_models": [
+      "Category:Škoda_Felicia",
+      "Category:Škoda_Favorit",
+      "Category:Škoda_130"
+    ]
+  },
+  "iconic_vehicles": {
+    "supercars": [
+      "Category:Ferrari_250_GTO",
+      "Category:Ferrari_F40",
+      "Category:Ferrari_F50",
+      "Category:Ferrari_Enzo",
+      "Category:Ferrari_LaFerrari",
+      "Category:Lamborghini_Miura",
+      "Category:Lamborghini_Countach",
+      "Category:Lamborghini_Diablo",
+      "Category:Lamborghini_Aventador",
+      "Category:McLaren_F1",
+      "Category:McLaren_P1",
+      "Category:Bugatti_Veyron",
+      "Category:Bugatti_Chiron",
+      "Category:Porsche_918_Spyder",
+      "Category:Porsche_Carrera_GT"
+    ],
+    "jdm_legends": [
+      "Category:Nissan_Skyline_R34",
+      "Category:Nissan_GT-R_R35",
+      "Category:Toyota_Supra_A80",
+      "Category:Toyota_2000GT",
+      "Category:Mazda_RX-7_FD",
+      "Category:Honda_NSX_(first_generation)",
+      "Category:Mazda_MX-5_NA"
+    ],
+    "american_muscle": [
+      "Category:Ford_Mustang_(first_generation)",
+      "Category:Chevrolet_Camaro_(first_generation)",
+      "Category:Dodge_Charger_(B-body)",
+      "Category:Chevrolet_Corvette_C2",
+      "Category:Shelby_Cobra"
+    ],
+    "historic": [
+      "Category:Benz_Patent-Motorwagen",
+      "Category:Ford_Model_T",
+      "Category:Rolls-Royce_Silver_Ghost",
+      "Category:Bugatti_Type_35",
+      "Category:Mercedes-Benz_SSK",
+      "Category:Jaguar_E-Type",
+      "Category:Aston_Martin_DB5",
+      "Category:Mini_(original)"
+    ]
+  },
+  "scraping_script": {
+    "python_example": "import requests\n\ndef get_category_images(category_name, limit=50):\n    url = 'https://commons.wikimedia.org/w/api.php'\n    params = {\n        'action': 'query',\n        'list': 'categorymembers',\n        'cmtitle': category_name,\n        'cmtype': 'file',\n        'cmlimit': limit,\n        'format': 'json'\n    }\n    response = requests.get(url, params=params)\n    return response.json()\n\ndef get_image_url(filename, width=1280):\n    # Convert filename to URL\n    import hashlib\n    filename = filename.replace('File:', '').replace(' ', '_')\n    md5 = hashlib.md5(filename.encode()).hexdigest()\n    return f'https://upload.wikimedia.org/wikipedia/commons/thumb/{md5[0]}/{md5[0:2]}/{filename}/{width}px-{filename}'"
+  },
+  "total_categories": 150
+}

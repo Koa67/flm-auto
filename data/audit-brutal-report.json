@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-02-13T08:24:02.213Z",
+  "totalGens": 4268,
+  "safety": {
+    "total": 3653,
+    "verified": 496,
+    "propagated": 2135,
+    "inferred": 1022,
+    "counterExamplesPremium": 0,
+    "counterExamplesMainstream": 2,
+    "bySource": {
+      "jncap": 15,
+      "euroncap": 282,
+      "propagated_from": 1679,
+      "iihs": 10,
+      "nhtsa": 189,
+      "propagated_platform": 456,
+      "inferred:premium_post2018": 66,
+      "inferred:mainstream_post2020": 160,
+      "inferred:premium_post2020_5star": 64,
+      "inferred:mainstream_post2015": 90,
+      "inferred:premium_post2005": 26,
+      "inferred:mainstream_post2010": 65,
+      "inferred:premium_post2012": 30,
+      "inferred:secondary": 6,
+      "inferred:mainstream_pre2010": 150,
+      "inferred:old_known_brand": 248,
+      "inferred:premium_pre2005": 10,
+      "inferred:niche": 28,
+      "inferred:model_sibling_median": 79
+    }
+  },
+  "videos": {
+    "totalRows": 54782,
+    "uniqueIds": 42704,
+    "dupeRatio": 1.28283064818284,
+    "gapLt2": 272,
+    "gap2to5": 107,
+    "gap5to10": 102,
+    "gap10plus": 70,
+    "noGapInfo": 54231,
+    "gensOnlyAbsurd": 24,
+    "gensOnlyFar": 31
+  },
+  "photos": {
+    "total": 287553,
+    "hdPlus": 228375,
+    "hd": 32623,
+    "medium": 15795,
+    "low": 6874,
+    "noRes": 3886
+  },
+  "dims": {
+    "total": 4188,
+    "withHeadroom": 744,
+    "withLegroom": 739,
+    "withTrunk": 1698
+  },
+  "family": {
+    "total": 4096,
+    "fitBySource": {
+      "calculated": 3428,
+      "propagated": 115,
+      "derived_from_dims": 266,
+      "scraped": 90,
+      "propagated_v2": 99,
+      "derived_from_dims_v2": 98
+    },
+    "threeAcrossFromDerived": 55
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "metadata": {
+    "created_at": "2026-01-31T20:15:00Z",
+    "version": "1.0",
+    "sources": [
+      "scraped-dimensions-v4.json",
+      "isofix-data.json",
+      "KBB Best Vehicles",
+      "Cars.com Car Seat Check",
+      "SafelyTravelled",
+      "BabyDrive Australia",
+      "manufacturer specs"
+    ],
+    "description": "Consolidated Family Fit data for FLM AUTO - MVP vehicles"
+  },
+  "vehicles": [
+    {
+      "brand": "BMW",
+      "model": "3-Series",
+      "generation": "G20/G21",
+      "body_types": ["sedan", "wagon"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 955,
+        "legroom": 894,
+        "shoulder_room": 1387,
+        "hip_room": 1350
+      },
+      "three_across": {
+        "fit_score": "tight",
+        "notes": "Possible with narrow car seats, center uses belt only"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "X1",
+      "generation": "U11",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 3,
+        "positions": ["left", "center", "right"],
+        "center_isofix": true,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 998,
+        "legroom": 940,
+        "shoulder_room": 1400,
+        "hip_room": 1380
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "3 ISOFIX points, generous space for compact SUV"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "X3",
+      "generation": "G01",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 1003,
+        "legroom": 927,
+        "shoulder_room": 1432,
+        "hip_room": 1410
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "Wide bench, center belt only"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "X5",
+      "generation": "G05",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 4,
+        "positions": ["left", "right", "third_left", "third_right"],
+        "center_isofix": false,
+        "top_tether_points": 5
+      },
+      "rear_dimensions_mm": {
+        "headroom": 983,
+        "legroom": 950,
+        "shoulder_room": 1476,
+        "hip_room": 1460
+      },
+      "three_across": {
+        "fit_score": "excellent",
+        "notes": "Very wide bench, 7-seater available"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "A3",
+      "generation": "8Y",
+      "body_types": ["sedan", "sportback"],
+      "isofix": {
+        "points": 3,
+        "positions": ["left", "center", "right"],
+        "center_isofix": true,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 930,
+        "legroom": 894,
+        "shoulder_room": 1367,
+        "hip_room": 1340
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "3 ISOFIX despite compact size"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "good"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "A4",
+      "generation": "B9",
+      "body_types": ["sedan", "wagon"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 925,
+        "legroom": 892,
+        "shoulder_room": 1380,
+        "hip_room": 1360
+      },
+      "three_across": {
+        "fit_score": "tight",
+        "notes": "Standard config, center belt only"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "Q5",
+      "generation": "FY",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 3,
+        "positions": ["left", "center", "right"],
+        "center_isofix": true,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 958,
+        "legroom": 965,
+        "shoulder_room": 1435,
+        "hip_room": 1420
+      },
+      "three_across": {
+        "fit_score": "excellent",
+        "notes": "3 ISOFIX points, generous rear legroom"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Audi",
+      "model": "Q7",
+      "generation": "4M",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 6,
+        "positions": ["left", "center", "right", "third_left", "third_center", "third_right"],
+        "center_isofix": true,
+        "top_tether_points": 5
+      },
+      "rear_dimensions_mm": {
+        "headroom": 986,
+        "legroom": 986,
+        "shoulder_room": 1486,
+        "hip_room": 1500
+      },
+      "three_across": {
+        "fit_score": "excellent",
+        "notes": "BEST IN CLASS - 6 ISOFIX points in ALL seats"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Mercedes",
+      "model": "C-Class",
+      "generation": "W206",
+      "body_types": ["sedan", "wagon"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 953,
+        "legroom": 914,
+        "shoulder_room": 1412,
+        "hip_room": 1380
+      },
+      "three_across": {
+        "fit_score": "tight",
+        "notes": "Standard config, center belt only"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "good"
+      }
+    },
+    {
+      "brand": "Mercedes",
+      "model": "GLC",
+      "generation": "X254",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 1008,
+        "legroom": 950,
+        "shoulder_room": 1438,
+        "hip_room": 1420
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "Wide bench, comfortable for 2 child seats"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Mercedes",
+      "model": "GLE",
+      "generation": "V167",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 4,
+        "positions": ["left", "right", "third_left", "third_right"],
+        "center_isofix": false,
+        "top_tether_points": 5
+      },
+      "rear_dimensions_mm": {
+        "headroom": 1026,
+        "legroom": 1039,
+        "shoulder_room": 1481,
+        "hip_room": 1470
+      },
+      "three_across": {
+        "fit_score": "excellent",
+        "notes": "Excellent rear legroom, 7-seater available"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "generation": "AD",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 988,
+        "legroom": 983,
+        "shoulder_room": 1417,
+        "hip_room": 1364
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "Excellent rear legroom for segment"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat",
+      "generation": "B9",
+      "body_types": ["wagon"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 986,
+        "legroom": 992,
+        "shoulder_room": 1448,
+        "hip_room": 1440
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "Excellent rear legroom, wide bench"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq",
+      "generation": "NS7",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 5,
+        "positions": ["front_passenger", "left", "right", "third_left", "third_right"],
+        "center_isofix": false,
+        "top_tether_points": 5
+      },
+      "rear_dimensions_mm": {
+        "headroom": 1015,
+        "legroom": 980,
+        "shoulder_room": 1492,
+        "hip_room": 1480
+      },
+      "three_across": {
+        "fit_score": "excellent",
+        "notes": "5 ISOFIX points, 7-seater, excellent family vehicle"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "generation": "NX",
+      "body_types": ["sedan", "wagon"],
+      "isofix": {
+        "points": 3,
+        "positions": ["front_passenger", "left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 986,
+        "legroom": 990,
+        "shoulder_room": 1504,
+        "hip_room": 1490
+      },
+      "three_across": {
+        "fit_score": "excellent",
+        "notes": "Largest rear legroom in class, wide bench"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Tucson",
+      "generation": "NX4",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 1003,
+        "legroom": 1049,
+        "shoulder_room": 1410,
+        "hip_room": 1384
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "Excellent rear legroom (nearly equal to front)"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Ioniq 5",
+      "generation": "NE",
+      "body_types": ["suv"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 953,
+        "legroom": 1001,
+        "shoulder_room": 1466,
+        "hip_room": 1361
+      },
+      "three_across": {
+        "fit_score": "good",
+        "notes": "Flat floor (EV), excellent rear legroom"
+      },
+      "family_fit_score": {
+        "infant": "excellent",
+        "toddler": "excellent",
+        "booster": "excellent"
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "generation": "Highland",
+      "body_types": ["sedan"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 960,
+        "legroom": 894,
+        "shoulder_room": 1413,
+        "hip_room": 1380
+      },
+      "three_across": {
+        "fit_score": "tight",
+        "notes": "Top tethers on all 3 seats, LATCH in US"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "good"
+      }
+    },
+    {
+      "brand": "Volvo",
+      "model": "V60",
+      "generation": "225",
+      "body_types": ["wagon"],
+      "isofix": {
+        "points": 2,
+        "positions": ["left", "right"],
+        "center_isofix": false,
+        "top_tether_points": 3
+      },
+      "rear_dimensions_mm": {
+        "headroom": 968,
+        "legroom": 894,
+        "shoulder_room": 1400,
+        "hip_room": 1380
+      },
+      "three_across": {
+        "fit_score": "tight",
+        "notes": "Optional integrated booster seats"
+      },
+      "family_fit_score": {
+        "infant": "good",
+        "toddler": "good",
+        "booster": "excellent"
+      }
+    }
+  ],
+  "scoring_thresholds": {
+    "rear_legroom_mm": {
+      "excellent": 950,
+      "good": 900,
+      "tight": 850,
+      "not_recommended": 800
+    },
+    "rear_headroom_mm": {
+      "excellent": 980,
+      "good": 950,
+      "tight": 920,
+      "not_recommended": 890
+    },
+    "hip_room_mm_for_three_across": {
+      "excellent": 1450,
+      "good": 1380,
+      "tight": 1320,
+      "not_recommended": 1260
+    }
+  },
+  "best_for_families": {
+    "overall": ["Audi Q7", "Skoda Kodiaq", "BMW X5"],
+    "three_across": ["Audi Q7", "Audi Q5", "BMW X1", "Skoda Kodiaq"],
+    "best_value": ["Skoda Kodiaq", "Hyundai Tucson", "VW Tiguan"],
+    "best_rear_legroom": ["Hyundai Tucson", "Ioniq 5", "VW Passat Variant", "Mercedes GLE"]
+  }
+}
